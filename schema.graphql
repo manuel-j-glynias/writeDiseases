@@ -594,12 +594,11 @@ type XRef {
 type DODisease  {
     id: ID!
     name: String!
-    jaxId: String!
     definition: String!
     synonyms: [String!]!
     xrefs: [XRef!]!
     subsets: [String!]!
-    parent: DODisease @relation(name: "PARENT", direction: "OUT")
+    parents: [DODisease]! @relation(name: "PARENT", direction: "OUT")
     children: [DODisease]! @relation(name: "PARENT", direction: "IN")
 }
 
@@ -628,6 +627,7 @@ type GODisease {
     definition: String!
     synonyms: [String!]!
     xrefs: [XRef!]!
+    jaxDiseases: [JaxDisease]!
     parents: [GODisease] @relation(name: "PARENT", direction: "OUT")
     children: [GODisease]! @relation(name: "PARENT", direction: "IN")
 }
