@@ -1,0 +1,1272 @@
+{
+    "id": 3247,
+    "name": "rhabdomyosarcoma",
+    "source": "DOID",
+    "definition": "A skeletal muscle cancer that arise from skeletal muscle progenitors. [url:http\\://en.wikipedia.org/wiki/Rhabdomyosarcoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3247",
+    "evidence": [
+        {
+            "id": 444,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited tumor growth in a mouse model of rhabdomyosarcoma expressing mutated FGFR4 (PMID: 24124571).",
+            "molecularProfile": {
+                "id": 633,
+                "profileName": "FGFR4 mutant"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 88,
+                    "pubMedId": 24124571,
+                    "title": "Targeting wild-type and mutationally activated FGFR4 in rhabdomyosarcoma with the inhibitor ponatinib (AP24534).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24124571"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1327,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, rhabdomyosarcoma cells over expressing FGFR4 activating mutations demonstrated increased sensitivity to Iclusig (ponatinib), resulting in decreased tumor cell growth in culture and in cell line xenograft models (PMID: 24124571).",
+            "molecularProfile": {
+                "id": 1220,
+                "profileName": "FGFR4 act mut"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 88,
+                    "pubMedId": 24124571,
+                    "title": "Targeting wild-type and mutationally activated FGFR4 in rhabdomyosarcoma with the inhibitor ponatinib (AP24534).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24124571"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2059,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, rhabdomyosarcoma cells over expressing FGFR4 had increased sensitivity to Iclusig (ponatinib), resulting in decreased cell growth in culture (PMID: 24124571).",
+            "molecularProfile": {
+                "id": 2409,
+                "profileName": "FGFR4 over exp"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 88,
+                    "pubMedId": 24124571,
+                    "title": "Targeting wild-type and mutationally activated FGFR4 in rhabdomyosarcoma with the inhibitor ponatinib (AP24534).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24124571"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2063,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Selumetinib (AZD6244) and AZD8055 worked synergistically to inhibit tumor growth in xenograft models of rhabdomyosarcoma (PMID: 23918606).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2561,
+                "therapyName": "AZD8055 + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2538,
+                    "pubMedId": 23918606,
+                    "title": "Dual blockade of the PI3K/AKT/mTOR (AZD8055) and RAS/MEK/ERK (AZD6244) pathways synergistically inhibits rhabdomyosarcoma cell growth in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23918606"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3942,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BMS-754807 treatment resulted in significant tumor growth delay in 33% (2/6) of cell line xenograft models of rhabdomyosarcoma (PMID: 21298745).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 686,
+                "therapyName": "BMS-754807",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4302,
+                    "pubMedId": 21298745,
+                    "title": "Initial testing (stage 1) of the IGF-1 receptor inhibitor BMS-754807 by the pediatric preclinical testing program.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21298745"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4146,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, a trial arm assessing Sprycel (dasatinib) in rhabdomyosarcoma patients (n=13) was suspended due to lack of drug activity (PMID: 26710211).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4408,
+                    "pubMedId": 26710211,
+                    "title": "SARC009: Phase 2 study of dasatinib in patients with previously treated, high-grade, advanced sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26710211"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5316,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of YM155 and Platinol (cisplatin) inhibited tumor growth in a human rhabdomyosarcoma cell line xenograft model (PMID: 26983495).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3829,
+                "therapyName": "Cisplatin + YM155",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5013,
+                    "pubMedId": 26983495,
+                    "title": "Survivin selective inhibitor YM155 promotes cisplatin\u2011induced apoptosis in embryonal rhabdomyosarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26983495"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5452,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LLL12 inhibited Stat3 signaling and cell proliferation of rhabdomyosarcoma cell lines demonstrating constitutive Stat3 activation in culture (PMID: 21109950).",
+            "molecularProfile": {
+                "id": 20856,
+                "profileName": "STAT3 positive"
+            },
+            "therapy": {
+                "id": 3592,
+                "therapyName": "LLL12",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5065,
+                    "pubMedId": 21109950,
+                    "title": "Two small molecule compounds, LLL12 and FLLL32, exhibit potent inhibitory activity on STAT3 in human rhabdomyosarcoma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21109950"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5455,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FLLL32 inhibited Stat3 signaling and cell proliferation in rhabdomyosarcoma cell lines demonstrating constitutive Stat3 activation in culture (PMID: 21109950).",
+            "molecularProfile": {
+                "id": 20856,
+                "profileName": "STAT3 positive"
+            },
+            "therapy": {
+                "id": 3862,
+                "therapyName": "FLLL32",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5065,
+                    "pubMedId": 21109950,
+                    "title": "Two small molecule compounds, LLL12 and FLLL32, exhibit potent inhibitory activity on STAT3 in human rhabdomyosarcoma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21109950"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7018,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SANT1 inhibited survival of rhabdomyosarcoma cells with elevated GLI2 and SHH mRNA levels in culture (PMID: 26781311).",
+            "molecularProfile": {
+                "id": 24358,
+                "profileName": "GLI2 over exp SHH over exp"
+            },
+            "therapy": {
+                "id": 3990,
+                "therapyName": "SANT1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6046,
+                    "pubMedId": 26781311,
+                    "title": "Targeting hedgehog signaling pathway in pediatric tumors: in vitro evaluation of SMO and GLI inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26781311"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7024,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GANT61 inhibited survival of rhabdomyosarcoma cells with elevated GLI2and SHH mRNA levels in culture (PMID: 26781311).",
+            "molecularProfile": {
+                "id": 24358,
+                "profileName": "GLI2 over exp SHH over exp"
+            },
+            "therapy": {
+                "id": 1786,
+                "therapyName": "GANT61",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6046,
+                    "pubMedId": 26781311,
+                    "title": "Targeting hedgehog signaling pathway in pediatric tumors: in vitro evaluation of SMO and GLI inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26781311"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8324,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JQ1 treatment resulted in cytostatic effects in patient-derived rhabdomyosarcoma cell lines in culture, but inhibited tumor growth in patient-derived xenograft models due to inhibition of tumor angiogenesis (PMID: 26908627).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6610,
+                    "pubMedId": 26908627,
+                    "title": "The Bromodomain BET Inhibitor JQ1 Suppresses Tumor Angiogenesis in Models of Childhood Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26908627"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8392,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, rhabdomyosarcoma cells over expressing FGFR4 N535K demonstrated increased sensitivity to Iclusig (ponatinib), resulting in decreased tumor cell growth in culture and in cell line xenograft models (PMID: 24124571).",
+            "molecularProfile": {
+                "id": 4322,
+                "profileName": "FGFR4 N535K"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 88,
+                    "pubMedId": 24124571,
+                    "title": "Targeting wild-type and mutationally activated FGFR4 in rhabdomyosarcoma with the inhibitor ponatinib (AP24534).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24124571"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8393,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, rhabdomyosarcoma cells over expressing FGFR4 V550E demonstrated increased sensitivity to Iclusig (ponatinib), resulting in decreased tumor cell growth in culture and in cell line xenograft models (PMID: 24124571).",
+            "molecularProfile": {
+                "id": 4323,
+                "profileName": "FGFR4 V550E"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 88,
+                    "pubMedId": 24124571,
+                    "title": "Targeting wild-type and mutationally activated FGFR4 in rhabdomyosarcoma with the inhibitor ponatinib (AP24534).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24124571"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9168,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, sensitivity to Kisqali (ribociclib)-induced growth inhibition in fusion-positive, CDK4 overexpressing rhabdomyosarcoma cell lines reversely correlated with the expression level of Cdk4 in culture and in cell line xenograft models (PMID: 25810375).",
+            "molecularProfile": {
+                "id": 2527,
+                "profileName": "CDK4 positive"
+            },
+            "therapy": {
+                "id": 790,
+                "therapyName": "Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6979,
+                    "pubMedId": 25810375,
+                    "title": "CDK4 Amplification Reduces Sensitivity to CDK4/6 Inhibition in Fusion-Positive Rhabdomyosarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25810375"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9169,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, sensitivity to Ibrance (palbociclib)-induced growth inhibition in fusion-positive, CDK4 over-expresssing rhabdomyosarcoma cell lines reversly correlated with the expression level of Cdk4 in culture (PMID: 25810375).",
+            "molecularProfile": {
+                "id": 2527,
+                "profileName": "CDK4 positive"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6979,
+                    "pubMedId": 25810375,
+                    "title": "CDK4 Amplification Reduces Sensitivity to CDK4/6 Inhibition in Fusion-Positive Rhabdomyosarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25810375"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11181,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Balversa (erdafitinib) inhibited proliferation of a rhabdomyosarcoma cell line with FGFR4 amplification in culture, and inhibited tumor growth in xenograft models (PMID: 28341788).",
+            "molecularProfile": {
+                "id": 3330,
+                "profileName": "FGFR4 amp"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9140,
+                    "pubMedId": 28341788,
+                    "title": "Discovery and Pharmacological Characterization of JNJ-42756493 (Erdafitinib), a Functionally Selective Small-Molecule FGFR Family Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28341788"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11208,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS4464 inhibited growth and induced apoptosis in rhabdomyosarcoma cell lines in culture, resulted in tumor suppression in cell line xenograft models (Cancer Res 2016;76(14 Suppl):Abstract nr 3777).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5897,
+                "therapyName": "TAS4464",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9152,
+                    "pubMedId": null,
+                    "title": "TAS4464, a novel and highly potent NEDD8 activating enzyme (NAE) inhibitor, causes apoptosis of sarcomas via cell cycle dysregulation",
+                    "url": "http://cancerres.aacrjournals.org/content/76/14_Supplement/3777"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11751,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Prexasertib (LY2606368) decreased proliferation of several pediatric tumor cell lines in culture, including rhabdomyosarcoma cell lines (PMID: 28270495).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1651,
+                "therapyName": "Prexasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9764,
+                    "pubMedId": 28270495,
+                    "title": "The Checkpoint Kinase 1 Inhibitor Prexasertib Induces Regression of Preclinical Models of Human Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28270495"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13092,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, rhabdomyosarcoma cell lines with high FGFR4 expression due to a PAX3-FOXO1 fusion demonstrated sensitivity to growth inhibition by H3B-6527 in culture (PMID: 29247039).",
+            "molecularProfile": {
+                "id": 28909,
+                "profileName": "PAX3 - FOXO1 FGFR4 over exp"
+            },
+            "therapy": {
+                "id": 6610,
+                "therapyName": "H3B-6527",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10667,
+                    "pubMedId": 29247039,
+                    "title": "H3B-6527 Is a Potent and Selective Inhibitor of FGFR4 in FGF19-Driven Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29247039"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14132,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Alpelisib (BYL719) and Binimetinib (MEK162) led to a synergistic effect in rhabdomyosarcoma cells harboring NRAS Q61H, demonstrating cell death in culture (PMID: 29437705).",
+            "molecularProfile": {
+                "id": 3374,
+                "profileName": "NRAS Q61H"
+            },
+            "therapy": {
+                "id": 1311,
+                "therapyName": "Alpelisib + Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11474,
+                    "pubMedId": 29437705,
+                    "title": "NRAS-Mutated Rhabdomyosarcoma Cells Are Vulnerable to Mitochondrial Apoptosis Induced by Coinhibition of MEK and PI3K\u03b1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29437705"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20250,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SP-2509 treatment inhibited viability of rhabdomyosarcoma cell lines in culture (PMID: 29997151).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9301,
+                "therapyName": "SP-2509",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17780,
+                    "pubMedId": 29997151,
+                    "title": "Therapeutic Targeting of KDM1A/LSD1 in Ewing Sarcoma with SP-2509 Engages the Endoplasmic Reticulum Stress Response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29997151"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00084695",
+            "title": "Umbilical Cord Blood for Stem Cell Transplantation in Treating Young Patients With Malignant or Nonmalignant Diseases",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2558,
+                    "therapyName": "Busulfan + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01241162",
+            "title": "Decitabine Followed by a Cancer Antigen Vaccine for Patients With Neuroblastoma and Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01446809",
+            "title": "Pazopanib Hydrochloride Followed By Chemotherapy and Surgery in Treating Patients With Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1472,
+                    "therapyName": "Doxorubicin + Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1471,
+                    "therapyName": "Doxorubicin + Ifosfamide + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01518413",
+            "title": "Dose Escalation Study of Sorafenib and Irinotecan Combination Therapy in Pediatric Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1323,
+                    "therapyName": "Irinotecan + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01661400",
+            "title": "Anti-Angiogenic Therapy Post Transplant (ASCR) for Relapsed and Refractory Pediatric Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1475,
+                    "therapyName": "Thalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01871766",
+            "title": "Treatment of Localized Rhabdomyosarcoma With Chemotherapy, Radiotherapy, and Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1119,
+                    "therapyName": "Bevacizumab + Cyclophosphamide + Sorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1436,
+                    "therapyName": "Dactinomycin + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1435,
+                    "therapyName": "Cyclophosphamide + Dactinomycin + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02013336",
+            "title": "Phase 1 Study of MM-398 Plus Cyclophosphamide in Pediatric Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7579,
+                    "therapyName": "Cyclophosphamide + MM-398",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02095132",
+            "title": "Adavosertib and Irinotecan Hydrochloride in Treating Younger Patients With Relapsed or Refractory Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1361,
+                    "therapyName": "Adavosertib + Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02100891",
+            "title": "Phase 2 STIR Trial: Haploidentical Transplant and Donor Natural Killer Cells for Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT02303028",
+            "title": "Phase I Dose Escalation Study of Topotecan and Pazopanib in Children With Recurrent/Refractory Solid and CNS Tumours",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1469,
+                    "therapyName": "Pazopanib + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02304458",
+            "title": "Nivolumab With or Without Ipilimumab in Treating Younger Patients With Recurrent or Refractory Solid Tumors or Sarcomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02372006",
+            "title": "Trial of Afatinib in Pediatric Tumours",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02390752",
+            "title": "PLX3397 in Children and Young Adults With Refractory Leukemias and Refractory Solid Tumors Including Neurofibromatosis Type 1 (NF1) Associated Plexiform Neurofibromas (PN)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 874,
+                    "therapyName": "Pexidartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02446431",
+            "title": "Metronomic Therapy for Pediatric Patients With Solid Tumors at High Risk of Recurrence",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1076,
+                    "therapyName": "Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02567435",
+            "title": "Combination Chemotherapy and Irinotecan Hydrochloride or Temsirolimus in Treating Patients With Intermediate Risk Rhabdomyosarcoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1435,
+                    "therapyName": "Cyclophosphamide + Dactinomycin + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02574728",
+            "title": "Sirolimus in Combination With Metronomic Chemotherapy in Children With Recurrent and/or Refractory Solid and CNS Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3143,
+                    "therapyName": "Celecoxib + Cyclophosphamide + Etoposide + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02644460",
+            "title": "Abemaciclib in Children With DIPG or Recurrent/Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02789228",
+            "title": "Research Study Utilizing Expanded Multi-antigen Specific Lymphocytes for the Treatment of Solid Tumors (REST)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867592",
+            "title": "Cabozantinib-S-Malate in Treating Younger Patients With Recurrent, Refractory, or Newly Diagnosed Sarcomas, Wilms Tumor, or Other Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890758",
+            "title": "Phase I Trial of Universal Donor NK Cell Therapy in Combination With ALT803",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02982941",
+            "title": "Enoblituzumab (MGA271) in Children With B7-H3-expressing Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2863,
+                    "therapyName": "MGA271",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03139331",
+            "title": "PAZIT Study for Children and Young Adults With Relapsed or Refractory Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5635,
+                    "therapyName": "Irinotecan + Pazopanib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03155620",
+            "title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                },
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 961,
+                    "therapyName": "Ensartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03210714",
+            "title": "Erdafitinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With FGFR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213678",
+            "title": "PI3K/mTOR Inhibitor LY3023414 in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With TSC or PI3K/MTOR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213704",
+            "title": "Larotrectinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With NTRK Fusions (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03221400",
+            "title": "PEN-866 in Patients With Advanced Solid Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4842,
+                    "therapyName": "STA-8666",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03233204",
+            "title": "Olaparib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With Defects in DNA Damage Repair Genes (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03245151",
+            "title": "Study of Lenvatinib in Combination With Everolimus in Recurrent and Refractory Pediatric Solid Tumors, Including Central Nervous System Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1713,
+                    "therapyName": "Everolimus + Lenvatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03441360",
+            "title": "Study to Assess Safety and Preliminary Activity of Eribulin Mesylate in Pediatric Subjects With Relapsed/Refractory Rhabdomyosarcoma (RMS), Non-rhabdomyosarcoma Soft Tissue Sarcoma (NRSTS) and Ewing Sarcoma (EWS)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 728,
+                    "therapyName": "Eribulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03458728",
+            "title": "Safety, Tolerability, Efficacy and Pharmacokinetics of Copanlisib in Pediatric Patients",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 995,
+                    "therapyName": "Copanlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03709680",
+            "title": "Study Of Palbociclib Combined With Chemotherapy In Pediatric Patients With Recurrent/Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8371,
+                    "therapyName": "Irinotecan + Palbociclib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04095221",
+            "title": "A Study of the Drugs Prexasertib, Irinotecan, and Temozolomide in People With Desmoplastic Small Round Cell Tumor and Rhabdomyosarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8753,
+                    "therapyName": "Irinotecan + Prexasertib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04299113",
+            "title": "Mocetinostat With Vinorelbine in Children, Adolescents & Young Adults With Refractory and/or Recurrent Rhabdomyosarcoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9465,
+                    "therapyName": "Mocetinostat + Vinorelbine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

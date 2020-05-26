@@ -1,0 +1,2114 @@
+{
+    "id": 6039,
+    "name": "uveal melanoma",
+    "source": "DOID",
+    "definition": "A uveal cancer that has_material_basis_in uvea pigment cells. [url:http\\://cancergenome.nih.gov/cancersselected/UvealMelanoma, url:http\\://en.wikipedia.org/wiki/Uveal_melanoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:6039",
+    "evidence": [
+        {
+            "id": 1045,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Binimetinib (MEK162) and Sotrastaurin (AEB071) synergized to inhibit growth in a human uveal melanoma cancer cell line harboring a GNA11 Q209L mutation in culture and in xenograft models, and demonstrated improved efficacy over either agent alone (PMID: 24141786).",
+            "molecularProfile": {
+                "id": 550,
+                "profileName": "GNA11 Q209L"
+            },
+            "therapy": {
+                "id": 1114,
+                "therapyName": "AEB071 + Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 772,
+                    "pubMedId": 24141786,
+                    "title": "Combined PKC and MEK inhibition in uveal melanoma with GNAQ and GNA11 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24141786"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1266,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Enzastaurin (LY317615) increased cell-cycle arrest and apoptosis and decreased viability of uveal melanoma cell lines harboring GNAQ Q209L in culture (PMID: 22253748).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 1682,
+                "therapyName": "Enzastaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 982,
+                    "pubMedId": 22253748,
+                    "title": "The protein kinase C inhibitor enzastaurin exhibits antitumor activity against uveal melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22253748"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1783,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sotrastaurin (AEB071), in combination with PD-0325901, worked synergisitically to inhibit MAPK pathway activation and proliferation of a uveal melanoma cell line harboring GNAQ Q209L (PMID: 24141786).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 2275,
+                "therapyName": "AEB071 + PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 772,
+                    "pubMedId": 24141786,
+                    "title": "Combined PKC and MEK inhibition in uveal melanoma with GNAQ and GNA11 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24141786"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2693,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uveal melanoma cells with Bap1 loss demonstrated sensitivity to Valproic acid in culture (PMID: 22038994).",
+            "molecularProfile": {
+                "id": 10247,
+                "profileName": "BAP1 loss"
+            },
+            "therapy": {
+                "id": 1076,
+                "therapyName": "Valproic acid",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3410,
+                    "pubMedId": 22038994,
+                    "title": "Histone deacetylase inhibitors induce growth arrest and differentiation in uveal melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22038994"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8234,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment of uveal melanoma cells with Mekinist (trametinib) in culture resulted in resistance, which was mediated by the over expression of HGF and NRG1 (PMID: 25952648).",
+            "molecularProfile": {
+                "id": 26204,
+                "profileName": "HGF over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6584,
+                    "pubMedId": 25952648,
+                    "title": "Paracrine Effect of NRG1 and HGF Drives Resistance to MEK Inhibitors in Metastatic Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25952648"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8236,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, over expression of NRG1 and HGF in uveal melanoma cells treated with Mekinist (trametinib) led to increased Akt activity, which was reduced when additionally treated with MK2206 in culture (PMID: 25952648).",
+            "molecularProfile": {
+                "id": 26204,
+                "profileName": "HGF over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 4653,
+                "therapyName": "MK2206 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6584,
+                    "pubMedId": 25952648,
+                    "title": "Paracrine Effect of NRG1 and HGF Drives Resistance to MEK Inhibitors in Metastatic Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25952648"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8237,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uveal melanoma cells cultured in a condition medium that over expresses HGF and NRG1 resulted in resistance to Mekinist (trametinib) in culture, however, the addition of Tykerb (lapatinib) led to restored sensitivity (PMID: 25952648).",
+            "molecularProfile": {
+                "id": 26204,
+                "profileName": "HGF over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 4668,
+                "therapyName": "Lapatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6584,
+                    "pubMedId": 25952648,
+                    "title": "Paracrine Effect of NRG1 and HGF Drives Resistance to MEK Inhibitors in Metastatic Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25952648"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8238,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uveal melanoma cells cultured in a condition medium that over expresses HGF and NRG1 resulted in resistance to Mekinist (trametinib) in culture, however, the addition of Xalkori (crizotinib) led to restored sensitivity (PMID: 25952648).",
+            "molecularProfile": {
+                "id": 26204,
+                "profileName": "HGF over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 4480,
+                "therapyName": "Crizotinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6584,
+                    "pubMedId": 25952648,
+                    "title": "Paracrine Effect of NRG1 and HGF Drives Resistance to MEK Inhibitors in Metastatic Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25952648"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20476,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Cometriq (Cabometyx, cabozantinib) did not result in an improved progression-free survival at 4 months (32.3% vs 26.7%, P=0.35) and median overall survival (6.4 mo vs 7.3 mo, P=0.58) when compared to treatment with Temodar (temozolomide) or Deticene (dacarbazine) in patients with uveal melanoma (PMID: 31558480; NCT01835145).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17858,
+                    "pubMedId": 31558480,
+                    "title": "Randomized Phase II Trial and Tumor Mutational Spectrum Analysis from Cabozantinib versus Chemotherapy in Metastatic Uveal Melanoma (Alliance A091201).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31558480"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10408,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Cometriq (cabozantinib) treatment resulted in stable disease in 61% (14/23) of patients with metastatic uveal melanoma, with a median progression free survival of 4.8 months and an overall survival of 12.6 months (PMID: 28103611; NCT00940225).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8425,
+                    "pubMedId": 28103611,
+                    "title": "Phase II randomised discontinuation trial of the MET/VEGF receptor inhibitor cabozantinib in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28103611"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10583,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human uveal melanoma cell lines harboring GNAQ Q209L demonstrated sensitivity to Sotrastaurin (AEB071) in culture, and Sotrastaurin (AEB071) decreased tumor growth in uveal melanoma cell line xenograft models harboring GNAQ Q209L (PMID: 24141786).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 621,
+                "therapyName": "AEB071",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 772,
+                    "pubMedId": 24141786,
+                    "title": "Combined PKC and MEK inhibition in uveal melanoma with GNAQ and GNA11 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24141786"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10591,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NAV-2729 inhibited signaling downstream of GNAQ Q209L in melanoma cells in culture, and inhibited initiation and growth of tumors in a uveal melanoma cell line xenograft model harboring GNAQ Q209L (PMID: 27265506).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 5564,
+                "therapyName": "NAV-2729",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8662,
+                    "pubMedId": 27265506,
+                    "title": "ARF6 Is an Actionable Node that Orchestrates Oncogenic GNAQ Signaling in Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27265506"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10595,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sotrastaurin (AEB071) induced cell-cycle arrest and apoptosis, and decreased viability of a uveal melanoma cell line harboring GNAQ Q209P in culture (PMID: 22653968).",
+            "molecularProfile": {
+                "id": 560,
+                "profileName": "GNAQ Q209P"
+            },
+            "therapy": {
+                "id": 621,
+                "therapyName": "AEB071",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8663,
+                    "pubMedId": 22653968,
+                    "title": "Protein kinase C inhibitor AEB071 targets ocular melanoma harboring GNAQ mutations via effects on the PKC/Erk1/2 and PKC/NF-\u03baB pathways.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22653968"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10603,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Enzastaurin (LY317615) increased cell-cycle arrest and apoptosis and decreased viability of a uveal melanoma cell line harboring GNAQ Q209P in culture (PMID: 22253748).",
+            "molecularProfile": {
+                "id": 560,
+                "profileName": "GNAQ Q209P"
+            },
+            "therapy": {
+                "id": 1682,
+                "therapyName": "Enzastaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 982,
+                    "pubMedId": 22253748,
+                    "title": "The protein kinase C inhibitor enzastaurin exhibits antitumor activity against uveal melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22253748"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10622,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-733 inhibited growth of a uveal melanoma cell line harboring GNAQ Q209L in culture (PMID: 22515704).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 932,
+                "therapyName": "TAK-733",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8672,
+                    "pubMedId": 22515704,
+                    "title": "Antitumor effects of the investigational selective MEK inhibitor TAK733 against cutaneous and uveal melanoma cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22515704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10623,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-733 inhibited growth of uveal melanoma cell lines harboring GNAQ Q209P in culture (PMID: 22515704).",
+            "molecularProfile": {
+                "id": 560,
+                "profileName": "GNAQ Q209P"
+            },
+            "therapy": {
+                "id": 932,
+                "therapyName": "TAK-733",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8672,
+                    "pubMedId": 22515704,
+                    "title": "Antitumor effects of the investigational selective MEK inhibitor TAK733 against cutaneous and uveal melanoma cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22515704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10624,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-733 inhibited growth of uveal melanoma cell lines harboring GNA11 Q209L in culture (PMID: 22515704).",
+            "molecularProfile": {
+                "id": 550,
+                "profileName": "GNA11 Q209L"
+            },
+            "therapy": {
+                "id": 932,
+                "therapyName": "TAK-733",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8672,
+                    "pubMedId": 22515704,
+                    "title": "Antitumor effects of the investigational selective MEK inhibitor TAK733 against cutaneous and uveal melanoma cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22515704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10632,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Visudyne (verteporfin) inhibited tumor formation in a uveal melanoma cell line xenograft model harboring GNAQ Q209L (PMID: 27308390).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 3319,
+                "therapyName": "Verteporfin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8675,
+                    "pubMedId": 27308390,
+                    "title": "YAP inhibition blocks uveal melanogenesis driven by GNAQ or GNA11 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27308390"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10640,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uveal melanoma cell lines harboring GNAQ Q209L demonstrated increased sensitivity to growth inhibition by Mekinist (trametinib) in culture, compared to cells with wild-type GNAQ (PMID: 22733540).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8697,
+                    "pubMedId": 22733540,
+                    "title": "Combination small molecule MEK and PI3K inhibition enhances uveal melanoma cell death in a mutant GNAQ- and GNA11-dependent manner.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22733540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10641,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uveal melanoma cell lines harboring GNA11 Q209L demonstrated increased sensitivity to growth inhibition by Mekinist (trametinib) in culture, compared to cells with wild-type GNA11 (PMID: 22733540).",
+            "molecularProfile": {
+                "id": 550,
+                "profileName": "GNA11 Q209L"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8697,
+                    "pubMedId": 22733540,
+                    "title": "Combination small molecule MEK and PI3K inhibition enhances uveal melanoma cell death in a mutant GNAQ- and GNA11-dependent manner.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22733540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10642,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Mekinist (trametinib) and GSK2126458 induced apoptosis in uveal melanoma cell lines harboring GNAQ Q209L in culture (PMID: 22733540).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 3027,
+                "therapyName": "GSK2126458 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8697,
+                    "pubMedId": 22733540,
+                    "title": "Combination small molecule MEK and PI3K inhibition enhances uveal melanoma cell death in a mutant GNAQ- and GNA11-dependent manner.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22733540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10645,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) induced cell-cycle arrest and decreased viability of uveal melanoma cells harboring GNAQ Q209L in culture (PMID: 22550165).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8677,
+                    "pubMedId": 22550165,
+                    "title": "Identification of unique MEK-dependent genes in GNAQ mutant uveal melanoma involved in cell growth, tumor cell invasion, and MEK resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22550165"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10646,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) induced cell-cycle arrest and decreased viability of uveal melanoma cells harboring GNAQ Q209P in culture (PMID: 22550165).",
+            "molecularProfile": {
+                "id": 560,
+                "profileName": "GNAQ Q209P"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8677,
+                    "pubMedId": 22550165,
+                    "title": "Identification of unique MEK-dependent genes in GNAQ mutant uveal melanoma involved in cell growth, tumor cell invasion, and MEK resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22550165"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10647,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with U0126 resulted in reduced cell numbers in uveal melanoma cell lines harboring GNAQ Q209L in culture (PMID: 19078957).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 2427,
+                "therapyName": "U0126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8702,
+                    "pubMedId": 19078957,
+                    "title": "Frequent somatic mutations of GNAQ in uveal melanoma and blue naevi.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19078957"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10691,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Sotrastaurin (AEB071) and CGM097 resulted in tumor regression or stasis in patient-derived xenograft (PDX) models of uveal melanoma harboring GNAQ mutations, and induced apoptosis and inhibited growth of GNAQ-mutant uveal melanoma cell lines in culture (PMID: 27507190).",
+            "molecularProfile": {
+                "id": 25000,
+                "profileName": "GNAQ mutant"
+            },
+            "therapy": {
+                "id": 5587,
+                "therapyName": "AEB071 + CGM097",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8749,
+                    "pubMedId": 27507190,
+                    "title": "Dual inhibition of protein kinase C and p53-MDM2 or PKC and mTORC1 are novel efficient therapeutic approaches for uveal melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27507190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10692,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Sotrastaurin (AEB071) and CGM097 resulted in tumor regression or stasis in patient-derived xenograft (PDX) models of uveal melanoma harboring GNA11 mutations, and induced apoptosis and inhibited growth of GNA11-mutant uveal melanoma cell lines in culture (PMID: 27507190).",
+            "molecularProfile": {
+                "id": 24999,
+                "profileName": "GNA11 mutant"
+            },
+            "therapy": {
+                "id": 5587,
+                "therapyName": "AEB071 + CGM097",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8749,
+                    "pubMedId": 27507190,
+                    "title": "Dual inhibition of protein kinase C and p53-MDM2 or PKC and mTORC1 are novel efficient therapeutic approaches for uveal melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27507190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10693,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Sotrastaurin (AEB071) and Afinitor (everolimus) inhibited tumor growth in patient-derived xenograft (PDX) models of uveal melanoma harboring GNAQ mutations, including tumor regression or stasis, and inhibited growth of GNAQ-mutant uveal melanoma cell lines in culture (PMID: 27507190).",
+            "molecularProfile": {
+                "id": 25000,
+                "profileName": "GNAQ mutant"
+            },
+            "therapy": {
+                "id": 1951,
+                "therapyName": "AEB071 + Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8749,
+                    "pubMedId": 27507190,
+                    "title": "Dual inhibition of protein kinase C and p53-MDM2 or PKC and mTORC1 are novel efficient therapeutic approaches for uveal melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27507190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10694,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Sotrastaurin (AEB071) and Afinitor (everolimus) inhibited tumor growth in patient-derived xenograft (PDX) models of uveal melanoma harboring GNA11 mutations, including tumor regression, and inhibited growth of GNA11-mutant uveal melanoma cell lines in culture (PMID: 27507190).",
+            "molecularProfile": {
+                "id": 24999,
+                "profileName": "GNA11 mutant"
+            },
+            "therapy": {
+                "id": 1951,
+                "therapyName": "AEB071 + Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8749,
+                    "pubMedId": 27507190,
+                    "title": "Dual inhibition of protein kinase C and p53-MDM2 or PKC and mTORC1 are novel efficient therapeutic approaches for uveal melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27507190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10695,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Binimetinib (MEK162) and Sotrastaurin (AEB071) inhibited tumor growth in patient-derived xenograft (PDX) models of uveal melanoma harboring GNAQ mutations, and inhibited growth of GNAQ-mutant uveal melanoma cell lines in culture (PMID: 27507190).",
+            "molecularProfile": {
+                "id": 25000,
+                "profileName": "GNAQ mutant"
+            },
+            "therapy": {
+                "id": 1114,
+                "therapyName": "AEB071 + Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8749,
+                    "pubMedId": 27507190,
+                    "title": "Dual inhibition of protein kinase C and p53-MDM2 or PKC and mTORC1 are novel efficient therapeutic approaches for uveal melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27507190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10696,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Binimetinib (MEK162) and Sotrastaurin (AEB071) inhibited tumor growth in patient-derived xenograft (PDX) models of uveal melanoma harboring GNA11 mutations, and inhibited growth of GNA11-mutant uveal melanoma cell lines in culture (PMID: 27507190).",
+            "molecularProfile": {
+                "id": 24999,
+                "profileName": "GNA11 mutant"
+            },
+            "therapy": {
+                "id": 1114,
+                "therapyName": "AEB071 + Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8749,
+                    "pubMedId": 27507190,
+                    "title": "Dual inhibition of protein kinase C and p53-MDM2 or PKC and mTORC1 are novel efficient therapeutic approaches for uveal melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27507190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11045,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with AU-011 resulted in cell binding and subsequent cell death in uveal melanoma cells in culture (Cancer Res 2014;74(19 Suppl):Abstract nr 1770).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5828,
+                "therapyName": "AU-011",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9036,
+                    "pubMedId": null,
+                    "title": "Abstract 1770: Viral-based nanoparticles: a new therapeutic approach for anticancer therapy",
+                    "url": "http://cancerres.aacrjournals.org/content/74/19_Supplement/1770"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11462,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Varlilumab resulted in stable disease for 11.5 months in a patient with uveal melanoma (PMID: 28463630).",
+            "molecularProfile": {
+                "id": 28056,
+                "profileName": "CD27 positive"
+            },
+            "therapy": {
+                "id": 2525,
+                "therapyName": "Varlilumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9482,
+                    "pubMedId": 28463630,
+                    "title": "Safety and Activity of Varlilumab, a Novel and First-in-Class Agonist Anti-CD27 Antibody, in Patients With Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28463630"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12272,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with S44563 in combination with or after Fotemustine resulted in improved efficacy compared to either agent alone in patient-derived xenograft models of uveal melanoma (PMID: 24454684).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6402,
+                "therapyName": "Fotemustine + S44563",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10233,
+                    "pubMedId": 24454684,
+                    "title": "Targeting Bcl-2/Bcl-XL induces antitumor activity in uveal melanoma patient-derived xenografts.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24454684"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12740,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with AM0010 at the active dose resulted in partial response in 21% (5/24) of evaluable advanced solid tumor patients, including 1 uveal melanoma patient who also demonstrated reduction of gastric metastases (PMID: 27528724; NCT02009449).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2621,
+                "therapyName": "Pegilodecakin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10676,
+                    "pubMedId": 27528724,
+                    "title": "Safety, Antitumor Activity, and Immune Activation of Pegylated Recombinant Human Interleukin-10 (AM0010) in Patients With Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27528724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16746,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Mekinist (trametinib) treatment resulted in stable disease as best response in 50% (8/16) of patients with uveal melanoma (PMID: 22805292; NCT00687622).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 233,
+                    "pubMedId": 22805292,
+                    "title": "Activity of the oral MEK inhibitor trametinib in patients with advanced melanoma: a phase 1 dose-escalation trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22805292"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16748,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Mekinist (trametinib) treatment resulted in stable disease as best response in 50% (3/6) of patients with uveal melanoma harboring GNAQ or GNA11 mutations (PMID: 22805292; NCT00687622).",
+            "molecularProfile": {
+                "id": 24999,
+                "profileName": "GNA11 mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 233,
+                    "pubMedId": 22805292,
+                    "title": "Activity of the oral MEK inhibitor trametinib in patients with advanced melanoma: a phase 1 dose-escalation trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22805292"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16749,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Selumetinib (AZD6244) improved median progression-free survival (15.9 vs 7 weeks, HR=0.46, p<0.001) but not overall survival (11.8 vs 9.1 months, HR=0.66, p=0.09) compared to chemotherapy in patients with uveal melanoma, but also caused high adverse event rate (PMID: 24938562; NCT01143402).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8678,
+                    "pubMedId": 24938562,
+                    "title": "Effect of selumetinib vs chemotherapy on progression-free survival in uveal melanoma: a randomized clinical trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24938562"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16750,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Selumetinib (AZD6244) did not improved overall survival (10.9 vs 9.1 months, p=0.59) compared to chemotherapy in patients with uveal melanoma harboring GNAQ or GNA11 exon 5 mutations (n=83) (PMID: 24938562; NCT01143402).",
+            "molecularProfile": {
+                "id": 24999,
+                "profileName": "GNA11 mutant"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8678,
+                    "pubMedId": 24938562,
+                    "title": "Effect of selumetinib vs chemotherapy on progression-free survival in uveal melanoma: a randomized clinical trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24938562"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16751,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Selumetinib (AZD6244) did not improved overall survival (10.9 vs 9.1 months, p=0.59) compared to chemotherapy in patients with uveal melanoma harboring GNAQ or GNA11 exon 5 mutations (n=83) (PMID: 24938562; NCT01143402).",
+            "molecularProfile": {
+                "id": 31784,
+                "profileName": "GNAQ exon5"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8678,
+                    "pubMedId": 24938562,
+                    "title": "Effect of selumetinib vs chemotherapy on progression-free survival in uveal melanoma: a randomized clinical trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24938562"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16752,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Selumetinib (AZD6244) treatment resulted in partial response in a patient with uveal melanoma harboring GNA11 Q209L (PMID: 24938562; NCT01143402).",
+            "molecularProfile": {
+                "id": 550,
+                "profileName": "GNA11 Q209L"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8678,
+                    "pubMedId": 24938562,
+                    "title": "Effect of selumetinib vs chemotherapy on progression-free survival in uveal melanoma: a randomized clinical trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24938562"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16753,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (SUMIT), Selumetinib (AZD6244) in combination with Deticene (dacarbazine) did not significantly improve progression-free survival (2.8 vs 1.8 months, HR=0.78, p=0.32) or overall survival (HR=0.75, p=0.40) in patients with metastatic uveal melanoma, 94% (73/78) of analyzed patients harbored mutually exclusive GNAQ or GNA11 mutations (PMID: 29528792; NCT01974752).",
+            "molecularProfile": {
+                "id": 25000,
+                "profileName": "GNAQ mutant"
+            },
+            "therapy": {
+                "id": 1432,
+                "therapyName": "Dacarbazine + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14805,
+                    "pubMedId": 29528792,
+                    "title": "Selumetinib in Combination With Dacarbazine in Patients With Metastatic Uveal Melanoma: A Phase III, Multicenter, Randomized Trial (SUMIT).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29528792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16754,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (SUMIT), Selumetinib (AZD6244) in combination with Deticene (dacarbazine) did not significantly improve progression-free survival (2.8 vs 1.8 months, HR=0.78, p=0.32) or overall survival (HR=0.75, p=0.40) in patients with metastatic uveal melanoma, 94% (73/78) of analyzed patients harbored mutually exclusive GNAQ or GNA11 mutations (PMID: 29528792; NCT01974752).",
+            "molecularProfile": {
+                "id": 24999,
+                "profileName": "GNA11 mutant"
+            },
+            "therapy": {
+                "id": 1432,
+                "therapyName": "Dacarbazine + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14805,
+                    "pubMedId": 29528792,
+                    "title": "Selumetinib in Combination With Dacarbazine in Patients With Metastatic Uveal Melanoma: A Phase III, Multicenter, Randomized Trial (SUMIT).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29528792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16755,
+            "approvalStatus": "Clinical Study - Meta-analysis",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a meta-analysis, uveal melanoma patients were not responsive to Yervoy (ipilimumab) therapy (PMID: 28881222).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 779,
+                "therapyName": "Ipilimumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14811,
+                    "pubMedId": 28881222,
+                    "title": "Immune checkpoint blockade for unresectable or metastatic uveal melanoma: A systematic review.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28881222"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16756,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Yervoy (ipilimumab) and Keytruda (pembrolizumab) combination treatment resulted in an objective response rate of 0% (0/9) and a disease control rate of 56% (5/9) in patients with uveal melanoma, with a median overall survival of 18.4 months (PMID: 29988983).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2106,
+                "therapyName": "Ipilimumab + Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14812,
+                    "pubMedId": 29988983,
+                    "title": "Real world experience in low-dose ipilimumab in combination with PD-1 blockade in advanced melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29988983"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16781,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FR900359 inhibited ERK activation and proliferation, and induced cell-cycle arrest and apoptosis in a uveal melanoma cell line harboring GNAQ Q209L in culture (PMID: 30567972).",
+            "molecularProfile": {
+                "id": 561,
+                "profileName": "GNAQ Q209L"
+            },
+            "therapy": {
+                "id": 8196,
+                "therapyName": "FR900359",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14908,
+                    "pubMedId": 30567972,
+                    "title": "Effects of Oncogenic G\u03b1q and G\u03b111 Inhibition by FR900359 in Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30567972"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16782,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FR900359 inhibited ERK activation and proliferation, and induced cell-cycle arrest, apoptosis and differentiation in a uveal melanoma cell line harboring GNAQ Q209P in culture (PMID: 30567972).",
+            "molecularProfile": {
+                "id": 560,
+                "profileName": "GNAQ Q209P"
+            },
+            "therapy": {
+                "id": 8196,
+                "therapyName": "FR900359",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14908,
+                    "pubMedId": 30567972,
+                    "title": "Effects of Oncogenic G\u03b1q and G\u03b111 Inhibition by FR900359 in Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30567972"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16783,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FR900359 inhibited ERK activation and proliferation, and induced cell-cycle arrest and apoptosis in a uveal melanoma cell line harboring GNA11 Q209L in culture (PMID: 30567972).",
+            "molecularProfile": {
+                "id": 550,
+                "profileName": "GNA11 Q209L"
+            },
+            "therapy": {
+                "id": 8196,
+                "therapyName": "FR900359",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14908,
+                    "pubMedId": 30567972,
+                    "title": "Effects of Oncogenic G\u03b1q and G\u03b111 Inhibition by FR900359 in Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30567972"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17376,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, LXS196 demonstrated safety and preliminary efficacy, resulted in partial response in 9% (6/66) and stable disease in 68% (45/66) of patients with metastatic uveal melanoma (AACR Annual Meeting 2019, Abstract CT068).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7006,
+                "therapyName": "LXS196",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15399,
+                    "pubMedId": null,
+                    "title": "A Phase I trial of LXS196, a novel PKC inhibitor for metastatic uveal melanoma",
+                    "url": "https://www.abstractsonline.com/pp8/#!/6812/presentation/9883"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19293,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "EIF1AX mutations are associated with low risk of developing distant metastasis in uveal melanoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 34020,
+                "profileName": "EIF1AX mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19294,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "SF3B1 mutations are associated with medium risk of developing distant metastasis in uveal melanoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 22743,
+                "profileName": "SF3B1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19295,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Germline BAP1 mutations are associated with increased risk of developing uveal melanoma, and BAP1 mutations are associated with high risk of developing distant metastasis (NCCN.org).",
+            "molecularProfile": {
+                "id": 26741,
+                "profileName": "BAP1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19297,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "PRAME mutations are associated with high risk of developing distant metastasis in uveal melanoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 34021,
+                "profileName": "PRAME mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00489944",
+            "title": "Sunitinib, Tamoxifen, and Cisplatin in Treating Patients With High-Risk Ocular Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1963,
+                    "therapyName": "Cisplatin + Sunitinib + Tamoxifen",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01200238",
+            "title": "STA-9090(Ganetespib) in Metastatic Ocular Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 745,
+                    "therapyName": "Ganetespib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01430416",
+            "title": "Safety and Efficacy of AEB071 in Metastatic Uveal Melanoma Patients",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 621,
+                    "therapyName": "AEB071",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01471054",
+            "title": "Dexamethasone Intravitreal Implant for Treatment of Macular Edema After Plaque Radiotherapy of Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1480,
+                    "therapyName": "Dexamethasone intravitreal implant",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01585194",
+            "title": "Phase II Study of Nivolumab in Combination With Ipilimumab for Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01587352",
+            "title": "Vorinostat in Treating Patients With Metastatic Melanoma of the Eye",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1077,
+                    "therapyName": "Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01835145",
+            "title": "Cabozantinib-S-Malate Compared With Temozolomide or Dacarbazine in Treating Patients With Melanoma of the Eye",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1154,
+                    "therapyName": "Dacarbazine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01974752",
+            "title": "Selumetinib (AZD6244: ARRY-142886) (Hyd-Sulfate) in Metastatic Uveal Melanoma (SUMIT)",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1432,
+                    "therapyName": "Dacarbazine + Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01979523",
+            "title": "Trametinib With or Without GSK2141795 in Treating Patients With Metastatic Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2,
+                    "therapyName": "Trametinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1298,
+                    "therapyName": "Trametinib + Uprosertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02068586",
+            "title": "Adjuvant Sunitinib or Valproic Acid in High-Risk Patients With Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1076,
+                    "therapyName": "Valproic acid",
+                    "synonyms": null
+                },
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02223819",
+            "title": "Adjuvant Crizotinib in High-Risk Uveal Melanoma Following Definitive Therapy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 706,
+                    "therapyName": "Crizotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02273219",
+            "title": "Trial of AEB071 in Combination With BYL719 in Patients With Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1861,
+                    "therapyName": "AEB071 + Alpelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02359851",
+            "title": "Pembrolizumab in Treating Patients With Advanced Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02363283",
+            "title": "Glembatumumab Vedotin in Treating Patients With Metastatic or Locally Recurrent Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3597,
+                    "therapyName": "Glembatumumab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02561234",
+            "title": "A Multiple Dose, Dose Escalation Trial of AEB1102 in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 6634,
+                    "therapyName": "Pegzilarginase",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02570308",
+            "title": "A Study of the Intra-Patient Escalation Dosing Regimen With IMCgp100 in Patients With Advanced Uveal Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3847,
+                    "therapyName": "IMCgp100",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02601378",
+            "title": "A Phase I Study of LXS196 in Patients With Metastatic Uveal Melanoma.",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7007,
+                    "therapyName": "HDM201 + LXS196",
+                    "synonyms": null
+                },
+                {
+                    "id": 7006,
+                    "therapyName": "LXS196",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02768766",
+            "title": "Intermittent Selumetinib for Uveal Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02913417",
+            "title": "Yttrium90, Ipilimumab, & Nivolumab for Uveal Melanoma With Liver Metastases",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4769,
+                    "therapyName": "Ipilimumab + Nivolumab + Yttrium-90",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03022565",
+            "title": "Vorinostat in Patients With Class 2 High Risk Uveal Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1077,
+                    "therapyName": "Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03052127",
+            "title": "Phase 1B Study in Subjects With Small to Medium Primary Choroidal Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5828,
+                    "therapyName": "AU-011",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03068624",
+            "title": "Study of Cellular Adoptive Immunotherapy Using Autologous CD8+ Antigen-Specific T Cells and Anti-CTLA4 for Patients With Metastatic Uveal Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5733,
+                    "therapyName": "Aldesleukin + Cyclophosphamide + Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03070392",
+            "title": "Safety and Efficacy of IMCgp100 Versus Investigator Choice in Advanced Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1154,
+                    "therapyName": "Dacarbazine",
+                    "synonyms": null
+                },
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3847,
+                    "therapyName": "IMCgp100",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03207347",
+            "title": "A Trial of Niraparib in BAP1 and Other DNA Double-Strand Break Repair Deficient Neoplasms (UF-STO-ETI-001)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03408587",
+            "title": "CAVATAK and Ipilimumab in Uveal Melanoma Metastatic to the LIver (VLA-024 CLEVER) (CLEVER)",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 6630,
+                    "therapyName": "coxsackievirus A21 + Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03417739",
+            "title": "A Phase II Study of BVD-523 in Metastatic Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03635632",
+            "title": "C7R-GD2.CART Cells for Patients With Relapsed or Refractory Neuroblastoma and Other GD2 Positive Cancers (GAIL-N)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9563,
+                    "therapyName": "C7R-GD2.CART cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03712904",
+            "title": "Stereotactic Body Radiation Therapy and Aflibercept in Treating Patients With Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 624,
+                    "therapyName": "Aflibercept",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03922880",
+            "title": "Study of Immunotherapy Plus ADI-PEG 20 for the Treatment of Advanced Uveal Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8216,
+                    "therapyName": "ADI-PEG 20 + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03947385",
+            "title": "Study of IDE196 in Patients With Solid Tumors Harboring GNAQ/11 Mutations or PRKC Fusions",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7006,
+                    "therapyName": "LXS196",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04109456",
+            "title": "IN10018 Monotherapy and Combination Therapy for Metastatic Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9575,
+                    "therapyName": "BI 853520 + Cobimetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3599,
+                    "therapyName": "BI 853520",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04116320",
+            "title": "Focused Ultrasound Ablation and PD-1 Antibody Blockade in Advanced Solid Tumors (AM-003)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3890,
+                    "therapyName": "unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9652,
+                    "therapyName": "Imiquimod",
+                    "synonyms": null
+                },
+                {
+                    "id": 9651,
+                    "therapyName": "Imiquimod + unspecified PD-1 antibody",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

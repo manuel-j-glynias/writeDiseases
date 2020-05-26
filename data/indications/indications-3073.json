@@ -1,0 +1,286 @@
+{
+    "id": 3073,
+    "name": "brain glioblastoma multiforme",
+    "source": "DOID",
+    "definition": "A brain glioma that has_material_basis_in abnormally proliferating cells derives_from glial cells, has_symptom seizure, headaches, nausea and vomiting, memory loss, changes to personality, mood or concentration; and localized neurological problems. [url:https\\://en.wikipedia.org/wiki/Glioblastoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3073",
+    "evidence": [
+        {
+            "id": 1083,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In two clinical case studies, RIST (rapamycin, irinotecan, sunitinib, temozolomide) resulted in anti-tumor activity in patients with glioblastoma (PMID: 25123598).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1530,
+                "therapyName": "Irinotecan + Sirolimus + Sunitinib + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3073,
+                "name": "brain glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 814,
+                    "pubMedId": 25123598,
+                    "title": "RIST: a potent new combination therapy for glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25123598"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1433,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Inlyta (axitinib) demonstrated efficacy in glioblastoma cells, including those resistant to Bevacizumab (J Clin Oncol (Meeting Abstracts) May 2013 vol. 31 no. 15_suppl 2077).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3073,
+                "name": "brain glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1281,
+                    "pubMedId": null,
+                    "title": "Use of axitinib, a new-generation tyrosine kinase inhibitor, to decrease glioblastoma growth despite primary resistance to the VEGF-antibody bevacizumab.",
+                    "url": "http://meeting.ascopubs.org/cgi/content/abstract/31/15_suppl/2077"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2210,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Adavosertib (MK-1775) inhibited flank tumor growth in a patient-derived xenograft model of glioblastoma multiforme (GBM) with MYC amplification, but had no efficacy in brain GBM xenograft tumors due to limited distribution across the blood-brain barrier (PMID: 25609063).",
+            "molecularProfile": {
+                "id": 1426,
+                "profileName": "MYC amp"
+            },
+            "therapy": {
+                "id": 822,
+                "therapyName": "Adavosertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3073,
+                "name": "brain glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 2769,
+                    "pubMedId": 25609063,
+                    "title": "The Efficacy of the Wee1 Inhibitor MK-1775 Combined with Temozolomide Is Limited by Heterogeneous Distribution across the Blood-Brain Barrier in Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25609063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2269,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Milciclib (PHA-848125AC) resulted in tumor regression in glioma cell line xenograft models with CDKN2A loss (PMID: 23347136).",
+            "molecularProfile": {
+                "id": 1806,
+                "profileName": "CDKN2A loss"
+            },
+            "therapy": {
+                "id": 2654,
+                "therapyName": "Milciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3073,
+                "name": "brain glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2840,
+                    "pubMedId": 23347136,
+                    "title": "Anti-tumour efficacy on glioma models of PHA-848125, a multi-kinase inhibitor able to cross the blood-brain barrier.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23347136"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15221,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, glioblastoma cells overexpressing Rps6ka5 (MSK1) were resistant to the PI3K/mTOR inhibitor, Dactolisib (BEZ235), as indicated by increased cell viability (PMID: 27196759).",
+            "molecularProfile": {
+                "id": 30835,
+                "profileName": "RPS6KA5 over exp"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3073,
+                "name": "brain glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6791,
+                    "pubMedId": 27196759,
+                    "title": "MSK1-Mediated \u03b2-Catenin Phosphorylation Confers Resistance to PI3K/mTOR Inhibitors in Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196759"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15222,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, glioblastoma cells overexpressing Rps6ka5 (MSK1) were resistant to the PI3K/mTOR inhibitor, DS-7423, as indicated by increased cell viability (PMID: 27196759).",
+            "molecularProfile": {
+                "id": 30835,
+                "profileName": "RPS6KA5 over exp"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3073,
+                "name": "brain glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6791,
+                    "pubMedId": 27196759,
+                    "title": "MSK1-Mediated \u03b2-Catenin Phosphorylation Confers Resistance to PI3K/mTOR Inhibitors in Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196759"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01112527",
+            "title": "PF-00299804 in Adult Patients With Relapsed/Recurrent Glioblastoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 714,
+                    "therapyName": "Dacomitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01837862",
+            "title": "A Phase I/II Study of Mebendazole for the Treatment of Pediatric Gliomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2134,
+                    "therapyName": "Carboplatin + Mebendazole + Temozolomide + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2133,
+                    "therapyName": "Bevacizumab + Irinotecan + Mebendazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01891747",
+            "title": "A Phase I/II Study of High-dose L-methylfolate in Combination With Temozolomide and Bevacizumab in Recurrent High Grade Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2115,
+                    "therapyName": "Bevacizumab + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01954576",
+            "title": "NovoTTF Therapy in Treating Patients With Recurrent Glioblastoma Multiforme",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT02052648",
+            "title": "Study of IDO Inhibitor and Temozolomide for Adult Patients With Primary Malignant Brain Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2976,
+                    "therapyName": "Indoximod",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03522298",
+            "title": "Safety, Pharmacokinetics and Efficacy of GDC-0084 in Newly-diagnosed Glioblastoma Multiforme",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2018,
+                    "therapyName": "GDC-0084",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

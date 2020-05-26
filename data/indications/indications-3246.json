@@ -1,0 +1,96 @@
+{
+    "id": 3246,
+    "name": "embryonal rhabdomyosarcoma",
+    "source": "DOID",
+    "definition": "A rhabdomyosarcoma wherein the mesenchymally-derived malignant cells resemble the primitive developing skeletal muscle of the embryo; it occurs most often in the head and neck area or in the genital or urinary organs. [url:http\\://en.wikipedia.org/wiki/Embryonal_rhabdomyosarcoma, url:http\\://www.cancer.gov/cancertopics/pdq/treatment/childrhabdomyosarcoma/Patient/page1]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3246",
+    "evidence": [
+        {
+            "id": 20035,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "MYOD1 mutations aid the diagnosis of embryonal rhabdomyosarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 34797,
+                "profileName": "MYOD1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3246,
+                "name": "embryonal rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02567435",
+            "title": "Combination Chemotherapy and Irinotecan Hydrochloride or Temsirolimus in Treating Patients With Intermediate Risk Rhabdomyosarcoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1435,
+                    "therapyName": "Cyclophosphamide + Dactinomycin + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639546",
+            "title": "Safety and Pharmacokinetics of Cobimetinib in Pediatric and Young Adult Participants With Previously Treated Solid Tumors (iMATRIXcobi)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1004,
+                    "therapyName": "Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03041701",
+            "title": "Insulin-like Growth Factor 1 Receptor (IGF-1R) Antibody AMG479 (Ganitumab) in Combination With the Src Family Kinase (SFK) Inhibitor Dasatinib in People With Embryonal and Alveolar Rhabdomyosarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5287,
+                    "therapyName": "Dasatinib + Ganitumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

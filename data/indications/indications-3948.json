@@ -1,0 +1,187 @@
+{
+    "id": 3948,
+    "name": "adrenocortical carcinoma",
+    "source": "DOID",
+    "definition": "An adrenal cortex cancer that forms in the outer layer of tissue of the adrenal gland and that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:http\\://cancergenome.nih.gov/cancersselected/AdrenocorticalCarcinoma, url:http\\://www.cancer.gov/cancertopics/types/adrenocortical]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3948",
+    "evidence": [
+        {
+            "id": 3992,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, ARQ 087 treatment resulted in stable disease with a tumor reduction of 20% in an adrenocortical carcinoma patient harboring FGFR1 amplification, who remained on study for 3.5 years (PMID: 28972963; NCT01752920).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3948,
+                "name": "adrenocortical carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11278,
+                    "pubMedId": 28972963,
+                    "title": "A Phase 1 study of ARQ 087, an oral pan-FGFR inhibitor in patients with advanced solid tumours.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28972963"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10113,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a preclinical study, decreased expression of AFF3 via shRNA in an adrenocortical carcinoma cell line resulted in increased apoptotic activity, decreased cell proliferation, and a reduction in the rate of colony formation, suggesting AFF3 may serve as a future therapeutic target (PMID: 26214578).",
+            "molecularProfile": {
+                "id": 27258,
+                "profileName": "AFF3 positive"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3948,
+                "name": "adrenocortical carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8031,
+                    "pubMedId": 26214578,
+                    "title": "Combined transcriptome studies identify AFF3 as a mediator of the oncogenic effects of \u03b2-catenin in adrenocortical carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26214578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15159,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial (JAVELIN), Bavencio (avelumab) treatment demonstrated safety and some anti-tumor activity in patients with metastatic adrenocortical carcinoma, resulting in an overall response rate of 6% (3/50, all partial responses), stable disease in 42% (21/50), a median progression-free survival (PFS) of 2.6 months, 6 mo. and 12 mo. PFS rates of 20.9% and 8.7% respectively, a median overall survival (OS) of 10.6 mo, and a 1-year OS of 43.4% (PMID: 30348224; NCT01772004).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3144,
+                "therapyName": "Avelumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3948,
+                "name": "adrenocortical carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12752,
+                    "pubMedId": 30348224,
+                    "title": "Avelumab in patients with previously treated metastatic adrenocortical carcinoma: phase 1b results from the JAVELIN solid tumor trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30348224"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01898715",
+            "title": "Phase 1 Study of ATR-101 in Subjects With Advanced Adrenocortical Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4296,
+                    "therapyName": "ATR-101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02720484",
+            "title": "Nivolumab in Treating Patients With Metastatic Adrenocortical Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02721732",
+            "title": "Study for the Evaluation of Efficacy of Pembrolizumab (MK-3475) in Patients With Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03333616",
+            "title": "Nivolumab Combined With Ipilimumab for Patients With Advanced Rare Genitourinary Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03370718",
+            "title": "Cabozantinib in Unresectable/Metastatic Adrenocortical Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04187404",
+            "title": "A Novel Therapeutic Vaccine (EO2401) in Metastatic Adrenocortical Carcinoma, or Malignant Pheochromocytoma/Paraganglioma (Spencer)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9127,
+                    "therapyName": "EO2401 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

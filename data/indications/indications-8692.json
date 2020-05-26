@@ -1,0 +1,597 @@
+{
+    "id": 8692,
+    "name": "myeloid leukemia",
+    "source": "DOID",
+    "definition": "A leukemia that is located_in myeloid tissue. [url:http\\://en.wikipedia.org/wiki/Myeloid_leukemia]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "8879",
+        "9066",
+        "8910",
+        "8878",
+        "9126"
+    ],
+    "termId": "DOID:8692",
+    "evidence": [
+        {
+            "id": 683,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CSFR1 Y571D conferred sensitivity to Gleevec (imatinib) in myeloid cell lines in culture (PMID: 18971950).",
+            "molecularProfile": {
+                "id": 952,
+                "profileName": "CSF1R Y571D"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 397,
+                    "pubMedId": 18971950,
+                    "title": "Imatinib sensitivity as a consequence of a CSF1R-Y571D mutation and CSF1/CSF1R signaling abnormalities in the cell line GDM1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18971950"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1556,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, c-myb antisense oligonucleotide treatment demonstrated safety and resulted in stable disease in 12/18 patients with myeloid leukemia (PMID: 11713805).",
+            "molecularProfile": {
+                "id": 2678,
+                "profileName": "MYB wild-type"
+            },
+            "therapy": {
+                "id": 1866,
+                "therapyName": "c-myb antisense oligonucleotide G4460",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1515,
+                    "pubMedId": 11713805,
+                    "title": "Technology evaluation: leukemia therapy, University of Pennsylvania.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11713805"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4585,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Jakafi (ruxolitinib) and SGI-1776 combination treatment did not inhibit proliferation of a myeloid cell line harboring BCR-ABL in culture (PMID: 26472029).",
+            "molecularProfile": {
+                "id": 2513,
+                "profileName": "BCR - ABL1"
+            },
+            "therapy": {
+                "id": 3549,
+                "therapyName": "Ruxolitinib + SGI-1776",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4621,
+                    "pubMedId": 26472029,
+                    "title": "The PIM inhibitor AZD1208 synergizes with ruxolitinib to induce apoptosis of ruxolitinib sensitive and resistant JAK2-V617F-driven cells and inhibit colony formation of primary MPN cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26472029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4589,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of Pim1 in MPL W515L-transformed myeloid cell lines induced resistance to growth inhibition by Jakafi (ruxolitinib) (PMID: 26472029).",
+            "molecularProfile": {
+                "id": 18599,
+                "profileName": "MPL W515L PIM1 over exp"
+            },
+            "therapy": {
+                "id": 907,
+                "therapyName": "Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4621,
+                    "pubMedId": 26472029,
+                    "title": "The PIM inhibitor AZD1208 synergizes with ruxolitinib to induce apoptosis of ruxolitinib sensitive and resistant JAK2-V617F-driven cells and inhibit colony formation of primary MPN cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26472029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7413,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed mouse myeloid cells over expressing JAK2 V617F were resistant to Gleevec (imatinib) in culture (PMID: 21224473).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 418,
+                    "pubMedId": 21224473,
+                    "title": "Novel imatinib-sensitive PDGFRA-activating point mutations in hypereosinophilic syndrome induce growth factor independence and leukemia-like disease.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21224473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7414,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed mouse myeloid cells over expressing BCR-ABL1 demonstrated reduced sensitivity to Gleevec (imatinib) in culture (PMID: 21224473).",
+            "molecularProfile": {
+                "id": 2513,
+                "profileName": "BCR - ABL1"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 418,
+                    "pubMedId": 21224473,
+                    "title": "Novel imatinib-sensitive PDGFRA-activating point mutations in hypereosinophilic syndrome induce growth factor independence and leukemia-like disease.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21224473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7415,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed mouse myeloid cells over expressing PDGFRA N659S demonstrated reduced sensitivity to Gleevec (imatinib) in culture (PMID: 21224473).",
+            "molecularProfile": {
+                "id": 24648,
+                "profileName": "PDGFRA N659S"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 418,
+                    "pubMedId": 21224473,
+                    "title": "Novel imatinib-sensitive PDGFRA-activating point mutations in hypereosinophilic syndrome induce growth factor independence and leukemia-like disease.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21224473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7416,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib) inhibited growth of transformed mouse myeloid cells over expressing FIP1L1-PDGFRA in culture and prolonged survival in xenograft models (PMID: 21224473).",
+            "molecularProfile": {
+                "id": 7080,
+                "profileName": "FIP1L1 - PDGFRA"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 418,
+                    "pubMedId": 21224473,
+                    "title": "Novel imatinib-sensitive PDGFRA-activating point mutations in hypereosinophilic syndrome induce growth factor independence and leukemia-like disease.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21224473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7417,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib) inhibited growth of transformed mouse myeloid cells over expressing PDGFRA Y849S in culture (PMID: 21224473).",
+            "molecularProfile": {
+                "id": 24650,
+                "profileName": "PDGFRA Y849S"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 418,
+                    "pubMedId": 21224473,
+                    "title": "Novel imatinib-sensitive PDGFRA-activating point mutations in hypereosinophilic syndrome induce growth factor independence and leukemia-like disease.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21224473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7418,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib) inhibited growth of transformed mouse myeloid cells over expressing PDGFRA R748G in culture and prolonged survival in xenograft models (PMID: 21224473).",
+            "molecularProfile": {
+                "id": 24649,
+                "profileName": "PDGFRA R748G"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 418,
+                    "pubMedId": 21224473,
+                    "title": "Novel imatinib-sensitive PDGFRA-activating point mutations in hypereosinophilic syndrome induce growth factor independence and leukemia-like disease.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21224473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17451,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SHP099 had no effect on Erk1/2 phosphorylation, Bcl-xl expression, Parp cleavage, and growth of myeloid cells expressing PTPN11 E76K in culture (PMID: 29568093).",
+            "molecularProfile": {
+                "id": 9830,
+                "profileName": "PTPN11 E76K"
+            },
+            "therapy": {
+                "id": 4504,
+                "therapyName": "SHP099",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15436,
+                    "pubMedId": 29568093,
+                    "title": "Selective inhibition of leukemia-associated SHP2E69K mutant by the allosteric SHP2 inhibitor SHP099.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29568093"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17452,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SHP099 had no effect on Erk1/2 phosphorylation, Bcl-xl expression, Parp cleavage, and growth of myeloid cells expressing PTPN11 D61Y in culture (PMID: 29568093).",
+            "molecularProfile": {
+                "id": 24129,
+                "profileName": "PTPN11 D61Y"
+            },
+            "therapy": {
+                "id": 4504,
+                "therapyName": "SHP099",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15436,
+                    "pubMedId": 29568093,
+                    "title": "Selective inhibition of leukemia-associated SHP2E69K mutant by the allosteric SHP2 inhibitor SHP099.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29568093"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17453,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SHP099 had no effect on Erk1/2 phosphorylation, Bcl-xl expression, Parp cleavage, and growth of myeloid cells expressing PTPN11 A72V in culture (PMID: 29568093).",
+            "molecularProfile": {
+                "id": 12859,
+                "profileName": "PTPN11 A72V"
+            },
+            "therapy": {
+                "id": 4504,
+                "therapyName": "SHP099",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15436,
+                    "pubMedId": 29568093,
+                    "title": "Selective inhibition of leukemia-associated SHP2E69K mutant by the allosteric SHP2 inhibitor SHP099.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29568093"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17454,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SHP099 inhibited Erk1/2 phosphorylation, Bcl-xl expression, Parp cleavage, and growth of myeloid cells expressing PTPN11 A72V in culture (PMID: 29568093).",
+            "molecularProfile": {
+                "id": 12875,
+                "profileName": "PTPN11 E69K"
+            },
+            "therapy": {
+                "id": 4504,
+                "therapyName": "SHP099",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15436,
+                    "pubMedId": 29568093,
+                    "title": "Selective inhibition of leukemia-associated SHP2E69K mutant by the allosteric SHP2 inhibitor SHP099.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29568093"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17457,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SHP099 had no effect on Erk1/2 phosphorylation, Bcl-xl expression, Parp cleavage, and growth of PTPN11 knock-out myeloid cells in culture (PMID: 29568093).",
+            "molecularProfile": {
+                "id": 26397,
+                "profileName": "PTPN11 dec exp"
+            },
+            "therapy": {
+                "id": 4504,
+                "therapyName": "SHP099",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8692,
+                "name": "myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15436,
+                    "pubMedId": 29568093,
+                    "title": "Selective inhibition of leukemia-associated SHP2E69K mutant by the allosteric SHP2 inhibitor SHP099.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29568093"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02129101",
+            "title": "Azacitidine and Sonidegib in Treating Patients With Myeloid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1428,
+                    "therapyName": "Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03164057",
+            "title": "A Trial of Epigenetic Priming in Patients With Newly Diagnosed Acute Myeloid Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 5153,
+                    "therapyName": "Dexrazoxane",
+                    "synonyms": null
+                },
+                {
+                    "id": 1006,
+                    "therapyName": "Daunorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1022,
+                    "therapyName": "Idarubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2206,
+                    "therapyName": "Asparaginase",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1740,
+                    "therapyName": "Mitoxantrone",
+                    "synonyms": null
+                },
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03214666",
+            "title": "GTB-3550 (CD16/IL-15/CD33) Tri-Specific Killer Engager (TriKE) for High Risk Heme Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9469,
+                    "therapyName": "GTB-3550 TriKE",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04260022",
+            "title": "Study of HQP1351 in Subjects With Refractory Chronic Myeloid Leukemia (HQP1351CU101)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8237,
+                    "therapyName": "HQP1351",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

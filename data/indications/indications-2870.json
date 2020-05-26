@@ -1,0 +1,692 @@
+{
+    "id": 2870,
+    "name": "endometrial adenocarcinoma",
+    "source": "DOID",
+    "definition": "An endometrial carcinoma that derives_from epithelial cells of glandular origin. [url:http\\://en.wikipedia.org/wiki/Adenocarcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5827",
+        "6650"
+    ],
+    "termId": "DOID:2870",
+    "evidence": [
+        {
+            "id": 3314,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with endometrial adenocarcinoma harboring a PIK3CA H1047 mutation demonstrated a partial response when treated with Torisel (temsirolimus) (PMID: 21216929).",
+            "molecularProfile": {
+                "id": 13164,
+                "profileName": "PIK3CA H1047X"
+            },
+            "therapy": {
+                "id": 936,
+                "therapyName": "Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3726,
+                    "pubMedId": 21216929,
+                    "title": "PIK3CA mutations in patients with advanced cancers treated with PI3K/AKT/mTOR axis inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21216929"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7251,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case report, Keytruda (pembrolizumab) treatment resulted in quick clinical improvement and a partial response lasting over 14 months in a patient with endometrial adenocarcinoma that was PD-L1 (CD274)-positive, harbored POLE V411L and R114*, and had high tumor mutational burden (PMID: 27159395).",
+            "molecularProfile": {
+                "id": 31370,
+                "profileName": "CD274 pos POLE R114* POLE V411L TMB high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6260,
+                    "pubMedId": 27159395,
+                    "title": "Immune activation and response to pembrolizumab in POLE-mutant endometrial cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27159395"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8522,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Baicalein selectively induced cell death in an endometrial adenocarcinoma cell line with MSH2 inactivation in culture, and induced apoptosis and tumor shrinkage in MSH2-deficient endometrial adenocarcinoma cell line xenograft models (PMID: 27262172).",
+            "molecularProfile": {
+                "id": 16861,
+                "profileName": "MSH2 inact mut"
+            },
+            "therapy": {
+                "id": 4763,
+                "therapyName": "Baicalein",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6673,
+                    "pubMedId": 27262172,
+                    "title": "A Novel Chemotherapeutic Agent to Treat Tumors with DNA Mismatch Repair Deficiencies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27262172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12824,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PRN1371 inhibited proliferation of endometrial adenocarcinoma cells harboring FGFR2 N549K in culture (PMID: 28978721).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 3583,
+                "therapyName": "PRN1371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10753,
+                    "pubMedId": 28978721,
+                    "title": "The Irreversible Covalent Fibroblast Growth Factor Receptor Inhibitor PRN1371 Exhibits Sustained Inhibition of FGFR after Drug Clearance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978721"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15219,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MATCH) trial, Capivasertib (AZD5363) treatment resulted in partial response in a patient with endometrioid adenocarcinoma harboring AKT1 E17K mutation (PMID: 30429128; NCT02465060).",
+            "molecularProfile": {
+                "id": 643,
+                "profileName": "AKT1 E17K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12850,
+                    "pubMedId": 30429128,
+                    "title": "Capivasertib Active against AKT1-Mutated Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30429128"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16512,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Lynparza (olaparib) treatment resulted in decreased tumor mass and clinical response lasted over 15 months in a patient with endometrioid adenocarcinoma of the endometrium harboring a germline BRCA2 S1982Rfs*22 and a somatic BRCA2 K2547Nfs*4 mutation (PMID: 29937315).",
+            "molecularProfile": {
+                "id": 31659,
+                "profileName": "BRCA2 S1982Rfs*22 BRCA2 K2547Nfs*4"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14605,
+                    "pubMedId": 29937315,
+                    "title": "Durable response in a woman with recurrent low-grade endometrioid endometrial cancer and a germline BRCA2 mutation treated with a PARP inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29937315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20208,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in 1 stable disease and 1 progressive disease in 2 patients with endometrioid adenocarcinoma harboring PIK3CA Q546 mutations, and stable disease in a patient with serous endometrial adenocarcinoma harboring a PIK3CA Q546 mutation (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 34939,
+                "profileName": "PIK3CA Q546X"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20209,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in stable disease in a patient with endometrioid adenocarcinoma harboring PIK3CA M1043I (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 3661,
+                "profileName": "PIK3CA M1043I"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20210,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in progressive disease in a patient with endometrioid adenocarcinoma harboring a PIK3CA H1047 mutation (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 13164,
+                "profileName": "PIK3CA H1047X"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20211,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in progressive disease in a patient with endometrioid adenocarcinoma harboring a PIK3CA E545 mutation, and progressive disease in a patient with serous endometrial adenocarcinoma harboring a PIK3CA E545 mutation (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 13162,
+                "profileName": "PIK3CA E545X"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20220,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in stable disease in 2 patients with serous endometrial adenocarcinoma harboring PIK3CA E542K (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20778,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PTC-028 treatment reduced invasion, induced apoptosis, and inhibited viability of an endometrioid and a dedifferentiated adenocarcinoma cell line overexpressing BMI1 in culture (PMID: 30026381).",
+            "molecularProfile": {
+                "id": 29155,
+                "profileName": "BMI1 over exp"
+            },
+            "therapy": {
+                "id": 7018,
+                "therapyName": "PTC-028",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18039,
+                    "pubMedId": 30026381,
+                    "title": "Inhibition of BMI1, a Therapeutic Approach in Endometrial Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30026381"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00492778",
+            "title": "Radiation Therapy With or Without Cisplatin in Treating Patients With Recurrent Endometrial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01482728",
+            "title": "Bristol-Myers Squibb Dasatinib Src Inhibition in Endometrial Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01877564",
+            "title": "A Randomized Pilot Study to Evaluate the Effects of a Short Course of Metformin Versus No Therapy in the Period Prior to Hysterectomy for Grade 1-2 Adenocarcinoma of the Endometrium in Obese Non-Diabetic Women",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02065687",
+            "title": "Paclitaxel and Carboplatin With or Without Metformin Hydrochloride in Treating Patients With Stage III, IV, or Recurrent Endometrial Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1381,
+                    "therapyName": "Carboplatin + Metformin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02178722",
+            "title": "A Phase 1/2 Study Exploring the Safety, Tolerability, and Efficacy of Pembrolizumab (MK-3475) in Combination With Epacadostat (INCB024360) in Subjects With Selected Cancers (INCB 24360-202 / MK-3475-037 / KEYNOTE-037/ ECHO-202)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4088,
+                    "therapyName": "Epacadostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02187848",
+            "title": "Evaluation of SAR408701 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7225,
+                    "therapyName": "SAR408701",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02208375",
+            "title": "A Phase Ib Study of the Oral PARP Inhibitor Olaparib With the Oral mTORC1/2 Inhibitor AZD2014 or the Oral AKT Inhibitor AZD5363 for Recurrent Endometrial, Triple Negative Breast, and Ovarian, Primary Peritoneal, or Fallopian Tube Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3139,
+                    "therapyName": "Capivasertib + Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3141,
+                    "therapyName": "Olaparib + Vistusertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02335203",
+            "title": "The Effect of Neoadjuvant DMPA on Glandular Cellularity in Women Awaiting Hysterectomy",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 2401,
+                    "therapyName": "Medroxyprogesterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02697591",
+            "title": "An Open-Label, Dose-Escalation, Safety Study of INCAGN01876 in Subjects With Advanced or Metastatic Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4321,
+                    "therapyName": "INCAGN01876",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02923349",
+            "title": "A Phase 1/2, Open-Label, Dose-Escalation, Safety Study of INCAGN01949 in Subjects With Advanced or Metastatic Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5831,
+                    "therapyName": "INCAGN01949",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03018249",
+            "title": "Medroxyprogesterone Acetate With or Without Entinostat Before Surgery in Treating Patients With Endometrioid Endometrial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2401,
+                    "therapyName": "Medroxyprogesterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 5203,
+                    "therapyName": "Entinostat + Medroxyprogesterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03120624",
+            "title": "VSV-hIFNbeta-NIS in Treating Patients With Stage IV or Recurrent Endometrial Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7269,
+                    "therapyName": "VSV-hIFNbeta-NIS",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03345784",
+            "title": "WEE1 Inhibitor AZD1775, External Beam Radiation Therapy, and Cisplatin in Treating Patients With Cervical, Vaginal, or Uterine Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1725,
+                    "therapyName": "Adavosertib + Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03348631",
+            "title": "Tazemetostat in Treating Patients With Recurrent Ovarian, Primary Peritoneal, or Endometrial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03586661",
+            "title": "Niraparib and Copanlisib in Treating Participants With Recurrent Endometrial, Ovarian, Primary Peritoneal, or Fallopian Tube Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7172,
+                    "therapyName": "Copanlisib + Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03660826",
+            "title": "Olaparib and Cediranib Maleate in Treating Patients With Recurrent, Refractory, or Metastatic Endometrial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1971,
+                    "therapyName": "Cediranib + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03694262",
+            "title": "The EndoBARR Trial (Endometrial Bevacizumab, Atezolizumab, Rucaparib) (EndoBARR)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7499,
+                    "therapyName": "Atezolizumab + Bevacizumab + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03832361",
+            "title": "Evaluation of Mirvetuximab Soravtansine (IMGN853) in Women With Folate Receptor-alpha Positive Endometrial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 3232,
+                    "therapyName": "Mirvetuximab Soravtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03914612",
+            "title": "Testing the Addition of the Immunotherapy Drug Pembrolizumab to the Usual Chemotherapy Treatment (Paclitaxel and Carboplatin) in Stage III-IV or Recurrent Endometrial Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2103,
+                    "therapyName": "Carboplatin + Paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04049227",
+            "title": "Abemaciclib and Letrozole in Treating Patients With Endometrial Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2254,
+                    "therapyName": "Abemaciclib + Letrozole",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

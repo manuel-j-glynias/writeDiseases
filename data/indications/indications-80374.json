@@ -1,0 +1,253 @@
+{
+    "id": 80374,
+    "name": "gastroesophageal cancer",
+    "source": "DOID",
+    "definition": "A gastrointestinal system cancer that is located_in the proximal esophagus and the distal stomach. [url:https\\://www.ncbi.nlm.nih.gov/pmc/articles/PMC6042434]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0080374",
+    "evidence": [
+        {
+            "id": 4080,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, AMG 337 treatment resulted in complete response in 10% (1/10), partial response in 40% (4/10), and stable disease in 20% (2/10) of patients with MET amplified gastroesophageal cancer (J Clin Oncol 33, no. 3_suppl (January 20 2015) 1-1; NCT01253707).",
+            "molecularProfile": {
+                "id": 1629,
+                "profileName": "MET amp"
+            },
+            "therapy": {
+                "id": 1064,
+                "therapyName": "AMG 337",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80374,
+                "name": "gastroesophageal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14839,
+                    "pubMedId": null,
+                    "title": "Clinical activity of AMG 337, an oral MET kinase inhibitor, in adult patients (pts) with MET-amplified gastroesophageal junction (GEJ), gastric (G), or esophageal (E) cancer.",
+                    "url": "https://ascopubs.org/doi/abs/10.1200/jco.2015.33.3_suppl.1"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18540,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, Emibetuzumab (LY2875358) and Cyramza (ramucirumab) combination treatment resulted in an objective response rate of 6% (1/16) and a disease control rate of 50% (8/16) in patients with gastroesophageal cancer, with a median progression-free survival of 1.6 months (PMID: 31142504; NCT02082210).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1387,
+                "therapyName": "Emibetuzumab + Ramucirumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80374,
+                "name": "gastroesophageal cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16219,
+                    "pubMedId": 31142504,
+                    "title": "A Phase Ib/II Study of Ramucirumab in Combination with Emibetuzumab in Patients with Advanced Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31142504"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02795156",
+            "title": "Study to Assess the Activity of Molecularly Matched Targeted Therapies in Select Tumor Types Based on Genomic Alterations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03628677",
+            "title": "A Study to Evaluate the Safety and Tolerability of AB154 in Participants With Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8176,
+                    "therapyName": "AB154",
+                    "synonyms": null
+                },
+                {
+                    "id": 8177,
+                    "therapyName": "AB154 + GLS-010",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03694249",
+            "title": "Ifetroban in Treating Patients With Malignant Solid Tumors at High Risk of Metastatic Recurrence",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 9193,
+                    "therapyName": "Ifetroban sodium",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03775850",
+            "title": "A Study of EDP1503 in Patients With Colorectal Cancer, Breast Cancer, and Checkpoint Inhibitor Relapsed Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7300,
+                    "therapyName": "EDP1503",
+                    "synonyms": null
+                },
+                {
+                    "id": 7301,
+                    "therapyName": "EDP1503 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03798626",
+            "title": "Gevokizumab With Standard of Care Anti-cancer Therapies for Metastatic Colorectal, Gastroesophageal, and Renal Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8700,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin + XOMA 052",
+                    "synonyms": null
+                },
+                {
+                    "id": 8702,
+                    "therapyName": "Paclitaxel + Ramucirumab + XOMA 052",
+                    "synonyms": null
+                },
+                {
+                    "id": 8701,
+                    "therapyName": "Bevacizumab + Fluorouracil + Irinotecan + Leucovorin + XOMA 052",
+                    "synonyms": "Bevacizumab + FOLFIRI + XOMA 052"
+                },
+                {
+                    "id": 8703,
+                    "therapyName": "Cabozantinib + XOMA 052",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04020185",
+            "title": "Safety and Efficacy Study of IMSA101 in Refractory Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9540,
+                    "therapyName": "IMSA101 + unspecified PD-L1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9539,
+                    "therapyName": "IMSA101 + unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9538,
+                    "therapyName": "IMSA101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04074343",
+            "title": "TAS-102 and Irinotecan in 2L+ Gastric and Gastroesophageal Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9717,
+                    "therapyName": "Irinotecan + trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04147819",
+            "title": "A First in Human Study of BAY2701439 to Look at Safety, How the Body Absorbs, Distributes and Excretes the Drug, and How Well the Drug Works in Participants With Advanced Cancer Expressing the HER2 Protein",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9606,
+                    "therapyName": "BAY2701439",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04209686",
+            "title": "Paclitaxel, Pembrolizumab and Olaparib in Previously Treated Advanced Gastric Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7701,
+                    "therapyName": "Olaparib + Paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04225117",
+            "title": "A Study to Evaluate Enfortumab Vedotin in Subjects With Previously Treated Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4125,
+                    "therapyName": "Enfortumab vedotin-ejfv",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

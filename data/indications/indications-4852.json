@@ -1,0 +1,281 @@
+{
+    "id": 4852,
+    "name": "pleomorphic xanthoastrocytoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4852",
+    "evidence": [
+        {
+            "id": 14003,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Mekinist (trametinib) and Tafinlar (dabrafenib) combination treatment resulted in clinical benefit that lasted for more than 14 months in a patient with pleomorphic xanthoastrocytoma harboring BRAF V600E (PMID: 29632053).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4852,
+                "name": "pleomorphic xanthoastrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11407,
+                    "pubMedId": 29632053,
+                    "title": "Concurrent BRAF/MEK Inhibitors in BRAF V600-Mutant High-Grade Primary Brain Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29632053"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18028,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Zelboraf (vemurafenib) treatment resulted in a complete intracranial response 2 months after treatment in a patient with anaplastic pleomorphic xanthoastrocytoma harboring BRAF V600E, although the disease progressed 1 month later (PMID: 31386052).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4852,
+                "name": "pleomorphic xanthoastrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15942,
+                    "pubMedId": 31386052,
+                    "title": "Response of metastatic glioma to vemurafenib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31386052"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15904,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial (VE-BASKET), Zelboraf (vemurafenib) treatment of BRAF V600E mutant pleomorphic xanthoastrocytomas resulted in a 42.9% (3/7) objective response rate, a 5.7-month median progression-free survival, and best overall response rates of 14.3% (1/7) for complete response, 28.6% (2/7) for partial response, and 42.9% (3/7) for stable disease (PMID: 30351999; NCT01524978).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4852,
+                "name": "pleomorphic xanthoastrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13949,
+                    "pubMedId": 30351999,
+                    "title": "BRAF Inhibition in BRAFV600-Mutant Gliomas: Results From the VE-BASKET Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30351999"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 21198,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) is included in guidelines as an adjuvant treatment for patients with pleomorphic xanthoastrocytoma harboring BRAF V600E (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4852,
+                "name": "pleomorphic xanthoastrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 21201,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Mekinist (trametinib) is included in guidelines as an adjuvant treatment for patients with pleomorphic xanthoastrocytoma harboring BRAF V600E (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4852,
+                "name": "pleomorphic xanthoastrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 21206,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Cotellic (cobimetinib) is included in guidelines as an adjuvant treatment for patients with pleomorphic xanthoastrocytoma harboring BRAF V600E (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1004,
+                "therapyName": "Cobimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4852,
+                "name": "pleomorphic xanthoastrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01837862",
+            "title": "A Phase I/II Study of Mebendazole for the Treatment of Pediatric Gliomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2134,
+                    "therapyName": "Carboplatin + Mebendazole + Temozolomide + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2133,
+                    "therapyName": "Bevacizumab + Irinotecan + Mebendazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01999270",
+            "title": "Evaluation of FDOPA-PET/MRI in Pediatric Patients With CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2112,
+                    "therapyName": "Bevacizumab + Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03919071",
+            "title": "Dabrafenib Combined With Trametinib After Radiation Therapy in Treating Patients With Newly-Diagnosed High-Grade Glioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03973918",
+            "title": "Study of Binimetinib With Encorafenib in Adults With Recurrent BRAF V600-Mutated HGG (BRAF)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1100,
+                    "therapyName": "Binimetinib + Encorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03975829",
+            "title": "Pediatric Long-Term Follow-up and Rollover Study",
+            "phase": "FDA approved",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04254419",
+            "title": "Intra-tumoral Injection of Natural Killer Cells in High-Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                
+            ]
+        }
+    ]
+}

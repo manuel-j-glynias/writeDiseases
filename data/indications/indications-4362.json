@@ -1,0 +1,2069 @@
+{
+    "id": 4362,
+    "name": "cervical cancer",
+    "source": "DOID",
+    "definition": "A female reproductive organ cancer that is located_in the cervix. [url:http\\://cancergenome.nih.gov/cancersselected/cervicalcancer, url:http\\://en.wikipedia.org/wiki/Cervical_cancer, url:http\\://www.cancer.gov/dictionary?CdrID=444973]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "4361"
+    ],
+    "termId": "DOID:4362",
+    "evidence": [
+        {
+            "id": 2828,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PW12 inhibited proliferation of cervical cancer cells with a PIK3CA E545K mutation (PMID: 22391131).",
+            "molecularProfile": {
+                "id": 2421,
+                "profileName": "PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 2961,
+                "therapyName": "PW12",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3492,
+                    "pubMedId": 22391131,
+                    "title": "High levels of p110\u03b4 PI3K expression in solid tumor cells suppress PTEN activity, generating cellular sensitivity to p110\u03b4 inhibitors through PTEN activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22391131"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3874,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, Erbitux (cetuximab) treatment, in addition to radiochemotherapy, did not result in any complete responses (0/8) and demonstrated a worse disease free survival when compared to radiochemotherapy alone in cervical cancer patients harboring PIK3CA mutations (PMID: 25724520).",
+            "molecularProfile": {
+                "id": 429,
+                "profileName": "PIK3CA mutant"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4251,
+                    "pubMedId": 25724520,
+                    "title": "PIK3CA Pathway Mutations Predictive of Poor Response Following Standard Radiochemotherapy \u00b1 Cetuximab in Cervical Cancer Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25724520"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4200,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mps-BAY2b, in combination with paclitaxel, had increased efficacy in decreasing tumor volume of cervical carcinoma xenografts (PMID: 23933817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3452,
+                "therapyName": "Mps-BAY2b + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4417,
+                    "pubMedId": 23933817,
+                    "title": "Characterization of novel MPS1 inhibitors with preclinical anticancer activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23933817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4357,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R547 inhibited proliferation of cervical carcinoma cell lines harboring Tp53 and Rb1 mutations (PMID: 17121911).",
+            "molecularProfile": {
+                "id": 17821,
+                "profileName": "RB1 mut TP53 mut"
+            },
+            "therapy": {
+                "id": 3497,
+                "therapyName": "R547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4503,
+                    "pubMedId": 17121911,
+                    "title": "In vitro and in vivo activity of R547: a potent and selective cyclin-dependent kinase inhibitor currently in phase I clinical trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17121911"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4767,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, BIND-014 treatment resulted in a complete response in a cervical cancer patient (PMID: 26847057).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3640,
+                "therapyName": "BIND-014",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4716,
+                    "pubMedId": 26847057,
+                    "title": "Phase I Study of PSMA-Targeted Docetaxel-Containing Nanoparticle BIND-014 in Patients with Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26847057"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9746,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-116 increased sensitivity of a cervical cancer cell line to X-ray and carbon ion radiotherapy, and the combination resulted in decreased DNA double-strand break repair and increased cell-cycle arrest in culture, and increased tumor growth delay in xenograft models (PMID: 28062703).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5189,
+                "therapyName": "Radiotherapy + TAS-116",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7523,
+                    "pubMedId": 28062703,
+                    "title": "TAS-116, a Novel Hsp90 Inhibitor, Selectively Enhances Radiosensitivity of Human Cancer Cells to X-rays and Carbon Ion Radiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28062703"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10781,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tozasertib (VX-680) inhibited growth of cervical cancer cell lines in culture, and inhibited tumor growth in cervical cancer cell line xenograft models (PMID: 27082306).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 943,
+                "therapyName": "Tozasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8818,
+                    "pubMedId": 27082306,
+                    "title": "The p38 MAPK inhibitor BIRB796 enhances the antitumor effects of VX680 in cervical cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27082306"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10782,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Tozasertib (VX-680) and BIRB-796 resulted in increased growth inhibition and induction of apoptosis in cervical cancer cell lines in culture, and increased tumor growth inhibition in cervical cancer cell line xenograft models, compared to either agent alone (PMID: 27082306).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5614,
+                "therapyName": "BIRB-796 + Tozasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8818,
+                    "pubMedId": 27082306,
+                    "title": "The p38 MAPK inhibitor BIRB796 enhances the antitumor effects of VX680 in cervical cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27082306"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11270,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ETP-46464 increased the sensitivity of cervical cancer cell lines to ionizing radiation in culture (PMID: 25560806).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5919,
+                "therapyName": "ETP-46464 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9204,
+                    "pubMedId": 25560806,
+                    "title": "Pharmacologic inhibition of ATR and ATM offers clinically important distinctions to enhancing platinum or radiation response in ovarian, endometrial, and cervical cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25560806"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11273,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ETP-46464 increased the sensitivity of cervical cancer cell lines to Platinol (cisplatin) in culture (PMID: 25560806).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5920,
+                "therapyName": "Cisplatin + ETP-46464",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9204,
+                    "pubMedId": 25560806,
+                    "title": "Pharmacologic inhibition of ATR and ATM offers clinically important distinctions to enhancing platinum or radiation response in ovarian, endometrial, and cervical cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25560806"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11278,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VE-821 increased the sensitivity of a cervical cancer cell line to Platinol (cisplatin) in culture (PMID: 25560806).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5922,
+                "therapyName": "Cisplatin + VE-821",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9204,
+                    "pubMedId": 25560806,
+                    "title": "Pharmacologic inhibition of ATR and ATM offers clinically important distinctions to enhancing platinum or radiation response in ovarian, endometrial, and cervical cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25560806"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11434,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with cervical cancer harboring AKT1 E17K demonstrated a partial response when treated with Capivasertib (AZD5363) (PMID: 28489509; NCT01226316).",
+            "molecularProfile": {
+                "id": 643,
+                "profileName": "AKT1 E17K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9361,
+                    "pubMedId": 28489509,
+                    "title": "AKT Inhibition in Solid Tumors With AKT1 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28489509"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11438,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a cervical cancer patient harboring AKT1 E17K, FGFR3 S249C, and an NF1 inactivating mutation demonstrated a durable partial response with Capivasertib (AZD5363) (PMID: 28489509; NCT01226316).",
+            "molecularProfile": {
+                "id": 28034,
+                "profileName": "AKT1 E17K FGFR3 S249C NF1 inact mut"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9361,
+                    "pubMedId": 28489509,
+                    "title": "AKT Inhibition in Solid Tumors With AKT1 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28489509"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11466,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, M7824 saturated peripheral CD274 (PD-L1) and sequestered plasma TGFbeta 1/2/3, resulted in complete response in one and near partial response in another patient with cervical cancer (PMID: 29298798; NCT02517398).",
+            "molecularProfile": {
+                "id": 28058,
+                "profileName": "CD274 pos TGFB1 pos"
+            },
+            "therapy": {
+                "id": 5860,
+                "therapyName": "M7824",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11321,
+                    "pubMedId": 29298798,
+                    "title": "Phase I Trial of M7824 (MSB0011359C), a Bifunctional Fusion Protein Targeting PD-L1 and TGF\u03b2, in Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29298798"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12678,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, BMS-986205 in combination with Opdivo (nivolumab) resulted in an objective response rate of 14% (3/22) and a durable response rate of 64% (14/22) in patients with cervical cancer (PMID: 29167110).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3569,
+                "therapyName": "BMS-986205 + Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10591,
+                    "pubMedId": 29167110,
+                    "title": "Blocking IDO1 Helps Shrink Bladder, Cervical Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29167110"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13180,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in an objective response rate of 20% (1/5), a clinical benefit rate of 60% (3/5), and a median progression-free survival of 20.1 months in patients with cervical cancer harboring ERBB2 (HER2) mutations (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 1216,
+                "profileName": "ERBB2 mutant"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13227,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease with a progression-free survival of 3.5 months in a patient with cervical cancer harboring ERBB2 (HER2) D769N (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 4708,
+                "profileName": "ERBB2 D769N"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13228,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in partial response in 1 patient, stable disease in 1 patient, and progressive disease in 1 patient with cervical cancer harboring ERBB2 (HER2) D769N (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13229,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in progressive disease with a progression-free survival of 0.5 month in a patient with cervical cancer harboring ERBB2 (HER2) S310Y (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3285,
+                "profileName": "ERBB2 S310Y"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13905,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Alpelisib (BYL719) treatment resulted in partial response in 3 patients with cervical cancer harboring PIK3CA mutations (PMID: 29401002; NCT01219699).",
+            "molecularProfile": {
+                "id": 429,
+                "profileName": "PIK3CA mutant"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11345,
+                    "pubMedId": 29401002,
+                    "title": "Phosphatidylinositol 3-Kinase \u03b1-Selective Inhibition With Alpelisib (BYL719) in PIK3CA-Altered Solid Tumors: Results From the First-in-Human Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29401002"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17692,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as second-line therapy for patients with CD274 (PD-L1)-positive cervical cancer (NCCN.org).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14118,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (KEYNOTE-158) that supported FDA approval, treatment with Keytruda (pembrolizumab) resulted in an objective response rate of 16% (13/81) in patients with CD274 (PD-L1)-positive advanced cervical cancer, including 3 with a complete response and 10 with a partial response, requires CPS greater or equal to 1 (J Clin Oncol 36, 2018 (suppl; abstr 5522); NCT02628067).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11469,
+                    "pubMedId": null,
+                    "title": "Pembrolizumab treatment of advanced cervical cancer: Updated results from the phase 2 KEYNOTE-158 study.",
+                    "url": "http://abstracts.asco.org/214/AbstView_214_218839.html"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15508,
+                    "pubMedId": null,
+                    "title": "Keytruda (pembrolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14197,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Tisotumab vedotin treatment resulted in partial response in a patient with cervical cancer (Journal of Clinical Oncology 33, no. 15_suppl (May 20 2015) 2570-2570; NCT02001623).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6113,
+                "therapyName": "Tisotumab Vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11505,
+                    "pubMedId": null,
+                    "title": "A phase I, first-in-human study to evaluate the tolerability, pharmacokinetics and preliminary efficacy of HuMax-tissue factor-ADC (TF-ADC) in patients with solid tumors.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/jco.2015.33.15_suppl.2570"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15235,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SC13, in combination with Taxol (paclitaxel), enhanced sensitivity of cervical cancer cell lines and xenografts, overexpressing Fen1, as demonstrated by increased apoptosis and decreased tumor volume (PMID: 29358095).",
+            "molecularProfile": {
+                "id": 30880,
+                "profileName": "FEN1 over exp"
+            },
+            "therapy": {
+                "id": 7519,
+                "therapyName": "Paclitaxel + SC13",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12954,
+                    "pubMedId": 29358095,
+                    "title": "Synergistic antitumor effect of combined paclitaxel with FEN1 inhibitor in cervical cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29358095"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15436,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cisplatin treatment of cervical cancer cell lines and xenografts overexpressing Ccni resulted in resistance, as demonstrated by increased cell survival and tumor growth (PMID: 26698249).",
+            "molecularProfile": {
+                "id": 31065,
+                "profileName": "CCNI over exp"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13311,
+                    "pubMedId": 26698249,
+                    "title": "Cyclin I promotes cisplatin resistance via Cdk5 activation in cervical cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26698249"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16901,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cisplatin treatment of HeLa cells expressing Bard1 A460T were more sensitive than wild-type Bard1 expressing cells, as demonstrated by decreased colony formation (PMID: 30925164).",
+            "molecularProfile": {
+                "id": 32167,
+                "profileName": "BARD1 A460T"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15023,
+                    "pubMedId": 30925164,
+                    "title": "Functional analysis of BARD1 missense variants in homology-directed repair and damage sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30925164"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16902,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cisplatin treatment of HeLa cells expressing Bard1 P707S were more sensitive than wild-type Bard1 expressing cells, as demonstrated by decreased colony formation (PMID: 30925164).",
+            "molecularProfile": {
+                "id": 13906,
+                "profileName": "BARD1 P707S"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15023,
+                    "pubMedId": 30925164,
+                    "title": "Functional analysis of BARD1 missense variants in homology-directed repair and damage sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30925164"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16903,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cisplatin treatment of HeLa cells expressing Bard1 G753D were more sensitive than wild-type Bard1 expressing cells, as demonstrated by decreased colony formation (PMID: 30925164).",
+            "molecularProfile": {
+                "id": 32205,
+                "profileName": "BARD1 G753D"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15023,
+                    "pubMedId": 30925164,
+                    "title": "Functional analysis of BARD1 missense variants in homology-directed repair and damage sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30925164"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16904,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cisplatin treatment of HeLa cells expressing Bard1 P707S were more sensitive than wild-type Bard1 expressing cells, as demonstrated by decreased colony formation (PMID: 30925164).",
+            "molecularProfile": {
+                "id": 32221,
+                "profileName": "BARD1 V767fs"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15023,
+                    "pubMedId": 30925164,
+                    "title": "Functional analysis of BARD1 missense variants in homology-directed repair and damage sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30925164"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17691,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a second-line therapy for cervical cancer patients with high microsatellite instability, MSI-H (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19243,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AsiDNA inhibited survival of cervical cancer cell lines in culture (PMID: 27559053).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8967,
+                "therapyName": "AsiDNA",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16843,
+                    "pubMedId": 27559053,
+                    "title": "Drug-Driven Synthetic Lethality: Bypassing Tumor Cell Genetics with a Combination of AsiDNA and PARP Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27559053"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19244,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AsiDNA treatment led to increased sensitivity to Lynparza (olaparib), resulting in decreased survival in a cervical cancer cell line in culture (PMID: 27559053).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8968,
+                "therapyName": "AsiDNA + Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16843,
+                    "pubMedId": 27559053,
+                    "title": "Drug-Driven Synthetic Lethality: Bypassing Tumor Cell Genetics with a Combination of AsiDNA and PARP Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27559053"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19321,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MRTX849 inhibited viability of a cervical cancer cell line harboring KRAS G12C in culture, and induced tumor regression in cell line xenograft models (PMID: 31658955).",
+            "molecularProfile": {
+                "id": 1042,
+                "profileName": "KRAS G12C"
+            },
+            "therapy": {
+                "id": 7769,
+                "therapyName": "MRTX849",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16927,
+                    "pubMedId": 31658955,
+                    "title": "The KRASG12C Inhibitor MRTX849 Provides Insight toward Therapeutic Susceptibility of KRAS-Mutant Cancers in Mouse Models and Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31658955"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20075,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as second-line therapy for patients with recurrent or metastatic cervical cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20076,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as second-line therapy for patients with recurrent or metastatic cervical cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20077,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as second-line therapy for patients with recurrent or metastatic cervical cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20078,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as second-line therapy for patients with recurrent or metastatic cervical cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20079,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as second-line therapy for patients with recurrent or metastatic cervical cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20080,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as second-line therapy for patients with recurrent or metastatic cervical cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00292955",
+            "title": "Cetuximab, Cisplatin, and Radiotherapy in Women With Locally Advanced Cervical Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00980954",
+            "title": "Chemotherapy and Pelvic Radiation Therapy With or Without Additional Chemotherapy in Treating Patients With High-Risk Early-Stage Cervical Cancer After Radical Hysterectomy",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01711515",
+            "title": "Chemoradiation Therapy and Ipilimumab in Treating Patients With Locally Advanced Cervical Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01958112",
+            "title": "GSK1120212+GSK2141795 for Cervical Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1298,
+                    "therapyName": "Trametinib + Uprosertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01966445",
+            "title": "Dose Escalation Study to Investigate the Safety, Pharmacokinetics, and Pharmacodynamics of GSK2849330 in Subjects With Advanced Her3-Positive Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2919,
+                    "therapyName": "GSK2849330",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01968109",
+            "title": "Safety Study of Anti-LAG-3 With and Without Anti-PD-1 in the Treatment of Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4197,
+                    "therapyName": "Nivolumab + Relatlimab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4196,
+                    "therapyName": "Relatlimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02100007",
+            "title": "ME-344 Given in Combination With Hycamtin in Patients With Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2174,
+                    "therapyName": "ME-344 + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02312804",
+            "title": "Ph Ib/BGJ398/Cervix and Other Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 674,
+                    "therapyName": "BGJ398",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02405221",
+            "title": "Safety and Feasibility of TA-CIN Vaccine in HPV16 Associated Cervical Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9747,
+                    "therapyName": "TA-CIN",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02426892",
+            "title": "Nivolumab and HPV-16 Vaccination in Patients With HPV-16 Positive Incurable Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02433626",
+            "title": "Study of COTI-2 as Monotherapy or Combination Therapy for the Treatment of Malignancies (COTI2-101)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6962,
+                    "therapyName": "COTI-2",
+                    "synonyms": null
+                },
+                {
+                    "id": 8277,
+                    "therapyName": "Cisplatin + COTI-2",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02479178",
+            "title": "A Study of BIND-014 in Patients With Urothelial Carcinoma, Cholangiocarcinoma, Cervical Cancer and Squamous Cell Carcinoma of the Head and Neck (iNSITE2)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3640,
+                    "therapyName": "BIND-014",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02487095",
+            "title": "Trial of Topotecan With VX-970, an ATR Kinase Inhibitor, in Small Cell Lung Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2879,
+                    "therapyName": "VX-970",
+                    "synonyms": null
+                },
+                {
+                    "id": 942,
+                    "therapyName": "Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02488759",
+            "title": "A Study to Investigate the Safety and Efficacy of Nivolumab in Virus-associated Tumors (CheckMate358)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02540291",
+            "title": "Study of E7046 in Subjects With Selected Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5694,
+                    "therapyName": "E7046",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02584478",
+            "title": "Phase 1/2a Evaluation of Adding AL3818 to Standard Platinum-Based Chemotherapy in Subjects With Recurrent or Metastatic Endometrial, Ovarian, Fallopian, Primary Peritoneal or Cervical Carcinoma (AL3818-US-002)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7370,
+                    "therapyName": "Anlotinib + Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02631733",
+            "title": "Liposomal Irinotecan and Veliparib in Treating Patients With Solid Tumors That Are Metastatic or Cannot Be Removed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 3314,
+                    "therapyName": "Irinotecan + Veliparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02635360",
+            "title": "Pembrolizumab and Chemoradiation Treatment for Advanced Cervical Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02661815",
+            "title": "A Phase 1b Study of Weekly Paclitaxel And Oral Ricolinostat For The Treatment Of Recurrent Platinum Resistant Ovarian, Primary Peritoneal, Or Fallopian Tube Cancer",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3469,
+                    "therapyName": "Paclitaxel + Ricolinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02671955",
+            "title": "A Study of Safety, Pharmacokinetics, Pharmacodynamics of JNJ-61610588 in Participants With Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3614,
+                    "therapyName": "JNJ-61610588",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02812056",
+            "title": "Alisertib and TAK-228 in Participants With Human Papilloma Virus (HPV) Associated Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4214,
+                    "therapyName": "Alisertib + Sapanisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02865135",
+            "title": "Trial To Test Safety And Efficacy Of Vaccination For Incurable HPV 16-Related Oropharyngeal, Cervical And Anal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7311,
+                    "therapyName": "Cyclophosphamide + DPX-E7",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02963831",
+            "title": "A Phase 1/2 Study to Investigate the Safety, Biologic and Anti-tumor Activity of ONCOS-102 in Combination With Durvalumab in Subjects With Advanced Peritoneal Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4978,
+                    "therapyName": "Durvalumab + ONCOS-102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03023319",
+            "title": "Bosutinib in Combination With Pemetrexed in Patients With Selected Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5237,
+                    "therapyName": "Bosutinib + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074513",
+            "title": "Atezolizumab and Bevacizumab in Rare Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03104699",
+            "title": "Phase 1 / 2 Study of AGEN2034 in Advanced Tumors and Cervical Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5693,
+                    "therapyName": "AGEN2034",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03188965",
+            "title": "First-in-human Study of ATR Inhibitor BAY1895344 in Patients With Advanced Solid Tumors and Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5962,
+                    "therapyName": "BAY1895344",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03257267",
+            "title": "Study of REGN2810 in Adults With Cervical Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1685,
+                    "therapyName": "Vinorelbine",
+                    "synonyms": null
+                },
+                {
+                    "id": 854,
+                    "therapyName": "Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                },
+                {
+                    "id": 942,
+                    "therapyName": "Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03289962",
+            "title": "A Study of RO7198457 (Personalized Cancer Vaccine [PCV]) as a Single Agent and in Combination With Atezolizumab in Participants With Locally Advanced or Metastatic Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6234,
+                    "therapyName": "RO7198457",
+                    "synonyms": null
+                },
+                {
+                    "id": 6235,
+                    "therapyName": "Atezolizumab + RO7198457",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03416335",
+            "title": "A Study of DSP-0509 in Patients With Advanced Solid Tumors to Determine the Safety and the Pharmacokinetic Profile",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8822,
+                    "therapyName": "DSP-0509",
+                    "synonyms": null
+                },
+                {
+                    "id": 8823,
+                    "therapyName": "DSP-0509 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03427411",
+            "title": "Phase II Trial of M7824 in Subjects With HPV Positive Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5860,
+                    "therapyName": "M7824",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03439085",
+            "title": "Vaccine + Durvalumab in Human Papilloma Virus (HPV) Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5791,
+                    "therapyName": "Durvalumab + MEDI0457",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03452332",
+            "title": "Stereotactic Ablative Radiotherapy (SABR) in Combination With Durvalumab and Tremelimumab in Patients With Cervical, Vaginal, or Vulvar Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03454451",
+            "title": "CPI-006 Alone and in Combination With CPI-444 and With Pembrolizumab for Patients With Advanced Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6755,
+                    "therapyName": "CPI-006",
+                    "synonyms": null
+                },
+                {
+                    "id": 6757,
+                    "therapyName": "CPI-006 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6756,
+                    "therapyName": "CPI-006 + CPI-444",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03508570",
+            "title": "Nivolumab With or Without Ipilimumab in Treating Participants With Recurrent or High Grade Gynecologic Cancer With Metastatic Peritoneal Carcinomatosis",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03517488",
+            "title": "A Study of XmAb20717 in Subjects With Selected Advanced Solid Tumors (DUET-2)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6973,
+                    "therapyName": "XmAb20717",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03527264",
+            "title": "BrUOG 355: Nivolumab to Tailored Radiation Therapy With Concomitant Cisplatin in the Treatment of Patients With Cervical Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4760,
+                    "therapyName": "Cisplatin + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03538028",
+            "title": "A Safety and Tolerability Study of INCAGN02385 in Select Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6977,
+                    "therapyName": "INCAGN02385",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03596372",
+            "title": "Study of BAY1834942 in Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7305,
+                    "therapyName": "BAY1834942",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03614949",
+            "title": "SBRT and Atezolizumab in the Management of Recurrent, Persistent, or Metastatic Cervical Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03618953",
+            "title": "This is a Trial of MG1-E6E7 With Ad-E6E7 and Atezolizumab in Patients With HPV Associated Cancers (Kingfisher)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7295,
+                    "therapyName": "Ad-E6E7 + Atezolizumab + MG1-E6E7",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03666273",
+            "title": "A First-in-human Study of ILDR2 (Immunoglobulin-like Domain Containing Receptor 2) Function-blocking Antibody BAY1905254",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8761,
+                    "therapyName": "BAY1905254",
+                    "synonyms": null
+                },
+                {
+                    "id": 8762,
+                    "therapyName": "BAY1905254 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03674567",
+            "title": "Dose Escalation and Expansion Study of FLX475 Monotherapy and in Combination With Pembrolizumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7533,
+                    "therapyName": "FLX475 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7530,
+                    "therapyName": "FLX475",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03816345",
+            "title": "Nivolumab in Treating Patients With Autoimmune Disorders or Advanced, Metastatic, or Unresectable Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03829501",
+            "title": "Safety and Efficacy of KY1044 and Atezolizumab in Advanced Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7826,
+                    "therapyName": "Atezolizumab + KY1044",
+                    "synonyms": null
+                },
+                {
+                    "id": 7825,
+                    "therapyName": "KY1044",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03936959",
+            "title": "A Study of LY3434172, a PD-1 and PD-L1 Bispecific Antibody, in Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 9537,
+                    "therapyName": "LY3434172",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03968406",
+            "title": "Talazoparib and Radiation Therapy in Treating Patients With Locally Recurrent Gynecologic Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 682,
+                    "therapyName": "Talazoparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04068753",
+            "title": "Niraparib in Combination With TSR-042 in Patients With Recurrent or Progressive Cervix Cancer (STAR)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6321,
+                    "therapyName": "Niraparib + TSR-042",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04096638",
+            "title": "Evaluating Safety and Efficacy of SB 11285 Alone and in Combination With Nivolumab in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8759,
+                    "therapyName": "Nivolumab + SB 11285",
+                    "synonyms": null
+                },
+                {
+                    "id": 8758,
+                    "therapyName": "SB 11285",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04122625",
+            "title": "Study to Assess Safety and Efficacy of the Second Mitochondrial-derived Activator of Caspases (SMAC) Mimetic Debio 1143 (SMARTPLUS-106)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9181,
+                    "therapyName": "Debio 1143 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04250597",
+            "title": "Study of GNX102 in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9331,
+                    "therapyName": "GNX102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04259450",
+            "title": "Study to Assess AFM24 in Advanced Solid Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5856,
+                    "therapyName": "AFM24",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04260802",
+            "title": "A Study to Evaluate the Safety and Pharmacokinetics of OC-001 in Patients With Locally Advanced or Metastatic Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9335,
+                    "therapyName": "OC-001 + unspecified PD-L1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9334,
+                    "therapyName": "OC-001 + unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9333,
+                    "therapyName": "OC-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04287868",
+            "title": "Combination Immunotherapy in Subjects With Advanced HPV Associated Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9432,
+                    "therapyName": "M7824 + NHS-IL12 + PDS0101",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

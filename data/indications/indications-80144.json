@@ -1,0 +1,184 @@
+{
+    "id": 80144,
+    "name": "childhood acute lymphocytic leukemia",
+    "source": "DOID",
+    "definition": "An acute lymphocytic leukemia occuring during childhood. [url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=16.04d&ns=NCI_Thesaurus&code=C3168&key=736438179&b=1&n=null]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0080144",
+    "evidence": [
+        {
+            "id": 21153,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a pediatric patient with acute lymphoblastic leukemia harboring AGGF1-PDGFRB was sensitive to Gleevec (imatinib) treatment, demonstrating a fast leukemia clearance and a decrease in blast percentage from 51% to 3% within 8 weeks (PMID: 29434033).",
+            "molecularProfile": {
+                "id": 35561,
+                "profileName": "AGGF1 - PDGFRB"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80144,
+                "name": "childhood acute lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18429,
+                    "pubMedId": 29434033,
+                    "title": "PDGFRB mutation and tyrosine kinase inhibitor resistance in Ph-like acute lymphoblastic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29434033"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21154,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a pediatric patient harboring AGGF1-PDGFRB who initially responded to treatment with Gleevec (imatinib) experienced relapse and subsequent testing revealed PDGFRB C843G (PMID: 29434033).",
+            "molecularProfile": {
+                "id": 35564,
+                "profileName": "AGGF1 - PDGFRB PDGFRB C843G"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80144,
+                "name": "childhood acute lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18429,
+                    "pubMedId": 29434033,
+                    "title": "PDGFRB mutation and tyrosine kinase inhibitor resistance in Ph-like acute lymphoblastic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29434033"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02879643",
+            "title": "Vincristine Sulfate Liposome Injection (Marqibo) in Combination With UK ALL R3 Induction Chemotherapy for Children, Adolescents, and Young Adults With Relapsed ALL",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8063,
+                    "therapyName": "Dexamethasone + Methotrexate + Pegaspargase + Vincristine sulfate liposome",
+                    "synonyms": null
+                },
+                {
+                    "id": 8064,
+                    "therapyName": "Dexamethasone + Mercaptopurine + Methotrexate + Vincristine sulfate liposome",
+                    "synonyms": null
+                },
+                {
+                    "id": 8062,
+                    "therapyName": "Dexamethasone + Methotrexate + Mitoxantrone + Pegaspargase + Vincristine sulfate liposome",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03860844",
+            "title": "Isatuximab in Combination With Chemotherapy in Pediatric Patients With Relapsed/Refractory Acute Lymphoblastic Leukemia or Acute Myeloid Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1022,
+                    "therapyName": "Idarubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 6331,
+                    "therapyName": "Isatuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1007,
+                    "therapyName": "Daunoxome",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 1006,
+                    "therapyName": "Daunorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1740,
+                    "therapyName": "Mitoxantrone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1638,
+                    "therapyName": "Pegaspargase",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

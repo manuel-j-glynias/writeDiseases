@@ -1,0 +1,135 @@
+{
+    "id": 1800,
+    "name": "neuroendocrine carcinoma",
+    "source": "DOID",
+    "definition": "A carcinoma that derives_from neuroendocrine cells. [url:https\\://www.mayoclinic.org/diseases-conditions/neuroendocrine-tumors/symptoms-causes/syc-20354132]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:1800",
+    "evidence": [
+        {
+            "id": 9876,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, treatment with DS-6051b was well-tolerated in patients with advanced solid tumors, and resulted in partial responses in two patients, including a patient with neuroendocrine carcinoma (Cancer Res July 15 2016 (76) (14 Supplement) CT024).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4343,
+                "therapyName": "DS6051b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1800,
+                "name": "neuroendocrine carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7729,
+                    "pubMedId": null,
+                    "title": "Abstract CT024: First-in-human phase 1 dose-escalation study of DS-6051b, an oral ROS1 and NTRK inhibitor, in subjects with advanced solid tumors",
+                    "url": "http://cancerres.aacrjournals.org/content/76/14_Supplement/CT024.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03136055",
+            "title": "Pembrolizumab-based Therapy in Previously Treated High Grade Neuroendocrine Carcinomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5643,
+                    "therapyName": "Irinotecan + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4021,
+                    "therapyName": "Paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03190213",
+            "title": "Pembrolizumab for the Treatment of Recurrent High Grade Neuroendocrine Carcinoma (Pembro NEC)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03290079",
+            "title": "Pembrolizumab in Advanced Poorly Differentiated and/or High Grade Neuroendocrine Tumors/Carcinomas",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03728361",
+            "title": "Nivolumab and Temozolomide in Treating Patients With Recurrent or Refractory Small-Cell Lung Cancer or Advanced Neuroendocrine Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3724,
+                    "therapyName": "Nivolumab + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04042714",
+            "title": "TAS-102 in Extrapulmonary Neuroendocrine Carcinoma (TAS-102 NEC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2426,
+                    "therapyName": "trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04079712",
+            "title": "Testing the Combination of XL184 (Cabozantinib), Nivolumab, and Ipilimumab for Poorly Differentiated Neuroendocrine Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2068,
+                    "therapyName": "Cabozantinib + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4839 @@
+{
+    "id": 4074,
+    "name": "pancreatic adenocarcinoma",
+    "source": "DOID",
+    "definition": "A pancreatic carcinoma that derives_from epithelial cells of glandular origin. [url:http\\://en.wikipedia.org/wiki/Adenocarcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4074",
+    "evidence": [
+        {
+            "id": 299,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical trial, Cometriq (cabozantinib) promoted apoptosis of pancreactic ductal adenocarcinoma cells (PMID: 23661005).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 183,
+                    "pubMedId": 23661005,
+                    "title": "The novel c-Met inhibitor cabozantinib overcomes gemcitabine resistance and stem cell signaling in pancreatic cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23661005"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 335,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EGFRBi-armed autologous activated T cells demonstrated efficacy in cultured cells and cell line mouse xenograft models of a variety of EGFR positive tumor types including pancreatic adenocarcinoma (PMID: 16397041).",
+            "molecularProfile": {
+                "id": 1102,
+                "profileName": "EGFR positive"
+            },
+            "therapy": {
+                "id": 1012,
+                "therapyName": "EGFRBi-armed autologous activated T cells",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1030,
+                    "pubMedId": 16397041,
+                    "title": "Anti-CD3 x anti-epidermal growth factor receptor (EGFR) bispecific antibody redirects T-cell cytolytic activity to EGFR-positive cancers in vitro and in an animal model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16397041"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 441,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Pimasertib in combination with Gemzar (gemcitabine) demonstrated safety and efficacy in metastatic pancreatic adenocarcinoma patients (PMID: 23846936).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3526,
+                "therapyName": "Gemcitabine + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 186,
+                    "pubMedId": 23846936,
+                    "title": "Novel agents and future prospects in the treatment of pancreatic adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23846936"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1275,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Caprelsa (vandetanib), in combination with Gemzar (gemcitabine), demonstrated safety and resulted in stable disease in metastatic pancreatic adenocarcinoma patients (PMID: 21921646).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1692,
+                "therapyName": "Gemcitabine + Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 994,
+                    "pubMedId": 21921646,
+                    "title": "Phase I dose-finding study of vandetanib in combination with gemcitabine in locally advanced unresectable or metastatic pancreatic adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21921646"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1287,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BI-847325 promoted tumor regression in mutant KRAS pancreatic adenocarcinoma models (Cancer Res 2012;72(8 Suppl):Abstract nr 1919).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 1059,
+                "therapyName": "BI-847325",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 999,
+                    "pubMedId": null,
+                    "title": "Abstract 1919: Pharmacological characterization of BI 847325, a dual inhibitor of MEK and Aurora kinases",
+                    "url": "http://cancerres.aacrjournals.org/cgi/content/meeting_abstract/72/8_MeetingAbstracts/1919"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1453,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, pancreatic adenocarcinoma cell lines overexpressing GLI3 displayed resistance to cyclopamine (PMID: 20814245).",
+            "molecularProfile": {
+                "id": 2529,
+                "profileName": "GLI3 over exp"
+            },
+            "therapy": {
+                "id": 1774,
+                "therapyName": "Cyclopamine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 1300,
+                    "pubMedId": 20814245,
+                    "title": "Gli3 mediates cell survival and sensitivity to cyclopamine in pancreatic cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20814245"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1617,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LGK974 treatment decreased Wnt signaling and inhibited growth of pancreatic adenocarcinoma cells harboring a RNF43 E174* mutation in cell culture, and inhibited tumor growth in a xenograft model of RNF43 E174* mutant pancreatic adenocarcinoma (PMID: 23847203).",
+            "molecularProfile": {
+                "id": 2759,
+                "profileName": "RNF43 E174*"
+            },
+            "therapy": {
+                "id": 1937,
+                "therapyName": "LGK974",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1690,
+                    "pubMedId": 23847203,
+                    "title": "Inactivating mutations of RNF43 confer Wnt dependency in pancreatic ductal adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23847203"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2147,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I study, a patient with pancreatic adenocarcinoma harboring PTEN loss and KRAS G12D was treated with MK-2206 and demonstrated a 23% reduction in tumor size (PMID: 22025163).",
+            "molecularProfile": {
+                "id": 5589,
+                "profileName": "KRAS G12D PTEN loss"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 175,
+                    "pubMedId": 22025163,
+                    "title": "First-in-man clinical trial of the oral pan-AKT inhibitor MK-2206 in patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22025163"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3121,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, the combination of PRI-724 and Gemzar (gemcitabine) demonstrated safety and preliminary efficacy in patients with advanced pancreatic adenocarcinoma, resulted in stable disease in 40% (8/20) of the patients, with a median progression-free survival of 2 months, and a median decline of serum S100P level by 49.95% (Journal of Clinical Oncology 34, no. 15_suppl; NCT01764477).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2566,
+                "therapyName": "Gemcitabine + Pri-724",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3635,
+                    "pubMedId": null,
+                    "title": "A phase Ib dose-escalation study of PRI-724, a CBP/beta-catenin modulator, plus gemcitabine (GEM) in patients with advanced pancreatic adenocarcinoma (APC) as second-line therapy after FOLFIRINOX or FOLFOX.",
+                    "url": "http://meetinglibrary.asco.org/content/148137-156"
+                },
+                {
+                    "id": 14071,
+                    "pubMedId": null,
+                    "title": "Final results of a phase Ib dose-escalation study of PRI-724, a CBP/beta-catenin modulator, plus gemcitabine (GEM) in patients with advanced pancreatic adenocarcinoma (APC) as second-line therapy after FOLFIRINOX or FOLFOX.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2016.34.15_suppl.e15721"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3863,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, the combination of Jakafi (ruxolitinib) and Xeloda (capecitabine) did not prolong OS (median OS 4.5 vs. 4.3 months) in patients with pancreatic adenocarcinoma when compared to placebo plus Xeloda (capecitabine), however, prolonged OS (median OS 2.7 vs. 1.8 months) was observed in pancreatic adenocarcinoma patients with elevated levels of serum CRP (PMID: 26351344).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1615,
+                "therapyName": "Capecitabine + Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4248,
+                    "pubMedId": 26351344,
+                    "title": "Randomized, Double-Blind, Phase II Study of Ruxolitinib or Placebo in Combination With Capecitabine in Patients With Metastatic Pancreatic Cancer for Whom Therapy With Gemcitabine Has Failed.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26351344"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4442,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mycro3 inhibited tumor growth in transgenic mouse models of Kras G12D-expressing pancreatic adenocarcinoma with Myc overexpression (PMID: 25306215).",
+            "molecularProfile": {
+                "id": 18158,
+                "profileName": "KRAS G12D MYC over exp"
+            },
+            "therapy": {
+                "id": 3507,
+                "therapyName": "Mycro3",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4548,
+                    "pubMedId": 25306215,
+                    "title": "Therapeutic effects of an anti-Myc drug on mouse pancreatic cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25306215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5590,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CGP57380 decreased migration of pancreatic adenocarcinoma (PDAC) cells in culture and inhibited growth of organoids generated from human PDAC samples (PMID: 26609108).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3901,
+                "therapyName": "CGP57380",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5113,
+                    "pubMedId": 26609108,
+                    "title": "Differential Regulation of ZEB1 and EMT by MAPK-Interacting Protein Kinases (MNK) and eIF4E in Pancreatic Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26609108"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6731,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited growth of human pancreatic adenocarcinoma cells harboring mutant BRAF in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 465,
+                "profileName": "BRAF mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6732,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited growth of a majority (4/5) of human pancreatic adenocarcinoma cell lines harboring mutant KRAS in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6823,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, treatment with the combination of Avastin (bevacizumab), Tarceva (erlotinib), and Gemzar (gemcitabine) did not result in a significant increase in OS in pancreatic adenocarcinoma patients compared to the combined treatment of Gemzar (gemcitabine), Tarceva (erlotinib), and placebo (PMID: 19307500).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4265,
+                "therapyName": "Bevacizumab + Erlotinib + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5838,
+                    "pubMedId": 19307500,
+                    "title": "Phase III trial of bevacizumab in combination with gemcitabine and erlotinib in patients with metastatic pancreatic cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19307500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8293,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK1904529A treatment resulted in inhibition of tumor growth by 52% in xenograft models of pancreas adenocarcinoma (PMID: 19383820).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2743,
+                "therapyName": "GSK1904529A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2857,
+                    "pubMedId": 19383820,
+                    "title": "Antitumor activity of GSK1904529A, a small-molecule inhibitor of the insulin-like growth factor-I receptor tyrosine kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19383820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8789,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BI-847325 induced sustained tumor regression in pancreatic adenocarcinoma cell line xenograft models harboring KRAS G12C (PMID: 27496137).",
+            "molecularProfile": {
+                "id": 1042,
+                "profileName": "KRAS G12C"
+            },
+            "therapy": {
+                "id": 1059,
+                "therapyName": "BI-847325",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6751,
+                    "pubMedId": 27496137,
+                    "title": "Pharmacological Profile of BI 847325, an Orally Bioavailable, ATP-Competitive Inhibitor of MEK and Aurora Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27496137"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10263,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Chk1 inhibitor PF-477736 and MK2 inhibitor PF3644022 combination treatment resulted in significant apoptosis in primary tumor cells isolated from pancreas adenocarcinoma patients harboring KRAS mutations in culture (PMID: 26140595).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 5443,
+                "therapyName": "PF-00477736 + PF3644022",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8232,
+                    "pubMedId": 26140595,
+                    "title": "A Synergistic Interaction between Chk1- and MK2 Inhibitors in KRAS-Mutant Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26140595"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10481,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, the combination of Selumetinib (AZD6244) and MK2206 did not result in improved median overall survival compared to mFOLFOX therapy (3.9 mo vs. 6.7 mo) or improved median progression-free survival (1.9 mo vs 2.0 mo) in patients with pancreatic adenocarcinoma (PMID: 27978579).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1098,
+                "therapyName": "MK2206 + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8534,
+                    "pubMedId": 27978579,
+                    "title": "Effect of Selumetinib and MK-2206 vs Oxaliplatin and Fluorouracil in Patients With Metastatic Pancreatic Cancer After Prior Therapy: SWOG S1115 Study Randomized Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27978579"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 10823,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY 1129980 decreased viability of an LYPD3 (C4.4A)-expressing pancreatic adenocarcinoma cell line in culture (PMID: 28292941).",
+            "molecularProfile": {
+                "id": 27809,
+                "profileName": "LYPD3 positive"
+            },
+            "therapy": {
+                "id": 5651,
+                "therapyName": "BAY 1129980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8854,
+                    "pubMedId": 28292941,
+                    "title": "Preclinical Antitumor Efficacy of BAY 1129980-a Novel Auristatin-Based Anti-C4.4A (LYPD3) Antibody-Drug Conjugate for the Treatment of Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28292941"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11463,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LGK974 treatment decreased Wnt signaling and inhibited growth of pancreatic adenocarcinoma cells harboring a RNF43 E174* mutation in cell culture, and inhibited tumor growth in a cell line xenograft model (PMID: 23847203).",
+            "molecularProfile": {
+                "id": 17575,
+                "profileName": "RNF43 R330fs"
+            },
+            "therapy": {
+                "id": 1937,
+                "therapyName": "LGK974",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1690,
+                    "pubMedId": 23847203,
+                    "title": "Inactivating mutations of RNF43 confer Wnt dependency in pancreatic ductal adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23847203"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12135,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic adenocarcinoma cell line harboring KRAS G12C demonstrated sensitivity to growth inhibition by Selumetinib (AZD6244) in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 1042,
+                "profileName": "KRAS G12C"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12136,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic adenocarcinoma cell line harboring KRAS G12C demonstrated sensitivity to growth inhibition by MEK inhibitors, including PD-0325901, in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 1042,
+                "profileName": "KRAS G12C"
+            },
+            "therapy": {
+                "id": 849,
+                "therapyName": "PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12138,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic adenocarcinoma cell line harboring KRAS G12C demonstrated sensitivity to growth inhibition by MEK inhibitors, including Refametinib (BAY86-9766), in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 1042,
+                "profileName": "KRAS G12C"
+            },
+            "therapy": {
+                "id": 888,
+                "therapyName": "Refametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12139,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic adenocarcinoma cell line harboring KRAS G12D and demonstrating high AKT expression and activity was insensitive to growth inhibition by single agent MEK inhibitors, including Selumetinib (AZD6244), in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 28492,
+                "profileName": "AKT1 over exp AKT2 over exp AKT3 over exp KRAS G12D"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12140,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic adenocarcinoma cell line harboring KRAS G12D and demonstrating high AKT expression and activity was insensitive to growth inhibition by single agent MEK inhibitors, including Refametinib (BAY86-9766), in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 28492,
+                "profileName": "AKT1 over exp AKT2 over exp AKT3 over exp KRAS G12D"
+            },
+            "therapy": {
+                "id": 888,
+                "therapyName": "Refametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12141,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic adenocarcinoma cell line harboring KRAS G12D and demonstrating high AKT expression and activity was insensitive to growth inhibition by single agent MEK inhibitors, including PD-0325901, in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 28492,
+                "profileName": "AKT1 over exp AKT2 over exp AKT3 over exp KRAS G12D"
+            },
+            "therapy": {
+                "id": 849,
+                "therapyName": "PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12142,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic adenocarcinoma cell line harboring KRAS G12D and demonstrating high AKT expression and activity was insensitive to growth inhibition by single agent MEK inhibitors, including Mekinist (trametinib), in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 28492,
+                "profileName": "AKT1 over exp AKT2 over exp AKT3 over exp KRAS G12D"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12143,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic adenocarcinoma cell line harboring KRAS G12C demonstrated sensitivity to growth inhibition by MEK inhibitors, including Mekinist (trametinib), in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 1042,
+                "profileName": "KRAS G12C"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12144,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Mekinist (trametinib) and Triciribine (API-2) worked synergistically to inhibit growth of a pancreatic adenocarcinoma cell line harboring KRAS G12D and demonstrating high AKT expression and activity in culture, however, the concentration of Mekinist (trametinib) was above the clinically relevant limit (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 28492,
+                "profileName": "AKT1 over exp AKT2 over exp AKT3 over exp KRAS G12D"
+            },
+            "therapy": {
+                "id": 6312,
+                "therapyName": "Trametinib + Triciribine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12145,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Gilotrif (afatinib) and Mekinist (trametinib) worked synergistically to inhibit growth of a pancreatic adenocarcinoma cell line with wild-type KRAS that demonstrated high EGFR expression and activation in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 28493,
+                "profileName": "EGFR over exp KRAS wild-type"
+            },
+            "therapy": {
+                "id": 4482,
+                "therapyName": "Afatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12146,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Triciribine (API-2) and Mekinist (trametinib) worked synergistically to inhibit growth of a pancreatic adenocarcinoma cell line with wild-type KRAS that demonstrated high EGFR expression and activation in culture (PMID: 28957417).",
+            "molecularProfile": {
+                "id": 28493,
+                "profileName": "EGFR over exp KRAS wild-type"
+            },
+            "therapy": {
+                "id": 6312,
+                "therapyName": "Trametinib + Triciribine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10109,
+                    "pubMedId": 28957417,
+                    "title": "Molecular subtype specific efficacy of MEK inhibitors in pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28957417"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12650,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, ASG-5ME treatment resulted in one partial response and a disease control rate of 33% in patients with pancreatic adenocarcinoma expressing SLC44A4 (PMID: 26994014).",
+            "molecularProfile": {
+                "id": 26752,
+                "profileName": "SLC44A4 positive"
+            },
+            "therapy": {
+                "id": 4914,
+                "therapyName": "ASG-5ME",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10536,
+                    "pubMedId": 26994014,
+                    "title": "A phase 1 clinical trial of ASG-5ME, a novel drug-antibody conjugate targeting SLC44A4, in patients with advanced pancreatic and gastric cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26994014"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12748,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NSC109555 enhanced the anti-tumor effects of Gemzar (gemcitabine) in pancreatic adenocarcinoma cells in culture, resulting in greater decreased colony formation, inhibition of cell proliferation, and apoptotic activity (PMID: 23855452).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6620,
+                "therapyName": "Gemcitabine + NSC109555",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2692,
+                    "pubMedId": 23855452,
+                    "title": "Inhibition of checkpoint kinase 2 (CHK2) enhances sensitivity of pancreatic adenocarcinoma cells to gemcitabine.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23855452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14057,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RAF709 and Mekinist (trametinib) synergistically inhibited Erk signaling and growth of pancreatic adenocarcinoma cells in culture, resulted in tumor regression in cell line xenograft models (PMID: 29343524).",
+            "molecularProfile": {
+                "id": 746,
+                "profileName": "KRAS G12D"
+            },
+            "therapy": {
+                "id": 6997,
+                "therapyName": "RAF709 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11434,
+                    "pubMedId": 29343524,
+                    "title": "Antitumor Properties of RAF709, a Highly Selective and Potent Inhibitor of RAF Kinase Dimers, in Tumors Driven by Mutant RAS or BRAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29343524"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16698,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, BI 853520 demonstrated safety and some anti-tumor efficacy, resulting in stable disease in 35% (6/17) of patients with pancreatic adenocarcinoma, two of whom had stable disease lasting greater than 150 days (PMID: 30756308; NCT01335269).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3599,
+                "therapyName": "BI 853520",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14726,
+                    "pubMedId": 30756308,
+                    "title": "Phase I Study of BI 853520, an Inhibitor of Focal Adhesion Kinase, in Patients with Advanced or Metastatic Nonhematologic Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30756308"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17700,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a second-line therapy for advanced or metastatic pancreatic adenocarcinoma patients with high microsatellite instability (MSI-H) (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17702,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is in guidelines as second-line therapy for patients with advanced or metastatic pancreatic adenocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17703,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is in guidelines as second-line therapy for patients with advanced or metastatic pancreatic adenocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17704,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "FOLFIRINOX is included in guidelines as a first-line therapy for advanced or metastatic pancreatic adenocarcinoma patients with BRCA1 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1205,
+                "profileName": "BRCA1 mutant"
+            },
+            "therapy": {
+                "id": 1903,
+                "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                "synonyms": "FOLFIRINOX|FOLFOXIRI"
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17705,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "FOLFIRINOX is included in guidelines as a first-line therapy for advanced or metastatic pancreatic adenocarcinoma patients with BRCA2 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1206,
+                "profileName": "BRCA2 mutant"
+            },
+            "therapy": {
+                "id": 1903,
+                "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                "synonyms": "FOLFIRINOX|FOLFOXIRI"
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17706,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "FOLFIRINOX is included in guidelines as a first-line therapy for advanced or metastatic pancreatic adenocarcinoma patients with PALB2 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 3275,
+                "profileName": "PALB2 mutant"
+            },
+            "therapy": {
+                "id": 1903,
+                "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                "synonyms": "FOLFIRINOX|FOLFOXIRI"
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17707,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Platinol (cisplatin), in combination with Gemzar (gemcitabine), is included in guidelines as a first-line therapy for advanced or metastatic pancreatic adenocarcinoma patients with BRCA1 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1205,
+                "profileName": "BRCA1 mutant"
+            },
+            "therapy": {
+                "id": 1467,
+                "therapyName": "Cisplatin + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17708,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Platinol (cisplatin), in combination with Gemzar (gemcitabine), is included in guidelines as a first-line therapy for advanced or metastatic pancreatic adenocarcinoma patients with BRCA2 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1206,
+                "profileName": "BRCA2 mutant"
+            },
+            "therapy": {
+                "id": 1467,
+                "therapyName": "Cisplatin + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17709,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Platinol (cisplatin), in combination with Gemzar (gemcitabine), is included in guidelines as a first-line therapy for advanced or metastatic pancreatic adenocarcinoma patients with PALB2 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 3275,
+                "profileName": "PALB2 mutant"
+            },
+            "therapy": {
+                "id": 1467,
+                "therapyName": "Cisplatin + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18458,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEN1309 reduced tumor volume in patient-derived xenograft (PDX) models of pancreatic adenocarcinoma with low and high level of LY75 expression, and decreased tumor volume and induced tumor regression in a cell line xenograft model with high level of LY75 expression (PMID: 31227646).",
+            "molecularProfile": {
+                "id": 33235,
+                "profileName": "LY75 positive"
+            },
+            "therapy": {
+                "id": 8717,
+                "therapyName": "MEN1309",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16207,
+                    "pubMedId": 31227646,
+                    "title": "MEN1309/OBT076, a First-In-Class Antibody-Drug Conjugate Targeting CD205 in Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31227646"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19381,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Poteligeo (mogamulizumab-kpkc) and Opdivo (nivolumab) combination treatment demonstrated acceptable safety, resulted in an objective response rate of 7% (1/15, 1 partial responses) and a disease control rate of 40% (6/15) in immunotherapy-naive patients with advanced or metastatic pancreatic adenocarcinoma, response occurred regardless of PD-L1, CCR4, CD8 expression levels and tumor mutational burden (PMID: 31455681; NCT02476123).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3843,
+                "therapyName": "Mogamulizumab + Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16935,
+                    "pubMedId": 31455681,
+                    "title": "A Phase I Study of the Anti-CC Chemokine Receptor 4 Antibody, Mogamulizumab, in Combination with Nivolumab in Patients with Advanced or Metastatic Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31455681"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19645,
+            "approvalStatus": "FDA approved - Has Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (POLO) that supported FDA approval, Lynparza (olaparib) maintenance therapy significantly improved median progression-free survival compared to placebo (7.4 vs 3.8 months, HR=0.53, p=0.004) in patients with metastatic pancreatic adenocarcinoma harboring deleterious or suspected deleterious germline BRCA mutations (PMID: 31157963; NCT02184195).",
+            "molecularProfile": {
+                "id": 1282,
+                "profileName": "BRCA1 inact mut"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15467,
+                    "pubMedId": null,
+                    "title": "Lynparza (olaparib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208558"
+                },
+                {
+                    "id": 17385,
+                    "pubMedId": 31157963,
+                    "title": "Maintenance Olaparib for Germline BRCA-Mutated Metastatic Pancreatic Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31157963"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19646,
+            "approvalStatus": "FDA approved - Has Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (POLO) that supported FDA approval, Lynparza (olaparib) maintenance therapy significantly improved median progression-free survival compared to placebo (7.4 vs 3.8 months, HR=0.53, p=0.004) in patients with metastatic pancreatic adenocarcinoma harboring deleterious or suspected deleterious germline BRCA mutations (PMID: 31157963; NCT02184195).",
+            "molecularProfile": {
+                "id": 1283,
+                "profileName": "BRCA2 inact mut"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15467,
+                    "pubMedId": null,
+                    "title": "Lynparza (olaparib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208558"
+                },
+                {
+                    "id": 17385,
+                    "pubMedId": 31157963,
+                    "title": "Maintenance Olaparib for Germline BRCA-Mutated Metastatic Pancreatic Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31157963"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19958,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGTI-2734 inhibited viability of pancreatic adenocarcinoma patient cells harboring KRAS G13D in culture (PMID: 31227505).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 9260,
+                "therapyName": "FGTI-2734",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17639,
+                    "pubMedId": 31227505,
+                    "title": "Dual Farnesyl and Geranylgeranyl Transferase Inhibitor Thwarts Mutant KRAS-Driven Patient-Derived Pancreatic Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31227505"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19975,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK3368715 inhibited growth of a pancreatic adenocarcinoma cell line in culture, and inhibited tumor growth in xenograft models (PMID: 31257072).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9261,
+                "therapyName": "GSK3368715",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17642,
+                    "pubMedId": 31257072,
+                    "title": "Anti-tumor Activity of the Type I PRMT Inhibitor, GSK3368715, Synergizes with PRMT5 Inhibition through MTAP Loss.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31257072"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19987,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of GSK3203591 and GSK3368715 inhibited tumor growth in a pancreatic adenocarcinoma cell line xenograft model, demonstrating increased efficacy over either agent alone (PMID: 31257072).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9263,
+                "therapyName": "GSK3203591 + GSK3368715",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17642,
+                    "pubMedId": 31257072,
+                    "title": "Anti-tumor Activity of the Type I PRMT Inhibitor, GSK3368715, Synergizes with PRMT5 Inhibition through MTAP Loss.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31257072"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20041,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is in guidelines as second-line therapy for patients with advanced or metastatic pancreatic adenocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20044,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines for patients with advanced or metastatic pancreatic adenocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20045,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines for patients with advanced or metastatic pancreatic adenocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20046,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines for patients with advanced or metastatic pancreatic adenocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20391,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Adavosertib (MK-1775) in combination with Gemzar (gemcitabine) and radiation therapy was tolerable, resulted in a median overall survival of 21.7 months and a median progression-free survival of 9.4 months in patients with advanced pancreatic adenocarcinoma (PMID: 31398082; NCT02037230).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9342,
+                "therapyName": "Adavosertib + Gemcitabine + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17830,
+                    "pubMedId": 31398082,
+                    "title": "Dose Escalation Trial of the Wee1 Inhibitor Adavosertib (AZD1775) in Combination With Gemcitabine and Radiation for Patients With Locally Advanced Pancreatic Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31398082"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00602602",
+            "title": "Bevacizumab, Combination Chemotherapy, and Radiation Therapy in Treating Patients Undergoing Surgery For Locally Advanced Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2102,
+                    "therapyName": "Bevacizumab + Fluorouracil + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1296,
+                    "therapyName": "Bevacizumab + Gemcitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1297,
+                    "therapyName": "Bevacizumab + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00720785",
+            "title": "Natural Killer Cells and Bortezomib to Treat Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01013649",
+            "title": "Gemcitabine Hydrochloride With or Without Erlotinib Hydrochloride Followed By the Same Chemotherapy Regimen With or Without Radiation Therapy and Capecitabine or Fluorouracil in Treating Patients With Pancreatic Cancer That Has Been Removed By Surgery",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2381,
+                    "therapyName": "Erlotinib + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01088815",
+            "title": "Hedgehog Inhibitors for Metastatic Adenocarcinoma of the Pancreas",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1799,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01351103",
+            "title": "A Study of LGK974 in Patients With Malignancies Dependent on Wnt Ligands",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1937,
+                    "therapyName": "LGK974",
+                    "synonyms": null
+                },
+                {
+                    "id": 7468,
+                    "therapyName": "LGK974 + Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01383538",
+            "title": "FOLFIRINOX Plus IPI-926 for Advanced Pancreatic Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2498,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin + Saridegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01420874",
+            "title": "Anti-CD3 x Anti-Erbitux Armed Activated T Cells (Phase Ib) for Gastrointestinal (GI Cancer)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1012,
+                    "therapyName": "EGFRBi-armed autologous activated T cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01431794",
+            "title": "Gemcitabine + Nab-paclitaxel With LDE-225 (Hedgehog Inhibitor) as Neoadjuvant Therapy for Pancreatic Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2497,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01473940",
+            "title": "Ipilimumab and Gemcitabine Hydrochloride in Treating Patients With Stage III-IV or Recurrent Pancreatic Cancer That Cannot Be Removed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2970,
+                    "therapyName": "Gemcitabine + Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01485744",
+            "title": "LDE225 With Fluorouracil, Leucovorin, Oxaliplatin, and Irinotecan for Untreated Advanced Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1903,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFIRINOX|FOLFOXIRI"
+                },
+                {
+                    "id": 1428,
+                    "therapyName": "Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01488552",
+            "title": "Gemcitabine+Nab-paclitaxel and FOLFIRINOX and Molecular Profiling for Patients With Advanced Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1104,
+                    "therapyName": "Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01489865",
+            "title": "ABT-888 With Modified FOLFOX6 in Patients With Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 954,
+                    "therapyName": "Veliparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01506973",
+            "title": "A Phase I/II/Pharmacodynamic Study of Hydroxychloroquine in Combination With Gemcitabine/Abraxane to Inhibit Autophagy in Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1316,
+                    "therapyName": "Hydroxychloroquine",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01555489",
+            "title": "Assessing the Efficacy and Safety of IV Vitamin C in Combination With Standard Chemotherapy for Pancreatic Ca",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT01576666",
+            "title": "Phase Ib, Dose Escalation Study of Oral LDE225 in Combination With BKM120 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1547,
+                    "therapyName": "Buparlisib + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01585805",
+            "title": "Gemcitabine Hydrochloride and Cisplatin With or Without Veliparib or Veliparib Alone in Patients With Locally Advanced or Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 954,
+                    "therapyName": "Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01586611",
+            "title": "A Study to See if hENT1 Testing on Tumour Tissue Can Predict Response to Treatment With Gemcitabine Chemotherapy and if a Different Chemotherapy Called FOLFOX is Better Than Gemcitabine in Metastatic Pancreas Cancer",
+            "phase": "Phase III",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01652976",
+            "title": "Phase II Study of 5-FU, Oxaliplatin Plus Dasatinib in Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01660971",
+            "title": "Gemcitabine Hydrochloride, Dasatinib, and Erlotinib Hydrochloride in Treating Patients With Metastatic Pancreatic Cancer That Cannot Be Removed By Surgery",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1816,
+                    "therapyName": "Dasatinib + Erlotinib + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01666730",
+            "title": "Metformin Plus Modified FOLFOX 6 in Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01683422",
+            "title": "Chemotherapy Plus Proton-chemotherapy for Locally Advanced Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2473,
+                    "therapyName": "Capecitabine + Erlotinib + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01764477",
+            "title": "Safety and Efficacy Study of PRI-724 Plus Gemcitabine in Subjects With Advanced or Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2566,
+                    "therapyName": "Gemcitabine + Pri-724",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01783171",
+            "title": "Dinaciclib and Akt Inhibitor MK2206 in Treating Patients With Pancreatic Cancer That Cannot Be Removed By Surgery",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2193,
+                    "therapyName": "Dinaciclib + MK2206",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01803282",
+            "title": "Safety and Tolerability Study in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3320,
+                    "therapyName": "GS-5745",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1602,
+                    "therapyName": "Carboplatin + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01804530",
+            "title": "Phase 1 Study of PLX7486 as Single Agent and With Gemcitabine Plus Nab-Paclitaxel in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2651,
+                    "therapyName": "PLX7486",
+                    "synonyms": null
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01825603",
+            "title": "ADH-1, Gemcitabine Hydrochloride and Cisplatin in Treating Patients With Metastatic Pancreatic or Biliary Tract Cancer That Cannot Be Removed By Surgery",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4952,
+                    "therapyName": "ADH-1 + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01858883",
+            "title": "Safety Study of INCB039110 in Combination With Gemcitabine and Nab-Paclitaxel in Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 619,
+                    "therapyName": "Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 2406,
+                    "therapyName": "Itacitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01896869",
+            "title": "A Phase 2, Multicenter Study of FOLFIRINOX Followed by Ipilimumab With Allogenic GM-CSF Transfected Pancreatic Tumor Vaccine in the Treatment of Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1903,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFIRINOX|FOLFOXIRI"
+                },
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01908478",
+            "title": "A Phase I Study of Veliparib (ABT-888) in Combination With Gemcitabine and Intensity Modulated Radiation Therapy in Patients With Locally Advanced, Unresectable Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 954,
+                    "therapyName": "Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01921751",
+            "title": "High or Standard Intensity Radiation Therapy After Gemcitabine Hydrochloride and Nab-paclitaxel in Treating Patients With Pancreatic Cancer That Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01924260",
+            "title": "Alisertib and Gemcitabine Hydrochloride in Treating Patients With Solid Tumors or Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1289,
+                    "therapyName": "Alisertib + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01956812",
+            "title": "Phase 3 Trial of 90Y-Clivatuzumab Tetraxetan & Gemcitabine vs Placebo & Gemcitabine in Metastatic Pancreatic Cancer (PANCRIT-1)",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3000,
+                    "therapyName": "Y90 clivatuzumab tetraxetan",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01959672",
+            "title": "Combination Chemotherapy With or Without Oregovomab Followed by Stereotactic Body Radiation Therapy and Nelfinavir Mesylate in Treating Patients With Locally Advanced Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 827,
+                    "therapyName": "Nelfinavir",
+                    "synonyms": null
+                },
+                {
+                    "id": 1189,
+                    "therapyName": "Oregovomab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2278,
+                    "therapyName": "Fluorouracil + Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02004262",
+            "title": "Safety and Efficacy of Combination Listeria/GVAX Pancreas Vaccine in the Pancreatic Cancer Setting",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 4,
+                    "therapyName": "Erlotinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2383,
+                    "therapyName": "Capecitabine + Fluorouracil + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02005315",
+            "title": "A Study of Vantictumab (OMP-18R5) in Combination With Nab-Paclitaxel and Gemcitabine in Previously Untreated Stage IV Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4412,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Vantictumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02024607",
+            "title": "A Study of BBI608 in Combination With Standard Chemotherapies in Adult Patients With Advanced Gastrointestinal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2093,
+                    "therapyName": "Bevacizumab + Napabucasin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2094,
+                    "therapyName": "Napabucasin + Regorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2057,
+                    "therapyName": "Napabucasin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02037230",
+            "title": "Dose Escalation Trial of MK1775 and Gemcitabine (+Radiation) for Unresectable Adenocarcinoma of the Pancreas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1279,
+                    "therapyName": "Adavosertib + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02048384",
+            "title": "A Study of Metformin With or Without Rapamycin as Maintenance Therapy After Induction Chemotherapy in Subjects With Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1593,
+                    "therapyName": "Metformin + Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02077881",
+            "title": "Study of IDO Inhibitor in Combination With Gemcitabine and Nab-Paclitaxel in Patients With Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2976,
+                    "therapyName": "Indoximod",
+                    "synonyms": null
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02080260",
+            "title": "A Study of Regorafenib in Advanced Pancreatic Cancer Patients",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02117479",
+            "title": "Study of Ruxolitinib in Pancreatic Cancer Patients (Janus 1)",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02119663",
+            "title": "A Study of Ruxolitinib in Pancreatic Cancer Patients",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1615,
+                    "therapyName": "Capecitabine + Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02138383",
+            "title": "Enzalutamide in Combination With Gemcitabine and Nab-Paclitaxel for the Treatment of Advanced Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 619,
+                    "therapyName": "Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02153450",
+            "title": "Stereotactic Radiosurgery and Metformin Hydrochloride in Treating Patients With Borderline-Resectable or Locally-Advanced Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02155088",
+            "title": "BYL719 in Combination With Gemcitabine and (Nab)-Paclitaxel in Locally Advanced and Metastatic Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1870,
+                    "therapyName": "Alpelisib + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02178436",
+            "title": "Selinexor, Gemcitabine Hydrochloride, and Paclitaxel Albumin-Stabilized Nanoparticle Formulation in Treating Patients With Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 2560,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02184195",
+            "title": "Olaparib in gBRCA Mutated Pancreatic Cancer Whose Disease Has Not Progressed on First Line Platinum-Based Chemotherapy (POLO)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02187848",
+            "title": "Evaluation of SAR408701 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7225,
+                    "therapyName": "SAR408701",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02194829",
+            "title": "Paclitaxel Albumin-Stabilized Nanoparticle Formulation and Gemcitabine Hydrochloride With or Without WEE1 Inhibitor MK-1775 in Treating Patients With Previously Untreated Pancreatic Cancer That Is Metastatic or Cannot Be Removed by Surgery",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 822,
+                    "therapyName": "Adavosertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02227940",
+            "title": "Ceritinib and Combination Chemotherapy in Treating Patients With Advanced Solid Tumors or Locally Advanced or Metastatic Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 8287,
+                    "therapyName": "Ceritinib + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 8288,
+                    "therapyName": "Ceritinib + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2554,
+                    "therapyName": "Ceritinib + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02231723",
+            "title": "A Study of BBI608 in Combination With Gemcitabine and Nab-Paclitaxel in Adult Patients With Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2630,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Napabucasin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02243371",
+            "title": "GVAX Pancreas Vaccine (With CY) and CRS-207 With or Without Nivolumab",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2642,
+                    "therapyName": "GVAX pancreatic cancer vaccine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2641,
+                    "therapyName": "CRS-207",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02244489",
+            "title": "Momelotinib Combined With Capecitabine and Oxaliplatin in Adults With Relapsed/Refractory Metastatic Pancreatic Ductal Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1104,
+                    "therapyName": "Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 823,
+                    "therapyName": "Momelotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02309177",
+            "title": "Safety Study of Nivolumab With Nab-Paclitaxel Plus or Minus Gemcitabine in Pancreatic Cancer, Nab-Paclitaxel / Carboplatin in Stage IIIB/IV Non-Small Cell Lung Cancer or Nab-Paclitaxel in Recurrent Metastatic Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2489,
+                    "therapyName": "Nab-paclitaxel + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02311361",
+            "title": "Immune Checkpoint Inhibition (Tremelimumab and/or MEDI4736) in Combination With Radiation Therapy in Patients With Unresectable Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02331251",
+            "title": "Study of Pembrolizumab Plus Chemotherapy in Patients With Advanced Cancer (PembroPlus)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1685,
+                    "therapyName": "Vinorelbine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 619,
+                    "therapyName": "Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02336087",
+            "title": "Gemcitabine Hydrochloride, Paclitaxel Albumin-Stabilized Nanoparticle Formulation, Metformin Hydrochloride, and a Standardized Dietary Supplement in Treating Patients With Metastatic Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2204,
+                    "therapyName": "Gemcitabine + Metformin + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02340117",
+            "title": "Study of Combined SGT-53 Plus Gemcitabine/Nab-Paclitaxel for Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2518,
+                    "therapyName": "SGT-53",
+                    "synonyms": null
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02349867",
+            "title": "Gemcitabine Hydrochloride, Nab-Paclitaxel, Radiation Therapy, Sorafenib Tosylate,Vorinostat in Treating Previously Untreated Pancreatic Cancer Patients",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2429,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Sorafenib + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02383433",
+            "title": "Regorafenib Plus Gemcitabine in Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2491,
+                    "therapyName": "Gemcitabine + Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02399137",
+            "title": "A Phase 2 Study of MM-141 Plus Nab-paclitaxel and Gemcitabine in Front-line Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 619,
+                    "therapyName": "Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1073,
+                    "therapyName": "MM-141",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02403271",
+            "title": "A Multi-Center Study of Ibrutinib in Combination With MEDI4736 in Subjects With Relapsed or Refractory Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2573,
+                    "therapyName": "Durvalumab + Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02428270",
+            "title": "A Study of GSK2256098 and Trametinib in Advanced Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4205,
+                    "therapyName": "GSK2256098 + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02436668",
+            "title": "Study of Ibrutinib vs Placebo, in Combination With Nab-paclitaxel and Gemcitabine, in the First Line Treatment of Patients With Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02451982",
+            "title": "Neoadjuvant/Adjuvant GVAX Pancreas Vaccine (With CY) With or Without Nivolumab Trial for Surgically Resectable Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3622,
+                    "therapyName": "Cyclophosphamide + GVAX pancreatic cancer vaccine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02472977",
+            "title": "Safety and Efficacy Study of Ulocuplumab and Nivolumab in Subjects With Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2847,
+                    "therapyName": "Ulocuplumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02498613",
+            "title": "A Phase 2 Study of Cediranib in Combination With Olaparib in Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1971,
+                    "therapyName": "Cediranib + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02540291",
+            "title": "Study of E7046 in Subjects With Selected Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5694,
+                    "therapyName": "E7046",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02562898",
+            "title": "Ibrutinib Combined With Gemcitabine and Nab-Paclitaxel in Patients With Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3259,
+                    "therapyName": "Gemcitabine + Ibrutinib + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02570711",
+            "title": "Study of Nab Paclitaxel/Gemcitabine Alone and in Combination With ACP-196 in Subjects With Previously Untreated Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1605,
+                    "therapyName": "Acalabrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02574663",
+            "title": "TGR-1202 Alone and in Combination With Either Nab-paclitaxel + Gemcitabine or With FOLFOX in Patients With Select Relapsed or Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2022,
+                    "therapyName": "Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02575508",
+            "title": "Pan FGFR Kinase Inhibitor BGJ398 and Combination Chemotherapy in Treating Patients With Untreated Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3142,
+                    "therapyName": "BGJ398 + Fluorouracil + Irinotecan + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02608229",
+            "title": "BVD-523 Plus Nab-paclitaxel and Gemcitabine in Patients With Metastatic Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3249,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02620423",
+            "title": "Study of Pembrolizumab With REOLYSIN and Chemotherapy in Patients With Advanced Pancreatic Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1715,
+                    "therapyName": "Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 893,
+                    "therapyName": "Reolysin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1642,
+                    "therapyName": "Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02620800",
+            "title": "Study of 5-fluorouracil (5-FU), Nab-paclitaxel, Bevacizumab, Leucovorin, and Oxaliplatin in Patients With Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3621,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Nab-paclitaxel + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02620865",
+            "title": "Bispecific Antibody Armed Activated T-cells With Aldesleukin and Sargramostim in Treating Patients With Locally Advanced or Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1104,
+                    "therapyName": "Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1873,
+                    "therapyName": "Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2278,
+                    "therapyName": "Fluorouracil + Leucovorin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02638909",
+            "title": "Study of Oral Ceritinib in Patients With ALK-Activated Gastrointestinal Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 789,
+                    "therapyName": "Ceritinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639026",
+            "title": "Trial Of Hypofractionated Radiotherapy In Combination With MEDI4736 And Tremelimumab For Patients With Metastatic Melanoma And Lung, Breast And Pancreatic Cancers",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02648282",
+            "title": "Study With CY, Pembrolizumab, GVAX, and SBRT in Patients With Locally Advanced Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4473,
+                    "therapyName": "Cyclophosphamide + GVAX pancreatic cancer vaccine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02650635",
+            "title": "TLR8 Agonist VTX-2337 and Cyclophosphamide in Treating Patients With Metastatic, Persistent, Recurrent, or Progressive Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3413,
+                    "therapyName": "Cyclophosphamide + Motolimod + Pegfilgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02650804",
+            "title": "BPM31510 Administered Intravenously With or Without Gemcitabine in Advanced Pancreatic Cancer Patients",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5759,
+                    "therapyName": "BPM 31510",
+                    "synonyms": null
+                },
+                {
+                    "id": 5842,
+                    "therapyName": "BPM 31510 + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02651727",
+            "title": "Ph 1 Study of VS-4718, a FAK Inhibitor, in Combination With Nab-paclitaxel and Gemcitabine in Advanced Cancer Subjects",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 4342,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + VS-4718",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02660034",
+            "title": "The Safety, Pharmacokinetics and Antitumor Activity of BGB-A317 in Combination With BGB-290 in Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5883,
+                    "therapyName": "BGB-A317 + Pamiparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02675946",
+            "title": "Study of CGX1321 in Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6584,
+                    "therapyName": "CGX1321",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02677038",
+            "title": "Olaparib for BRCAness Phenotype in Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02703571",
+            "title": "Study of Safety and Efficacy of Ribociclib and Trametinib in Patients With Metastatic or Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4472,
+                    "therapyName": "Ribociclib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02734160",
+            "title": "A Study of Galunisertib (LY2157299) and Durvalumab (MEDI4736) in Participants With Metastatic Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4211,
+                    "therapyName": "Durvalumab + Galunisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02824042",
+            "title": "Thorough ECG (Electrocardiogram) and Drug Interaction Study With Anetumab Ravtansine and Itraconazole",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4594,
+                    "therapyName": "Anetumab ravtansine + Itraconazole",
+                    "synonyms": null
+                },
+                {
+                    "id": 4593,
+                    "therapyName": "Anetumab ravtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02826486",
+            "title": "Study Assessing Safety and Efficacy of Combination of BL-8040 and Pembrolizumab in Metastatic Pancreatic Cancer Patients (COMBAT/KEYNOTE-202) (COMBAT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4757,
+                    "therapyName": "BKT140 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2849,
+                    "therapyName": "BKT140",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02847000",
+            "title": "p53/p16-Independent Epigenetic Therapy With Oral Decitabine/Tetrahydrouridine for Pancreatic Cancer",
+            "phase": "Phase 0",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3567,
+                    "therapyName": "Decitabine + Tetrahydrouridine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02868632",
+            "title": "Study of Immune Checkpoint Inhibition With Radiation Therapy in Unresectable, Non-metastatic Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890355",
+            "title": "FOLFIRI or Modified FOLFIRI and Veliparib as Second Line Therapy in Treating Patients With Metastatic Pancreatic Cancer",
+            "phase": null,
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 954,
+                    "therapyName": "Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02902484",
+            "title": "Study of Nintedanib and Chemotherapy for Advanced Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4723,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Nintedanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 831,
+                    "therapyName": "Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02907099",
+            "title": "Pembrolizumab and BL-8040 in Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4757,
+                    "therapyName": "BKT140 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02908451",
+            "title": "A Study of AbGn-107 in Patients With Gastric, Colorectal, or Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7219,
+                    "therapyName": "AbGn-107",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02923921",
+            "title": "Study of AM0010 With FOLFOX Compared to FOLFOX Alone Second-line Tx in Pts With Metastatic Pancreatic Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5849,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pegilodecakin",
+                    "synonyms": null
+                },
+                {
+                    "id": 5850,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02985125",
+            "title": "LEE011 Plus Everolimus in Patients With Metastatic Pancreatic Adenocarcinoma Refractory to Chemotherapy",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5073,
+                    "therapyName": "Everolimus + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03006302",
+            "title": "Epacadostat, Pembrolizumab, and CRS-207, With or Without CY/GVAX Pancreas in Patients With Metastatic Pancreas Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5169,
+                    "therapyName": "CRS-207 + Epacadostat + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5170,
+                    "therapyName": "CRS-207 + Cyclophosphamide + Epacadostat + GVAX pancreatic cancer vaccine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03086369",
+            "title": "A Study of Nab-Paclitaxel and Gemcitabine With or Without Olaratumab (LY3012207) in Participants With Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5482,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Olaratumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03086642",
+            "title": "Study of Talimogene Laherparepvec (T-VEC) in Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2695,
+                    "therapyName": "Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03095781",
+            "title": "Pembrolizumab and XL888 in Patients With Advanced Gastrointestinal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5533,
+                    "therapyName": "Pembrolizumab + XL888",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03098550",
+            "title": "A Study to Test the Safety and Effectiveness of Nivolumab Combined With Daratumumab in Patients With Advanced Solid Tumors or Tumors That Have Spread",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5520,
+                    "therapyName": "Daratumumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03104439",
+            "title": "Nivolumab and Ipilimumab and Radiation Therapy in MSS and MSI High Colorectal and Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03122106",
+            "title": "Neoantigen DNA Vaccine in Pancreatic Cancer Patients Following Surgical Resection and Adjuvant Chemotherapy",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9695,
+                    "therapyName": "Personalized cancer vaccine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03126435",
+            "title": "EndoTAG-1 Plus Gemcitabine Versus Gemcitabine Alone in Patients With Measurable Locally Advanced and/or Metastatic Adenocarcinoma of the Pancreas Failed on FOLFIRINOX Treatment",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9769,
+                    "therapyName": "EndoTAG-1 + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03127124",
+            "title": "QUILT-2.022 NANT-008 in Combination w/ 5-fluorouracil, Bevacizumab, Leucovorin & Oxaliplatin in Subjects With Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6996,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + NANT-008 + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03140670",
+            "title": "Rucaparib in BRCA1/2 or PALB2 Mutated Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 906,
+                    "therapyName": "Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03153410",
+            "title": "Pilot Study With CY, Pembrolizumab, GVAX, and IMC-CS4 (LY3022855) in Patients With Borderline Resectable Adenocarcinoma of the Pancreas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5778,
+                    "therapyName": "Cyclophosphamide + GVAX pancreatic cancer vaccine + LY3022855 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03190265",
+            "title": "Study of CRS-207, Nivolumab, and Ipilimumab With or Without GVAX Pancreas Vaccine (With Cy) in Patients With Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6511,
+                    "therapyName": "CRS-207 + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6529,
+                    "therapyName": "CRS-207 + Cyclophosphamide + GVAX pancreatic cancer vaccine + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03192462",
+            "title": "TAA Specific Cytotoxic T Lymphocytes in Patients With Pancreatic Cancer (TACTOPS)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213626",
+            "title": "Cabozantinib and Erlotinib for Patients With EGFR and c-Met Co-expressing Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1255,
+                    "therapyName": "Cabozantinib + Erlotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03214250",
+            "title": "Safety and Efficacy of APX005M With Gemcitabine and Nab-Paclitaxel With or Without Nivolumab in Patients With Previously Untreated Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6047,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6048,
+                    "therapyName": "APX005M + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 6049,
+                    "therapyName": "APX005M + Gemcitabine + Nab-paclitaxel + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03245541",
+            "title": "Study of Durvalumab and Stereotactive Ablative Body Radiotherapy in Advanced Pancreatic Adenocarcinoma (DurvaRad)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03250273",
+            "title": "A Clinical Trial of Entinostat in Combination With Nivolumab for Patients With Previously Treated Unresectable or Metastatic Cholangiocarcinoma and Pancreatic Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6114,
+                    "therapyName": "Entinostat + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03261947",
+            "title": "A Study to Evaluate the Safety, Tolerability, and Activity of TAK-931 in Participants With Metastatic Pancreatic Cancer, Metastatic Colorectal Cancer, and Other Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7279,
+                    "therapyName": "TAK-931",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03269526",
+            "title": "BATs Treatment for Pancreatic Cancer, Phase Ib/II",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1012,
+                    "therapyName": "EGFRBi-armed autologous activated T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03277209",
+            "title": "To Assess the Safety of Continuous IV Administration of Plerixafor and Assess Impact on the Immune Microenvironment in Patients With Pancreatic, Ovarian and Colorectal Adenocarcinomas",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03281382",
+            "title": "Phase 1 Trial of Interleukin 12 Gene Therapy for Metastatic Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6283,
+                    "therapyName": "Ad5-yCD/mutTKSR39rep-hIL12",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03310632",
+            "title": "Determine Function of Antroquinonol in Combination With SOC in First Line Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 985,
+                    "therapyName": "Antroquinonol",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03316599",
+            "title": "Study of Gemcitabine, Nab-paclitaxel, and Ficlatuzumab (AV-299) in Patients With Advanced Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6392,
+                    "therapyName": "Ficlatuzumab + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03329950",
+            "title": "A Study of CDX-1140 as Monotherapy or in Combination in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7361,
+                    "therapyName": "CDX-1140 + CDX-301",
+                    "synonyms": null
+                },
+                {
+                    "id": 7330,
+                    "therapyName": "CDX-1140",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03331562",
+            "title": "A SU2C Catalyst Trial of a PD1 Inhibitor With or Without a Vitamin D Analog for the Maintenance of Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4903,
+                    "therapyName": "Paricalcitol + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03336216",
+            "title": "A Study of Cabiralizumab Given With Nivolumab With and Without Chemotherapy in Patients With Advanced Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6439,
+                    "therapyName": "Cabiralizumab + Gemcitabine + Nab-paclitaxel + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6438,
+                    "therapyName": "Cabiralizumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 6440,
+                    "therapyName": "Cabiralizumab + Fluorouracil + Irinotecan + Leucovorin + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03337087",
+            "title": "Liposomal Irinotecan, Fluorouracil, Leucovorin Calcium, and Rucaparib Phosphate in Treating Patients With Metastatic Pancreatic, Colorectal, Gastroesophageal, or Biliary Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6442,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03344172",
+            "title": "Pre-Operative Trial (PGHA vs. PGH) for Resectable Pancreatic Cancer (17-134)",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 6481,
+                    "therapyName": "Avelumab + Gemcitabine + Hydroxychloroquine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 6480,
+                    "therapyName": "Gemcitabine + Hydroxychloroquine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03373188",
+            "title": "VX15/2503 and Immunotherapy in Resectable Pancreatic and Colorectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6517,
+                    "therapyName": "Nivolumab + VX15/2503",
+                    "synonyms": null
+                },
+                {
+                    "id": 6516,
+                    "therapyName": "Ipilimumab + VX15/2503",
+                    "synonyms": null
+                },
+                {
+                    "id": 3738,
+                    "therapyName": "VX15/2503",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03374852",
+            "title": "CPI-613 in Combination With Modified FOLFIRINOX in Patients With Locally Advanced Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 7011,
+                    "therapyName": "CPI-613 + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "CPI-613 + FOLFIRINOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03376659",
+            "title": "Durvalumab Plus CV301 With Maintenance Chemotherapy in Metastatic Colorectal or Pancreatic Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6540,
+                    "therapyName": "Capecitabine + CV301 + Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6539,
+                    "therapyName": "Bevacizumab + Capecitabine + CV301 + Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03387098",
+            "title": "QUILT-3.070: Molecularly Informed Integrated Immunotherapy Combining Innate High-affinity Natural Killer (haNK) Cell Therapy With Adenoviral and Yeast-based Vaccines to Induce T-cell Responses in Subjects With Pancreatic Cancer Who Have Progressed on or After Standard-of-care Therapy",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1018,
+                    "therapyName": "GI-4000",
+                    "synonyms": null
+                },
+                {
+                    "id": 1642,
+                    "therapyName": "Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 619,
+                    "therapyName": "Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                },
+                {
+                    "id": 1715,
+                    "therapyName": "Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 6163,
+                    "therapyName": "ETBX-011",
+                    "synonyms": null
+                },
+                {
+                    "id": 1104,
+                    "therapyName": "Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1440,
+                    "therapyName": "Aldoxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03403049",
+            "title": "Carbon Ion Radiation Therapy for Locally Advanced Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 6639,
+                    "therapyName": "Capecitabine + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03404960",
+            "title": "Niraparib + Ipilimumab or Nivolumab in Progression Free Pancreatic Adenocarcinoma After Platinum-Based Chemotherapy (Parpvax)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6675,
+                    "therapyName": "Ipilimumab + Niraparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6674,
+                    "therapyName": "Niraparib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03410030",
+            "title": "Trial of Ascorbic Acid (AA) + Nanoparticle Paclitaxel Protein Bound + Cisplatin + Gemcitabine (AA NABPLAGEM) (AA NABPLAGEM)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9696,
+                    "therapyName": "Cisplatin + Gemcitabine + Nab-paclitaxel + Vitamin C",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03432676",
+            "title": "Study of IDO-1 Inhibitor Epacadostat in Combination With Pembrolizumab in Advanced Pancreatic Cancer With Chromosomal Instability/ Homologous Recombination Repair Deficiency (HRD)",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4088,
+                    "therapyName": "Epacadostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03451773",
+            "title": "M7824 (MSB0011359C) in Combination With Gemcitabine in Adults With Previously Treated Advanced Adenocarcinoma of the Pancreas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 6787,
+                    "therapyName": "Gemcitabine + M7824",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03490760",
+            "title": "Durvalumab and \"Booster\" Radiation in Metastatic Adenocarcinoma of the Pancreas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03504423",
+            "title": "Study Evaluating Efficacy and Safety of FFX Versus Combination of CPI-613 With mFFX in Patients With Metastatic Adenocarcinoma of the Pancreas",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6992,
+                    "therapyName": "CPI-613",
+                    "synonyms": null
+                },
+                {
+                    "id": 7011,
+                    "therapyName": "CPI-613 + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "CPI-613 + FOLFIRINOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03512756",
+            "title": "A Multi-Center Study of SM-88 in Subjects With Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8757,
+                    "therapyName": "Methoxsalen + Phenytoin + Sirolimus + SM88",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1715,
+                    "therapyName": "Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03519308",
+            "title": "A Pilot Study of Perioperative Nivolumab and Paricalcitol to Target the Micoenvironment in Resectable Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 6920,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Nivolumab + Paricalcitol",
+                    "synonyms": null
+                },
+                {
+                    "id": 6047,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03553004",
+            "title": "Niraparib in Metastatic Pancreatic Cancer After Previous Chemotherapy (NIRA-PANC): a Phase 2 Trial",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03563144",
+            "title": "QUILT-3.088: NANT Pancreatic Cancer Vaccine",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 7059,
+                    "therapyName": "Aldoxorubicin + ALT-803 + Avelumab + Bevacizumab + Capecitabine + Cyclophosphamide + ETBX-011 + ETBX-021 + ETBX-051 + ETBX-061 + Fluorouracil + Gemcitabine + GI-4000 + GI-6207 + GI-6301 + haNK cells + Leucovorin + Nab-paclitaxel + Oxaliplatin",
+                    "synonyms": "NANT pancreatic cancer vaccine combination"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03563248",
+            "title": "Losartan and Nivolumab in Combination With FOLFIRINOX and SBRT in Localized Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1903,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFIRINOX|FOLFOXIRI"
+                },
+                {
+                    "id": 7061,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Losartan + Oxaliplatin",
+                    "synonyms": "Losartan + FOLFIRINOX "
+                },
+                {
+                    "id": 7062,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Losartan + Nivolumab + Oxaliplatin",
+                    "synonyms": "Losartan + Nivolumab + FOLFIRINOX"
+                },
+                {
+                    "id": 7063,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Nivolumab + Oxaliplatin",
+                    "synonyms": "Nivolumab + FOLFIRINOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03586869",
+            "title": "QUILT-3.080: NANT Pancreatic Cancer Vaccine",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7059,
+                    "therapyName": "Aldoxorubicin + ALT-803 + Avelumab + Bevacizumab + Capecitabine + Cyclophosphamide + ETBX-011 + ETBX-021 + ETBX-051 + ETBX-061 + Fluorouracil + Gemcitabine + GI-4000 + GI-6207 + GI-6301 + haNK cells + Leucovorin + Nab-paclitaxel + Oxaliplatin",
+                    "synonyms": "NANT pancreatic cancer vaccine combination"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03601923",
+            "title": "Niraparib in Patients With Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03611556",
+            "title": "MEDI9447(Oleclumab) Pancreatic Chemotherapy Combination Study",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7251,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel + Oleclumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7252,
+                    "therapyName": "Durvalumab + Gemcitabine + Nab-paclitaxel + Oleclumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5850,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFOX"
+                },
+                {
+                    "id": 7253,
+                    "therapyName": "Fluorouracil + Leucovorin + Oleclumab + Oxaliplatin",
+                    "synonyms": "Oleclumab + FOLFOX"
+                },
+                {
+                    "id": 7254,
+                    "therapyName": "Durvalumab + Fluorouracil + Leucovorin + Oleclumab + Oxaliplatin",
+                    "synonyms": "Durvalumab + Oleclumab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03649321",
+            "title": "Chemotherapy With Nab-paclitaxel/Germcitabine/Cisplatin +/- BGB324 With Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7688,
+                    "therapyName": "Cisplatin + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 7687,
+                    "therapyName": "BGB-324 + Cisplatin + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03666988",
+            "title": "First Time in Humans (FTIH) Study of GSK3368715 in Subjects With Solid Tumors and Diffuse Large B-cell Lymphoma (DLBCL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9261,
+                    "therapyName": "GSK3368715",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03694249",
+            "title": "Ifetroban in Treating Patients With Malignant Solid Tumors at High Risk of Metastatic Recurrence",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 9193,
+                    "therapyName": "Ifetroban sodium",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03697564",
+            "title": "Nivolumab + Cabiralizumab + Gemcitabine Versus Gemcitabine in Patients With Stage IV Pancreatic Cancer Achieving Disease Control in Response to First-line Chemotherapy (GemCaN Trial).",
+            "phase": "FDA approved",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7430,
+                    "therapyName": "Cabiralizumab + Gemcitabine + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03723915",
+            "title": "Pembrolizumab and Pelareorep in Treating Patients With Advanced Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7557,
+                    "therapyName": "Pembrolizumab + Reolysin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03767582",
+            "title": "Trial of Neoadjuvant and Adjuvant Nivolumab and BMS-813160 With or Without GVAX for Locally Advanced Pancreatic Ductal Adenocarcinomas.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7614,
+                    "therapyName": "BMS-813160 + GVAX pancreatic cancer vaccine + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5903,
+                    "therapyName": "BMS-813160 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03801915",
+            "title": "Perioperative MVT-5873, a Fully Human Monoclonal Antibody Against a CA 19-9 Epitope, for Operable CA 19-9 Producing Pancreatic Cancers, Cholangiocarcinomas, and Metastatic Colorectal Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5712,
+                    "therapyName": "MVT-5873",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03816163",
+            "title": "A Study to Assess the Antitumor Activity and Safety of IMAB362 in Combination With Nab-Paclitaxel and Gemcitabine (Nab-P + GEM) as First Line Treatment in Subjects With Claudin 18.2 (CLDN18.2) Positive, Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 8351,
+                    "therapyName": "Claudiximab + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03816358",
+            "title": "Anetumab Ravtansine With Nivolumab, Ipilimumab and Gemcitabine Hydrochloride in Treating Patients With Mesothelin Positive Advanced Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8988,
+                    "therapyName": "Anetumab ravtansine + Gemcitabine + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8986,
+                    "therapyName": "Anetumab ravtansine + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8987,
+                    "therapyName": "Anetumab ravtansine + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03821935",
+            "title": "Study to Determine the Safety, Tolerability, Pharmacokinetics and RP2D of ABBV-151 as a Single Agent and in Combination With ABBV-181 in Subjects With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7795,
+                    "therapyName": "ABBV-151",
+                    "synonyms": null
+                },
+                {
+                    "id": 7796,
+                    "therapyName": "ABBV-151 + ABBV-181",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03851614",
+            "title": "Basket Combination Study of Inhibitors of DNA Damage Response, Angiogenesis and Programmed Death Ligand 1 in Patients With Advanced Solid Tumors (DAPPER)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2895,
+                    "therapyName": "Cediranib + Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2894,
+                    "therapyName": "Durvalumab + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03891979",
+            "title": "Gut Microbiome Modulation to Enable Efficacy of Checkpoint-based Immunotherapy in Pancreatic Adenocarcinoma",
+            "phase": "FDA approved",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 8114,
+                    "therapyName": "Ciprofloxacin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8115,
+                    "therapyName": "Metronidazole",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03948763",
+            "title": "A Study of mRNA-5671/V941 as Monotherapy and in Combination With Pembrolizumab (V941-001)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8563,
+                    "therapyName": "mRNA 5671",
+                    "synonyms": null
+                },
+                {
+                    "id": 8564,
+                    "therapyName": "mRNA 5671 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03956056",
+            "title": "Neoantigen Peptide Vaccine Strategy in Pancreatic Cancer Patients Following Surgical Resection and Adjuvant Chemotherapy",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8419,
+                    "therapyName": "Neoantigen peptide vaccine + Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03970252",
+            "title": "Nivolumab in Combination With Chemotherapy Before Surgery in Treating Patients With Borderline Resectable Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1903,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFIRINOX|FOLFOXIRI"
+                },
+                {
+                    "id": 7063,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Nivolumab + Oxaliplatin",
+                    "synonyms": "Nivolumab + FOLFIRINOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04005690",
+            "title": "Cobimetinib or Olaparib in Treating Patients With Resectable Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1004,
+                    "therapyName": "Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04007744",
+            "title": "Sonidegib and Pembrolizumab in Treating Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8531,
+                    "therapyName": "Pembrolizumab + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04034238",
+            "title": "Mesothelin-Targeted Immunotoxin LMB-100 in Combination With Tofacitinib in Persons With Previously Treated Pancreatic Adenocarcinoma, Cholangiocarcinoma and Other Mesothelin Expressing Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8628,
+                    "therapyName": "LMB-100 + Tofacitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04050085",
+            "title": "SD-101, Nivolumab, and Radiation Therapy in Treating Patients With Chemotherapy-Refractory Metastatic Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8656,
+                    "therapyName": "Nivolumab + SD-101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04058964",
+            "title": "Pembrolizumab and PEGPH20 in Treating Patients With Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 5779,
+                    "therapyName": "PEGPH20 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04060342",
+            "title": "GB1275 Monotherapy and in Combination With an Anti-PD1 Antibody in Patients With Specified Advanced Solid Tumors or in Combination With Standard of Care in Patients With Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8693,
+                    "therapyName": "GB1275",
+                    "synonyms": null
+                },
+                {
+                    "id": 8694,
+                    "therapyName": "GB1275 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8695,
+                    "therapyName": "GB1275 + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04083651",
+            "title": "A Study of Methylnaltrexone Bromide (MNTX) in Participants With Advanced Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1032,
+                    "therapyName": "Methylnaltrexone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04092673",
+            "title": "Study of eFT226 in Subjects With Selected Advanced Solid Tumor Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9228,
+                    "therapyName": "eFT226",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04098081",
+            "title": "1911GCCC: Galeterone or Galeterone With Gemcitabine for Patients With Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9093,
+                    "therapyName": "galeterone + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1508,
+                    "therapyName": "galeterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04104672",
+            "title": "A Study to Evaluate the Safety and Tolerability of AB680 in Participants With Gastrointestinal Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8858,
+                    "therapyName": "AB680 + GLS-010",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04123574",
+            "title": "A Pilot Study of BXCL701 in Patients With Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8172,
+                    "therapyName": "Talabostat Mesylate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04132505",
+            "title": "Binimetinib and Hydroxychloroquine in Treating Patients With KRAS Mutant Metastatic Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8856,
+                    "therapyName": "Binimetinib + Hydroxychloroquine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04137536",
+            "title": "A Study of Armed, Activated T-Cells in Patients With Advanced Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1012,
+                    "therapyName": "EGFRBi-armed autologous activated T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04191421",
+            "title": "Siltuximab and Spartalizumab in Patients With Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9036,
+                    "therapyName": "siltuximab + Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04193904",
+            "title": "A Study of Live Biotherapeutic Product MRx0518 With Hypofractionated Radiation Therapy in Resectable Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7320,
+                    "therapyName": "MRx0518",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04214418",
+            "title": "Study of Combination Therapy With the MEK Inhibitor, Cobimetinib, Immune Checkpoint Blockade, Atezolizumab, and the AUTOphagy Inhibitor, Hydroxychloroquine in KRAS-mutated Advanced Malignancies (MEKiAUTO)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9170,
+                    "therapyName": "Atezolizumab + Cobimetinib + Hydroxychloroquine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

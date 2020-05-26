@@ -1,0 +1,79 @@
+{
+    "id": 4230,
+    "name": "smooth muscle cancer",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4230",
+    "evidence": [
+        {
+            "id": 16305,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lorbrena (lorlatinib) inhibited Alk and Erk phosphorylation in smooth muscle cells expressing KANK2-ALK in culture, resulted in tumor regression and prolonged survival in cell line xenograft models (PMID: 30518629).",
+            "molecularProfile": {
+                "id": 31582,
+                "profileName": "KANK2 - ALK"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4230,
+                "name": "smooth muscle cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14378,
+                    "pubMedId": 30518629,
+                    "title": "Discovery and Characterization of Recurrent, Targetable ALK Fusions in Leiomyosarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30518629"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16306,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lorbrena (lorlatinib) inhibited Alk and Erk phosphorylation in smooth muscle cells expressing KANK2-ALK in culture, resulted in modest improvement of survival in cell line xenograft models (PMID: 30518629).",
+            "molecularProfile": {
+                "id": 31582,
+                "profileName": "KANK2 - ALK"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4230,
+                "name": "smooth muscle cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14378,
+                    "pubMedId": 30518629,
+                    "title": "Discovery and Characterization of Recurrent, Targetable ALK Fusions in Leiomyosarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30518629"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

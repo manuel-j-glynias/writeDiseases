@@ -1,0 +1,948 @@
+{
+    "id": 3459,
+    "name": "breast carcinoma",
+    "source": "DOID",
+    "definition": "A breast cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:http\\://en.wikipedia.org/wiki/Breast_cancer]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3459",
+    "evidence": [
+        {
+            "id": 4351,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R547 inhibited proliferation of breast carcinoma cell lines harboring TP53 and RB1 mutations in culture (PMID: 17121911).",
+            "molecularProfile": {
+                "id": 17821,
+                "profileName": "RB1 mut TP53 mut"
+            },
+            "therapy": {
+                "id": 3497,
+                "therapyName": "R547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4503,
+                    "pubMedId": 17121911,
+                    "title": "In vitro and in vivo activity of R547: a potent and selective cyclin-dependent kinase inhibitor currently in phase I clinical trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17121911"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4352,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R547 inhibited proliferation of breast carcinoma cell lines harboring mutant Tp53 and wild-type Rb1 in culture and reduced tumor growth in xenograft models (PMID: 17121911).",
+            "molecularProfile": {
+                "id": 17822,
+                "profileName": "RB1 wild-type TP53 mut"
+            },
+            "therapy": {
+                "id": 3497,
+                "therapyName": "R547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4503,
+                    "pubMedId": 17121911,
+                    "title": "In vitro and in vivo activity of R547: a potent and selective cyclin-dependent kinase inhibitor currently in phase I clinical trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17121911"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4353,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R547 inhibited proliferation of breast carcinoma cell lines harboring wild-type Tp53 and Rb1 (PMID: 17121911).",
+            "molecularProfile": {
+                "id": 17823,
+                "profileName": "RB1 wild-type TP53 wild-type"
+            },
+            "therapy": {
+                "id": 3497,
+                "therapyName": "R547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4503,
+                    "pubMedId": 17121911,
+                    "title": "In vitro and in vivo activity of R547: a potent and selective cyclin-dependent kinase inhibitor currently in phase I clinical trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17121911"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4716,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, glembatumumab vedotin treatment resulted in an overall responsive rate (ORR) of 30% (7/23) in breast carcinoma patients with more than 25% tumor cells expressing gpNMB, compared to a 9% ORR (1/11) in the chemotherapy group (PMID: 25847941).",
+            "molecularProfile": {
+                "id": 18831,
+                "profileName": "GPNMB over exp"
+            },
+            "therapy": {
+                "id": 3597,
+                "therapyName": "Glembatumumab vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4670,
+                    "pubMedId": 25847941,
+                    "title": "EMERGE: A Randomized Phase II Study of the Antibody-Drug Conjugate Glembatumumab Vedotin in Advanced Glycoprotein NMB-Expressing Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847941"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4719,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, glembatumumab vedotin treatment resulted in an overall responsive rate (ORR) of 6% (5/83) in breast carcinoma patients with gpNMB-expressing tumors, compared to a 7% ORR (3/41) in the chemotherapy group (PMID: 25847941).",
+            "molecularProfile": {
+                "id": 18829,
+                "profileName": "GPNMB positive"
+            },
+            "therapy": {
+                "id": 3597,
+                "therapyName": "Glembatumumab vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4670,
+                    "pubMedId": 25847941,
+                    "title": "EMERGE: A Randomized Phase II Study of the Antibody-Drug Conjugate Glembatumumab Vedotin in Advanced Glycoprotein NMB-Expressing Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847941"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5037,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK2830371 treatment, which requires an intact P53 response, had no effect on a breast cancer cell line co-harboring PPM1D amplification and a TP53 mutation (PMID: 24390428).",
+            "molecularProfile": {
+                "id": 20119,
+                "profileName": "PPM1D amp TP53 mut"
+            },
+            "therapy": {
+                "id": 3735,
+                "therapyName": "GSK2830371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4845,
+                    "pubMedId": 24390428,
+                    "title": "Allosteric Wip1 phosphatase inhibition through flap-subdomain interaction.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24390428"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6309,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XL147 inhibited PI3K signaling and proliferation of a human breast carcinoma cell line harboring PIK3CA E545K in culture and inhibited tumor growth in xenograft models (PMID: 25637314).",
+            "molecularProfile": {
+                "id": 2421,
+                "profileName": "PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 1050,
+                "therapyName": "XL147",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5522,
+                    "pubMedId": 25637314,
+                    "title": "The Selective PI3K Inhibitor XL147 (SAR245408) Inhibits Tumor Growth and Survival and Potentiates the Activity of Chemotherapeutic Agents in Preclinical Tumor Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25637314"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8251,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SYD985 decreased survival of ERBB2 (HER2)-positive breast carcinoma cell lines in culture, and inhibited tumor growth and induced tumor remission in cell line and patient-derived xenograft models of ERBB2 (HER2)-positive breast carcinoma, including models with low ERBB2 (HER2) expression (PMID: 25589493).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 4539,
+                "therapyName": "SYD985",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6587,
+                    "pubMedId": 25589493,
+                    "title": "The Preclinical Profile of the Duocarmycin-Based HER2-Targeting ADC SYD985 Predicts for Clinical Benefit in Low HER2-Expressing Breast Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25589493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8964,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MGCD516 decreased tumor cell proliferation, tumor vascularization, and target phosphorylation in human breast carcinoma cell line xenograft models (Cancer Research: April 15, 2013; Volume 73, Issue 8, Supplement 1, Abstract 930).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1655,
+                "therapyName": "MGCD516",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6811,
+                    "pubMedId": null,
+                    "title": "Preclinical characterization of MG516, a novel inhibitor of receptor tyrosine kinases involved in resistance to targeted therapies.",
+                    "url": "http://cancerres.aacrjournals.org/content/73/8_Supplement/930"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9142,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a mouse breast carcinoma cell line xenograft model demonstrated inhibition of tumor growth when treated with E7090, a result of decreased FGFR2 and FGFR3 activity (PMID: 27535969).",
+            "molecularProfile": {
+                "id": 26749,
+                "profileName": "FGFR2 pos FGFR3 pos"
+            },
+            "therapy": {
+                "id": 4911,
+                "therapyName": "E7090",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6928,
+                    "pubMedId": 27535969,
+                    "title": "E7090, a Novel Selective Inhibitor of Fibroblast Growth Factor Receptors, Displays Potent Antitumor Activity and Prolongs Survival in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27535969"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10786,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CVX-241 inhibited tumor growth in a breast carcinoma cell line xenograft model (PMID: 21149738).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5619,
+                "therapyName": "CVX-241",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8821,
+                    "pubMedId": 21149738,
+                    "title": "Chemical generation of bispecific antibodies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21149738"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10998,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RXDX-106 inhibited tumor growth in orthotopic animal models of breast carcinoma (Eur J Cancer, Vol 69, Supplement 1, December 2016, Page S31).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5710,
+                "therapyName": "RXDX-106",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8954,
+                    "pubMedId": null,
+                    "title": "Immuno-oncologic efficacy of RXDX-106, a selective, TAM family small molecule kinase inhibitor",
+                    "url": "http://www.sciencedirect.com/science/article/pii/S0959804916326739?via%3Dihub"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10999,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RXDX-106 in combination with an unspecified anti-PD-1 antibody resulted in near complete regression in orthotopic animal models of breast carcinoma (Eur J Cancer, Vol 69, Supplement 1, December 2016, Page S31).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5765,
+                "therapyName": "RXDX-106 + unspecified PD-1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8954,
+                    "pubMedId": null,
+                    "title": "Immuno-oncologic efficacy of RXDX-106, a selective, TAM family small molecule kinase inhibitor",
+                    "url": "http://www.sciencedirect.com/science/article/pii/S0959804916326739?via%3Dihub"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12763,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Camptothecin and CHIR-124 demonstrated synergy in TP53-mutant breast carcinoma cell lines in culture, resulting in increased growth inhibition (PMID: 17255282).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 6626,
+                "therapyName": "Camptothecin + CHIR-124",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10687,
+                    "pubMedId": 17255282,
+                    "title": "CHIR-124, a novel potent inhibitor of Chk1, potentiates the cytotoxicity of topoisomerase I poisons in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17255282"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12764,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, sequential treatment with Camptosaur (irinotecan) and CHIR-124 enhanced tumor growth inhibition compared to either agent alone in a breast carcinoma cell line xenograft model with defective TP53 (PMID: 17255282).",
+            "molecularProfile": {
+                "id": 489,
+                "profileName": "TP53 inact mut"
+            },
+            "therapy": {
+                "id": 6627,
+                "therapyName": "CHIR-124 + Irinotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10687,
+                    "pubMedId": 17255282,
+                    "title": "CHIR-124, a novel potent inhibitor of Chk1, potentiates the cytotoxicity of topoisomerase I poisons in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17255282"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12766,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SN-38 and CHIR-124 demonstrated synergy in a breast carcinoma cell line with defective TP53, resulting in increased cell cycle arrest and apoptosis in culture (PMID: 17255282).",
+            "molecularProfile": {
+                "id": 489,
+                "profileName": "TP53 inact mut"
+            },
+            "therapy": {
+                "id": 6628,
+                "therapyName": "CHIR-124 + SN-38",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10687,
+                    "pubMedId": 17255282,
+                    "title": "CHIR-124, a novel potent inhibitor of Chk1, potentiates the cytotoxicity of topoisomerase I poisons in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17255282"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14993,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MRx0518 stimulated immune response and reduced tumor size in syngeneic mouse models of breast carcinoma (Journal of Clinical Oncology 36, no. 15_suppl).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7320,
+                "therapyName": "MRx0518",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3459,
+                "name": "breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12004,
+                    "pubMedId": null,
+                    "title": "Host-microbe interactions mediating antitumorigenic effects of MRX0518, a gut microbiota-derived bacterial strain, in breast, renal and lung carcinoma.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.e15006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01174121",
+            "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01293032",
+            "title": "Hormone Therapy Or Chemotherapy Before Surgery Based on Gene Expression Analysis in Treating Patients With Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1456,
+                    "therapyName": "Tamoxifen",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01466972",
+            "title": "Reversing Hormone Resistance in Advanced Breast Cancer With Pazopanib",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01864746",
+            "title": "A Study of Palbociclib in Addition to Standard Endocrine Treatment in Hormone Receptor Positive Her2 Normal Patients With Residual Disease After Neoadjuvant Chemotherapy and Surgery (PENELOPE-B)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01945775",
+            "title": "A Study Evaluating Talazoparib (BMN 673), a PARP Inhibitor, in Advanced and/or Metastatic Breast Cancer Patients With BRCA Mutation (EMBRACA Study) (EMBRACA)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1685,
+                    "therapyName": "Vinorelbine",
+                    "synonyms": null
+                },
+                {
+                    "id": 682,
+                    "therapyName": "Talazoparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 728,
+                    "therapyName": "Eribulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01952054",
+            "title": "Denosumab for Breast Cancer With Bone Mets",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1198,
+                    "therapyName": "Denosumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02034916",
+            "title": "A Phase 2, 2-Stage, 2-Cohort Study of Talazoparib (BMN 673), in Locally Advanced and/or Metastatic Breast Cancer Patients With BRCA Mutation (ABRAZO Study)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 682,
+                    "therapyName": "Talazoparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02115282",
+            "title": "Exemestane With or Without Exemestane With or Without Entinostat in Treating Patients With Recurrent Hormone Receptor-Positive Breast Cancer That is Locally Advanced or Metastatic",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8276,
+                    "therapyName": "Exemestane + Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8275,
+                    "therapyName": "Entinostat + Exemestane + Goserelin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02270372",
+            "title": "Study of ONT-10 and Varlilumab to Treat Advanced Ovarian or Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2525,
+                    "therapyName": "Varlilumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3051,
+                    "therapyName": "ONT-10",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02278965",
+            "title": "Metformin and Omega-3 Fatty Acids in Woman With a History of Early Stage Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02411656",
+            "title": "MK-3475 for Metastatic Inflammatory Breast Cancer (MIBC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02436993",
+            "title": "Breast Cancer Treatment Using Weekly Carboplatin + Paclitaxel With Pertuzumab + Trastuzumab (HER2+) or Bevacizumab (HER2-) in the Neoadjuvant Setting",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1389,
+                    "therapyName": "Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02454972",
+            "title": "Clinical Trial of Lurbinectedin (PM01183) in Selected Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1195,
+                    "therapyName": "Lurbinectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02658812",
+            "title": "Talimogene Laherparepvec in Treating Patients With Recurrent Breast Cancer That Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2695,
+                    "therapyName": "Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02960594",
+            "title": "hTERT Immunotherapy Alone or in Combination With IL-12 DNA Followed by Electroporation in Adults With Solid Tumors at High Risk of Relapse",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5844,
+                    "therapyName": "INO-1400 + INO-9012",
+                    "synonyms": null
+                },
+                {
+                    "id": 5807,
+                    "therapyName": "INO-1400",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03004534",
+            "title": "A Study to Evaluate Changes in Human Breast Cancer Tissue Following Short-Term Use of ODM-201",
+            "phase": "Phase 0",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 836,
+                    "therapyName": "Darolutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03238196",
+            "title": "Fulvestrant, Palbociclib and Erdafitinib in ER+/HER2-/FGFR-amplified Metastatic Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6099,
+                    "therapyName": "Erdafitinib + Fulvestrant + Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03238495",
+            "title": "Randomized Trial of Neo-adjuvant Chemotherapy With or Without Metformin for HER2 Positive Operable Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1879,
+                    "therapyName": "Carboplatin + Docetaxel + Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6101,
+                    "therapyName": "Carboplatin + Docetaxel + Metformin + Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03238703",
+            "title": "Endocrine Therapy in Treating Patients With HER2 Negative, Low Risk Breast Cancer",
+            "phase": "FDA approved",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1456,
+                    "therapyName": "Tamoxifen",
+                    "synonyms": null
+                },
+                {
+                    "id": 738,
+                    "therapyName": "Exemestane",
+                    "synonyms": null
+                },
+                {
+                    "id": 4419,
+                    "therapyName": "Toremifene",
+                    "synonyms": null
+                },
+                {
+                    "id": 633,
+                    "therapyName": "Anastrozole",
+                    "synonyms": null
+                },
+                {
+                    "id": 794,
+                    "therapyName": "Letrozole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03747042",
+            "title": "Letrozole in Post-Menopausal Patients With Operable Hormone-Sensitive Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 794,
+                    "therapyName": "Letrozole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03861403",
+            "title": "A Dose Escalation and Expansion Study of TRX518 in Combination With Cyclophosphamide Plus Avelumab in Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8446,
+                    "therapyName": "Avelumab + Cyclophosphamide + TRX518",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03916744",
+            "title": "A Study of GDC-9545 in Postmenopausal Women With Stage I-III Operable, Estrogen Receptor-Positive Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6444,
+                    "therapyName": "GDC-9545",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03962647",
+            "title": "A 2-Week Ketogenic Diet in Combination With Letrozole to Modulate PI3K Signaling in ER+ Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 794,
+                    "therapyName": "Letrozole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04054752",
+            "title": "Vaccine Response With NT-I7",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9320,
+                    "therapyName": "NT-I7",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04294225",
+            "title": "Anastrozole and Letrozole After Surgery for the Treatment of Stage I-III Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1853,
+                    "therapyName": "Anastrozole + Letrozole",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,365 @@
+{
+    "id": 2101,
+    "name": "vulva squamous cell carcinoma",
+    "source": "DOID",
+    "definition": "A vulva carcinoma and has_material_basis_in squamous cells and is located_in the epidermis of the vulvar tissue. [url:http\\://en.wikipedia.org/wiki/Squamous-cell_carcinoma, url:http\\://en.wikipedia.org/wiki/Vulvar_cancer#Squamous_cell_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:2101",
+    "evidence": [
+        {
+            "id": 6979,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ABT-414 demonstrated cytoxicity against a EGFR-amplified vulvar epidermoid carcinoma cell line in culture and induced tumor regression in EGFR-amplified vulvar epidermoid carcinoma cell line xenograft models (PMID: 26846818).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 976,
+                "therapyName": "Depatuxizumab mafodotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5960,
+                    "pubMedId": 26846818,
+                    "title": "ABT-414, an Antibody-Drug Conjugate Targeting a Tumor-Selective EGFR Epitope.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26846818"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8833,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 0617B inhibited survival of vulva squamous cell carcinoma cells with activated Stat3 signaling in culture, and inhibited tumor growth in cell line xenograft models (PMID: 27439479).",
+            "molecularProfile": {
+                "id": 20856,
+                "profileName": "STAT3 positive"
+            },
+            "therapy": {
+                "id": 4822,
+                "therapyName": "Debio 0617B",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6765,
+                    "pubMedId": 27439479,
+                    "title": "Debio 0617B Inhibits Growth of STAT3-Driven Solid Tumors through Combined Inhibition of JAK, SRC, and Class III/V Receptor Tyrosine Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27439479"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17906,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a second-line therapy for patients with MSI high or dMMR vulva squamous cell carcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20562,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a second-line therapy for patients with CD274 (PD-L1)-positive vulva squamous cell carcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20563,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines for patients with advanced or metastatic vulva squamous cell carcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20564,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines for patients with advanced or metastatic vulva squamous cell carcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20565,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines for patients with advanced or metastatic vulva squamous cell carcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20566,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines for patients with advanced or metastatic vulvar squamous cell carcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20567,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines for patients with advanced or metastatic vulvar squamous cell carcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20568,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines for patients with advanced or metastatic vulvar squamous cell carcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2101,
+                "name": "vulva squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074513",
+            "title": "Atezolizumab and Bevacizumab in Rare Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03357757",
+            "title": "Avelumab With Valproic Acid in Virus-associated Cancer (LATENT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6769,
+                    "therapyName": "Avelumab + Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

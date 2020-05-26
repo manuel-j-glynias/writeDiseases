@@ -1,0 +1,118 @@
+{
+    "id": 2154,
+    "name": "nephroblastoma",
+    "source": "DOID",
+    "definition": "A kidney cancer that affects the kidneys and typically located_in children. [url:http\\://en.wikipedia.org/wiki/Wilms%27_tumor]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5180",
+        "5177"
+    ],
+    "termId": "DOID:2154",
+    "evidence": [
+        {
+            "id": 1175,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a Wilms tumor cell line and xenograft with the PALB2 Y1108fs truncating mutation showed complete response to the PARP inhibitor, Talazoparib (BMN-673) (PMID: 25263539).",
+            "molecularProfile": {
+                "id": 2074,
+                "profileName": "PALB2 Y1108fs"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2154,
+                "name": "nephroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 919,
+                    "pubMedId": 25263539,
+                    "title": "Initial testing (stage 1) of the PARP inhibitor BMN 673 by the pediatric preclinical testing program: PALB2 mutation predicts exceptional in vivo response to BMN 673.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25263539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01661400",
+            "title": "Anti-Angiogenic Therapy Post Transplant (ASCR) for Relapsed and Refractory Pediatric Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1475,
+                    "therapyName": "Thalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02789228",
+            "title": "Research Study Utilizing Expanded Multi-antigen Specific Lymphocytes for the Treatment of Solid Tumors (REST)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02982941",
+            "title": "Enoblituzumab (MGA271) in Children With B7-H3-expressing Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2863,
+                    "therapyName": "MGA271",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

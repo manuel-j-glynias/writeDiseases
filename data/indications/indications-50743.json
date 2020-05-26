@@ -1,0 +1,316 @@
+{
+    "id": 50743,
+    "name": "mature T-cell and NK-cell lymphoma",
+    "source": "DOID",
+    "definition": "A non-Hodgkin lymphoma that has_material_basis_in mature T lymphocytes and natural killer cells. [url:http\\://www.cancer.gov/dictionary?CdrID=393800, url:http\\://www.cancer.gov/dictionary?CdrID=44062, url:https\\://www.ncbi.nlm.nih.gov/pubmed/21919697]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050743",
+    "evidence": [
+        {
+            "id": 1087,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xeljanz (tofacitinib), a pan-JAK inhibitor, reduced cell viability and increased apoptosis in a JAK3 A572V mutant natural killer/T-cell lymphoma cell line (PMID: 22705984).",
+            "molecularProfile": {
+                "id": 2168,
+                "profileName": "JAK3 A572V"
+            },
+            "therapy": {
+                "id": 941,
+                "therapyName": "Tofacitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50743,
+                "name": "mature T-cell and NK-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 821,
+                    "pubMedId": 22705984,
+                    "title": "Janus kinase 3-activating mutations identified in natural killer/T-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22705984"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4959,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with AZD1480 resulted in decreased STAT5B phosphorylation and inhibition of growth of natural killer cells expressing STAT5B I704L in culture (PMID: 25586472).",
+            "molecularProfile": {
+                "id": 19844,
+                "profileName": "STAT5B I704L"
+            },
+            "therapy": {
+                "id": 652,
+                "therapyName": "AZD1480",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50743,
+                "name": "mature T-cell and NK-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4809,
+                    "pubMedId": 25586472,
+                    "title": "Activating mutations of STAT5B and STAT3 in lymphomas derived from \u03b3\u03b4-T or NK cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25586472"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12792,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, DS-3201b demonstrated preliminary clinical activity in patients with T-cell lymphoma, with an overall response rate of 80% (4/5; 1 complete response/remission, and 3 partial responses) (Blood Dec 2017, 130 (Suppl 1) 4070; NCT02732275).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5691,
+                "therapyName": "DS-3201b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50743,
+                "name": "mature T-cell and NK-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10717,
+                    "pubMedId": null,
+                    "title": "First-in-Human Study of the EZH1/2 Dual Inhibitor DS-3201b in Patients with Relapsed or Refractory Non-Hodgkin Lymphomas \u2014 Preliminary Results",
+                    "url": "http://www.bloodjournal.org/content/130/Suppl_1/4070?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02232516",
+            "title": "Romidepsin and Lenalidomide in Treating Patients With Previously Untreated Peripheral T-Cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8060,
+                    "therapyName": "Lenalidomide + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02342782",
+            "title": "Yttrium Y 90 Basiliximab and Combination Chemotherapy Before Stem Cell Transplant in Treating Patients With Mature T-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8247,
+                    "therapyName": "90Y basiliximab + Carmustine + Cytarabine + Etoposide + Melphalan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02567656",
+            "title": "Safety and Efficacy Study of a Dual PI3K Delta/Gamma Inhibitor in T-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2020,
+                    "therapyName": "RP6530",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02588651",
+            "title": "A Phase II Study of Single Agent Brentuximab Vedotin in Relapsed/Refractory CD30 Low (<10%) Mature T Cell Lymphoma (TCL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2486,
+                    "therapyName": "Brentuximab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02973113",
+            "title": "Nivolumab With Epstein Barr Virus Specific T Cells (EB-VSTS), Relapsed/Refractory EBV Positive Lymphoma (PREVALE) (PREVALE)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5058,
+                    "therapyName": "EB-VST cells + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02974647",
+            "title": "Study of Ruxolitinib in Relapsed or Refractory T or NK Cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978625",
+            "title": "Talimogene Laherparepvec and Nivolumab in Treating Patients With Refractory Lymphomas or Advanced or Refractory Non-melanoma Skin Cancers",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5080,
+                    "therapyName": "Nivolumab + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03049449",
+            "title": "T Cells Expressing a Fully-Human Anti-CD30 Chimeric Antigen Receptor for Treating CD30-Expressing Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9020,
+                    "therapyName": "ATLCAR.CD30 cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03075553",
+            "title": "Nivolumab in Treating Patients With Relapsed or Refractory Peripheral T-cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03113500",
+            "title": "Brentuximab Vedotin and Combination Chemotherapy in Treating Patients With CD30-Positive Peripheral T-cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 9023,
+                    "therapyName": "Brentuximab vedotin + Cyclophosphamide + Doxorubicin + Etoposide + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03372057",
+            "title": "A Study of Duvelisib in Patients With Relapsed or Refractory Peripheral T Cell Lymphoma (PTCL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03586024",
+            "title": "Phase I/II Study of Pembrolizumab in Patients With Relapsed or Refractory Extranodal NK/T- Cell Lymphoma (ENKTL), Nasal Type and EBV-associated Diffuse Large B Cell Lymphomas (EBV-DLBCL)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03728972",
+            "title": "Study of Pembrolizumab in Patients With Early-Stage NK/T-cell Lymphoma, Nasal Type",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04233697",
+            "title": "Copanlisib in Combination With Romidepsin in Patients With Relapsed or Refractory Mature T-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9250,
+                    "therapyName": "Copanlisib + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

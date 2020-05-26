@@ -1,0 +1,153 @@
+{
+    "id": 50909,
+    "name": "MALT lymphoma",
+    "source": "DOID",
+    "definition": "A marginal zone B-cell lymphoma that has_material_basis_in mucosal tissue involved in antibody production. [url:http\\://www.cancer.gov/dictionary?CdrID=45774, url:http\\://www.cancerresearchuk.org/about-cancer/non-hodgkin-lymphoma/types/malt]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050909",
+    "evidence": [
+        {
+            "id": 8440,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, GDC-0917 treatment induced rapid decrease of Birc2 (cIAP-1) level, and resulted in sustained complete response in a patient with mucosa-associated lymphoid tissue (MALT) lymphoma of the stomach, who remained disease-free for over 2 years after discontinuing treatment (PMID: 27076626).",
+            "molecularProfile": {
+                "id": 26248,
+                "profileName": "BIRC2 positive"
+            },
+            "therapy": {
+                "id": 3639,
+                "therapyName": "GDC-0917",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50909,
+                "name": "MALT lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6658,
+                    "pubMedId": 27076626,
+                    "title": "A Phase I Dose-Escalation Study Evaluating the Safety Tolerability and Pharmacokinetics of CUDC-427, a Potent, Oral, Monovalent IAP Antagonist, in Patients with Refractory Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27076626"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10499,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, Chlorambucil and Rituxan (Rituximab) combination treatment resulted in improved event-free survival (HR=0.54) but not longer overall survival in patients with mucosa-associated lymphoid tissue lymphoma (PMID: 28355112).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5544,
+                "therapyName": "Chlorambucil + Rituximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50909,
+                "name": "MALT lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8570,
+                    "pubMedId": 28355112,
+                    "title": "Final Results of the IELSG-19 Randomized Trial of Mucosa-Associated Lymphoid Tissue Lymphoma: Improved Event-Free and Progression-Free Survival With Rituximab Plus Chlorambucil Versus Either Chlorambucil or Rituximab Monotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28355112"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19105,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "MYD88 mutations aid in the diagnosis of MALT lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 1917,
+                "profileName": "MYD88 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50909,
+                "name": "MALT lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02564744",
+            "title": "Study to Evaluate the Efficacy and Tolerability Debio 1562 in Combination With Rituximab in Patients With Relapsed and/or Refractory DLBCL and Other Forms of NHL",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6931,
+                    "therapyName": "IMGN529 + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03147885",
+            "title": "Selinexor Plus Combination Chemotherapy in Treating Patients With Advanced B Cell Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03696784",
+            "title": "Anti-CD19 CAR-T Cells With Inducible Caspase 9 Safety Switch for B-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                },
+                {
+                    "id": 7976,
+                    "therapyName": "Bendamustine + Fludarabine + iC9/CAR.19/IL15-Transduced CB-NK",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,273 @@
+{
+    "id": 5078,
+    "name": "ganglioglioma",
+    "source": "DOID",
+    "definition": "A cell type benign neoplasm that has_material_basis_in glial-type cells. [url:http\\://en.wikipedia.org/wiki/Ganglioglioma, url:http\\://www.stjude.org/stjude/v/index.jsp?vgnextoid=7e0d061585f70110VgnVCM1000001e0215acRCRD]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5607",
+        "5606"
+    ],
+    "termId": "DOID:5078",
+    "evidence": [
+        {
+            "id": 15174,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tafinlar (dabrafenib) treatment resulted in partial response 8 weeks after therapy initiation in a pediatric patient with anaplastic ganglioglioma harboring BRAF V600E, but disease progression occurred at 40 weeks due to acquired resistance (PMID: 29880583).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5078,
+                "name": "ganglioglioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12771,
+                    "pubMedId": 29880583,
+                    "title": "A Secondary Mutation in BRAF Confers Resistance to RAF Inhibition in a BRAFV600E-Mutant Brain Tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29880583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21199,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) is included in guidelines as an adjuvant treatment for patients with ganglioglioma harboring BRAF V600E (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5078,
+                "name": "ganglioglioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15175,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a pediatric patient with anaplastic ganglioglioma harboring BRAF V600E progressed after initial response to Tafinlar (dabrafenib) treatment, and was found to have acquired a BRAF L514V in cis with BRAF V600E, which conferred dabrafenib resistance in culture (PMID: 29880583).",
+            "molecularProfile": {
+                "id": 30813,
+                "profileName": "BRAF L514V BRAF V600E"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5078,
+                "name": "ganglioglioma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12771,
+                    "pubMedId": 29880583,
+                    "title": "A Secondary Mutation in BRAF Confers Resistance to RAF Inhibition in a BRAFV600E-Mutant Brain Tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29880583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19719,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, Tafinlar (dabrafenib) treatment resulted in a partial response in a pediatric patient with BRAF V600-mutant ganglioglioma (PMID: 31811016; NCT01677741).",
+            "molecularProfile": {
+                "id": 1186,
+                "profileName": "BRAF V600X"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5078,
+                "name": "ganglioglioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17524,
+                    "pubMedId": 31811016,
+                    "title": "Efficacy and Safety of Dabrafenib in Pediatric Patients with BRAF V600 Mutation-Positive Relapsed or Refractory Low-Grade Glioma: Results from a Phase I/IIa Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31811016"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21200,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Mekinist (trametinib) is included in guidelines as an adjuvant treatment for patients with ganglioglioma harboring BRAF V600E (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5078,
+                "name": "ganglioglioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 21204,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) is included in guidelines as an adjuvant treatment for patients with ganglioglioma harboring BRAF V600E (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5078,
+                "name": "ganglioglioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 21205,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Cotellic (cobimetinib) is included in guidelines as an adjuvant treatment for patients with ganglioglioma harboring BRAF V600E (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1004,
+                "therapyName": "Cobimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5078,
+                "name": "ganglioglioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01999270",
+            "title": "Evaluation of FDOPA-PET/MRI in Pediatric Patients With CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2112,
+                    "therapyName": "Bevacizumab + Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03919071",
+            "title": "Dabrafenib Combined With Trametinib After Radiation Therapy in Treating Patients With Newly-Diagnosed High-Grade Glioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03975829",
+            "title": "Pediatric Long-Term Follow-up and Rollover Study",
+            "phase": "FDA approved",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

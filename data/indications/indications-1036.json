@@ -1,0 +1,178 @@
+{
+    "id": 1036,
+    "name": "chronic leukemia",
+    "source": "DOID",
+    "definition": "A leukemia that develops slowly. [url:http\\://www.nlm.nih.gov/medlineplus/leukemiaadultchronic.html]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:1036",
+    "evidence": [
+        {
+            "id": 806,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I study, patients with chronic eosinophilic leukemia harboring KIT M541L in the absence of rearrangements of PDGFRA and PDGFRB were sensitive to Gleevec (imatinib) (4/5 patients harbored M541L and 5/5 patients achieved complete and persistent remission) (PMID: 25015329).",
+            "molecularProfile": {
+                "id": 1114,
+                "profileName": "KIT M541L PDGFRA wild-type PDGFRB wild-type"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1036,
+                "name": "chronic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 462,
+                    "pubMedId": 25015329,
+                    "title": "Identification of kit(M541L) somatic mutation in chronic eosinophilic leukemia, not otherwise specified and its implication in low-dose imatinib response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25015329"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1074,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In Phase I trials, KIT M541L has been associated with response to Gleevec (imatinib) in chronic eosinophilic leukemia, NOS (PMID: 25015329) and mastocytosis (PMID: 18795925).",
+            "molecularProfile": {
+                "id": 1113,
+                "profileName": "KIT M541L"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1036,
+                "name": "chronic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 460,
+                    "pubMedId": 18795925,
+                    "title": "Association of paediatric mastocytosis with a polymorphism resulting in an amino acid substitution (M541L) in the transmembrane domain of c-KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18795925"
+                },
+                {
+                    "id": 462,
+                    "pubMedId": 25015329,
+                    "title": "Identification of kit(M541L) somatic mutation in chronic eosinophilic leukemia, not otherwise specified and its implication in low-dose imatinib response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25015329"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4651,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case report, a patient with STRN-PDGFRA positive chronic eosinophilic leukemia experienced complete cytogenic remission after treatment with Gleevec (imatinib) (PMID: 17555450).",
+            "molecularProfile": {
+                "id": 18677,
+                "profileName": "STRN - PDGFRA"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1036,
+                "name": "chronic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4649,
+                    "pubMedId": 17555450,
+                    "title": "Two novel imatinib-responsive PDGFRA fusion genes in chronic eosinophilic leukaemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17555450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4652,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case report, a patient with ETV6-PDGFRA positive chronic eosinophilic leukemia experienced complete cytogenic remission after treatment with Gleevec (imatinib) (PMID: 17555450).",
+            "molecularProfile": {
+                "id": 18676,
+                "profileName": "ETV6 - PDGFRA"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1036,
+                "name": "chronic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4649,
+                    "pubMedId": 17555450,
+                    "title": "Two novel imatinib-responsive PDGFRA fusion genes in chronic eosinophilic leukaemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17555450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5066,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, 5% (1/19) of chronic leukemia patients achieved partial response, and 79% (15/19) achieved stable disease following treatment with RG7112 (PMID: 26459177).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2076,
+                "therapyName": "RG7112",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1036,
+                "name": "chronic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4871,
+                    "pubMedId": 26459177,
+                    "title": "Results of the Phase I Trial of RG7112, a Small-Molecule MDM2 Antagonist in Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26459177"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

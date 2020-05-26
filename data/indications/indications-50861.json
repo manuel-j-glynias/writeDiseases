@@ -1,0 +1,2548 @@
+{
+    "id": 50861,
+    "name": "colorectal adenocarcinoma",
+    "source": "DOID",
+    "definition": "A colorectal carcinoma that derives_from epithelial cells of glandular origin. [url:http\\://cancergenome.nih.gov/cancersselected/colorectaladenocarcinoma, url:http\\://en.wikipedia.org/wiki/Adenocarcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050861",
+    "evidence": [
+        {
+            "id": 1439,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, sensitivity to Eloxatin (oxaliplatin) was increased in colorectal tumor cell lines carrying KRAS codon 12 or 13 mutations (PMID: 23209813).",
+            "molecularProfile": {
+                "id": 1192,
+                "profileName": "KRAS G12X"
+            },
+            "therapy": {
+                "id": 1104,
+                "therapyName": "Oxaliplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1282,
+                    "pubMedId": 23209813,
+                    "title": "KRAS mutation is a predictor of oxaliplatin sensitivity in colon cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23209813"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2503,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of VX-970 and Camptosar (irinotecan) synergized to inhibit proliferation of a colorectal adenocarcinoma cell line in culture and to inhibit tumor growth in a human colorectal adenocarcinoma cell line xenograft model (PMID: 25269479).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2883,
+                "therapyName": "Irinotecan + VX-970",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3172,
+                    "pubMedId": 25269479,
+                    "title": "ATR inhibitors VE-821 and VX-970 sensitize cancer cells to topoisomerase i inhibitors by disabling DNA replication initiation and fork elongation responses.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25269479"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2854,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Pictilisib (GDC-0941) and Cobimetinib (GDC-0973) inhibited tumor growth in a colorectal adenocarcinoma xenograft model harboring KRAS G13D and PIK3CA E545K mutations, and demonstrated improved efficacy over either agent alone (PMID: 22084396).",
+            "molecularProfile": {
+                "id": 10712,
+                "profileName": "KRAS G13D PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 1702,
+                "therapyName": "Cobimetinib + Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 353,
+                    "pubMedId": 22084396,
+                    "title": "Intermittent administration of MEK inhibitor GDC-0973 plus PI3K inhibitor GDC-0941 triggers robust apoptosis and tumor growth inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22084396"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3063,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Platinol (cisplatin) inhibited growth of a human colorectal adenocarcinoma cell line harboring BRCA2 deletion in culture, and inhibited tumor growth in xenograft models (PMID: 25193512).",
+            "molecularProfile": {
+                "id": 11671,
+                "profileName": "BRCA2 del"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3461,
+                    "pubMedId": 25193512,
+                    "title": "Dual targeting of hypoxia and homologous recombination repair dysfunction in triple-negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3064,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal adenocarcinoma cells with BRCA2 deletion demonstrated increased sensitivity to PR-104 compared to cells with intact BRCA2 in culture and in cell line xenograft models (PMID: 25193512)",
+            "molecularProfile": {
+                "id": 11671,
+                "profileName": "BRCA2 del"
+            },
+            "therapy": {
+                "id": 3029,
+                "therapyName": "PR-104",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3461,
+                    "pubMedId": 25193512,
+                    "title": "Dual targeting of hypoxia and homologous recombination repair dysfunction in triple-negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3065,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal adenocarcinoma cells with BRCA2 deletion demonstrated increased sensitivity to Evofosfamide (TH-302) compared to cells with intact BRCA2 in culture and human cell line xenograft models (PMID: 25193512).",
+            "molecularProfile": {
+                "id": 11671,
+                "profileName": "BRCA2 del"
+            },
+            "therapy": {
+                "id": 1317,
+                "therapyName": "Evofosfamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3461,
+                    "pubMedId": 25193512,
+                    "title": "Dual targeting of hypoxia and homologous recombination repair dysfunction in triple-negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3066,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal adenocarcinoma cells with BRCA2 deletion demonstrated increased sensitivity to Ambochlorin (chlorambucil) compared to cells with intact BRCA2 in culture (PMID: 25193512).",
+            "molecularProfile": {
+                "id": 11671,
+                "profileName": "BRCA2 del"
+            },
+            "therapy": {
+                "id": 3035,
+                "therapyName": "Chlorambucil",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3461,
+                    "pubMedId": 25193512,
+                    "title": "Dual targeting of hypoxia and homologous recombination repair dysfunction in triple-negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5780,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DEL-22379 inhibited tumor growth in a colorectal adenocarcinoma patient-derived xenograft model harboring BRAF V600E (PMID: 26267534).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 3769,
+                "therapyName": "DEL-22379",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4897,
+                    "pubMedId": 26267534,
+                    "title": "Small Molecule Inhibition of ERK Dimerization Prevents Tumorigenesis by RAS-ERK Pathway Oncogenes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26267534"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6200,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Zykadia (ceritinib) treatment resulted in stable disease with a decrease in size in the tumor metastasis in a colorectal adenocarcinoma patient harboring a STRN-ALK fusion (PMID: 26933125).",
+            "molecularProfile": {
+                "id": 11388,
+                "profileName": "STRN - ALK"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5443,
+                    "pubMedId": 26933125,
+                    "title": "Oncogenic ALK Fusion in Rare and Aggressive Subtype of Colorectal Adenocarcinoma as a Potential Therapeutic Target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26933125"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6201,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a colorectal adenocarcinoma patient harboring a STRN-ALK fusion demonstrated initial benefit with Zykadia (ceritinib) treatment, but became resistant after 9 months following the appearance of a KRAS G13D mutation (PMID: 26933125).",
+            "molecularProfile": {
+                "id": 22831,
+                "profileName": "STRN - ALK KRAS G13D"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5443,
+                    "pubMedId": 26933125,
+                    "title": "Oncogenic ALK Fusion in Rare and Aggressive Subtype of Colorectal Adenocarcinoma as a Potential Therapeutic Target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26933125"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8452,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGFR2 amplified colorectal adenocarcinoma cells demonstrated decreased response to RO4987655 in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 3147,
+                "profileName": "FGFR2 amp"
+            },
+            "therapy": {
+                "id": 903,
+                "therapyName": "RO4987655",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8463,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RO4987655 inhibited proliferation of colorectal adenocarcinoma cells harboring KRAS G13D in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 903,
+                "therapyName": "RO4987655",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8470,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RO5126766 inhibited proliferation of FGFR2 amplified colorectal adenocarcinoma cells in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 3147,
+                "profileName": "FGFR2 amp"
+            },
+            "therapy": {
+                "id": 2011,
+                "therapyName": "RO5126766",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8480,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RO5126766 inhibited proliferation of colorectal adenocarcinoma cells harboring KRAS G13D in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 2011,
+                "therapyName": "RO5126766",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8484,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGFR2 amplified colorectal adenocarcinoma cells were not sensitive to Selumetinib (AZD-6244) in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 3147,
+                "profileName": "FGFR2 amp"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8493,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD-6244) inhibited proliferation of colorectal adenocarcinoma cells harboring KRAS G13D in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9681,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of CRLX101 to Adrucil (fluorouracil) and radiotherapy resulted in a greater decrease in tumor volume in colorectal adenocarcinoma xenograft models when compared to the combination of Adrucil (fluorouracil) and radiotherapy only (PMID: 27784746).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5155,
+                "therapyName": "CRLX101 + Fluorouracil + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7475,
+                    "pubMedId": 27784746,
+                    "title": "CRLX101, a Nanoparticle-Drug Conjugate Containing Camptothecin, Improves Rectal Cancer Chemoradiotherapy by Inhibiting DNA Repair and HIF1\u03b1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27784746"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9714,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with metastatic colorectal adenocarcinoma harboring ERBB2 (HER2) amplification demonstrated clinical benefit with stable disease in the primary tumor for 7 months following treatment with Kadcyla (trastuzumab emtansine) (PMID: 28040715).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7488,
+                    "pubMedId": 28040715,
+                    "title": "Prolonged Response to HER2-Directed Therapy in a Patient With HER2-Amplified, Rapidly Progressive Metastatic Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28040715"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10019,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD6738 increased sensitivity to radiotherapy in a colorectal adenocarcinoma cell line harboring wild-type BRCA2 in culture, resulting in a greater decrease in cell survival compared to radiotherapy alone (PMID: 28062704).",
+            "molecularProfile": {
+                "id": 442,
+                "profileName": "BRCA2 wild-type"
+            },
+            "therapy": {
+                "id": 5346,
+                "therapyName": "AZD6738 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7909,
+                    "pubMedId": 28062704,
+                    "title": "Radiosensitization by the ATR Inhibitor AZD6738 through Generation of Acentric Micronuclei.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28062704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10020,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD6738 increased sensitivity to radiotherapy in a colorectal adenocarcinoma cell line deficient for BRCA2 in culture, resulting in a greater decrease in cell survival compared to radiotherapy alone (PMID: 28062704).",
+            "molecularProfile": {
+                "id": 1788,
+                "profileName": "BRCA2 loss"
+            },
+            "therapy": {
+                "id": 5346,
+                "therapyName": "AZD6738 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7909,
+                    "pubMedId": 28062704,
+                    "title": "Radiosensitization by the ATR Inhibitor AZD6738 through Generation of Acentric Micronuclei.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28062704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11461,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Varlilumab resulted in stable disease for 5.7 months in a patient with colorectal adenocarcinoma (PMID: 28463630).",
+            "molecularProfile": {
+                "id": 28056,
+                "profileName": "CD27 positive"
+            },
+            "therapy": {
+                "id": 2525,
+                "therapyName": "Varlilumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9482,
+                    "pubMedId": 28463630,
+                    "title": "Safety and Activity of Varlilumab, a Novel and First-in-Class Agonist Anti-CD27 Antibody, in Patients With Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28463630"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11609,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, the combination of Erbitux (cetuximab), Sprycel (dasatinib), and FOLFOX demonstrated minimal clinical benefit in patients with metastatic colorectal adenocarcinoma, with an overall response rate of 20% (6/30) in the Phase Ib portion, and 13% (3/24) in KRAS codon 12/13 wild-type patients in the Phase II portion (PMID: 28280091; NCT00501410).",
+            "molecularProfile": {
+                "id": 496,
+                "profileName": "KRAS wild-type"
+            },
+            "therapy": {
+                "id": 6074,
+                "therapyName": "Cetuximab + Dasatinib + Fluorouracil + Leucovorin + Oxaliplatin",
+                "synonyms": "Cetuximab + Dasatinib + FOLFOX"
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 9667,
+                    "pubMedId": 28280091,
+                    "title": "Dual Inhibition of EGFR and c-Src by Cetuximab and Dasatinib Combined with FOLFOX Chemotherapy in Patients with Metastatic Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28280091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11610,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, the combination of Sprycel (dasatinib) and FOLFOX demonstrated minimal clinical benefit in patients with metastatic colorectal adenocarcinoma harboring KRAS codon 12/13 mutations, with no responses and a median time to treatment failure of 2.0 months (PMID: 28280091; NCT00501410).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 6075,
+                "therapyName": "Dasatinib + Fluorouracil + Leucovorin + Oxaliplatin",
+                "synonyms": "Dasatinib + FOLFOX"
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 9667,
+                    "pubMedId": 28280091,
+                    "title": "Dual Inhibition of EGFR and c-Src by Cetuximab and Dasatinib Combined with FOLFOX Chemotherapy in Patients with Metastatic Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28280091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11896,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CS-11 induced cytotoxicity in a colorectal adenocarcinoma cell line in culture, and inhibited tumor growth in xenograft models (PMID: 28500231).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6202,
+                "therapyName": "CS-11",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9888,
+                    "pubMedId": 28500231,
+                    "title": "Discovery of a Novel Small-Molecule Inhibitor that Targets PP2A-\u03b2-Catenin Signaling and Restricts Tumor Growth and Metastasis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28500231"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12826,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PRN1371 inhibited proliferation of colorectal adenocarcinoma cells harboring FGFR2 amplification and FGFR2-COL14A1 fusion in culture (PMID: 28978721).",
+            "molecularProfile": {
+                "id": 28932,
+                "profileName": "FGFR2 - COL14A1 FGFR2 amp"
+            },
+            "therapy": {
+                "id": 3583,
+                "therapyName": "PRN1371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10753,
+                    "pubMedId": 28978721,
+                    "title": "The Irreversible Covalent Fibroblast Growth Factor Receptor Inhibitor PRN1371 Exhibits Sustained Inhibition of FGFR after Drug Clearance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978721"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13833,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal carcinoma cell line harboring CTNNB1 S45F, demonstrated increased sensitivity to NTRC 0066-0 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 4008,
+                "profileName": "CTNNB1 S45F"
+            },
+            "therapy": {
+                "id": 3461,
+                "therapyName": "NTRC 0066-0",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13834,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal carcinoma cell line harboring CTNNB1 S33Y, demonstrated increased sensitivity to NTRC 0066-0 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 3950,
+                "profileName": "CTNNB1 S33Y"
+            },
+            "therapy": {
+                "id": 3461,
+                "therapyName": "NTRC 0066-0",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13838,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S45F, demonstrated increased sensitivity to Mps-BAY2b compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 4008,
+                "profileName": "CTNNB1 S45F"
+            },
+            "therapy": {
+                "id": 3451,
+                "therapyName": "Mps-BAY2b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13839,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S33Y, demonstrated increased sensitivity to Mps-BAY2b compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 3950,
+                "profileName": "CTNNB1 S33Y"
+            },
+            "therapy": {
+                "id": 3451,
+                "therapyName": "Mps-BAY2b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13841,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S33Y, demonstrated increased sensitivity to NMS-P715 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 3950,
+                "profileName": "CTNNB1 S33Y"
+            },
+            "therapy": {
+                "id": 3107,
+                "therapyName": "NMS-P715",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13842,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S45F, demonstrated increased sensitivity to NMS-P715 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 4008,
+                "profileName": "CTNNB1 S45F"
+            },
+            "therapy": {
+                "id": 3107,
+                "therapyName": "NMS-P715",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13848,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S45del, demonstrated increased sensitivity to BAY1161909 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 1001,
+                "profileName": "CTNNB1 S45del"
+            },
+            "therapy": {
+                "id": 3445,
+                "therapyName": "BAY1161909",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13850,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S33Y, demonstrated increased sensitivity to BAY1161909 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 3950,
+                "profileName": "CTNNB1 S33Y"
+            },
+            "therapy": {
+                "id": 3445,
+                "therapyName": "BAY1161909",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13851,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S33Y, demonstrated increased sensitivity to BAY1217389 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 3950,
+                "profileName": "CTNNB1 S33Y"
+            },
+            "therapy": {
+                "id": 3446,
+                "therapyName": "BAY1217389",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13852,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S45F, demonstrated increased sensitivity to BAY1217389 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 4008,
+                "profileName": "CTNNB1 S45F"
+            },
+            "therapy": {
+                "id": 3446,
+                "therapyName": "BAY1217389",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13857,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S45F demonstrated increased sensitivity to Mps1-IN-1 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 4008,
+                "profileName": "CTNNB1 S45F"
+            },
+            "therapy": {
+                "id": 3424,
+                "therapyName": "Mps1-IN-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13858,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S33Y demonstrated increased sensitivity to Mps1-IN-1 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 3950,
+                "profileName": "CTNNB1 S33Y"
+            },
+            "therapy": {
+                "id": 3424,
+                "therapyName": "Mps1-IN-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13859,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S33Y demonstrated increased sensitivity to MPI-0479605 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 3950,
+                "profileName": "CTNNB1 S33Y"
+            },
+            "therapy": {
+                "id": 3458,
+                "therapyName": "MPI-0479605",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13860,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colorectal adenocarcinoma cell line harboring CTNNB1 S45F demonstrated increased sensitivity to MPI-0479605 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 4008,
+                "profileName": "CTNNB1 S45F"
+            },
+            "therapy": {
+                "id": 3458,
+                "therapyName": "MPI-0479605",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16774,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a colorectal carcinoma patient who initially achieved stable disease following treatment with Tykerb (lapatinib) and Herceptin (trastuzumab) developed secondary resistance, presenting with a brain metastasis, and ERBB2 (HER2) L869R was identified in the brain lesion (PMID: 29941010).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 1414,
+                "therapyName": "Lapatinib + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14900,
+                    "pubMedId": 29941010,
+                    "title": "Targeting ERBB2 mutations in solid tumors: biological and clinical implications.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29941010"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20624,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Kadcyla (ado-trastuzumab emtansine) treatment resulted in clinical benefit after one cycle of treatment, and stable disease with regression at lung metastasis after 3 cycles of treatment in a patient with colorectal adenocarcinoma harboring ERBB2 (HER2) amplification and KRAS G12D (PMID: 32023524).",
+            "molecularProfile": {
+                "id": 35271,
+                "profileName": "ERBB2 amp KRAS G12D"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17974,
+                    "pubMedId": 32023524,
+                    "title": "Clinical Response to T-DM1 in HER2-Amplified, KRAS-Mutated Metastatic Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32023524"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00408772",
+            "title": "Oxaliplatin, Capecitabine, and Bevacizumab Followed By Surgery and/or Radiofrequency Ablation in Treating Patients With Colorectal Cancer That Has Spread to the Liver and Cannot Be Removed By Surgery",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1601,
+                    "therapyName": "Bevacizumab + Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00842257",
+            "title": "Panitumumab in Cetuximab Refractory KRAS Wild-Type Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 845,
+                    "therapyName": "Panitumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01061515",
+            "title": "Biweekly Intraperitoneal Oxaliplatin With Systemic Capecitabine and Bevacizumab for Patients With Peritoneal Carcinomatosis From Appendiceal or Colorectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1104,
+                    "therapyName": "Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01079780",
+            "title": "Irinotecan Hydrochloride and Cetuximab With or Without Ramucirumab in Treating Patients With Advanced Colorectal Cancer With Progressive Disease After Treatment With Bevacizumab-Containing Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1920,
+                    "therapyName": "Cetuximab + Irinotecan + Ramucirumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1874,
+                    "therapyName": "Cetuximab + Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01420874",
+            "title": "Anti-CD3 x Anti-Erbitux Armed Activated T Cells (Phase Ib) for Gastrointestinal (GI Cancer)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1012,
+                    "therapyName": "EGFRBi-armed autologous activated T cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01442935",
+            "title": "Chemotherapies Associated With Targeted Therapies on the Resection Rate of Hepatic Metastases",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1484,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFOX"
+                },
+                {
+                    "id": 2180,
+                    "therapyName": "Cetuximab + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "Cetuximab + FOLFIRI"
+                },
+                {
+                    "id": 2181,
+                    "therapyName": "Bevacizumab + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "Bevacizumab + FOLFIRI"
+                },
+                {
+                    "id": 2182,
+                    "therapyName": "Cetuximab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Cetuximab + FOLFOX"
+                },
+                {
+                    "id": 2183,
+                    "therapyName": "Bevacizumab + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFIRINOX"
+                },
+                {
+                    "id": 2184,
+                    "therapyName": "Cetuximab + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "Cetuximab + FOLFIRINOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01471353",
+            "title": "Sorafenib Plus Capecitabine (SorCape) in Previously Treated Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2428,
+                    "therapyName": "Capecitabine + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01571284",
+            "title": "Safety and Quality of Life Study of Aflibercept in Patients With Metastatic Colorectal Cancer Previously Treated With an Oxaliplatin-Based Regimen",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2095,
+                    "therapyName": "Aflibercept + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "Aflibercept + FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01622543",
+            "title": "Reolysin in Combination With FOLFOX6 and Bevacizumab or FOLFOX6 and Bevacizumab Alone in Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1484,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFOX"
+                },
+                {
+                    "id": 893,
+                    "therapyName": "Reolysin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01642342",
+            "title": "Recombinant Albumin Fusion Protein sEphB4-HSA in Treating Patients With Metastatic or Recurrent Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3013,
+                    "therapyName": "sEphB4-HSA",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01652196",
+            "title": "Aflibercept and FOLFOX6 Treatment for Previously Untreated Stage IV Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2367,
+                    "therapyName": "Aflibercept + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Aflibercept + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01652482",
+            "title": "A Study of MEHD7945A + FOLFIRI Versus Cetuximab + FOLFIRI in Second Line in Patients With KRAS Wild-Type Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 806,
+                    "therapyName": "Duligotuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01802320",
+            "title": "Akt Inhibitor MK2206 in Treating Patients With Previously Treated Colon or Rectal Cancer That is Metastatic or Locally Advanced and Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 816,
+                    "therapyName": "MK2206",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01814501",
+            "title": "Panitumumab and Chemotherapy in Patients With Advanced Colorectal Cancer After Prior Therapy With Bevacizumab",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 845,
+                    "therapyName": "Panitumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01949194",
+            "title": "Study to Determine the Efficacy of Regorafenib in Metastatic Colorectal Cancer Patients and to Discover Biomarkers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02023333",
+            "title": "Regorafenib in Good Performance Status Patients With Newly Diagnosed Metastatic Colorectal Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02024607",
+            "title": "A Study of BBI608 in Combination With Standard Chemotherapies in Adult Patients With Advanced Gastrointestinal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2093,
+                    "therapyName": "Bevacizumab + Napabucasin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2094,
+                    "therapyName": "Napabucasin + Regorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2057,
+                    "therapyName": "Napabucasin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02116894",
+            "title": "Safety Study of Regorafenib With PF-03446962 to Treat Colorectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2035,
+                    "therapyName": "PF-03446962 + Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02149108",
+            "title": "Nintedanib (BIBF 1120) vs Placebo in Refractory Colorectal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 831,
+                    "therapyName": "Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02235324",
+            "title": "Ziv-Aflibercept Followed by Ziv-Aflibercept, Fluorouracil, and Leucovorin Calcium in Treating Patients With Stage IV Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1841,
+                    "therapyName": "Aflibercept + Fluorouracil + Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 624,
+                    "therapyName": "Aflibercept",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02248805",
+            "title": "Phase 1 Study of MGD007 in Relapsed/Refractory Metastatic Colorectal Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3093,
+                    "therapyName": "MGD007",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02292758",
+            "title": "Phase II Trial of Irinotecan, Cetuximab, and Bevacizumab Compared With Irinotecan, Cetuximab, and Placebo in KRAS-Wildtype, Irinotecan-Refractory, Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1923,
+                    "therapyName": "Bevacizumab + Cetuximab + Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1874,
+                    "therapyName": "Cetuximab + Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02368886",
+            "title": "Lower or Standard Dose Regorafenib in Treating Patients With Refractory Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2350,
+                    "therapyName": "Clobetasol + Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02375672",
+            "title": "Study of Pembrolizumab in Combination With Chemotherapy for Patients With Advanced Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02413853",
+            "title": "Combination Chemotherapy and Bevacizumab With or Without PRI-724 in Treating Patients With Newly Diagnosed Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1083,
+                    "therapyName": "Pri-724",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02466009",
+            "title": "Regorafenib in Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02509507",
+            "title": "Trial to Evaluate the Safety of Talimogene Laherparepvec Injected Into Liver Tumors Alone and in Combination With Systemic Pembrolizumab",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4035,
+                    "therapyName": "Pembrolizumab + Talimogene laherparepvec",
+                    "synonyms": null
+                },
+                {
+                    "id": 2695,
+                    "therapyName": "Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02574663",
+            "title": "TGR-1202 Alone and in Combination With Either Nab-paclitaxel + Gemcitabine or With FOLFOX in Patients With Select Relapsed or Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2022,
+                    "therapyName": "Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02602327",
+            "title": "Tas-102 and Radioembolization With 90Y Resin Microspheres for Chemo-refractory Colorectal Liver Metastases",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2426,
+                    "therapyName": "trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02638909",
+            "title": "Study of Oral Ceritinib in Patients With ALK-Activated Gastrointestinal Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 789,
+                    "therapyName": "Ceritinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02650635",
+            "title": "TLR8 Agonist VTX-2337 and Cyclophosphamide in Treating Patients With Metastatic, Persistent, Recurrent, or Progressive Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3413,
+                    "therapyName": "Cyclophosphamide + Motolimod + Pegfilgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02651415",
+            "title": "Phase II Study of Perindopril and Regorafenib in mCRC",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3410,
+                    "therapyName": "Perindopril + Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02675946",
+            "title": "Study of CGX1321 in Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6584,
+                    "therapyName": "CGX1321",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02780700",
+            "title": "Nintedanib Alone or in Combination With Capecitabine in Refractory Metastatic Colorectal Cancer [LUME-Colon 2]",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2589,
+                    "therapyName": "Capecitabine + Nintedanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 831,
+                    "therapyName": "Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02835833",
+            "title": "Study of Nintedanib Plus Bevacizumab in Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4498,
+                    "therapyName": "Bevacizumab + Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02860546",
+            "title": "A Study Evaluating TAS-102 Plus Nivolumab in Patients With MSS CRC",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4560,
+                    "therapyName": "Nivolumab + trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02876224",
+            "title": "Study of Cobimetinib in Combination With Atezolizumab and Bevacizumab in Participants With Gastrointestinal and Other Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4609,
+                    "therapyName": "Atezolizumab + Bevacizumab + Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02908451",
+            "title": "A Study of AbGn-107 in Patients With Gastric, Colorectal, or Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7219,
+                    "therapyName": "AbGn-107",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03007407",
+            "title": "Study of Durvalumab and Tremelimumab After Radiation for Microsatellite Stable Metastatic Colorectal Cancer Progressing on Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03069950",
+            "title": "Study of Chemotherapy With or Without Hepatic Arterial Infusion for Patients With Unresectable Metastatic Colorectal Cancer to the Liver",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 5476,
+                    "therapyName": "Dexamethasone + Floxuridine + Fluorouracil + Irinotecan + Leucovorin + Panitumumab",
+                    "synonyms": "Floxiuridine + Panitumumab + Dexamethasone + FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03081494",
+            "title": "Phase Ib Study of PDR001 in Combination With Regorafenib in Adult Patients With Previously Treated Metastatic Colorectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5930,
+                    "therapyName": "Regorafenib + Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03087071",
+            "title": "Panitumumab in Combination With Trametinib in Cetuximab-Refractory Stage IV Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 845,
+                    "therapyName": "Panitumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2,
+                    "therapyName": "Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03095781",
+            "title": "Pembrolizumab and XL888 in Patients With Advanced Gastrointestinal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5533,
+                    "therapyName": "Pembrolizumab + XL888",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03104439",
+            "title": "Nivolumab and Ipilimumab and Radiation Therapy in MSS and MSI High Colorectal and Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03192345",
+            "title": "A First-in-human Study of the Safety, Pharmacokinetics, Pharmacodynamics and Anti-tumor Activity of SAR439459 Monotherapy and Combination of SAR439459 and REGN2810 in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5934,
+                    "therapyName": "Cemiplimab + SAR439459",
+                    "synonyms": null
+                },
+                {
+                    "id": 5933,
+                    "therapyName": "SAR439459",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03258398",
+            "title": "A Study to Evaluate eFT508 Alone and in Combination With Avelumab in Subjects With MSS Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 6238,
+                    "therapyName": "Avelumab + Tomivosertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4005,
+                    "therapyName": "Tomivosertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03277209",
+            "title": "To Assess the Safety of Continuous IV Administration of Plerixafor and Assess Impact on the Immune Microenvironment in Patients With Pancreatic, Ovarian and Colorectal Adenocarcinomas",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03300609",
+            "title": "5-FU Based Maintenance Therapy in RAS Wild Type Metastatic Colorectal Cancer After Induction With FOLFOX Plus Panitumumab",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1986,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Panitumumab",
+                    "synonyms": "Panitumumab + FOLFOX"
+                },
+                {
+                    "id": 6853,
+                    "therapyName": "Fluorouracil + Leucovorin + Panitumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03332498",
+            "title": "Pembrolizumab in Combination With Ibrutinib for Advanced, Refractory Colorectal Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4917,
+                    "therapyName": "Ibrutinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03337087",
+            "title": "Liposomal Irinotecan, Fluorouracil, Leucovorin Calcium, and Rucaparib Phosphate in Treating Patients With Metastatic Pancreatic, Colorectal, Gastroesophageal, or Biliary Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6442,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03366155",
+            "title": "Hepatic Artery Infusion Pump Chemotherapy With Floxuridine and Dexamethasone in Combination With Systemic Chemotherapy for Patients With Colorectal Cancer Metastatic to the Liver",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6505,
+                    "therapyName": "Floxuridine + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin + Panitumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03373188",
+            "title": "VX15/2503 and Immunotherapy in Resectable Pancreatic and Colorectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6517,
+                    "therapyName": "Nivolumab + VX15/2503",
+                    "synonyms": null
+                },
+                {
+                    "id": 6516,
+                    "therapyName": "Ipilimumab + VX15/2503",
+                    "synonyms": null
+                },
+                {
+                    "id": 3738,
+                    "therapyName": "VX15/2503",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03376659",
+            "title": "Durvalumab Plus CV301 With Maintenance Chemotherapy in Metastatic Colorectal or Pancreatic Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6540,
+                    "therapyName": "Capecitabine + CV301 + Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6539,
+                    "therapyName": "Bevacizumab + Capecitabine + CV301 + Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03384940",
+            "title": "DS-8201a in Human Epidermal Growth Factor Receptor2 (HER2)-Expressing Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4844,
+                    "therapyName": "Fam-trastuzumab deruxtecan-nxki",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03396926",
+            "title": "Pembrolizumab, Capecitabine, and Bevacizumab in Treating Patients With Microsatellite Stable Colorectal Cancer That Is Locally Advanced, Metastatic, or Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6579,
+                    "therapyName": "Bevacizumab + Capecitabine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03436563",
+            "title": "M7824 in Consensus Molecular Subtype 4, Treatment-Refractory Metastatic Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5860,
+                    "therapyName": "M7824",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03442569",
+            "title": "PhII Trial Panitumumab, Nivolumab, Ipilimumab in Kras/Nras/BRAF Wild-type MSS Refractory mCRC",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6871,
+                    "therapyName": "Ipilimumab + Nivolumab + Panitumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03475004",
+            "title": "Study of Pembrolizumab, Binimetinib, and Bevacizumab in Patients With Refractory Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6838,
+                    "therapyName": "Bevacizumab + Binimetinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03539822",
+            "title": "Cabozantinib in Combination With Durvalumab in Patients With Gastroesophageal Cancer and Other Gastrointestinal Malignancies (CAMILLA)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7108,
+                    "therapyName": "Cabozantinib + Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03542877",
+            "title": "Investigating Cabozantinib in Patients With Refractory Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03576963",
+            "title": "Guadecitabine and Nivolumab in Treating Refractory Metastatic Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7123,
+                    "therapyName": "Guadecitabine + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03610490",
+            "title": "Autologous Tumor Infiltrating Lymphocytes MDA-TIL in Treating Patients With Recurrent or Refractory Ovarian Cancer, Colorectal Cancer, or Pancreatic Ductal Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9757,
+                    "therapyName": "Aldesleukin + Cyclophosphamide + Fludarabine + MDA autologous tumor-infiltrating lymphocytes",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03626922",
+            "title": "Study of Pembrolizumab With Pemetrexed and Oxaliplatin in Chemo-Refractory Metastatic Colorectal Cancer Patients",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8630,
+                    "therapyName": "Folic Acid",
+                    "synonyms": null
+                },
+                {
+                    "id": 8631,
+                    "therapyName": "Cyanocobalamin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8629,
+                    "therapyName": "Oxaliplatin + Pembrolizumab + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 5498,
+                    "therapyName": "Pembrolizumab + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03642067",
+            "title": "Study of Nivolumab and Relatlimab in Patients With Microsatellite Stable (MSS) Advanced Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4197,
+                    "therapyName": "Nivolumab + Relatlimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03674567",
+            "title": "Dose Escalation and Expansion Study of FLX475 Monotherapy and in Combination With Pembrolizumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7533,
+                    "therapyName": "FLX475 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7530,
+                    "therapyName": "FLX475",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03712943",
+            "title": "Regorafenib and Nivolumab in Mismatch Repair (MMR) Refractory Colorectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7443,
+                    "therapyName": "Nivolumab + Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03715933",
+            "title": "Phase 1 Study of INBRX-109 in Subjects With Locally Advanced or Metastatic Solid Tumors Including Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7571,
+                    "therapyName": "INBRX-109",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03750786",
+            "title": "A Study to Compare the Efficacy of Arfolitixorin Versus Leucovorin in Combination With 5 Fluorouracil, Oxaliplatin, and Bevacizumab in Patients With Advanced Colorectal Cancer (AGENT)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9771,
+                    "therapyName": "Arfolitixorin + Bevacizumab + Fluorouracil + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1484,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03800602",
+            "title": "Nivolumab and Metformin in Patients With Treatment Refractory MSS Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5302,
+                    "therapyName": "Metformin + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04054752",
+            "title": "Vaccine Response With NT-I7",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9320,
+                    "therapyName": "NT-I7",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04060342",
+            "title": "GB1275 Monotherapy and in Combination With an Anti-PD1 Antibody in Patients With Specified Advanced Solid Tumors or in Combination With Standard of Care in Patients With Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8693,
+                    "therapyName": "GB1275",
+                    "synonyms": null
+                },
+                {
+                    "id": 8694,
+                    "therapyName": "GB1275 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8695,
+                    "therapyName": "GB1275 + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04094688",
+            "title": "Vitamin D3 With Chemotherapy and Bevacizumab in Treating Patients With Advanced or Metastatic Colorectal Cancer (SOLARIS)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8866,
+                    "therapyName": "Bevacizumab + Cholecalciferol + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8867,
+                    "therapyName": "Bevacizumab + Cholecalciferol + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04117945",
+            "title": "Regorafenib, With Cetuximab or Panitumumab, for the Treatment of Unresectable, Locally Advanced, or Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4138,
+                    "therapyName": "Irinotecan + Panitumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 845,
+                    "therapyName": "Panitumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1874,
+                    "therapyName": "Cetuximab + Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04119830",
+            "title": "Rintatolimod and Pembrolizumab for the Treatment of Refractory Metastatic or Unresectable Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8833,
+                    "therapyName": "Pembrolizumab + Rintatolimod",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04166435",
+            "title": "TMZ + Olaparib for MGMT Hypermethylated Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1438,
+                    "therapyName": "Olaparib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04171141",
+            "title": "Study to Test the Safety and Tolerability of PF-07062119 in Patients With Selected Advanced or Metastatic Gastrointestinal Tumors.",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9134,
+                    "therapyName": "PF-07062119",
+                    "synonyms": null
+                },
+                {
+                    "id": 9137,
+                    "therapyName": "PF-07062119 + unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9139,
+                    "therapyName": "PF-07062119 + unspecified VEGF antibody",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04214418",
+            "title": "Study of Combination Therapy With the MEK Inhibitor, Cobimetinib, Immune Checkpoint Blockade, Atezolizumab, and the AUTOphagy Inhibitor, Hydroxychloroquine in KRAS-mutated Advanced Malignancies (MEKiAUTO)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9170,
+                    "therapyName": "Atezolizumab + Cobimetinib + Hydroxychloroquine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

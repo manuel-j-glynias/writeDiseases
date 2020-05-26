@@ -1,0 +1,446 @@
+{
+    "id": 4239,
+    "name": "alveolar soft part sarcoma",
+    "source": "DOID",
+    "definition": "A soft tissue cancer that is a slow growing tumor of an unknown origin that effects children and effects young adults. [url:http\\://en.wikipedia.org/wiki/Alveolar_soft_part_sarcoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5315",
+        "5318"
+    ],
+    "termId": "DOID:4239",
+    "evidence": [
+        {
+            "id": 3123,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Sutent (sunitinib) resulted in a RECIST partial response in 2 of 4 patients and RECIST stable disease in 1 patient with ASPSCR1-TFE3 fusion alveolar soft part sarcoma after 3 months of therapy (PMID: 19188185).",
+            "molecularProfile": {
+                "id": 10292,
+                "profileName": "ASPSCR1 - TFE3"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3628,
+                    "pubMedId": 19188185,
+                    "title": "Response to sunitinib malate in advanced alveolar soft part sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19188185"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3172,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, tivantinib resulted in modest activity, in which 27 patients with alveolar soft part sarcoma had a median PFS of 5.5 months (PMID: 22605650).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 636,
+                "therapyName": "Tivantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3629,
+                    "pubMedId": 22605650,
+                    "title": "Tivantinib (ARQ 197), a selective inhibitor of MET, in patients with microphthalmia transcription factor-associated tumors: results of a multicenter phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22605650"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3175,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical study, cediranib resulted in an objective response rate of 35% and a disease control rate of 84% at 24 weeks in 43 patients with metastatic alveolar soft part sarcoma, which is primarily driven by ASPSCR1-TFE3 fusion (PMID: 23630200).",
+            "molecularProfile": {
+                "id": 10292,
+                "profileName": "ASPSCR1 - TFE3"
+            },
+            "therapy": {
+                "id": 1001,
+                "therapyName": "Cediranib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3627,
+                    "pubMedId": 23630200,
+                    "title": "Cediranib for metastatic alveolar soft part sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23630200"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3176,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical study, cediranib resulted in an objective response rate of 35% and a disease control rate of 84% at 24 weeks in 43 patients evaluated for response with TFE3 positivity confirmed in 26 patients with alveolar soft part sarcoma (PMID: 23630200).",
+            "molecularProfile": {
+                "id": 12070,
+                "profileName": "TFE3 positive"
+            },
+            "therapy": {
+                "id": 1001,
+                "therapyName": "Cediranib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3627,
+                    "pubMedId": 23630200,
+                    "title": "Cediranib for metastatic alveolar soft part sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23630200"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 7300,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Anlotinib (AL-3818) treatment resulted a 12-week progression-free rate of 77%, median progression-free survival of 21 months, an objective response rate of 46% (n=13), and median overall survival was not reached in patients with alveolar soft part sarcoma (PMID: 29895706; NCT01878448).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 980,
+                "therapyName": "Anlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14437,
+                    "pubMedId": 29895706,
+                    "title": "Safety and Efficacy of Anlotinib, a Multikinase Angiogenesis Inhibitor, in Patients with Refractory Metastatic Soft-Tissue Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29895706"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9672,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, patients with alveolar soft part sarcoma demonstrated a median progression free survival of 11 months and one patient demonstrated an objective tumor response when treated with Sprycel (dasatinib) (PMID: 27696380).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7465,
+                    "pubMedId": 27696380,
+                    "title": "Phase 2 study of dasatinib in patients with alveolar soft part sarcoma, chondrosarcoma, chordoma, epithelioid sarcoma, or solitary fibrous tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27696380"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12944,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "ASPSCR1-TFE3 fusions aid the diagnosis of synovial sarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 10292,
+                "profileName": "ASPSCR1 - TFE3"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13809,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Xalkori (crizotinib) treatment resulted in partial response (PR) in 2.5% (1/40) and stable disease (SD) in 87.5% (35/40) of patients with TFE3-rearranged, MET-positive alveolar soft part sarcoma, with a 1-year progression-free survival (PFS) rate of 37.5%, and resulted in PR in 25% (1/4) and SD in 75% (3/4) of patients without TFE3 rearrangement and MET expression, with a 1-year PFS rate of 50% (PMID: 29216400; NCT01524926).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11280,
+                    "pubMedId": 29216400,
+                    "title": "Activity and safety of crizotinib in patients with alveolar soft part sarcoma with rearrangement of TFE3: European Organization for Research and Treatment of Cancer (EORTC) phase II trial 90101 'CREATE'.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29216400"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15928,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with alveolar soft part sarcoma had a 73% tumor reduction and a response lasting greater than 30 months when treated with Imfinzi (durvalumab) and Tremelimumab, and the tumor was shown retrospectively to have a mismatch repair defect signature, poor immune infiltration, and 2% tumoral PD-L1 positivity (PMID: 30018044; NCT02261220).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2439,
+                "therapyName": "Durvalumab + Tremelimumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14015,
+                    "pubMedId": 30018044,
+                    "title": "Response to Immune Checkpoint Inhibition in Two Patients with Alveolar Soft-Part Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30018044"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15929,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with alveolar soft part sarcoma had a 58% reduction of target lesions and a response lasting 12 months when treated with Imfinzi (durvalumab), and the tumor was shown retrospectively to have a mismatch repair defect signature, poor immune infiltration, and 0% tumoral PD-L1 positivity (PMID: 30018044; NCT01693562).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1356,
+                "therapyName": "Durvalumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14015,
+                    "pubMedId": 30018044,
+                    "title": "Response to Immune Checkpoint Inhibition in Two Patients with Alveolar Soft-Part Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30018044"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00942877",
+            "title": "Phase II Study of Cediranib (AZD2171) in Patients With Alveolar Soft Part Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1001,
+                    "therapyName": "Cediranib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01391962",
+            "title": "Sunitinib or Cediranib for Alveolar Soft Part Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1001,
+                    "therapyName": "Cediranib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01446809",
+            "title": "Pazopanib Hydrochloride Followed By Chemotherapy and Surgery in Treating Patients With Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1472,
+                    "therapyName": "Doxorubicin + Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1471,
+                    "therapyName": "Doxorubicin + Ifosfamide + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867592",
+            "title": "Cabozantinib-S-Malate in Treating Younger Patients With Recurrent, Refractory, or Newly Diagnosed Sarcomas, Wilms Tumor, or Other Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02936102",
+            "title": "A Study of FAZ053 Single Agent and in Combination With PDR001 in Patients With Advanced Malignancies.",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4971,
+                    "therapyName": "FAZ053",
+                    "synonyms": null
+                },
+                {
+                    "id": 4972,
+                    "therapyName": "FAZ053 + Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978859",
+            "title": "MGCD516 in Advanced Liposarcoma and Other Soft Tissue Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1655,
+                    "therapyName": "MGCD516",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03141684",
+            "title": "Atezolizumab in Treating Patients With Newly Diagnosed and Metastatic Alveolar Soft Part Sarcoma That Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03880123",
+            "title": "Selinexor in Combination With Ixazomib for the Treatment of Advanced Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8089,
+                    "therapyName": "Ixazomib + Selinexor",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1018 @@
+{
+    "id": 7474,
+    "name": "malignant pleural mesothelioma",
+    "source": "DOID",
+    "definition": "A pleural cancer that has_material_basis_in mesothelium cells. [url:http\\://en.wikipedia.org/wiki/Mesothelioma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:7474",
+    "evidence": [
+        {
+            "id": 4444,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, patients with pleural mesothelioma treated with amatuximab had an objective response rate of 91% (40% (n=33) partial response, 51% (n=42) stable disease) and a median overall survival of 14.8 months (PMID: 25231400).",
+            "molecularProfile": {
+                "id": 18630,
+                "profileName": "MSLN wild-type"
+            },
+            "therapy": {
+                "id": 3513,
+                "therapyName": "Amatuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4552,
+                    "pubMedId": 25231400,
+                    "title": "Phase II clinical trial of amatuximab, a chimeric antimesothelin antibody with pemetrexed and cisplatin in advanced unresectable pleural mesothelioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25231400"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4460,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, 60% (12/20) of evaluable pleural mesothelioma patients experienced a partial response and 15% (3/20) had stable disease when treated with SS1P (PMID: 24989332).",
+            "molecularProfile": {
+                "id": 18630,
+                "profileName": "MSLN wild-type"
+            },
+            "therapy": {
+                "id": 3520,
+                "therapyName": "SS1P",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4560,
+                    "pubMedId": 24989332,
+                    "title": "Phase 1 study of the antimesothelin immunotoxin SS1P in combination with pemetrexed and cisplatin for front-line therapy of pleural mesothelioma and correlation of tumor response with serum mesothelin, megakaryocyte potentiating factor, and cancer antigen 125.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24989332"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5208,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Apitolisib (GDC-0980) treatment resulted in a partial response in 7.4% (2/27) and stable disease in 74.1% (20/27) of malignant pleural mesothelioma patients, including one with PTEN loss and another with PIK3CA E545K (PMID: 26787751).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 750,
+                "therapyName": "GDC-0980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4915,
+                    "pubMedId": 26787751,
+                    "title": "Phase I Study of Apitolisib (GDC-0980), Dual Phosphatidylinositol-3-Kinase and Mammalian Target of Rapamycin Kinase Inhibitor, in Patients with Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26787751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6084,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with Apitolisib (GDC-0980) resulted in a partial response in a patient with malignant pleural mesothelioma harboring PIK3CA R88Q (PMID: 26787751).",
+            "molecularProfile": {
+                "id": 3041,
+                "profileName": "PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 750,
+                "therapyName": "GDC-0980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4915,
+                    "pubMedId": 26787751,
+                    "title": "Phase I Study of Apitolisib (GDC-0980), Dual Phosphatidylinositol-3-Kinase and Mammalian Target of Rapamycin Kinase Inhibitor, in Patients with Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26787751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9202,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Yondelis (trabectedin) inhibited growth and increased apoptosis of malignant pleural mesothelioma (MPM) cell lines in culture, decreased viability of primary MPM cells in culture, and inhibited tumor growth in MPM cell line xenograft models (PMID: 27512118).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3420,
+                "therapyName": "Trabectedin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7019,
+                    "pubMedId": 27512118,
+                    "title": "Trabectedin Is Active against Malignant Pleural Mesothelioma Cell and Xenograft Models and Synergizes with Chemotherapy and Bcl-2 Inhibition In Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27512118"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9203,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Yondelis (trabectedin) and Platinol (cisplatin) demonstrated synergy in inducing apoptosis and decreasing viability of malignant pleural mesothelioma cell lines in culture (PMID: 27512118).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4933,
+                "therapyName": "Cisplatin + Trabectedin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7019,
+                    "pubMedId": 27512118,
+                    "title": "Trabectedin Is Active against Malignant Pleural Mesothelioma Cell and Xenograft Models and Synergizes with Chemotherapy and Bcl-2 Inhibition In Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27512118"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9204,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Yondelis (trabectedin) and Obatoclax (GX015-070) demonstrated synergy in inducing apoptosis and decreasing viability of malignant pleural mesothelioma cell lines in culture (PMID: 27512118).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4934,
+                "therapyName": "Obatoclax + Trabectedin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7019,
+                    "pubMedId": 27512118,
+                    "title": "Trabectedin Is Active against Malignant Pleural Mesothelioma Cell and Xenograft Models and Synergizes with Chemotherapy and Bcl-2 Inhibition In Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27512118"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9205,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Yondelis (trabectedin) and Venclexta (venetoclax) demonstrated synergistic or additive effects on decreasing viability of malignant pleural mesothelioma cell lines in culture (PMID: 27512118).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4935,
+                "therapyName": "Trabectedin + Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7019,
+                    "pubMedId": 27512118,
+                    "title": "Trabectedin Is Active against Malignant Pleural Mesothelioma Cell and Xenograft Models and Synergizes with Chemotherapy and Bcl-2 Inhibition In Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27512118"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9838,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, treatment with ADI-PEG20 plus best supportive care resulted in a median progression-free survival of 3.2 months compared to 2.0 months with best supportive care alone (HR=0.56) in ASS1-deficient malignant pleural mesothelioma patients (PMID: 27584578).",
+            "molecularProfile": {
+                "id": 27135,
+                "profileName": "ASS1 dec exp"
+            },
+            "therapy": {
+                "id": 2424,
+                "therapyName": "ADI-PEG 20",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7674,
+                    "pubMedId": 27584578,
+                    "title": "Arginine Deprivation With Pegylated Arginine Deiminase in Patients With Argininosuccinate Synthetase 1-Deficient Malignant Pleural Mesothelioma: A Randomized Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27584578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12811,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Galinpepimut-S resulted in a progression-free survival rate of 45% at 1 year compared to 33% in the control arm in patients with malignant pleural mesothelioma expressing WT1, however, the study was not powered for a comparison between arms (PMID: 28972039).",
+            "molecularProfile": {
+                "id": 9114,
+                "profileName": "WT1 positive"
+            },
+            "therapy": {
+                "id": 6676,
+                "therapyName": "Galinpepimut-S",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 10744,
+                    "pubMedId": 28972039,
+                    "title": "A Randomized Phase II Trial of Adjuvant Galinpepimut-S, WT-1 Analogue Peptide Vaccine, After Multimodality Therapy for Patients with Malignant Pleural Mesothelioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28972039"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14955,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, SEPREHVIR treatment demonstrated safety and preliminary efficacy, induced anti-tumor immune response in patients with malignant pleural mesothelioma (Cancer Immunol Res 2016;4(1 Suppl):Abstract nr B033).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7226,
+                "therapyName": "SEPREHVIR",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11841,
+                    "pubMedId": null,
+                    "title": "Cytokine responses following intrapleural administration of oncolytic HSV SEPREHVIR in patients with malignant pleural mesothelioma",
+                    "url": "http://cancerimmunolres.aacrjournals.org/content/4/1_Supplement/B033.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16240,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial (KEYNOTE-028), Keytruda (pembrolizumab) treatment demonstrated safety and preliminary efficacy, resulted in an objective response rate of 20% (5/25) and a stable disease rate of 52% (13/25) in previously treated patients with malignant pleural mesothelioma that had CD274 (PD-L1) expression in 1% or more of tumor cells by IHC, with a median duration of response of 12 months (PMID: 28291584; NCT02054806).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14382,
+                    "pubMedId": 28291584,
+                    "title": "Clinical safety and activity of pembrolizumab in patients with malignant pleural mesothelioma (KEYNOTE-028): preliminary results from a non-randomised, open-label, phase 1b trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28291584"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00996385",
+            "title": "Velcade and Eloxatin for Patients With Malignant Pleural or Peritoneal Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 3064,
+                    "therapyName": "Bortezomib + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01064648",
+            "title": "Pemetrexed Disodium and Cisplatin With or Without Cediranib Maleate in Treating Patients With Malignant Pleural Mesothelioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2432,
+                    "therapyName": "Cediranib + Cisplatin + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01265433",
+            "title": "Randomized Study of Adjuvant WT-1 Analog Peptide Vaccine in Patients With Malignant Pleural Mesothelioma (MPM) After Completion of Combined Modality Therapy",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1873,
+                    "therapyName": "Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 2893,
+                    "therapyName": "WT1 vaccine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01769547",
+            "title": "A Phase II Study of Single-agent DOVitinib in Advanced Malignant PlEural Mesothelioma Which Has Progressed Following Prior Platinum-Antifolate Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 721,
+                    "therapyName": "Dovitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01868022",
+            "title": "Study to Evaluate GSK3052230 in Combination With Paclitaxel and Carboplatin, or Docetaxel or as Single Agent in Subjects With Solid Malignancies and Deregulated Fibroblast Growth Factor (FGF) Pathway Signaling",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1857,
+                    "therapyName": "Cisplatin + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 2899,
+                    "therapyName": "GSK3052230",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01870609",
+            "title": "Placebo Controlled Study of VS-6063 in Subjects With Malignant Pleural Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 958,
+                    "therapyName": "Defactinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01890980",
+            "title": "Phase II Study of Adjuvant WT-1 Analog Peptide Vaccine in MPM Patients After MSK10-134",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2893,
+                    "therapyName": "WT1 vaccine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1873,
+                    "therapyName": "Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01907100",
+            "title": "Nintedanib (BIBF 1120) in Mesothelioma",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1857,
+                    "therapyName": "Cisplatin + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 831,
+                    "therapyName": "Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02004028",
+            "title": "Window of Opportunity Study of VS-6063 (Defactinib) in Participants With Surgical Resectable Malignant Pleural Mesothelioma.",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 958,
+                    "therapyName": "Defactinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02399371",
+            "title": "Pembrolizumab in Treating Patients With Malignant Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02414269",
+            "title": "Malignant Pleural Disease Treated With Autologous T Cells Genetically Engineered to Target the Cancer-Cell Surface Antigen Mesothelin",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8356,
+                    "therapyName": "Cyclophosphamide + iCasp9M28z T cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 8355,
+                    "therapyName": "iCasp9M28z T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02568449",
+            "title": "Nintedanib in Treating Patients With Malignant Pleural Mesothelioma That Is Recurrent",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 831,
+                    "therapyName": "Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02592551",
+            "title": "MEDI4736 Or MEDI4736 + Tremelimumab In Surgically Resectable Malignant Pleural Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639091",
+            "title": "Phase Ib Study of Anetumab Ravtansine in Combination With Pemetrexed and Cisplatin in Mesothelin-expressing Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4617,
+                    "therapyName": "Anetumab ravtansine + Cisplatin + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02707666",
+            "title": "A Pilot Window-Of-Opportunity Study of the Anti-PD-1 Antibody Pembrolizumab in Patients With Resectable Malignant Pleural Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1857,
+                    "therapyName": "Cisplatin + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02723955",
+            "title": "Dose Escalation and Expansion Study of GSK3359609 in Subjects With Selected Advanced Solid Tumors (INDUCE-1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4409,
+                    "therapyName": "GSK3359609",
+                    "synonyms": null
+                },
+                {
+                    "id": 4410,
+                    "therapyName": "GSK3359609 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02784171",
+            "title": "Pembrolizumab in Patients With Advanced Malignant Pleural Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1857,
+                    "therapyName": "Cisplatin + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02824042",
+            "title": "Thorough ECG (Electrocardiogram) and Drug Interaction Study With Anetumab Ravtansine and Itraconazole",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4594,
+                    "therapyName": "Anetumab ravtansine + Itraconazole",
+                    "synonyms": null
+                },
+                {
+                    "id": 4593,
+                    "therapyName": "Anetumab ravtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02899195",
+            "title": "Phase II MEDI4736 in Combination With Chemotherapy for First-Line Treatment of Unresectable Mesothelioma (PrE0505)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5630,
+                    "therapyName": "Cisplatin + Durvalumab + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02899299",
+            "title": "Study of Nivolumab Combined With Ipilimumab Versus Pemetrexed and Cisplatin or Carboplatin as First Line Therapy in Unresectable Pleural Mesothelioma Patients (CheckMate743)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4616,
+                    "therapyName": "Carboplatin + Cisplatin + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02959463",
+            "title": "Adjuvant Pembrolizumab After Radiation Therapy for Lung-Intact Malignant Pleural Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03023319",
+            "title": "Bosutinib in Combination With Pemetrexed in Patients With Selected Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5237,
+                    "therapyName": "Bosutinib + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074513",
+            "title": "Atezolizumab and Bevacizumab in Rare Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03075527",
+            "title": "A Phase 2 Study of Durvalumab in Combination With Tremelimumab in Malignant Pleural Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03126630",
+            "title": "Pembrolizumab With or Without Anetumab Ravtansine in Treating Patients With Mesothelin-Positive Pleural Mesothelioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5596,
+                    "therapyName": "Anetumab ravtansine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03175172",
+            "title": "Evaluation of CRS-207 With Pembrolizumab in Previously Treated MPM",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5716,
+                    "therapyName": "CRS-207 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03228537",
+            "title": "Atezolizumab, Pemetrexed Disodium, Cisplatin, and Surgery With or Without Radiation Therapy in Treating Patients With Stage I-III Pleural Malignant Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6036,
+                    "therapyName": "Atezolizumab + Cisplatin + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03319537",
+            "title": "Pevonedistat Alone and in Combination With Chemotherapy in Patients With Mesothelioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1688,
+                    "therapyName": "MLN4924",
+                    "synonyms": null
+                },
+                {
+                    "id": 6378,
+                    "therapyName": "Cisplatin + MLN4924 + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03399552",
+            "title": "Stereotactic Body Radiation Therapy and Avelumab Immunotherapy for Treatment of Malignant Mesothelioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03644550",
+            "title": "Anti-Mesothelin Immunotoxin LMB-100 Followed by Pembrolizumab in Malignant Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7329,
+                    "therapyName": "LMB-100 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03715933",
+            "title": "Phase 1 Study of INBRX-109 in Subjects With Locally Advanced or Metastatic Solid Tumors Including Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7571,
+                    "therapyName": "INBRX-109",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03717415",
+            "title": "A Study of Rebastinib (DCC-2036) in Combination With Carboplatin in Patients With Advanced or Metastatic Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7426,
+                    "therapyName": "Carboplatin + Rebastinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03760575",
+            "title": "Pembrolizumab in Combination With Chemotherapy and Image-Guided Surgery for Malignant Pleural Mesothelioma (MPM)",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 6798,
+                    "therapyName": "Cisplatin + Pembrolizumab + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03918252",
+            "title": "Neoadjuvant Immune Checkpoint Blockade in Resectable Malignant Pleural Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03920839",
+            "title": "INCMGA00012 Plus Chemotherapy in Participants With Advanced Solid Tumors (POD1UM-105)",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 8194,
+                    "therapyName": "Carboplatin + INCMGA00012 + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 8191,
+                    "therapyName": "Cisplatin + Gemcitabine + INCMGA00012",
+                    "synonyms": null
+                },
+                {
+                    "id": 8192,
+                    "therapyName": "Cisplatin + INCMGA00012 + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 8193,
+                    "therapyName": "Carboplatin + INCMGA00012 + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04013334",
+            "title": "MTG201 Plus Nivolumab in Patients With Relapsed Pleural Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8842,
+                    "therapyName": "MTG201 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04040231",
+            "title": "Using a Targeted Cancer Vaccine (Galinpepimut-S) With Immunotherapy (Nivolumab) in Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8642,
+                    "therapyName": "Galinpepimut-S + Nivolumab + Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04042480",
+            "title": "A Study of SGN-CD228A in Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9761,
+                    "therapyName": "SGN-CD228A",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04162015",
+            "title": "A Study of Nivolumab and Chemotherapy Followed by Surgery for Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6506,
+                    "therapyName": "Cisplatin + Nivolumab + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 6159,
+                    "therapyName": "Carboplatin + Nivolumab + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04201145",
+            "title": "Pembrolizumab + Defactinib In Pleural Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7561,
+                    "therapyName": "Defactinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

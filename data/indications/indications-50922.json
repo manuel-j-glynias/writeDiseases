@@ -1,0 +1,48 @@
+{
+    "id": 50922,
+    "name": "gastrointestinal carcinoma",
+    "source": "DOID",
+    "definition": "A gastrointestinal system cancer that has_material_basis_in epithelial cells. [url:http\\://en.wikipedia.org/wiki/Carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050922",
+    "evidence": [
+        {
+            "id": 1250,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alisertib (MLN8237) in combination with Taxotere (docetaxel) inhibited cell viability in gastrointestinal carcinoma cell lines with AURKA amplification and over expression in culture and reduced tumor growth in AURKA-amplified gastrointestinal carcinoma cell line xenograft models (PMID: 22972611).",
+            "molecularProfile": {
+                "id": 3956,
+                "profileName": "AURKA amp"
+            },
+            "therapy": {
+                "id": 1678,
+                "therapyName": "Alisertib + Docetaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50922,
+                "name": "gastrointestinal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 71,
+                    "pubMedId": 22972611,
+                    "title": "The combination of alisertib, an investigational Aurora kinase A inhibitor, and docetaxel promotes cell death and reduces tumor growth in preclinical cell models of upper gastrointestinal adenocarcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22972611"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

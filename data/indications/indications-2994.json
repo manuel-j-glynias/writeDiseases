@@ -1,0 +1,428 @@
+{
+    "id": 2994,
+    "name": "germ cell cancer",
+    "source": "DOID",
+    "definition": "A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from germ cells. [url:http\\://en.wikipedia.org/wiki/Germ_cell_tumor]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "2157"
+    ],
+    "termId": "DOID:2994",
+    "evidence": [
+        {
+            "id": 672,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a small Phase II study, 18 patients with KIT-positive refractory germ cell tumors treated with Gleevec (imatinib) experienced no significant antitumor activity (PMID: 16462496).",
+            "molecularProfile": {
+                "id": 851,
+                "profileName": "KIT positive"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2994,
+                "name": "germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 390,
+                    "pubMedId": 16462496,
+                    "title": "Phase II study of imatinib mesylate in chemotherapy refractory germ cell tumors expressing KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16462496"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 11225,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Votrient (pazopanib) treatment resulted in partial responses in 4.7% (2/43), stable disease in 44.2% (19/43), and a 3-month progression free survival probability of 12.8% in patients with refractory germ cell cancer (PMID: 28383677).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 848,
+                "therapyName": "Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2994,
+                "name": "germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9174,
+                    "pubMedId": 28383677,
+                    "title": "Pazopanib in advanced germ cell tumors after chemotherapy failure: results of the open-label, single-arm, phase 2 Pazotest trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28383677"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12690,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with germ cell cancer demonstrated stable disease for greater than 6 months when treated with Ipafricept (OMP-54F28) (PMID: 28954784).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2396,
+                "therapyName": "Ipafricept",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2994,
+                "name": "germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10602,
+                    "pubMedId": 28954784,
+                    "title": "A First-in-Human Phase I Study of the Anticancer Stem Cell Agent Ipafricept (OMP-54F28), a Decoy Receptor for Wnt Ligands, in Patients with Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28954784"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00936936",
+            "title": "High-dose Chemotherapy for Poor-prognosis Relapsed Germ-Cell Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1441,
+                    "therapyName": "Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 2101,
+                    "therapyName": "Etoposide + Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2100,
+                    "therapyName": "Docetaxel + Gemcitabine + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 2074,
+                    "therapyName": "Bevacizumab + Carboplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00983398",
+            "title": "Melphalan, Carboplatin, and Sodium Thiosulfate for Patients With Central Nervous System (CNS) Embryonal or Germ Cell Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 2587,
+                    "therapyName": "Carboplatin + Melphalan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01037790",
+            "title": "PHASE II TRIAL OF THE CYCLIN-DEPEDENT KINASE INHIBITOR PD 0332991 IN PATIENTS WITH CANCER",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01625351",
+            "title": "A Study of CD45RA+ Depleted Haploidentical Stem Cell Transplantation in Children With Relapsed or Refractory Solid Tumors and Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1205,
+                    "therapyName": "Alemtuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01962896",
+            "title": "A Phase II Study of Sirolimus and Erlotinib in Recurrent/Refractory Germ Cell Tumors",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2253,
+                    "therapyName": "Erlotinib + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02034110",
+            "title": "Efficacy and Safety of the Combination Therapy of Dabrafenib and Trametinib in Subjects With BRAF V600E- Mutated Rare Cancers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02130869",
+            "title": "A Pilot Study of Immunotherapy Including Haploidentical NK Cell Infusion Following CD133+ Positively-Selected Autologous Hematopoietic Stem Cells in Children With High Risk Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2378,
+                    "therapyName": "Bendamustine + Cytarabine + Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2460,
+                    "therapyName": "Busulfan + Hu14.18K322A",
+                    "synonyms": null
+                },
+                {
+                    "id": 2459,
+                    "therapyName": "Aldesleukin + Melphalan + Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1791,
+                    "therapyName": "Carboplatin + Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02300987",
+            "title": "A Randomized, Blinded, Placebo-controlled, Phase II Trial of LEE011 in Patients With Relapsed, Refractory, Incurable Teratoma With Recent Progression",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02429466",
+            "title": "Study of the Hypomethylating Drug SGI-110 Plus Cisplatin in Relapsed Refractory Germ Cell Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1949,
+                    "therapyName": "Guadecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02454972",
+            "title": "Clinical Trial of Lurbinectedin (PM01183) in Selected Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1195,
+                    "therapyName": "Lurbinectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02499952",
+            "title": "Pembrolizumab in Subjects With Incurable Platinum-Refractory Germ Cell Tumors",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02839694",
+            "title": "Adjuvant Oral Decitabine and Tetrahydrouridine With or Without Celecoxib in People Undergoing Pulmonary Metastasectomy",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3567,
+                    "therapyName": "Decitabine + Tetrahydrouridine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4592,
+                    "therapyName": "Celecoxib + Decitabine + Tetrahydrouridine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02988843",
+            "title": "Study of Brentuximab Vedotin And Bevacizumab In Refractory CD-30 Positive Germ Cell Tumors",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5144,
+                    "therapyName": "Bevacizumab + Brentuximab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03158064",
+            "title": "Evaluating Immune Therapy, Duravalumab (MEDI4736) With Tremelimumab for Relapsed/Refractory Germ Cell Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03333616",
+            "title": "Nivolumab Combined With Ipilimumab for Patients With Advanced Rare Genitourinary Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03760081",
+            "title": "A Study to Assess the Safety and Efficacy of ASP1650, a Monoclonal Antibody Targeting Claudin 6 (CLDN6), in Male Subjects With Incurable Platinum Refractory Germ Cell Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9742,
+                    "therapyName": "ASP1650",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

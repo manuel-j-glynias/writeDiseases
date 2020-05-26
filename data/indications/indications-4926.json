@@ -1,0 +1,60 @@
+{
+    "id": 4926,
+    "name": "bronchiolo-alveolar adenocarcinoma",
+    "source": "DOID",
+    "definition": "A lung adenocarcinoma characterized by a predominantly lepidic pattern and 5 mm or less invasion in greatest dimension. [url:https\\://en.wikipedia.org/wiki/Adenocarcinoma_in_situ_of_the_lung, url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=16.12d&ns=NCI_Thesaurus&code=C2923, url:https\\://www.ncbi.nlm.nih.gov/pubmed/15562552, url:https\\://www.ncbi.nlm.nih.gov/pubmed/9498957]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4926",
+    "evidence": [
+        {
+            "id": 16635,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, EGFR T790M was identified in the post-progression lesions from a patient with bronchioloalveolar carcinoma harboring EGFR L747_A750delinsP (reported as EGFR L747_E749del; A750P) with acquired resistance to Tarceva (erlotinib) (PMID: 15737014).",
+            "molecularProfile": {
+                "id": 34567,
+                "profileName": "EGFR L747_A750delinsP EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4926,
+                "name": "bronchiolo-alveolar adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 1879,
+                    "pubMedId": 15737014,
+                    "title": "Acquired resistance of lung adenocarcinomas to gefitinib or erlotinib is associated with a second mutation in the EGFR kinase domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15737014"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

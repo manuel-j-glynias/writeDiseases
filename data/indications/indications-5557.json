@@ -1,0 +1,141 @@
+{
+    "id": 5557,
+    "name": "testicular germ cell cancer",
+    "source": "DOID",
+    "definition": "A testicular cancer that has_material_basis_in germ cells. [url:http\\://cancergenome.nih.gov/cancersselected/TesticularGermCellCancer, url:http\\://www.cancer.gov/dictionary?CdrID=445090, url:http\\://www.cancer.gov/dictionary?CdrID=695185]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:5557",
+    "evidence": [
+        {
+            "id": 669,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tykerb (lapatinib) treatment resulted in 50% inhibition of tumor growth in a xenograft choriocarcinoma model of testicular germ cell tumor expressing high levels of EGFR, ERBB2 and ERBB3 (PMID: 23292912).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5557,
+                "name": "testicular germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 389,
+                    "pubMedId": 23292912,
+                    "title": "ErbBs inhibition by lapatinib blocks tumor growth in an orthotopic model of human testicular germ cell tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23292912"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 670,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) treatment demonstrated a lack of benefit in the choriocarcinoma model of testicular germ cell tumor with high expression levels of EGFR, ERBB2 and ERBB3 (PMID: 23292912).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5557,
+                "name": "testicular germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 389,
+                    "pubMedId": 23292912,
+                    "title": "ErbBs inhibition by lapatinib blocks tumor growth in an orthotopic model of human testicular germ cell tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23292912"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 671,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iressa (gefitinib) treatment demonstrated a complete lack of benefit in a cell line xenograft model of a choriocarcinoma testicular germ cell tumor expressing high levels of EGFR, ERBB2 and ERBB3 (PMID: 23292912).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5557,
+                "name": "testicular germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 389,
+                    "pubMedId": 23292912,
+                    "title": "ErbBs inhibition by lapatinib blocks tumor growth in an orthotopic model of human testicular germ cell tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23292912"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17905,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a third-line therapy for metastatic testicular germ cell cancer with high microsatellite instability, MSI-H (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5557,
+                "name": "testicular germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

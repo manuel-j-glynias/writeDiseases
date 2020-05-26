@@ -1,0 +1,122 @@
+{
+    "id": 3713,
+    "name": "ovary adenocarcinoma",
+    "source": "DOID",
+    "definition": "An ovarian carcinoma that derives_from epithelial cells of glandular origin. [url:http\\://en.wikipedia.org/wiki/Adenocarcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "7816"
+    ],
+    "termId": "DOID:3713",
+    "evidence": [
+        {
+            "id": 5529,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YU238259 demonstrated increased cytotoxicity compared to control in BRCA2-deficient ovarian adenocarcinoma cell lines in culture (PMID: 26116172).",
+            "molecularProfile": {
+                "id": 1788,
+                "profileName": "BRCA2 loss"
+            },
+            "therapy": {
+                "id": 3880,
+                "therapyName": "YU238259",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3713,
+                "name": "ovary adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5087,
+                    "pubMedId": 26116172,
+                    "title": "YU238259 Is a Novel Inhibitor of Homology-Dependent DNA Repair That Exhibits Synthetic Lethality and Radiosensitization in Repair-Deficient Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26116172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8289,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Acalisib (GS-9820) resulted in tumor growth inhibition in xenograft models of ovarian adenocarcinoma (Mol Cancer Ther 2009;8(12 Suppl):B136).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1021,
+                "therapyName": "GS-9820",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3713,
+                "name": "ovary adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1019,
+                    "pubMedId": null,
+                    "title": "Abstract B136: CAL?120, a novel dual p110beta/p110delta phosphatidylinositol?3?kinase (PI3K) inhibitor, attenuates PI3K signaling and demonstrates potent in vivo antitumor activity against solid tumors",
+                    "url": "http://mct.aacrjournals.org/content/8/12_Supplement/B136.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02584478",
+            "title": "Phase 1/2a Evaluation of Adding AL3818 to Standard Platinum-Based Chemotherapy in Subjects With Recurrent or Metastatic Endometrial, Ovarian, Fallopian, Primary Peritoneal or Cervical Carcinoma (AL3818-US-002)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7370,
+                    "therapyName": "Anlotinib + Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03365791",
+            "title": "PDR001 Plus LAG525 for Patients With Advanced Solid and Hematologic Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2887,
+                    "therapyName": "LAG525",
+                    "synonyms": null
+                },
+                {
+                    "id": 2659,
+                    "therapyName": "Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

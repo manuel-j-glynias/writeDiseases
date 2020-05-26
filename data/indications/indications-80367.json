@@ -1,0 +1,73 @@
+{
+    "id": 80367,
+    "name": "chronic eosinophilic leukemia",
+    "source": "DOID",
+    "definition": "A chronic leukemia characterized by a clonal proliferation of eosinophilic precursors resulting in persistently increased numbers of eosinophils in the blood, marrow and peripheral tissues. [url:https\\://ghr.nlm.nih.gov/condition/pdgfra-associated-chronic-eosinophilic-leukemia, url:https\\://www.cancer.gov/publications/dictionaries/cancer-terms/def/chronic-eosinophilic-leukemia]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0080367",
+    "evidence": [
+        {
+            "id": 16973,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with chronic eosinophilic leukemia harboring PCM1-JAK2 demonstrated complete clinical remission and decreased fusion transcript levels when treated with Jakafi (ruxolitinib) (PMID: 23630205).",
+            "molecularProfile": {
+                "id": 23864,
+                "profileName": "PCM1 - JAK2"
+            },
+            "therapy": {
+                "id": 907,
+                "therapyName": "Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80367,
+                "name": "chronic eosinophilic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15124,
+                    "pubMedId": 23630205,
+                    "title": "Efficacy of ruxolitinib in chronic eosinophilic leukemia associated with a PCM1-JAK2 fusion gene.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23630205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03801434",
+            "title": "Ruxolitinib in Treating Patients With Hypereosinophilic Syndrome or Primary Eosinophilic Disorders",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03862157",
+            "title": "Azacitidine, Venetoclax, and Pevonedistat in Treating Patients With Newly Diagnosed Acute Myeloid Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7993,
+                    "therapyName": "Azacitidine + MLN4924 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

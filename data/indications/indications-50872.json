@@ -1,0 +1,96 @@
+{
+    "id": 50872,
+    "name": "large cell neuroendocrine carcinoma",
+    "source": "DOID",
+    "definition": "A lung large cell carcinoma that derives_from neuroendocrine cells. [url:https\\://www.ncbi.nlm.nih.gov/pubmed/15999058]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050872",
+    "evidence": [
+        {
+            "id": 4563,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rovalpituzumab Tesirine treatment resulted in sustained tumor regression in PDX models of large cell neuroendocrine carcinoma with elevated levels of Dll3 protein (PMID: 26311731).",
+            "molecularProfile": {
+                "id": 18587,
+                "profileName": "DLL3 over exp"
+            },
+            "therapy": {
+                "id": 3544,
+                "therapyName": "Rovalpituzumab Tesirine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50872,
+                "name": "large cell neuroendocrine carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4615,
+                    "pubMedId": 26311731,
+                    "title": "A DLL3-targeted antibody-drug conjugate eradicates high-grade pulmonary neuroendocrine tumor-initiating cells in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26311731"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02936323",
+            "title": "PEN-221 in Somatostatin Receptor 2 Expressing Advanced Cancers Including Neuroendocrine and Small Cell Lung Cancers",
+            "phase": null,
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5819,
+                    "therapyName": "PEN-221",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03901378",
+            "title": "Pembrolizumab With Chemotherapy in Metastatic or Unresectable High Grade Gastroenteropancreatic or Lung Neuroendocrine Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2604,
+                    "therapyName": "Carboplatin + Etoposide + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5145,
+                    "therapyName": "Cisplatin + Etoposide + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04079712",
+            "title": "Testing the Combination of XL184 (Cabozantinib), Nivolumab, and Ipilimumab for Poorly Differentiated Neuroendocrine Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2068,
+                    "therapyName": "Cabozantinib + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

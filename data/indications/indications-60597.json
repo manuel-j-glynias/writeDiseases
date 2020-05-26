@@ -1,0 +1,65 @@
+{
+    "id": 60597,
+    "name": "atypical chronic myeloid leukemia",
+    "source": "DOID",
+    "definition": "A myelodysplastic myeloproliferative neoplasm characterized by the principal involvement of the neutrophil series with leukocytosis and multilineage dysplasia. The neoplastic cells do not have a Philadelphia chromosome or the BCR/ABL fusion gene. [url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=16.08e&ns=NCI_Thesaurus&code=C3519, url:https\\://www.ncbi.nlm.nih.gov/pubmed/29226717]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0060597",
+    "evidence": [
+        {
+            "id": 21143,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with CCDC6-PDGFRB positive atypical chronic myeloid leukemia experienced complete cytogenetic response after three months of Gleevec (imatinib) treatment, and remained in molecular remission for three years (PMID: 31327842).",
+            "molecularProfile": {
+                "id": 35559,
+                "profileName": "CCDC6 - PDGFRB"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60597,
+                "name": "atypical chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18423,
+                    "pubMedId": 31327842,
+                    "title": "Myeloid/Lymphoid Neoplasm with PDGFRB Rearrangement with t (5;10) (q33;q22) Harboring a Novel Breakpoint of the CCDC6-PDGFRB Fusion Gene.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31327842"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03289910",
+            "title": "Topotecan Hydrochloride and Carboplatin With or Without Veliparib in Treating Advanced Myeloproliferative Disorders and Acute Myeloid Leukemia or Chronic Myelomonocytic Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5341,
+                    "therapyName": "Carboplatin + Topotecan + Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 7710,
+                    "therapyName": "Carboplatin + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

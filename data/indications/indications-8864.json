@@ -1,0 +1,96 @@
+{
+    "id": 8864,
+    "name": "acute monocytic leukemia",
+    "source": "DOID",
+    "definition": "A monocytic leukemia where the majority of monocytic cells are promonocytes. [url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=18.09d&ns=ncit&code=C4861]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "9208"
+    ],
+    "termId": "DOID:8864",
+    "evidence": [
+        {
+            "id": 11680,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EDO-S101 and Kyprolis (carfilzomib) worked synergistically to decrease viability of an acute monocytic leukemia cell line in culture (PMID: 28753594).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6106,
+                "therapyName": "Carfilzomib + Tinostamustine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8864,
+                "name": "acute monocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9700,
+                    "pubMedId": 28753594,
+                    "title": "The first-in-class alkylating HDAC inhibitor EDO-S101 is highly synergistic with proteasome inhibition against multiple myeloma through activation of multiple pathways.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28753594"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11686,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EDO-S101 and Velcade (bortezomib) worked synergistically to decrease viability of an acute monocytic leukemia cell line in culture (PMID: 28753594).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6105,
+                "therapyName": "Bortezomib + Tinostamustine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8864,
+                "name": "acute monocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9700,
+                    "pubMedId": 28753594,
+                    "title": "The first-in-class alkylating HDAC inhibitor EDO-S101 is highly synergistic with proteasome inhibition against multiple myeloma through activation of multiple pathways.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28753594"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01627041",
+            "title": "Decitabine, Cytarabine, and Daunorubicin Hydrochloride in Treating Patients With Acute Myeloid Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1739,
+                    "therapyName": "Cytarabine + Daunorubicin + Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1738,
+                    "therapyName": "Cytarabine + Daunorubicin",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

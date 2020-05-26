@@ -1,0 +1,178 @@
+{
+    "id": 60074,
+    "name": "ductal carcinoma in situ",
+    "source": "DOID",
+    "definition": "A breast carcinoma in situ that is characterized by being non-invasive, not having spread outside of the duct into the surrounding breast tissue, has_material_basis_in abnormally proliferating cells, derives_from epithelial cells. [url:https\\://www.breastcancer.org/symptoms/types/dcis, url:https\\://www.cancer.gov/publications/dictionaries/cancer-terms/search?contains=false&q=ductal+carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0060074",
+    "evidence": [
+        {
+            "id": 10237,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/Ib clinical trial, vaccination with a HER2-peptide pulsed dendritic cell vaccine was well-tolerated and resulted in immune response in patients with ERBB2 (HER2)-positive ductal carcinoma in situ (DCIS), and resulted in pathologic complete response rate of 28% (12/42), compared to 8.3% (1/12) in patients with invasive breast cancer (PMID: 27965306).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 5222,
+                "therapyName": "HER2-pulsed DC1 vaccine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60074,
+                "name": "ductal carcinoma in situ",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8179,
+                    "pubMedId": 27965306,
+                    "title": "Dendritic Cell Vaccination Enhances Immune Responses and Induces Regression of HER2pos DCIS Independent of Route: Results of Randomized Selection Design Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27965306"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12936,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Nolvadex (tamoxifen) therapy is included in guidelines for patients with ESR1-positive ductal carcinoma in situ (PMID: 31236598; ESMO.org, NCCN.org).",
+            "molecularProfile": {
+                "id": 1188,
+                "profileName": "ESR1 positive"
+            },
+            "therapy": {
+                "id": 1456,
+                "therapyName": "Tamoxifen",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60074,
+                "name": "ductal carcinoma in situ",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                },
+                {
+                    "id": 15115,
+                    "pubMedId": null,
+                    "title": "ESMO Clinical Practice Guidelines",
+                    "url": "https://www.esmo.org/Guidelines"
+                },
+                {
+                    "id": 15502,
+                    "pubMedId": 31236598,
+                    "title": "Early breast cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31236598"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02636582",
+            "title": "Nelipepimut-S Plus GM-CSF Vaccine Therapy in Treating Patients With Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1873,
+                    "therapyName": "Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 5152,
+                    "therapyName": "Nelipepimut-S Plus GM-CSF",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02694809",
+            "title": "Conjugated Estrogens/Bazedoxifene in Treating Patients With Ductal Carcinoma in Situ Undergoing Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5928,
+                    "therapyName": "Conjugated estrogens/bazedoxifene",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02872025",
+            "title": "Pembrolizumab in High-risk Ductal Carcinoma in Situ (DCIS)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02928978",
+            "title": "Ruxolitinib for Premalignant Breast Disease",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02993159",
+            "title": "Tamoxifen Citrate or Afimoxifene in Treating Patients With Estrogen Receptor Positive Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5132,
+                    "therapyName": "Afimoxifene",
+                    "synonyms": null
+                },
+                {
+                    "id": 1456,
+                    "therapyName": "Tamoxifen",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03535506",
+            "title": "Preoperative Palbociclib in Patients Preoperative Palbociclib in Patients With DCIS of the Breast That Are Candidates for Surgery (WI223281)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

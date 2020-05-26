@@ -1,0 +1,849 @@
+{
+    "id": 3965,
+    "name": "Merkel cell carcinoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3965",
+    "evidence": [
+        {
+            "id": 1703,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JQ1 inhibited MYC expression and decreased cell proliferation in MYC-amplified Merkel cell carcinoma cells in culture, and inhibited tumor growth in MYC-amplified Merkel cell carcinoma xenograft models (PMID: 25277525).",
+            "molecularProfile": {
+                "id": 1426,
+                "profileName": "MYC amp"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3965,
+                "name": "Merkel cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1849,
+                    "pubMedId": 25277525,
+                    "title": "BET protein inhibitor JQ1 attenuates Myc-amplified MCC tumor growth in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25277525"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8934,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial that supported FDA approval, Bavencio (avelumab) treatment resulted in an objective response response rate of 31.8% (28/88), with complete response in 9% (8/88) and partial response in 23% (20/88) of patients with Merkel cell carcinoma (PMID: 27592805).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3144,
+                "therapyName": "Avelumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3965,
+                "name": "Merkel cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6790,
+                    "pubMedId": 27592805,
+                    "title": "Avelumab in patients with chemotherapy-refractory metastatic Merkel cell carcinoma: a multicentre, single-group, open-label, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27592805"
+                },
+                {
+                    "id": 15620,
+                    "pubMedId": null,
+                    "title": "Bavencio (avelumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761049"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16338,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial that supported FDA approval (JAVELIN Merkel 200), Bavencio (avelumab) treatment resulted in a 62.1% (18/29) objective response rate and a median progression-free survival of 9.1 months, and demonstrated early evidence of durable responses with response duration estimated to be greater than 3 months and 6 months in 93% and 83% of responding patients, respectively, in patients with treatment-naive metastatic Merkel cell carcinoma (PMID: 29566106; NCT 02155647).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3144,
+                "therapyName": "Avelumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3965,
+                "name": "Merkel cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14458,
+                    "pubMedId": 29566106,
+                    "title": "Efficacy and Safety of First-line Avelumab Treatment in Patients With Stage IV Metastatic Merkel Cell Carcinoma: A Preplanned Interim Analysis of a Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29566106"
+                },
+                {
+                    "id": 15620,
+                    "pubMedId": null,
+                    "title": "Bavencio (avelumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761049"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11150,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, addition of Bavencio (avelumab) to adoptive transfer of Merkel cell polyomavirus (MCPyV)-specific T cells and HLA upregulation resulted in sustained complete response in 75% (3/4) of patients with MCPyV-associated Merkel cell carcinoma (J Clin Oncol 35, 2017 (suppl; abstr 3044)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3144,
+                "therapyName": "Avelumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3965,
+                "name": "Merkel cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9117,
+                    "pubMedId": null,
+                    "title": "Augmentation of adoptive T-cell therapy for Merkel cell carcinoma with avelumab.",
+                    "url": "http://abstracts.asco.org/199/AbstView_199_185408.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11086,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, ALRN-6924 treatment in a patient with Merkel cell carcinoma resulted in a complete response (J Clin Oncol 35, 2017 (suppl; abstr 2505)).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 2273,
+                "therapyName": "ALRN-6924",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3965,
+                "name": "Merkel cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9071,
+                    "pubMedId": null,
+                    "title": "Phase I trial of a novel stapled peptide ALRN-6924 disrupting MDMX- and MDM2-mediated inhibition of WT p53 in patients with solid tumors and lymphomas",
+                    "url": "http://abstracts.asco.org/199/AbstView_199_187803.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13908,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Utomilumab (PF-05082566) treatment resulted in an overall objective response rate of 13.3% (2/15, 1 complete response, 1 partial response) in patients with Merkel cell carcinoma (PMID: 29549159; NCT01307267).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5086,
+                "therapyName": "Utomilumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3965,
+                "name": "Merkel cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11346,
+                    "pubMedId": 29549159,
+                    "title": "Phase I Study of Single-Agent Utomilumab (PF-05082566), a 4-1BB/CD137 Agonist, in Patients with Advanced Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29549159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15938,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (KEYNOTE-017) that supported FDA approval, Keytruda (pembrolizumab) treatment resulted in a confirmed objective response rate of 50% (21/42, complete response 19%, partial response 31%) in patients with advanced Merkel cell carcinoma naive to systemic therapy (J Clin Oncol 36, no. 15_suppl (May 20 2018) 9506-9506; NCT02267603).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3965,
+                "name": "Merkel cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 13317,
+                    "pubMedId": null,
+                    "title": "Durable tumor regression and overall survival (OS) in patients with advanced Merkel cell carcinoma (aMCC) receiving pembrolizumab as first-line therapy.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.9506"
+                },
+                {
+                    "id": 15508,
+                    "pubMedId": null,
+                    "title": "Keytruda (pembrolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16614,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Lorvotuzumab Mertansine (IMGN901) demonstrated safety and preliminary efficacy, resulted in an objective response rate of 13% (3/23, 2 complete response, 1 partial response) in patients with NCAM1 (CD56)-positive Merkel cell carcinoma, with 2 additional patients achieved stable disease as best response (PMID: 26961907; NCT00346385).",
+            "molecularProfile": {
+                "id": 31711,
+                "profileName": "NCAM1 positive"
+            },
+            "therapy": {
+                "id": 8107,
+                "therapyName": "Lorvotuzumab Mertansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3965,
+                "name": "Merkel cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14639,
+                    "pubMedId": 26961907,
+                    "title": "Phase I study of IMGN901, a CD56-targeting antibody-drug conjugate, in patients with CD56-positive solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26961907"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19439,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, GLA-SE treatment resulted in an objective response in 2 of 7 Merkel Cell carcinoma patients with metastatic disease, both partial responses, and 3 of 3 patients with locoregional disease had no evidence of disease (NED) after treatment, with two patients remaining recurrence-free for at least 41 months (PMID: 30093453).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3576,
+                "therapyName": "GLA-SE",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3965,
+                "name": "Merkel cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17021,
+                    "pubMedId": 30093453,
+                    "title": "Intratumoral G100, a TLR4 Agonist, Induces Antitumor Immune Responses and Tumor Regression in Patients with Merkel Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093453"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02036476",
+            "title": "Cabozantinib in Recurrent/Metastatic Merkel Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02155647",
+            "title": "Avelumab in Subjects With Merkel Cell Carcinoma (JAVELIN Merkel 200)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02267603",
+            "title": "Pembrolizumab in Treating Patients With Advanced Merkel Cell Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02488759",
+            "title": "A Study to Investigate the Safety and Efficacy of Nivolumab in Virus-associated Tumors (CheckMate358)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02514824",
+            "title": "MLN0128 in Recurrent/Metastatic Merkel Cell Carcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1282,
+                    "therapyName": "Sapanisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02584829",
+            "title": "Localized Radiation Therapy or Recombinant Interferon Beta and MSB0010718C With or Without Cellular Adoptive Immunotherapy in Treating Patients With Metastatic Merkel Cell Carcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3156,
+                    "therapyName": "IFN-B",
+                    "synonyms": null
+                },
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02643303",
+            "title": "A Phase 1/2 Study of In Situ Vaccination With Tremelimumab and IV Durvalumab Plus PolyICLC in Subjects With Advanced, Measurable, Biopsy-accessible Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3385,
+                    "therapyName": "Durvalumab + Poly ICLC",
+                    "synonyms": null
+                },
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02819843",
+            "title": "A Study of T-VEC (Talimogene Laherparepvec) With or Without Radiotherapy for Melanoma, Merkel Cell Carcinoma, or Other Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2695,
+                    "therapyName": "Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02831179",
+            "title": "Veliparib, Capecitabine, and Temozolomide in Patients With Advanced, Metastatic, and Recurrent Neuroendocrine Tumor",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4463,
+                    "therapyName": "Capecitabine + Temozolomide + Veliparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02936323",
+            "title": "PEN-221 in Somatostatin Receptor 2 Expressing Advanced Cancers Including Neuroendocrine and Small Cell Lung Cancers",
+            "phase": null,
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5819,
+                    "therapyName": "PEN-221",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978625",
+            "title": "Talimogene Laherparepvec and Nivolumab in Treating Patients With Refractory Lymphomas or Advanced or Refractory Non-melanoma Skin Cancers",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5080,
+                    "therapyName": "Nivolumab + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03071406",
+            "title": "Randomized Study of Nivolumab+Ipilimumab+/- SBRT for Metastatic Merkel Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074513",
+            "title": "Atezolizumab and Bevacizumab in Rare Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03271372",
+            "title": "Adjuvant Avelumab in Merkel Cell Cancer (ADAM)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03289962",
+            "title": "A Study of RO7198457 (Personalized Cancer Vaccine [PCV]) as a Single Agent and in Combination With Atezolizumab in Participants With Locally Advanced or Metastatic Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6234,
+                    "therapyName": "RO7198457",
+                    "synonyms": null
+                },
+                {
+                    "id": 6235,
+                    "therapyName": "Atezolizumab + RO7198457",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03304639",
+            "title": "Pembrolizumab With or Without Stereotactic Body Radiation Therapy in Treating Patients With Advanced or Metastatic Merkel Cell Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03416335",
+            "title": "A Study of DSP-0509 in Patients With Advanced Solid Tumors to Determine the Safety and the Pharmacokinetic Profile",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8822,
+                    "therapyName": "DSP-0509",
+                    "synonyms": null
+                },
+                {
+                    "id": 8823,
+                    "therapyName": "DSP-0509 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03435640",
+            "title": "A Study of NKTR-262 in Combination With NKTR-214 and With NKTR-214 Plus Nivolumab in Patients With Locally Advanced or Metastatic Solid Tumor Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6790,
+                    "therapyName": "NKTR-214 + NKTR-262",
+                    "synonyms": null
+                },
+                {
+                    "id": 6791,
+                    "therapyName": "Nivolumab + NKTR-214 + NKTR-262",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03538028",
+            "title": "A Safety and Tolerability Study of INCAGN02385 in Select Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6977,
+                    "therapyName": "INCAGN02385",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03599713",
+            "title": "A Study of INCMGA00012 in Metastatic Merkel Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7175,
+                    "therapyName": "INCMGA00012",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03628677",
+            "title": "A Study to Evaluate the Safety and Tolerability of AB154 in Participants With Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8176,
+                    "therapyName": "AB154",
+                    "synonyms": null
+                },
+                {
+                    "id": 8177,
+                    "therapyName": "AB154 + GLS-010",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03629756",
+            "title": "A Study to Evaluate the Safety and Tolerability of Immunotherapy Combinations in Participants With Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8016,
+                    "therapyName": "AB928 + GLS-010",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03712605",
+            "title": "Pembrolizumab Compared to Standard of Care Observation in Treating Patients With Completely Resected Stage I-III Merkel Cell Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03747484",
+            "title": "Gene-Modified Immune Cells (FH-MCVA2TCR) in Treating Patients With Metastatic or Unresectable Merkel Cell Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 8561,
+                    "therapyName": "Avelumab + FH-MCVA2TCR",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03767348",
+            "title": "Study of RP1 Monotherapy and RP1 in Combination With Nivolumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7820,
+                    "therapyName": "Nivolumab + RP1",
+                    "synonyms": null
+                },
+                {
+                    "id": 7819,
+                    "therapyName": "RP1",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03783078",
+            "title": "Pembrolizumab (MK-3475) as First-line Therapy for Advanced Merkel Cell Carcinoma (MK-3475-913)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03787602",
+            "title": "This Study Evaluates KRT-232, a Novel Oral Small Molecule Inhibitor of MDM2, for the Treatment of Patients With (p53WT) Merkel Cell Carcinoma Who Have Failed Anti-PD-1/ PD-L1 Immunotherapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1452,
+                    "therapyName": "KRT-232",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03798639",
+            "title": "Nivolumab and Radiation Therapy or Ipilimumab as Adjuvant Therapy in Treating Patients With Merkel Cell Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03816332",
+            "title": "Tacrolimus, Nivolumab, and Ipilimumab in Treating Kidney Transplant Recipients With Selected Unresectable or Metastatic Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8592,
+                    "therapyName": "Ipilimumab + Nivolumab + Prednisone + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03816345",
+            "title": "Nivolumab in Treating Patients With Autoimmune Disorders or Advanced, Metastatic, or Unresectable Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03853317",
+            "title": "Evaluate Efficacy of Avelumab, haNK and N-803 in Subjects With Progressed MCC on or After Checkpoint Inhibitor Therapy.",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7962,
+                    "therapyName": "ALT-803 + Avelumab + haNK cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03901573",
+            "title": "High-Risk Skin Cancers With Atezolizumab Plus NT-I7",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9321,
+                    "therapyName": "Atezolizumab + NT-I7",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03936959",
+            "title": "A Study of LY3434172, a PD-1 and PD-L1 Bispecific Antibody, in Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 9537,
+                    "therapyName": "LY3434172",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03988647",
+            "title": "Phase II Palliative RT & Anti-PD-1/PD-L1 Checkpoint Blockade in Metastatic Merkel Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04096638",
+            "title": "Evaluating Safety and Efficacy of SB 11285 Alone and in Combination With Nivolumab in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8759,
+                    "therapyName": "Nivolumab + SB 11285",
+                    "synonyms": null
+                },
+                {
+                    "id": 8758,
+                    "therapyName": "SB 11285",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04160065",
+            "title": "Immunotherapy With IFx-Hu2.0 Vaccine for Advanced MCC or cSCC",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9147,
+                    "therapyName": "IFx-Hu2.0",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04260802",
+            "title": "A Study to Evaluate the Safety and Pharmacokinetics of OC-001 in Patients With Locally Advanced or Metastatic Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9335,
+                    "therapyName": "OC-001 + unspecified PD-L1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9334,
+                    "therapyName": "OC-001 + unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9333,
+                    "therapyName": "OC-001",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

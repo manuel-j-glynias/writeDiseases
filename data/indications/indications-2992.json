@@ -1,0 +1,341 @@
+{
+    "id": 2992,
+    "name": "prostate neuroendocrine neoplasm",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:2992",
+    "evidence": [
+        {
+            "id": 9035,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a neuroendocrine prostate cancer cell line, positive for AKT1, AURKA, and MYCN, demonstrated decreased MYCN expression and reduced cell viability in culture, and decreased tumor volume in xenograft models when treated with CD532 (PMID: 27050099).",
+            "molecularProfile": {
+                "id": 26699,
+                "profileName": "AKT1 pos AURKA pos MYCN pos"
+            },
+            "therapy": {
+                "id": 1628,
+                "therapyName": "CD532",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2992,
+                "name": "prostate neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6885,
+                    "pubMedId": 27050099,
+                    "title": "N-Myc Drives Neuroendocrine Prostate Cancer Initiated from Human Prostate Epithelial Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27050099"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9036,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Alisertib (MLN8237) in culture did not result in decreased expression of MYCN and led to minimal effects on cell viability in a neuroendocrine prostate cancer cell line positive for AKT1, AURKA, and MYCN (PMID: 27050099).",
+            "molecularProfile": {
+                "id": 26699,
+                "profileName": "AKT1 pos AURKA pos MYCN pos"
+            },
+            "therapy": {
+                "id": 626,
+                "therapyName": "Alisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2992,
+                "name": "prostate neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6885,
+                    "pubMedId": 27050099,
+                    "title": "N-Myc Drives Neuroendocrine Prostate Cancer Initiated from Human Prostate Epithelial Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27050099"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9913,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a prostate neuroendocrine tumor mouse model expressing Kit did not respond to Gleevec (imatinib), a result of impaired signaling of the Kit pathway (PMID: 27980106).",
+            "molecularProfile": {
+                "id": 851,
+                "profileName": "KIT positive"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2992,
+                "name": "prostate neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 7757,
+                    "pubMedId": 27980106,
+                    "title": "Imatinib Spares cKit-Expressing Prostate Neuroendocrine Tumors, whereas Kills Seminal Vesicle Epithelial-Stromal Tumors by Targeting PDGFR-\u03b2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27980106"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16057,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Alisertib (MLN8237) treatment of patients with metastatic neuroendocrine prostate cancer (NEPC) harboring AURKA amplification resulted in increased overall survival (p=0.05) compared to those without AURKA amplification (PMID: 30232224; NCT30232224).",
+            "molecularProfile": {
+                "id": 3956,
+                "profileName": "AURKA amp"
+            },
+            "therapy": {
+                "id": 626,
+                "therapyName": "Alisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2992,
+                "name": "prostate neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14171,
+                    "pubMedId": 30232224,
+                    "title": "A Phase II Trial of the Aurora Kinase A Inhibitor Alisertib for Patients with Castration-resistant and Neuroendocrine Prostate Cancer: Efficacy and Biomarkers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30232224"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16062,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with metastatic small-cell neuroendocrine prostate cancer with Aurka and Mycn protein overexpression and focal deletions in CDKN2A, CDKN2B, RB1, and BRCA2 tumor suppressor genes, had complete response of metastatic lesions and a sustained 8.3 month partial response to Alisertib (MLN8237) therapy prior to disease recurrence in the brain (PMID: 30232224; NCT30232224).",
+            "molecularProfile": {
+                "id": 31394,
+                "profileName": "AURKA over exp MYCN over exp"
+            },
+            "therapy": {
+                "id": 626,
+                "therapyName": "Alisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2992,
+                "name": "prostate neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14171,
+                    "pubMedId": 30232224,
+                    "title": "A Phase II Trial of the Aurora Kinase A Inhibitor Alisertib for Patients with Castration-resistant and Neuroendocrine Prostate Cancer: Efficacy and Biomarkers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30232224"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16064,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with metastatic small-cell neuroendocrine prostate cancer with Aurka and Mycn protein overexpression, deletions of FBXW7, FANCA, and SMARCB1, and loss of PTEN and CDKN2A, responded to Alisertib (MLN8237) therapy with complete resolution of metastasis in 12 weeks and a 14-month complete radiological response prior to discontinuation of therapy due to illness (PMID: 30232224; NCT30232224).",
+            "molecularProfile": {
+                "id": 31395,
+                "profileName": "AURKA over exp FBXW7 del MYCN over exp"
+            },
+            "therapy": {
+                "id": 626,
+                "therapyName": "Alisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2992,
+                "name": "prostate neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14171,
+                    "pubMedId": 30232224,
+                    "title": "A Phase II Trial of the Aurora Kinase A Inhibitor Alisertib for Patients with Castration-resistant and Neuroendocrine Prostate Cancer: Efficacy and Biomarkers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30232224"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16556,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, treatment with Rovalpituzumab Tesirine (Rova-T) resulted in shrinkage of target nodal metastases and complete or partial response in non-target lesions in a patient with DLL3-positive neuroendocrine prostate cancer, and in preclincial experiments Rovalpituzumab Tesirine (Rova-T) inhibited tumor growth in DLL3-expressing patient-derived xenograft (PDX) models and cell line xenograft models of neuroendocrine prostate cancer (PMID: 30894499).",
+            "molecularProfile": {
+                "id": 19630,
+                "profileName": "DLL3 positive"
+            },
+            "therapy": {
+                "id": 3544,
+                "therapyName": "Rovalpituzumab Tesirine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2992,
+                "name": "prostate neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14620,
+                    "pubMedId": 30894499,
+                    "title": "Delta-like protein 3 expression and therapeutic targeting in neuroendocrine prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30894499"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01799278",
+            "title": "A Phase II Trial of MLN8237 in Patients With Metastatic Castrate Resistant and Neuroendocrine Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 626,
+                    "therapyName": "Alisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03582475",
+            "title": "Pembrolizumab With Combination Chemotherapy in Treating Participants With Locally Advanced or Metastatic Small Cell/Neuroendocrine Cancers of Urothelium or Prostate",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 7103,
+                    "therapyName": "Carboplatin + Docetaxel + Etoposide + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5145,
+                    "therapyName": "Cisplatin + Etoposide + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2604,
+                    "therapyName": "Carboplatin + Etoposide + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03837353",
+            "title": "A Parallel Arm Phase 1b/2a Study of DKN-01 as Monotherapy or in Combination With Docetaxel for the Treatment of Advanced Prostate Cancer With Elevated DKK1",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6244,
+                    "therapyName": "DKN-01",
+                    "synonyms": null
+                },
+                {
+                    "id": 8989,
+                    "therapyName": "DKN-01 + Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03910660",
+            "title": "A Trial of BXCL701 and Pembrolizumab in Patients With Small Cell Neuroendocrine Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8173,
+                    "therapyName": "Pembrolizumab + Talabostat Mesylate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04090775",
+            "title": "A Phase 2 Trial for Men With Metastatic Prostatic Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8748,
+                    "therapyName": "Cyclophosphamide + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04179864",
+            "title": "A Phase 1b/2 Open-Label Study in Chemotherapy Naive Subjects With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9004,
+                    "therapyName": "Enzalutamide + Tazemetostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 9003,
+                    "therapyName": "Abiraterone + Prednisone + Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

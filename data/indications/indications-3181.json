@@ -1,0 +1,642 @@
+{
+    "id": 3181,
+    "name": "oligodendroglioma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "3182"
+    ],
+    "termId": "DOID:3181",
+    "evidence": [
+        {
+            "id": 846,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Dacogen (decitabine) decreased colony formation and tumor growth in patient derived xenograft (PDX) models of patient derived oligodendroglioma cells with IDH1 R132H mutations and co-deletion of 1p and 19q (PMID: 24077826).",
+            "molecularProfile": {
+                "id": 1253,
+                "profileName": "IDH1 R132H"
+            },
+            "therapy": {
+                "id": 650,
+                "therapyName": "Decitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3181,
+                "name": "oligodendroglioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 490,
+                    "pubMedId": 24077826,
+                    "title": "Efficient induction of differentiation and growth inhibition in IDH1 mutant glioma cells by the DNMT Inhibitor Decitabine.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24077826"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8412,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PRN1371 treatment resulted in tumor regression in patient-derived xenograft models of anaplastic oligodendroglioma harboring FGFR3-TACC3 fusion (PMID: 28978721).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 3583,
+                "therapyName": "PRN1371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3181,
+                "name": "oligodendroglioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10753,
+                    "pubMedId": 28978721,
+                    "title": "The Irreversible Covalent Fibroblast Growth Factor Receptor Inhibitor PRN1371 Exhibits Sustained Inhibition of FGFR after Drug Clearance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978721"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13382,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "IDH1 mutations aid in the diagnosis of oligodendrogliomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 1781,
+                "profileName": "IDH1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3181,
+                "name": "oligodendroglioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13385,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "The combination of TERT mutation, IDH mutation, and 1p/19q co-deletion aids in the diagnosis of oligodendroglioma (NCCN.org).",
+            "molecularProfile": {
+                "id": 29109,
+                "profileName": "IDH1 mut TERT mut"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3181,
+                "name": "oligodendroglioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13386,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "The combination of TERT mutation, IDH mutation, and 1p/19q co-deletion aids in the diagnosis of oligodendroglioma (NCCN.org).",
+            "molecularProfile": {
+                "id": 29110,
+                "profileName": "IDH2 mut TERT mut"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3181,
+                "name": "oligodendroglioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13399,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "IDH2 mutations aid in the diagnosis of oligodendrogliomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 5912,
+                "profileName": "IDH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3181,
+                "name": "oligodendroglioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13768,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "TERT mutations aid in the diagnosis of oligodendroglioma (NCCN.org).",
+            "molecularProfile": {
+                "id": 29108,
+                "profileName": "TERT mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3181,
+                "name": "oligodendroglioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00303849",
+            "title": "Combination Chemotherapy With BBBD Followed By Sodium Thiosulfate in Treating Patients With Anaplastic Oligodendroglioma or Oligoastrocytoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 2562,
+                    "therapyName": "Etoposide + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01052363",
+            "title": "OXC401-PO1s/WVU 1309 - A Pilot Study of Fosbretabulin With Bevacizumab in Recurrent High-Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 2109,
+                    "therapyName": "Bevacizumab + Fosbretabulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01140568",
+            "title": "Study of Platelet Derived Growth Factor Receptor (PDGFR) in Recurrent Malignant Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 829,
+                    "therapyName": "Nilotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01188096",
+            "title": "A Trial of Poly-ICLC in the Management of Recurrent Pediatric Low Grade Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01339039",
+            "title": "Plerixafor (AMD3100) and Bevacizumab for Recurrent High-Grade Glioma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2120,
+                    "therapyName": "Bevacizumab + Plerixafor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01392209",
+            "title": "Hypofractionated Stereotactic Radiotherapy With Bevacizumab in the Treatment of Recurrent Malignant Glioma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01434602",
+            "title": "Phase I-II Everolimus and Sorafenib in Recurrent High-Grade Gliomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2299,
+                    "therapyName": "Everolimus + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01721577",
+            "title": "Phase I/II Trial of Safety and Anti-tumor Efficacy of AXL1717(Picropodophyllin) in the Treatment of Recurrent Malignant Astrocytomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 2745,
+                    "therapyName": "AXL1717",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01884740",
+            "title": "Phase I/II Trial Of Super-Selective Intraarterial Infusion Of Erbitux and Bevacizumab For Treatment Of Relapsed/Refractory Intracranial Glioma In Patients Under 22 Years Of Age",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1654,
+                    "therapyName": "Bevacizumab + Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01891747",
+            "title": "A Phase I/II Study of High-dose L-methylfolate in Combination With Temozolomide and Bevacizumab in Recurrent High Grade Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2115,
+                    "therapyName": "Bevacizumab + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01977677",
+            "title": "Plerixafor After Radiation Therapy and Temozolomide in Treating Patients With Newly Diagnosed High Grade Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01999270",
+            "title": "Evaluation of FDOPA-PET/MRI in Pediatric Patients With CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2112,
+                    "therapyName": "Bevacizumab + Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02052778",
+            "title": "A Study of TAS-120 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1053,
+                    "therapyName": "Futibatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02078648",
+            "title": "Safety and Efficacy Study of SL-701, a Glioma-Associated Antigen Vaccine To Treat Recurrent Glioblastoma Multiforme",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3010,
+                    "therapyName": "SL-701",
+                    "synonyms": null
+                },
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02101905",
+            "title": "Lapatinib Ditosylate Before Surgery in Treating Patients With Recurrent High-Grade Glioma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 787,
+                    "therapyName": "Lapatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02238496",
+            "title": "Perifosine and Torisel (Temsirolimus) for Recurrent/Progressive Malignant Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2194,
+                    "therapyName": "Perifosine + Temsirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02423525",
+            "title": "Safety Study of Afatinib for Brain Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02549833",
+            "title": "Neo-adjuvant Evaluation of Glioma Lysate Vaccines in WHO Grade II Glioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9775,
+                    "therapyName": "GBM6-AD lysate protein vaccine + Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02924038",
+            "title": "A Study of Varlilumab and IMA950 Vaccine Plus Poly-ICLC in Patients With WHO Grade II Low-Grade Glioma (LGG)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4835,
+                    "therapyName": "IMA950 + Poly ICLC",
+                    "synonyms": null
+                },
+                {
+                    "id": 2525,
+                    "therapyName": "Varlilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03220646",
+            "title": "The Purpose of This Study is to Test Any Good and Bad Effects of a Study Drug Called Abemaciclib (LY2835219) in Patients With Recurrent Brain Tumors.",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03295396",
+            "title": "ONC201 in Adults With Recurrent High-grade Glioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1687,
+                    "therapyName": "ONC201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03343197",
+            "title": "Study of AG-120 and AG-881 in Subjects With Low Grade Glioma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1491,
+                    "therapyName": "Ivosidenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2995,
+                    "therapyName": "AG-881",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03514069",
+            "title": "Ruxolitinib With Radiation and Temozolomide for Grade III Gliomas and Glioblastoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6913,
+                    "therapyName": "Ruxolitinib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03969706",
+            "title": "Abemaciclib in Patients With Oligodendroglioma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03975829",
+            "title": "Pediatric Long-Term Follow-up and Rollover Study",
+            "phase": "FDA approved",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03991832",
+            "title": "Study of Olaparib and Durvalumab in IDH-Mutated Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2894,
+                    "therapyName": "Durvalumab + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04164901",
+            "title": "Study of AG-881 in Participants With Residual or Recurrent Grade 2 Glioma With an IDH1 or IDH2 Mutation (INDIGO)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2995,
+                    "therapyName": "AG-881",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04295759",
+            "title": "INCB7839 in Treating Children With Recurrent/Progressive High-Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 6876,
+                    "therapyName": "INCB7839",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

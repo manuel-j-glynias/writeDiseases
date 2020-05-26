@@ -1,0 +1,190 @@
+{
+    "id": 1035,
+    "name": "aggressive NK-cell leukemia",
+    "source": "DOID",
+    "definition": "A leukemia that is characterized by the systemic proliferation of NK cells closely associated with Epstein-Barr virus and that is located_in the peripheral blood, bone marrow, liver, and spleen. [url:https\\://en.wikipedia.org/wiki/Aggressive_NK-cell_leukemia, url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C8647, url:https\\://www.ncbi.nlm.nih.gov/pmc/articles/PMC6191480/]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:1035",
+    "evidence": [
+        {
+            "id": 15493,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial that supported FDA approval, Elzonris (tagraxofusp-erzs) treatment resulted in complete response/clinical complete response in 53.8% (7/13) of patients with untreated blastic plasmacytoid dendritic cell neoplasm (BPDCN, also known as natural killer cell leukemia/lymphoma) with a median follow-up of 11.5 months, and 1 complete response and 1 clinical complete response in 15 patients with relapsed or refractory BPDCN (FDA.gov; NCT02113982).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2005,
+                "therapyName": "tagraxofusp-erzs",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1035,
+                "name": "aggressive NK-cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 286,
+                    "pubMedId": null,
+                    "title": "FDA.gov",
+                    "url": "http://www.fda.gov/"
+                },
+                {
+                    "id": 15665,
+                    "pubMedId": null,
+                    "title": "Elzonris (tagraxofusp-erzs) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761116"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18950,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "STAT5B mutations aid in the diagnosis of natural killer cell leukemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 22434,
+                "profileName": "STAT5B mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1035,
+                "name": "aggressive NK-cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18951,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "STAT3 mutations aid in the diagnosis of natural killer cell leukemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 22431,
+                "profileName": "STAT3 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1035,
+                "name": "aggressive NK-cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02722668",
+            "title": "UCB Transplant for Hematological DIseases Using a Non Myeloablative Prep",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2281,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03203369",
+            "title": "Study to Evaluate the Safety and Clinical Activity of UCART123 in Patients With BPDCN (ABC123)",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5994,
+                    "therapyName": "UCART123",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03386513",
+            "title": "Study of IMGN632 in Patients With Relapse/Refractory AML, BPDCN, ALL, Other CD123+ Hem Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7340,
+                    "therapyName": "IMGN632",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03598998",
+            "title": "Pembrolizumab and Pralatrexate in Treating Participants With Relapsed or Refractory Peripheral T-Cell Lymphomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6356,
+                    "therapyName": "Pembrolizumab + Pralatrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04109482",
+            "title": "Trial to Evaluate the Safety and Efficacy of MB-102 in Patients With BPDCN, AML, and hrMDS.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9604,
+                    "therapyName": "Cyclophosphamide + Decitabine + Fludarabine + MB-102",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

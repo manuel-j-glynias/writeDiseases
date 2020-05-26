@@ -1,0 +1,443 @@
+{
+    "id": 60901,
+    "name": "Waldenstroem's macroglobulinemia",
+    "source": "DOID",
+    "definition": "A lymphoplasmacytic lymphoma characterized by the accumulation of monoclonal cells in the bone marrow and peripheral lymphoid tissues, and associated with the production of serum immunoglobulin M (IgM) monoclonal protein. [url:http\\://www.orpha.net/consor/cgi-bin/Disease_Search.php?lng=EN&data_id=10313, url:https\\://www.ncbi.nlm.nih.gov/pubmed/10632755]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0060901",
+    "evidence": [
+        {
+            "id": 12255,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Imbruvica (ibrutinib) treatment resulted in decreased major response rate in Waldenstroem's macroglobulinemia patients harboring WHIM-like CXCR4 mutations compared to patients with wild-type CXCR4 (30% vs 77%, p=0.018) (Blood 2013, 122 (21): 251).",
+            "molecularProfile": {
+                "id": 28135,
+                "profileName": "CXCR4 mutant"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60901,
+                "name": "Waldenstroem's macroglobulinemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 10216,
+                    "pubMedId": null,
+                    "title": "A Prospective Multicenter Study Of The Bruton\u2019s Tyrosine Kinase Inhibitor Ibrutinib In Patients With Relapsed Or Refractory Waldenstrom\u2019s Macroglobulinemia",
+                    "url": "http://www.bloodjournal.org/content/122/21/251?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13546,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "MYD88 L265P is diagnostic and aids distinguishing Waldenstrom macroglobulinemia from IgM-secreting B-cell lymphomas and IgM plasma cell myeloma (NCCN.org).",
+            "molecularProfile": {
+                "id": 6507,
+                "profileName": "MYD88 L265P"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60901,
+                "name": "Waldenstroem's macroglobulinemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13547,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Ibruvica (ibrutinib) treatment resulted in an overall response rate of 90.5% and a major response rate of 73.0% in patients with previously treated Waldenstr\u00f6m's macroglobulinemia, with the best response seen in patients harboring the MYD88 L265P and wild-type CXCR4 genotype (100%, 91.2%, 35 patients), followed by MYD88 L265P and mutant CXCR4 (85.7%, 61.9%, 21 patients), then wild-type MYD88 and CXCR4 (71.4%, 28.6%, 7 patients) (PMID: 25853747; NCT01614821).",
+            "molecularProfile": {
+                "id": 9814,
+                "profileName": "CXCR4 wild-type MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60901,
+                "name": "Waldenstroem's macroglobulinemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2810,
+                    "pubMedId": 25853747,
+                    "title": "Ibrutinib in previously treated Waldenstr\u00f6m's macroglobulinemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25853747"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13548,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Ibruvica (ibrutinib) treatment resulted in an overall response rate of 90.5% and a major response rate of 73.0% in patients with previously treated Waldenstr\u00f6m's macroglobulinemia, with the best response seen in patients harboring the MYD88 L265P and wild-type CXCR4 genotype (100%, 91.2%, 35 patients), followed by MYD88 L265P and mutant CXCR4 (85.7%, 61.9%, 21 patients), then wild-type MYD88 and CXCR4 (71.4%, 28.6%, 7 patients) (PMID: 25853747; NCT01614821).",
+            "molecularProfile": {
+                "id": 29152,
+                "profileName": "CXCR4 mut MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60901,
+                "name": "Waldenstroem's macroglobulinemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2810,
+                    "pubMedId": 25853747,
+                    "title": "Ibrutinib in previously treated Waldenstr\u00f6m's macroglobulinemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25853747"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13549,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Ibruvica (ibrutinib) treatment resulted in an overall response rate of 90.5% and a major response rate of 73.0% in patients with previously treated Waldenstr\u00f6m's macroglobulinemia, with the best response seen in patients harboring the MYD88 L265P and wild-type CXCR4 genotype (100%, 91.2%, 35 patients), followed by MYD88 L265P and mutant CXCR4 (85.7%, 61.9%, 21 patients), then wild-type MYD88 and CXCR4 (71.4%, 28.6%, 7 patients) (PMID: 25853747; NCT01614821).",
+            "molecularProfile": {
+                "id": 29153,
+                "profileName": "CXCR4 wild-type MYD88 wild-type"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60901,
+                "name": "Waldenstroem's macroglobulinemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2810,
+                    "pubMedId": 25853747,
+                    "title": "Ibrutinib in previously treated Waldenstr\u00f6m's macroglobulinemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25853747"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13897,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Umbralisib (TGR-1202) treatment resulted in stable disease in 2 patients with Waldenstroem's macroglobulinemia (PMID: 29475723; NCT01767766).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2022,
+                "therapyName": "Umbralisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60901,
+                "name": "Waldenstroem's macroglobulinemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11343,
+                    "pubMedId": 29475723,
+                    "title": "Umbralisib, a novel PI3K\u03b4 and casein kinase-1\u03b5 inhibitor, in relapsed or refractory chronic lymphocytic leukaemia and lymphoma: an open-label, phase 1, dose-escalation, first-in-human study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29475723"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18620,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Oprozomib (ONX 0912) treatment resulted in an objective response rate of 71.4% and 47.1% in the 2/7 and 5/14 cohorts of patients with Waldenstroem's macroglobulinemia (n=31) (PMID: 31142508; NCT01416428).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2422,
+                "therapyName": "Oprozomib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60901,
+                "name": "Waldenstroem's macroglobulinemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16360,
+                    "pubMedId": 31142508,
+                    "title": "A Phase Ib/II Study of Oprozomib in Patients with Advanced Multiple Myeloma and Waldenstr\u00f6m Macroglobulinemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31142508"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02339922",
+            "title": "Ixazomib Citrate and Rituximab in Treating Patients With Indolent B-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6730,
+                    "therapyName": "Ixazomib + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02576496",
+            "title": "Study of EDO-S101, A First-in-Class Alkylating HDACi Fusion Molecule, in Relapsed/Refractory Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6104,
+                    "therapyName": "Tinostamustine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03147885",
+            "title": "Selinexor Plus Combination Chemotherapy in Treating Patients With Advanced B Cell Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03162536",
+            "title": "Safety, PK, PD, and Antitumor Activity of ARQ 531 in Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5224,
+                    "therapyName": "ARQ 531",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03364231",
+            "title": "Study to Assess the Efficacy and Safety of Umbralisib in Patients With Non-Follicular Indolent Non-Hodgkin's Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2022,
+                    "therapyName": "Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03498612",
+            "title": "Pembrolizumab in Untreated B-Cell Non-Hodgkin Lymphoproliferative Diseases",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03557619",
+            "title": "A Study to Assess the Effect of Venetoclax on Ethinyl Estradiol and Levonorgestrel in Female Subjects With Different Hematological Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7978,
+                    "therapyName": "Ethinylestradiol + Levonorgestrel + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03711578",
+            "title": "Efficacy and Safety Study of Tenalisib (RP6530), a Novel PI3K delta/gamma Dual Inhibitor in Patients With Relapsed/Refractory Indolent Non-Hodgkin's Lymphoma (iNHL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2020,
+                    "therapyName": "RP6530",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03740529",
+            "title": "A Study of Oral LOXO-305 in Patients With Previously Treated CLL/SLL or NHL",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9507,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + LOXO-305 + Prednisone + Rituximab + Vincristine",
+                    "synonyms": "LOXO-305 + R-CHOP"
+                },
+                {
+                    "id": 9506,
+                    "therapyName": "LOXO-305 + Rituximab + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 9505,
+                    "therapyName": "LOXO-305 + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 9504,
+                    "therapyName": "LOXO-305",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03779113",
+            "title": "An Open-label, Dose Escalation Trial to Evaluate the Safety and Pharmacokinetics of HMPL-523 in Patients With Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5279,
+                    "therapyName": "HMPL-523",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03786926",
+            "title": "Trial to Evaluate the Safety and Pharmacokinetics of HMPL-689 in Patients With Lymphomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3669,
+                    "therapyName": "HMPL-689",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03920631",
+            "title": "Microtransplantation and Checkpoint Blockade Immunotherapy for Relapsed or Refractory B Cell Lymphomas (MicroBLITZ)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04052854",
+            "title": "A Single-Arm, Expanded Access Study of Zanubrutinib (BGB3111) in Patients With B-cell Malignancies",
+            "phase": "Expanded access",
+            "recruitment": "Available",
+            "therapies": [
+                {
+                    "id": 2544,
+                    "therapyName": "Zanubrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04273139",
+            "title": "Ibrutinib + Venetoclax in Untreated WM",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 3392,
+                    "therapyName": "Ibrutinib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04274738",
+            "title": "A Study of Mavorixafor in Combination With Ibrutinib in Participants With Waldenstrom's Macroglobulinemia (WM) Whose Tumors Express Mutations in MYD88 and CXCR4",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9405,
+                    "therapyName": "Ibrutinib + X4P-001",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

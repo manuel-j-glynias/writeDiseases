@@ -1,0 +1,114 @@
+{
+    "id": 7664,
+    "name": "endometrial mixed adenocarcinoma",
+    "source": "DOID",
+    "definition": "An endometrial adenocarcinoma that is composed of both type I (endometrioid) and type II (serous or clear cell type) tumors, with at least 10% of each component. [url:http\\://www.pathologyoutlines.com/topic/uterusmixedcarcinoma.html]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:7664",
+    "evidence": [
+        {
+            "id": 20216,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in stable disease in a patient with endometrial mixed adenocarcinoma harboring PIK3CA N345K (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 3668,
+                "profileName": "PIK3CA N345K"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7664,
+                "name": "endometrial mixed adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20217,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in progressive disease in a patient with endometrial mixed adenocarcinoma harboring a PIK3CA H1047 mutation (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 13164,
+                "profileName": "PIK3CA H1047X"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7664,
+                "name": "endometrial mixed adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03914612",
+            "title": "Testing the Addition of the Immunotherapy Drug Pembrolizumab to the Usual Chemotherapy Treatment (Paclitaxel and Carboplatin) in Stage III-IV or Recurrent Endometrial Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2103,
+                    "therapyName": "Carboplatin + Paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04197219",
+            "title": "Pembrolizumab With Axitinib in Recurrent Endometrial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2494,
+                    "therapyName": "Axitinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

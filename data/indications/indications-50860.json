@@ -1,0 +1,54 @@
+{
+    "id": 50860,
+    "name": "colorectal adenoma",
+    "source": "DOID",
+    "definition": "An intestinal benign neoplasm that has_material_basis_in epithelial tissue of glandular origin and is located_in colon and located_in rectum. [url:https\\://en.wikipedia.org/wiki/Colorectal_adenoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050860",
+    "evidence": [
+        {
+            "id": 9865,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, high COX2 expression was associated with decreased colorectal adenoma development following chemopreventive treatment with Celebra (celecoxib) in patients at high risk for developing colorectal adenomas (RR, 0.37; 95% CI, 0.22-0.61; p=0.0001) (PMID: 29769213).",
+            "molecularProfile": {
+                "id": 27149,
+                "profileName": "COX2 over exp"
+            },
+            "therapy": {
+                "id": 2124,
+                "therapyName": "Celecoxib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50860,
+                "name": "colorectal adenoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7721,
+                    "pubMedId": null,
+                    "title": "Expression of COX-2 and 15-PGDH in adenomas removed during pretreatment colonoscopy to predict chemopreventive efficacy of the selective COX-2 inhibitor, celecoxib.",
+                    "url": "http://meetinglibrary.asco.org/content/175867-195"
+                },
+                {
+                    "id": 14600,
+                    "pubMedId": 29769213,
+                    "title": "Chemopreventive Efficacy of the Cyclooxygenase-2 (Cox-2) Inhibitor, Celecoxib, Is Predicted by Adenoma Expression of Cox-2 and 15-PGDH.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29769213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

@@ -1,0 +1,479 @@
+{
+    "id": 50929,
+    "name": "mucosal melanoma",
+    "source": "DOID",
+    "definition": "A melanoma that has_material_basis_in melanocytes located_in mucosal membranes lining the respiratory, gastrointestinal and urogenital tract. [url:http\\://www.ncbi.nlm.nih.gov/pmc/articles/PMC3466987/?report=classic]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050929",
+    "evidence": [
+        {
+            "id": 6518,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with mucosal melanoma harboring KIT C443S demonstrated a substantial response to Gleevec (imatinib) in the first two weeks and then developed progression at 15 weeks (PMID: 25003536).",
+            "molecularProfile": {
+                "id": 5733,
+                "profileName": "KIT C443S"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50929,
+                "name": "mucosal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5680,
+                    "pubMedId": 25003536,
+                    "title": "Novel somatic KIT exon 8 mutation with dramatic response to imatinib in a patient with mucosal melanoma: a case report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25003536"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17737,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Toripalimab (JS001) demonstrated safety and preliminary efficacy, resulted in partial response in 1 and stable disease in 1 of 4 patients with mucosal melanoma (PMID: 30642373; NCT02836795).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5891,
+                "therapyName": "Toripalimab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50929,
+                "name": "mucosal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15756,
+                    "pubMedId": 30642373,
+                    "title": "Safety and clinical activity with an anti-PD-1 antibody JS001 in advanced melanoma or urologic cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30642373"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18838,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Zelboraf (vemurafenib) treatment resulted in rapid disease progression in a patient with primary mucosal melanoma harboring ZNF767-BRAF fusion, and did not inhibit Mapk signaling or survival of cells derived from this patient in culture (PMID: 28092667).",
+            "molecularProfile": {
+                "id": 21341,
+                "profileName": "ZNF767 - BRAF"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50929,
+                "name": "mucosal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14048,
+                    "pubMedId": 28092667,
+                    "title": "Oncogenic BRAF fusions in mucosal melanomas activate the MAPK pathway and are sensitive to MEK/PI3K inhibition or MEK/CDK4/6 inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28092667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18839,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with primary mucosal melanoma harboring ZNF767-BRAF were resistant to PLX8394 in culture (PMID: 28092667).",
+            "molecularProfile": {
+                "id": 21341,
+                "profileName": "ZNF767 - BRAF"
+            },
+            "therapy": {
+                "id": 1041,
+                "therapyName": "PLX8394",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50929,
+                "name": "mucosal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14048,
+                    "pubMedId": 28092667,
+                    "title": "Oncogenic BRAF fusions in mucosal melanomas activate the MAPK pathway and are sensitive to MEK/PI3K inhibition or MEK/CDK4/6 inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28092667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18840,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with primary mucosal melanoma harboring ZNF767-BRAF were resistant to CCT196969 in culture (PMID: 28092667).",
+            "molecularProfile": {
+                "id": 21341,
+                "profileName": "ZNF767 - BRAF"
+            },
+            "therapy": {
+                "id": 3105,
+                "therapyName": "CCT196969",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50929,
+                "name": "mucosal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14048,
+                    "pubMedId": 28092667,
+                    "title": "Oncogenic BRAF fusions in mucosal melanomas activate the MAPK pathway and are sensitive to MEK/PI3K inhibition or MEK/CDK4/6 inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28092667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18841,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with primary mucosal melanoma harboring ZNF767-BRAF were resistant to CCT241161 in culture (PMID: 28092667).",
+            "molecularProfile": {
+                "id": 21341,
+                "profileName": "ZNF767 - BRAF"
+            },
+            "therapy": {
+                "id": 3106,
+                "therapyName": "CCT241161",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50929,
+                "name": "mucosal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14048,
+                    "pubMedId": 28092667,
+                    "title": "Oncogenic BRAF fusions in mucosal melanomas activate the MAPK pathway and are sensitive to MEK/PI3K inhibition or MEK/CDK4/6 inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28092667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18842,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited Mapk signaling and survival in a dose-dependent manner in cells derived from a patient with primary mucosal melanoma harboring ZNF767-BRAF in culture (PMID: 28092667).",
+            "molecularProfile": {
+                "id": 21341,
+                "profileName": "ZNF767 - BRAF"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50929,
+                "name": "mucosal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14048,
+                    "pubMedId": 28092667,
+                    "title": "Oncogenic BRAF fusions in mucosal melanomas activate the MAPK pathway and are sensitive to MEK/PI3K inhibition or MEK/CDK4/6 inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28092667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18843,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) and Buparlisib (BKM120) combination treatment resulted in enhanced Parp cleavage and growth inhibition in cells derived from a patient with primary mucosal melanoma harboring ZNF767-BRAF in culture (PMID: 28092667).",
+            "molecularProfile": {
+                "id": 21341,
+                "profileName": "ZNF767 - BRAF"
+            },
+            "therapy": {
+                "id": 1974,
+                "therapyName": "Buparlisib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50929,
+                "name": "mucosal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14048,
+                    "pubMedId": 28092667,
+                    "title": "Oncogenic BRAF fusions in mucosal melanomas activate the MAPK pathway and are sensitive to MEK/PI3K inhibition or MEK/CDK4/6 inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28092667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18844,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) and Kisqali (ribociclib) combination treatment resulted in enhanced Parp cleavage and growth inhibition in cells derived from a patient with primary mucosal melanoma harboring ZNF767-BRAF in culture (PMID: 28092667).",
+            "molecularProfile": {
+                "id": 21341,
+                "profileName": "ZNF767 - BRAF"
+            },
+            "therapy": {
+                "id": 4472,
+                "therapyName": "Ribociclib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50929,
+                "name": "mucosal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14048,
+                    "pubMedId": 28092667,
+                    "title": "Oncogenic BRAF fusions in mucosal melanomas activate the MAPK pathway and are sensitive to MEK/PI3K inhibition or MEK/CDK4/6 inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28092667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02748564",
+            "title": "Aldesleukin and Pembrolizumab in Treating Patients With Stage III-IV Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4165,
+                    "therapyName": "Aldesleukin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02818023",
+            "title": "Dose-seeking and Efficacy Study of Pembrolizumab Plus Vemurafenib Advanced Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4406,
+                    "therapyName": "Pembrolizumab + Vemurafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02879162",
+            "title": "Durvalumab and Tremelimumab in Patients With Advanced Rare Tumours",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978443",
+            "title": "A Biomarker Study in Advanced Mucosal or Acral Lentiginous Melanoma Receiving Nivolumab in Combination With Ipilimumab",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03220009",
+            "title": "Nivolumab or Expectant Observation Following Ipilimumab, Nivolumab, and Surgery in Treating Patients With High Risk Localized, Locoregionally Advanced, or Recurrent Mucosal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03241186",
+            "title": "Ipilimumab and Nivolumab as Adjuvant Treatment of Mucosal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03817125",
+            "title": "Melanoma Checkpoint and Gut Microbiome Alteration With Microbiome Intervention (MCGRAW)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7801,
+                    "therapyName": "Nivolumab + SER-401",
+                    "synonyms": null
+                },
+                {
+                    "id": 7815,
+                    "therapyName": "Vancomycin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03875079",
+            "title": "A Phase IB Study To Evaluate Safety And Therapeutic Activity Of RO6874281, An Immunocytokine, Consisting Of Interleukin-2 Variant Targeting Fibroblast Activation Protein-A, In Combination With Pembrolizumab (Anti-Pd-1), In Participants With Previously Untreated Advanced And/Or Metastatic Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8053,
+                    "therapyName": "Pembrolizumab + RO6874281",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03991741",
+            "title": "Adoptive Cell Transfer of Autologous Tumor Infiltrating Lymphocytes and High-Dose Interleukin 2 in Select Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04042506",
+            "title": "SBRT as a Vaccination for Metastatic Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04139902",
+            "title": "PD-1 Inhibitor Dostarlimab (TSR-042) vs. Combination of Tim-3 Inhibitor TSR-022 and PD-1 Inhibitor Dostarlimab (TSR-042)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7522,
+                    "therapyName": "TSR-022 + TSR-042",
+                    "synonyms": null
+                },
+                {
+                    "id": 6320,
+                    "therapyName": "TSR-042",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04250597",
+            "title": "Study of GNX102 in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9331,
+                    "therapyName": "GNX102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04318717",
+            "title": "Pembrolizumab and Hypofractionated Radiation Therapy for the Treatment of Mucosal Melanoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

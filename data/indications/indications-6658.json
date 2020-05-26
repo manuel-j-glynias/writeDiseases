@@ -1,0 +1,91 @@
+{
+    "id": 6658,
+    "name": "pulmonary large cell neuroendocrine carcinoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5721"
+    ],
+    "termId": "DOID:6658",
+    "evidence": [
+        {
+            "id": 3951,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD7451 treatment inhibited proliferation of a lung large-cell neuroendocrine carcinoma cell line expressing Ntrk2 in culture (PMID: 25054037).",
+            "molecularProfile": {
+                "id": 5968,
+                "profileName": "NTRK2 positive"
+            },
+            "therapy": {
+                "id": 2680,
+                "therapyName": "AZD7451",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6658,
+                "name": "pulmonary large cell neuroendocrine carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 792,
+                    "pubMedId": 25054037,
+                    "title": "Investigation of neurotrophic tyrosine kinase receptor 1 fusions and neurotrophic tyrosine kinase receptor family expression in non-small-cell lung cancer and sensitivity to AZD7451 in vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25054037"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3952,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD7451 treatment did not inhibit proliferation of a lung large-cell neuroendocrine carcinoma cell line with reduced Ntrk1 and Ntrk2 expression level in culture (PMID: 25054037).",
+            "molecularProfile": {
+                "id": 16587,
+                "profileName": "NTRK1 dec exp NTRK2 dec exp"
+            },
+            "therapy": {
+                "id": 2680,
+                "therapyName": "AZD7451",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6658,
+                "name": "pulmonary large cell neuroendocrine carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 792,
+                    "pubMedId": 25054037,
+                    "title": "Investigation of neurotrophic tyrosine kinase receptor 1 fusions and neurotrophic tyrosine kinase receptor family expression in non-small-cell lung cancer and sensitivity to AZD7451 in vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25054037"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02279433",
+            "title": "A First-in-human Study to Evaluate the Safety, Tolerability and Pharmacokinetics of DS-6051b",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4343,
+                    "therapyName": "DS6051b",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

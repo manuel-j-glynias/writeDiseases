@@ -1,0 +1,91 @@
+{
+    "id": 369,
+    "name": "olfactory neuroblastoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:369",
+    "evidence": [
+        {
+            "id": 7758,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In clinical case study, a patient with olfactory neuroblastoma harboring EGFR R521K, FGFR2 M186T, KDR Q472H, KDR V297I, and RET M1009T demonstrated sensitivity to the combination of Sutent (sunitinib) and Erbitux (cetuximab), resulting in a complete response (PMID: 27149458).",
+            "molecularProfile": {
+                "id": 26023,
+                "profileName": "EGFR R521K FGFR2 M186T KDR V297I KDR Q472H RET M1009T"
+            },
+            "therapy": {
+                "id": 4568,
+                "therapyName": "Cetuximab + Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 369,
+                "name": "olfactory neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6481,
+                    "pubMedId": 27149458,
+                    "title": "Recurrent Olfactory Neuroblastoma Treated With Cetuximab and Sunitinib: A Case Report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27149458"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10964,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with esthesioneuroblastoma demonstrated stable disease when treated with OPB-111077 (Mol Cancer Ther 2015;14(12 Suppl 2):Abstract nr B118).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5739,
+                "therapyName": "OPB-111077",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 369,
+                "name": "olfactory neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8960,
+                    "pubMedId": null,
+                    "title": "Abstract B118: A phase 1, open-label multiple dose escalation trial to determine safety and tolerability of once daily OPB-111077 in subjects with advanced cancer",
+                    "url": "http://mct.aacrjournals.org/content/14/12_Supplement_2/B118.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT04105543",
+            "title": "CLR 131 Combined With Radiation for Head and Neck Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7331,
+                    "therapyName": "CLR 131",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

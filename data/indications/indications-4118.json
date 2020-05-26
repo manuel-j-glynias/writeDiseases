@@ -1,0 +1,141 @@
+{
+    "id": 4118,
+    "name": "colon neuroendocrine neoplasm",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4118",
+    "evidence": [
+        {
+            "id": 16191,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, combination Tafinlar (dabrafinib) and Mekinist (trametinib) therapy in a patient with Platinol (cisplatin)-resistant metastatic neuroendocrine carcinoma of the colon harboring BRAF V600E and TP53 H214R mutations and amplifications of FLT3 and CDK8 resulted in decreased disease burden with a clinical benefit for 5 months before disease progression (PMID: 30181415).",
+            "molecularProfile": {
+                "id": 31514,
+                "profileName": "BRAF V600E CDK8 amp FLT3 amp TP53 H214R"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4118,
+                "name": "colon neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14304,
+                    "pubMedId": 30181415,
+                    "title": "Targeting BRAF Mutations in High-Grade Neuroendocrine Carcinoma of the Colon.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30181415"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16192,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with Platinol (cisplatin)-resistant metastatic neuroendocrine carcinoma of the colon harboring BRAF V600E and TP53 H214R mutations and amplifications of FLT3 and CDK8 who had an initial response to combination Tafinlar (dabrafinib) and Mekinist (trametinib) therapy was found to have acquired an ARID1B Q123* mutation upon disease progression (PMID: 30181415).",
+            "molecularProfile": {
+                "id": 31515,
+                "profileName": "ARID1B Q123* BRAF V600E CDK8 amp FLT3 amp TP53 H214R"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4118,
+                "name": "colon neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14304,
+                    "pubMedId": 30181415,
+                    "title": "Targeting BRAF Mutations in High-Grade Neuroendocrine Carcinoma of the Colon.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30181415"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16193,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tafinlar (dabrafinib) treatment of a patient with recurrent neuroendocrine carcinoma of the colon harboring a BRAF V600E mutation resulted in stable disease for 6 months before disease progression (PMID: 30181415).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4118,
+                "name": "colon neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14304,
+                    "pubMedId": 30181415,
+                    "title": "Targeting BRAF Mutations in High-Grade Neuroendocrine Carcinoma of the Colon.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30181415"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16194,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In Phase II trial, Mektovi (binimetinib) therapy in a patient with recurrent neuroendocrine carcinoma of the colon harboring a BRAF V600E mutation who had previously progressed on Tafinlar (dabrafinib) resulted in disease progression after two cycles (PMID: 30181415; NCT01885195).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4118,
+                "name": "colon neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14304,
+                    "pubMedId": 30181415,
+                    "title": "Targeting BRAF Mutations in High-Grade Neuroendocrine Carcinoma of the Colon.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30181415"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

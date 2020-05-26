@@ -1,0 +1,428 @@
+{
+    "id": 111147,
+    "name": "angioimmunoblastic T-cell lymphoma",
+    "source": "DOID",
+    "definition": "A peripheral T-cell lymphoma characterized by autoimmune features and poor prognosis. [url:https\\://rarediseases.org/rare-diseases/angioimmunoblastic-t-cell-lymphoma/, url:https\\://www.lymphoma.org/aboutlymphoma/nhl/aitl/, url:https\\://www.ncbi.nlm.nih.gov/pubmed/22700722]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0111147",
+    "evidence": [
+        {
+            "id": 16704,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with relapsed angioimmunoblastic T-cell lymphoma demonstrated a complete response lasting over 2 years following treatment with Domatinostat (4SC-202) (PMID: 30347469; NCT01344707).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4136,
+                "therapyName": "Domatinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 111147,
+                "name": "angioimmunoblastic T-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14729,
+                    "pubMedId": 30347469,
+                    "title": "Phase I study of domatinostat (4SC-202), a class I histone deacetylase inhibitor in patients with advanced hematological malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30347469"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16919,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ECHELON-2) that supported FDA approval, treatment with Adcentris (brentuximab vedotin) in combination with cyclophosphamide, doxorubicin, and prednisone (CHP) resulted in improved median progression-free survival (48.2 vs 20.8 months, HR=0.71, p=0.011) compared to standard chemotherapy in patients with previously untreated TNFRSF8 (CD30)-positive peripheral T-cell lymphoma, including angioimmunoblastic T-cell lymphoma (PMID: 30522922; NCT01777152).",
+            "molecularProfile": {
+                "id": 23635,
+                "profileName": "TNFRSF8 positive"
+            },
+            "therapy": {
+                "id": 7500,
+                "therapyName": "Brentuximab vedotin + Cyclophosphamide + Doxorubicin + Prednisone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 111147,
+                "name": "angioimmunoblastic T-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15061,
+                    "pubMedId": 30522922,
+                    "title": "Brentuximab vedotin with chemotherapy for CD30-positive peripheral T-cell lymphoma (ECHELON-2): a global, double-blind, randomised, phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30522922"
+                },
+                {
+                    "id": 15574,
+                    "pubMedId": null,
+                    "title": "Adcetris (brentuximab vedotin) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125388"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18893,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Adcentris (brentuximab vedotin) in combination with cyclophosphamide, doxorubicin, and prednisone (CHP) is included in guidelines as preferred first-line therapy for patients with TNFRSF8 (CD30)-positive angioimmunoblastic T-cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 23635,
+                "profileName": "TNFRSF8 positive"
+            },
+            "therapy": {
+                "id": 7500,
+                "therapyName": "Brentuximab vedotin + Cyclophosphamide + Doxorubicin + Prednisone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 111147,
+                "name": "angioimmunoblastic T-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18895,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Adcentris (brentuximab vedotin) is included in guidelines as a preferred second-line and subsequent therapy for patients with TNFRSF8 (CD30)-positive angioimmunoblastic T-cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 23635,
+                "profileName": "TNFRSF8 positive"
+            },
+            "therapy": {
+                "id": 2486,
+                "therapyName": "Brentuximab vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 111147,
+                "name": "angioimmunoblastic T-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18954,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "RHOA mutations aid in the diagnosis of angioimmunoblastic T-cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 33684,
+                "profileName": "RHOA mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 111147,
+                "name": "angioimmunoblastic T-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18955,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "TET2 mutations aid in the diagnosis of angioimmunoblastic T-cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 13182,
+                "profileName": "TET2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 111147,
+                "name": "angioimmunoblastic T-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18956,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "DNMT3A mutations aid in the diagnosis of angioimmunoblastic T-cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 3485,
+                "profileName": "DNMT3A mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 111147,
+                "name": "angioimmunoblastic T-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18957,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "IDH2 mutations aid in the diagnosis of angioimmunoblastic T-cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 5912,
+                "profileName": "IDH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 111147,
+                "name": "angioimmunoblastic T-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18958,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "IDH1 mutations aid in the diagnosis of angioimmunoblastic T-cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 1781,
+                "profileName": "IDH1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 111147,
+                "name": "angioimmunoblastic T-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02232516",
+            "title": "Romidepsin and Lenalidomide in Treating Patients With Previously Untreated Peripheral T-Cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8060,
+                    "therapyName": "Lenalidomide + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02689453",
+            "title": "Subcutaneous Recombinant Human IL-15 (s.c. rhIL-15) and Alemtuzumab for People With Refractory or Relapsed Chronic and Acute Adult T-cell Leukemia (ATL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9641,
+                    "therapyName": "Alemtuzumab + rhIL-15",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03017820",
+            "title": "VSV-hIFNbeta-NIS in Treating Patients With Relapsed or Refractory Multiple Myeloma, Acute Myeloid Leukemia, or T-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7269,
+                    "therapyName": "VSV-hIFNbeta-NIS",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03049449",
+            "title": "T Cells Expressing a Fully-Human Anti-CD30 Chimeric Antigen Receptor for Treating CD30-Expressing Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9020,
+                    "therapyName": "ATLCAR.CD30 cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03372057",
+            "title": "A Study of Duvelisib in Patients With Relapsed or Refractory Peripheral T Cell Lymphoma (PTCL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03586999",
+            "title": "Nivolumab With Standard of Care Chemotherapy for Peripheral T Cell Lymphomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7928,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Etoposide + Nivolumab + Prednisone + Vincristine",
+                    "synonyms": "Nivolumab + EPOCH"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03829540",
+            "title": "CD4CAR for CD4+ Leukemia and Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9084,
+                    "therapyName": "CD4CAR",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03902184",
+            "title": "IPH4102 Alone or in Combination With Chemotherapy in Patients With Advanced T Cell Lymphoma (TELLOMAK)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8662,
+                    "therapyName": "Gemcitabine + IPH4102 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8650,
+                    "therapyName": "IPH4102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04234048",
+            "title": "Phase 1 Trial of ST-001 nanoFenretinide in Relapsed/Refractory T-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2731,
+                    "therapyName": "Fenretinide",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "id": 3721,
+    "name": "plasmacytoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3721",
+    "evidence": [
+        {
+            "id": 21300,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II study, REGN5458 treatment resulted in a partial response in a patient with medullary and cutaneous extramedullary plasmacytoma (Blood (2019) 134 (Supplement_1): 3176; NCT03761108).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9740,
+                "therapyName": "REGN5458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3721,
+                "name": "plasmacytoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 18591,
+                    "pubMedId": null,
+                    "title": "Safety and Preliminary Clinical Activity of REGN5458, an Anti-Bcma x Anti-CD3 Bispecific Antibody, in Patients with Relapsed/Refractory Multiple Myeloma",
+                    "url": "https://ashpublications.org/blood/article/134/Supplement_1/3176/423805/Safety-and-Preliminary-Clinical-Activity-of"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02506959",
+            "title": "Panobinostat Combined With High-Dose Gemcitabine/Busulfan/Melphalan With Autologous Stem Cell Transplant for Patients With Refractory/Relapsed Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2558,
+                    "therapyName": "Busulfan + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 3277,
+                    "therapyName": "Pyridoxine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1080,
+                    "therapyName": "Panobinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2373,
+                    "therapyName": "Palifermin",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03196401",
+            "title": "A Study of Immunotherapy Plus Radiation Therapy to Stimulate Immunity in Solitary Bone Plasmacytoma",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

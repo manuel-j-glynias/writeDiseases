@@ -1,0 +1,3820 @@
+{
+    "id": 1240,
+    "name": "leukemia",
+    "source": "DOID",
+    "definition": "A cancer that affects the blood or bone marrow characterized by an abnormal proliferation of blood cells. [url:http\\://en.wikipedia.org/wiki/Leukemia, url:http\\://www.cancer.gov/dictionary?CdrID=45343]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "9145"
+    ],
+    "termId": "DOID:1240",
+    "evidence": [
+        {
+            "id": 727,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mice injected with transformed cells harboring PDGFRA H650Q developed leukemia-like disease that is sensitive to Gleevec (imatinib) (PMID: 21224473).",
+            "molecularProfile": {
+                "id": 980,
+                "profileName": "PDGFRA H650Q"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 418,
+                    "pubMedId": 21224473,
+                    "title": "Novel imatinib-sensitive PDGFRA-activating point mutations in hypereosinophilic syndrome induce growth factor independence and leukemia-like disease.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21224473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1410,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EPZ004777 inhibited DOT1L activity, resulting in decreased H3K27 methylation in leukemia cell lines in culture (PMID: 21741596).",
+            "molecularProfile": {
+                "id": 28637,
+                "profileName": "DOT1L positive"
+            },
+            "therapy": {
+                "id": 1744,
+                "therapyName": "EPZ004777",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 1170,
+                    "pubMedId": 21741596,
+                    "title": "Selective killing of mixed lineage leukemia cells by a potent small-molecule DOT1L inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21741596"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1564,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a preclincal study, PRMT1 was identified as an essential component of mixed lineage leukemia (MLL) oncogenic complexes, and plays a important role in oncogenesis, revealing its potential as a novel therapeutic target in human cancer (PMID: 17891136; PMID: 19085993).",
+            "molecularProfile": {
+                "id": 2686,
+                "profileName": "PRMT1 wild-type"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1532,
+                    "pubMedId": 17891136,
+                    "title": "Protein arginine-methyltransferase-dependent oncogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17891136"
+                },
+                {
+                    "id": 1533,
+                    "pubMedId": 19085993,
+                    "title": "Virtual screening and biological characterization of novel histone arginine methyltransferase PRMT1 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19085993"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2136,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a leukemia cell line harboring the Gleevec (imatinib) resistant mutation, BCR-ABL T315I, demonstrated sensitivity to KW-2449 (PMID: 19541823).",
+            "molecularProfile": {
+                "id": 5358,
+                "profileName": "BCR - ABL1 ABL1 T315I"
+            },
+            "therapy": {
+                "id": 2614,
+                "therapyName": "KW-2449",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2612,
+                    "pubMedId": 19541823,
+                    "title": "KW-2449, a novel multikinase inhibitor, suppresses the growth of leukemia cells with FLT3 mutations or T315I-mutated BCR/ABL translocation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19541823"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2457,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AI-10-49 induced apoptosis and prevented colony formation of human leukemia cells harboring the CBFB-MYH11 fusion (PMID: 25678665).",
+            "molecularProfile": {
+                "id": 2435,
+                "profileName": "CBFB - MYH11"
+            },
+            "therapy": {
+                "id": 2859,
+                "therapyName": "AI-10-49",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3100,
+                    "pubMedId": 25678665,
+                    "title": "Chemical biology. A small-molecule inhibitor of the aberrant transcription factor CBF\u03b2-SMMHC delays leukemia in mice.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25678665"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2459,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CASP8 deficient human leukemia cells treated with Marizomib (NPI-0052) demonstrated reduced caspase-3 activity as compared to human leukemia cells harboring wild-type CASP8 (PMID: 17356134).",
+            "molecularProfile": {
+                "id": 7760,
+                "profileName": "CASP8 loss"
+            },
+            "therapy": {
+                "id": 2143,
+                "therapyName": "Marizomib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3104,
+                    "pubMedId": 17356134,
+                    "title": "NPI-0052, a novel proteasome inhibitor, induces caspase-8 and ROS-dependent apoptosis alone and in combination with HDAC inhibitors in leukemia cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17356134"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2532,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX3397 inhibited FLT3 autophosphorylation in leukemia cells overexpressing FLT3 or harboring FLT3 activating mutations, and inhibited growth of leukemia cells harboring FLT3-ITD mutations in culture and in cell line xenograft models (ASH Annual Meeting Abstracts 2011 118: 3632).",
+            "molecularProfile": {
+                "id": 2774,
+                "profileName": "FLT3 act mut"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3257,
+                    "pubMedId": null,
+                    "title": "The Novel Inhibitor PLX3397 Effectively Inhibits FLT3-Mutant AML",
+                    "url": "http://abstracts.hematologylibrary.org/cgi/content/abstract/118/21/3632?maxtoshow=&hits=10&RESULTFORMAT=&fulltext=PLX3397&searchid=1&FIRSTINDEX=0&volume=118&issue=21&resourcetype=HWCIT"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2560,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a preclinical study, inhibition of CREBBP in multiple leukemia cell lines via synthetic CREBBP bromodomain ligands resulted in growth inhibition and minimal toxicity in culture, suggesting CREBBP is a promising therapeutic target (PMID: 26043365).",
+            "molecularProfile": {
+                "id": 9208,
+                "profileName": "CREBBP wild-type"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3305,
+                    "pubMedId": 26043365,
+                    "title": "Fragment-Based Design of Selective Nanomolar Ligands of the CREBBP Bromodomain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26043365"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2640,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, U0126 induced apoptotic activity of leukemia cells expressing PTPN11 E76K in culture (PMID: 17942397).",
+            "molecularProfile": {
+                "id": 9830,
+                "profileName": "PTPN11 E76K"
+            },
+            "therapy": {
+                "id": 2427,
+                "therapyName": "U0126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3365,
+                    "pubMedId": 17942397,
+                    "title": "Shp2E76K mutant confers cytokine-independent survival of TF-1 myeloid cells by up-regulating Bcl-XL.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17942397"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2641,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PD98059 induced apoptotic activity of leukemia cells expressing PTPN11 E76K in culture (PMID: 17942397).",
+            "molecularProfile": {
+                "id": 9830,
+                "profileName": "PTPN11 E76K"
+            },
+            "therapy": {
+                "id": 2617,
+                "therapyName": "PD98059",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3365,
+                    "pubMedId": 17942397,
+                    "title": "Shp2E76K mutant confers cytokine-independent survival of TF-1 myeloid cells by up-regulating Bcl-XL.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17942397"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3563,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II clinical trial, treatment with Mekinist (trametinib) resulted in an overall response rate of 28% in RAS-mutant leukemia patients, with 12% (7/57) of patients achieving complete remission (ASH 2015 Annual Meeting, Abst 677).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3823,
+                    "pubMedId": null,
+                    "title": "677 Phase I/II Trial of the MEK1/2 Inhibitor Trametinib (GSK1120212) in Relapsed/Refractory Myeloid Malignancies: Evidence of Activity in Patients with RAS Mutation-Positive Disease",
+                    "url": "https://ash.confex.com/ash/2012/webprogram/Paper51144.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3586,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II clinical trial, treatment with Mekinist (trametinib) resulted in an overall response rate of 28% in RAS-mutant leukemia patients, with 12% (7/57) of patients achieving complete remission (ASH 2015 Annual Meeting, Abst 677).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3823,
+                    "pubMedId": null,
+                    "title": "677 Phase I/II Trial of the MEK1/2 Inhibitor Trametinib (GSK1120212) in Relapsed/Refractory Myeloid Malignancies: Evidence of Activity in Patients with RAS Mutation-Positive Disease",
+                    "url": "https://ash.confex.com/ash/2012/webprogram/Paper51144.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3774,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, I-CBP112 inhibited clonogenic growth in a leukemia cell line harboring a RUNX1-RUNX1T1 (AML1-ETO) fusion in culture (PMID: 26552700).",
+            "molecularProfile": {
+                "id": 15350,
+                "profileName": "RUNX1 - RUNX1T1"
+            },
+            "therapy": {
+                "id": 3297,
+                "therapyName": "I-CBP112",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4120,
+                    "pubMedId": 26552700,
+                    "title": "Generation of a Selective Small Molecule Inhibitor of the CBP/p300 Bromodomain for Leukemia Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26552700"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3775,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, I-CBP112 sensitized leukemia cells harboring KMT2A fusions to Doxorubicin, leading to decreased cell growth in culture (PMID: 26552700).",
+            "molecularProfile": {
+                "id": 14079,
+                "profileName": "KMT2A rearrange"
+            },
+            "therapy": {
+                "id": 3299,
+                "therapyName": "Doxorubicin + I-CBP112",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4120,
+                    "pubMedId": 26552700,
+                    "title": "Generation of a Selective Small Molecule Inhibitor of the CBP/p300 Bromodomain for Leukemia Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26552700"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3776,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, I-CBP112 sensitized leukemia cells harboring KMT2A fusions to JQ1, resulting in decreased cell growth in culture (PMID: 26552700).",
+            "molecularProfile": {
+                "id": 14079,
+                "profileName": "KMT2A rearrange"
+            },
+            "therapy": {
+                "id": 3298,
+                "therapyName": "I-CBP112 + JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4120,
+                    "pubMedId": 26552700,
+                    "title": "Generation of a Selective Small Molecule Inhibitor of the CBP/p300 Bromodomain for Leukemia Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26552700"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3777,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of I-CBP112 and JQ1 worked synergistically to inhibit growth of leukemia cells harboring a RUNX1-RUNX1T1 (AML1-ETO) fusion in culture (PMID: 26552700)",
+            "molecularProfile": {
+                "id": 15350,
+                "profileName": "RUNX1 - RUNX1T1"
+            },
+            "therapy": {
+                "id": 3298,
+                "therapyName": "I-CBP112 + JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4120,
+                    "pubMedId": 26552700,
+                    "title": "Generation of a Selective Small Molecule Inhibitor of the CBP/p300 Bromodomain for Leukemia Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26552700"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3778,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of I-CBP112 and Doxorubicin worked synergistically to inhibit growth of leukemia cells harboring a RUNX1-RUNX1T1 (AML1-ETO) fusion in culture (PMID: 26552700)",
+            "molecularProfile": {
+                "id": 15350,
+                "profileName": "RUNX1 - RUNX1T1"
+            },
+            "therapy": {
+                "id": 3299,
+                "therapyName": "Doxorubicin + I-CBP112",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4120,
+                    "pubMedId": 26552700,
+                    "title": "Generation of a Selective Small Molecule Inhibitor of the CBP/p300 Bromodomain for Leukemia Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26552700"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4303,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEDI5117 inhibited proliferation of human leukemia cell lines stimulated with IL6 in culture (PMID: 26744529).",
+            "molecularProfile": {
+                "id": 17710,
+                "profileName": "IL6 over exp"
+            },
+            "therapy": {
+                "id": 3481,
+                "therapyName": "MEDI5117",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4491,
+                    "pubMedId": 26744529,
+                    "title": "A Novel IL6 Antibody Sensitizes Multiple Tumor Types to Chemotherapy Including Trastuzumab-Resistant Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26744529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4304,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sylvant (siltuximab) inhibited proliferation of human leukemia cell lines stimulated with IL6 in culture (PMID: 26744529).",
+            "molecularProfile": {
+                "id": 17710,
+                "profileName": "IL6 over exp"
+            },
+            "therapy": {
+                "id": 3485,
+                "therapyName": "siltuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4491,
+                    "pubMedId": 26744529,
+                    "title": "A Novel IL6 Antibody Sensitizes Multiple Tumor Types to Chemotherapy Including Trastuzumab-Resistant Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26744529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4588,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of Pim1 in JAK2 V617F-transformed B cell lines induced resistance to growth inhibition by Jakafi (ruxolitinib) (PMID: 26472029).",
+            "molecularProfile": {
+                "id": 18598,
+                "profileName": "JAK2 V617F PIM1 over exp"
+            },
+            "therapy": {
+                "id": 907,
+                "therapyName": "Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4621,
+                    "pubMedId": 26472029,
+                    "title": "The PIM inhibitor AZD1208 synergizes with ruxolitinib to induce apoptosis of ruxolitinib sensitive and resistant JAK2-V617F-driven cells and inhibit colony formation of primary MPN cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26472029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4636,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anti-CD19 CAR T-cells inhibited leukemia cell lines in culture (PMID: 26503962, PMID: 23788110).",
+            "molecularProfile": {
+                "id": 18656,
+                "profileName": "CD19 wild-type"
+            },
+            "therapy": {
+                "id": 3585,
+                "therapyName": "Anti-CD19 CAR T cells",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4641,
+                    "pubMedId": 26503962,
+                    "title": "Mesothelin-Targeted CARs: Driving T Cells to Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26503962"
+                },
+                {
+                    "id": 4642,
+                    "pubMedId": 23788110,
+                    "title": "Combining CAR T cells and the Bcl-2 family apoptosis inhibitor ABT-737 for treating B-cell malignancy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23788110"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4637,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ABT-737 enhanced sensitivity of leukemia cell lines to anti-CD19 CAR T-cells inhibition in culture (PMID: 26503962, PMID: 23788110).",
+            "molecularProfile": {
+                "id": 18656,
+                "profileName": "CD19 wild-type"
+            },
+            "therapy": {
+                "id": 3586,
+                "therapyName": "ABT-737 + Anti-CD19 CAR T cells",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4641,
+                    "pubMedId": 26503962,
+                    "title": "Mesothelin-Targeted CARs: Driving T Cells to Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26503962"
+                },
+                {
+                    "id": 4642,
+                    "pubMedId": 23788110,
+                    "title": "Combining CAR T cells and the Bcl-2 family apoptosis inhibitor ABT-737 for treating B-cell malignancy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23788110"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4790,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX3397 inhibited proliferation of human leukemia cells harboring both FLT3-ITD and FLT3 F691L in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19129,
+                "profileName": "FLT3 exon 14 ins FLT3 F691L"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4791,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX3397 inhibited proliferation of human leukemia cells harboring FLT3-ITD in culture and in cell line xenograft models (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19128,
+                "profileName": "FLT3 exon 14 ins"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4846,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with FLT3-ITD positive leukemia initially responded to Pexidartinib (PLX3397) therapy, but experienced relapse after emergence of FLT3 D835Y on the same allele as the FLT3-ITD mutation (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19130,
+                "profileName": "FLT3 exon 14 ins FLT3 D835Y"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4847,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a leukemia patient with FLT3-ITD positive leukemia initially responded to Pexidartinib (PLX3397), but experienced relapse after emergence of a compound FLT3 M837G/S838R/D839H mutation on the FLT3-ITD allele (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19288,
+                "profileName": "FLT3 exon 14 ins FLT3 M837G FLT3 S838R FLT3 D839H"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4849,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with FLT3-ITD positive leukemia initially responded to Pexidartinib (PLX3397), but experienced relapse after emergence of a FLT3 S652G mutation on the same allele as FLT3-ITD (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19366,
+                "profileName": "FLT3 exon 14 ins FLT3 S652G"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4850,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with FLT3-ITD positive leukemia initially responded to PLX3397, but experienced relapse after emergence of a FLT3 D835H mutation on the same allele as the FLT3-ITD mutation (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19279,
+                "profileName": "FLT3 exon 14 ins FLT3 D835H"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4893,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, leukemia cells harboring a FLT3 ITD and PIM1 over expression were sensitive to SMI-4a, demonstrating inhibition of cell growth (PMID: 19965690).",
+            "molecularProfile": {
+                "id": 19449,
+                "profileName": "FLT3 exon 14 ins PIM1 over exp"
+            },
+            "therapy": {
+                "id": 3673,
+                "therapyName": "SMI-4a",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4771,
+                    "pubMedId": 19965690,
+                    "title": "A small molecule inhibitor of Pim protein kinases blocks the growth of precursor T-cell lymphoblastic leukemia/lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19965690"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4961,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BP-1-108 inhibited phosphorylation of Stat5 and induced apoptosis in leukemia cells harboring BCR-ABL1 in cell culture (PMID: 22148584).",
+            "molecularProfile": {
+                "id": 2513,
+                "profileName": "BCR - ABL1"
+            },
+            "therapy": {
+                "id": 3703,
+                "therapyName": "BP-1-108",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4812,
+                    "pubMedId": 22148584,
+                    "title": "Small molecule STAT5-SH2 domain inhibitors exhibit potent antileukemia activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22148584"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5068,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, the majority of 19 leukemia patients with identified TP53 mutations did not demonstrate response to treatment with RG7112, with 2 acute myeloid leukemia patients harboring TP53 mutations showing clinical activity, but not improvement, and 1 sCLL/CLL patient achieving stable disease (PMID: 26459177).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 2076,
+                "therapyName": "RG7112",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4871,
+                    "pubMedId": 26459177,
+                    "title": "Results of the Phase I Trial of RG7112, a Small-Molecule MDM2 Antagonist in Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26459177"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5228,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells treated with TAK-960 demonstrated cell growth inhibition, decreased tumor size, and increased median survival in both culture and cell line xenograft models (PMID: 22188812).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3780,
+                "therapyName": "TAK-960",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4929,
+                    "pubMedId": 22188812,
+                    "title": "TAK-960, a novel, orally available, selective inhibitor of polo-like kinase 1, shows broad-spectrum preclinical antitumor activity in multiple dosing regimens.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22188812"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5240,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Oncovin (vincristine) combined with GW843682X resulted in a synergistic effect in leukemia cells positive for PLK1, resulting in inhibition of cell growth and apoptotic induction (PMID: 19421227).",
+            "molecularProfile": {
+                "id": 20367,
+                "profileName": "PLK1 positive"
+            },
+            "therapy": {
+                "id": 3795,
+                "therapyName": "GW843682X + Vincristine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4949,
+                    "pubMedId": 19421227,
+                    "title": "A novel treatment strategy targeting polo-like kinase 1 in hematological malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19421227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5506,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, WP1066 inhibited Jak2 and Stat3 signaling, induced apoptosis in erythroleukemia cells carrying JAK2 V617F in culture (PMID: 18245540).",
+            "molecularProfile": {
+                "id": 20953,
+                "profileName": "JAK2 V617F STAT3 pos"
+            },
+            "therapy": {
+                "id": 2784,
+                "therapyName": "WP1066",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2941,
+                    "pubMedId": 18245540,
+                    "title": "WP1066, a novel JAK2 inhibitor, suppresses proliferation and induces apoptosis in erythroid human cells carrying the JAK2 V617F mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18245540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5572,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CTX-1 induced cell death in an acute myeloid leukemia cell line with MDM4 (MDMX) over expression in culture (PMID: 26883273).",
+            "molecularProfile": {
+                "id": 2638,
+                "profileName": "MDM4 over exp"
+            },
+            "therapy": {
+                "id": 3899,
+                "therapyName": "CTX-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5110,
+                    "pubMedId": 26883273,
+                    "title": "Identification of a Small Molecule That Overcomes HdmX-Mediated Suppression of p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26883273"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5596,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KJ-Pyr-9 inhibited proliferation of Myc-overexpressing leukemia cell lines in culture (PMID: 25114221).",
+            "molecularProfile": {
+                "id": 4715,
+                "profileName": "MYC over exp"
+            },
+            "therapy": {
+                "id": 3903,
+                "therapyName": "KJ-Pyr-9",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5115,
+                    "pubMedId": 25114221,
+                    "title": "Inhibitor of MYC identified in a Kr\u00f6hnke pyridine library.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25114221"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6012,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YW3-56 inhibited proliferation of human leukemia cell lines in culture, independent of TP53 mutational status (PMID: 25612620).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4006,
+                "therapyName": "YW3-56",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5233,
+                    "pubMedId": 25612620,
+                    "title": "ATF4 Gene Network Mediates Cellular Response to the Anticancer PAD Inhibitor YW3-56 in Triple-Negative Breast Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25612620"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6224,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing the fusion, KMT2A-MLLT10, demonstrated sensitivity to EPZ004777 in culture and in mouse models, resulting in cell cycle arrest, increased apoptotic activity, and inhibition of cell proliferation (PMID: 23138183).",
+            "molecularProfile": {
+                "id": 22961,
+                "profileName": "KMT2A - MLLT10"
+            },
+            "therapy": {
+                "id": 1744,
+                "therapyName": "EPZ004777",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5485,
+                    "pubMedId": 23138183,
+                    "title": "Abrogation of MLL-AF10 and CALM-AF10-mediated transformation through genetic inactivation or pharmacological inhibition of the H3K79 methyltransferase Dot1l.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23138183"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6457,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 induced growth inhibition and apoptosis in leukemia cell lines harboring FLT3 internal tandem duplications (ITD) and reduced tumor burden in xenograft models (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 19128,
+                "profileName": "FLT3 exon 14 ins"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6458,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 inhibited proliferation and induced apoptosis in FLT3 inhibitor-resistant leukemia cell lines over expressing FLT3 D835G in culture (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 19290,
+                "profileName": "FLT3 D835G"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6460,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 inhibited proliferation and induced apoptosis in FLT3 inhibitor-resistant leukemia cell lines over expressing FLT3 D835Y in culture (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 3153,
+                "profileName": "FLT3 D835Y"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6462,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 inhibited proliferation and induced apoptosis in FLT3 inhibitor-resistant leukemia cell lines harboring FLT3 F691L in addition to FLT3 internal tandem duplications (ITD) in culture (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 19129,
+                "profileName": "FLT3 exon 14 ins FLT3 F691L"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6463,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 inhibited proliferation and induced apoptosis in FLT3 inhibitor-resistant leukemia cell lines harboring FLT3 Y842C in addition to FLT3 internal tandem duplications (ITD) in culture (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6464,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 inhibited proliferation and induced apoptosis in FLT3 inhibitor-resistant leukemia cell lines harboring FLT3 N676D and Y842C in addition to FLT3 internal tandem duplications (ITD) in culture (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 23516,
+                "profileName": "FLT3 exon 14 ins FLT3 N676D FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6476,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, ABL1 Y253H in the context of BCR-ABL1 was associated with resistance to Gleevec (imatinib) in 4 patients with BCR-ABL1-positive leukemia that progressed on Gleevec (imatinib), and resistance was supported by a cell culture assay (PMID: 11853795).",
+            "molecularProfile": {
+                "id": 22969,
+                "profileName": "BCR - ABL1 ABL1 Y253H"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9910,
+                    "pubMedId": 11853795,
+                    "title": "BCR-ABL gene mutations in relation to clinical resistance of Philadelphia-chromosome-positive leukaemia to STI571: a prospective study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11853795"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6477,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, ABL1 T315I in the context of BCR-ABL1 was identified as a Gleevec (imatinib)-resistant mutation in 6 patients with BCR-ABL1 positive leukemia, and resistance was supported by a in vitro assay (PMID: 12399961).",
+            "molecularProfile": {
+                "id": 5358,
+                "profileName": "BCR - ABL1 ABL1 T315I"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9903,
+                    "pubMedId": 12399961,
+                    "title": "Molecular and chromosomal mechanisms of resistance to imatinib (STI571) therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12399961"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6481,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, ABL1 S417Y in the context of BCR-ABL1 was identified in patients with BCR-ABL1-positive leukemia (acute lymphocytic leukemia or chronic myeloid leukemia) with Gleevec (imatinib) resistance (PMID: 17189410).",
+            "molecularProfile": {
+                "id": 23543,
+                "profileName": "BCR - ABL1 ABL1 S417Y"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9909,
+                    "pubMedId": 17189410,
+                    "title": "Contribution of ABL kinase domain mutations to imatinib resistance in different subsets of Philadelphia-positive patients: by the GIMEMA Working Party on Chronic Myeloid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17189410"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7013,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, leukemia cell lines with decreased levels of GLI2 and SHH mRNA were resistant to inhibition of survival by SANT1 in culture (PMID: 26781311).",
+            "molecularProfile": {
+                "id": 24363,
+                "profileName": "GLI2 dec exp SHH dec exp"
+            },
+            "therapy": {
+                "id": 3990,
+                "therapyName": "SANT1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6046,
+                    "pubMedId": 26781311,
+                    "title": "Targeting hedgehog signaling pathway in pediatric tumors: in vitro evaluation of SMO and GLI inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26781311"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7026,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, leukemia cells with reduced GLI2 and SHH mRNA levels were less sensitive to survival inhibition by GANT61 in culture (PMID: 26781311).",
+            "molecularProfile": {
+                "id": 24363,
+                "profileName": "GLI2 dec exp SHH dec exp"
+            },
+            "therapy": {
+                "id": 1786,
+                "therapyName": "GANT61",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6046,
+                    "pubMedId": 26781311,
+                    "title": "Targeting hedgehog signaling pathway in pediatric tumors: in vitro evaluation of SMO and GLI inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26781311"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7199,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mouse B cells null for both PIK3R1 and PIK3R2 demonstrated increased sensitivity to LY294002 in culture (PMID: 18704194).",
+            "molecularProfile": {
+                "id": 24765,
+                "profileName": "PIK3R1 del PIK3R2 del"
+            },
+            "therapy": {
+                "id": 1062,
+                "therapyName": "LY294002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6195,
+                    "pubMedId": 18704194,
+                    "title": "Ablation of PI3K blocks BCR-ABL leukemogenesis in mice, and a dual PI3K/mTOR inhibitor prevents expansion of human BCR-ABL+ leukemia cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18704194"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7200,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY294002 inhibited growth of PIK3R2 null mouse B cells in culture (PMID: 18704194).",
+            "molecularProfile": {
+                "id": 24764,
+                "profileName": "PIK3R2 del"
+            },
+            "therapy": {
+                "id": 1062,
+                "therapyName": "LY294002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6195,
+                    "pubMedId": 18704194,
+                    "title": "Ablation of PI3K blocks BCR-ABL leukemogenesis in mice, and a dual PI3K/mTOR inhibitor prevents expansion of human BCR-ABL+ leukemia cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18704194"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8003,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited Kit signaling and viability in leukemia cells harboring KIT N822K in culture (PMID: 21482694).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3255,
+                    "pubMedId": 21482694,
+                    "title": "Potent activity of ponatinib (AP24534) in models of FLT3-driven acute myeloid leukemia and other hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21482694"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8004,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited FGFR1 signaling and viability in leukemia cells harboring FGFR1OP2-FGFR1 in culture (PMID: 21482694).",
+            "molecularProfile": {
+                "id": 17524,
+                "profileName": "FGFR1OP2 - FGFR1"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3255,
+                    "pubMedId": 21482694,
+                    "title": "Potent activity of ponatinib (AP24534) in models of FLT3-driven acute myeloid leukemia and other hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21482694"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8005,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited Pdgfra signaling and viability in leukemia cells harboring FIP1L1-PDGFRA in culture (PMID: 21482694).",
+            "molecularProfile": {
+                "id": 7080,
+                "profileName": "FIP1L1 - PDGFRA"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3255,
+                    "pubMedId": 21482694,
+                    "title": "Potent activity of ponatinib (AP24534) in models of FLT3-driven acute myeloid leukemia and other hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21482694"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8942,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3023414 inhibited tumor growth in a transgenic animal model of leukemia driven by PIK3CA E545K (PMID: 27439478).",
+            "molecularProfile": {
+                "id": 2421,
+                "profileName": "PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 1069,
+                "therapyName": "LY3023414",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6792,
+                    "pubMedId": 27439478,
+                    "title": "Characterization of LY3023414, a Novel PI3K/mTOR Dual Inhibitor Eliciting Transient Target Modulation to Impede Tumor Growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27439478"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9120,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 inhibited survival of leukemia cells harboring FGFR1 translocation in culture and in cell line xenograft models (PMID: 27550940).",
+            "molecularProfile": {
+                "id": 1276,
+                "profileName": "FGFR1 rearrange"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6925,
+                    "pubMedId": 27550940,
+                    "title": "Identification of Pharmacodynamic Transcript Biomarkers in Response to FGFR Inhibition by AZD4547.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27550940"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9135,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a leukemic cell line harboring FGFR1OP2-FGFR1 (PMID: 22875613) demonstrated sensitivity to E7090 in culture, which resulted in decreased cell viability (PMID: 27535969).",
+            "molecularProfile": {
+                "id": 17524,
+                "profileName": "FGFR1OP2 - FGFR1"
+            },
+            "therapy": {
+                "id": 4911,
+                "therapyName": "E7090",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5786,
+                    "pubMedId": 22875613,
+                    "title": "Ponatinib as targeted therapy for FGFR1 fusions associated with the 8p11 myeloproliferative syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22875613"
+                },
+                {
+                    "id": 6928,
+                    "pubMedId": 27535969,
+                    "title": "E7090, a Novel Selective Inhibitor of Fibroblast Growth Factor Receptors, Displays Potent Antitumor Activity and Prolongs Survival in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27535969"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9762,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, leukemia cells harboring KMT2A-AFF1 demonstrated sensitivity to IRAK1/4 in culture, resulting in decreased cell proliferation (PMID: 28065413).",
+            "molecularProfile": {
+                "id": 20536,
+                "profileName": "KMT2A - AFF1"
+            },
+            "therapy": {
+                "id": 5196,
+                "therapyName": "IRAK1/4",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7540,
+                    "pubMedId": 28065413,
+                    "title": "Therapeutic Targeting of MLL Degradation Pathways in MLL-Rearranged Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28065413"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9763,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transgenic leukemic mouse model harboring KMT2A-MLLT3 demonstrated sensitivity to IRAK1/4, resulting in delayed progression and improved survival (PMID: 28065413).",
+            "molecularProfile": {
+                "id": 20485,
+                "profileName": "KMT2A - MLLT3"
+            },
+            "therapy": {
+                "id": 5196,
+                "therapyName": "IRAK1/4",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7540,
+                    "pubMedId": 28065413,
+                    "title": "Therapeutic Targeting of MLL Degradation Pathways in MLL-Rearranged Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28065413"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10005,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, the combination of Hycamtin (topotecan), Paraplatin (carboplatin), and Veliparib (ABT-888) resulted in an overall response rate of 33% (33/99) in leukemia patients and a response rate of 64% (14/22) in patients with aggressive myeloproliferative neoplasms or chronic myelomonocytic leukemia (PMID: 27551000).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5341,
+                "therapyName": "Carboplatin + Topotecan + Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7895,
+                    "pubMedId": 27551000,
+                    "title": "A Phase I Study of Topotecan, Carboplatin and the PARP Inhibitor Veliparib in Acute Leukemias, Aggressive Myeloproliferative Neoplasms, and Chronic Myelomonocytic Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27551000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10007,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, the combination of Hycamtin (topotecan), Paraplatin (carboplatin), and Veliparib (ABT-888) resulted in prolonged survival (6.1 mo vs 4.8 mo) in leukemia patients demonstrating impaired activity of FANCD2 monoubiquitination compared to those patients without impaired activity (PMID: 27551000).",
+            "molecularProfile": {
+                "id": 23620,
+                "profileName": "FANCD2 inact mut"
+            },
+            "therapy": {
+                "id": 5341,
+                "therapyName": "Carboplatin + Topotecan + Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7895,
+                    "pubMedId": 27551000,
+                    "title": "A Phase I Study of Topotecan, Carboplatin and the PARP Inhibitor Veliparib in Acute Leukemias, Aggressive Myeloproliferative Neoplasms, and Chronic Myelomonocytic Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27551000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10229,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of P10 and Zolinza (vorinostat) resulted in enhanced DNA damage leading to increased apoptotic activity and cell-cycle arrest of leukemic cells in culture (PMID: 27188390).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5426,
+                "therapyName": "P10 + Vorinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8172,
+                    "pubMedId": 27188390,
+                    "title": "Combinatorial Study of a Novel Poly (ADP-ribose) Polymerase Inhibitor and an HDAC Inhibitor, SAHA, in Leukemic Cell Lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27188390"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10326,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with AMI-408 decreased growth of leukemia cells expressing KMT2A-GAS7 (MLL-GAS7) in culture, and increased survival in xenograft models (PMID:26766589).",
+            "molecularProfile": {
+                "id": 27356,
+                "profileName": "KMT2A - GAS7"
+            },
+            "therapy": {
+                "id": 5463,
+                "therapyName": "AMI-408",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8304,
+                    "pubMedId": 26766589,
+                    "title": "Targeting Aberrant Epigenetic Networks Mediated by PRMT1 and KDM4C in Acute Myeloid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26766589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10329,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with AMI-408 reduced growth of leukemia cells expressing KAT6A-NCOA2 (MOZ-TIF2) in culture, and decreased tumor burden and increased leukemia latency in xenograft models (PMID: 26766589).",
+            "molecularProfile": {
+                "id": 27357,
+                "profileName": "KAT6A - NCOA2"
+            },
+            "therapy": {
+                "id": 5463,
+                "therapyName": "AMI-408",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8304,
+                    "pubMedId": 26766589,
+                    "title": "Targeting Aberrant Epigenetic Networks Mediated by PRMT1 and KDM4C in Acute Myeloid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26766589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10382,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Danusertib (PHA-739358) treatment resulted in response in 20% (4/20) of patients with chronic myeloid leukemia and Philadelphia chromosome-positive acute lymphoblastic leukemia resistant or intolerant to second generation c-Abl therapy, with all 4 patients harboring ABL1 T315I in the context of BCR-ABL1 (PMID: 25887498).",
+            "molecularProfile": {
+                "id": 5358,
+                "profileName": "BCR - ABL1 ABL1 T315I"
+            },
+            "therapy": {
+                "id": 716,
+                "therapyName": "Danusertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8407,
+                    "pubMedId": 25887498,
+                    "title": "A phase I study of danusertib (PHA-739358) in adult patients with accelerated or blastic phase chronic myeloid leukemia and Philadelphia chromosome-positive acute lymphoblastic leukemia resistant or intolerant to imatinib and/or other second generation c-ABL therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25887498"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10540,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DCBCI0901 inhibited tumor growth greater than 65% in a leukemia cell line xenograft model (Mol Cancer Ther 2013;12(11 Suppl):Abstract nr C270).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2017,
+                "therapyName": "DCBCI0901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3453,
+                    "pubMedId": null,
+                    "title": "Abstract C270: In vitro and in vivo antitumor activity of DCBCI0901, a potent PI3K/mTORC1/mTORC2 inhibitor.",
+                    "url": "http://mct.aacrjournals.org/content/12/11_Supplement/C270.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10728,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PD180970 did not inhibit growth of leukemia cells harboring ABL1 T315I in the context of BCR-ABL1 in culture (PMID: 27999193).",
+            "molecularProfile": {
+                "id": 5358,
+                "profileName": "BCR - ABL1 ABL1 T315I"
+            },
+            "therapy": {
+                "id": 2610,
+                "therapyName": "PD180970",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8788,
+                    "pubMedId": 27999193,
+                    "title": "The novel anticancer agent JNJ-26854165 is active in chronic myeloid leukemic cells with unmutated BCR/ABL and T315I mutant BCR/ABL through promoting proteosomal degradation of BCR/ABL proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27999193"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10730,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Serdemetan (JNJ-26854165) promoted BCR-ABL1 mRNA degradation, blocked downstream signaling, resulted in growth inhibition in leukemia cells over expressing ABL1 T315I in the context of BCR-ABL1 in culture and in cell line xenograft models (PMID: 27999193).",
+            "molecularProfile": {
+                "id": 5358,
+                "profileName": "BCR - ABL1 ABL1 T315I"
+            },
+            "therapy": {
+                "id": 2309,
+                "therapyName": "Serdemetan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8788,
+                    "pubMedId": 27999193,
+                    "title": "The novel anticancer agent JNJ-26854165 is active in chronic myeloid leukemic cells with unmutated BCR/ABL and T315I mutant BCR/ABL through promoting proteosomal degradation of BCR/ABL proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27999193"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10731,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of PD180970 and Serdemetan (JNJ-26854165) did not demonstrate improved growth inhibition compared to Serdemetan (JNJ-26854165) alone in leukemia cells over expressing ABL1 T315I in the context of BCR-ABL1 in culture and in cell line xenograft models (PMID: 27999193).",
+            "molecularProfile": {
+                "id": 5358,
+                "profileName": "BCR - ABL1 ABL1 T315I"
+            },
+            "therapy": {
+                "id": 5601,
+                "therapyName": "PD180970 + Serdemetan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8788,
+                    "pubMedId": 27999193,
+                    "title": "The novel anticancer agent JNJ-26854165 is active in chronic myeloid leukemic cells with unmutated BCR/ABL and T315I mutant BCR/ABL through promoting proteosomal degradation of BCR/ABL proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27999193"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10732,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Gleevec (imatinib) and Serdemetan (JNJ-26854165) did not demonstrate improved growth inhibition compared to Serdemetan (JNJ-26854165) alone in leukemia cells over expressing ABL1 T315I in the context of BCR-ABL1 in culture (PMID: 27999193).",
+            "molecularProfile": {
+                "id": 5358,
+                "profileName": "BCR - ABL1 ABL1 T315I"
+            },
+            "therapy": {
+                "id": 5602,
+                "therapyName": "Imatinib + Serdemetan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8788,
+                    "pubMedId": 27999193,
+                    "title": "The novel anticancer agent JNJ-26854165 is active in chronic myeloid leukemic cells with unmutated BCR/ABL and T315I mutant BCR/ABL through promoting proteosomal degradation of BCR/ABL proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27999193"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11330,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BCR positive leukemia calls harboring TCF3-PBX1 demonstrated cell growth inhibition when treated with Sprycel (dasatinib) in culture (PMID: 27758892).",
+            "molecularProfile": {
+                "id": 27961,
+                "profileName": "TCF3 - PBX1 BCR pos"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9240,
+                    "pubMedId": 27758892,
+                    "title": "E2A-PBX1 Remodels Oncogenic Signaling Networks in B-cell Precursor Acute Lymphoid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27758892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11334,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BCR positive leukemia cells harboring TCF3-PBX1 demonstrated inhibition of cell proliferation when treated with RK22446 in culture (PMID: 27758892).",
+            "molecularProfile": {
+                "id": 27961,
+                "profileName": "TCF3 - PBX1 BCR pos"
+            },
+            "therapy": {
+                "id": 5946,
+                "therapyName": "RK22446",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9240,
+                    "pubMedId": 27758892,
+                    "title": "E2A-PBX1 Remodels Oncogenic Signaling Networks in B-cell Precursor Acute Lymphoid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27758892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11335,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BCR positive leukemia cells harboring TCF3-PBX1 demonstrated inhibition of cell growth in culture and prolonged disease survival in cell line xenograft models when treated with PRT062607 (PMID: 27758892).",
+            "molecularProfile": {
+                "id": 27961,
+                "profileName": "TCF3 - PBX1 BCR pos"
+            },
+            "therapy": {
+                "id": 3781,
+                "therapyName": "PRT062607",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9240,
+                    "pubMedId": 27758892,
+                    "title": "E2A-PBX1 Remodels Oncogenic Signaling Networks in B-cell Precursor Acute Lymphoid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27758892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11337,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BCR positive leukemia cells harboring TCF3-PBX1 demonstrated inhibition of cell growth in culture and prolonged disease survival in cell line xenograft models when treated with A-770041 (PMID: 27758892).",
+            "molecularProfile": {
+                "id": 27961,
+                "profileName": "TCF3 - PBX1 BCR pos"
+            },
+            "therapy": {
+                "id": 5945,
+                "therapyName": "A-770041",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9240,
+                    "pubMedId": 27758892,
+                    "title": "E2A-PBX1 Remodels Oncogenic Signaling Networks in B-cell Precursor Acute Lymphoid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27758892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11338,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of A-770041 and PRT062607 resulted in synergistic cell growth inhibition in BCR positive leukemia cells harboring TCF3-PBX1 in culture (PMID: 27758892).",
+            "molecularProfile": {
+                "id": 27961,
+                "profileName": "TCF3 - PBX1 BCR pos"
+            },
+            "therapy": {
+                "id": 5947,
+                "therapyName": "A-770041 + PRT062607",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9240,
+                    "pubMedId": 27758892,
+                    "title": "E2A-PBX1 Remodels Oncogenic Signaling Networks in B-cell Precursor Acute Lymphoid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27758892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11339,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of A-770041 and R406 resulted in synergistic cell growth inhibition in BCR positive leukemia cells harboring TCF3-PBX1 in culture (PMID: 27758892).",
+            "molecularProfile": {
+                "id": 27961,
+                "profileName": "TCF3 - PBX1 BCR pos"
+            },
+            "therapy": {
+                "id": 5948,
+                "therapyName": "A-770041 + Tamatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9240,
+                    "pubMedId": 27758892,
+                    "title": "E2A-PBX1 Remodels Oncogenic Signaling Networks in B-cell Precursor Acute Lymphoid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27758892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11340,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Sprycel (dasatinib) and PRT062607 resulted in synergistic cell growth inhibition of BCR positive leukemia cells harboring TCF3-PBX1 in culture (PMID: 27758892).",
+            "molecularProfile": {
+                "id": 27961,
+                "profileName": "TCF3 - PBX1 BCR pos"
+            },
+            "therapy": {
+                "id": 5949,
+                "therapyName": "Dasatinib + PRT062607",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9240,
+                    "pubMedId": 27758892,
+                    "title": "E2A-PBX1 Remodels Oncogenic Signaling Networks in B-cell Precursor Acute Lymphoid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27758892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11377,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, I-BET151 and SGC0946 synergistically inhibited proliferation of leukemia cells harboring KMT2A-AFF1 in culture (PMID: 27294782).",
+            "molecularProfile": {
+                "id": 20536,
+                "profileName": "KMT2A - AFF1"
+            },
+            "therapy": {
+                "id": 5966,
+                "therapyName": "I-BET151 + SGC0946",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9271,
+                    "pubMedId": 27294782,
+                    "title": "Functional interdependence of BRD4 and DOT1L in MLL leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27294782"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11487,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical study, treatment with EPZ004777 resulted in reduced proliferation and increased differentiation of murine leukemia cells expressing an NPM1 mutation, and improved survival in NPM1-mutant murine leukemia models (PMID: 27535106).",
+            "molecularProfile": {
+                "id": 8907,
+                "profileName": "NPM1 mutant"
+            },
+            "therapy": {
+                "id": 1744,
+                "therapyName": "EPZ004777",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9547,
+                    "pubMedId": 27535106,
+                    "title": "Targeting Chromatin Regulators Inhibits Leukemogenic Gene Expression in NPM1 Mutant Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27535106"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11489,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MI-503 inhibited growth of murine leukemia cells expressing an NPM1 mutation and FLT3 internal tandem duplication in culture, and improved survival in mouse models (PMID: 27535106).",
+            "molecularProfile": {
+                "id": 26135,
+                "profileName": "FLT3 exon 14 ins NPM1 mut"
+            },
+            "therapy": {
+                "id": 6006,
+                "therapyName": "MI-503",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9547,
+                    "pubMedId": 27535106,
+                    "title": "Targeting Chromatin Regulators Inhibits Leukemogenic Gene Expression in NPM1 Mutant Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27535106"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11490,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EPZ004777 inhibited growth and induced differentiation of murine leukemia cells expressing an NPM1 mutation and FLT3 internal tandem duplication in culture, and improved survival in mouse models (PMID: 27535106).",
+            "molecularProfile": {
+                "id": 26135,
+                "profileName": "FLT3 exon 14 ins NPM1 mut"
+            },
+            "therapy": {
+                "id": 1744,
+                "therapyName": "EPZ004777",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9547,
+                    "pubMedId": 27535106,
+                    "title": "Targeting Chromatin Regulators Inhibits Leukemogenic Gene Expression in NPM1 Mutant Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27535106"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11497,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MI-503 reduced progression and improved survival of a mouse leukemia model expressing KMT2A-MLLT3 (MLL-AF9) (PMID: 25817203).",
+            "molecularProfile": {
+                "id": 20485,
+                "profileName": "KMT2A - MLLT3"
+            },
+            "therapy": {
+                "id": 6006,
+                "therapyName": "MI-503",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9548,
+                    "pubMedId": 25817203,
+                    "title": "Pharmacologic inhibition of the Menin-MLL interaction blocks progression of MLL leukemia in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25817203"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11706,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, over expression of Abcb1 was identified as the primary mechanism of acquired Pinometostat (EPZ-5676)-resistance in leukemia cell lines harboring KMT2A (MLL) fusions in culture (PMID: 28428443).",
+            "molecularProfile": {
+                "id": 28190,
+                "profileName": "KMT2A fusion ABCB1 over exp"
+            },
+            "therapy": {
+                "id": 2855,
+                "therapyName": "Pinometostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9714,
+                    "pubMedId": 28428443,
+                    "title": "Mechanisms of Pinometostat (EPZ-5676) Treatment-Emergent Resistance in MLL-Rearranged Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28428443"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11707,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, over expression of Abcb1 was identified as the primary mechanism of acquired Pinometostat (EPZ-5676)-resistance in leukemia cell lines harboring KMT2A-AFF1 (MLL-AF4) fusion in culture (PMID: 28428443).",
+            "molecularProfile": {
+                "id": 28188,
+                "profileName": "KMT2A - AFF1 ABCB1 over exp"
+            },
+            "therapy": {
+                "id": 2855,
+                "therapyName": "Pinometostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9714,
+                    "pubMedId": 28428443,
+                    "title": "Mechanisms of Pinometostat (EPZ-5676) Treatment-Emergent Resistance in MLL-Rearranged Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28428443"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11708,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, over expression of Abcb1 was identified as the primary mechanism of acquired Pinometostat (EPZ-5676)-resistance in leukemia cell lines harboring KMT2A-MLLT1 (MLL-ENL) fusion in culture (PMID: 28428443).",
+            "molecularProfile": {
+                "id": 28187,
+                "profileName": "KMT2A - MLLT1 ABCB1 over exp"
+            },
+            "therapy": {
+                "id": 2855,
+                "therapyName": "Pinometostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9714,
+                    "pubMedId": 28428443,
+                    "title": "Mechanisms of Pinometostat (EPZ-5676) Treatment-Emergent Resistance in MLL-Rearranged Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28428443"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11709,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, over expression of Abcb1 was identified as the primary mechanism of acquired Pinometostat (EPZ-5676)-resistance in leukemia cell lines harboring KMT2A-MLLT3 (MLL-AF9) fusion in culture (PMID: 28428443).",
+            "molecularProfile": {
+                "id": 28189,
+                "profileName": "KMT2A - MLLT3 ABCB1 over exp"
+            },
+            "therapy": {
+                "id": 2855,
+                "therapyName": "Pinometostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9714,
+                    "pubMedId": 28428443,
+                    "title": "Mechanisms of Pinometostat (EPZ-5676) Treatment-Emergent Resistance in MLL-Rearranged Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28428443"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11897,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PKF118-310 inhibited Kdm4a activity and induced apoptosis in TP53-deleted leukemia cells in culture (PMID: 27767379).",
+            "molecularProfile": {
+                "id": 28336,
+                "profileName": "KDM4A pos TP53 del"
+            },
+            "therapy": {
+                "id": 2397,
+                "therapyName": "PKF118-310",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9770,
+                    "pubMedId": 27767379,
+                    "title": "Identification and characterization of PKF118-310 as a KDM4A inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27767379"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11924,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, ABL1 E255V in the context of BCR-ABL1 was associated with resistance to Gleevec (imatinib) in a patient with BCR-ABL1-positive leukemia, and resistance was confirmed in a kinase assay (PMID: 12399961).",
+            "molecularProfile": {
+                "id": 22841,
+                "profileName": "BCR - ABL1 ABL1 E255V"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9903,
+                    "pubMedId": 12399961,
+                    "title": "Molecular and chromosomal mechanisms of resistance to imatinib (STI571) therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12399961"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11925,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, ABL1 E255K in the context of BCR-ABL1 was associated with resistance to Gleevec (imatinib) in patients with BCR-ABL1-positive leukemia, and resistance was confirmed in a kinase assay (PMID: 12399961).",
+            "molecularProfile": {
+                "id": 5391,
+                "profileName": "BCR - ABL1 ABL1 E255K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9903,
+                    "pubMedId": 12399961,
+                    "title": "Molecular and chromosomal mechanisms of resistance to imatinib (STI571) therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12399961"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12090,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PKF118-310 inhibited Kdm4a activity and induced apoptosis in leukemia cells (PMID: 27767379).",
+            "molecularProfile": {
+                "id": 28335,
+                "profileName": "KDM4A positive"
+            },
+            "therapy": {
+                "id": 2397,
+                "therapyName": "PKF118-310",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9770,
+                    "pubMedId": 27767379,
+                    "title": "Identification and characterization of PKF118-310 as a KDM4A inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27767379"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12212,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GNE-272 treatment resulted in anti-proliferative activity in leukemia cell lines in culture (PMID: 27682507).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6362,
+                "therapyName": "GNE-272",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10161,
+                    "pubMedId": 27682507,
+                    "title": "Discovery of a Potent and Selective in Vivo Probe (GNE-272) for the Bromodomains of CBP/EP300.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27682507"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12804,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CEP-28122 did not inhibit growth of ALK-negative leukemia cells in culture (PMID: 22203728).",
+            "molecularProfile": {
+                "id": 24175,
+                "profileName": "ALK negative"
+            },
+            "therapy": {
+                "id": 2519,
+                "therapyName": "CEP-28122",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2441,
+                    "pubMedId": 22203728,
+                    "title": "CEP-28122, a highly potent and selective orally active inhibitor of anaplastic lymphoma kinase with antitumor activity in experimental models of human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22203728"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13802,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Derazantinib (ARQ 087) inhibited growth of leukemia cells harboring both Fgfr3 and Fgfr4 overexpression in culture (PMID: 27627808).",
+            "molecularProfile": {
+                "id": 29429,
+                "profileName": "FGFR3 over exp FGFR4 over exp"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11276,
+                    "pubMedId": 27627808,
+                    "title": "Preclinical Activity of ARQ 087, a Novel Inhibitor Targeting FGFR Dysregulation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27627808"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14134,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Alpelisib (BYL719) and Binimetinib (MEK162) led to a synergistic effect in leukemia cells harboring mutant NRAS, demonstrating cell death in culture (PMID: 29437705).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 1311,
+                "therapyName": "Alpelisib + Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11474,
+                    "pubMedId": 29437705,
+                    "title": "NRAS-Mutated Rhabdomyosarcoma Cells Are Vulnerable to Mitochondrial Apoptosis Induced by Coinhibition of MEK and PI3K\u03b1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29437705"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14945,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Belvarafenib (HM95573) inhibited growth of NRAS mutant leukemia cells in culture (Cancer Res 2015;75(15 Suppl):Abstract nr 2607).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 7209,
+                "therapyName": "Belvarafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11830,
+                    "pubMedId": null,
+                    "title": "Antitumor activity of the selective RAF inhibitor HM95573 in solid tumors and hematologic malignancies",
+                    "url": "http://cancerres.aacrjournals.org/content/75/15_Supplement/2607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14950,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GMI-1359 in combination with chemotherapy resulted in significant survival benefit compared to chemotherapy alone (67% vs 30%) in cell line xenograft models of FLT3-ITD leukemia (Blood 2015 126(23):3790).",
+            "molecularProfile": {
+                "id": 19128,
+                "profileName": "FLT3 exon 14 ins"
+            },
+            "therapy": {
+                "id": 7217,
+                "therapyName": "GMI-1359",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11835,
+                    "pubMedId": null,
+                    "title": "The Dual E-Selectin/CXCR4 Inhibitor, GMI-1359, Enhances Efficacy of Anti-Leukemia Chemotherapy in FLT3-ITD Mutated Acute Myeloid Leukemia",
+                    "url": "http://www.bloodjournal.org/content/126/23/3790?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14951,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of GMI-1359 with Nexavar (sorafenib) enhanced apoptosis compared to Nexavar (sorafenib) alone (48.9% vs 36.6%) in leukemia cell lines harboring FLT3 internal tandem duplication (ITD) mutations (Blood 2015 126(23):3790).",
+            "molecularProfile": {
+                "id": 19128,
+                "profileName": "FLT3 exon 14 ins"
+            },
+            "therapy": {
+                "id": 7220,
+                "therapyName": "GMI-1359 + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11835,
+                    "pubMedId": null,
+                    "title": "The Dual E-Selectin/CXCR4 Inhibitor, GMI-1359, Enhances Efficacy of Anti-Leukemia Chemotherapy in FLT3-ITD Mutated Acute Myeloid Leukemia",
+                    "url": "http://www.bloodjournal.org/content/126/23/3790?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15328,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, leukemia cells with targeted loss of SLFN11 demonstrated resistance to treatment with Lynparza (olaparib) in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15331,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, leukemia cells with targeted loss of SLFN11 demonstrated resistance to treatment with Talzenna (talazoparib) in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15334,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Talzenna (talazoparib) combined with Temodar (temozolomide) resulted in a synergistic effect in MGMT-proficient leukemia cells with overexpression of SLFN11, demonstrating reduced cell viability in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30985,
+                "profileName": "SLFN11 over exp"
+            },
+            "therapy": {
+                "id": 1377,
+                "therapyName": "Talazoparib + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15337,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Talzenna (talazoparib) to Temodar (temozolomide) treatment resulted in no benefit in MGMT-proficient leukemia cells with targeted loss of SLFN11 when compared to Temodar (temozolomide) treatment alone (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 1377,
+                "therapyName": "Talazoparib + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15340,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VE-821 treatment combined with Talzenna (talazoparib) resulted in a synergistic effect in leukemia cells with targeted loss of SLFN11, demonstrating reduced cell viability in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 7562,
+                "therapyName": "Talazoparib + VE-821",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15343,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VE-821 treatment combined with Lynparza (olaparib) resulted in a synergistic effect in leukemia cells with targeted loss of SLFN11, demonstrating reduced cell viability in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 7563,
+                "therapyName": "Olaparib + VE-821",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15346,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with FN-1501 reduced phoshorylation of FLT3 and downstream STAT5, ERK, and AKT, induced apoptosis and cell-cycle arrest, and decreased proliferation in a human leukemia cell line harboring a FLT3-ITD mutation in culture, and induced tumor regression in xenograft models (PMID: 29357250).",
+            "molecularProfile": {
+                "id": 19128,
+                "profileName": "FLT3 exon 14 ins"
+            },
+            "therapy": {
+                "id": 7564,
+                "therapyName": "FN-1501",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13099,
+                    "pubMedId": 29357250,
+                    "title": "Discovery of 4-((7H-Pyrrolo[2,3-d]pyrimidin-4-yl)amino)-N-(4-((4-methylpiperazin-1-yl)methyl)phenyl)-1H-pyrazole-3-carboxamide (FN-1501), an FLT3- and CDK-Kinase Inhibitor with Potentially High Efficiency against Acute Myelocytic Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29357250"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15352,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VE-821 treatment combined with Talzenna (talazoparib) resulted in a synergistic effect in leukemia cells with overexpression of SLFN11, demonstrating greater reduced cell viability compared to Talzenna (talazoparib) treatment alone in culture and increased apoptotic activity (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30985,
+                "profileName": "SLFN11 over exp"
+            },
+            "therapy": {
+                "id": 7562,
+                "therapyName": "Talazoparib + VE-821",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15355,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VE-821 treatment combined with Lynparza (olaparib) resulted in a synergistic effect in leukemia cells with overexpression of SLFN11, demonstrating greater reduced cell viability compared to Lynparza (olaparib) treatment alone in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30985,
+                "profileName": "SLFN11 over exp"
+            },
+            "therapy": {
+                "id": 7563,
+                "therapyName": "Olaparib + VE-821",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16481,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MC180295 decreased proliferation and increased differentiation of leukemia cells in culture (PMID: 30454645).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8055,
+                "therapyName": "MC180295",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14528,
+                    "pubMedId": 30454645,
+                    "title": "Targeting CDK9 Reactivates Epigenetically Silenced Genes in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30454645"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16506,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CG'806 inhibited FLT3 downstream signaling, resulted in growth inhibition in leukemia cells expressing FLT3 D835Y in culture (Clin Cancer Res 2017; 23(24_Suppl):Abstract nr 25).",
+            "molecularProfile": {
+                "id": 3153,
+                "profileName": "FLT3 D835Y"
+            },
+            "therapy": {
+                "id": 7038,
+                "therapyName": "CG-806",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14597,
+                    "pubMedId": null,
+                    "title": "CG?806, a first-in-class FLT3/BTK inhibitor, exerts superior potency against AML cells harboring ITD, TKD and gatekeeper mutated FLT3 or wild-type FLT3",
+                    "url": "http://clincancerres.aacrjournals.org/content/23/24_Supplement/25"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16507,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CG'806 inhibited FLT3 downstream signaling, resulted in growth inhibition in leukemia cells expressing FLT3 exon 14 insertion (ITD) mutation and D835Y in culture (Clin Cancer Res 2017; 23(24_Suppl):Abstract nr 25).",
+            "molecularProfile": {
+                "id": 19130,
+                "profileName": "FLT3 exon 14 ins FLT3 D835Y"
+            },
+            "therapy": {
+                "id": 7038,
+                "therapyName": "CG-806",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14597,
+                    "pubMedId": null,
+                    "title": "CG?806, a first-in-class FLT3/BTK inhibitor, exerts superior potency against AML cells harboring ITD, TKD and gatekeeper mutated FLT3 or wild-type FLT3",
+                    "url": "http://clincancerres.aacrjournals.org/content/23/24_Supplement/25"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16508,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CG'806 inhibited FLT3 downstream signaling, resulted in growth inhibition in leukemia cells expressing FLT3 exon 14 insertion (ITD) mutation and F691L in culture (Clin Cancer Res 2017; 23(24_Suppl):Abstract nr 25).",
+            "molecularProfile": {
+                "id": 19129,
+                "profileName": "FLT3 exon 14 ins FLT3 F691L"
+            },
+            "therapy": {
+                "id": 7038,
+                "therapyName": "CG-806",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14597,
+                    "pubMedId": null,
+                    "title": "CG?806, a first-in-class FLT3/BTK inhibitor, exerts superior potency against AML cells harboring ITD, TKD and gatekeeper mutated FLT3 or wild-type FLT3",
+                    "url": "http://clincancerres.aacrjournals.org/content/23/24_Supplement/25"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16592,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, h8F4 CAR-T cells induced lysis of leukemia cell lines expressing PR1/HLA-A2 in culture (PMID: 27265873).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8104,
+                "therapyName": "H8F4 CAR-T cells",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14635,
+                    "pubMedId": 27265873,
+                    "title": "A novel TCR-like CAR with specificity for PR1/HLA-A2 effectively targets myeloid leukemia in vitro when expressed in human adult peripheral blood and cord blood T cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27265873"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18597,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ripretinib (DCC-2618) inhibited proliferation of hypereosinophilic leukemia cells harboring FIP1L1-PDGFRA in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 7080,
+                "profileName": "FIP1L1 - PDGFRA"
+            },
+            "therapy": {
+                "id": 4316,
+                "therapyName": "Ripretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19870,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MYCi975 treatment inhibited viability of a leukemia cell line in culture (PMID: 31679823).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9235,
+                "therapyName": "MYCi975",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17557,
+                    "pubMedId": 31679823,
+                    "title": "Small-Molecule MYC Inhibitors Suppress Tumor Growth and Enhance Immunotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31679823"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19873,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MYCi975 and Cytosar-U (cytarabine) combination treatment synergistically inhibited tumor growth in a cell line xenograft model of leukemia (PMID: 31679823).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9237,
+                "therapyName": "Cytarabine + MYCi975",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17557,
+                    "pubMedId": 31679823,
+                    "title": "Small-Molecule MYC Inhibitors Suppress Tumor Growth and Enhance Immunotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31679823"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00620633",
+            "title": "Dose Escalation Trial of WT1-Sensitized T Cells for Residual or Relapsed Leukemia After Allogeneic Hematopoietic Progenitor Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7192,
+                    "therapyName": "ATA520",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00777036",
+            "title": "A Phase II Study of Dasatinib in Children and Adolescents With Newly Diagnosed Chronic Phase CML or With Ph+ Leukemias Resistant or Intolerant to Imatinib",
+            "phase": null,
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01396499",
+            "title": "Study to Assess Safety, Tolerability and Preliminary Efficacy of BKM120, PI3K Kinase Inhibitor, With Advanced Leukemias",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 680,
+                    "therapyName": "Buparlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01703572",
+            "title": "A Dose Escalation Study of OMP-52M51 in Subjects With Lymphoid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 839,
+                    "therapyName": "Brontictuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01751425",
+            "title": "Ruxolitinib for Chronic Myeloid Leukemia (CML) With Minimal Residual Disease (MRD)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01787487",
+            "title": "Evaluation of RUX and AZA Combination as a Therapy For Patients With Myelofibrosis And Myelodysplastic Syndrome/ Myeloproliferative Neoplasm",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02091245",
+            "title": "Phase I Trial of the Selective Inhibitor of Nuclear Export, KPT-330, in Relapsed Childhood ALL and AML",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02203903",
+            "title": "Multi-institutional Prospective Research of Expanded Multi-antigen Specifically Oriented Lymphocytes for the Treatment of VEry High Risk Hematopoietic Malignancies (RESOLVE)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02477878",
+            "title": "Study of Gene Modified Donor T Cell Infusion in Patients With Recurrent Disease After Allogeneic Transplant",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5995,
+                    "therapyName": "BPX-601",
+                    "synonyms": null
+                },
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02499861",
+            "title": "Phase I/II a Study of Decitabine in Combination With Genistein in Pediatric Relapsed or Refractory Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1734,
+                    "therapyName": "Decitabine + Genistein",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02512926",
+            "title": "Carfilzomib in Combination With Cyclophosphamide and Etoposide for Children",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1624,
+                    "therapyName": "Carfilzomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02569476",
+            "title": "BGB 3111 in Combination With Obinutuzumab in Subjects With B-Cell Lymphoid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4682,
+                    "therapyName": "Obinutuzumab + Zanubrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02786485",
+            "title": "Study of Matched Unrelated Donor T Cell Infusion for Hematologic Malignancies After Allo-HSCT",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                },
+                {
+                    "id": 6053,
+                    "therapyName": "BPX-501",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02932280",
+            "title": "Safety and Dose Finding Study of Neratinib in Children and Young Adults With Cancer That Has Returned or Not Responded to Treatment",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 828,
+                    "therapyName": "Neratinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03186118",
+            "title": "Pilot Study of T-APCs Following CAR T Cell Immunotherapy for CD19+ Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9756,
+                    "therapyName": "Autologous CD19t T-APC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03229200",
+            "title": "Extended Treatment Protocol for Subjects Continuing to Benefit From Ibrutinib.",
+            "phase": "FDA approved",
+            "recruitment": "Enrolling by invitation",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03884829",
+            "title": "A Phase I Study of CYC140, a PLK-1 Inhibitor, in Advanced Leukemias or MDS",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9673,
+                    "therapyName": "CYC140",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

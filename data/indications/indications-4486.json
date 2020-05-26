@@ -1,0 +1,78 @@
+{
+    "id": 4486,
+    "name": "malignant biphasic mesothelioma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4486",
+    "evidence": [
+        {
+            "id": 7344,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of sEphB4-HSA and Avastin (bevacizumab) resulted in tumor regression in an EPHB4-over expressing xenograft model of biphasic mesothelioma, and demonstrated improved efficacy over either agent alone (PMID: 23721559).",
+            "molecularProfile": {
+                "id": 16746,
+                "profileName": "EPHB4 over exp"
+            },
+            "therapy": {
+                "id": 4467,
+                "therapyName": "Bevacizumab + sEphB4-HSA",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4486,
+                "name": "malignant biphasic mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3429,
+                    "pubMedId": 23721559,
+                    "title": "EphB4 as a therapeutic target in mesothelioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23721559"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02798536",
+            "title": "Mesothelin-Targeted Immunotoxin LMB-100 in People With Malignant Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6800,
+                    "therapyName": "LMB-100",
+                    "synonyms": null
+                },
+                {
+                    "id": 6816,
+                    "therapyName": "LMB-100 + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03436732",
+            "title": "Mesothelin-Targeted Immunotoxin LMB-100 in Combination With SEL-110 in Subjects With Malignant Pleural or Peritoneal Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6802,
+                    "therapyName": "LMB-100 + SVP-rapa",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

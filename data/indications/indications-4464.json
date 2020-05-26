@@ -1,0 +1,171 @@
+{
+    "id": 4464,
+    "name": "collecting duct carcinoma",
+    "source": "DOID",
+    "definition": "A renal cell carcinoma that begins in distal collecting ducts of the kidney with a tubulopapillary morphology and intracytoplasmic mucicarminophilic material. [url:https\\://en.wikipedia.org/wiki/Collecting_duct_carcinoma, url:https\\://rarediseases.info.nih.gov/diseases/9573/collecting-duct-carcinoma, url:https\\://www.ncbi.nlm.nih.gov/pubmed/26684811]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4464",
+    "evidence": [
+        {
+            "id": 11660,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Capmatinib (INC280) inhibited tumor growth and reduced ERK signaling in a patient-derived xenograft (PDX) model derived from the ovarian metastasis of a patient with collecting duct carcinoma, which harbored BRAF D594N and BRAF G466A and had high levels of MET and EGFR expression (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28180,
+                "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4464,
+                "name": "collecting duct carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11661,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Mekinist (trametinib) inhibited tumor growth and reduced ERK signaling in a patient-derived xenograft (PDX) model derived from the ovarian metastasis of a patient with collecting duct carcinoma, which harbored BRAF D594N and BRAF G466A and had high levels of MET and EGFR expression (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28180,
+                "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4464,
+                "name": "collecting duct carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11662,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Mekinist (trametinib) and Capmatinib (INC280) induced tumor regression in a patient-derived xenograft (PDX) model derived from the ovarian metastasis of a patient with collecting duct carcinoma, which harbored BRAF D594N and BRAF G466A and had high levels of MET and EGFR expression (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28180,
+                "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp"
+            },
+            "therapy": {
+                "id": 6103,
+                "therapyName": "Capmatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4464,
+                "name": "collecting duct carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02601937",
+            "title": "A Phase 1 Study of the EZH2 Inhibitor Tazemetostat in Pediatric Subjects With Relapsed or Refractory INI1-Negative Tumors or Synovial Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02915783",
+            "title": "A Phase 2 Trial to Evaluate Efficacy and Safety of Lenvatinib in Combination With Everolimus in Subjects With Unresectable Advanced or Metastatic Non Clear Cell Renal Cell Carcinoma (nccRCC) Who Have Not Received Any Chemotherapy for Advanced Disease",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1713,
+                    "therapyName": "Everolimus + Lenvatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03866382",
+            "title": "Cabozantinib in Combination With Nivolumab and Ipilimumab in Rare Genitourinary Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2067,
+                    "therapyName": "Cabozantinib + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2068,
+                    "therapyName": "Cabozantinib + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04071223",
+            "title": "Testing the Addition of a New Anti-cancer Drug, Radium-223 Dichloride, to the Usual Treatment (Cabozantinib) for Advanced Renal Cell Cancer That Has Spread to the Bone, the RadiCaL Study",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9576,
+                    "therapyName": "Cabozantinib + Radium Ra 223 dichloride",
+                    "synonyms": null
+                },
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

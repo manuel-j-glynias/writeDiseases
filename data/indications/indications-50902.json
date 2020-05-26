@@ -1,0 +1,3643 @@
+{
+    "id": 50902,
+    "name": "medulloblastoma",
+    "source": "DOID",
+    "definition": "An infratentorial cancer that is located_in the lower part of the brain and is a type of primitive neuroectodermal tumor. [url:http\\://en.wikipedia.org/wiki/Medulloblastoma, url:http\\://www.cancer.gov/dictionary?CdrID=45780]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "4981",
+        "168",
+        "0060105",
+        "3858"
+    ],
+    "termId": "DOID:0050902",
+    "evidence": [
+        {
+            "id": 1133,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, medulloblastoma cell lines with TP53 mutations had significantly less sensitivity to the BET inhibitor, JQ1, than cell lines carrying wild-type TP53 (PMID: 24231268).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 878,
+                    "pubMedId": 24231268,
+                    "title": "BET bromodomain protein inhibition is a therapeutic option for medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24231268"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1134,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, medulloblastoma cell lines with TP53 mutations had significantly less sensitivity to the BET inhibitor, JQ1, than cell lines carrying wild-type TP53 (PMID: 24231268).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 878,
+                    "pubMedId": 24231268,
+                    "title": "BET bromodomain protein inhibition is a therapeutic option for medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24231268"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1140,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY2940680 was demonstrated to bind to the Smo receptor and inhibit hedgehog signaling in a human medulloblastoma tumor cell line (Cancer Research: April 15, 2011; Volume 71, Issue 8, Supplement 1, Abstract #2819).",
+            "molecularProfile": {
+                "id": 691,
+                "profileName": "SMO wild-type"
+            },
+            "therapy": {
+                "id": 1587,
+                "therapyName": "Taladegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 883,
+                    "pubMedId": null,
+                    "title": "Abstract 2819: Identification and characterization of a novel smoothened antagonist for the treatment of cancer with deregulated hedgehog signaling",
+                    "url": "https://cancerres.aacrjournals.org/content/71/8_Supplement/2819"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1142,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, SMO D473H was identified in a medulloblastoma patient harboring PTCH1 W844C with secondary resistance to Erivedge (vismodegib) (PMID: 19726788).",
+            "molecularProfile": {
+                "id": 31759,
+                "profileName": "PTCH1 W844C SMO D473H"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 885,
+                    "pubMedId": 19726788,
+                    "title": "Smoothened mutation confers resistance to a Hedgehog pathway inhibitor in medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19726788"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1143,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY2940680 treatment of Ptch+/- p53-/- transgenic mice, which spontaneously develop medulloblastoma, resulted in significant anti-tumor activity (Cancer Research: April 15, 2011; Volume 71, Issue 8, Supplement 1, Abstract #2819).",
+            "molecularProfile": {
+                "id": 1975,
+                "profileName": "PTCH1 neg TP53 neg"
+            },
+            "therapy": {
+                "id": 1587,
+                "therapyName": "Taladegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 883,
+                    "pubMedId": null,
+                    "title": "Abstract 2819: Identification and characterization of a novel smoothened antagonist for the treatment of cancer with deregulated hedgehog signaling",
+                    "url": "https://cancerres.aacrjournals.org/content/71/8_Supplement/2819"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1167,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CD532 inhibited cell growth of MYCN-amplified medulloblastoma cell lines significantly more than nonamplified lines (PMID: 25175806).",
+            "molecularProfile": {
+                "id": 478,
+                "profileName": "MYCN amp"
+            },
+            "therapy": {
+                "id": 1628,
+                "therapyName": "CD532",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 913,
+                    "pubMedId": 25175806,
+                    "title": "Drugging MYCN through an allosteric transition in Aurora kinase A.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25175806"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1461,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a preclinical study, the fusion of murine colony stimulating factor 2 with residues 6-76 of Ccl2 (named GMME1) bound to the receptor C-C motif chemokine 2 and induced apoptosis in human and mouse medulloblastoma cell lines (PMID: 21943176).",
+            "molecularProfile": {
+                "id": 2562,
+                "profileName": "CCR2 wild-type"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1327,
+                    "pubMedId": 21943176,
+                    "title": "A MCP1 fusokine with CCR2-specific tumoricidal activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21943176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1466,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with arsenic trioxide resulted in improved survival in a transgenic mouse model of medulloblastoma expressing SMO W535L (PMID: 21183792).",
+            "molecularProfile": {
+                "id": 3611,
+                "profileName": "SMO W535L"
+            },
+            "therapy": {
+                "id": 640,
+                "therapyName": "Arsenic trioxide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1335,
+                    "pubMedId": 21183792,
+                    "title": "Arsenic trioxide inhibits human cancer cell growth and tumor development in mice by blocking Hedgehog/GLI pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21183792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1578,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BI2536 treatment inhibited growth of patient-derived PLK1-overexpressing medulloblastoma cells in culture (PMID: 24019381)",
+            "molecularProfile": {
+                "id": 2700,
+                "profileName": "PLK1 over exp"
+            },
+            "therapy": {
+                "id": 676,
+                "therapyName": "BI2536",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1559,
+                    "pubMedId": 24019381,
+                    "title": "Personalizing the treatment of pediatric medulloblastoma: Polo-like kinase 1 as a molecular target in high-risk children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24019381"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1704,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JQ1 inhibited MYC expression and decreased viability of MYC-amplified medulloblastoma cells in culture, and increased survival in MYC-amplified medulloblastoma xenograft models (PMID: 24297863).",
+            "molecularProfile": {
+                "id": 1426,
+                "profileName": "MYC amp"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1850,
+                    "pubMedId": 24297863,
+                    "title": "BET bromodomain inhibition of MYC-amplified medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24297863"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2803,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PW12 inhibited tumor growth in allograft models of medulloblastoma with heterozygous inactivating mutations in PTCH1 and TP53 and over expression of MYCN (PMID: 26029667).",
+            "molecularProfile": {
+                "id": 11726,
+                "profileName": "MYCN over exp PTCH1 inact mut TP53 inact mut"
+            },
+            "therapy": {
+                "id": 2961,
+                "therapyName": "PW12",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3486,
+                    "pubMedId": 26029667,
+                    "title": "Downregulation of MYCN through PI3K Inhibition in Mouse Models of Pediatric Neural Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26029667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5033,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MRT-92 inhibited growth of mouse medulloblastoma cells carrying loss of one copy of the PTCH1 gene (PMID: 25636740).",
+            "molecularProfile": {
+                "id": 20061,
+                "profileName": "PTCH1 loss"
+            },
+            "therapy": {
+                "id": 2418,
+                "therapyName": "MRT-92",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2240,
+                    "pubMedId": 25636740,
+                    "title": "MRT-92 inhibits Hedgehog signaling by blocking overlapping binding sites in the transmembrane domain of the Smoothened receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25636740"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5264,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CCT007093 inhibited proliferation of medulloblastoma cell lines overexpressing Ppm1d in culture (PMID: 22379189).",
+            "molecularProfile": {
+                "id": 20201,
+                "profileName": "PPM1D over exp"
+            },
+            "therapy": {
+                "id": 3740,
+                "therapyName": "CCT007093",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4974,
+                    "pubMedId": 22379189,
+                    "title": "HDM2 promotes WIP1-mediated medulloblastoma growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22379189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5271,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CCT007093 and Nutlin-3 combination treatment demonstrated enhanced growth inhibition in medulloblastoma cell lines over expressing Ppm1d comparing to single agent treatment in culture (PMID: 22379189).",
+            "molecularProfile": {
+                "id": 20201,
+                "profileName": "PPM1D over exp"
+            },
+            "therapy": {
+                "id": 3806,
+                "therapyName": "CCT007093 + Nutlin-3",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4974,
+                    "pubMedId": 22379189,
+                    "title": "HDM2 promotes WIP1-mediated medulloblastoma growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22379189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5272,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CCT007093 and Nutlin-3 combination treatment did not inhibit growth in medulloblastoma cell lines over expressing Ppm1d D314A in culture (PMID: 22379189).",
+            "molecularProfile": {
+                "id": 20452,
+                "profileName": "PPM1D D314A"
+            },
+            "therapy": {
+                "id": 3806,
+                "therapyName": "CCT007093 + Nutlin-3",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4974,
+                    "pubMedId": 22379189,
+                    "title": "HDM2 promotes WIP1-mediated medulloblastoma growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22379189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5445,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LLL12 inhibited Stat3 signaling and proliferaion, induced apoptosis in medulloblastoma cell lines demonstrating constitutive Stat3 activation in culture (PMID: 21526200).",
+            "molecularProfile": {
+                "id": 20856,
+                "profileName": "STAT3 positive"
+            },
+            "therapy": {
+                "id": 3592,
+                "therapyName": "LLL12",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5059,
+                    "pubMedId": 21526200,
+                    "title": "The small molecule, LLL12, inhibits STAT3 phosphorylation and induces apoptosis in medulloblastoma and glioblastoma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21526200"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5603,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Glabrescione B inhibited proliferation of mouse medulloblastoma cells harboring a Ptch1 inactivating mutation in culture, and inhibited tumor growth in allograft models (PMID: 25476449).",
+            "molecularProfile": {
+                "id": 1272,
+                "profileName": "PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 3904,
+                "therapyName": "Glabrescione B",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2682,
+                    "pubMedId": 25476449,
+                    "title": "Gli1/DNA interaction is a druggable target for Hedgehog-dependent tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25476449"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6677,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MK-4101 completely inhibited tumor growth, prevented regrowth after treatment termination, and improved survival in allograft models of medulloblastoma derived from PTCH1 heterozygous knockout mice (PMID: 26960983).",
+            "molecularProfile": {
+                "id": 1272,
+                "profileName": "PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 4233,
+                "therapyName": "MK-4101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5731,
+                    "pubMedId": 26960983,
+                    "title": "MK-4101, a Potent Inhibitor of the Hedgehog Pathway, Is Highly Active against Medulloblastoma and Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26960983"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6678,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erivedge (vismodegib) inhibited tumor growth in allograft models of medulloblastoma derived from PTCH1 heterozygous knockout mice (PMID: 26960983).",
+            "molecularProfile": {
+                "id": 1272,
+                "profileName": "PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5731,
+                    "pubMedId": 26960983,
+                    "title": "MK-4101, a Potent Inhibitor of the Hedgehog Pathway, Is Highly Active against Medulloblastoma and Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26960983"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6862,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) inhibited proliferation of a C3 medulloblastoma model cell line over expressing constitutively active AKT1, MYC, hTERT, and dominant negative TP53 in culture (PMID: 27012813).",
+            "molecularProfile": {
+                "id": 23901,
+                "profileName": "AKT1 act mut MYC over exp TERT over exp TP53 inact mut"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5910,
+                    "pubMedId": 27012813,
+                    "title": "DiSCoVERing Innovative Therapies for Rare Tumors: Combining Genetically Accurate Disease Models with In Silico Analysis to Identify Novel Therapeutic Targets.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27012813"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6863,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) inhibited proliferation and induced apoptosis in a medulloblastoma model cell line over expressing MYC in culture (PMID: 27012813).",
+            "molecularProfile": {
+                "id": 4715,
+                "profileName": "MYC over exp"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5910,
+                    "pubMedId": 27012813,
+                    "title": "DiSCoVERing Innovative Therapies for Rare Tumors: Combining Genetically Accurate Disease Models with In Silico Analysis to Identify Novel Therapeutic Targets.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27012813"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6864,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) inhibited Rb1 phosphorylation in tumor tissues and improved survival in patient-derived intracranial xenograft models of medulloblastoma (PMID: 27012813).",
+            "molecularProfile": {
+                "id": 2395,
+                "profileName": "RB1 positive"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5910,
+                    "pubMedId": 27012813,
+                    "title": "DiSCoVERing Innovative Therapies for Rare Tumors: Combining Genetically Accurate Disease Models with In Silico Analysis to Identify Novel Therapeutic Targets.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27012813"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7016,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SANT1 inhibited survival of medulloblastoma cells with elevated GLI2 and SHH mRNA levels in culture (PMID: 26781311).",
+            "molecularProfile": {
+                "id": 24358,
+                "profileName": "GLI2 over exp SHH over exp"
+            },
+            "therapy": {
+                "id": 3990,
+                "therapyName": "SANT1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6046,
+                    "pubMedId": 26781311,
+                    "title": "Targeting hedgehog signaling pathway in pediatric tumors: in vitro evaluation of SMO and GLI inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26781311"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7023,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GANT61 inhibited survival of medulloblastoma cells with elevated GLI2 and SHH mRNA levels in culture (PMID: 26781311).",
+            "molecularProfile": {
+                "id": 24358,
+                "profileName": "GLI2 over exp SHH over exp"
+            },
+            "therapy": {
+                "id": 1786,
+                "therapyName": "GANT61",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6046,
+                    "pubMedId": 26781311,
+                    "title": "Targeting hedgehog signaling pathway in pediatric tumors: in vitro evaluation of SMO and GLI inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26781311"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8077,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited cell growth, induced apoptosis in tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice which also harbored TP53 mutations in culture, and suppressed tumor growth in xenograft models (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26145,
+                "profileName": "PTCH1 inact mut TP53 mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8078,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited cell growth, induced apoptosis in tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice which also harbored TP53 over expression in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26146,
+                "profileName": "PTCH1 inact mut TP53 over exp"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8079,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erivedge (vismodegib) inhibited cell growth, induced apoptosis in tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice which also harbored TP53 over expression in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26146,
+                "profileName": "PTCH1 inact mut TP53 over exp"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8080,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erivedge (vismodegib) inhibited cell growth, induced apoptosis in tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice which also harbored TP53 mutations in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26145,
+                "profileName": "PTCH1 inact mut TP53 mut"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8081,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LEQ506 inhibited cell growth, induced apoptosis in tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice which also harbored TP53 over expression in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26146,
+                "profileName": "PTCH1 inact mut TP53 over exp"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8082,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LEQ506 inhibited cell growth, induced apoptosis in tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice which also harbored TP53 mutations in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26145,
+                "profileName": "PTCH1 inact mut TP53 mut"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8085,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited cell growth, induced apoptosis in tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Smo in culture, and suppressed tumor growth in xenograft models (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26149,
+                "profileName": "PTCH1 inact mut SMO over exp"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8087,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erivedge (vismodegib) inhibited cell growth, induced apoptosis in tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Smo in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26149,
+                "profileName": "PTCH1 inact mut SMO over exp"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8088,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LEQ506 inhibited cell growth, induced apoptosis in tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Smo in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26149,
+                "profileName": "PTCH1 inact mut SMO over exp"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8092,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO D477G (corresponding to SMO D473G in human) were resistant to Odomzo (sonidegib) in culture and in cell line xenograft models (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26147,
+                "profileName": "PTCH1 inact mut SMO D473G"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8095,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO D477G (corresponding to SMO D473G in human) were resistant to Erivedge (vismodegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26147,
+                "profileName": "PTCH1 inact mut SMO D473G"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8096,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO D477G (corresponding to SMO D473G in human) were resistant to LEQ506 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26147,
+                "profileName": "PTCH1 inact mut SMO D473G"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8099,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO L225R (corresponding to SMO L221R in human) were resistant to Odomzo (sonidegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26150,
+                "profileName": "PTCH1 inact mut SMO L221R"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8100,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO L225R (corresponding to SMO L221R in human) were resistant to Erivedge (vismodegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26150,
+                "profileName": "PTCH1 inact mut SMO L221R"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8101,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO L225R (corresponding to SMO L221R in human) were resistant to LEQ506 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26150,
+                "profileName": "PTCH1 inact mut SMO L221R"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8102,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO S391N (corresponding to SMO S387N in human) were resistant to Erivedge (vismodegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26151,
+                "profileName": "PTCH1 inact mut SMO S387N"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8104,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO S391N (corresponding to SMO S387N in human) were resistant to Odomzo (sonidegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26151,
+                "profileName": "PTCH1 inact mut SMO S387N"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8105,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO S391N (corresponding to SMO S387N in human) were resistant to LEQ506 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26151,
+                "profileName": "PTCH1 inact mut SMO S387N"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8107,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Gli2 were resistant to LEQ506 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26152,
+                "profileName": "GLI2 over exp PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8108,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Gli2 were resistant to Erivedge (vismodegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26152,
+                "profileName": "GLI2 over exp PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8109,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Gli2 were resistant to Odomzo (sonidegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26152,
+                "profileName": "GLI2 over exp PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8110,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing an activating Gli2 mutation were resistant to Odomzo (sonidegib) in culture and in cell line xenograft models (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26154,
+                "profileName": "GLI2 act mut PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8111,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing an activating Gli2 mutation were resistant to Erivedge (vismodegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26154,
+                "profileName": "GLI2 act mut PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8112,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing an activating Gli2 mutation were resistant to LEQ506 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26154,
+                "profileName": "GLI2 act mut PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8113,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Gli1 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26156,
+                "profileName": "GLI1 over exp PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8114,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Gli3 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26157,
+                "profileName": "GLI3 over exp PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8116,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Mycn in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26155,
+                "profileName": "MYCN over exp PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8118,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing wild-type Ctnnb1 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26161,
+                "profileName": "CTNNB1 over exp PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8119,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing CTNNB1 S33Y in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26162,
+                "profileName": "CTNNB1 S33Y PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8120,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing Myc T58A in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26163,
+                "profileName": "MYC T58A PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8121,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing Pik3ca H1047R in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26168,
+                "profileName": "PIK3CA H1047R PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8122,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing a myristolated Akt1 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26169,
+                "profileName": "AKT1 act mut PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8123,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing HRAS G12V in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26164,
+                "profileName": "HRAS G12V PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8124,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BKM120 inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing HRAS G12V in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26164,
+                "profileName": "HRAS G12V PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8126,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CI-1040 inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing HRAS G12V in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26164,
+                "profileName": "HRAS G12V PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 699,
+                "therapyName": "CI-1040",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8127,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PD-0325901 inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing HRAS G12V in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26164,
+                "profileName": "HRAS G12V PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 849,
+                "therapyName": "PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8128,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing BRAF V600E were resistant to Odomzo (sonidegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26165,
+                "profileName": "BRAF V600E PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8129,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing BRAF V600E were resistant to Erivedge (vismodegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26165,
+                "profileName": "BRAF V600E PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8130,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing BRAF V600E were resistant to LEQ506 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26165,
+                "profileName": "BRAF V600E PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8131,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing HRAS G12V were resistant to LEQ506 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26164,
+                "profileName": "HRAS G12V PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8132,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing HRAS G12V were resistant to Erivedge (vismodegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26164,
+                "profileName": "HRAS G12V PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8134,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing HRAS G12V were resistant to Odomzo (sonidegib) in culture and in cell line xenograft models (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26164,
+                "profileName": "HRAS G12V PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8136,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Trisenox (arsenic trioxide) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 1272,
+                "profileName": "PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 640,
+                "therapyName": "Arsenic trioxide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8137,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Trisenox (arsenic trioxide) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice with decreased Sufu expression through shRNA knockdown in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26159,
+                "profileName": "PTCH1 inact mut SUFU dec exp"
+            },
+            "therapy": {
+                "id": 640,
+                "therapyName": "Arsenic trioxide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8139,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice with decreased Sufu expression through shRNA knockdown were resistant to Odomzo (sonidegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26159,
+                "profileName": "PTCH1 inact mut SUFU dec exp"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9889,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Dacinostat (LAQ824) decreased viability of tumor cells derived from a mouse model of G3 medulloblastoma over expressing MYC and a dominant negative form of TP53 in culture (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 26816,
+                "profileName": "MYC over exp TP53 inact mut"
+            },
+            "therapy": {
+                "id": 5034,
+                "therapyName": "Dacinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9890,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Beleodaq (belinostat) decreased viability of tumor cells derived from a mouse model of G3 medulloblastoma over expressing MYC and a dominant negative form of TP53 in culture (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 26816,
+                "profileName": "MYC over exp TP53 inact mut"
+            },
+            "therapy": {
+                "id": 1078,
+                "therapyName": "Belinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9891,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Givinostat (ITF2357) decreased viability of tumor cells derived from a mouse model of G3 medulloblastoma over expressing MYC and a dominant negative form of TP53 in culture (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 26816,
+                "profileName": "MYC over exp TP53 inact mut"
+            },
+            "therapy": {
+                "id": 2657,
+                "therapyName": "Givinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9892,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Farydak (panobinostat) treatment increased FOXO1 expression and decreased viability of tumor cells derived from a mouse model of G3 medulloblastoma over expressing MYC and a dominant negative form of TP53 in culture, and resulted in an initial reduction in tumor growth in mice (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 26816,
+                "profileName": "MYC over exp TP53 inact mut"
+            },
+            "therapy": {
+                "id": 1080,
+                "therapyName": "Panobinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9896,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Farydak (panobinostat) and Buparlisib (BKM120) in combination worked synergistically to reduce viability of tumor cells derived from a mouse model of G3 medulloblastoma over expressing MYC and dominant negative TP53 in culture, and inhibited tumor growth and increased survival in mice with increased efficacy over either agent alone (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 26816,
+                "profileName": "MYC over exp TP53 inact mut"
+            },
+            "therapy": {
+                "id": 5289,
+                "therapyName": "Buparlisib + Panobinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9898,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Dacinostat (LAQ824) decreased viability of tumor cells derived from a MYC-driven medulloblastoma patient-derived xenograft (PDX) model in culture (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 4715,
+                "profileName": "MYC over exp"
+            },
+            "therapy": {
+                "id": 5034,
+                "therapyName": "Dacinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9899,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Beleodaq (belinostat) decreased viability of tumor cells derived from a MYC-driven medulloblastoma patient-derived xenograft (PDX) model in culture (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 4715,
+                "profileName": "MYC over exp"
+            },
+            "therapy": {
+                "id": 1078,
+                "therapyName": "Belinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9900,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Givinostat (ITF2357) decreased viability of tumor cells derived from a MYC-driven medulloblastoma patient-derived xenograft (PDX) model in culture (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 4715,
+                "profileName": "MYC over exp"
+            },
+            "therapy": {
+                "id": 2657,
+                "therapyName": "Givinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9901,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Farydak (panobinostat) and Buparlisib (BKM120) improved survival of a MYC-driven medulloblastoma patient-derived xenograft (PDX) model compared to either agent alone, and acted synergistically to decrease viability of tumor cells derived from a MYC-driven medulloblastoma PDX model, in culture (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 4715,
+                "profileName": "MYC over exp"
+            },
+            "therapy": {
+                "id": 5289,
+                "therapyName": "Buparlisib + Panobinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9902,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Farydak (panobinostat) decreased viability of tumor cells derived from a patient-derived xenograft (PDX) model of MYC-driven medulloblastoma, and increased survival of MYC-driven PDX models compared to controls (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 4715,
+                "profileName": "MYC over exp"
+            },
+            "therapy": {
+                "id": 1080,
+                "therapyName": "Panobinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9903,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CUDC-907 decreased viability of tumor cells derived from a mouse model of G3 medulloblastoma over expressing MYC and a dominant negative form of TP53 in culture (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 26816,
+                "profileName": "MYC over exp TP53 inact mut"
+            },
+            "therapy": {
+                "id": 709,
+                "therapyName": "CUDC-907",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9904,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CUDC-907 decreased viability of tumor cells derived from a MYC-driven medulloblastoma patient-derived xenograft (PDX) model in culture (PMID: 26977882).",
+            "molecularProfile": {
+                "id": 4715,
+                "profileName": "MYC over exp"
+            },
+            "therapy": {
+                "id": 709,
+                "therapyName": "CUDC-907",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7750,
+                    "pubMedId": 26977882,
+                    "title": "HDAC and PI3K Antagonists Cooperate to Inhibit Growth of MYC-Driven Medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26977882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10265,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, M344 induced apoptosis and inhibited proliferation of medulloblastoma cell lines in culture (PMID: 17230517).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5453,
+                "therapyName": "M344",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8238,
+                    "pubMedId": 17230517,
+                    "title": "Inhibitors of histone deacetylases as potential therapeutic tools for high-risk embryonal tumors of the nervous system of childhood.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17230517"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10472,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NMS-P715 inhibited growth and induced cell-cycle arrest and apoptosis in medulloblastoma cell lines with high levels of TTK expression in culture (PMID: 27633003).",
+            "molecularProfile": {
+                "id": 13160,
+                "profileName": "TTK over exp"
+            },
+            "therapy": {
+                "id": 3107,
+                "therapyName": "NMS-P715",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8518,
+                    "pubMedId": 27633003,
+                    "title": "MPS1 kinase as a potential therapeutic target in medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27633003"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10867,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a medulloblastoma cell line harboring MYC amplification demonstrated reduced cell viability when treated with FK866 in culture (PMID: 27076630).",
+            "molecularProfile": {
+                "id": 1426,
+                "profileName": "MYC amp"
+            },
+            "therapy": {
+                "id": 5662,
+                "therapyName": "FK866",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8871,
+                    "pubMedId": 27076630,
+                    "title": "Myc-Driven Glycolysis Is a Therapeutic Target in Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27076630"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10868,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a medulloblastoma cell line harboring MYC amplification demonstrated reduced cell viability when treated with GMX1778 in culture (PMID: 27076630).",
+            "molecularProfile": {
+                "id": 1426,
+                "profileName": "MYC amp"
+            },
+            "therapy": {
+                "id": 5666,
+                "therapyName": "GMX1778",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8871,
+                    "pubMedId": 27076630,
+                    "title": "Myc-Driven Glycolysis Is a Therapeutic Target in Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27076630"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11754,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Prexasertib (LY2606368) decreased proliferation of several pediatric tumor cell lines in culture, including medulloblastoma cell lines (PMID: 28270495).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1651,
+                "therapyName": "Prexasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9764,
+                    "pubMedId": 28270495,
+                    "title": "The Checkpoint Kinase 1 Inhibitor Prexasertib Induces Regression of Preclinical Models of Human Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28270495"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12773,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MC3629 decreased proliferation and induced apoptosis in human and mouse primary SHH-subgroup medulloblastoma (SHH-MB) derived stem-cell like cells expressing high EZH2 levels in culture, decreased viability of a human SHH-MB cell line expressing high EZH2 in culture, and increased apoptosis and decreased growth of human SHH-MB cell line derived stem-cell like cells in culture and in xenograft models (PMID: 28978137).",
+            "molecularProfile": {
+                "id": 24368,
+                "profileName": "EZH2 over exp"
+            },
+            "therapy": {
+                "id": 6645,
+                "therapyName": "MC3629",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10708,
+                    "pubMedId": 28978137,
+                    "title": "The histone methyltransferase EZH2 as a druggable target in SHH medulloblastoma cancer stem cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978137"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13779,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "WNT-driven medulloblastomas, characterized by CTNNB1 or APC mutations, are associated with favorable prognosis (NCCN.org).",
+            "molecularProfile": {
+                "id": 11801,
+                "profileName": "CTNNB1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13780,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "WNT-driven medulloblastomas, characterized by CTNNB1 or APC mutations, are associated with favorable prognosis (NCCN.org).",
+            "molecularProfile": {
+                "id": 5414,
+                "profileName": "APC mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13781,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The combination of TP53 mutation and SHH activating mutation is associated with aggressive disease in patients with medulloblastoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 29416,
+                "profileName": "SHH act mut TP53 mut"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17600,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells of a Sonic Hedgehog subtype of medulloblastoma expressing a CREBBP mutation demonstrated reduced cell proliferation in culture and decreased tumor size in mouse models when treated with Trichostatin A (TSA) (PMID: 31068675).",
+            "molecularProfile": {
+                "id": 10500,
+                "profileName": "CREBBP mutant"
+            },
+            "therapy": {
+                "id": 2867,
+                "therapyName": "Trichostatin A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15698,
+                    "pubMedId": 31068675,
+                    "title": "Preferential sensitivity to HDAC inhibitors in tumors with CREBBP mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31068675"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17601,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells of a Sonic Hedgehog subtype of medulloblastoma expressing a CREBBP mutation demonstrated decreased tumor size and an extended lifespan in mouse models when treated with Farydak (panobinostat) compared to vehicle (PMID: 31068675).",
+            "molecularProfile": {
+                "id": 10500,
+                "profileName": "CREBBP mutant"
+            },
+            "therapy": {
+                "id": 1080,
+                "therapyName": "Panobinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15698,
+                    "pubMedId": 31068675,
+                    "title": "Preferential sensitivity to HDAC inhibitors in tumors with CREBBP mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31068675"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20929,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erivedge (vismodegib) inhibited growth, migration, and colony formation of a human medulloblastoma cell line expressing an FHL2-GLI2 fusion in culture (PMID: 31896750).",
+            "molecularProfile": {
+                "id": 35351,
+                "profileName": "FHL2 - GLI2"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18063,
+                    "pubMedId": 31896750,
+                    "title": "Identification of recurrent FHL2-GLI2 oncogenic fusion in sclerosing stromal tumors of the ovary.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31896750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20930,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GANT61 inhibited growth of a human medulloblastoma cell line expressing an FHL2-GLI2 fusion in culture (PMID: 31896750).",
+            "molecularProfile": {
+                "id": 35351,
+                "profileName": "FHL2 - GLI2"
+            },
+            "therapy": {
+                "id": 1786,
+                "therapyName": "GANT61",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18063,
+                    "pubMedId": 31896750,
+                    "title": "Identification of recurrent FHL2-GLI2 oncogenic fusion in sclerosing stromal tumors of the ovary.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31896750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00089245",
+            "title": "Radiolabeled Monoclonal Antibody Therapy in Treating Patients With Refractory, Recurrent, or Advanced CNS or Leptomeningeal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 7169,
+                    "therapyName": "Omburtamab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00601003",
+            "title": "Study of Nifurtimox to Treat Refractory or Relapsed Neuroblastoma or Medulloblastoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7147,
+                    "therapyName": "Cyclophosphamide + Nifurtimox + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00602667",
+            "title": "Risk-Adapted Therapy for Young Children With Embryonal Brain Tumors, Choroid Plexus Carcinoma, High Grade Glioma or Ependymoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2449,
+                    "therapyName": "Cisplatin + Cyclophosphamide + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2450,
+                    "therapyName": "Cyclophosphamide + Etoposide + Topotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 2451,
+                    "therapyName": "Cyclophosphamide + Erlotinib + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00876993",
+            "title": "Study of Irinotecan and Bevacizumab With Temozolomide in Refractory/Relapsed Central Nervous System (CNS) Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1463,
+                    "therapyName": "Bevacizumab + Irinotecan + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00983398",
+            "title": "Melphalan, Carboplatin, and Sodium Thiosulfate for Patients With Central Nervous System (CNS) Embryonal or Germ Cell Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 2587,
+                    "therapyName": "Carboplatin + Melphalan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01217437",
+            "title": "Temozolomide and Irinotecan Hydrochloride With or Without Bevacizumab in Treating Young Patients With Recurrent or Refractory Medulloblastoma or CNS Primitive Neuroectodermal Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1462,
+                    "therapyName": "Irinotecan + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1463,
+                    "therapyName": "Bevacizumab + Irinotecan + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01356290",
+            "title": "Metronomic and Targeted Anti-angiogenesis Therapy for Children With Recurrent/Progressive Medulloblastoma (MEMMAT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1475,
+                    "therapyName": "Thalidomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 4418,
+                    "therapyName": "Fenofibrate",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2124,
+                    "therapyName": "Celecoxib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1783,
+                    "therapyName": "Cyclophosphamide + Cytarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01878617",
+            "title": "A Clinical and Molecular Risk-Directed Therapy for Newly Diagnosed Medulloblastoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1800,
+                    "therapyName": "Cisplatin + Cyclophosphamide + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1801,
+                    "therapyName": "Gemcitabine + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01977677",
+            "title": "Plerixafor After Radiation Therapy and Temozolomide in Treating Patients With Newly Diagnosed High Grade Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01999270",
+            "title": "Evaluation of FDOPA-PET/MRI in Pediatric Patients With CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2112,
+                    "therapyName": "Bevacizumab + Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02040376",
+            "title": "Placebo Controlled Double Blind Crossover Trial of Metformin for Brain Repair in Children With Cranial-Spinal Radiation for Medulloblastoma",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02100891",
+            "title": "Phase 2 STIR Trial: Haploidentical Transplant and Donor Natural Killer Cells for Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT02301039",
+            "title": "A Phase II Study of the Anti-PD1 Antibody Pembrolizumab (MK-3475) in Patients With Advanced Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02304458",
+            "title": "Nivolumab With or Without Ipilimumab in Treating Younger Patients With Recurrent or Refractory Solid Tumors or Sarcomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02332889",
+            "title": "Phase I/II Decitabine/Vaccine Therapy in Relapsed/Refractory Pediatric High Grade Gliomas/Medulloblastomas/CNS PNETs",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02372006",
+            "title": "Trial of Afatinib in Pediatric Tumours",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02390752",
+            "title": "PLX3397 in Children and Young Adults With Refractory Leukemias and Refractory Solid Tumors Including Neurofibromatosis Type 1 (NF1) Associated Plexiform Neurofibromas (PN)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 874,
+                    "therapyName": "Pexidartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02446431",
+            "title": "Metronomic Therapy for Pediatric Patients With Solid Tumors at High Risk of Recurrence",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1076,
+                    "therapyName": "Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02458339",
+            "title": "Methotrexate Infusion Into Fourth Ventricle in Children With Recurrent Malignant Fourth Ventricular Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02472392",
+            "title": "Study To Examine Toxicity Of Allogeneic Stem Cell Transplantation For Relapsed Or Therapy Refractory Ewings Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02502708",
+            "title": "Study of the IDO Pathway Inhibitor, Indoximod, and Temozolomide for Pediatric Patients With Primary Malignant Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2976,
+                    "therapyName": "Indoximod",
+                    "synonyms": null
+                },
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02748135",
+            "title": "A Two-Part Study of TB-403 in Pediatric Subjects With Relapsed or Refractory Medulloblastoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 4704,
+                    "therapyName": "TB-403",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03130959",
+            "title": "An Investigational Immuno-therapy Study of Nivolumab Monotherapy and Nivolumab in Combination With Ipilimumab in Pediatric Patients With High Grade Primary CNS Malignancies (CheckMate 908)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03155620",
+            "title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                },
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 961,
+                    "therapyName": "Ensartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03173950",
+            "title": "Immune Checkpoint Inhibitor Nivolumab in People With Select Rare CNS Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213678",
+            "title": "PI3K/mTOR Inhibitor LY3023414 in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With TSC or PI3K/MTOR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03387020",
+            "title": "Ribociclib and Everolimus in Treating Children With Recurrent or Refractory Malignant Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5073,
+                    "therapyName": "Everolimus + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03434262",
+            "title": "Molecularly-Driven Doublet Therapy for Recurrent CNS Malignant Neoplasms",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6688,
+                    "therapyName": "Filgrastim + Gemcitabine + Pegfilgrastim + Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2,
+                    "therapyName": "Trametinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1428,
+                    "therapyName": "Sonidegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4472,
+                    "therapyName": "Ribociclib + Trametinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6687,
+                    "therapyName": "Ribociclib + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03581240",
+            "title": "An Intermediate Expanded Use Trial of DFMO",
+            "phase": "Expanded access",
+            "recruitment": "Available",
+            "therapies": [
+                {
+                    "id": 2629,
+                    "therapyName": "Eflornithine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03598244",
+            "title": "Volitinib in Treating Participants With Recurrent or Refractory Primary CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2161,
+                    "therapyName": "Savolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03652545",
+            "title": "Multi-antigen T Cell Infusion Against Neuro-oncologic Disease (REMIND)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03709680",
+            "title": "Study Of Palbociclib Combined With Chemotherapy In Pediatric Patients With Recurrent/Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8371,
+                    "therapyName": "Irinotecan + Palbociclib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03893487",
+            "title": "Fimepinostat in Treating Brain Tumors in Children and Young Adults (PNOC016)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 709,
+                    "therapyName": "CUDC-907",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04023669",
+            "title": "Evaluation of LY2606368 Therapy in Combination With Cyclophosphamide or Gemcitabine for Children and Adolescents With Refractory or Recurrent Group 3/Group 4 or SHH Medulloblastoma Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 8601,
+                    "therapyName": "Cyclophosphamide + Prexasertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5821,
+                    "therapyName": "Gemcitabine + Prexasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04049669",
+            "title": "Pediatric Trial of Indoximod With Chemotherapy and Radiation for Relapsed Brain Tumors or Newly Diagnosed DIPG",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8654,
+                    "therapyName": "Cyclophosphamide + Etoposide + Indoximod",
+                    "synonyms": null
+                },
+                {
+                    "id": 8655,
+                    "therapyName": "Indoximod + Lomustine + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 8653,
+                    "therapyName": "Indoximod + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2976,
+                    "therapyName": "Indoximod",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04315064",
+            "title": "Infusion of Panobinostat (MTX110) Into the Fourth Ventricle in Children and Adults With Recurrent Medulloblastoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7148,
+                    "therapyName": "MTX110",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

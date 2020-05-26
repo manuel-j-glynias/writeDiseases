@@ -1,0 +1,4152 @@
+{
+    "id": 1115,
+    "name": "sarcoma",
+    "source": "DOID",
+    "definition": "A cell type cancer that has_material_basis_in abnormally proliferating cells derives from embryonic mesoderm. [url:http\\://cancergenome.nih.gov/cancersselected/Sarcoma, url:http\\://en.wikipedia.org/wiki/Sarcoma, url:http\\://www.cancer.gov/dictionary?CdrID=45562]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "3936"
+    ],
+    "termId": "DOID:1115",
+    "evidence": [
+        {
+            "id": 435,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval, Votrient (pazopanib) improved progression free survival in patients with advanced soft tissue sarcoma (PMID: 22595799).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 848,
+                "therapyName": "Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2373,
+                    "pubMedId": 22595799,
+                    "title": "Pazopanib for metastatic soft-tissue sarcoma (PALETTE): a randomised, double-blind, placebo-controlled phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22595799"
+                },
+                {
+                    "id": 15575,
+                    "pubMedId": null,
+                    "title": "Votrient (pazopanib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022465"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5542,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective study, Votrient (pazopanib) treatment resulted in median progression free survival of 15.4 weeks and median survival of 11.2 months in patients with soft tissue sarcoma (PMID: 26970174).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 848,
+                "therapyName": "Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5088,
+                    "pubMedId": 26970174,
+                    "title": "The clinical outcome of pazopanib treatment in Japanese patients with relapsed soft tissue sarcoma: A Japanese Musculoskeletal Oncology Group (JMOG) study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26970174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 842,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Adavosertib (MK-1775) and Gemzar (gemcitabine) induced cell death in a variety of sarcoma cell lines and inhibited tumor growth in a patient-derived sarcoma xenograft model, independent of TP53 mutational status (PMID: 23520471).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 1279,
+                "therapyName": "Adavosertib + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 484,
+                    "pubMedId": 23520471,
+                    "title": "Wee1 inhibition by MK-1775 leads to tumor inhibition and enhances efficacy of gemcitabine in human sarcomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23520471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 845,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, sarcoma patients harboring TP53 P72R mutations had longer progression-free survival after treatment with Cyfos (ifosfamide) and Adriamycin (doxorubicin) (PMID: 23165797).",
+            "molecularProfile": {
+                "id": 621,
+                "profileName": "TP53 P72R"
+            },
+            "therapy": {
+                "id": 1472,
+                "therapyName": "Doxorubicin + Ifosfamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 485,
+                    "pubMedId": 23165797,
+                    "title": "Correlation of TP53 and MDM2 genotypes with response to therapy in sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23165797"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1706,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, RG7112 demonstrated safety and preliminary efficacy, with evidence supporting p53 activation, in soft tissue sarcoma patients with MDM2 amplification (J Clin Oncol 30, 2012 (suppl; abstr e13600).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2076,
+                "therapyName": "RG7112",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1884,
+                    "pubMedId": null,
+                    "title": "A phase I study of MDM2 antagonist RG7112 in patients (pts) with relapsed/refractory solid tumors.",
+                    "url": "http://meetinglibrary.asco.org/content/99973-114"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1757,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BMS-777607 (ASLAN002) demonstrated efficacy in blocking Met phosphorylation and inhibiting cell proliferation and metastasis in cultured cells and murine models with activating Met mutations (PMID: 22286523).",
+            "molecularProfile": {
+                "id": 2096,
+                "profileName": "MET act mut"
+            },
+            "therapy": {
+                "id": 687,
+                "therapyName": "BMS-777607",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2026,
+                    "pubMedId": 22286523,
+                    "title": "Impact of the small molecule Met inhibitor BMS-777607 on the metastatic process in a rodent tumor model with constitutive c-Met activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22286523"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2182,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the MEK inhibitor PD-0325901 reduced proliferation and colony formation in sarcoma cell lines with a loss of NF1 expression (PMID: 23858101).",
+            "molecularProfile": {
+                "id": 5927,
+                "profileName": "NF1 loss"
+            },
+            "therapy": {
+                "id": 849,
+                "therapyName": "PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2710,
+                    "pubMedId": 23858101,
+                    "title": "NF1 deletion generates multiple subtypes of soft-tissue sarcoma that respond to MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23858101"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2288,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Alvocidib (flavopiridol), in combination with aldoxorubicin resulted in partial responses in 6% (2/31) and stable disease in 51% (16/31) of patients with advanced sarcoma (PMID: 22374332).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2800,
+                "therapyName": "Aldoxorubicin + Alvocidib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2892,
+                    "pubMedId": 22374332,
+                    "title": "The cyclin-dependent kinase inhibitor flavopiridol potentiates doxorubicin efficacy in advanced sarcomas: preclinical investigations and results of a phase I dose-escalation clinical trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22374332"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13815,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, Vitrakvi (larotrectinib) treatment resulted in partial response in a pediatric patients with soft tissue sarcoma harboring LMNA-NTRK1 fusion (PMID: 29606586; NCT02637687).",
+            "molecularProfile": {
+                "id": 12816,
+                "profileName": "LMNA - NTRK1"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11285,
+                    "pubMedId": 29606586,
+                    "title": "Larotrectinib for paediatric solid tumours harbouring NTRK gene fusions: phase 1 results from a multicentre, open-label, phase 1/2 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29606586"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3247,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with sarcoma harboring LMNA-NTRK1 had a marked improvement in multiple pulmonary metastases and was deemed a partial response by RECIST 1.1 when treated on a 4 week cycle of Vitrakvi (larotrectinib) (PMID: 26216294).",
+            "molecularProfile": {
+                "id": 12816,
+                "profileName": "LMNA - NTRK1"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3689,
+                    "pubMedId": 26216294,
+                    "title": "An Oncogenic NTRK Fusion in a Patient with Soft-Tissue Sarcoma with Response to the Tropomyosin-Related Kinase Inhibitor LOXO-101.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26216294"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3414,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, the combination of Votrient (pazopanib) and Zolinza (vorinostat) resulted in improved progression-free survival and overall survival in metastatic sarcoma and colorectal cancer patients harboring TP53 hotspot mutations, and resulted in a stable disease rate of 83% (5/6), compared to a stable disease rate of 9% (1/11) in patients without detected TP53 mutations (PMID: 25669829).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 1211,
+                "therapyName": "Pazopanib + Vorinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3774,
+                    "pubMedId": 25669829,
+                    "title": "Phase I study of pazopanib and vorinostat: a therapeutic approach for inhibiting mutant p53-mediated angiogenesis and facilitating mutant p53 degradation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25669829"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3899,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I study, Abexinostat (PCI-24781), in combination with doxorubicin, displayed safety and preliminary efficacy in patients with metastatic sarcoma (PMID: 25536954).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3381,
+                "therapyName": "Abexinostat + Aldoxorubicin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4267,
+                    "pubMedId": 25536954,
+                    "title": "Phase 1 study of oral abexinostat, a histone deacetylase inhibitor, in combination with doxorubicin in patients with metastatic sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25536954"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3924,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, Ganitumab and Conatumumab (AMG 655) combination treatment resulted in stable disease in 33% (5/15) of patients with sarcoma, including one with leiomyosarcoma (PMID: 24816908).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3401,
+                "therapyName": "Conatumumab + Ganitumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4295,
+                    "pubMedId": 24816908,
+                    "title": "Anticancer activity of the type I insulin-like growth factor receptor antagonist, ganitumab, in combination with the death receptor 5 agonist, conatumumab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24816908"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3972,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Ganitumab treatment resulted in a 6% (2/35) partial response and stable disease in 49% (17/35) of patients with metastatic Ewing's family of tumors or desmoplastic small round cell tumor (PMID: 22508822).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 746,
+                "therapyName": "Ganitumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4296,
+                    "pubMedId": 22508822,
+                    "title": "Phase II study of ganitumab, a fully human anti-type-1 insulin-like growth factor receptor antibody, in patients with metastatic Ewing family tumors or desmoplastic small round cell tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22508822"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3994,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Lenvima (lenvatinib) demonstrated safety and anti-tumor activity in patients with advanced solid tumors, including partial responses in patients with soft-tissue sarcoma (PMID: 22516948).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 792,
+                "therapyName": "Lenvatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 62,
+                    "pubMedId": 22516948,
+                    "title": "A phase I study of E7080, a multitargeted tyrosine kinase inhibitor, in patients with advanced solid tumours.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22516948"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4182,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, 19% (8/42) of patients with undifferentiated pleomorphic sarcoma demonstrated clinical benefit when treated with Sprycel (dasatinib), however the 6 month progression free survival rate in patients was only 12% (6/42) (PMID: 26710211).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4408,
+                    "pubMedId": 26710211,
+                    "title": "SARC009: Phase 2 study of dasatinib in patients with previously treated, high-grade, advanced sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26710211"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4901,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, 55% (11/20) of sarcoma patients demonstrated stable disease while one patient (1/20) experienced a partial response when treated with a combination of Farydak (panobinostat) and Ellence (epirubicin) (PMID: 26903311).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3690,
+                "therapyName": "Epirubicin + Panobinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4782,
+                    "pubMedId": 26903311,
+                    "title": "A phase I trial of panobinostat and epirubicin in solid tumors with a dose expansion in patients with sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26903311"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4932,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, advanced sarcoma patients with TP53 mutations displayed improved progression-free survival (208 vs 136 days, p=0.036) relative to patients with wild-type TP53 when treated with Votrient (pazopanib) (PMID: 26646755).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 848,
+                "therapyName": "Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4803,
+                    "pubMedId": 26646755,
+                    "title": "TP53 mutational status is predictive of pazopanib response in advanced sarcomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26646755"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5532,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YU238259 demonstrated increased cytotoxicity in PTEN-deficient sarcoma cell lines in culture (PMID: 26116172).",
+            "molecularProfile": {
+                "id": 479,
+                "profileName": "PTEN loss"
+            },
+            "therapy": {
+                "id": 3880,
+                "therapyName": "YU238259",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5087,
+                    "pubMedId": 26116172,
+                    "title": "YU238259 Is a Novel Inhibitor of Homology-Dependent DNA Repair That Exhibits Synthetic Lethality and Radiosensitization in Repair-Deficient Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26116172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6304,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mouse sarcoma cell lines over expressing SMO S387N demonstrated reduced response to Erivedge (vismodegib) induced Hedgehog pathway inhibition in cell culture (PMID: 25759019).",
+            "molecularProfile": {
+                "id": 23084,
+                "profileName": "SMO S387N"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5520,
+                    "pubMedId": 25759019,
+                    "title": "Genomic analysis of smoothened inhibitor resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759019"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6305,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mouse sarcoma cell lines over expressing SMO D384N demonstrated reduced response to Erivedge (vismodegib) induced Hedgehog pathway inhibition in cell culture (PMID: 25759019).",
+            "molecularProfile": {
+                "id": 23085,
+                "profileName": "SMO D384N"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5520,
+                    "pubMedId": 25759019,
+                    "title": "Genomic analysis of smoothened inhibitor resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759019"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6306,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mouse sarcoma cell lines over expressing SMO N219D demonstrated reduced response to Erivedge (vismodegib) induced Hedgehog pathway inhibition in cell culture (PMID: 25759019).",
+            "molecularProfile": {
+                "id": 23086,
+                "profileName": "SMO N219D"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5520,
+                    "pubMedId": 25759019,
+                    "title": "Genomic analysis of smoothened inhibitor resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759019"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6532,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/IIb trial that supported FDA approval, Lartruvo (olaratumab) and Adriamycin (doxorubicin) combination treatment improved median progression free survival (6.6 vs. 4.1 months) and median overall survival (26.5 vs. 14.7 months) compared to Adriamycin (doxorubicin) treatment alone in patients with advanced soft tissue sarcoma (PMID: 27291997; NCT01185964).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4140,
+                "therapyName": "Doxorubicin + Olaratumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5688,
+                    "pubMedId": null,
+                    "title": "A randomized phase Ib/II study evaluating the safety and efficacy of olaratumab (IMC-3G3), a human anti-platelet-derived growth factor ? (PDGFR?) monoclonal antibody, with or without doxorubicin (Dox), in advanced soft tissue sarcoma (STS).",
+                    "url": "http://meetinglibrary.asco.org/content/147332-156"
+                },
+                {
+                    "id": 6855,
+                    "pubMedId": 27291997,
+                    "title": "Olaratumab and doxorubicin versus doxorubicin alone for treatment of soft-tissue sarcoma: an open-label phase 1b and randomised phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27291997"
+                },
+                {
+                    "id": 15614,
+                    "pubMedId": null,
+                    "title": "Lartruvo (olaratumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761038"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6566,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, the combination of Yondelis (trabectedin) and Adriamycin (doxorubicin) did not improve progression free survival (5.7 months) compared to Adriamycin (doxorubicin) alone (5.5 months) in patients with advanced soft tissue sarcoma (PMID: 27185843).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4150,
+                "therapyName": "Doxorubicin + Trabectedin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5696,
+                    "pubMedId": 27185843,
+                    "title": "Randomized Phase II Study of Trabectedin and Doxorubicin Compared With Doxorubicin Alone as First-Line Treatment in Patients With Advanced Soft Tissue Sarcomas: A Spanish Group for Research on Sarcoma Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27185843"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6734,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human sarcoma cells harboring mutant NRAS were insensitive to Mekinist (trametinib) in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6859,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, TRC105 and Votrient (pazopanib) combination therapy resulted in a median progression free survival of 3.95 months and ongoing complete response in 4% (3/81) of soft tissue sarcoma patients (J Clin Oncol 34, 2016 (suppl; abstr 11016)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1431,
+                "therapyName": "Carotuximab + Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5882,
+                    "pubMedId": null,
+                    "title": "A phase 1B/ phase 2A study of TRC105 (Endoglin Antibody) in combination with pazopanib (P) in patients (pts) with advanced soft tissue sarcoma (STS).",
+                    "url": "http://meetinglibrary.asco.org/content/168705-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7294,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Anlotinib (AL-3818) treatment resulted in a 12-week progression-free rate of 68%, median progression-free survival of 5.6 months, median overall survival of 12 months, and an objective response rate of 13% (n=166), all partial responses, in patients with soft tissue sarcoma (PMID: 29895706; NCT01878448).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 980,
+                "therapyName": "Anlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14437,
+                    "pubMedId": 29895706,
+                    "title": "Safety and Efficacy of Anlotinib, a Multikinase Angiogenesis Inhibitor, in Patients with Refractory Metastatic Soft-Tissue Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29895706"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8314,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Alisertib (MLN8237) treatment resulted in twelve-week progression free survival in 36% (4/11) of undifferentiated sarcoma patients (PMID: 27502708).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 626,
+                "therapyName": "Alisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6602,
+                    "pubMedId": 27502708,
+                    "title": "Phase II study of MLN8237 (Alisertib) in advanced/metastatic sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27502708"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9945,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lynparza (olaparib) treatment delayed tumor growth in cell line xenograft models of sarcoma harboring IDH1 R132C (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9951,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AGI-5198 reverted the sensitivity of sarcoma cells harboring IDH1 R132C to Talazoparib (BMN-673)-induced growth inhibition in culture (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 5325,
+                "therapyName": "AGI-5198 + Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9952,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AGI-5198 reverted the sensitivity of sarcoma cells harboring IDH1 R132C to Lynparza (olaparib)-induced growth inhibition in culture (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 5326,
+                "therapyName": "AGI-5198 + Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10379,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Stivarga (regorafenib) treatment resulted in improved median progression-free survival (2.9 vs 1.0 months), but no difference in overall survival (HR=0.75, p=0.37) compared to placebo in patients with soft tissue sarcoma excluding liposarcoma, leiomyosarcoma, and synovial sarcoma (PMID: 27751846).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8403,
+                    "pubMedId": 27751846,
+                    "title": "Safety and efficacy of regorafenib in patients with advanced soft tissue sarcoma (REGOSARC): a randomised, double-blind, placebo-controlled, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27751846"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10474,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, the combination of Votrient (pazopanib) and Mekinist (trametinib) demonstrated safety and resulted in partial response in 8% (2/25) and stable disease in 48% (12/25) of patients with advanced soft tissue sarcomas, but did not improve the 4 month progression-free survival rate over Votrient (pazopanib) alone (PMID: 28377484).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1310,
+                "therapyName": "Pazopanib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8528,
+                    "pubMedId": 28377484,
+                    "title": "Phase Ib/II Study of the Safety and Efficacy of Combination Therapy with Multikinase VEGF Inhibitor Pazopanib and MEK Inhibitor Trametinib In Advanced Soft Tissue Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28377484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11079,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Keytruda (pembrolizumab) resulted in a progression-free survival (PFS) of 18 weeks and an objective response rate of 18% (7/40) in patients with soft tissue sarcoma, including four with pleomorphic sarcoma, two with liposarcoma, and one with synovial sarcoma, and PFS of 8 weeks and an objective response rate of 5% (2/40) in patients with bone sarcoma, including one with osteosarcoma and one with chondrosarcoma (PMID: 28988646; NCT02301039).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9070,
+                    "pubMedId": null,
+                    "title": "Multicenter phase II study of pembrolizumab (P) in advanced soft tissue (STS) and bone sarcomas (BS): Final results of SARC028 and biomarker analyses.",
+                    "url": "http://meetinglibrary.asco.org/record/145286/abstract"
+                },
+                {
+                    "id": 10220,
+                    "pubMedId": 28988646,
+                    "title": "Pembrolizumab in advanced soft-tissue sarcoma and bone sarcoma (SARC028): a multicentre, two-cohort, single-arm, open-label, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28988646"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11316,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a mouse model expressing CIC-DUX4, which developed sarcoma, demonstrated suppression of tumor growth when treated with Yondelis (trabectedin) (PMID: 28404587).",
+            "molecularProfile": {
+                "id": 27956,
+                "profileName": "CIC - DUX4"
+            },
+            "therapy": {
+                "id": 3420,
+                "therapyName": "Trabectedin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9231,
+                    "pubMedId": 28404587,
+                    "title": "CIC-DUX4 Induces Small Round Cell Sarcomas Distinct from Ewing Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28404587"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11502,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, treatment with ERBB2 (HER2)-specific CAR-T cells resulted in stable disease for 12 weeks to 14 months in 4/17 evaluable patients with ERBB2 (HER2)-positive sarcomas and a median overall survival of 10.3 months (PMID: 25800760; NCT00902044).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 6007,
+                "therapyName": "HER2 CAR-T cells",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9563,
+                    "pubMedId": 25800760,
+                    "title": "Human Epidermal Growth Factor Receptor 2 (HER2) -Specific Chimeric Antigen Receptor-Modified T Cells for the Immunotherapy of HER2-Positive Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25800760"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13814,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, Vitrakvi (larotrectinib) treatment resulted in partial response in a pediatric patients with soft tissue sarcoma harboring STRN-NTRK2 fusion (PMID: 29606586; NCT02637687).",
+            "molecularProfile": {
+                "id": 29440,
+                "profileName": "STRN - NTRK2"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11285,
+                    "pubMedId": 29606586,
+                    "title": "Larotrectinib for paediatric solid tumours harbouring NTRK gene fusions: phase 1 results from a multicentre, open-label, phase 1/2 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29606586"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13816,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, Vitrakvi (larotrectinib) treatment resulted in partial response in a pediatric patients with soft tissue sarcoma harboring PDE4DIP-NTRK1 fusion (PMID: 29606586; NCT02637687).",
+            "molecularProfile": {
+                "id": 29437,
+                "profileName": "PDE4DIP - NTRK1"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11285,
+                    "pubMedId": 29606586,
+                    "title": "Larotrectinib for paediatric solid tumours harbouring NTRK gene fusions: phase 1 results from a multicentre, open-label, phase 1/2 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29606586"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13817,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, Vitrakvi (larotrectinib) treatment resulted in complete response in 33.3% (1/3) and partial response in 66.7% (2/3) of pediatric patients with soft tissue sarcoma harboring TPM3-NTRK1 fusions (PMID: 29606586; NCT02637687).",
+            "molecularProfile": {
+                "id": 10688,
+                "profileName": "TPM3 - NTRK1"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11285,
+                    "pubMedId": 29606586,
+                    "title": "Larotrectinib for paediatric solid tumours harbouring NTRK gene fusions: phase 1 results from a multicentre, open-label, phase 1/2 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29606586"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13824,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BA3021 (CAB-ROR2-ADC) inhibited growth of Ror2-positive sarcoma cells in culture, and in both cell line and patient-derived xenograft models (Proceedings of the AACR, Apr 2018, Vol 59, Abstract 833).",
+            "molecularProfile": {
+                "id": 29507,
+                "profileName": "ROR2 positive"
+            },
+            "therapy": {
+                "id": 6906,
+                "therapyName": "BA3021",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11293,
+                    "pubMedId": null,
+                    "title": "Anti-tumor efficacy of BA3021, a novel Conditionally Active Biologic (CAB) anti-ROR2 ADC",
+                    "url": "https://cancerres.aacrjournals.org/content/78/13_Supplement/833"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13989,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, GDC-0575 and Gemzar (gemcitabine) combination treatment resulted in a prolonged tumor response in 2 soft tissue sarcoma patients harboring TP53 mutations, and no response in a patient with TP53 wild-type tumor (PMID: 29409053; NCT01564251).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 2113,
+                "therapyName": "GDC-0575 + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11402,
+                    "pubMedId": 29409053,
+                    "title": "CHK1 inhibition in soft-tissue sarcomas: biological and clinical implications.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29409053"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15177,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, 14% (7/50) of patients with either bone or soft tissue sarcoma demonstrated a partial response according to RECIST criteria when treated with the combination therapy of Lynparza (olaparib) and Yondelis (trabectedin) (PMID: 30217671).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7458,
+                "therapyName": "Olaparib + Trabectedin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12773,
+                    "pubMedId": 30217671,
+                    "title": "Trabectedin and olaparib in patients with advanced and non-resectable bone and soft-tissue sarcomas (TOMAS): an open-label, phase 1b study from the Italian Sarcoma Group.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30217671"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15273,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, NTRK1 G595R was identified at disease progression in a patient with a soft tissue sarcoma harboring TPM3-NTRK1 treated with Vitrakvi (larotrectinib) (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15433,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Tasigna (nilotinib) in combination with doxorubicin demonstrated safety and preliminary efficacy, resulted in 1 partial response and 9 stable disease in 13 patients with sarcomas (PMID: 30037815; NCT02587169).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7616,
+                "therapyName": "Doxorubicin + Nilotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 13269,
+                    "pubMedId": 30037815,
+                    "title": "Nilotinib as Coadjuvant Treatment with Doxorubicin in Patients with Sarcomas: A Phase I Trial of the Spanish Group for Research on Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30037815"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16700,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, BI 853520 demonstrated safety and some anti-tumor efficacy, resulting in stable disease in 28.6% (4/14) of patients with soft tissue sarcoma, one of whom had stable disease lasting greater than 150 days (PMID: 30756308; NCT01335269).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3599,
+                "therapyName": "BI 853520",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14726,
+                    "pubMedId": 30756308,
+                    "title": "Phase I Study of BI 853520, an Inhibitor of Focal Adhesion Kinase, in Patients with Advanced or Metastatic Nonhematologic Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30756308"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16777,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Lynparza (olaparib) treatment resulted in rapid disease progression in a patient with high-grade sarcoma harboring ATM T1200Lfs*7, NRAS Q61K, and TP53 R213* (PMID: 29304353).",
+            "molecularProfile": {
+                "id": 31933,
+                "profileName": "ATM T1200Lfs*7 NRAS Q61K TP53 R213*"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14903,
+                    "pubMedId": 29304353,
+                    "title": "Yale Cancer Center Precision Medicine Tumor Board: two patients, one targeted therapy, different outcomes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29304353"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16785,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, infusion of transgenic lymphocyte engineered to express NY-ESO-1-specific T-cell receptor together with NY-ESO-1 peptide-pulsed DC vaccine demonstrated initial antitumor activity at day 30 in 66% (4/6) of patients with CTAG1B (NY-ESO-1)-positive advanced sarcoma, resulted in partial response in 2 of the patients at day 90, with 1 patient eventually reached an ongoing complete response for over 4 years (PMID: 30573690; NCT02070406).",
+            "molecularProfile": {
+                "id": 15750,
+                "profileName": "CTAG1B positive"
+            },
+            "therapy": {
+                "id": 2696,
+                "therapyName": "NY-ESO-1 peptide vaccine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14911,
+                    "pubMedId": 30573690,
+                    "title": "A Pilot Trial of the Combination of Transgenic NY-ESO-1-reactive Adoptive Cellular Therapy with Dendritic Cell Vaccination with or without Ipilimumab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30573690"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17222,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, MBG453 treatment resulted in stable disease in 5 patients with sarcomas (AACR Annual Meeting 2019, Abstract CT183; NCT02608268).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3560,
+                "therapyName": "MBG453",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15246,
+                    "pubMedId": null,
+                    "title": "Phase (Ph) I/II study of MBG453\u00b1 spartalizumab (PDR001) in patients (pts) with advanced malignancies",
+                    "url": "https://www.abstractsonline.com/pp8/#!/6812/presentation/9834"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17835,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is in guidelines for patients with soft tissue sarcoma with non-specific histology and an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17836,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is in guidelines for patients with soft tissue sarcoma with non-specific histology and an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17837,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is in guidelines for patients with soft tissue sarcoma with non-specific histology and an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18801,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is in guidelines for patients with soft tissue sarcoma with non-specific histology and an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18803,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is in guidelines for patients with soft tissue sarcoma with non-specific histology and an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18804,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is in guidelines for patients with soft tissue sarcoma with non-specific histology and an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19409,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, ID-LV305 treatment induced anti-NY-ESO-1 immune response in 57% (20/24) of patients with CTAG1B (NY-ESO-1)-positive sarcoma, resulted in a disease control rate of 62.5% (15/24, 1 partial response, 14 stable diasese), a median progression-free survival of 4.6 months, and a median overall survival of 33.9 months (PMID: 31227504; NCT02122861).",
+            "molecularProfile": {
+                "id": 15750,
+                "profileName": "CTAG1B positive"
+            },
+            "therapy": {
+                "id": 3271,
+                "therapyName": "ID-LV305",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16990,
+                    "pubMedId": 31227504,
+                    "title": "First-in-Class, First-in-Human Study Evaluating LV305, a Dendritic-Cell Tropic Lentiviral Vector, in Sarcoma and Other Solid Tumors Expressing NY-ESO-1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31227504"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20034,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "EWSR1-WT1 fusions aid the diagnosis of desmoplastic small round cell tumor (NCCN.org).",
+            "molecularProfile": {
+                "id": 13570,
+                "profileName": "EWSR1 - WT1"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20248,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, INVAC-1 treatment delayed tumor growth and increased survival of a TERT-positive aggressive sarcoma mouse model (PMID: 27141336).",
+            "molecularProfile": {
+                "id": 32976,
+                "profileName": "TERT positive"
+            },
+            "therapy": {
+                "id": 9302,
+                "therapyName": "INVAC-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17784,
+                    "pubMedId": 27141336,
+                    "title": "Anticancer DNA vaccine based on human telomerase reverse transcriptase generates a strong and specific T cell immune response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27141336"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20619,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II/III trial, no difference in objective response rate was observed between soft tissue sarcoma patients treated with NBTXR3 plus radiotherapy vs. radiotherapy alone (7% vs. 10%, p=0.86), however, NBTXR3 plus radiotherapy resulted in an increased pathological complete response rate of 16% (14/87) vs. 8% (7/89), and a higher proportion of patients receiving NBTXR3 and radiotherapy demonstrated negative margins (84% (61/73) vs. 70% (57/82), p=0.30) (PMID: 31296491; NCT02379845).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9531,
+                "therapyName": "NBTXR3 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17969,
+                    "pubMedId": 31296491,
+                    "title": "NBTXR3, a first-in-class radioenhancer hafnium oxide nanoparticle, plus radiotherapy versus radiotherapy alone in patients with locally advanced soft-tissue sarcoma (Act.In.Sarc): a multicentre, phase 2-3, randomised, controlled trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31296491"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00356031",
+            "title": "Bevacizumab and Radiation Therapy for Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00902044",
+            "title": "Her2 Chimeric Antigen Receptor Expressing T Cells in Advanced Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2940,
+                    "therapyName": "HER2 sensitized T-cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01005797",
+            "title": "Study of Panobinostat in Combination With Sorafenib in Kidney, Soft Tissue or Lung Cancers",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1131,
+                    "therapyName": "Panobinostat + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01010958",
+            "title": "Adjuvant Valproate for High Grade Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1076,
+                    "therapyName": "Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01106872",
+            "title": "Bevacizumab, Chemotherapy and Valproic Acid in Advanced Sarcomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1466,
+                    "therapyName": "Bevacizumab + Docetaxel + Gemcitabine + Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01154452",
+            "title": "Vismodegib and Gamma-Secretase/Notch Signalling Pathway Inhibitor RO4929097 in Treating Patients With Advanced or Metastatic Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1096,
+                    "therapyName": "RO4929097 + Vismodegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 902,
+                    "therapyName": "RO4929097",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01189643",
+            "title": "Irinotecan, Temozolomide and Bevacizumab in Combination With Existing High Dose Alkylator Based Chemotherapy for Treatment of Newly Diagnosed Patients With Desmoplastic Small Round Cell Tumor",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1463,
+                    "therapyName": "Bevacizumab + Irinotecan + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01294670",
+            "title": "Clinical Study of Vorinostat in Combination With Etoposide in Pediatric Patients &lt; 21 Years at Diagnosis With Refractory Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1182,
+                    "therapyName": "Etoposide + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01327612",
+            "title": "Open Label Extension Study of Conatumumab and AMG 479",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 746,
+                    "therapyName": "Ganitumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1458,
+                    "therapyName": "Conatumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01418001",
+            "title": "Gemcitabine and Docetaxel in Combination With Pazopanib (Gem/Doce/Pzb) for the Neoadjuvant Treatment of Soft Tissue Sarcoma (STS)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1470,
+                    "therapyName": "Docetaxel + Gemcitabine + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01438554",
+            "title": "Phase 1 Study of Pazopanib With GSK1120212 in Advanced Solid Tumors, Enriched With Patients With Differentiated Thyroid Cancer, Soft-tissue Sarcoma, and Cholangiocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1310,
+                    "therapyName": "Pazopanib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01446809",
+            "title": "Pazopanib Hydrochloride Followed By Chemotherapy and Surgery in Treating Patients With Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1472,
+                    "therapyName": "Doxorubicin + Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1471,
+                    "therapyName": "Doxorubicin + Ifosfamide + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01468922",
+            "title": "Pazopanib and ARQ 197 for Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 636,
+                    "therapyName": "Tivantinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01518413",
+            "title": "Dose Escalation Study of Sorafenib and Irinotecan Combination Therapy in Pediatric Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1323,
+                    "therapyName": "Irinotecan + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01532687",
+            "title": "Gemcitabine Hydrochloride With or Without Pazopanib Hydrochloride in Treating Patients With Refractory Soft Tissue Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1478,
+                    "therapyName": "Gemcitabine + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01593748",
+            "title": "A Treatment Trial Comparing Gemcitabine and Pazopanib Versus Gemcitabine and Docetaxel for Patients With Advanced Soft Tissue Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1439,
+                    "therapyName": "Docetaxel + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1478,
+                    "therapyName": "Gemcitabine + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01625351",
+            "title": "A Study of CD45RA+ Depleted Haploidentical Stem Cell Transplantation in Children With Relapsed or Refractory Solid Tumors and Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1205,
+                    "therapyName": "Alemtuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01643278",
+            "title": "Dasatinib and Ipilimumab in Treating Patients With Gastrointestinal Stromal Tumors or Other Sarcomas That Cannot Be Removed by Surgery or Are Metastatic",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1803,
+                    "therapyName": "Dasatinib + Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01695005",
+            "title": "A Study of LY3039478 in Participants With Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2958,
+                    "therapyName": "LY3039478",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01719302",
+            "title": "Docetaxel, Gemcitabine and Pazopanib as Treatment for Soft Tissue Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1470,
+                    "therapyName": "Docetaxel + Gemcitabine + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01719744",
+            "title": "Study of ENMD-2076 in Patients With Advanced/Metastatic Soft Tissue Sarcoma",
+            "phase": null,
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 727,
+                    "therapyName": "ENMD-2076",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01746238",
+            "title": "Bevacizumab/Doxorubicin/Radiation for Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1473,
+                    "therapyName": "Bevacizumab + Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01755195",
+            "title": "Cabozantinib for Adults With Advanced Soft Tissue Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01879085",
+            "title": "Phase 1b/2 Study of Vorinostat in Combination With Gemcitabine and Docetaxel in Advanced Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1077,
+                    "therapyName": "Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01946529",
+            "title": "Therapeutic Trial for Patients With Ewing Sarcoma Family of Tumor and Desmoplastic Small Round Cell Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1433,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Etoposide + Ifosfamide + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1434,
+                    "therapyName": "Bevacizumab + Cyclophosphamide + Doxorubicin + Etoposide + Ifosfamide + Irinotecan + Sorafenib + Temozolomide + Temsirolimus + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01975519",
+            "title": "A Phase 1B Dose-escalation Study of TRC105 in Combination With Pazopanib in Patients With Advanced Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1431,
+                    "therapyName": "Carotuximab + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02008877",
+            "title": "A Trial of Ganetespib Plus Sirolimus: Phase 1 Includes Multiple Sarcoma Subtypes and Phase 2 MPNST",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2271,
+                    "therapyName": "Ganetespib + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02014337",
+            "title": "Mifepristone and Eribulin in Patients With Metastatic Triple Negative Breast Cancer or Other Specified Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3053,
+                    "therapyName": "Eribulin + Mifepristone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02049905",
+            "title": "Phase 3 Study to Treat Patients With Soft Tissue Sarcomas",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1154,
+                    "therapyName": "Dacarbazine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1441,
+                    "therapyName": "Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1440,
+                    "therapyName": "Aldoxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1439,
+                    "therapyName": "Docetaxel + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02050919",
+            "title": "Sorafenib Tosylate, Combination Chemotherapy, Radiation Therapy, and Surgery in Treating Patients With High-Risk Stage IIB-IV Soft Tissue Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2365,
+                    "therapyName": "Epirubicin + Ifosfamide + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02066181",
+            "title": "Sorafenib Tosylate in Treating Patients With Desmoid Tumors or Aggressive Fibromatosis",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02122861",
+            "title": "A Phase 1 Safety Study of Intradermal ID-LV305 in Patients With Locally Advanced, Relapsed or Metastatic Cancer Expressing NY-ESO-1",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3271,
+                    "therapyName": "ID-LV305",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02130869",
+            "title": "A Pilot Study of Immunotherapy Including Haploidentical NK Cell Infusion Following CD133+ Positively-Selected Autologous Hematopoietic Stem Cells in Children With High Risk Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2378,
+                    "therapyName": "Bendamustine + Cytarabine + Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2460,
+                    "therapyName": "Busulfan + Hu14.18K322A",
+                    "synonyms": null
+                },
+                {
+                    "id": 2459,
+                    "therapyName": "Aldesleukin + Melphalan + Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1791,
+                    "therapyName": "Carboplatin + Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02173093",
+            "title": "Activated T Cells Armed With GD2 Bispecific Antibody in Children and Young Adults With Neuroblastoma and Osteosarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2058,
+                    "therapyName": "Aldesleukin + GD2Bi-a ATC + Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02180698",
+            "title": "TLR4 Agonist GLA-SE and Radiation Therapy in Treating Patients With Soft Tissue Sarcoma That Is Metastatic or Cannot Be Removed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3576,
+                    "therapyName": "GLA-SE",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02180867",
+            "title": "Radiation Therapy With or Without Combination Chemotherapy or Pazopanib Hydrochloride Before Surgery in Treating Patients With Newly Diagnosed Non-Rhabdomyosarcoma Soft Tissue Sarcomas That Can be Removed by Surgery (PAZNTIS)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1472,
+                    "therapyName": "Doxorubicin + Ifosfamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02192541",
+            "title": "Ganetespib and Ziv-Aflibercept in Refractory Gastrointestinal Carcinomas, Non-Squamous Non-Small Cell Lung Carcinomas, Urothelial Carcinomas, and Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1665,
+                    "therapyName": "Aflibercept + Ganetespib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02267083",
+            "title": "Efficacy and Safety Study of GPX-150 to Treat Soft Tissue Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2041,
+                    "therapyName": "GPX-150",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02300545",
+            "title": "Pazopanib as Front-Line Therapy in Patients With Non-Resectable or Metastatic Soft Tissue Sarcomas Who Are Not Candidates for Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02319824",
+            "title": "NY-ESO-1-Specific T-cells in Treating Patients With Advanced NY-ESO-1-Expressing Sarcomas Receiving Palliative Radiation Therapy",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT02323191",
+            "title": "A Study of Emactuzumab and Atezolizumab Administered in Combination in Participants With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7438,
+                    "therapyName": "Atezolizumab + Emactuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02331251",
+            "title": "Study of Pembrolizumab Plus Chemotherapy in Patients With Advanced Cancer (PembroPlus)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1685,
+                    "therapyName": "Vinorelbine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 619,
+                    "therapyName": "Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02349958",
+            "title": "Clinical Trial of Intraperitoneal Hyperthermic Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1133,
+                    "therapyName": "Mitomycin C",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02357810",
+            "title": "Pazopanib Hydrochloride and Topotecan Hydrochloride in Treating Patients With Metastatic Soft Tissue and Bone Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1469,
+                    "therapyName": "Pazopanib + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02387125",
+            "title": "A Phase 1b Safety Study of CMB305 (Sequentially Administered LV305 and G305) in Patients With Locally Advanced, Relapsed, or Metastatic Cancer Expressing NY-ESO-1",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4318,
+                    "therapyName": "CMB305",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02390752",
+            "title": "PLX3397 in Children and Young Adults With Refractory Leukemias and Refractory Solid Tumors Including Neurofibromatosis Type 1 (NF1) Associated Plexiform Neurofibromas (PN)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 874,
+                    "therapyName": "Pexidartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02423863",
+            "title": "In Situ, Autologous Therapeutic Vaccination Against Solid Cancers With Intratumoral Hiltonol",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02432963",
+            "title": "Vaccine Therapy and Pembrolizumab in Treating Patients With Solid Tumors That Have Failed Prior Therapy",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5547,
+                    "therapyName": "MVAp53 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02446431",
+            "title": "Metronomic Therapy for Pediatric Patients With Solid Tumors at High Risk of Recurrence",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1076,
+                    "therapyName": "Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02451943",
+            "title": "A Study of Doxorubicin Plus Olaratumab (LY3012207) in Participants With Advanced or Metastatic Soft Tissue Sarcoma",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3269,
+                    "therapyName": "Olaratumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02453191",
+            "title": "TVEC and Preop Radiation for Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2695,
+                    "therapyName": "Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02498665",
+            "title": "A Study of DSP-7888 Dosing Emulsion in Adult Patients With Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4320,
+                    "therapyName": "DSP-7888",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02500797",
+            "title": "Nivolumab With or Without Ipilimumab in Treating Patients With Metastatic or Unresectable Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02508038",
+            "title": "Alpha/Beta CD19+ Depleted Haploidentical Transplantation + Zometa",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2971,
+                    "therapyName": "Zoledronic acid",
+                    "synonyms": null
+                },
+                {
+                    "id": 2237,
+                    "therapyName": "Fludarabine + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02528357",
+            "title": "GSK3174998 Alone or With Pembrolizumab in Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5177,
+                    "therapyName": "GSK3174998",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02558140",
+            "title": "A Dose Escalation Study of RO6874813 in Participants With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4110,
+                    "therapyName": "RG7386",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02574728",
+            "title": "Sirolimus in Combination With Metronomic Chemotherapy in Children With Recurrent and/or Refractory Solid and CNS Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3143,
+                    "therapyName": "Celecoxib + Cyclophosphamide + Etoposide + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02576431",
+            "title": "A Study to Test the Effect of the Drug Larotrectinib in Adults and Children With NTRK-fusion Positive Solid Tumors (NAVIGATE)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02584309",
+            "title": "Doxorubicin With Upfront Dexrazoxane Plus Olaratumab for the Treatment of Advanced or Metastatic Soft Tissue Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5153,
+                    "therapyName": "Dexrazoxane",
+                    "synonyms": null
+                },
+                {
+                    "id": 4140,
+                    "therapyName": "Doxorubicin + Olaratumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02584647",
+            "title": "Combination of PLX3397 and Sirolimus in Unresectable Sarcoma (Phase 1) and Malignant Peripheral Nerve Sheath Tumors (Phase 2)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3155,
+                    "therapyName": "Pexidartinib + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02601209",
+            "title": "Sapanisertib or Pazopanib Hydrochloride in Treating Patients With Locally Advanced or Metastatic Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1282,
+                    "therapyName": "Sapanisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02628535",
+            "title": "Safety Study of MGD009 in B7-H3-expressing Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6631,
+                    "therapyName": "MGD009",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02632448",
+            "title": "A Study of LY2880070 in Participants With Advanced or Metastatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4420,
+                    "therapyName": "Gemcitabine + LY2880070",
+                    "synonyms": null
+                },
+                {
+                    "id": 4315,
+                    "therapyName": "LY2880070",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02636725",
+            "title": "Axitinib and Pembrolizumab in Subjects With Advanced Alveolar Soft Part Sarcoma and Other Soft Tissue Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2494,
+                    "therapyName": "Axitinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639546",
+            "title": "Safety and Pharmacokinetics of Cobimetinib in Pediatric and Young Adult Participants With Previously Treated Solid Tumors (iMATRIXcobi)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1004,
+                    "therapyName": "Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02640508",
+            "title": "Eribulin and Lenvatinib in Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3352,
+                    "therapyName": "Eribulin + Lenvatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02643303",
+            "title": "A Phase 1/2 Study of In Situ Vaccination With Tremelimumab and IV Durvalumab Plus PolyICLC in Subjects With Advanced, Measurable, Biopsy-accessible Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3385,
+                    "therapyName": "Durvalumab + Poly ICLC",
+                    "synonyms": null
+                },
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02659020",
+            "title": "A Study of Olaratumab (LY3012207) in Participants With Advanced Soft Tissue Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3269,
+                    "therapyName": "Olaratumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1439,
+                    "therapyName": "Docetaxel + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02783599",
+            "title": "A Study of Olaratumab (LY3012207) in Participants With Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4140,
+                    "therapyName": "Doxorubicin + Olaratumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02784795",
+            "title": "A Study of LY3039478 in Participants With Advanced or Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4374,
+                    "therapyName": "Cisplatin + Gemcitabine + LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 4375,
+                    "therapyName": "Carboplatin + Gemcitabine + LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 4372,
+                    "therapyName": "LY3023414 + LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 4373,
+                    "therapyName": "Abemaciclib + LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 4371,
+                    "therapyName": "LY3039478 + Taladegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2958,
+                    "therapyName": "LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02789228",
+            "title": "Research Study Utilizing Expanded Multi-antigen Specific Lymphocytes for the Treatment of Solid Tumors (REST)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02795819",
+            "title": "Study of the Pan-DAC Inhibitor AR-42 and Pazopanib in Advanced Sarcoma and Kidney Cancer",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 4267,
+                    "therapyName": "AR-42 + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02815995",
+            "title": "Multi-Arm Study to Test the Efficacy of Immunotherapeutic Agents in Multiple Sarcoma Subtypes",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02839694",
+            "title": "Adjuvant Oral Decitabine and Tetrahydrouridine With or Without Celecoxib in People Undergoing Pulmonary Metastasectomy",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3567,
+                    "therapyName": "Decitabine + Tetrahydrouridine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4592,
+                    "therapyName": "Celecoxib + Decitabine + Tetrahydrouridine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867592",
+            "title": "Cabozantinib-S-Malate in Treating Younger Patients With Recurrent, Refractory, or Newly Diagnosed Sarcomas, Wilms Tumor, or Other Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02879162",
+            "title": "Durvalumab and Tremelimumab in Patients With Advanced Rare Tumours",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02888665",
+            "title": "Pembrolizumab and Doxorubicin Hydrochloride in Treating Patients With Sarcoma That is Metastatic or Cannot Be Removed by Surgery",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4690,
+                    "therapyName": "Doxorubicin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890758",
+            "title": "Phase I Trial of Universal Donor NK Cell Therapy in Combination With ALT803",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02900651",
+            "title": "Safety and Efficacy of MAK683 in Adult Patients With Advanced Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9055,
+                    "therapyName": "MAK683",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02987959",
+            "title": "Study of TAK-228 (MLN0128) in Soft Tissue Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1282,
+                    "therapyName": "Sapanisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03009201",
+            "title": "Ribociclib and Doxorubicin Hydrochloride in Treating Patients Metastatic or Advanced Soft Tissue Sarcomas That Cannot Be Removed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5179,
+                    "therapyName": "Doxorubicin + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03042819",
+            "title": "Study of Selinexor and Doxorubicin in Advanced Soft Tissue Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5286,
+                    "therapyName": "Doxorubicin + Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03056001",
+            "title": "Safety, Tolerability, and Efficacy of Doxorubicin and Pembrolizumab for Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4690,
+                    "therapyName": "Doxorubicin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03056599",
+            "title": "Precise Local Injection of Anti-cancer Drugs Using Presage's CIVO\u2122 Device in Soft Tissue Sarcoma",
+            "phase": null,
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1299,
+                    "therapyName": "Interferon alpha-2b",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 728,
+                    "therapyName": "Eribulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1733,
+                    "therapyName": "interferon gamma",
+                    "synonyms": null
+                },
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3420,
+                    "therapyName": "Trabectedin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03069378",
+            "title": "A Study of Talimogene Laherparepvec (T-VEC) in Combination With Pembrolizumab in Patients With Metastatic and/or Locally Advanced Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4035,
+                    "therapyName": "Pembrolizumab + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03076372",
+            "title": "A Study Evaluating MM-310 in Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 5758,
+                    "therapyName": "MM-310",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03092323",
+            "title": "A Randomized Trial of Pembrolizumab & Radiotherapy Versus Radiotherapy in High-Risk Soft Tissue Sarcoma of the Extremity (SU2C-SARC032)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03126591",
+            "title": "A Study of Olaratumab (LY3012207) Plus Pembrolizumab in Participants With Advanced or Metastatic Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5715,
+                    "therapyName": "Olaratumab + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03138161",
+            "title": "Trabectedin, Ipilimumab and Nivolumab as First Line Treatment for Advanced Soft Tissue Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5800,
+                    "therapyName": "Ipilimumab + Nivolumab + Trabectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03139331",
+            "title": "PAZIT Study for Children and Young Adults With Relapsed or Refractory Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5635,
+                    "therapyName": "Irinotecan + Pazopanib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03149120",
+            "title": "Study of Nivolumab With or Without Pazopanib in Metastatic or Unresectable Soft Tissue Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5681,
+                    "therapyName": "Nivolumab + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03155620",
+            "title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                },
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 961,
+                    "therapyName": "Ensartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03168061",
+            "title": "Dose-Escalation and Expansion Trial of NC-6300 in Patients With Advanced Solid Tumors or Soft Tissue Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7357,
+                    "therapyName": "NC-6300",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03210714",
+            "title": "Erdafitinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With FGFR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213704",
+            "title": "Larotrectinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With NTRK Fusions (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03217266",
+            "title": "MDM2 Inhibitor AMG-232 and Radiation Therapy in Treating Patients With Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1452,
+                    "therapyName": "KRT-232",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03283696",
+            "title": "A Study of Olaratumab (LY3012207), Doxorubicin, and Ifosfamide in Participants With Advanced or Metastatic Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 6292,
+                    "therapyName": "Doxorubicin + Ifosfamide + Mesna + Olaratumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03307616",
+            "title": "Study of Neoadjuvant Checkpoint Blockade in Patients With Surgically Resectable Undifferentiated Pleomorphic Sarcoma and Dedifferentiated Liposarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03338959",
+            "title": "Pembrolizumab and Radiation Therapy in Treating Patients With Intermediate or High-Grade Soft Tissue Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03365791",
+            "title": "PDR001 Plus LAG525 for Patients With Advanced Solid and Hematologic Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2887,
+                    "therapyName": "LAG525",
+                    "synonyms": null
+                },
+                {
+                    "id": 2659,
+                    "therapyName": "Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03397186",
+            "title": "Immune Changes Following Trabectedin in Patients With Metastatic or Unresectable Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3420,
+                    "therapyName": "Trabectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03414229",
+            "title": "A Study of Epacadostat, an IDO1 Inhibitor, in Combination With Pembrolizumab in Patients With Metastatic and/or Locally Advanced Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4088,
+                    "therapyName": "Epacadostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03435640",
+            "title": "A Study of NKTR-262 in Combination With NKTR-214 and With NKTR-214 Plus Nivolumab in Patients With Locally Advanced or Metastatic Solid Tumor Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6790,
+                    "therapyName": "NKTR-214 + NKTR-262",
+                    "synonyms": null
+                },
+                {
+                    "id": 6791,
+                    "therapyName": "Nivolumab + NKTR-214 + NKTR-262",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03441360",
+            "title": "Study to Assess Safety and Preliminary Activity of Eribulin Mesylate in Pediatric Subjects With Relapsed/Refractory Rhabdomyosarcoma (RMS), Non-rhabdomyosarcoma Soft Tissue Sarcoma (NRSTS) and Ewing Sarcoma (EWS)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 728,
+                    "therapyName": "Eribulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03449108",
+            "title": "Iovance Alliance: LN-145 Across Multiple Tumor Types",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6778,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Interleukin-12 + LN-145 + Mesna",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03449381",
+            "title": "This Study Aims to Find the Best Dose of BI 907828 in Patients With Different Types of Advanced Cancer (Solid Tumors)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8523,
+                    "therapyName": "BI 907828",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03454451",
+            "title": "CPI-006 Alone and in Combination With CPI-444 and With Pembrolizumab for Patients With Advanced Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6755,
+                    "therapyName": "CPI-006",
+                    "synonyms": null
+                },
+                {
+                    "id": 6757,
+                    "therapyName": "CPI-006 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6756,
+                    "therapyName": "CPI-006 + CPI-444",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03463408",
+            "title": "Immunotherapy + Radiation in Resectable Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03465592",
+            "title": "Trial of Nivolumab Following Partially HLA Mismatched BMT in Children & Adults With Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03474640",
+            "title": "Safety, Tolerability and Pharmacokinetics of an Anti-PD-1 Monoclonal Antibody in Subjects With Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5891,
+                    "therapyName": "Toripalimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03478462",
+            "title": "Dose Escalation Study of CLR 131 in Children and Adolescents With Relapsed or Refractory Malignant Brain Cancer, Neuroblastoma, Rhabdomyosarcoma, Ewings Sarcoma, and Osteosarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7331,
+                    "therapyName": "CLR 131",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03504488",
+            "title": "CAB-ROR2-ADC Safety and Efficacy Study in Patients With Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6906,
+                    "therapyName": "BA3021",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03660930",
+            "title": "Nanoparticle Albumin-Bound Rapamycin and Pazopanib Hydrochloride in Patients With Nonadipocytic Soft Tissue Sarcomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7482,
+                    "therapyName": "Nab-Rapamycin + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03670069",
+            "title": "Itacitinib in Treating Participants With Refractory Metastatic/Advanced Soft Tissue Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 2406,
+                    "therapyName": "Itacitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03700294",
+            "title": "Safety, Tolerability, Pharmacokinetics, and Antitumor Study of ADCT-601 to Treat Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 7566,
+                    "therapyName": "ADCT-601",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03715933",
+            "title": "Phase 1 Study of INBRX-109 in Subjects With Locally Advanced or Metastatic Solid Tumors Including Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7571,
+                    "therapyName": "INBRX-109",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03719430",
+            "title": "APX005M, Doxorubicin, Olaratumab in Advanced Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7428,
+                    "therapyName": "APX005M + Doxorubicin + Olaratumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03727789",
+            "title": "CBL0137 in Treating Patients With Advanced Extremity Melanoma or Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3940,
+                    "therapyName": "CBL0137",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03778996",
+            "title": "SM-88 as Maintenance Therapy for Advanced Ewing's Sarcoma Patients and as Salvage Therapy for Sarcoma Patients (HopES)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8757,
+                    "therapyName": "Methoxsalen + Phenytoin + Sirolimus + SM88",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03880123",
+            "title": "Selinexor in Combination With Ixazomib for the Treatment of Advanced Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8089,
+                    "therapyName": "Ixazomib + Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03886311",
+            "title": "Talimogene Laherparepvec, Nivolumab and Trabectedin for Sarcoma (TNT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8111,
+                    "therapyName": "Nivolumab + Talimogene laherparepvec + Trabectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03899805",
+            "title": "A Phase II Study of Eribulin and Pembrolizumab in Soft Tissue Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3080,
+                    "therapyName": "Eribulin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03994627",
+            "title": "Olaratumab (LY3012207) Patient Access for Soft Tissue Sarcoma",
+            "phase": "Expanded access",
+            "recruitment": "Available",
+            "therapies": [
+                {
+                    "id": 3269,
+                    "therapyName": "Olaratumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03997968",
+            "title": "A Phase 1/2 Study of CYT-0851, an Oral RAD51 Inhibitor, in B-Cell Malignancies and Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8486,
+                    "therapyName": "CYT01B",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04028063",
+            "title": "Doxorubicin Plus Dual Checkpoint Blockade for Soft Tissue Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9314,
+                    "therapyName": "AGEN1884 + AGEN2034 + Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04040205",
+            "title": "Abemaciclib for Treatment of Advanced Bone and Soft Tissue Sarcoma Identified as Having CDK Pathway Alteration",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04076579",
+            "title": "Trabectedin in Combination With Olaparib in Advanced Unresectable or Metastatic Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7458,
+                    "therapyName": "Olaparib + Trabectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04095221",
+            "title": "A Study of the Drugs Prexasertib, Irinotecan, and Temozolomide in People With Desmoplastic Small Round Cell Tumor and Rhabdomyosarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8753,
+                    "therapyName": "Irinotecan + Prexasertib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04118166",
+            "title": "Ipilimumab +Nivolumab + Cryotherapy in Metastatic or Locally Advanced Soft Tissue Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04140526",
+            "title": "Safety, PK and Efficacy of ONC-392 in Monotherapy and in Combination of Anti-PD-1 in Advanced Solid Tumors and NSCLC",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8898,
+                    "therapyName": "ONC-392",
+                    "synonyms": null
+                },
+                {
+                    "id": 8899,
+                    "therapyName": "ONC-392 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04145349",
+            "title": "CAMFIRE: A Study of Ramucirumab (LY3009806) in Children and Young Adults With Desmoplastic Small Round Cell Tumor",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8889,
+                    "therapyName": "Cyclophosphamide + Vinorelbine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8890,
+                    "therapyName": "Cyclophosphamide + Ramucirumab + Vinorelbine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04145622",
+            "title": "Study of DS-7300a in Participants With Advanced Solid Malignant Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9154,
+                    "therapyName": "DS-7300a",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04165330",
+            "title": "Evaluation of AL3818 in Combination With Nivolumab in Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8958,
+                    "therapyName": "Anlotinib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04199026",
+            "title": "Implantable Microdevice for the Delivery of Drugs and Their Effect on Tumors in Patients With Metastatic or Recurrent Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1441,
+                    "therapyName": "Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 746,
+                    "therapyName": "Ganitumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04200443",
+            "title": "Cabozantinib and Temozolomide for the Treatment of Unresectable or Metastatic Leiomyosarcoma or Other Soft Tissue Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9094,
+                    "therapyName": "Cabozantinib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04204941",
+            "title": "Tazemetostat in Combination With Doxorubicin as Frontline Therapy for Advanced Epithelioid Sarcoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 9099,
+                    "therapyName": "Doxorubicin + Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04220229",
+            "title": "Cabozantinib With Radiation Therapy for the Treatment of Sarcomas of the Extremities",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04242238",
+            "title": "Study of DCC-3014 in Combination With Avelumab in Patients With Advanced or Metastatic Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9289,
+                    "therapyName": "Avelumab + DCC-3014",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04260802",
+            "title": "A Study to Evaluate the Safety and Pharmacokinetics of OC-001 in Patients With Locally Advanced or Metastatic Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9335,
+                    "therapyName": "OC-001 + unspecified PD-L1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9334,
+                    "therapyName": "OC-001 + unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9333,
+                    "therapyName": "OC-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04273061",
+            "title": "Investigating the Effects of Atezolizumab in People Whose Tumour DNA or RNA Indicates Possible Sensitivity (CAPTIV-8)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

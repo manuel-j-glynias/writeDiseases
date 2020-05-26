@@ -1,0 +1,48 @@
+{
+    "id": 50804,
+    "name": "glioblastoma proneural subtype",
+    "source": "DOID",
+    "definition": "A glioblastoma multiforme that is characterized by IDH1 and p53 mutations and Platelet Derived Growth Factor A amplification. [url:http\\://cancergenome.nih.gov/researchhighlights/researchbriefs/foursubtypes, url:https\\://www.ncbi.nlm.nih.gov/pubmed/20129251, url:https\\://www.ncbi.nlm.nih.gov/pubmed/23029035]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050804",
+    "evidence": [
+        {
+            "id": 7044,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Adavosertib (MK-1775) induced apoptosis of mouse proneural glioblastoma cells lacking TP53 and PTEN and over expressing PDGFB in cell culture (PMID: 27196784).",
+            "molecularProfile": {
+                "id": 24369,
+                "profileName": "PDGFB over exp PTEN del TP53 del"
+            },
+            "therapy": {
+                "id": 822,
+                "therapyName": "Adavosertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50804,
+                "name": "glioblastoma proneural subtype",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6050,
+                    "pubMedId": 27196784,
+                    "title": "Quantitative Phosphoproteomics Reveals Wee1 Kinase as a Therapeutic Target in a Model of Proneural Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196784"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

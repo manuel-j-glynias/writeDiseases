@@ -1,0 +1,316 @@
+{
+    "id": 3996,
+    "name": "urinary system cancer",
+    "source": "DOID",
+    "definition": "An organ system cancer that is located_in the kidneys, ureteres, bladder or urethra. [url:http\\://en.wikipedia.org/wiki/Urinary_system]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3996",
+    "evidence": [
+        {
+            "id": 10011,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 decreased Myc expression and inhibited growth of a urinary tract cancer cell line harboring FGFR3 S249C in culture and in xenograft models (PMID: 27401245).",
+            "molecularProfile": {
+                "id": 1736,
+                "profileName": "FGFR3 S249C"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3996,
+                "name": "urinary system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7899,
+                    "pubMedId": 27401245,
+                    "title": "c-Myc Alteration Determines the Therapeutic Response to FGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401245"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10012,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 decreased Myc expression, induced cell cycle arrest, and inhibited growth of a urinary tract cancer cell line harboring FGFR3 amplification in culture (PMID: 27401245).",
+            "molecularProfile": {
+                "id": 3329,
+                "profileName": "FGFR3 amp"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3996,
+                "name": "urinary system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7899,
+                    "pubMedId": 27401245,
+                    "title": "c-Myc Alteration Determines the Therapeutic Response to FGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401245"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10026,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGJ398 decreased Myc expression, induced cell cycle arrest, and inhibited growth of a urinary tract cancer cell line harboring FGFR3 amplification in culture (PMID: 27401245).",
+            "molecularProfile": {
+                "id": 3329,
+                "profileName": "FGFR3 amp"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3996,
+                "name": "urinary system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7899,
+                    "pubMedId": 27401245,
+                    "title": "c-Myc Alteration Determines the Therapeutic Response to FGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401245"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10027,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGJ398 decreased Myc expression, induced cell cycle arrest, and inhibited growth of a urinary tract cancer cell line harboring FGFR3 S249C in culture (PMID: 27401245).",
+            "molecularProfile": {
+                "id": 1736,
+                "profileName": "FGFR3 S249C"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3996,
+                "name": "urinary system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7899,
+                    "pubMedId": 27401245,
+                    "title": "c-Myc Alteration Determines the Therapeutic Response to FGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401245"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01182168",
+            "title": "Gemcitabine and Split-Dose Cisplatin Plus Everolimus (RAD001) in Patients With Advanced Solid Tumor Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2296,
+                    "therapyName": "Cisplatin + Everolimus + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01848756",
+            "title": "Safety and Efficacy of SNX-5422 in Human Epidermal Growth Factor Receptor 2 (HER2) Positive Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 866,
+                    "therapyName": "SNX-5422",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02192541",
+            "title": "Ganetespib and Ziv-Aflibercept in Refractory Gastrointestinal Carcinomas, Non-Squamous Non-Small Cell Lung Carcinomas, Urothelial Carcinomas, and Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1665,
+                    "therapyName": "Aflibercept + Ganetespib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02365597",
+            "title": "An Efficacy and Safety Study of JNJ-42756493 in Participants With Urothelial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02675829",
+            "title": "Trial of Ado-Trastuzumab Emtansine for Patients With HER2 Amplified or Mutant Cancers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1402,
+                    "therapyName": "Ado-trastuzumab emtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02928406",
+            "title": "A Study of Atezolizumab in Locally Advanced or Metastatic Urothelial or Non-Urothelial Carcinoma of the Urinary Tract",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03065387",
+            "title": "Study of the Pan-ERBB InhibStudy of the Pan-ERBB Inhibitor Neratinib Given in Combination With Everolimus, Palbociclib or Trametinib in Advanced Cancer Subjects With EGFR Mutation/Amplification, HER2 Mutation/Amplification, HER3/4 Mutation or KRAS Mutation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5401,
+                    "therapyName": "Everolimus + Neratinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5402,
+                    "therapyName": "Neratinib + Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5403,
+                    "therapyName": "Neratinib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03084471",
+            "title": "An Open-Label, Multi-Centre, Study to Assess the Safety of Fixed-Dose Durvalumab + Tremelimumab Combination Therapy or Durvalumab Monotherapy in Advanced Solid Malignancies. (STRONG)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03333616",
+            "title": "Nivolumab Combined With Ipilimumab for Patients With Advanced Rare Genitourinary Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03412877",
+            "title": "Administration of Autologous T-Cells Genetically Engineered to Express T-Cell Receptors Reactive Against Mutated Neoantigens in People With Metastatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9195,
+                    "therapyName": "Aldesleukin + Cyclophosphamide + Fludarabine + iTCR-transduced PBL",
+                    "synonyms": null
+                },
+                {
+                    "id": 9196,
+                    "therapyName": "Aldesleukin + Cyclophosphamide + Fludarabine + iTCR-transduced PBL + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04235777",
+            "title": "TGF-beta Trap (M7824) and NHS-IL12 (M9241) Alone and in Combination With Stereotactic Body Radiation Therapy (SBRT) in Adults With Metastatic Non-Prostate Genitourinary Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9272,
+                    "therapyName": "M7824 + NHS-IL12",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04273061",
+            "title": "Investigating the Effects of Atezolizumab in People Whose Tumour DNA or RNA Indicates Possible Sensitivity (CAPTIV-8)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

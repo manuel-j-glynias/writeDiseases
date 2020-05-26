@@ -1,0 +1,1096 @@
+{
+    "id": 3382,
+    "name": "liposarcoma",
+    "source": "DOID",
+    "definition": "A lipomatous cancer that arises in fat cells in deep soft tissue retroperitoneum and the extremities. [url:http\\://en.wikipedia.org/wiki/Liposarcoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3382",
+    "evidence": [
+        {
+            "id": 2287,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Ibrance (palbociclib) improved median progression free survival of liposarcoma patients with CDK4 amplification (PMID: 23569315).",
+            "molecularProfile": {
+                "id": 1422,
+                "profileName": "CDK4 amp"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2967,
+                    "pubMedId": 23569315,
+                    "title": "Multicenter phase II study of neoadjuvant lapatinib and trastuzumab with hormonal therapy and without chemotherapy in patients with human epidermal growth factor receptor 2-overexpressing breast cancer: TBCRC 006.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23569315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 2289,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alvocidib (flavopiridol) in combination with Adriamycin (doxorubicin) inhibited tumor growth in liposarcoma cell line xenograft models with CDK4 amplification (PMID: 22374332).",
+            "molecularProfile": {
+                "id": 1422,
+                "profileName": "CDK4 amp"
+            },
+            "therapy": {
+                "id": 4646,
+                "therapyName": "Alvocidib + Doxorubicin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2892,
+                    "pubMedId": 22374332,
+                    "title": "The cyclin-dependent kinase inhibitor flavopiridol potentiates doxorubicin efficacy in advanced sarcomas: preclinical investigations and results of a phase I dose-escalation clinical trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22374332"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2290,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Kisqali (ribociclib) reduced tumor growth of a xenograft model of liposarcoma with CDK4 amplification (PMID: 24045179).",
+            "molecularProfile": {
+                "id": 1422,
+                "profileName": "CDK4 amp"
+            },
+            "therapy": {
+                "id": 790,
+                "therapyName": "Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 828,
+                    "pubMedId": 24045179,
+                    "title": "Dual CDK4/CDK6 inhibition induces cell-cycle arrest and senescence in neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24045179"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3955,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MGCD516 blocked cell proliferation of a human liposarcoma cell line in culture and repressed tumor growth in xenograft models (PMID: 26675259).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1655,
+                "therapyName": "MGCD516",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4311,
+                    "pubMedId": 26675259,
+                    "title": "Significant blockade of multiple receptor tyrosine kinases by MGCD516 (Sitravatinib), a novel small molecule inhibitor, shows potent anti-tumor activity in preclinical models of sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26675259"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4110,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, a trial arm assessing Sprycel (dasatinib) in liposarcoma patients (n=11) was suspended due to lack of drug activity (PMID: 26710211).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4408,
+                    "pubMedId": 26710211,
+                    "title": "SARC009: Phase 2 study of dasatinib in patients with previously treated, high-grade, advanced sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26710211"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5541,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective study, Votrient (pazopanib) treatment resulted in median progression free survival of 8 weeks and median survival of 7.3 months in patients with liposarcoma (PMID: 26970174).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 848,
+                "therapyName": "Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5088,
+                    "pubMedId": 26970174,
+                    "title": "The clinical outcome of pazopanib treatment in Japanese patients with relapsed soft tissue sarcoma: A Japanese Musculoskeletal Oncology Group (JMOG) study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26970174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7202,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGJ398 inhibited proliferation of FRS2 amplified liposarcoma cells in culture (PMID: 23393200).",
+            "molecularProfile": {
+                "id": 14343,
+                "profileName": "FRS2 amp"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3965,
+                    "pubMedId": 23393200,
+                    "title": "Amplification of FRS2 and activation of FGFR/FRS2 signaling pathway in high-grade liposarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23393200"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7203,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGJ398 inhibited proliferation liposarcoma cells with elevated FRS2 expression in culture (PMID: 23393200).",
+            "molecularProfile": {
+                "id": 24780,
+                "profileName": "FRS2 over exp"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3965,
+                    "pubMedId": 23393200,
+                    "title": "Amplification of FRS2 and activation of FGFR/FRS2 signaling pathway in high-grade liposarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23393200"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7299,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Anlotinib (AL-3818) treatment resulted a 12-week progression-free rate of 63%, median progression-free survival of 5.6 months, an objective response rate of 7.7% (n=13), and a median overall survival of 13 months in patients with liposarcoma (PMID: 29895706; NCT01878448).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 980,
+                "therapyName": "Anlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6303,
+                    "pubMedId": null,
+                    "title": "Phase II study of anlotinib for treatment of advanced soft tissues sarcomas.",
+                    "url": "http://meetinglibrary.asco.org/content/167465-176"
+                },
+                {
+                    "id": 14437,
+                    "pubMedId": 29895706,
+                    "title": "Safety and Efficacy of Anlotinib, a Multikinase Angiogenesis Inhibitor, in Patients with Refractory Metastatic Soft-Tissue Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29895706"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7544,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, treatment with Ibrance (palbociclib) resulted in an overall progression-free survival (PFS) of 57.2% at 12 weeks and median PFS of 17.9 weeks in patients with well-differentiated or dedifferentiated liposarcoma (PMID: 27124835).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6414,
+                    "pubMedId": 27124835,
+                    "title": "Progression-Free Survival Among Patients With Well-Differentiated or Dedifferentiated Liposarcoma Treated With CDK4 Inhibitor Palbociclib: A Phase 2 Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27124835"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8145,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, the combination of Alvocidib (flavopiridol) and Adriamycin (doxorubicin) resulted in a disease control rate of 67% (8/12) in patients with liposarcoma (PMID: 22374332).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4646,
+                "therapyName": "Alvocidib + Doxorubicin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2892,
+                    "pubMedId": 22374332,
+                    "title": "The cyclin-dependent kinase inhibitor flavopiridol potentiates doxorubicin efficacy in advanced sarcomas: preclinical investigations and results of a phase I dose-escalation clinical trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22374332"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8312,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Alisertib (MLN8237) treatment resulted in twelve-week progression free survival in 73% (9/12) of liposarcoma patients (PMID: 27502708).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 626,
+                "therapyName": "Alisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6602,
+                    "pubMedId": 27502708,
+                    "title": "Phase II study of MLN8237 (Alisertib) in advanced/metastatic sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27502708"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9025,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SAR405838 decreased viability and induced cell cycle arrest in MDM2-amplified dedifferentiated liposarcoma cell lines with wild-type TP53 in culture, and induced TP53 pathway activation and tumor regression in xenograft models (PMID: 26475335).",
+            "molecularProfile": {
+                "id": 2169,
+                "profileName": "MDM2 amp TP53 wild-type"
+            },
+            "therapy": {
+                "id": 2078,
+                "therapyName": "SAR405838",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6874,
+                    "pubMedId": 26475335,
+                    "title": "SAR405838: A Novel and Potent Inhibitor of the MDM2:p53 Axis for the Treatment of Dedifferentiated Liposarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26475335"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9987,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, DS-3032b demonstrated safety and some preliminary activity in patients with advanced solid tumors, and resulted in prolonged stable disease in 2 patients with MDM2-amplification, 1 with liposarcoma and 1 with carcinoid tumor ((J Clin Oncol 34, 2016 (suppl; abstr 2581)).",
+            "molecularProfile": {
+                "id": 1425,
+                "profileName": "MDM2 amp"
+            },
+            "therapy": {
+                "id": 2079,
+                "therapyName": "DS-3032b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7837,
+                    "pubMedId": null,
+                    "title": "A phase 1 study of the MDM2 inhibitor DS-3032b in patients (pts) with advanced solid tumors and lymphomas.",
+                    "url": "http://meetinglibrary.asco.org/content/166204-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10376,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Stivarga (regorafenib) treatment did not result in significant difference in median progression-free survival (1.1 vs 1.7 months) or overall survival (HR=1.57, p=0.21) compared to placebo in patients with liposarcoma (PMID: 27751846).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8403,
+                    "pubMedId": 27751846,
+                    "title": "Safety and efficacy of regorafenib in patients with advanced soft tissue sarcoma (REGOSARC): a randomised, double-blind, placebo-controlled, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27751846"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10720,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, MK-8242 demonstrated safety and some preliminary clinical activity in patients with advanced solid tumors, particularly those with TP53 wild-type liposarcoma (LPS), with an overall response rate (ORR) of 6.4% (3/41; all partial responses), all in patients with LPS (ORR in LPS 11.1% (3/27)), and a median progression-free survival in LPS of 237 days (PMID: 28240971).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 3153,
+                "therapyName": "MK-8242",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8785,
+                    "pubMedId": 28240971,
+                    "title": "Phase I Trial of the Human Double Minute 2 Inhibitor MK-8242 in Patients With Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28240971"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11083,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Keytruda (pembrolizumab) treatment resulted in partial response in 20% (2/10) of patients with dedifferentiated liposarcoma (J Clin Oncol 35, 2017 (suppl; abstr 11008)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9070,
+                    "pubMedId": null,
+                    "title": "Multicenter phase II study of pembrolizumab (P) in advanced soft tissue (STS) and bone sarcomas (BS): Final results of SARC028 and biomarker analyses.",
+                    "url": "http://meetinglibrary.asco.org/record/145286/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11089,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, ALRN-6924 treatment resulted in a partial response in a patient with liposarcoma (J Clin Oncol 35, 2017 (suppl; abstr 2505)).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 2273,
+                "therapyName": "ALRN-6924",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9071,
+                    "pubMedId": null,
+                    "title": "Phase I trial of a novel stapled peptide ALRN-6924 disrupting MDMX- and MDM2-mediated inhibition of WT p53 in patients with solid tumors and lymphomas",
+                    "url": "http://abstracts.asco.org/199/AbstView_199_187803.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11762,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selinexor (KPT-330) decreased Birc5 (Survivin) expression and induced PARP and caspase-3 cleavage, reduced viability of liposarcoma cell lines in culture, and inhibited tumor growth in xenograft models (PMID: 28314790).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1749,
+                "therapyName": "Selinexor",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9766,
+                    "pubMedId": 28314790,
+                    "title": "Selinexor (KPT-330) Induces Tumor Suppression through Nuclear Sequestration of I\u03baB and Downregulation of Survivin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28314790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11763,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Selinexor (KPT-330) and Kyprolis (carfilzomib) resulted in enhanced induction of apoptotic markers compared to Selinexor (KPT-330) alone, and worked additively decrease viability of a liposarcoma cell line in culture (PMID: 28314790).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5286,
+                "therapyName": "Doxorubicin + Selinexor",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9766,
+                    "pubMedId": 28314790,
+                    "title": "Selinexor (KPT-330) Induces Tumor Suppression through Nuclear Sequestration of I\u03baB and Downregulation of Survivin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28314790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12693,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval, Yondelis (trabectedin) treatment resulted in an improved median progression-free survival of 4.2 months versus 1.5 months with Deticene (dacarbazine) in patients with unresectable or metastatic liposarcoma or leiomyosarcoma (PMID: 28774898; NCT01343277).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3420,
+                "therapyName": "Trabectedin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10606,
+                    "pubMedId": 28774898,
+                    "title": "FDA Approval Summary: Trabectedin for Unresectable or Metastatic Liposarcoma or Leiomyosarcoma Following an Anthracycline-Containing Regimen.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28774898"
+                },
+                {
+                    "id": 15653,
+                    "pubMedId": null,
+                    "title": "Yondelis (trabectedin) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207953"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13986,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GDC-0575 and Gemzar (gemcitabine) synergistically induced apoptosis and cell cycle arrest in liposarcoma cells harboring MDM2 amplification in culture, and inhibited tumor growth, prolonged progression-free survival in cell line xenogrft models (PMID: 29409053).",
+            "molecularProfile": {
+                "id": 1425,
+                "profileName": "MDM2 amp"
+            },
+            "therapy": {
+                "id": 2113,
+                "therapyName": "GDC-0575 + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11402,
+                    "pubMedId": 29409053,
+                    "title": "CHK1 inhibition in soft-tissue sarcomas: biological and clinical implications.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29409053"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15430,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Tasigna (nilotinib) in combination with doxorubicin resulted in 1 partial response and 3 stable disease in 4 patients with liposarcoma, consistent with synergistic growth inhibition in liposarcoma cells in culture (PMID: 30037815; NCT02587169).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7616,
+                "therapyName": "Doxorubicin + Nilotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 13269,
+                    "pubMedId": 30037815,
+                    "title": "Nilotinib as Coadjuvant Treatment with Doxorubicin in Patients with Sarcomas: A Phase I Trial of the Spanish Group for Research on Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30037815"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16860,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with an unspecified MDM2 inhibitor resulted in clinical efficacy in six patients with liposarcoma harboring MDM2 amplification, including three patients with a partial response and two patients with stable disease for 15.7 months and 4.7 months (PMID: 30237864).",
+            "molecularProfile": {
+                "id": 1425,
+                "profileName": "MDM2 amp"
+            },
+            "therapy": {
+                "id": 8207,
+                "therapyName": "unspecified MDM2 inhibitor",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12778,
+                    "pubMedId": 30237864,
+                    "title": "Prevalence of MDM2 amplification and coalterations in 523 advanced cancer patients in the MD Anderson phase 1 clinic.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30237864"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18035,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial,  KRT-232 (AMG 232) demonstrated acceptable safety, and resulted in stable disease in 100% (10/10) of patients with TP53 wild-type well-differentiated liposarcomas (WDLPS) and 70% (7/10) of patients with TP53 wild-type de-differentiated liposarcomas, with median duration of 3.9 and 2.0 months respectively, and one patient with WDLPS achieved unconfirmed partial response per central evaluation (PMID: 31359240; NCT01723020).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 1452,
+                "therapyName": "KRT-232",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3382,
+                "name": "liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15968,
+                    "pubMedId": 31359240,
+                    "title": "Phase 1 study of the MDM2 inhibitor AMG 232 in patients with advanced P53 wild-type solid tumors or multiple myeloma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31359240"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00356031",
+            "title": "Bevacizumab and Radiation Therapy for Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02048371",
+            "title": "A Blanket Protocol to Study Oral Regorafenib in Patients With Refractory Liposarcoma, Osteogenic Sarcoma, and Ewing/Ewing-like Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02210104",
+            "title": "Adoptive Therapy Using Antigen-Specific CD4 T-Cells",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02301039",
+            "title": "A Phase II Study of the Anti-PD1 Antibody Pembrolizumab (MK-3475) in Patients With Advanced Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02343172",
+            "title": "Study of Safety and Efficacy of HDM201 in Combination With LEE011 in Patients With Liposarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2481,
+                    "therapyName": "HDM201 + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02357810",
+            "title": "Pazopanib Hydrochloride and Topotecan Hydrochloride in Treating Patients With Metastatic Soft Tissue and Bone Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1469,
+                    "therapyName": "Pazopanib + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02606461",
+            "title": "KCP-330-020 SEAL (Selinexor in Advanced Liposarcoma) (SEAL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02846987",
+            "title": "Study of Abemaciclib in Dedifferentiated Liposarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02923778",
+            "title": "Talimogene Laherparepvec and Radiation Therapy in Treating Patients With Newly Diagnosed Soft Tissue Sarcoma That Can Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2695,
+                    "therapyName": "Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978859",
+            "title": "MGCD516 in Advanced Liposarcoma and Other Soft Tissue Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1655,
+                    "therapyName": "MGCD516",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03009201",
+            "title": "Ribociclib and Doxorubicin Hydrochloride in Treating Patients Metastatic or Advanced Soft Tissue Sarcomas That Cannot Be Removed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5179,
+                    "therapyName": "Doxorubicin + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074318",
+            "title": "Avelumab and Trabectedin in Treating Patients With Liposarcoma or Leiomyosarcoma That is Metastatic or Cannot Be Removed by Surgery",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5444,
+                    "therapyName": "Avelumab + Trabectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03114527",
+            "title": "Phase II Trial of Ribociclib and Everolimus in Advanced Dedifferentiated Liposarcoma (DDL) and Leiomyosarcoma (LMS)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5073,
+                    "therapyName": "Everolimus + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03190174",
+            "title": "Nivolumab (Opdivo) Plus ABI-009 (Nab-rapamycin) for Advanced Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5931,
+                    "therapyName": "Nab-Rapamycin + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03307616",
+            "title": "Study of Neoadjuvant Checkpoint Blockade in Patients With Surgically Resectable Undifferentiated Pleomorphic Sarcoma and Dedifferentiated Liposarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03719430",
+            "title": "APX005M, Doxorubicin, Olaratumab in Advanced Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7428,
+                    "therapyName": "APX005M + Doxorubicin + Olaratumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03880123",
+            "title": "Selinexor in Combination With Ixazomib for the Treatment of Advanced Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8089,
+                    "therapyName": "Ixazomib + Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03899805",
+            "title": "A Phase II Study of Eribulin and Pembrolizumab in Soft Tissue Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3080,
+                    "therapyName": "Eribulin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03964233",
+            "title": "A Study in Patients With Different Types of Advanced Cancer (Solid Tumors) to Test Different Doses of BI 907828 in Combination With BI 754091 and 754111",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5806,
+                    "therapyName": "BI 754091 + BI 754111",
+                    "synonyms": null
+                },
+                {
+                    "id": 8524,
+                    "therapyName": "BI 754091 + BI 754111 + BI 907828",
+                    "synonyms": null
+                },
+                {
+                    "id": 8525,
+                    "therapyName": "BI 754091 + BI 907828",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04076579",
+            "title": "Trabectedin in Combination With Olaparib in Advanced Unresectable or Metastatic Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7458,
+                    "therapyName": "Olaparib + Trabectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04242238",
+            "title": "Study of DCC-3014 in Combination With Avelumab in Patients With Advanced or Metastatic Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9289,
+                    "therapyName": "Avelumab + DCC-3014",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

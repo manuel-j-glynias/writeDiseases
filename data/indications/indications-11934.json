@@ -1,0 +1,1401 @@
+{
+    "id": 11934,
+    "name": "head and neck cancer",
+    "source": "DOID",
+    "definition": "An organ system cancer that arises in the head or neck region. This region includes the nasal cavity, sinuses, lips, mouth, salivary glands, throat, or larynx. [url:http\\://apps.who.int/bookorders/anglais/detart1.jsp?sesslan=1&codlan=1&codcol=70&codcch=9, url:http\\://en.wikipedia.org/wiki/Head_and_neck_cancer, url:http\\://www.cancer.gov/cancertopics/factsheet/Sites-Types/head-and-neck, url:http\\://www.cancer.gov/dictionary?CdrID=257519, url:http\\://www.iarc.fr/en/publications/pdfs-online/pat-gen/bb9/index.php]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:11934",
+    "evidence": [
+        {
+            "id": 3977,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ReACp53 induced cell death and decreased proliferation of head and neck carcinoma cells harboring TP53 R175H in culture (PMID: 26748848).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 3406,
+                "therapyName": "ReACp53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4309,
+                    "pubMedId": 26748848,
+                    "title": "A Designed Inhibitor of p53 Aggregation Rescues p53 Tumor Suppression in Ovarian Carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748848"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5305,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGB-324 reverted acquired Tarceva (erlotinib)-resistance in head and neck cancer cell lines over expressing Axl and inhibited cell growth in culture (PMID: 24026012).",
+            "molecularProfile": {
+                "id": 2905,
+                "profileName": "AXL over exp"
+            },
+            "therapy": {
+                "id": 2684,
+                "therapyName": "BGB-324 + Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5001,
+                    "pubMedId": 24026012,
+                    "title": "Axl mediates acquired resistance of head and neck cancer cells to the epidermal growth factor receptor inhibitor erlotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24026012"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5321,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Dalantercept (ACE-041) to Platinol (cisplatin) treatment resulted in increased cytoxicity and decreased tumor growth in cell line xenograft models of head and neck cancer (PMID: 26373572).",
+            "molecularProfile": {
+                "id": 391,
+                "profileName": "ALK wild-type"
+            },
+            "therapy": {
+                "id": 3834,
+                "therapyName": "Cisplatin + Dalantercept",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5020,
+                    "pubMedId": 26373572,
+                    "title": "Activin Receptor-like Kinase 1 Ligand Trap Reduces Microvascular Density and Improves Chemotherapy Efficiency to Various Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26373572"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7776,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of two unspecified EGFR antibodies targeting nonoverlapping epitopes of Egfr resulted in Egfr degradation and inhibition of proliferation in Egfr amplified head and neck cancer cells that developed Erbitux (cetuximab) resistance in culture (PMID: 27196767).",
+            "molecularProfile": {
+                "id": 447,
+                "profileName": "EGFR amp"
+            },
+            "therapy": {
+                "id": 4575,
+                "therapyName": "unspecified EGFR antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6493,
+                    "pubMedId": 27196767,
+                    "title": "Cetuximab Resistance in Squamous Carcinomas of the Upper Aerodigestive Tract Is Driven by Receptor Tyrosine Kinase Plasticity: Potential for mAb Mixtures.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196767"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7779,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of an unspecified EGFR antibody and an unspecified Erbb3 (Her3) antibody resulted in inhibition of survival in Egfr amplified head and neck cancer cells that developed Erbitux (cetuximab) resistance in culture (PMID: 27196767).",
+            "molecularProfile": {
+                "id": 447,
+                "profileName": "EGFR amp"
+            },
+            "therapy": {
+                "id": 4579,
+                "therapyName": "unspecified EGFR antibody + unspecified ERBB3 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6493,
+                    "pubMedId": 27196767,
+                    "title": "Cetuximab Resistance in Squamous Carcinomas of the Upper Aerodigestive Tract Is Driven by Receptor Tyrosine Kinase Plasticity: Potential for mAb Mixtures.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196767"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7780,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of an unspecified EGFR antibody and an unspecified Igf-1r antibody resulted in growth inhibition in Egfr amplified head and neck cancer cells that developed Erbitux (cetuximab) resistance in culture (PMID: 27196767).",
+            "molecularProfile": {
+                "id": 447,
+                "profileName": "EGFR amp"
+            },
+            "therapy": {
+                "id": 4578,
+                "therapyName": "unspecified EGFR antibody + unspecified IGF-1R antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6493,
+                    "pubMedId": 27196767,
+                    "title": "Cetuximab Resistance in Squamous Carcinomas of the Upper Aerodigestive Tract Is Driven by Receptor Tyrosine Kinase Plasticity: Potential for mAb Mixtures.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196767"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7781,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of an unspecified EGFR antibody, an unspecified Erbb3 (Her3) antibody, and an unspecified Igf-1r antibody resulted in potent inhibition of survival in Egfr amplified head and neck cancer cells that developed Erbitux (cetuximab) resistance in culture (PMID: 27196767).",
+            "molecularProfile": {
+                "id": 447,
+                "profileName": "EGFR amp"
+            },
+            "therapy": {
+                "id": 4580,
+                "therapyName": "unspecified EGFR antibody + unspecified ERBB3 antibody + unspecified IGF-1R antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6493,
+                    "pubMedId": 27196767,
+                    "title": "Cetuximab Resistance in Squamous Carcinomas of the Upper Aerodigestive Tract Is Driven by Receptor Tyrosine Kinase Plasticity: Potential for mAb Mixtures.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196767"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9166,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Platinol (cisplatin)-resistant head and neck cancer cells over expressing NFE2L2 demonstrated sensitivity to DPP-23, resulting in apoptosis and inhibition of cell growth and colony formation in culture, and decreased tumor volume in xenograft models (PMID: 27550943).",
+            "molecularProfile": {
+                "id": 26761,
+                "profileName": "NFE2L2 over exp"
+            },
+            "therapy": {
+                "id": 4925,
+                "therapyName": "DPP-23",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6975,
+                    "pubMedId": 27550943,
+                    "title": "A Novel Polyphenol Conjugate Sensitizes Cisplatin-Resistant Head and Neck Cancer Cells to Cisplatin via Nrf2 Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27550943"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9167,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Platinol (cisplatin) and DPP-23 produced a synergistic effect and overcame resistance in Platinol (cisplatin)-resistant head and neck cancer cells over expressing NFE2L2, resulting in decreased cell survival in culture and tumor growth inhibition in xenograft models (PMID: 27550943).",
+            "molecularProfile": {
+                "id": 26761,
+                "profileName": "NFE2L2 over exp"
+            },
+            "therapy": {
+                "id": 4926,
+                "therapyName": "Cisplatin + DPP-23",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6975,
+                    "pubMedId": 27550943,
+                    "title": "A Novel Polyphenol Conjugate Sensitizes Cisplatin-Resistant Head and Neck Cancer Cells to Cisplatin via Nrf2 Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27550943"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11804,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, ABBV-221 demonstrated safety and preliminary efficacy, resulting in unconfirmed partial response in a patient with head and neck cancer that expressed high level of Egfr and its ligand (Journal of Clinical Oncology 35, no. 15_suppl (May 2017) 2510-2510; NCT02365662).",
+            "molecularProfile": {
+                "id": 1102,
+                "profileName": "EGFR positive"
+            },
+            "therapy": {
+                "id": 2914,
+                "therapyName": "ABBV-221",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9794,
+                    "pubMedId": null,
+                    "title": "Preliminary results from a phase 1 study of the antibody-drug conjugate ABBV-221 in patients with solid tumors likely to express EGFR.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2017.35.15_suppl.2510"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11900,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of AZD6738 and Lynparza (olaparib) resulted in a synergistic effect, demonstrating cell death in head and neck cancer cells harboring ATM loss in culture (Mol Cancer Ther 2015;14(12 Suppl 2):Abstract nr C60).",
+            "molecularProfile": {
+                "id": 11378,
+                "profileName": "ATM loss"
+            },
+            "therapy": {
+                "id": 4739,
+                "therapyName": "AZD6738 + Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9892,
+                    "pubMedId": null,
+                    "title": "Abstract C60: Pre-clinical efficacy of the ATR inhibitor AZD6738 in combination with the PARP inhibitor olaparib",
+                    "url": "http://mct.aacrjournals.org/content/14/12_Supplement_2/C60"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12219,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, the combination therapy of GL-ONC1, Platinol (cisplatin), and radiotherapy resulted in a progression-free survival of 74.4% at 1 year and 64.1% at 2 years and an overall survival of 84.6% at 1 year and 69.2% at 2 years in patients with nonmetastatic head and neck cancer (PMID: 28679776).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6366,
+                "therapyName": "Cisplatin + GL-ONC1 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10174,
+                    "pubMedId": 28679776,
+                    "title": "Phase I Trial of Intravenous Oncolytic Vaccinia Virus (GL-ONC1) with Cisplatin and Radiotherapy in Patients with Locoregionally Advanced Head and Neck Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28679776"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12699,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with BVD-523 (ulixertinib) resulted in a partial response in two patients harboring BRAF G469A, including one patient with head and neck cancer and one patient with small bowel cancer (PMID: 29247021).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 997,
+                "therapyName": "Ulixertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10607,
+                    "pubMedId": 29247021,
+                    "title": "First-in-Class ERK1/2 Inhibitor Ulixertinib (BVD-523) in Patients with MAPK Mutant Advanced Solid Tumors: Results of a Phase I Dose-Escalation and Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29247021"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13901,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Alpelisib (BYL719) treatment resulted in a disease control rate of 68.4% (13/19, 0 complete response (CR), 0 partial response (PR), 13 stable disease (SD)), and a clinical benefit rate (CR+PR+SD>24 weeks) of 10.5% (2/19) in patients with head and neck cancer harboring PIK3CA mutations (PMID: 29401002; NCT01219699).",
+            "molecularProfile": {
+                "id": 429,
+                "profileName": "PIK3CA mutant"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11345,
+                    "pubMedId": 29401002,
+                    "title": "Phosphatidylinositol 3-Kinase \u03b1-Selective Inhibition With Alpelisib (BYL719) in PIK3CA-Altered Solid Tumors: Results From the First-in-Human Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29401002"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16160,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with head and neck cancer (n=138) and a high tumor mutational burden (TMB) (>10.3mutations/Mb) demonstrated an improved overall survival compared to those patients with a low TMB when treated with an unspecified PD-1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 3890,
+                "therapyName": "unspecified PD-1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16162,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with head and neck cancer (n=138) and a high tumor mutational burden (TMB) (>10.3mutations/Mb) demonstrated an improved overall survival compared to those patients with a low TMB when treated with an unspecified PD-L1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 5248,
+                "therapyName": "unspecified PD-L1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19475,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD7648 treatment increased sensitivity to Lynparza (olaparib), resulting in inhibition of Dna-pk phosphorylation, reduced cell viability, genomic instability, cell cycle arrest, and apoptosis in a head and neck cancer cell line with ATM deletion in culture, and inhibition of tumor growth and complete tumor regression in a cell line xenograft model (PMID: 31699977).",
+            "molecularProfile": {
+                "id": 17614,
+                "profileName": "ATM del"
+            },
+            "therapy": {
+                "id": 8902,
+                "therapyName": "AZD7648 + Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16922,
+                    "pubMedId": 31699977,
+                    "title": "AZD7648 is a potent and selective DNA-PK inhibitor that enhances radiation, chemotherapy and olaparib activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31699977"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19245,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AsiDNA inhibited survival of a head and neck cancer cell line in culture (PMID: 27559053).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8967,
+                "therapyName": "AsiDNA",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16843,
+                    "pubMedId": 27559053,
+                    "title": "Drug-Driven Synthetic Lethality: Bypassing Tumor Cell Genetics with a Combination of AsiDNA and PARP Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27559053"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19246,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AsiDNA treatment led to increased sensitivity to Lynparza (olaparib), resulting in decreased survival of a head and neck cancer cell line in culture (PMID: 27559053).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8968,
+                "therapyName": "AsiDNA + Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16843,
+                    "pubMedId": 27559053,
+                    "title": "Drug-Driven Synthetic Lethality: Bypassing Tumor Cell Genetics with a Combination of AsiDNA and PARP Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27559053"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19476,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD7648 treatment induced genomic instability, cell cycle arrest, and inhibited viability of an ATM knockout head and neck cancer cell line in culture (PMID: 31699977).",
+            "molecularProfile": {
+                "id": 17614,
+                "profileName": "ATM del"
+            },
+            "therapy": {
+                "id": 8900,
+                "therapyName": "AZD7648",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16922,
+                    "pubMedId": 31699977,
+                    "title": "AZD7648 is a potent and selective DNA-PK inhibitor that enhances radiation, chemotherapy and olaparib activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31699977"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19477,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lynparza (olaparib) treatment induced genomic instability, cell cycle arrest, and inhibited viability of an ATM knockout head and neck cancer cell line in culture (PMID: 31699977).",
+            "molecularProfile": {
+                "id": 17614,
+                "profileName": "ATM del"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16922,
+                    "pubMedId": 31699977,
+                    "title": "AZD7648 is a potent and selective DNA-PK inhibitor that enhances radiation, chemotherapy and olaparib activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31699977"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19482,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD7648 and Lynparza (olaparib) combination treatment inhibited tumor growth in a patient-derived xenograft (PDX) model of head and neck cancer harboring mutant TP53 and wild-type ATM (PMID: 31699977).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8902,
+                "therapyName": "AZD7648 + Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16922,
+                    "pubMedId": 31699977,
+                    "title": "AZD7648 is a potent and selective DNA-PK inhibitor that enhances radiation, chemotherapy and olaparib activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31699977"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19484,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient-dervived xenograft (PDX) model of head and neck cancer harboring mutant TP53 and wild-type ATM did not demonstrate sensitivity to Lynparza (olaparib) treatment (PMID: 31699977).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16922,
+                    "pubMedId": 31699977,
+                    "title": "AZD7648 is a potent and selective DNA-PK inhibitor that enhances radiation, chemotherapy and olaparib activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31699977"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19488,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD7648 treatment inhibited tumor growth in a patient-derived xenograft (PDX) model of head and neck cancer harboring mutant TP53 and wild-type ATM (PMID: 31699977).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8900,
+                "therapyName": "AZD7648",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16922,
+                    "pubMedId": 31699977,
+                    "title": "AZD7648 is a potent and selective DNA-PK inhibitor that enhances radiation, chemotherapy and olaparib activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31699977"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19494,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TR1801-ADC treatment inhibited tumor growth and induced regression in patient-derived xenograft (PDX) models of head and neck cancer with high MET expression (Cancer Res 2019; 79(13 Suppl): Abstract nr 225).",
+            "molecularProfile": {
+                "id": 5392,
+                "profileName": "MET over exp"
+            },
+            "therapy": {
+                "id": 9054,
+                "therapyName": "TR1801-ADC",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17103,
+                    "pubMedId": null,
+                    "title": "TR1801-ADC, an optimized anti cMet PBD ADC with high efficacy in solid tumors of the GI tract and head & neck cancer",
+                    "url": "https://cancerres.aacrjournals.org/content/79/13_Supplement/225"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00903461",
+            "title": "Safety and Efficacy of Radiation/Cetuximab Plus EGFR Antisense DNA for Head and Neck Squamous Cell Carcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2130,
+                    "therapyName": "EGFR Antisense DNA",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00970502",
+            "title": "Erlotinib, Celecoxib and Reirradiation for Recurrent Head and Neck Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2125,
+                    "therapyName": "Celecoxib + Erlotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00978250",
+            "title": "A Multi-Histology Phase II Study of 5-Fluoro-2-Deoxycytidine With Tetrahydrouridine (FdCyd + THU)",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3789,
+                    "therapyName": "5-Fluoro-2-deoxycytidine + Tetrahydrouridine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01218048",
+            "title": "ERBITUX; Followed by Adjuvant Treatment With Chemoradiation and ERBITUX; for Locally Advanced Head and Neck Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01351103",
+            "title": "A Study of LGK974 in Patients With Malignancies Dependent on Wnt Ligands",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1937,
+                    "therapyName": "LGK974",
+                    "synonyms": null
+                },
+                {
+                    "id": 7468,
+                    "therapyName": "LGK974 + Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01391143",
+            "title": "Safety Study of MGA271 in Refractory Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2863,
+                    "therapyName": "MGA271",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01588431",
+            "title": "Bevacizumab/Ph 2 for Locally Advanced Head and Neck Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1987,
+                    "therapyName": "Cetuximab + Cisplatin + Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01831089",
+            "title": "Phase I Study of Lurbinectedin (PM01183) in Combination With Paclitaxel, With or Without Bevacizumab, in Selected Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1196,
+                    "therapyName": "Bevacizumab + Lurbinectedin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1197,
+                    "therapyName": "Lurbinectedin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01835626",
+            "title": "Phase II Study of Radiation Therapy and Vismodegib for Advanced Head/Neck Basal Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01874860",
+            "title": "Skin Rash Study Before Chemotherapy in Colorectal &amp; Head and Neck Cancer Patients",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1391,
+                    "therapyName": "Doxycycline",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01968109",
+            "title": "Safety Study of Anti-LAG-3 With and Without Anti-PD-1 in the Treatment of Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4197,
+                    "therapyName": "Nivolumab + Relatlimab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4196,
+                    "therapyName": "Relatlimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01976741",
+            "title": "Phase I Dose Escalation Pan-FGFR (Fibroblast Growth Factor Receptor) Inhibitor",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2030,
+                    "therapyName": "Rogaratinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02004106",
+            "title": "A Study of RO6895882 in Patients With Advanced and/or Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2886,
+                    "therapyName": "RO6895882",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02014909",
+            "title": "A Phase 1 Study to Evaluate the Safety and Pharmacokinetics of KTN3379 in Adult Subjects With Advanced Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2054,
+                    "therapyName": "CDX-3379",
+                    "synonyms": null
+                },
+                {
+                    "id": 2063,
+                    "therapyName": "CDX-3379 + Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2064,
+                    "therapyName": "CDX-3379 + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2061,
+                    "therapyName": "CDX-3379 + Cetuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2062,
+                    "therapyName": "CDX-3379 + Erlotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02051751",
+            "title": "A Study to Evaluate the Potential Benefit of the Addition of BYL719 to Paclitaxel in the Treatment of Breast Cancer and Head-and-neck Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1379,
+                    "therapyName": "Alpelisib + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02107235",
+            "title": "Platinum-based Chemoradiotherapy and Rigosertib in Head and Neck Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1046,
+                    "therapyName": "Rigosertib Sodium",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02113878",
+            "title": "Phase Ib Study of BKM120 With Cisplatin and XRT in High Risk Locally Advanced Squamous Cell Cancer of Head and Neck",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1691,
+                    "therapyName": "Buparlisib + Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02318771",
+            "title": "Radiation Therapy and MK-3475 for Patients With Recurrent/Metastatic Head and Neck Cancer, Renal Cell Cancer, Urothelial Cancer, Melanoma, and Non-Small Cell Lung Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02454972",
+            "title": "Clinical Trial of Lurbinectedin (PM01183) in Selected Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1195,
+                    "therapyName": "Lurbinectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02471846",
+            "title": "A Study of GDC-0919 and MPDL3280A Combination Treatment in Participants With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2888,
+                    "therapyName": "GDC-0919",
+                    "synonyms": null
+                },
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02488759",
+            "title": "A Study to Investigate the Safety and Efficacy of Nivolumab in Virus-associated Tumors (CheckMate358)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02538627",
+            "title": "Phase 1 Combination Study of MM-151 and MM-121",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 820,
+                    "therapyName": "Seribantumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 821,
+                    "therapyName": "MM-151",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02543645",
+            "title": "A Study of Varlilumab and Atezolizumab in Patients With Advanced Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3086,
+                    "therapyName": "Atezolizumab + Varlilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02646319",
+            "title": "Nanoparticle Albumin-Bound Rapamycin in Treating Patients With Advanced Cancer With mTOR Mutations",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3380,
+                    "therapyName": "Nab-Rapamycin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02671955",
+            "title": "A Study of Safety, Pharmacokinetics, Pharmacodynamics of JNJ-61610588 in Participants With Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3614,
+                    "therapyName": "JNJ-61610588",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02710396",
+            "title": "Genetic Predictors of Benefit to Pembrolizumab",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2105,
+                    "therapyName": "Carboplatin + Pembrolizumab + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5591,
+                    "therapyName": "Carboplatin + Nab-paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02841748",
+            "title": "A Randomized, Double-Blind Phase II Study of Adjuvant Pembrolizumab Versus Placebo in Head and Neck Cancers at High Risk for Recurrence- the PATHWay Study",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02953782",
+            "title": "Trial of Hu5F9-G4 in Combination With Cetuximab in Patients With Solid Tumors and Advanced Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4948,
+                    "therapyName": "Cetuximab + Hu5F9-G4",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03109873",
+            "title": "Metformin Hydrochloride in Affecting Cytokines and Exosomes in Patients With Head and Neck Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03207867",
+            "title": "A Phase 2 Study of NIR178 in Combination With PDR001 in Patients With Solid Tumors and Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4741,
+                    "therapyName": "PBF-509 + Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03329950",
+            "title": "A Study of CDX-1140 as Monotherapy or in Combination in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7361,
+                    "therapyName": "CDX-1140 + CDX-301",
+                    "synonyms": null
+                },
+                {
+                    "id": 7330,
+                    "therapyName": "CDX-1140",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03355560",
+            "title": "Adjuvant Nivolumab After Salvage Resection in Head and Neck Cancer Patients Previously Treated With Definitive Therapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03578432",
+            "title": "Everolimus in Restoring Salivary Gland Function in Participants With Locally Advanced Head and Neck Cancer Treated With Radiation Therapy",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03621982",
+            "title": "Study of ADCT-301 in Patients With Selected Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7369,
+                    "therapyName": "Camidanlumab Tesirine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03816345",
+            "title": "Nivolumab in Treating Patients With Autoimmune Disorders or Advanced, Metastatic, or Unresectable Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04020185",
+            "title": "Safety and Efficacy Study of IMSA101 in Refractory Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9540,
+                    "therapyName": "IMSA101 + unspecified PD-L1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9539,
+                    "therapyName": "IMSA101 + unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9538,
+                    "therapyName": "IMSA101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04044859",
+            "title": "Surpass: ADP-A2M4CD8 in HLA-A2+ Subjects With MAGE-A4 Positive Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9445,
+                    "therapyName": "ADP-A2M4CD8 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04105543",
+            "title": "CLR 131 Combined With Radiation for Head and Neck Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7331,
+                    "therapyName": "CLR 131",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04225117",
+            "title": "A Study to Evaluate Enfortumab Vedotin in Subjects With Previously Treated Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4125,
+                    "therapyName": "Enfortumab vedotin-ejfv",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04259450",
+            "title": "Study to Assess AFM24 in Advanced Solid Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5856,
+                    "therapyName": "AFM24",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

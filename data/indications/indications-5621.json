@@ -1,0 +1,73 @@
+{
+    "id": 5621,
+    "name": "histiocytic and dendritic cell cancer",
+    "source": "DOID",
+    "definition": "A sarcoma and hematologic cancer that derives_from follicular lymphoma. [url:http\\://www.springerlink.com/content/h9wrn7p72x26q035/]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:5621",
+    "evidence": [
+        {
+            "id": 9561,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in a decrease in tumor volume by more than 60% in a patient with histiocytic sarcoma harboring MET exon 14 skipping and TP53 R175H (PMID: 25971938).",
+            "molecularProfile": {
+                "id": 26903,
+                "profileName": "MET del exon14 TP53 R175H"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5621,
+                "name": "histiocytic and dendritic cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6712,
+                    "pubMedId": 25971938,
+                    "title": "Activation of MET via diverse exon 14 splicing alterations occurs in multiple tumor types and confers clinical sensitivity to MET inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25971938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03316573",
+            "title": "A Phase 2 Study of Pembrolizumab in Patients With Histiocyte/Dendritic Cell Neoplasms and Biologically Selected Subtypes of Relapsed/Refractory Aggressive Lymphomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

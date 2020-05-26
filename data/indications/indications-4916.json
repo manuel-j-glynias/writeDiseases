@@ -1,0 +1,60 @@
+{
+    "id": 4916,
+    "name": "pituitary carcinoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4916",
+    "evidence": [
+        {
+            "id": 9512,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with adenocorticotropic pituitary carcinoma harboring an STK11 inactivating mutation demonstrated clinical efficacy for greater than 6 months when treated with a combination of Afinitor (everolimus) and radiotherapy (PMID: 27615706).",
+            "molecularProfile": {
+                "id": 31718,
+                "profileName": "STK11 F298L"
+            },
+            "therapy": {
+                "id": 5060,
+                "therapyName": "Everolimus + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4916,
+                "name": "pituitary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7245,
+                    "pubMedId": 27615706,
+                    "title": "Widely metastatic atypical pituitary adenoma with mTOR pathway STK11(F298L) mutation treated with everolimus therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27615706"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "id": 1785,
+    "name": "pituitary cancer",
+    "source": "DOID",
+    "definition": "An endocrine gland cancer located_in the pituitary gland located at the base of the brain. [url:http\\://en.wikipedia.org/wiki/Pituitary_gland]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5671"
+    ],
+    "termId": "DOID:1785",
+    "evidence": [
+        {
+            "id": 2291,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alvocidib (flavopiridol) improved survival in mouse pituitary tumor models harboring CDK4 R24C with monoallelic or biallelic inactivation of CDKN1B (p27), and resulted in reduced tumor growth in models harboring CDK4 R24C with inactivation of one CDKN1B (p27) allele (PMID: 15867383).",
+            "molecularProfile": {
+                "id": 26178,
+                "profileName": "CDK4 R24C CDKN1B inact mut"
+            },
+            "therapy": {
+                "id": 628,
+                "therapyName": "Alvocidib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1785,
+                "name": "pituitary cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2970,
+                    "pubMedId": 15867383,
+                    "title": "Cooperation between Cdk4 and p27kip1 in tumor development: a preclinical model to evaluate cell cycle inhibitors with therapeutic activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15867383"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00939523",
+            "title": "Targeted Therapy With Lapatinib in Patients With Recurrent Pituitary Tumors Resistant to Standard Therapy",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 787,
+                    "therapyName": "Lapatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04042753",
+            "title": "Nivolumab and Ipilimumab in People With Aggressive Pituitary Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04106843",
+            "title": "Radioactive Drug (177Lu-DOTATATE) for the Treatment of Locally Advanced, Metastatic, or Unresectable Rare Endocrine Cancers",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 6696,
+                    "therapyName": "lutetium Lu 177 dotatate",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

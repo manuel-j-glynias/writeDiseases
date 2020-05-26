@@ -1,0 +1,1395 @@
+{
+    "id": 1993,
+    "name": "rectum cancer",
+    "source": "DOID",
+    "definition": "A colorectal cancer that is located_in the rectum. [url:http\\://www.cancer.gov/dictionary?CdrID=529764]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "1989"
+    ],
+    "termId": "DOID:1993",
+    "evidence": [
+        {
+            "id": 5840,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, the combination of Nelfinavir and radiotherapy resulted in median tumor cell density reduction from 24.3% at baseline to 9.2%, and tumor regression in 56% (5/9) of rectal cancer patients (PMID: 26861457).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3953,
+                "therapyName": "Nelfinavir + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5179,
+                    "pubMedId": 26861457,
+                    "title": "Clinical Trial of Oral Nelfinavir before and during Radiation Therapy for Advanced Rectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26861457"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6871,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Tarceva (erlotinib) and Linsitinib (OSI-906) combination treatment decreased Igf1r and Insr phosphorylation, resulted in a disease control rate of 51% (38/75), and partial response in 7% (5/75) of patients with advanced solid tumors, including a rectal cancer patient who remained on study for 36 weeks (PMID: 26831715).",
+            "molecularProfile": {
+                "id": 23919,
+                "profileName": "IGF1R pos INSR pos"
+            },
+            "therapy": {
+                "id": 4041,
+                "therapyName": "Erlotinib + Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5935,
+                    "pubMedId": 26831715,
+                    "title": "Phase I Dose-Escalation Study of Linsitinib (OSI-906) and Erlotinib in Patients with Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26831715"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13019,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab), as a monotherapy, is not indicated for use in rectum cancer patients with BRAF V600E (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13020,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab), as a monotherapy, is not indicated for use in rectum cancer patients with BRAF V600E (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13023,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab) is not indicated for use in rectum cancer patients with KRAS exon 2 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27386,
+                "profileName": "KRAS exon2"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13024,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab) is not indicated for use in rectum cancer patients with KRAS exon 2 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27386,
+                "profileName": "KRAS exon2"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13025,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab) is not indicated for use in rectum cancer patients with KRAS exon 3 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27387,
+                "profileName": "KRAS exon3"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13026,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab) is not indicated for use in rectum cancer patients with KRAS exon 3 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27387,
+                "profileName": "KRAS exon3"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13027,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab) is not indicated for use in rectum cancer patients with KRAS exon 4 mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 27388,
+                "profileName": "KRAS exon4"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13028,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab) is not indicated for use in rectum cancer patients with KRAS exon 4 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27388,
+                "profileName": "KRAS exon4"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13029,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab) is not indicated for use in rectum cancer patients with NRAS exon 2 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27389,
+                "profileName": "NRAS exon2"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13030,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab) is not indicated for use in rectum cancer patients with NRAS exon 2 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27389,
+                "profileName": "NRAS exon2"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13031,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab) is not indicated for use in rectum cancer patients with NRAS exon 4 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27391,
+                "profileName": "NRAS exon4"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13032,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab) is not indicated for use in rectum cancer patients with NRAS exon 4 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27391,
+                "profileName": "NRAS exon4"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13033,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab) is not indicated for use in rectum cancer patients with NRAS exon 3 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27390,
+                "profileName": "NRAS exon3"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13034,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab) is not indicated for use in rectum cancer patients with NRAS exon 3 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 27390,
+                "profileName": "NRAS exon3"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16024,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 inhibited growth of rectal cancer cells harboring KRAS G12C in 3D culture (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 1042,
+                "profileName": "KRAS G12C"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16993,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Herceptin (trastuzumab) in combination with Tykerb (lapatinib) is included in guidelines as second-line therapy for advanced or metastatic rectum cancer patients with ERBB2 amplification and wild-type KRAS and BRAF (NCCN.org).",
+            "molecularProfile": {
+                "id": 35566,
+                "profileName": "BRAF wild-type ERBB2 amp KRAS wild-type"
+            },
+            "therapy": {
+                "id": 1414,
+                "therapyName": "Lapatinib + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16994,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Herceptin (trastuzumab) in combination with Perjeta (pertuzumab) is included in guidelines as second-line therapy for advanced or metastatic rectum cancer patients with ERBB2 amplification and wild-type KRAS and BRAF (NCCN.org).",
+            "molecularProfile": {
+                "id": 35566,
+                "profileName": "BRAF wild-type ERBB2 amp KRAS wild-type"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16995,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Herceptin (trastuzumab) in combination with Tykerb (lapatinib) is included in guidelines as second-line therapy for advanced or metastatic rectum cancer patients with ERBB2 amplification and wild-type NRAS and BRAF (NCCN.org).",
+            "molecularProfile": {
+                "id": 35567,
+                "profileName": "BRAF wild-type ERBB2 amp NRAS wild-type"
+            },
+            "therapy": {
+                "id": 1414,
+                "therapyName": "Lapatinib + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16996,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Herceptin (trastuzumab) in combination with Perjeta (pertuzumab) is included in guidelines as second-line therapy for advanced or metastatic rectum cancer patients with ERBB2 amplification and wild-type NRAS and BRAF (NCCN.org).",
+            "molecularProfile": {
+                "id": 35567,
+                "profileName": "BRAF wild-type ERBB2 amp NRAS wild-type"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17015,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab), in combination with FOLFOXIRI, is included in guidelines for advanced or metastatic rectum cancer patients with BRAF wild-type, KRAS wild-type, and NRAS wild-type (NCCN.org).",
+            "molecularProfile": {
+                "id": 29053,
+                "profileName": "BRAF wild-type KRAS wild-type NRAS wild-type"
+            },
+            "therapy": {
+                "id": 8360,
+                "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin + Panitumumab",
+                "synonyms": "Panitumumab + FOLFOXIRI"
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17016,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab), in combination with FOLFOXIRI, is included in guidelines for advanced or metastatic rectum cancer patients with BRAF wild-type, KRAS wild-type, and NRAS wild-type (NCCN.org).",
+            "molecularProfile": {
+                "id": 29053,
+                "profileName": "BRAF wild-type KRAS wild-type NRAS wild-type"
+            },
+            "therapy": {
+                "id": 2184,
+                "therapyName": "Cetuximab + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                "synonyms": "Cetuximab + FOLFIRINOX"
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17017,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab), in combination with FOLFOX, is included in guidelines for advanced or metastatic rectum cancer patients with BRAF wild-type, KRAS wild-type, and NRAS wild-type (NCCN.org).",
+            "molecularProfile": {
+                "id": 29053,
+                "profileName": "BRAF wild-type KRAS wild-type NRAS wild-type"
+            },
+            "therapy": {
+                "id": 1986,
+                "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Panitumumab",
+                "synonyms": "Panitumumab + FOLFOX"
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17018,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab), in combination with FOLFOX, is included in guidelines for advanced or metastatic rectum cancer patients with BRAF wild-type, KRAS wild-type, and NRAS wild-type (NCCN.org).",
+            "molecularProfile": {
+                "id": 29053,
+                "profileName": "BRAF wild-type KRAS wild-type NRAS wild-type"
+            },
+            "therapy": {
+                "id": 2182,
+                "therapyName": "Cetuximab + Fluorouracil + Leucovorin + Oxaliplatin",
+                "synonyms": "Cetuximab + FOLFOX"
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17019,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab), in combination with FOLFIRI, is included in guidelines for advanced or metastatic rectum cancer patients with BRAF wild-type, KRAS wild-type, and NRAS wild-type (NCCN.org).",
+            "molecularProfile": {
+                "id": 29053,
+                "profileName": "BRAF wild-type KRAS wild-type NRAS wild-type"
+            },
+            "therapy": {
+                "id": 5573,
+                "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Panitumumab",
+                "synonyms": "Panitumumab + FOLFIRI"
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17020,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab), in combination with FOLFIRI, is included in guidelines for advanced or metastatic rectum cancer patients with BRAF wild-type, KRAS wild-type, and NRAS wild-type (NCCN.org).",
+            "molecularProfile": {
+                "id": 29053,
+                "profileName": "BRAF wild-type KRAS wild-type NRAS wild-type"
+            },
+            "therapy": {
+                "id": 2180,
+                "therapyName": "Cetuximab + Fluorouracil + Irinotecan + Leucovorin",
+                "synonyms": "Cetuximab + FOLFIRI"
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17029,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Erbitux (cetuximab), in combination with Camptosar (irinotecan), is included in guidelines as a second-line therapy for advanced or metastatic rectum cancer patients BRAF wild-type, KRAS wild-type, and NRAS wild-type (NCCN.org).",
+            "molecularProfile": {
+                "id": 29053,
+                "profileName": "BRAF wild-type KRAS wild-type NRAS wild-type"
+            },
+            "therapy": {
+                "id": 1874,
+                "therapyName": "Cetuximab + Irinotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17030,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vectibix (panitumumab), in combination with Camptosar (irinotecan), is included in guidelines as a second-line therapy for advanced or metastatic rectum cancer patients BRAF wild-type, KRAS wild-type, and NRAS wild-type (NCCN.org).",
+            "molecularProfile": {
+                "id": 29053,
+                "profileName": "BRAF wild-type KRAS wild-type NRAS wild-type"
+            },
+            "therapy": {
+                "id": 4138,
+                "therapyName": "Irinotecan + Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17031,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Opdivo (nivolumab) is included in guidelines as a second-line therapy for advanced or metastatic rectum cancer patients with high microsatellite instability, MSI-H (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17032,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Opdivo (nivolumab), in combination with Yervoy (ipilimumab), is included in guidelines as a second-line therapy for advanced or metastatic rectum cancer patients with high microsatellite instability, MSI-H (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1627,
+                "therapyName": "Ipilimumab + Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17033,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a second-line therapy for advanced or metastatic rectum cancer patients with high microsatellite instability, MSI-H (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18888,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Lynch syndrome results from germline mutations in DNA mismatch repair genes including MLH1, MSH2, MSH6, and PMS2, and is associated with increased risk of developing colorectal cancer (NCCN.org).",
+            "molecularProfile": {
+                "id": 17286,
+                "profileName": "MLH1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18889,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Lynch syndrome results from germline mutations in DNA mismatch repair genes including MLH1, MSH2, MSH6, and PMS2, and is associated with increased risk of developing colorectal cancer (NCCN.org).",
+            "molecularProfile": {
+                "id": 17287,
+                "profileName": "MSH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18890,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Lynch syndrome results from germline mutations in DNA mismatch repair genes including MLH1, MSH2, MSH6, and PMS2, and is associated with increased risk of developing colorectal cancer (NCCN.org).",
+            "molecularProfile": {
+                "id": 17288,
+                "profileName": "MSH6 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18891,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Lynch syndrome results from germline mutations in DNA mismatch repair genes including MLH1, MSH2, MSH6, and PMS2, and is associated with increased risk of developing colorectal cancer (NCCN.org).",
+            "molecularProfile": {
+                "id": 17289,
+                "profileName": "PMS2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1993,
+                "name": "rectum cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01274624",
+            "title": "Study of REOLYSIN; in Combination With FOLFIRI and Bevacizumab in FOLFIRI Naive Patients With KRAS Mutant Metastatic Colorectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 2099,
+                    "therapyName": "Bevacizumab + Reolysin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01309126",
+            "title": "Study of Imprime PGG in Combination With Cetuximab in Subjects With Recurrent or Progressive KRAS Wild Type Colorectal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2065,
+                    "therapyName": "Cetuximab + PGG beta-glucan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01740648",
+            "title": "Trametinib, Fluorouracil, and Radiation Therapy Before Surgery in Treating Patients With Stage II-III Rectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1113,
+                    "therapyName": "Fluorouracil + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01966289",
+            "title": "SGI-110 in Combination With an Allogeneic Colon Cancer Cell Vaccine (GVAX) and Cyclophosphamide (CY) in Metastatic Colorectal Cancer (mCRC)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1949,
+                    "therapyName": "Guadecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2977,
+                    "therapyName": "GVAX colorectal cancer vaccine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01985763",
+            "title": "Genistein in Treatment of Metastatic Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 757,
+                    "therapyName": "Genistein",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02041481",
+            "title": "MEK Inhibitor MEK162 in Combination With Leucovorin Calcium, Fluorouracil, and Oxaliplatin in Treating Patients With Advanced Metastatic Colorectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2217,
+                    "therapyName": "Binimetinib + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Binimetinib  + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02199236",
+            "title": "Dose Escalation Trial of Endoluminal High-Dose-Rate Brachytherapy With Concurrent Chemotherapy for Rectal or Anal Cancer in Patients With Recurrent Disease or Undergoing Non-Operative Management",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1619,
+                    "therapyName": "Capecitabine + Fluorouracil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02399813",
+            "title": "Phase 2 Study of ADXS11-001 in Subjects With Anal Cancer or Cancer of the Rectum",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3090,
+                    "therapyName": "ADXS11-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02508077",
+            "title": "FOLFIRI and Panitumumab in Treating Patients With RAS and BRAF Wild-Type Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 845,
+                    "therapyName": "Panitumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890758",
+            "title": "Phase I Trial of Universal Donor NK Cell Therapy in Combination With ALT803",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03127098",
+            "title": "QUILT-3.040: ETBX-011 (Ad5 [E1-, E2b-]-CEA(6D)) Vaccine in Combination With ALT-803 (Super-agonist IL-15) in Subjects Having CEA-Expressing Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 6239,
+                    "therapyName": "ALT-803 + ETBX-011",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03152370",
+            "title": "Preoperative Radiotherapy and E7046 in Rectum Cancer (PRAER 1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5798,
+                    "therapyName": "E7046 + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Pegilodecakin + FOLFOX"
+                },
+                {
+                    "id": 5805,
+                    "therapyName": "Capecitabine + E7046",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03317119",
+            "title": "Trametinib and TAS-102 in Treating Patients With Colon or Rectal Cancer That is Advanced, Metastatic, or Cannot Be Removed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6393,
+                    "therapyName": "Trametinib + trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03516708",
+            "title": "Epacadostat (INCB024360) and Pembrolizumab Added to Preoperative Chemoradiation in Patients With Locally Advanced Rectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2575,
+                    "therapyName": "Epacadostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03770689",
+            "title": "Phase Ib/II Study of M3814 in Combination With Capecitabine and Radiotherapy in Rectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 7617,
+                    "therapyName": "Capecitabine + MSC2490484A",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03829410",
+            "title": "Onvansertib in Combination With FOLFIRI and Bevacizumab for Second Line Treatment of Metastatic Colorectal Cancer Patients With a Kras Mutation",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7881,
+                    "therapyName": "Bevacizumab + Fluorouracil + Irinotecan + Leucovorin + PCM-075",
+                    "synonyms": "Bevacizumab  + PCM-075 + FOLFIRI"
+                }
+            ]
+        }
+    ]
+}

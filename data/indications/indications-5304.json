@@ -1,0 +1,370 @@
+{
+    "id": 5304,
+    "name": "ovarian clear cell adenocarcinoma",
+    "source": "DOID",
+    "definition": "A ovarian adenocarcinoma that derives_from epithelial cells which have clear cytoplasm. [url:https\\://www.ncbi.nlm.nih.gov/pubmed/25398420]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:5304",
+    "evidence": [
+        {
+            "id": 1653,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 demonstrated efficacy in mouse xenograft models of ovarian clear cell adenocarcinoma with PIK3CA mutations (PMID: 24927217).",
+            "molecularProfile": {
+                "id": 743,
+                "profileName": "PIK3CA act mut"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1763,
+                    "pubMedId": 24927217,
+                    "title": "The PI3K/mTOR dual inhibitor NVP-BEZ235 reduces the growth of ovarian clear cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24927217"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5200,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian clear cell adenocarcinoma cell lines harboring TP53 mutations demonstrated reduced sensitivity to DS-7423 induced apoptosis in culture compared to TP53 wild-type cells (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5201,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DS-7423 inhibited proliferation of ovarian clear cell adenocarcinoma cell lines in culture and suppressed tumor growth in cell line xenograft animal models (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10541,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian clear cell adenocarcinoma cell line harboring KRAS G13C, PIK3CA H1047Y, PTEN G143fs, and PTEN K267fs was sensitive to treatment with DS-7423, demonstrating inhibition of cell proliferation in culture and tumor growth inhibition in xenograft models (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 27593,
+                "profileName": "KRAS G13C PIK3CA H1047Y PTEN G143fs PTEN K267fs"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10542,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian clear cell adenocarcinoma cell line harboring PIK3CA C420R was sensitive to DS-7423 in culture, demonstrating inhibition of cell proliferation (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 2790,
+                "profileName": "PIK3CA C420R"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10544,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian clear cell adenocarcinoma cell line harboring PIK3CA E545V was sensitive to DS-7423 in culture, demonstrating inhibition of cell proliferation (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 3622,
+                "profileName": "PIK3CA E545V"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10545,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian clear cell adenocarcinoma cell line harboring PIK3CA H1047R and TP53 S90fs*33 demonstrated reduced sensitivity to DS-7423 in culture (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 27594,
+                "profileName": "PIK3CA H1047R TP53 S90fs"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10547,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian clear cell adenocarcinoma cell line harboring TP53 S241F demonstrated reduced sensitivity to DS-7423 in culture (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 16831,
+                "profileName": "TP53 S241F"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10548,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian clear cell adenocarcinoma cell line harboring TP53 S241F demonstrated reduced sensitivity to DS-7423 in culture (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01396408",
+            "title": "A Phase II Study of Sunitinib or Temsirolimus in Patients With Advanced Rare Tumours",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01914510",
+            "title": "A Study of ENMD-2076 in Ovarian Clear Cell Cancers",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 727,
+                    "therapyName": "ENMD-2076",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02315430",
+            "title": "Cabozantinib-S-Malate in Treating Patients With Recurrent or Progressive Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02584478",
+            "title": "Phase 1/2a Evaluation of Adding AL3818 to Standard Platinum-Based Chemotherapy in Subjects With Recurrent or Metastatic Endometrial, Ovarian, Fallopian, Primary Peritoneal or Cervical Carcinoma (AL3818-US-002)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7370,
+                    "therapyName": "Anlotinib + Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03602859",
+            "title": "A Phase 3 Comparison of Platinum-Based Therapy With TSR-042 and Niraparib Versus Standard of Care Platinum-Based Therapy as First-Line Treatment of Stage III or IV Nonmucinous Epithelial Ovarian Cancer (FIRST)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6321,
+                    "therapyName": "Niraparib + TSR-042",
+                    "synonyms": null
+                },
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,317 @@
+{
+    "id": 1799,
+    "name": "islet cell tumor",
+    "source": "DOID",
+    "definition": "A pancreatic cancer that is located_in the pancreatic islet cells. [url:http\\://en.wikipedia.org/wiki/Islets_of_Langerhans, url:http\\://en.wikipedia.org/wiki/Neuroendocrine_tumor]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "10165"
+    ],
+    "termId": "DOID:1799",
+    "evidence": [
+        {
+            "id": 2473,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (RADIANT-3) that supported FDA approval, treatment with Afinitor (everolimus) prolonged progression-free survival (11.0 vs 4.6 months, HR=0.35, p<0.001) compared to placebo in patients with progressive pancreatic neuroendocrine tumors (PMID: 21306238; NCT00510068).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1799,
+                "name": "islet cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15052,
+                    "pubMedId": 21306238,
+                    "title": "Everolimus for advanced pancreatic neuroendocrine tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21306238"
+                },
+                {
+                    "id": 15547,
+                    "pubMedId": null,
+                    "title": "Afinitor (everolimus) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022334"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 725,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with pancreatic neuroendocrine tumors homozygous for FGFR4 G388 demonstrated increased tumor reduction following Afinitor (everolimus) treatment compared to patients harboring FGFR4 G388R (25% vs. 9%; p=0.049), however, partial response rate did not differ significantly due to small sample size (PMID: 22986737).",
+            "molecularProfile": {
+                "id": 541,
+                "profileName": "FGFR4 G388R"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1799,
+                "name": "islet cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 444,
+                    "pubMedId": 22986737,
+                    "title": "The FGFR4-G388R single-nucleotide polymorphism alters pancreatic neuroendocrine tumor progression and response to mTOR inhibition therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22986737"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9841,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GDC-0326 inhibited AKT activation, decreased tumor growth, metastasis, and angiogenesis and increased lifespan in a transgenic mouse model of pancreatic neuroendocrine tumor (PMID: 27225693).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5252,
+                "therapyName": "GDC-0326",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1799,
+                "name": "islet cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7679,
+                    "pubMedId": 27225693,
+                    "title": "Therapeutic Benefit of Selective Inhibition of p110\u03b1 PI3-Kinase in Pancreatic Neuroendocrine Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27225693"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9842,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pictilisib (GDC-0941) inhibited AKT activation, reduced tumor burden, and increased lifespan in a transgenic mouse model of pancreatic neuroendocrine tumor (PMID: 27225693).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 749,
+                "therapyName": "Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1799,
+                "name": "islet cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7679,
+                    "pubMedId": 27225693,
+                    "title": "Therapeutic Benefit of Selective Inhibition of p110\u03b1 PI3-Kinase in Pancreatic Neuroendocrine Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27225693"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01465659",
+            "title": "Temozolomide and Pazopanib Hydrochloride in Treating Patients With Advanced Pancreatic Neuroendocrine Tumors That Cannot Be Removed By Surgery",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2040,
+                    "therapyName": "Pazopanib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01525082",
+            "title": "Capecitabine, Temozolomide and Bevacizumab for Metastatic or Unresectable Pancreatic Neuroendocrine Tumors",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 2073,
+                    "therapyName": "Bevacizumab + Capecitabine + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01525550",
+            "title": "A Study Of The Efficacy And Safety Of Sunitinib In Patients With Advanced Well-Differentiated Pancreatic Neuroendocrine Tumors",
+            "phase": "FDA approved",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01603004",
+            "title": "Potential Imaging and Molecular Predictors of Response to Novel Therapies in Metastatic Pancreatic Neuroendocrine Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01784861",
+            "title": "VEGFR/PDGFR Dual Kinase Inhibitor X-82 and Everolimus for Treating Patients With Pancreatic Neuroendocrine Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1272,
+                    "therapyName": "Everolimus + Vorolanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02031536",
+            "title": "Everolimus in Patients With Pancreatic Neuroendocrine Tumors Metastatic to the Liver Previously Treated With Surgery",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02101918",
+            "title": "Ziv-Aflibercept in Treating and Computed Tomography Perfusion Imaging in Predicting Response in Patients With Pancreatic Neuroendocrine Tumors That Are Metastatic or Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 624,
+                    "therapyName": "Aflibercept",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02315625",
+            "title": "Study of Mutation-Targeted Therapy With Sunitinib or Everolimus in People With Advanced Low- or Intermediate-Grade Neuroendocrine Tumors of the Gastrointestinal Tract and Pancreas With or Without Cytoreductive Surgery",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02831179",
+            "title": "Veliparib, Capecitabine, and Temozolomide in Patients With Advanced, Metastatic, and Recurrent Neuroendocrine Tumor",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4463,
+                    "therapyName": "Capecitabine + Temozolomide + Veliparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03736720",
+            "title": "Liposomal Irinotecan, Fluorouracil and Leucovorin in Treating Patients With Refractory Advanced High Grade Neuroendocrine Cancer of Gastrointestinal, Unknown, or Pancreatic Origin",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9702,
+                    "therapyName": "Fluorouracil + Leucovorin + MM-398",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03972488",
+            "title": "Study to Evaluate the Efficacy and Safety of Lutathera in Patients With Grade 2 and Grade 3 Advanced GEP-NET (NETTER-2)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1332,
+                    "therapyName": "Octreotide acetate",
+                    "synonyms": null
+                },
+                {
+                    "id": 9508,
+                    "therapyName": "lutetium Lu 177 dotatate + Octreotide acetate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04086485",
+            "title": "Lu-177-DOTATATE (Lutathera) in Combination With Olaparib in Inoperable Gastroenteropancreatico Neuroendocrine Tumors (GEP-NET)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8723,
+                    "therapyName": "lutetium Lu 177 dotatate + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

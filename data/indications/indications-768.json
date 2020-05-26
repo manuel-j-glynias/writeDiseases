@@ -1,0 +1,370 @@
+{
+    "id": 768,
+    "name": "retinoblastoma",
+    "source": "DOID",
+    "definition": "A retinal cell cancer and malignant neoplasm of retina and neuroblastoma and neuroendocrine tumors that derives_from the tissues of the retina. [url:http\\://www.cancer.gov/cancertopics/types/retinoblastoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:768",
+    "evidence": [
+        {
+            "id": 1153,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sirolimus (rapamycin) decreased tumor occurrence, tumor hypoxia and tumor vascularization in a retinoblastoma mouse model with functionally inactivated Rb protein (PMID: 21468343, PMID: 1689463).",
+            "molecularProfile": {
+                "id": 2007,
+                "profileName": "RB1 loss"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 768,
+                "name": "retinoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 904,
+                    "pubMedId": 21468343,
+                    "title": "Advanced retinoblastoma treatment: targeting hypoxia by inhibition of the mammalian target of rapamycin (mTOR) in LH(BETA)T(AG) retinal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21468343"
+                },
+                {
+                    "id": 905,
+                    "pubMedId": 1689463,
+                    "title": "Retinoblastoma in transgenic mice.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/1689463"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2179,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, retinoblastoma cell lines demonstrated sensitivity to Fostamatinib resulting in cell death (PMID: 22237022).",
+            "molecularProfile": {
+                "id": 5891,
+                "profileName": "RB1 inact mut"
+            },
+            "therapy": {
+                "id": 1528,
+                "therapyName": "Fostamatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 768,
+                "name": "retinoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2704,
+                    "pubMedId": 22237022,
+                    "title": "A novel retinoblastoma therapy from genomic and epigenetic analyses.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22237022"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2180,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a retinoblastoma cell line was sensitive to BAY 61-3606 in cell culture and in xenograft models, demonstrating increased apoptosis (PMID: 22237022).",
+            "molecularProfile": {
+                "id": 5891,
+                "profileName": "RB1 inact mut"
+            },
+            "therapy": {
+                "id": 2665,
+                "therapyName": "BAY 61-3606",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 768,
+                "name": "retinoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2704,
+                    "pubMedId": 22237022,
+                    "title": "A novel retinoblastoma therapy from genomic and epigenetic analyses.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22237022"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2181,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nutlin-3a induced p53 pathway signaling in MDMX mouse models with retinoblastoma and 69% (70/102) of the eyes harvested from the mouse models demonstrated complete response or stable disease after 18 weeks of therapy (PMID: 21515735).",
+            "molecularProfile": {
+                "id": 5891,
+                "profileName": "RB1 inact mut"
+            },
+            "therapy": {
+                "id": 1405,
+                "therapyName": "Nutlin-3",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 768,
+                "name": "retinoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2705,
+                    "pubMedId": 21515735,
+                    "title": "Targeting the p53 pathway in retinoblastoma with subconjunctival Nutlin-3a.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21515735"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10295,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Trichostatin A (TSA) inhibited growth of retinoblastoma cell lines in culture (PMID: 18483379), which have been demonstrated to be deficient in RB1 (PMID: 23498719).",
+            "molecularProfile": {
+                "id": 2007,
+                "profileName": "RB1 loss"
+            },
+            "therapy": {
+                "id": 2867,
+                "therapyName": "Trichostatin A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 768,
+                "name": "retinoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8274,
+                    "pubMedId": 18483379,
+                    "title": "Evaluation of the in vitro and in vivo antitumor activity of histone deacetylase inhibitors for the therapy of retinoblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18483379"
+                },
+                {
+                    "id": 8275,
+                    "pubMedId": 23498719,
+                    "title": "Characterisation of retinoblastomas without RB1 mutations: genomic, gene expression, and clinical studies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23498719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10296,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zolinza (vorinostat) inhibited growth of retinoblastoma cell lines in culture (PMID: 18483379), which have been demonstrated to be deficient in RB1 (PMID: 23498719).",
+            "molecularProfile": {
+                "id": 2007,
+                "profileName": "RB1 loss"
+            },
+            "therapy": {
+                "id": 1077,
+                "therapyName": "Vorinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 768,
+                "name": "retinoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8274,
+                    "pubMedId": 18483379,
+                    "title": "Evaluation of the in vitro and in vivo antitumor activity of histone deacetylase inhibitors for the therapy of retinoblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18483379"
+                },
+                {
+                    "id": 8275,
+                    "pubMedId": 23498719,
+                    "title": "Characterisation of retinoblastomas without RB1 mutations: genomic, gene expression, and clinical studies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23498719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10297,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Entinostat (MS-275) inhibited growth of retinoblastoma cell lines in culture and inhibited tumor growth in a retinoblastoma cell line xenograft model (PMID: 18483379), which have been demonstrated to be deficient in RB1 (PMID: 23498719).",
+            "molecularProfile": {
+                "id": 2007,
+                "profileName": "RB1 loss"
+            },
+            "therapy": {
+                "id": 1541,
+                "therapyName": "Entinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 768,
+                "name": "retinoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8274,
+                    "pubMedId": 18483379,
+                    "title": "Evaluation of the in vitro and in vivo antitumor activity of histone deacetylase inhibitors for the therapy of retinoblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18483379"
+                },
+                {
+                    "id": 8275,
+                    "pubMedId": 23498719,
+                    "title": "Characterisation of retinoblastomas without RB1 mutations: genomic, gene expression, and clinical studies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23498719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11752,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Prexasertib (LY2606368) decreased proliferation of several pediatric tumor cell lines in culture, including a retinoblastoma cell line (PMID: 28270495).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1651,
+                "therapyName": "Prexasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 768,
+                "name": "retinoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9764,
+                    "pubMedId": 28270495,
+                    "title": "The Checkpoint Kinase 1 Inhibitor Prexasertib Induces Regression of Preclinical Models of Human Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28270495"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01661400",
+            "title": "Anti-Angiogenic Therapy Post Transplant (ASCR) for Relapsed and Refractory Pediatric Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1475,
+                    "therapyName": "Thalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02130869",
+            "title": "A Pilot Study of Immunotherapy Including Haploidentical NK Cell Infusion Following CD133+ Positively-Selected Autologous Hematopoietic Stem Cells in Children With High Risk Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2378,
+                    "therapyName": "Bendamustine + Cytarabine + Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2460,
+                    "therapyName": "Busulfan + Hu14.18K322A",
+                    "synonyms": null
+                },
+                {
+                    "id": 2459,
+                    "therapyName": "Aldesleukin + Melphalan + Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1791,
+                    "therapyName": "Carboplatin + Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03654716",
+            "title": "Phase 1 Study of the Dual MDM2/MDMX Inhibitor ALRN-6924 in Pediatric Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4755,
+                    "therapyName": "ALRN-6924 + Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2273,
+                    "therapyName": "ALRN-6924",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

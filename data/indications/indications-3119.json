@@ -1,0 +1,793 @@
+{
+    "id": 3119,
+    "name": "gastrointestinal system cancer",
+    "source": "DOID",
+    "definition": "An organ system cancer located_in gastrointestinal tract that is manifested in organs of the gastrointestinal system. [url:http\\://en.wikipedia.org/wiki/Human_gastrointestinal_tract]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "4945",
+        "8377"
+    ],
+    "termId": "DOID:3119",
+    "evidence": [
+        {
+            "id": 140,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, Erbitux (cetuximab) promoted tumor growth inhibition in several patient-derived xenograft models of gastric cancers with EGFR amplification (PMID: 24141978).",
+            "molecularProfile": {
+                "id": 447,
+                "profileName": "EGFR amp"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 973,
+                    "pubMedId": 24141978,
+                    "title": "A subset of gastric cancers with EGFR amplification and overexpression respond to cetuximab therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24141978"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 532,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Inlyta (axitinib), in combination with FOLFIRI, demonstrated safety and some efficacy in patients with gastrointestinal tumors (PMID: 24423921).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1697,
+                "therapyName": "Axitinib + Fluorouracil + Irinotecan + Leucovorin",
+                "synonyms": "Axitinib + FOLFIRI"
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 313,
+                    "pubMedId": 24423921,
+                    "title": "Intermittent dosing of axitinib combined with chemotherapy is supported by (18)FLT-PET in gastrointestinal tumours.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24423921"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 917,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometriq (cabozantinib) demonstrated efficacy in colorectal cancer patient-derived tumor explant models (Cancer Research: April 15, 2013; Volume 73, Issue 8, Supplement 1).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 600,
+                    "pubMedId": null,
+                    "title": "Abstract LB-302: Potent antitumor activity of XL184 (cabozantinib), a c-MET and VEGFR2 inhibitor, in colorectal cancer patient-derived tumor explant models.",
+                    "url": null
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 930,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) demonstrated significant growth-inhibitory effects in HER2- amplified gastric cancer cells (PMID: 18606718).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 606,
+                    "pubMedId": 18606718,
+                    "title": "Antitumor activity and pharmacokinetic properties of PF-00299804, a second-generation irreversible pan-erbB receptor tyrosine kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18606718"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 950,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Apatinib (YN968D1) improved progression-free survival and overall survival in metastatic gastric cancer patients (PMID: 23918952).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 986,
+                "therapyName": "Apatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 83,
+                    "pubMedId": 23918952,
+                    "title": "Apatinib for chemotherapy-refractory advanced metastatic gastric cancer: results from a randomized, placebo-controlled, parallel-arm, phase II trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23918952"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7559,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, treatment with Apatinib (YN968D1) at 850mg resulted in a greater progression free survival (2.6 mo vs 1.8 mo) and overall survival (6.5 mo vs 4.7 mo) when compared to placebo in patients with either gastric cancer or gastroesophageal junction adenocarcinoma (PMID: 26884585).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 986,
+                "therapyName": "Apatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6420,
+                    "pubMedId": 26884585,
+                    "title": "Randomized, Double-Blind, Placebo-Controlled Phase III Trial of Apatinib in Patients With Chemotherapy-Refractory Advanced or Metastatic Adenocarcinoma of the Stomach or Gastroesophageal Junction.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26884585"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1284,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Inlyta (axitinib), in combination with FOLFOX, demonstrated safety and some efficacy in patients with gastrointestinal tumors (PMID: 24423921).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1698,
+                "therapyName": "Axitinib + Fluorouracil + Leucovorin + Oxaliplatin",
+                "synonyms": "Axitinib + FOLFOX"
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 313,
+                    "pubMedId": 24423921,
+                    "title": "Intermittent dosing of axitinib combined with chemotherapy is supported by (18)FLT-PET in gastrointestinal tumours.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24423921"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1362,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, gastric cancer cells harboring PI3KCA E542K mutations were sensitive to the AKT inhibitor AZD5363 (PMID: 24088382).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1081,
+                    "pubMedId": 24088382,
+                    "title": "The AKT inhibitor AZD5363 is selectively active in PI3KCA mutant gastric cancer, and sensitizes a patient-derived gastric cancer xenograft model with PTEN loss to Taxotere.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24088382"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1388,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, gastric cancer cells harboring PI3KCA E545K mutations were sensitive to the AKT inhibitor AZD5363 (PMID: 24088382).",
+            "molecularProfile": {
+                "id": 2421,
+                "profileName": "PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1081,
+                    "pubMedId": 24088382,
+                    "title": "The AKT inhibitor AZD5363 is selectively active in PI3KCA mutant gastric cancer, and sensitizes a patient-derived gastric cancer xenograft model with PTEN loss to Taxotere.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24088382"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1566,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GNF-5837 prevented proliferation of transformed rat intestinal epithelial cells expressing Ntrk1 in culture and in xenograft mouse models (PMID: 24900443).",
+            "molecularProfile": {
+                "id": 5967,
+                "profileName": "NTRK1 positive"
+            },
+            "therapy": {
+                "id": 1875,
+                "therapyName": "GNF-5837",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1540,
+                    "pubMedId": 24900443,
+                    "title": "Discovery of GNF-5837, a Selective TRK Inhibitor with Efficacy in Rodent Cancer Tumor Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24900443"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7735,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Erbitux (cetuximab) in combination with FOLFOX (oxaliplatin, leucovorin, and fluorouracil) were well tolerated, and resulted in an overall response rate of 54.3% (35/66), median overall survival of 11.8 months; and median progression-free survival of 6.8 months in patients with metastatic esophageal or gastroesophageal junction cancers (PMID: 27382098).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2182,
+                "therapyName": "Cetuximab + Fluorouracil + Leucovorin + Oxaliplatin",
+                "synonyms": "Cetuximab + FOLFOX"
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6462,
+                    "pubMedId": 27382098,
+                    "title": "CALGB 80403 (Alliance)/E1206: A Randomized Phase II Study of Three Chemotherapy Regimens Plus Cetuximab in Metastatic Esophageal and Gastroesophageal Junction Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27382098"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7736,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Erbitux (cetuximab) in combination with ECF (epirubicin, cisplatin, and fluorouracil) resulted in an overall response rate of 60.9% (38/63), median overall survival of 11.6 months; and median progression-free survival of 7.1 months in patients with metastatic esophageal or gastroesophageal junction cancers (PMID: 27382098).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4556,
+                "therapyName": "Cetuximab + Cisplatin + Epirubicin + Fluorouracil",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6462,
+                    "pubMedId": 27382098,
+                    "title": "CALGB 80403 (Alliance)/E1206: A Randomized Phase II Study of Three Chemotherapy Regimens Plus Cetuximab in Metastatic Esophageal and Gastroesophageal Junction Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27382098"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7738,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Erbitux (cetuximab) in combination with IC (irinotecan, cisplatin) demonstrated less efficacy and more toxicity, resulted in an overall response rate of 45.0% (32/71), median overall survival of 8.6 months; and median progression-free survival of 4.9 months in patients with metastatic esophageal or gastroesophageal junction cancers (PMID: 27382098).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4557,
+                "therapyName": "Cetuximab + Cisplatin + Irinotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6462,
+                    "pubMedId": 27382098,
+                    "title": "CALGB 80403 (Alliance)/E1206: A Randomized Phase II Study of Three Chemotherapy Regimens Plus Cetuximab in Metastatic Esophageal and Gastroesophageal Junction Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27382098"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8310,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, PX-12 did not demonstrate clinical activity in patients with advanced gastrointestinal tumors (PMID: 22711542).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4695,
+                "therapyName": "PX-12",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6599,
+                    "pubMedId": 22711542,
+                    "title": "A phase IB trial of 24-hour intravenous PX-12, a thioredoxin-1 inhibitor, in patients with advanced gastrointestinal cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22711542"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8887,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, TAK-264 (MLN0624) demonstrated safety in patients with GUCY2C (GCC)-expressing gastrointestinal cancers, and demonstrated preliminary efficacy in patients with esophageal, gastric, and pancreatic carcinoma (PMID: 27178743).",
+            "molecularProfile": {
+                "id": 26528,
+                "profileName": "GUCY2C positive"
+            },
+            "therapy": {
+                "id": 4845,
+                "therapyName": "TAK-264",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6783,
+                    "pubMedId": 27178743,
+                    "title": "Phase I Study of the Investigational Anti-Guanylyl Cyclase Antibody-Drug Conjugate TAK-264 (MLN0264) in Adult Patients with Advanced Gastrointestinal Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27178743"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14360,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Vitrakvi (larotrectinib) treatment resulted in an objective response rate of 75% (8/12, 1 complete response, 7 partial responses) in patients with gastrointestinal system malignancies harboring NTRK fusions, including colon cancer, pancreatic carcinoma, cholangiocarcinoma and GIST, and stable disease in 3 patients, with duration of response ranging from 3.5 to 22.9 months (Annals of Oncology, Volume 29, Issue suppl_5; NCT02122913, NCT02637687, and NCT02576431).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11608,
+                    "pubMedId": null,
+                    "title": "Activity of larotrectinib in patients with TRK fusion GI malignancies",
+                    "url": "https://academic.oup.com/annonc/article/29/suppl_5/mdy149.019/5039356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01384253",
+            "title": "Safety Study of \u00b2\u00b9\u00b2Pb-TCMC-Trastuzumab Radio Immunotherapy",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1540,
+                    "therapyName": "212Pb-TCMC-Trastuzumab + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01625351",
+            "title": "A Study of CD45RA+ Depleted Haploidentical Stem Cell Transplantation in Children With Relapsed or Refractory Solid Tumors and Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1205,
+                    "therapyName": "Alemtuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01640665",
+            "title": "Pilot Study of Sorafenib and Bi-weekly Capecitabine in Patients With Advanced Breast and Gastrointestinal Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2428,
+                    "therapyName": "Capecitabine + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01916447",
+            "title": "A Phase I Study of TAS-102 in Patients With Advanced Gastrointestinal Tumors.",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2426,
+                    "therapyName": "trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02192541",
+            "title": "Ganetespib and Ziv-Aflibercept in Refractory Gastrointestinal Carcinomas, Non-Squamous Non-Small Cell Lung Carcinomas, Urothelial Carcinomas, and Sarcomas",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1665,
+                    "therapyName": "Aflibercept + Ganetespib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02319018",
+            "title": "Alisertib and Combination Chemotherapy in Treating Patients With Gastrointestinal Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 626,
+                    "therapyName": "Alisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02344810",
+            "title": "C-Met Inhibitor AMG 337, Oxaliplatin, Leucovorin Calcium, and Fluorouracil in Treating Patients With Advanced Stomach or Esophageal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1064,
+                    "therapyName": "AMG 337",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02417753",
+            "title": "AZD9150, a STAT3 Antisense Oligonucleotide, in People With Malignant Ascites",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2782,
+                    "therapyName": "AZD9150",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02757391",
+            "title": "T Cell Immunotherapy Plus Anti-PD1 Antibody in Advanced Solid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4193,
+                    "therapyName": "Aldesleukin + Cyclophosphamide + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03065387",
+            "title": "Study of the Pan-ERBB InhibStudy of the Pan-ERBB Inhibitor Neratinib Given in Combination With Everolimus, Palbociclib or Trametinib in Advanced Cancer Subjects With EGFR Mutation/Amplification, HER2 Mutation/Amplification, HER3/4 Mutation or KRAS Mutation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5401,
+                    "therapyName": "Everolimus + Neratinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5402,
+                    "therapyName": "Neratinib + Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5403,
+                    "therapyName": "Neratinib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03412877",
+            "title": "Administration of Autologous T-Cells Genetically Engineered to Express T-Cell Receptors Reactive Against Mutated Neoantigens in People With Metastatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9195,
+                    "therapyName": "Aldesleukin + Cyclophosphamide + Fludarabine + iTCR-transduced PBL",
+                    "synonyms": null
+                },
+                {
+                    "id": 9196,
+                    "therapyName": "Aldesleukin + Cyclophosphamide + Fludarabine + iTCR-transduced PBL + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03607643",
+            "title": "A Study of the Efficacy of Cannabidiol in Patients With Multiple Myeloma, Glioblastoma Multiforme, and GI Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2183,
+                    "therapyName": "Bevacizumab + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFIRINOX"
+                },
+                {
+                    "id": 7247,
+                    "therapyName": "Bevacizumab + Cannabidiol + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + Cannabidiol + FOLFIRINOX"
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 7248,
+                    "therapyName": "Bortezomib + Cannabidiol",
+                    "synonyms": null
+                },
+                {
+                    "id": 7249,
+                    "therapyName": "Cannabidiol + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 7250,
+                    "therapyName": "Cannabidiol + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03663712",
+            "title": "Talimogene Laherparepvec for the Treatment of Peritoneal Surface Malignancies (TEMPO)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2695,
+                    "therapyName": "Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04122625",
+            "title": "Study to Assess Safety and Efficacy of the Second Mitochondrial-derived Activator of Caspases (SMAC) Mimetic Debio 1143 (SMARTPLUS-106)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9181,
+                    "therapyName": "Debio 1143 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04273061",
+            "title": "Investigating the Effects of Atezolizumab in People Whose Tumour DNA or RNA Indicates Possible Sensitivity (CAPTIV-8)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

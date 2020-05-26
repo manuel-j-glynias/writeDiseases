@@ -1,0 +1,164 @@
+{
+    "id": 3507,
+    "name": "dermatofibrosarcoma protuberans",
+    "source": "DOID",
+    "definition": "A fibrosarcoma that is located_in the dermis laryer of the skin and that begins as a hard nodule and grows slowly. [url:http\\://en.wikipedia.org/wiki/Dermatofibrosarcoma_protuberans, url:http\\://www.cancer.gov/dictionary?CdrID=44276]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3507",
+    "evidence": [
+        {
+            "id": 1977,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial that supported FDA approval, treatment with Gleevec (imatinib) resulted in a median time-to-progression of 23.9 months, and complete response in 33% (4/12) and partial response in 50% (6/12) of patients with dermatofibrosarcoma protuberans (PMID: 18451237).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3507,
+                "name": "dermatofibrosarcoma protuberans",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6183,
+                    "pubMedId": 18451237,
+                    "title": "Phase II, open-label study evaluating the activity of imatinib in treating life-threatening malignancies known to be associated with imatinib-sensitive tyrosine kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18451237"
+                },
+                {
+                    "id": 15459,
+                    "pubMedId": null,
+                    "title": "Gleevec (imatinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=021588"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2930,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclincal study, Kisqali (ribociclib) inhibited proliferation of a Gleevec (imatinib)-resistant dermatofibroscarcoma cell line harboring deletion of both CDKN2A and CDKN2B and a PDGFB rearrangement (PMID: 25852058).",
+            "molecularProfile": {
+                "id": 10737,
+                "profileName": "PDGFB fusion CDKN2A del CDKN2B del"
+            },
+            "therapy": {
+                "id": 790,
+                "therapyName": "Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3507,
+                "name": "dermatofibrosarcoma protuberans",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3535,
+                    "pubMedId": 25852058,
+                    "title": "CDKN2A/p16 Loss Implicates CDK4 as a Therapeutic Target in Imatinib-Resistant Dermatofibrosarcoma Protuberans.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25852058"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4622,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Gleevec (imatinib) treatment in patients with fibrosarcomatous-dermatofibrosarcoma protuberans harboring COL1A1-PDGFB resulted in a progression free survival of 11 months, a partial response of 80% (8/10), one patient (1/10) with stable disease, and one patient (1/10) with progressive disease (PMID: 26261104).",
+            "molecularProfile": {
+                "id": 18613,
+                "profileName": "COL1A1 - PDGFB"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3507,
+                "name": "dermatofibrosarcoma protuberans",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4635,
+                    "pubMedId": 26261104,
+                    "title": "Efficacy and Biological Activity of Imatinib in Metastatic Dermatofibrosarcoma Protuberans (DFSP).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26261104"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12923,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "COL1A1-PDGFRB fusions aid the diagnosis of dermatofibrosarcoma protuberans (NCCN.org).",
+            "molecularProfile": {
+                "id": 18613,
+                "profileName": "COL1A1 - PDGFB"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3507,
+                "name": "dermatofibrosarcoma protuberans",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01446809",
+            "title": "Pazopanib Hydrochloride Followed By Chemotherapy and Surgery in Treating Patients With Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1472,
+                    "therapyName": "Doxorubicin + Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1471,
+                    "therapyName": "Doxorubicin + Ifosfamide + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

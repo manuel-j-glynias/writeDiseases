@@ -1,0 +1,4089 @@
+{
+    "id": 2671,
+    "name": "transitional cell carcinoma",
+    "source": "DOID",
+    "definition": "A carcinoma that derives_from transitional epithelial cells. [url:http\\://en.wikipedia.org/wiki/Transitional_cell_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "3995"
+    ],
+    "termId": "DOID:2671",
+    "evidence": [
+        {
+            "id": 1750,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, PF-03446962 demonstrated multiple toxicities and limited efficacy in patients with urothelial cancer (PMID: 24566706).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2029,
+                "therapyName": "PF-03446962",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2008,
+                    "pubMedId": 24566706,
+                    "title": "PF-03446962, a fully-human monoclonal antibody against transforming growth-factor \u03b2 (TGF\u03b2) receptor ALK1, in pre-treated patients with urothelial cancer: an open label, single-group, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24566706"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2575,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, urothelial cancer cells with low expression of wild-type FGFR3 that harbored HRAS G12V demonstrated resistance to AZ8010 in culture (PMID: 22869148).",
+            "molecularProfile": {
+                "id": 13021,
+                "profileName": "FGFR3 dec exp FGFR3 wild-type HRAS G12V"
+            },
+            "therapy": {
+                "id": 2955,
+                "therapyName": "AZ8010",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3319,
+                    "pubMedId": 22869148,
+                    "title": "Tumour cell responses to new fibroblast growth factor receptor tyrosine kinase inhibitors and identification of a gatekeeper mutation in FGFR3 as a mechanism of acquired resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22869148"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2576,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, urothelial cancer cells with low expression of wild-type FGFR3 that harbored HRAS G12V demonstrated resistance to AZD4547 in culture (PMID: 22869148).",
+            "molecularProfile": {
+                "id": 13021,
+                "profileName": "FGFR3 dec exp FGFR3 wild-type HRAS G12V"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3319,
+                    "pubMedId": 22869148,
+                    "title": "Tumour cell responses to new fibroblast growth factor receptor tyrosine kinase inhibitors and identification of a gatekeeper mutation in FGFR3 as a mechanism of acquired resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22869148"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2583,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PD173074 inhibited growth of urothelial carcinoma (UC) cells expressing high levels of FGFR3 S249C, but had reduced efficacy against UC cells with low levels of FGFR3 S249C expression (PMID: 22869148).",
+            "molecularProfile": {
+                "id": 13018,
+                "profileName": "FGFR3 S249C FGFR3 over exp"
+            },
+            "therapy": {
+                "id": 2948,
+                "therapyName": "PD173074",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3319,
+                    "pubMedId": 22869148,
+                    "title": "Tumour cell responses to new fibroblast growth factor receptor tyrosine kinase inhibitors and identification of a gatekeeper mutation in FGFR3 as a mechanism of acquired resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22869148"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2931,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with urothelial carcinioma harboring ERBB3 G284R demonstrated stable disease for 7 months when treated with Gilotrif (afatinib) (J Clin Oncol 33, 2015 (suppl 7; abstr 312)).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3536,
+                    "pubMedId": null,
+                    "title": "Association of HER2 and ErbB3 molecular alterations with afatinib sensitivity in platinum-refractory metastatic urothelial carcinoma (UC) in a phase II trial",
+                    "url": "http://meetinglibrary.asco.org/content/141495-159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3272,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 inhibited proliferation of urothelial cancer cells with over expression of FGFR3 in culture (PMID: 22869148).",
+            "molecularProfile": {
+                "id": 8807,
+                "profileName": "FGFR3 over exp"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3319,
+                    "pubMedId": 22869148,
+                    "title": "Tumour cell responses to new fibroblast growth factor receptor tyrosine kinase inhibitors and identification of a gatekeeper mutation in FGFR3 as a mechanism of acquired resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22869148"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3273,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZ8010 inhibited proliferation of urothelial cancer cells with over expression of FGFR3 in culture (PMID: 22869148).",
+            "molecularProfile": {
+                "id": 8807,
+                "profileName": "FGFR3 over exp"
+            },
+            "therapy": {
+                "id": 2955,
+                "therapyName": "AZ8010",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3319,
+                    "pubMedId": 22869148,
+                    "title": "Tumour cell responses to new fibroblast growth factor receptor tyrosine kinase inhibitors and identification of a gatekeeper mutation in FGFR3 as a mechanism of acquired resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22869148"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3278,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, urothelial cancer cells with low expression of wild-type FGFR3 that harbored HRAS G12V demonstrated resistance to PD173074 in culture (PMID: 22869148).",
+            "molecularProfile": {
+                "id": 13021,
+                "profileName": "FGFR3 dec exp FGFR3 wild-type HRAS G12V"
+            },
+            "therapy": {
+                "id": 2948,
+                "therapyName": "PD173074",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3319,
+                    "pubMedId": 22869148,
+                    "title": "Tumour cell responses to new fibroblast growth factor receptor tyrosine kinase inhibitors and identification of a gatekeeper mutation in FGFR3 as a mechanism of acquired resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22869148"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3687,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II clinical trial, Sacituzumab govitecan treatment resulted in 33% (2/6) partial response and 17% (1/6) stable disease in urothelial carcinoma patients over expressing Tacstd2 (PMID: 26541586).",
+            "molecularProfile": {
+                "id": 14781,
+                "profileName": "TACSTD2 over exp"
+            },
+            "therapy": {
+                "id": 3227,
+                "therapyName": "Sacituzumab govitecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3993,
+                    "pubMedId": 26541586,
+                    "title": "Sacituzumab Govitecan, a Novel Antibody--Drug Conjugate, in Patients With Metastatic Platinum-Resistant Urothelial Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26541586"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17156,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (BCL2001) that supported FDA approval, Balversa (erdafitinib) treatment resulted in an objective response rate of 40% (40/99, 3 complete response, 37 partial response) and a disease control rate of 80% in patients with metastatic or unresectable urothelial carcinoma harboring FGFR alterations and FGFR3-TACC3 v1 and v3 fusions are included in the companion diagnostic (PMID: 31340094; NCT02365597).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15450,
+                    "pubMedId": null,
+                    "title": "Balversa (erdafitinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212018"
+                },
+                {
+                    "id": 15824,
+                    "pubMedId": 31340094,
+                    "title": "Erdafitinib in Locally Advanced or Metastatic Urothelial Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31340094"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4002,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted in partial response in 2 urothelial cancer patients harboring FGFR3-TACC3 (PMID: 26324363; NCT01703481).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4363,
+                    "pubMedId": 26324363,
+                    "title": "Phase I Dose-Escalation Study of JNJ-42756493, an Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients With Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324363"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4003,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted in partial response for more than 12 months in a urothelial cancer patient harboring FGFR2-BICC1 and FGFR2-CASP7 fusions (PMID: 26324363; NCT01703481).",
+            "molecularProfile": {
+                "id": 31773,
+                "profileName": "FGFR2 - BICC1 FGFR2 - CASP7"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4363,
+                    "pubMedId": 26324363,
+                    "title": "Phase I Dose-Escalation Study of JNJ-42756493, an Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients With Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324363"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12022,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, Cyramza (ramucirumab) and Taxotere (docetaxel) combination treatment resulted in improved median progression-free survival (4.1 vs 2.8 months) and objective response rate (24.5% vs 14.0%) when compared to Taxotere (docetaxel) single treatment in urothelial carcinoma patients (Annals of Oncology (2017) 28 (suppl_5): v605-v649; NCT02426125).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1423,
+                "therapyName": "Docetaxel + Ramucirumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9972,
+                    "pubMedId": null,
+                    "title": "RANGE: a randomized, double-blind, placebo-controlled phase 3 study of docetaxel (DOC) with or without ramucirumab (RAM) in platinum-refractory advanced or metastatic urothelial carcinoma.",
+                    "url": "http://oncologypro.esmo.org/Meeting-Resources/ESMO-2017-Congress/RANGE-a-randomized-double-blind-placebo-controlled-phase-3-study-of-docetaxel-DOC-with-or-without-ramucirumab-RAM-in-platinum-refractor"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4957,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Cyramza (ramucirumab) and Taxotere (docetaxel) combination treatment resulted in improved median progression-free survival (5.4 months) when compared to Taxotere (docetaxel) single treatment (2.8 months) in urothelial carcinoma patients (PMID: 26926681).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1423,
+                "therapyName": "Docetaxel + Ramucirumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4808,
+                    "pubMedId": 26926681,
+                    "title": "Docetaxel As Monotherapy or Combined With Ramucirumab or Icrucumab in Second-Line Treatment for Locally Advanced or Metastatic Urothelial Carcinoma: An Open-Label, Three-Arm, Randomized Controlled Phase II Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26926681"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4958,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Icrucumab (IMC-18F1) and Taxotere (docetaxel) combination treatment did not result in improved median progression-free survival (1.6 months) when compared to Taxotere (docetaxel) single treatment (2.8 months) in urothelial carcinoma patients (PMID: 26926681).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3701,
+                "therapyName": "Docetaxel + Icrucumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4808,
+                    "pubMedId": 26926681,
+                    "title": "Docetaxel As Monotherapy or Combined With Ramucirumab or Icrucumab in Second-Line Treatment for Locally Advanced or Metastatic Urothelial Carcinoma: An Open-Label, Three-Arm, Randomized Controlled Phase II Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26926681"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6414,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, patients with urothelial carcinoma treated with the combination of Taxol (paclitaxel) and Votrient (pazopanib) demonstrated an overall response rate of 54% (15/28), in which 11% (3/28) experienced a complete response and 43% (12/28) experienced stable disease (PMID: 27068017).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1143,
+                "therapyName": "Paclitaxel + Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5569,
+                    "pubMedId": 27068017,
+                    "title": "Phase II Study of Pazopanib and Paclitaxel in Patients With Refractory Urothelial Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27068017"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6426,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial that supported FDA approval, treatment with Tecentriq (atezolizumab) in advanced urothelial carcinoma patients resulted in an objective response rate of 15% (45/310) in all patients, and 26% (26/100) in patients with immune cell PD-L1 expression greater than or equal to 5%, and resulted in an overall survival of 8.6 mo in patients receiving treatment post-progression compared to 1.2 mo in patients receiving no treatment post-progression (PMID: 26952546, PMID: 28950298; NCT02108652).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1201,
+                "therapyName": "Atezolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5587,
+                    "pubMedId": 26952546,
+                    "title": "Atezolizumab in patients with locally advanced and metastatic urothelial carcinoma who have progressed following treatment with platinum-based chemotherapy: a single-arm, multicentre, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26952546"
+                },
+                {
+                    "id": 10452,
+                    "pubMedId": 28950298,
+                    "title": "Atezolizumab in platinum-treated locally advanced or metastatic urothelial carcinoma: post-progression outcomes from the phase II IMvigor210 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28950298"
+                },
+                {
+                    "id": 15451,
+                    "pubMedId": null,
+                    "title": "Tecentriq (atezolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=761034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6546,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, BGJ398 and Alpelisib (BYL719) combination treatment resulted in partial response and a complete shrinkage of target lesions lasting 4 months in one urothelial carcinoma patient harboring a FGFR3-TACC3 fusion (J Clin Oncol 34, 2016 (suppl; abstr 2500)).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 1293,
+                "therapyName": "Alpelisib + BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5692,
+                    "pubMedId": null,
+                    "title": "Phase Ib study of BGJ398 in combination with BYL719 in patients (pts) with select advanced solid tumors.",
+                    "url": "http://abstracts.asco.org/176/AbstView_176_164336.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6736,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human urinary tract transitional cell carcinoma cells harboring mutant NRAS were moderately sensitive to Mekinist (trametinib) growth inhibition in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6737,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human urinary transitional cell carcinoma cells harboring mutant HRAS were insensitive to Mekinist (trametinib) in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 1208,
+                "profileName": "HRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6743,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Tecentriq (atezolizumab) treatment resulted in an objective response rate of 19% (23/119), disease control rate of 38% (45/119), median progression free survival of 2.4 months, and median overall survival of 10.6 months in advanced urothelial carcinoma patients with tumor infiltrating immune cell expressing PD-L1 (J Clin Oncol 34, 2016 (suppl; abstr LBA4500)).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1201,
+                "therapyName": "Atezolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5805,
+                    "pubMedId": null,
+                    "title": "Atezolizumab (atezo) as first-line (1L) therapy in cisplatin-ineligible locally advanced/metastatic urothelial carcinoma (mUC): Primary analysis of IMvigor210 cohort 1.",
+                    "url": "http://meetinglibrary.asco.org/content/170759-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14302,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (IMvigor210) that supported FDA approval, treatment with Tecentriq (atezolizumab) in advanced urothelial carcinoma patients resulted in an objective response rate of 15% (45/310) in all patients, and 26% (26/100) in patients with immune cell CD274 (PD-L1) expression greater than or equal to 5% (PMID: 26952546, NCT02108652).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1201,
+                "therapyName": "Atezolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5587,
+                    "pubMedId": 26952546,
+                    "title": "Atezolizumab in patients with locally advanced and metastatic urothelial carcinoma who have progressed following treatment with platinum-based chemotherapy: a single-arm, multicentre, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26952546"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15451,
+                    "pubMedId": null,
+                    "title": "Tecentriq (atezolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=761034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6974,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Neuvenge (lapuleucel-T) treatment did not result in statistically significant improvement of overall survival (37.0 vs 22.2 months, HR = 0.96) or disease recurrence-free survival (11.9 vs 10.1 months, HR = 0.99) compared to standard of care in ERBB2 (HER2) positive urothelial cancer patients (J Clin Oncol 34, 2016 (suppl; abstr 4513)).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 4344,
+                "therapyName": "lapuleucel-T",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5991,
+                    "pubMedId": null,
+                    "title": "Phase 2 trial results of DN24-02, a HER2-targeted autologous cellular immunotherapy in HER2+ urothelial cancer patients (pts).",
+                    "url": "http://meetinglibrary.asco.org/content/162594-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6975,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Cometriq (cabozantinib) treatment resulted in complete response in 2% (1/41), partial response in 17% (7/41), stable disease in 44% (18/41) of urothelial carcinoma patients, with a median progression-free survival of 3.7 months and median overall survival of 8.2 months (J Clin Oncol 34, 2016 (suppl; abstr 4534)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5993,
+                    "pubMedId": null,
+                    "title": "A phase II study of cabozantinib in patients (pts) with relapsed or refractory metastatic urothelial carcinoma (mUC).",
+                    "url": "http://meetinglibrary.asco.org/content/169119-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6976,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, BGJ398 treatment resulted in complete response in 4% (1/25) and partial response in 32% (8/25) of urothelial carcinoma patients harboring FGFR3 mutations or fusions (J Clin Oncol 34, 2016 (suppl; abstr 4517); NCT01004224).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5994,
+                    "pubMedId": null,
+                    "title": "Efficacy of BGJ398, a fibroblast growth factor receptor (FGFR) 1-3 inhibitor, in patients (pts) with previously treated advanced/metastatic urothelial carcinoma (mUC) with FGFR3 alterations.",
+                    "url": "http://meetinglibrary.asco.org/content/164341-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14525,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, BGJ398 treatment led to 25.4% (17/67) confirmed responses and a disease control rate of 64% (43/67), which included complete responses, partial responses, and stable disease, and resulted in a median progression-free survival of 3.75 months and a median overall survival of 7.75 months (PMID: 29848605).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11726,
+                    "pubMedId": 29848605,
+                    "title": "Efficacy of BGJ398, a Fibroblast Growth Factor Receptor 1-3 Inhibitor, in Patients with Previously Treated Advanced Urothelial Carcinoma with FGFR3 Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29848605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6977,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, BGJ398 treatment resulted in complete response in 4% (1/25) and partial response in 32% (8/25) of urothelial carcinoma patients harboring FGFR3 mutations or fusions (J Clin Oncol 34, 2016 (suppl; abstr 4517)).",
+            "molecularProfile": {
+                "id": 14903,
+                "profileName": "FGFR3 fusion"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5994,
+                    "pubMedId": null,
+                    "title": "Efficacy of BGJ398, a fibroblast growth factor receptor (FGFR) 1-3 inhibitor, in patients (pts) with previously treated advanced/metastatic urothelial carcinoma (mUC) with FGFR3 alterations.",
+                    "url": "http://meetinglibrary.asco.org/content/164341-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9839,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Domatinostat (4SC-202) inhibited proliferation and induced cell-cycle alterations and cell death in urothelial cancer cell lines in culture (PMID: 27250763).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4136,
+                "therapyName": "Domatinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7675,
+                    "pubMedId": 27250763,
+                    "title": "Evaluation of the Therapeutic Potential of the Novel Isotype Specific HDAC Inhibitor 4SC-202 in Urothelial Carcinoma Cell Lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27250763"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10128,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (CheckMate 275) that supported FDA approval, treatment with Opdivo (nivolumab) resulted in objective response in 19.6% (52/265) of urothelial carcinoma patients with prior platinum therapy, with complete response in 2% (6/265), and partial response in 17% (46/265) of patients (PMID: 28131785; NCT02387996).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8116,
+                    "pubMedId": 28131785,
+                    "title": "Nivolumab in metastatic urothelial carcinoma after platinum therapy (CheckMate 275): a multicentre, single-arm, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28131785"
+                },
+                {
+                    "id": 15569,
+                    "pubMedId": null,
+                    "title": "Opdivo (nivolumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125554"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10352,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Afinitor (everolimus) in patients with transitional cell carcinoma resulted in 2 patients with a partial response, 8 patients with stable disease, and 27 patients with progressive disease, and resulted in a median progression free survival of 61 days and a median overall survival of 101 days (PMID: 22473592).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8355,
+                    "pubMedId": 22473592,
+                    "title": "Phase II study of everolimus in patients with locally advanced or metastatic transitional cell carcinoma of the urothelial tract: clinical activity, molecular response, and biomarkers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22473592"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10355,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, 57% (8/14) of transitional cell carcinoma patients that demonstrated uncontrolled disease after treatment with Afinitor (everolimus) harbored PTEN loss compared to 0% of patients with controlled disease demonstrating no evidence of PTEN loss (PMID: 22473592).",
+            "molecularProfile": {
+                "id": 479,
+                "profileName": "PTEN loss"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8355,
+                    "pubMedId": 22473592,
+                    "title": "Phase II study of everolimus in patients with locally advanced or metastatic transitional cell carcinoma of the urothelial tract: clinical activity, molecular response, and biomarkers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22473592"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 10456,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, the combination of Afinitor (everolimus) and Taxol (paclitaxel) resulted in a partial response lasting over 13 months in a metastatic urothelial carcinoma patient harboring NF2 Y153fs*1, as well as ATM V2119fs*8, an ATR splice site mutation, and TP53 R280K, who had progressed on platinum-based chemotherapy and single agent Taxotere (docetaxel) therapy (PMID: 25630452).",
+            "molecularProfile": {
+                "id": 27471,
+                "profileName": "ATM V2119fs ATR mut NF2 Y153fs TP53 R280K"
+            },
+            "therapy": {
+                "id": 5505,
+                "therapyName": "Everolimus + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8466,
+                    "pubMedId": 25630452,
+                    "title": "Exceptional Response on Addition of Everolimus to Taxane in Urothelial Carcinoma Bearing an NF2 Mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25630452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10717,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial that supported FDA approval, treatment with Imfinzi (durvalumab) was well tolerated and resulted in an overall response rate of 17.8% (34/191; 7 complete responses), median progression-free survival of 1.5 months, and median overall survival of 18.2 months in patients with advanced urothelial cancer (PMID: 28817753; NCT01693562).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1356,
+                "therapyName": "Durvalumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8780,
+                    "pubMedId": null,
+                    "title": "Updated efficacy and tolerability of durvalumab in locally advanced or metastatic urothelial carcinoma.",
+                    "url": "http://meetinglibrary.asco.org/content/178823-197"
+                },
+                {
+                    "id": 10103,
+                    "pubMedId": 28817753,
+                    "title": "Efficacy and Safety of Durvalumab in Locally Advanced or Metastatic Urothelial Carcinoma: Updated Results From a Phase 1/2 Open-label Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28817753"
+                },
+                {
+                    "id": 15651,
+                    "pubMedId": null,
+                    "title": "Imfinzi (durvalumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761069"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10816,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial that supported FDA approval (JAVELIN), Bavencio (avelumab) demonstrated safety and resulted in a response rate of 17% (27/161; 9 complete responses and 18 partial responses), median progression-free survival of 6.3 weeks, and median overall survival of 6.5 months in patients with platinum-refractory metastatic urothelial carcinoma (PMID: 29217288; NCT01772004).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3144,
+                "therapyName": "Avelumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10599,
+                    "pubMedId": 29217288,
+                    "title": "Avelumab in metastatic urothelial carcinoma after platinum failure (JAVELIN Solid Tumor): pooled results from two expansion cohorts of an open-label, phase 1 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29217288"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10924,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III (KEYNOTE-045) trial that supported FDA approval, treatment with Keytruda (pembrolizumab) resulted in improved median overall survival (10.3 vs 7.4 months, p=0.002) and objective response rate (21.1% vs 11.4%) compared to chemotherapy in patients with platinum-refractory advanced urothelial carcinoma (PMID: 28212060; NCT02256436).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8935,
+                    "pubMedId": 28212060,
+                    "title": "Pembrolizumab as Second-Line Therapy for Advanced Urothelial Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28212060"
+                },
+                {
+                    "id": 15508,
+                    "pubMedId": null,
+                    "title": "Keytruda (pembrolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11210,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of AZD4547 and Buparlisib (BKM120) worked synergistically to induce apoptosis and inhibit growth of a urothelial cell carcinoma cell line harboring FGFR3-TACC3 in culture, and inhibited tumor growth in xenograft models, with increased efficacy over either agent alone (PMID: 28108151).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 5898,
+                "therapyName": "AZD4547 + Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9154,
+                    "pubMedId": 28108151,
+                    "title": "A Functional Genetic Screen Identifies the Phosphoinositide 3-kinase Pathway as a Determinant of Resistance to Fibroblast Growth Factor Receptor Inhibitors in FGFR Mutant Urothelial Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28108151"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11213,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of AZD4547 and Buparlisib (BKM120) worked synergistically to induce apoptosis and inhibit growth of a urothelial cell carcinoma cell line with FGFR1 amplification in culture, with increased efficacy over either agent alone (PMID: 28108151).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 5898,
+                "therapyName": "AZD4547 + Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9154,
+                    "pubMedId": 28108151,
+                    "title": "A Functional Genetic Screen Identifies the Phosphoinositide 3-kinase Pathway as a Determinant of Resistance to Fibroblast Growth Factor Receptor Inhibitors in FGFR Mutant Urothelial Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28108151"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11651,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with Enfortumab vedotin resulted in an overall response rate of 40% (n=60), with 3 complete responses, a median duration of response of 18 weeks, and median progression-free survival of 17 weeks in patients with metastatic urothelial carcinoma demonstrating high Nectin4 expression (J Clin Oncol 35, 2017 (suppl; abstr 106); NCT02091999).",
+            "molecularProfile": {
+                "id": 28178,
+                "profileName": "NECTIN4 over exp"
+            },
+            "therapy": {
+                "id": 4125,
+                "therapyName": "Enfortumab vedotin-ejfv",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9687,
+                    "pubMedId": null,
+                    "title": "A Phase I Study of Enfortumab Vedotin: Updated Analysis of Patients with Metastatic Urothelial Cancer.",
+                    "url": "http://meetinglibrary.asco.org/record/152459/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12129,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, treatment with Imfinzi (durvalumab) resulted in an overall response rate (ORR) of 17.8% (34/191) in advanced urothelial carcinoma patients with an ORR of 27.6% (27/98) in patients with high PD-L1 (CD274) expression and 5.1% (4/79) in patients with low or negative PD-L1 (CD274), and similar complete response rates between the two groups (PMID: 28817753; NCT01693562).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1356,
+                "therapyName": "Durvalumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10103,
+                    "pubMedId": 28817753,
+                    "title": "Efficacy and Safety of Durvalumab in Locally Advanced or Metastatic Urothelial Carcinoma: Updated Results From a Phase 1/2 Open-label Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28817753"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13808,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, Derazantinib (ARQ 087) treatment resulted in partial response in a patients with FGFR2 and FGF19-amplified urothelial cancer who remained on treatment for 40 weeks (PMID: 28972963; NCT01752920).",
+            "molecularProfile": {
+                "id": 29430,
+                "profileName": "FGF19 amp FGFR2 amp"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11278,
+                    "pubMedId": 28972963,
+                    "title": "A Phase 1 study of ARQ 087, an oral pan-FGFR inhibitor in patients with advanced solid tumours.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28972963"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14157,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MATCH) trial, AZD4547 treatment resulted in partial response in a patient with urothelial transitional cell carcinoma harboring FGFR3-TACC3 (J Clin Oncol 36, 2018 (suppl; abstr 2503); NCT02465060).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11482,
+                    "pubMedId": null,
+                    "title": "Molecular analysis for therapy choice (MATCH) arm W: Phase II study of AZD4547 in patients with tumors with aberrations in the FGFR pathway.",
+                    "url": "https://meetinglibrary.asco.org/record/161579/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14193,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, Vofatamab (B-701) in combination with Taxotere (docetaxel) demonstrated safety and preliminary efficacy, resulted in enhanced activity in patients with locally advanced or metastatic urothelial carcinoma harboring FGFR3 mutations or fusions comparing to wild-type patients (Journal of Clinical Oncology 36, no. 15_suppl (May 20 2018) 4534-4534; NCT02401542).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 7035,
+                "therapyName": "Docetaxel + Vofatamab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11504,
+                    "pubMedId": null,
+                    "title": "FIERCE-21: Phase 1b/2 study of docetaxel + b-701, a selective inhibitor of FGFR3, in relapsed or refractory (R/R) metastatic urothelial carcinoma (mUCC).",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.4534"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14194,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, Vofatamab (B-701) in combination with Taxotere (docetaxel) demonstrated safety and preliminary efficacy, resulted in enhanced activity in patients with locally advanced or metastatic urothelial carcinoma harboring FGFR3 mutations or fusions comparing to wild-type patients (Journal of Clinical Oncology 36, no. 15_suppl (May 20 2018) 4534-4534; NCT02401542).",
+            "molecularProfile": {
+                "id": 14903,
+                "profileName": "FGFR3 fusion"
+            },
+            "therapy": {
+                "id": 7035,
+                "therapyName": "Docetaxel + Vofatamab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11504,
+                    "pubMedId": null,
+                    "title": "FIERCE-21: Phase 1b/2 study of docetaxel + b-701, a selective inhibitor of FGFR3, in relapsed or refractory (R/R) metastatic urothelial carcinoma (mUCC).",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.4534"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14213,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Balversa (erdafitinib) treatment resulted in an objective response rate of 42% (40/96, 3 complete response, 37 partial response) and a disease control rate of 80% in patients with metastatic or unresectable urothelial carcinoma harboring FGFR alterations (J Clin Oncol 36, 2018 (suppl; abstr 4503); NCT02365597).",
+            "molecularProfile": {
+                "id": 1221,
+                "profileName": "FGFR1 mutant"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11515,
+                    "pubMedId": null,
+                    "title": "First results from the primary analysis population of the phase 2 study of erdafitinib (ERDA; JNJ-42756493) in patients (pts) with metastatic or unresectable urothelial carcinoma (mUC) and FGFR alterations (FGFRalt).",
+                    "url": "https://meetinglibrary.asco.org/record/160559/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14214,
+            "approvalStatus": "FDA approved - Has Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (BCL2001) that supported FDA approval, Balversa (erdafitinib) treatment resulted in an objective response rate of 40% (40/99, 3 complete response, 37 partial response) and a disease control rate of 80% in patients with metastatic or unresectable urothelial carcinoma harboring FGFR alterations (PMID: 31340094; NCT02365597).",
+            "molecularProfile": {
+                "id": 1185,
+                "profileName": "FGFR2 mutant"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15450,
+                    "pubMedId": null,
+                    "title": "Balversa (erdafitinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212018"
+                },
+                {
+                    "id": 15824,
+                    "pubMedId": 31340094,
+                    "title": "Erdafitinib in Locally Advanced or Metastatic Urothelial Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31340094"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17633,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Balversa (erdafitinib) is included in the guidelines for patients with advanced or metastatic urothelial carcinoma harboring Fgfr2 alterations after progression on platinum-based regimens (NCCN.org).",
+            "molecularProfile": {
+                "id": 1185,
+                "profileName": "FGFR2 mutant"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18613,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted in an objective response rate of 46% (12/26) in patients with urothelial carcinoma harboring FGFR genomic alterations, including 17 with FGFR3 mutations, and 11 with FGFR2 and/or FGFR3 fusions (PMID: 31088831; NCT01703481).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16359,
+                    "pubMedId": 31088831,
+                    "title": "Multicenter Phase I Study of Erdafitinib (JNJ-42756493), Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients with Advanced or Refractory Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31088831"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16743,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted in 25% tumor shrinkage at week 8 in an urothelial cancer patient harboring FGFR3 mutations (PMID: 26324363; NCT01703481).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4363,
+                    "pubMedId": 26324363,
+                    "title": "Phase I Dose-Escalation Study of JNJ-42756493, an Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients With Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324363"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14215,
+            "approvalStatus": "FDA approved - Has Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (BCL2001) that supported FDA approval, Balversa (erdafitinib) treatment resulted in an objective response rate of 40% (40/99, 3 complete response, 37 partial response) and a disease control rate of 80% in patients with metastatic or unresectable urothelial carcinoma harboring FGFR alterations (PMID: 31340094; NCT02365597).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15450,
+                    "pubMedId": null,
+                    "title": "Balversa (erdafitinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212018"
+                },
+                {
+                    "id": 15824,
+                    "pubMedId": 31340094,
+                    "title": "Erdafitinib in Locally Advanced or Metastatic Urothelial Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31340094"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17634,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Balversa (erdafitinib) is included in the guidelines for patients with advanced or metastatic urothelial carcinoma harboring Fgfr3 alterations after progression on platinum-based regimens (NCCN.org).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14370,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (KEYNOTE-052) trial that supported FDA approval, Keytruda (pembrolizumab) treatment resulted in objective response in 24% (89/370) of cisplatin-ineligible patients with urothelial cancer, patients with an expression of CD274 (PD-L1) over 10% demonstrated improved response, with an objective response rate of 38% (42/110) (PMID: 28967485; NCT02335424).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11612,
+                    "pubMedId": 28967485,
+                    "title": "First-line pembrolizumab in cisplatin-ineligible patients with locally advanced and unresectable or metastatic urothelial cancer (KEYNOTE-052): a multicentre, single-arm, phase 2 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28967485"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15508,
+                    "pubMedId": null,
+                    "title": "Keytruda (pembrolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14522,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, two patients with metastatic urothelial carcinoma progressed while being treated with BGJ398 and subsequent cell-free DNA testing revealed FGFR3 V555L (also corresponds to V443L) (PMID: 29848605).",
+            "molecularProfile": {
+                "id": 27304,
+                "profileName": "FGFR3 V555L"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11726,
+                    "pubMedId": 29848605,
+                    "title": "Efficacy of BGJ398, a Fibroblast Growth Factor Receptor 1-3 Inhibitor, in Patients with Previously Treated Advanced Urothelial Carcinoma with FGFR3 Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29848605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14523,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with metastatic urothelial carcinoma progressed while being treated with BGJ398 and subsequent cell-free DNA testing revealed FGFR3 V555M (also corresponds to V443M) and FGFR3 L608V (also corresponds to L496V) (PMID: 29848605).",
+            "molecularProfile": {
+                "id": 30140,
+                "profileName": "FGFR3 V555M FGFR3 L608V"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11726,
+                    "pubMedId": 29848605,
+                    "title": "Efficacy of BGJ398, a Fibroblast Growth Factor Receptor 1-3 Inhibitor, in Patients with Previously Treated Advanced Urothelial Carcinoma with FGFR3 Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29848605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14524,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with metastatic urothelial carcinoma progressed while being treated with BGJ398 and subsequent cell-free DNA testing revealed FGFR3 V555M (also corresponds to V443M) (PMID: 29848605).",
+            "molecularProfile": {
+                "id": 25236,
+                "profileName": "FGFR3 V555M"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11726,
+                    "pubMedId": 29848605,
+                    "title": "Efficacy of BGJ398, a Fibroblast Growth Factor Receptor 1-3 Inhibitor, in Patients with Previously Treated Advanced Urothelial Carcinoma with FGFR3 Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29848605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17152,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (BCL2001) that supported FDA approval, Balversa (erdafitinib) treatment resulted in an objective response rate of 40% (40/99, 3 complete response, 37 partial response) and a disease control rate of 80% in patients with metastatic or unresectable urothelial carcinoma harboring FGFR alterations and FGFR3 R248C is included in the companion diagnostic (PMID: 31340094; NCT02365597).",
+            "molecularProfile": {
+                "id": 1737,
+                "profileName": "FGFR3 R248C"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15450,
+                    "pubMedId": null,
+                    "title": "Balversa (erdafitinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212018"
+                },
+                {
+                    "id": 15824,
+                    "pubMedId": 31340094,
+                    "title": "Erdafitinib in Locally Advanced or Metastatic Urothelial Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31340094"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17153,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (BCL2001) that supported FDA approval, Balversa (erdafitinib) treatment resulted in an objective response rate of 40% (40/99, 3 complete response, 37 partial response) and a disease control rate of 80% in patients with metastatic or unresectable urothelial carcinoma harboring FGFR alterations and FGFR3 S249C is included in the companion diagnostic (PMID: 31340094; NCT02365597).",
+            "molecularProfile": {
+                "id": 1736,
+                "profileName": "FGFR3 S249C"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15450,
+                    "pubMedId": null,
+                    "title": "Balversa (erdafitinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212018"
+                },
+                {
+                    "id": 15824,
+                    "pubMedId": 31340094,
+                    "title": "Erdafitinib in Locally Advanced or Metastatic Urothelial Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31340094"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17154,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (BCL2001) that supported FDA approval, Balversa (erdafitinib) treatment resulted in an objective response rate of 40% (40/99, 3 complete response, 37 partial response) and a disease control rate of 80% in patients with metastatic or unresectable urothelial carcinoma harboring FGFR alterations and FGFR3 G370C is included in the companion diagnostic (PMID: 31340094; NCT02365597).",
+            "molecularProfile": {
+                "id": 2897,
+                "profileName": "FGFR3 G370C"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15450,
+                    "pubMedId": null,
+                    "title": "Balversa (erdafitinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212018"
+                },
+                {
+                    "id": 15824,
+                    "pubMedId": 31340094,
+                    "title": "Erdafitinib in Locally Advanced or Metastatic Urothelial Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31340094"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17155,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (BCL2001) that supported FDA approval, Balversa (erdafitinib) treatment resulted in an objective response rate of 40% (40/99, 3 complete response, 37 partial response) and a disease control rate of 80% in patients with metastatic or unresectable urothelial carcinoma harboring FGFR alterations and FGFR3 Y373C is included in the companion diagnostic (PMID: 31340094; NCT02365597).",
+            "molecularProfile": {
+                "id": 3514,
+                "profileName": "FGFR3 Y373C"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15450,
+                    "pubMedId": null,
+                    "title": "Balversa (erdafitinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212018"
+                },
+                {
+                    "id": 15824,
+                    "pubMedId": 31340094,
+                    "title": "Erdafitinib in Locally Advanced or Metastatic Urothelial Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31340094"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17170,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Debio 1347 treatment resulted in partial response in two patients with urothelial cancer harboring FGFR3-TACC3 (PMID: 30745300; NCT01948297).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15194,
+                    "pubMedId": 30745300,
+                    "title": "A Phase I, Open-Label, Multicenter, Dose-escalation Study of the Oral Selective FGFR Inhibitor Debio 1347 in Patients with Advanced Solid Tumors Harboring FGFR Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30745300"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17232,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, MBG453 and Spartalizumab (PDR001) combination treatment resulted in stable disease in 3 patients with transitional cell carcinoma (AACR Annual Meeting 2019, Abstract CT183; NCT02608268).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8396,
+                "therapyName": "MBG453 + Spartalizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15246,
+                    "pubMedId": null,
+                    "title": "Phase (Ph) I/II study of MBG453\u00b1 spartalizumab (PDR001) in patients (pts) with advanced malignancies",
+                    "url": "https://www.abstractsonline.com/pp8/#!/6812/presentation/9834"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17734,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Toripalimab (JS001) demonstrated safety and preliminary efficacy, resulted in an objective response rate of 25.0% (2/8) and a disease control rate of 67.5% (5/8, 2 partial response, 3 stable disease) in patients with advanced urothelial carcinoma (PMID: 30642373; NCT02836795).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5891,
+                "therapyName": "Toripalimab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15756,
+                    "pubMedId": 30642373,
+                    "title": "Safety and clinical activity with an anti-PD-1 antibody JS001 in advanced melanoma or urologic cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30642373"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18424,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (CheckMate 275), Opdivo (nivolumab) (n=270) treatment resulted in similar response rate (20% vs 21%, p=0.2) in patients with FGFR3 mutant or wild-type metastatic transitional cell carcinoma (PMID: 31272788).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16171,
+                    "pubMedId": 31272788,
+                    "title": "Fibroblast Growth Factor Receptor 3 Alterations and Response to PD-1/PD-L1 Blockade in Patients with Metastatic Urothelial Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31272788"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18425,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (IMVigor 210, CheckMate 275), Tecentriq (atezolizumab) (n=119) treatment resulted in similar response rate (24% vs 21%, p=0.8) in patients with FGFR3 mutant or wild-type metastatic transitional cell carcinoma (PMID: 31272788).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 1201,
+                "therapyName": "Atezolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16171,
+                    "pubMedId": 31272788,
+                    "title": "Fibroblast Growth Factor Receptor 3 Alterations and Response to PD-1/PD-L1 Blockade in Patients with Metastatic Urothelial Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31272788"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18614,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted in an objective response rate of 46% (12/26) in patients with urothelial carcinoma harboring FGFR genomic alterations, including 17 with FGFR3 mutations, and 11 with FGFR2 and/or FGFR3 fusions (PMID: 31088831; NCT01703481).",
+            "molecularProfile": {
+                "id": 14903,
+                "profileName": "FGFR3 fusion"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16359,
+                    "pubMedId": 31088831,
+                    "title": "Multicenter Phase I Study of Erdafitinib (JNJ-42756493), Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients with Advanced or Refractory Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31088831"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18615,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted in an objective response rate of 46% (12/26) in patients with urothelial carcinoma harboring FGFR genomic alterations, including 17 with FGFR3 mutations, and 11 with FGFR2 and/or FGFR3 fusions (PMID: 31088831; NCT01703481).",
+            "molecularProfile": {
+                "id": 2969,
+                "profileName": "FGFR2 fusion"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16359,
+                    "pubMedId": 31088831,
+                    "title": "Multicenter Phase I Study of Erdafitinib (JNJ-42756493), Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients with Advanced or Refractory Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31088831"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19602,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (EV-201) that supported FDA approval, Padcev (enfortumab vedotin-ejfv) treatment resulted in an objective response rate of 42% (53/125) with complete response in 9% (11/125) of patients with locally advanced or metastatic urothelial cancer who have previously received a PD-1 or PD-L1 inhibitor, and a platinum-containing chemotherapy (Journal of Clinical Oncology 37, no. 18_suppl (June 20, 2019) 4505-4505; NCT03219333).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4125,
+                "therapyName": "Enfortumab vedotin-ejfv",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17207,
+                    "pubMedId": null,
+                    "title": "EV-201: Results of enfortumab vedotin monotherapy for locally advanced or metastatic urothelial cancer previously treated with platinum and immune checkpoint inhibitors.",
+                    "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.18_suppl.LBA4505"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20163,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Ina Phase Ib/II trial, Lenvima (lenvatinib) and Keytruda (pembrolizumab) combination treatment demonstrated safety and efficacy, resulted in an objective response rate of 25% (5/20) in patients with metastatic urothelial cancer, with a median duration of response not evaluable, and a median progression-free survival of 5.4 months (PMID: 31961766; NCT02501096).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4782,
+                "therapyName": "Lenvatinib + Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17720,
+                    "pubMedId": 31961766,
+                    "title": "Phase IB/II Trial of Lenvatinib Plus Pembrolizumab in Patients With Advanced Renal Cell Carcinoma, Endometrial Cancer, and Other Selected Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31961766"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20656,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Mocetinostat (MGCD0103) demonstrated limited activity in patients with metastatic urothelial carcinoma harboring inactivating mutations in either EP300 or CREBBP, resulting in a partial response in 1 of 9 evaluable patients, a median progression-free survival of 57 days, progression-free survival at 4 months of 10%, and a median overall survival of 3.5 months (PMID: 30570744; NCT02236195).",
+            "molecularProfile": {
+                "id": 7445,
+                "profileName": "EP300 inact mut"
+            },
+            "therapy": {
+                "id": 3002,
+                "therapyName": "Mocetinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17978,
+                    "pubMedId": 30570744,
+                    "title": "Mocetinostat for patients with previously treated, locally advanced/metastatic urothelial carcinoma and inactivating alterations of acetyltransferase genes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30570744"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20657,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Mocetinostat (MGCD0103) demonstrated limited activity in patients with metastatic urothelial carcinoma harboring inactivating mutations in either EP300 or CREBBP, resulting in a partial response in 1 of 9 evaluable patients, a median progression-free survival of 57 days, progression-free survival at 4 months of 10%, and a median overall survival of 3.5 months (PMID: 30570744; NCT02236195).",
+            "molecularProfile": {
+                "id": 10327,
+                "profileName": "CREBBP inact mut"
+            },
+            "therapy": {
+                "id": 3002,
+                "therapyName": "Mocetinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17978,
+                    "pubMedId": 30570744,
+                    "title": "Mocetinostat for patients with previously treated, locally advanced/metastatic urothelial carcinoma and inactivating alterations of acetyltransferase genes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30570744"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00978250",
+            "title": "A Multi-Histology Phase II Study of 5-Fluoro-2-Deoxycytidine With Tetrahydrouridine (FdCyd + THU)",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3789,
+                    "therapyName": "5-Fluoro-2-deoxycytidine + Tetrahydrouridine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01004224",
+            "title": "A Dose Escalation Study in Adult Patients With Advanced Solid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 674,
+                    "therapyName": "BGJ398",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01920061",
+            "title": "A Study Of PF-05212384 In Combination With Other Anti-Tumor Agents and in Combination With Cisplatin in Patients With Triple Negative Breast Cancer in an Expansion Arm (TNBC)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1287,
+                    "therapyName": "Dacomitinib + Gedatolisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1286,
+                    "therapyName": "Cisplatin + Gedatolisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1285,
+                    "therapyName": "Docetaxel + Gedatolisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02052778",
+            "title": "A Study of TAS-120 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1053,
+                    "therapyName": "Futibatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02393248",
+            "title": "Open-Label, Dose-Escalation Study of Pemigatinib in Subjects With Advanced Malignancies - (FIGHT-101)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4176,
+                    "therapyName": "Cisplatin + Gemcitabine + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4174,
+                    "therapyName": "Docetaxel + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8250,
+                    "therapyName": "INCMGA00012 + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8249,
+                    "therapyName": "Pemigatinib + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4088,
+                    "therapyName": "Epacadostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02501096",
+            "title": "Phase 1b/2 Trial of Lenvatinib (E7080) Plus Pembrolizumab in Subjects With Selected Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 792,
+                    "therapyName": "Lenvatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02516241",
+            "title": "Study of MEDI4736 With or Without Tremelimumab Versus Standard of Care Chemotherapy in Urothelial Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4686,
+                    "therapyName": "Carboplatin + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02573259",
+            "title": "A Dose Escalation Study Of PF-06801591 In Melanoma, Head And Neck Cancer (SCCHN), Ovarian, Sarcoma, Non-Small Cell Lung Cancer, Urothelial Carcinoma or Other Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7233,
+                    "therapyName": "PF-06801591",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02599324",
+            "title": "A Study to Evaluate Ibrutinib Combination Therapy in Patients With Selected Gastrointestinal and Genitourinary Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7471,
+                    "therapyName": "Cetuximab + Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8293,
+                    "therapyName": "Ibrutinib + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 8292,
+                    "therapyName": "Everolimus + Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8294,
+                    "therapyName": "Docetaxel + Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02603432",
+            "title": "A Study Of Avelumab In Patients With Locally Advanced Or Metastatic Urothelial Cancer (JAVELIN Bladder 100)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02628535",
+            "title": "Safety Study of MGD009 in B7-H3-expressing Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6631,
+                    "therapyName": "MGD009",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02660034",
+            "title": "The Safety, Pharmacokinetics and Antitumor Activity of BGB-A317 in Combination With BGB-290 in Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5883,
+                    "therapyName": "BGB-A317 + Pamiparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02717156",
+            "title": "Recombinant EphB4-HSA Fusion Protein and Pembrolizumab in Treating Patients With Metastatic or Recurrent Urothelial Cancer That Is Refractory to Certain Chemotherapy Drugs",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3944,
+                    "therapyName": "Pembrolizumab + sEphB4-HSA",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02795156",
+            "title": "Study to Assess the Activity of Molecularly Matched Targeted Therapies in Select Tumor Types Based on Genomic Alterations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02807636",
+            "title": "The Effect of Atezolizumab in Combination With Gemcitabine/Carboplatin and Gemcitabine/Carboplatin Alone in Participants With Untreated Locally Advanced or Metastatic Urothelial Carcinoma Who Are Ineligible for Cisplatin-based Therapy",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4450,
+                    "therapyName": "Atezolizumab + Carboplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2667,
+                    "therapyName": "Carboplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02812420",
+            "title": "Pre-Surgical Study Evaluating Anti-PD-L1 Antibody (Durvalumab) Plus Anti-CTLA-4 (Tremelimumab) in Patients With Muscle-Invasive, High-Risk Urothelial Carcinoma Who Are Ineligible for Cisplatin-based Neoadjuvant Chemotherapy",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02872714",
+            "title": "A Study to Evaluate the Efficacy and Safety of Pemigatinib (INCB054828) in Subjects With Urothelial Carcinoma - (FIGHT-201)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4173,
+                    "therapyName": "Pemigatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02880345",
+            "title": "RADVAX: A Trial of Combined Pembrolizumab and Hypofractionated Radiation in Patients With Advanced Urothelial Cancer Who Have Progressed on Anti-PD-1/PD-L1 Monotherapy",
+            "phase": "Phase 0",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03018405",
+            "title": "A Dose Escalation Phase I Study to Assess the Safety and Clinical Activity of Multiple Cancer Indications (THINK)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5998,
+                    "therapyName": "NKR-2 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03029832",
+            "title": "A Study of MOXR0916 in Combination With Atezolizumab Versus Atezolizumab Alone in Participants With Untreated Locally Advanced or Metastatic Urothelial Carcinoma Who Are Ineligible for Cisplatin-Based Therapy",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5451,
+                    "therapyName": "Atezolizumab + MOXR0916",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03036098",
+            "title": "Study of Nivolumab in Combination With Ipilimumab Compared to the Standard of Care Chemotherapy in Treatment of Patients With Untreated Inoperable or Metastatic Urothelial Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2667,
+                    "therapyName": "Carboplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03047213",
+            "title": "Sapanisertib in Treating Patients With Locally Advanced or Metastatic Bladder Cancer With TSC1 and/or TSC2 Mutations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1282,
+                    "therapyName": "Sapanisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03076372",
+            "title": "A Study Evaluating MM-310 in Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 5758,
+                    "therapyName": "MM-310",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03091660",
+            "title": "Different Strains of BCG With or Without Vaccine in High Grade Non- Muscle Invasive Bladder Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5478,
+                    "therapyName": "BCG Tokyo-172 Strain Solution",
+                    "synonyms": null
+                },
+                {
+                    "id": 4455,
+                    "therapyName": "BCG solution",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03115801",
+            "title": "A Phase II Randomized Trial of Immunotherapy Plus Radiotherapy in Metastatic Genitourinary Cancers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03123055",
+            "title": "A Study of B-701 in Combination With Atezolizumab in Treatment of Locally Advanced or Metastatic Urothelial Cell Carcinoma (U22)",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5615,
+                    "therapyName": "Atezolizumab + Vofatamab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03179943",
+            "title": "Overcoming Chechkpoint Inhibitor Resistance With Epigenetic Therapy in Urothelial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4693,
+                    "therapyName": "Atezolizumab + Guadecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03207867",
+            "title": "A Phase 2 Study of NIR178 in Combination With PDR001 in Patients With Solid Tumors and Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4741,
+                    "therapyName": "PBF-509 + Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03208712",
+            "title": "Radium-223 and Atezolizumab in Patients With Urothelial Carcinoma With Bone Metastases Who Have Had Disease Progression After Platinum-Based Chemotherapy",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 4881,
+                    "therapyName": "Atezolizumab + Radium Ra 223 dichloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03219333",
+            "title": "A Study of Enfortumab Vedotin for Patients With Locally Advanced or Metastatic Urothelial Bladder Cancer (EV-201)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4125,
+                    "therapyName": "Enfortumab vedotin-ejfv",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03236935",
+            "title": "Phase Ib of L-NMMA and Pembrolizumab",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6097,
+                    "therapyName": "L-NMMA + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03240016",
+            "title": "Abraxane With Anti-PD1/PDL1 in Cisplatin-ineligible Patients With Advanced Urothelial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 4023,
+                    "therapyName": "Nab-paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03241173",
+            "title": "A Study Exploring the Safety and Efficacy of INCAGN01949 in Combination With Immune Therapies in Advanced or Metastatic Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 6120,
+                    "therapyName": "INCAGN01949 + Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6119,
+                    "therapyName": "INCAGN01949 + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6121,
+                    "therapyName": "INCAGN01949 + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03264066",
+            "title": "A Study to Investigate the Efficacy and Safety of Cobimetinib Plus Atezolizumab in Participants With Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6094,
+                    "therapyName": "Atezolizumab + Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03277352",
+            "title": "INCAGN01876 in Combination With Immune Therapies in Subjects With Advanced or Metastatic Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6277,
+                    "therapyName": "Epacadostat + INCAGN01876 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03287050",
+            "title": "Anti-PD(L)1 and SBRT in the Treatment of Advanced, Platinum-Refractory Urothelial Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03288545",
+            "title": "A Safety Study of Enfortumab Vedotin Plus Immune Checkpoint Inhibitor Therapy for Patients With Urothelial Bladder Cancer (EV-103)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6390,
+                    "therapyName": "Atezolizumab + Enfortumab vedotin-ejfv + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03289962",
+            "title": "A Study of RO7198457 (Personalized Cancer Vaccine [PCV]) as a Single Agent and in Combination With Atezolizumab in Participants With Locally Advanced or Metastatic Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6234,
+                    "therapyName": "RO7198457",
+                    "synonyms": null
+                },
+                {
+                    "id": 6235,
+                    "therapyName": "Atezolizumab + RO7198457",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03311334",
+            "title": "A Study of DSP-7888 Dosing Emulsion in Combination With Immune Checkpoint Inhibitors in Adult Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6589,
+                    "therapyName": "Atezolizumab + DSP-7888",
+                    "synonyms": null
+                },
+                {
+                    "id": 6588,
+                    "therapyName": "DSP-7888 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03317496",
+            "title": "Safety And Efficacy Study Of Avelumab Plus Chemotherapy With Or Without Other Anti-Cancer Immunotherapy Agents In Patients With Advanced Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6515,
+                    "therapyName": "Avelumab + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 6514,
+                    "therapyName": "Avelumab + Carboplatin + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03329950",
+            "title": "A Study of CDX-1140 as Monotherapy or in Combination in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7361,
+                    "therapyName": "CDX-1140 + CDX-301",
+                    "synonyms": null
+                },
+                {
+                    "id": 7330,
+                    "therapyName": "CDX-1140",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03330405",
+            "title": "Javelin Parp Medley: Avelumab Plus Talazoparib In Locally Advanced Or Metastatic Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6436,
+                    "therapyName": "Avelumab + Talazoparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03343613",
+            "title": "A Study of LY3381916 Alone or in Combination With LY3300054 in Participants With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6504,
+                    "therapyName": "LY3300054 + LY3381916",
+                    "synonyms": null
+                },
+                {
+                    "id": 6503,
+                    "therapyName": "LY3381916",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03361228",
+            "title": "A Study to Evaluate the Safety, Tolerability, and Antitumor Activity of INCB001158 Plus Epacadostat, With or Without Pembrolizumab, in Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 6492,
+                    "therapyName": "Epacadostat + INCB001158",
+                    "synonyms": null
+                },
+                {
+                    "id": 6493,
+                    "therapyName": "Epacadostat + INCB001158 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03363776",
+            "title": "An Immuno-Therapy Study of Experimental Medication BMS-986277 Given Alone and in Combination With Nivolumab in Epithelial Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6497,
+                    "therapyName": "BMS-986277",
+                    "synonyms": null
+                },
+                {
+                    "id": 6498,
+                    "therapyName": "BMS-986277 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03375307",
+            "title": "Olaparib in Treating Patients With Metastatic or Advanced Urothelial Cancer With DNA-Repair Defects",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03390504",
+            "title": "A Study of Erdafitinib Compared With Vinflunine or Docetaxel or Pembrolizumab in Participants With Advanced Urothelial Cancer and Selected Fibroblast Growth Factor Receptor (FGFR) Gene Aberrations",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6673,
+                    "therapyName": "Docetaxel + Vinflunine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03407976",
+            "title": "Apatinib With Pembrolizumab in Previously Treated Advanced Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7064,
+                    "therapyName": "Apatinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03409458",
+            "title": "A Dose Escalation and Confirmation Study of PT-112 in Advanced Solid Tumors in Combination With Avelumab (PAVE-1)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6629,
+                    "therapyName": "Avelumab + PT-112",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03410927",
+            "title": "A Study of TAS0728 in Patients With Solid Tumors With HER2 or HER3 Abnormalities",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8170,
+                    "therapyName": "TAS0728",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03416335",
+            "title": "A Study of DSP-0509 in Patients With Advanced Solid Tumors to Determine the Safety and the Pharmacokinetic Profile",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8822,
+                    "therapyName": "DSP-0509",
+                    "synonyms": null
+                },
+                {
+                    "id": 8823,
+                    "therapyName": "DSP-0509 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03419130",
+            "title": "Radiation Therapy and Pembrolizumab in Treating Patients With Localized Urothelial Bladder Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03435640",
+            "title": "A Study of NKTR-262 in Combination With NKTR-214 and With NKTR-214 Plus Nivolumab in Patients With Locally Advanced or Metastatic Solid Tumor Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6790,
+                    "therapyName": "NKTR-214 + NKTR-262",
+                    "synonyms": null
+                },
+                {
+                    "id": 6791,
+                    "therapyName": "Nivolumab + NKTR-214 + NKTR-262",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03448718",
+            "title": "Trial of Olaparib in Patients With Metastatic Urothelial Cancer Harboring DNA Damage Response Gene Alterations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03449381",
+            "title": "This Study Aims to Find the Best Dose of BI 907828 in Patients With Different Types of Advanced Cancer (Solid Tumors)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8523,
+                    "therapyName": "BI 907828",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03451331",
+            "title": "Gemcitabine + Carboplatin + Nivolumab Versus Gemcitabine + Oxaliplatin + Nivolumab in Cisplatin-ineligible Patients With Metastatic Urothelial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7292,
+                    "therapyName": "Carboplatin + Gemcitabine + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7293,
+                    "therapyName": "Gemcitabine + Nivolumab + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03472560",
+            "title": "A Study of Avelumab in Combination With Axitinib In Non-Small Cell Lung Cancer (NSCLC) or Urothelial Cancer (Javelin Medley VEGF)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3145,
+                    "therapyName": "Avelumab + Axitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03473743",
+            "title": "A Study to Evaluate Safety, Efficacy, Pharmacokinetics, and Pharmacodynamics of Erdafitinib Plus JNJ-63723283, an Anti-PD-1 Monoclonal Antibody, in Participants With Metastatic or Surgically Unresectable Urothelial Cancer With Selected FGFR Gene Alterations",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6821,
+                    "therapyName": "Erdafitinib + JNJ-63723283",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03474107",
+            "title": "A Study to Evaluate Enfortumab Vedotin Versus (vs) Chemotherapy in Subjects With Previously Treated Locally Advanced or Metastatic Urothelial Cancer (EV-301)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4125,
+                    "therapyName": "Enfortumab vedotin-ejfv",
+                    "synonyms": null
+                },
+                {
+                    "id": 6936,
+                    "therapyName": "Docetaxel + Paclitaxel + Vinflunine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03486197",
+            "title": "Neutron Radiation Therapy and Pembrolizumab in Treating Participants With Advanced Urothelial Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03517488",
+            "title": "A Study of XmAb20717 in Subjects With Selected Advanced Solid Tumors (DUET-2)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6973,
+                    "therapyName": "XmAb20717",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03523572",
+            "title": "Trastuzumab Deruxtecan (DS-8201a) With Nivolumab in Advanced Breast and Urothelial Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7145,
+                    "therapyName": "Fam-trastuzumab deruxtecan-nxki + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03525795",
+            "title": "ORIOn-E: A Study Evaluating CPI-1205 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6942,
+                    "therapyName": "CPI-1205 + Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03528694",
+            "title": "Assessment of Efficacy and Safety of Durvalumab Plus BCG Compared to the Standard Therapy With BCG in Non-muscle Invasive Bladder Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6536,
+                    "therapyName": "BCG solution + Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4455,
+                    "therapyName": "BCG solution",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03534804",
+            "title": "Cabozantinib Plus Pembrolizumab as First-Line Therapy for Cisplatin-Ineligible Advanced Urothelial Carcinoma (PemCab)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5680,
+                    "therapyName": "Cabozantinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03538028",
+            "title": "A Safety and Tolerability Study of INCAGN02385 in Select Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6977,
+                    "therapyName": "INCAGN02385",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03547973",
+            "title": "Phase II Open Label, Study of IMMU-132 in Metastatic Urothelial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 3227,
+                    "therapyName": "Sacituzumab govitecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03590054",
+            "title": "A Phase 1b Dose Escalation/Expansion Study of Abexinostat in Combination With Pembrolizumab in Patients With Advanced Solid Tumor Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7282,
+                    "therapyName": "Abexinostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03606174",
+            "title": "Sitravatinib and Nivolumab in Urothelial Carcinoma Study",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4943,
+                    "therapyName": "MGCD516 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03621982",
+            "title": "Study of ADCT-301 in Patients With Selected Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7369,
+                    "therapyName": "Camidanlumab Tesirine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03633110",
+            "title": "Safety, Tolerability, Immunogenicity, and Antitumor Activity of GEN-009 Adjuvanted Vaccine",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7337,
+                    "therapyName": "GEN-009",
+                    "synonyms": null
+                },
+                {
+                    "id": 7338,
+                    "therapyName": "GEN-009 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03639714",
+            "title": "A Study of a Personalized Neoantigen Cancer Vaccine",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7679,
+                    "therapyName": "GRT-C901 + GRT-R902 + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03666273",
+            "title": "A First-in-human Study of ILDR2 (Immunoglobulin-like Domain Containing Receptor 2) Function-blocking Antibody BAY1905254",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8761,
+                    "therapyName": "BAY1905254",
+                    "synonyms": null
+                },
+                {
+                    "id": 8762,
+                    "therapyName": "BAY1905254 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03674567",
+            "title": "Dose Escalation and Expansion Study of FLX475 Monotherapy and in Combination With Pembrolizumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7533,
+                    "therapyName": "FLX475 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7530,
+                    "therapyName": "FLX475",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03679767",
+            "title": "A Study of INCMGA00012 in Participants With Selected Solid Tumors (POD1UM-203)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7175,
+                    "therapyName": "INCMGA00012",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03682289",
+            "title": "Phase II Trial of AZD6738 Alone and in Combination With Olaparib",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4739,
+                    "therapyName": "AZD6738 + Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03693612",
+            "title": "GSK3359609 Plus Tremelimumab for the Treatment of Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7628,
+                    "therapyName": "GSK3359609 + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03744793",
+            "title": "Pemetrexed and Avelumab in Treating Patients With MTAP-Deficient Metastatic Urothelial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7581,
+                    "therapyName": "Avelumab + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03752398",
+            "title": "A Study of XmAb23104 in Subjects With Selected Advanced Solid Tumors (DUET-3) (DUET-3)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9200,
+                    "therapyName": "XmAb23104",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03758781",
+            "title": "IRX-2 Regimen Combined With Nivolumab in Recurrent/Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7122,
+                    "therapyName": "Cyclophosphamide + IRX-2 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03785925",
+            "title": "A Randomized Study of NKTR-214 Plus Nivolumab and of Reference Chemotherapy in Cisplatin Ineligible Patients Who Have Locally Advanced or Metastatic Urothelial Cancer With Low PD-L1 Expression (PIVOT-10)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5076,
+                    "therapyName": "Nivolumab + NKTR-214",
+                    "synonyms": null
+                },
+                {
+                    "id": 2667,
+                    "therapyName": "Carboplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03809624",
+            "title": "Study of INBRX-105 in Patients With Solid Tumors, Hodgkin or Non-Hodgkin Lymphoma (PDL1x41BB)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8934,
+                    "therapyName": "INBRX-105",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03836352",
+            "title": "Study of an Immunotherapeutic, DPX-Survivac, in Combination With Low Dose Cyclophosphamide & Pembrolizumab, in Subjects With Selected Advanced & Recurrent Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7861,
+                    "therapyName": "DPX-Survivac + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5266,
+                    "therapyName": "Cyclophosphamide + DPX-Survivac + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03849469",
+            "title": "A Study of XmAb22841 Monotherapy & in Combination w/ Pembrolizumab in Subjects w/ Selected Advanced Solid Tumors (DUET-4)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7902,
+                    "therapyName": "Pembrolizumab + XmAb22841",
+                    "synonyms": null
+                },
+                {
+                    "id": 7901,
+                    "therapyName": "XmAb22841",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03854474",
+            "title": "Tazemetostat and Pembrolizumab in Treating Patients With Locally Advanced or Metastatic Urothelial Carcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8458,
+                    "therapyName": "Pembrolizumab + Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03894618",
+            "title": "SL-279252 (PD1-Fc-OX40L) in Subjects With Advanced Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8683,
+                    "therapyName": "SL-279252",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03915405",
+            "title": "KHK2455 (IDO Inhibitor) Plus Avelumab in Adult Subjects With Advanced Bladder Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8674,
+                    "therapyName": "Avelumab + KHK2455",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03936959",
+            "title": "A Study of LY3434172, a PD-1 and PD-L1 Bispecific Antibody, in Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 9537,
+                    "therapyName": "LY3434172",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03970382",
+            "title": "A Study of Gene Edited Autologous Neoantigen Targeted TCR T Cells With or Without Anti-PD-1 in Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8527,
+                    "therapyName": "NeoTCR-P1 T-cells + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8526,
+                    "therapyName": "NeoTCR-P1 T-cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03973333",
+            "title": "Safety and Efficacy of IMC-C103C as Monotherapy and in Combination With Atezolizumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8448,
+                    "therapyName": "Atezolizumab + IMC-C103C",
+                    "synonyms": null
+                },
+                {
+                    "id": 8447,
+                    "therapyName": "IMC-C103C",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03989362",
+            "title": "Vopratelimab and a CTLA-4 Inhibitor in PD-1/PD-L1 Inhibitor Experienced Subjects With NSCLC or Urothelial Cancer (EMERGE)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8480,
+                    "therapyName": "Ipilimumab + Vopratelimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03992131",
+            "title": "A Study to Evaluate Rucaparib in Combination With Other Anticancer Agents in Patients With a Solid Tumor (SEASTAR)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8487,
+                    "therapyName": "Lucitanib  + Rucaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8488,
+                    "therapyName": "Rucaparib + Sacituzumab govitecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04003610",
+            "title": "Pemigatinib + Pembrolizumab vs Pemigatinib Alone vs Standard of Care for Urothelial Carcinoma (FIGHT-205)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4175,
+                    "therapyName": "Pembrolizumab + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2667,
+                    "therapyName": "Carboplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4173,
+                    "therapyName": "Pemigatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04007744",
+            "title": "Sonidegib and Pembrolizumab in Treating Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8531,
+                    "therapyName": "Pembrolizumab + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04044859",
+            "title": "Surpass: ADP-A2M4CD8 in HLA-A2+ Subjects With MAGE-A4 Positive Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9445,
+                    "therapyName": "ADP-A2M4CD8 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04095273",
+            "title": "Study to Test How Well Patients With Advanced Solid Tumors Respond to Treatment With the ATR Inhibitor BAY1895344 in Combination With Pembrolizumab, to Find the Optimal Dose for Patients, How the Drug is Tolerated and the Way the Body Absorbs, Distributes and Discharges the Drug",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8754,
+                    "therapyName": "BAY1895344 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04096638",
+            "title": "Evaluating Safety and Efficacy of SB 11285 Alone and in Combination With Nivolumab in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8759,
+                    "therapyName": "Nivolumab + SB 11285",
+                    "synonyms": null
+                },
+                {
+                    "id": 8758,
+                    "therapyName": "SB 11285",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04114136",
+            "title": "Anti-PD-1 mAb Plus Metabolic Modulator in Solid Tumor Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5302,
+                    "therapyName": "Metformin + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6581,
+                    "therapyName": "Metformin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8813,
+                    "therapyName": "Pembrolizumab + Rosiglitazone",
+                    "synonyms": null
+                },
+                {
+                    "id": 8812,
+                    "therapyName": "Nivolumab + Rosiglitazone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04149574",
+            "title": "A Study Comparing the Efficacy and Safety of Nivolumab in Combination With Bacillus Calmette-Guerin (BCG) Versus BCG Alone in Participants With High-Risk Non-Muscle Invasive Bladder Cancer (HR NMIBC) (CheckMate 7G8)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6921,
+                    "therapyName": "BCG solution + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4455,
+                    "therapyName": "BCG solution",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04152018",
+            "title": "Study of PF-06940434 in Patients With Advanced or Metastatic Solid Tumors.",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8931,
+                    "therapyName": "PF-06801591 + PF-06940434",
+                    "synonyms": null
+                },
+                {
+                    "id": 8930,
+                    "therapyName": "PF-06940434",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04158700",
+            "title": "A Study of LY3200882 and Pembrolizumab in Participants With Advanced Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 8926,
+                    "therapyName": "LY3200882 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04173338",
+            "title": "Cabozantinib With Pemetrexed in Advanced Non-small Cell Lung Cancer, Urothelial Cancer and Malignant Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9288,
+                    "therapyName": "Cabozantinib + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04198766",
+            "title": "Study of INBRX-106 in Subjects With Locally Advanced or Metastatic Solid Tumors (Hexavalent OX40 Agonist)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9075,
+                    "therapyName": "INBRX-106",
+                    "synonyms": null
+                },
+                {
+                    "id": 9076,
+                    "therapyName": "INBRX-106 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04200963",
+            "title": "KYN-175 in Patients With Advanced or Metastatic Solid Tumors and Urothelial Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9123,
+                    "therapyName": "KYN-175",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04223856",
+            "title": "Enfortumab Vedotin and Pembrolizumab, With or Without Chemotherapy, vs. Chemotherapy Alone in Untreated Locally Advanced or Metastatic Urothelial Cancer (EV-302)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9634,
+                    "therapyName": "Carboplatin + Enfortumab vedotin-ejfv + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2667,
+                    "therapyName": "Carboplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9632,
+                    "therapyName": "Enfortumab vedotin-ejfv + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9633,
+                    "therapyName": "Cisplatin + Enfortumab vedotin-ejfv + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04259450",
+            "title": "Study to Assess AFM24 in Advanced Solid Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5856,
+                    "therapyName": "AFM24",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04260802",
+            "title": "A Study to Evaluate the Safety and Pharmacokinetics of OC-001 in Patients With Locally Advanced or Metastatic Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9335,
+                    "therapyName": "OC-001 + unspecified PD-L1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9334,
+                    "therapyName": "OC-001 + unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9333,
+                    "therapyName": "OC-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04311710",
+            "title": "A Study Evaluating the Drug Levels of Iplimumab Given Under the Skin Alone and in Combination With Nivolumab in Multiple Tumor Types (CheckMate 76U)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9635,
+                    "therapyName": "Ipilimumab + Nivolumab + rHuPH20",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04322643",
+            "title": "Intermittent Checkpoint Inhibitor Therapy In Patients With Advanced Urothelial Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

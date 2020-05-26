@@ -1,0 +1,153 @@
+{
+    "id": 9036,
+    "name": "parotid gland cancer",
+    "source": "DOID",
+    "definition": "A salivary gland cancer that is located_in the parotid gland. [url:http\\://en.wikipedia.org/wiki/Parotid_gland]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:9036",
+    "evidence": [
+        {
+            "id": 14153,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MATCH) trial, Kadcyla (trastuzumab emtansine) treatment resulted in partial response in a patient with ERBB2 (HER2) amplified salivary duct carcinoma of the parotid gland and a patient with ERBB2 (HER2) amplified squamous cell carcinoma of the parotid gland (J Clin Oncol 36, 2018 (suppl; abstr 100); NCT02465060).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9036,
+                "name": "parotid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11480,
+                    "pubMedId": null,
+                    "title": "Ado-trastuzumab emtansine (T-DM1) in patients (pts) with HER2 amplified (amp) tumors excluding breast and gastric/gastro-esophageal junction (GEJ) adenocarcinomas: Results from the National Cancer Institute (NCI) Molecular Analysis for Therapy Choice (MAT",
+                    "url": "https://meetinglibrary.asco.org/record/161669/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15218,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MATCH) trial, Capivasertib (AZD5363) treatment resulted in stable disease over 21 months in a patient with an oncocytic carcinoma of the parotid gland harboring AKT1 E17K mutation (PMID: 30429128; NCT02465060).",
+            "molecularProfile": {
+                "id": 643,
+                "profileName": "AKT1 E17K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9036,
+                "name": "parotid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12850,
+                    "pubMedId": 30429128,
+                    "title": "Capivasertib Active against AKT1-Mutated Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30429128"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16331,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with mammary analogue secretory carcinoma of the parotid gland harboring an ETV6-NTRK3 fusion developed progressive disease after initial response to Rozlytrek (entrectinib), and NTRK3 G623E was identified in the post-progression biopsy (PMID: 30093503).",
+            "molecularProfile": {
+                "id": 31603,
+                "profileName": "ETV6 - NTRK3 NTRK3 G623E"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9036,
+                "name": "parotid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12439,
+                    "pubMedId": 30093503,
+                    "title": "Repotrectinib (TPX-0005) Is a Next-Generation ROS1/TRK/ALK Inhibitor That Potently Inhibits ROS1/TRK/ALK Solvent- Front Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093503"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16332,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Repotrectinib (TPX-0005) treatment resulted in partial response and tumor shrinkage in a patient with mammary analogue secretory carcinoma of the parotid gland harboring NTRK3 G623E in the context of ETV6-NTRK3, and the patient remained on treatment for over 17 months (PMID: 30093503; NCT03093116).",
+            "molecularProfile": {
+                "id": 31603,
+                "profileName": "ETV6 - NTRK3 NTRK3 G623E"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9036,
+                "name": "parotid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12439,
+                    "pubMedId": 30093503,
+                    "title": "Repotrectinib (TPX-0005) Is a Next-Generation ROS1/TRK/ALK Inhibitor That Potently Inhibits ROS1/TRK/ALK Solvent- Front Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093503"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01966445",
+            "title": "Dose Escalation Study to Investigate the Safety, Pharmacokinetics, and Pharmacodynamics of GSK2849330 in Subjects With Advanced Her3-Positive Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2919,
+                    "therapyName": "GSK2849330",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

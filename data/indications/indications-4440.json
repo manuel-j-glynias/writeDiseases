@@ -1,0 +1,60 @@
+{
+    "id": 4440,
+    "name": "seminoma",
+    "source": "DOID",
+    "definition": "A germinoma that has_material_basis_in cells that make sperm and eggs. [url:http\\://www.cancer.gov/dictionary?CdrID=46577]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4440",
+    "evidence": [
+        {
+            "id": 673,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Gleevec (imatinib) in conjunction with third-line chemotherapy resulted in a complete response in a patient with stage IV chemoresistant pure seminoma with KIT overexpression (PMID: 18751412).",
+            "molecularProfile": {
+                "id": 852,
+                "profileName": "KIT over exp"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4440,
+                "name": "seminoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 391,
+                    "pubMedId": 18751412,
+                    "title": "Complete response after imatinib mesylate administration in a patient with chemoresistant stage IV seminoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18751412"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

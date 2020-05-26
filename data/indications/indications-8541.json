@@ -1,0 +1,237 @@
+{
+    "id": 8541,
+    "name": "Sezary's disease",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "8790"
+    ],
+    "termId": "DOID:8541",
+    "evidence": [
+        {
+            "id": 14981,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (MAVORIC) that supported FDA approval, Poteligeo (mogamulizumab-kpkc) treatment resulted in significantly improved progression-free survival (7.7 vs 3.1 months, HR=0.53, p<0.0001) and objective response rate (28.0% vs 4.8%) compared to Zolinza (vorinostat) in patients with mycosis fungoides or S\u00e9zary syndrome (Blood 2017 130(Suppl 1):817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2968,
+                "therapyName": "Mogamulizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8541,
+                "name": "Sezary's disease",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11927,
+                    "pubMedId": null,
+                    "title": "Anti-CCR4 Monoclonal Antibody, Mogamulizumab, Demonstrates Significant Improvement in PFS Compared to Vorinostat in Patients with Previously Treated Cutaneous T-Cell Lymphoma (CTCL): Results from the Phase III MAVORIC Study",
+                    "url": "http://www.bloodjournal.org/content/130/Suppl_1/817"
+                },
+                {
+                    "id": 15661,
+                    "pubMedId": null,
+                    "title": "Poteligeo (mogamulizumab-kpkc) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761051"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17947,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, IPH4102 demonstrated safety, and treatment resulted in an overall response rate of 43% (15/35; 2 complete responses, 13 partial responses), a median progression-free survival (PFS) of 11.7 months, and a median duration of response (DOR) of 13.8 months in patients with Sezary syndrome, with a median PFS of 16.8 months, and a median DOR of 13.8 months in Sezary syndrome patients with prior Poteligeo (mogamulizumab-kpkc) treatment (PMID: 31253572; NCT02593045).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8650,
+                "therapyName": "IPH4102",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8541,
+                "name": "Sezary's disease",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15919,
+                    "pubMedId": 31253572,
+                    "title": "IPH4102, a first-in-class anti-KIR3DL2 monoclonal antibody, in patients with relapsed or refractory cutaneous T-cell lymphoma: an international, first-in-human, open-label, phase 1 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31253572"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02542124",
+            "title": "NM-IL-12 in Cutaneous T-Cell Lymphoma (CTCL) Undergoing Total Skin Electron Beam Therapy (TSEBT)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5262,
+                    "therapyName": "Interleukin-12",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02581631",
+            "title": "A Safety and Efficacy Study of Nivolumab in Combination With Brentuximab Vedotin to Treat Non-Hodgkin Lymphomas (CheckMate 436)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3263,
+                    "therapyName": "Brentuximab vedotin + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02616965",
+            "title": "A Study to Assess the Feasibility of Romidepsin Combined With Brentuximab Vedotin in Cutaneous T-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8061,
+                    "therapyName": "Brentuximab vedotin + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978625",
+            "title": "Talimogene Laherparepvec and Nivolumab in Treating Patients With Refractory Lymphomas or Advanced or Refractory Non-melanoma Skin Cancers",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5080,
+                    "therapyName": "Nivolumab + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03011814",
+            "title": "Durvalumab With or Without Lenalidomide in Treating Patients With Relapsed or Refractory Cutaneous or Peripheral T Cell Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3934,
+                    "therapyName": "Durvalumab + Lenalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03063632",
+            "title": "Pembrolizumab and Interferon Gamma-1b in Treating Patients With Stage IB-IVB Relapsed or Refractory Mycosis Fungoides and Sezary Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5367,
+                    "therapyName": "interferon gamma + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03695471",
+            "title": "Pembrolizumab in Treating Patients With Stage IB-IV Mycosis Fungoides",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03902184",
+            "title": "IPH4102 Alone or in Combination With Chemotherapy in Patients With Advanced T Cell Lymphoma (TELLOMAK)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8662,
+                    "therapyName": "Gemcitabine + IPH4102 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8650,
+                    "therapyName": "IPH4102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04185220",
+            "title": "Phase I Study of Recombinant Human IL-15 (rhIL-15) and Mogamulizumab for People With Refractory or Relapsed Adult T-Cell Leukemia and Mycosis Fungoides/Sezary Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9034,
+                    "therapyName": "Mogamulizumab + rhIL-15",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04234048",
+            "title": "Phase 1 Trial of ST-001 nanoFenretinide in Relapsed/Refractory T-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2731,
+                    "therapyName": "Fenretinide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04256018",
+            "title": "Mogamulizumab + Low-Dose Total Skin Electron Beam Tx in Mycosis Fungoides & Sezary Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2968,
+                    "therapyName": "Mogamulizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "id": 3479,
+    "name": "uveal cancer",
+    "source": "DOID",
+    "definition": "An ocular cancer that is located_in the uvea, which are the pigmented layers of the eye consisting of the iris, ciliary body, and choroid. The uvea is the most common location of intraocular malignancy in adults and may commonly be caused by a subtype of cancer that arises from melanocytes. [url:https\\://www.umkelloggeye.org/conditions-treatments/uveal-melanoma-ocular-melanoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "12754"
+    ],
+    "termId": "DOID:3479",
+    "evidence": [
+        {
+            "id": 16747,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Mekinist (trametinib) treatment resulted in stable disease as best response in 50% (3/6) of patients with uveal melanoma harboring GNAQ or GNA11 mutations (PMID: 22805292; NCT00687622).",
+            "molecularProfile": {
+                "id": 25000,
+                "profileName": "GNAQ mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3479,
+                "name": "uveal cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 233,
+                    "pubMedId": 22805292,
+                    "title": "Activity of the oral MEK inhibitor trametinib in patients with advanced melanoma: a phase 1 dose-escalation trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22805292"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

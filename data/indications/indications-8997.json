@@ -1,0 +1,323 @@
+{
+    "id": 8997,
+    "name": "polycythemia vera",
+    "source": "DOID",
+    "definition": "A myeloproliferative neoplasm characterized by erythroid hyperplasia,  myeloid leukocytosis, thrombocytosis, and splenomegaly. [url:https\\://en.wikipedia.org/wiki/Polycythemia_vera, url:https\\://rarediseases.info.nih.gov/diseases/7422/polycythemia-vera, url:https\\://www.mayoclinic.org/diseases-conditions/polycythemia-vera/symptoms-causes/syc-20355850]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "11868"
+    ],
+    "termId": "DOID:8997",
+    "evidence": [
+        {
+            "id": 18322,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, patient-derived erythroid progenitors harboring JAK2 V617F demonstrated sensitivity to Ropeginterferon in culture (PMID: 30287855).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 8691,
+                "therapyName": "Ropeginterferon",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8997,
+                "name": "polycythemia vera",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16080,
+                    "pubMedId": 30287855,
+                    "title": "Ropeginterferon alpha-2b targets JAK2V617F-positive polycythemia vera cells in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30287855"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18323,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study using data from a Phase III trial, polycythemia vera patients demonstrated significant reduction in the median JAK2 V617F mutational burden at 12 months following treatment with Ropeginterferon compared to Droxia (hydroxyurea) (13.8% vs. 33.2%; p<0.02) (PMID: 30287855; NCT01949805).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 8691,
+                "therapyName": "Ropeginterferon",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8997,
+                "name": "polycythemia vera",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16080,
+                    "pubMedId": 30287855,
+                    "title": "Ropeginterferon alpha-2b targets JAK2V617F-positive polycythemia vera cells in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30287855"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19085,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "ASXL1 mutations are associated with inferior overall survival in patients with polycythemia vera (NCCN.org).",
+            "molecularProfile": {
+                "id": 3486,
+                "profileName": "ASXL1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8997,
+                "name": "polycythemia vera",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19086,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SRSF2 mutations are associated with inferior overall survival in patients with polycythemia vera (NCCN.org).",
+            "molecularProfile": {
+                "id": 22843,
+                "profileName": "SRSF2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8997,
+                "name": "polycythemia vera",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19087,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "IDH1 mutations are associated with inferior overall survival in patients with polycythemia vera (NCCN.org).",
+            "molecularProfile": {
+                "id": 1781,
+                "profileName": "IDH1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8997,
+                "name": "polycythemia vera",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19088,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "IDH2 mutations are associated with inferior overall survival in patients with polycythemia vera (NCCN.org).",
+            "molecularProfile": {
+                "id": 5912,
+                "profileName": "IDH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8997,
+                "name": "polycythemia vera",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02038036",
+            "title": "Ruxolitinib Efficacy and Safety in Patients With HU Resistant or Intolerant Polycythemia Vera vs Best Available Therapy. (RESPONSE-2)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2624,
+                    "therapyName": "Peginterferon alfa-2b",
+                    "synonyms": null
+                },
+                {
+                    "id": 7985,
+                    "therapyName": "Anagrelide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1750,
+                    "therapyName": "Hydroxyurea",
+                    "synonyms": null
+                },
+                {
+                    "id": 9418,
+                    "therapyName": "Pipobroman",
+                    "synonyms": null
+                },
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02493530",
+            "title": "TGR-1202 + Ruxolitinib PMF PPV-MF PET-MF MDS/MPN Polycythemia Vera Resistant to Hydroxyurea",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7984,
+                    "therapyName": "Ruxolitinib + Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03287245",
+            "title": "A Study to Evaluate the Efficacy, Safety, Pharmacokinetics and Pharmacodynamics of Idasanutlin Monotherapy in Participants With Hydroxyurea-Resistant/Intolerant Polycythemia Vera",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2023,
+                    "therapyName": "Idasanutlin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03669965",
+            "title": "KRT-232 Compared to Ruxolitinib in Patients With Phlebotomy-Dependent Polycythemia Vera",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1452,
+                    "therapyName": "KRT-232",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03862157",
+            "title": "Azacitidine, Venetoclax, and Pevonedistat in Treating Patients With Newly Diagnosed Acute Myeloid Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7993,
+                    "therapyName": "Azacitidine + MLN4924 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04262141",
+            "title": "IMG-7289 in Patients With Essential Thrombocythemia (ET) or Polycythemia Vera (PV)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7194,
+                    "therapyName": "IMG-7289",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04282187",
+            "title": "Decitabine With Ruxolitinib or Fedratinib for the Treatment of Accelerated/Blast Phase Myeloproliferative Neoplasms",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9427,
+                    "therapyName": "Decitabine + Fedratinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1735,
+                    "therapyName": "Decitabine + Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

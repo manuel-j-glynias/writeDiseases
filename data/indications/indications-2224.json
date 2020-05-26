@@ -1,0 +1,357 @@
+{
+    "id": 2224,
+    "name": "essential thrombocythemia",
+    "source": "DOID",
+    "definition": "A myeloproliferative neoplasm that is characterized by sustained thrombocytosis in the blood, increased numbers of large, mature megakaryocytes in the bone marrow, and episodes of thrombosis and/or hemorrhage and that results_in the overproduction of platelets. [url:http\\://www.webmd.com/a-to-z-guides/thrombocythemia-essential]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:2224",
+    "evidence": [
+        {
+            "id": 13567,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BMS-911543 inhibited proliferation and induced apoptosis in an essential thrombocythemia cell line harboring JAK2 V617F in culture (PMID: 22015772).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 2779,
+                "therapyName": "BMS-911543",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2224,
+                "name": "essential thrombocythemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2934,
+                    "pubMedId": 22015772,
+                    "title": "Characterization of BMS-911543, a functionally selective small-molecule inhibitor of JAK2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22015772"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13716,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "TP53 mutations are associated with inferior leukemia-free survival in patients with essential thrombocythemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2224,
+                "name": "essential thrombocythemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13723,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The presence of at least one mutation in either SH2B3, IDH2, U2AF1, SF3B1, EZH2, or TP53 is associated with inferior overall survival in patients with essential thrombocythemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2224,
+                "name": "essential thrombocythemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13717,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The presence of at least one mutation in either SH2B3, IDH2, U2AF1, SF3B1, EZH2, or TP53 is associated with inferior overall survival in patients with essential thrombocythemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 1182,
+                "profileName": "SH2B3 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2224,
+                "name": "essential thrombocythemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13718,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The presence of at least one mutation in either SH2B3, IDH2, U2AF1, SF3B1, EZH2, or TP53 is associated with inferior overall survival in patients with essential thrombocythemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 5912,
+                "profileName": "IDH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2224,
+                "name": "essential thrombocythemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13719,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The presence of at least one mutation in either SH2B3, IDH2, U2AF1, SF3B1, EZH2, or TP53 is associated with inferior overall survival in patients with essential thrombocythemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 23383,
+                "profileName": "U2AF1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2224,
+                "name": "essential thrombocythemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13721,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The presence of at least one mutation in either SH2B3, IDH2, U2AF1, SF3B1, EZH2, or TP53 is associated with inferior overall survival in patients with essential thrombocythemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 22743,
+                "profileName": "SF3B1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2224,
+                "name": "essential thrombocythemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13722,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The presence of at least one mutation in either SH2B3, IDH2, U2AF1, SF3B1, EZH2, or TP53 is associated with inferior overall survival in patients with essential thrombocythemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 27863,
+                "profileName": "EZH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2224,
+                "name": "essential thrombocythemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03065400",
+            "title": "PD-1 Inhibition in Advanced Myeloproliferative Neoplasms",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03123588",
+            "title": "Phase 2 Study of Ruxolitinib Versus Anagrelide in Subjects With Essential Thrombocythemia Who Are Resistant to or Intolerant of Hydroxyurea (RESET-272)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 7985,
+                    "therapyName": "Anagrelide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03289910",
+            "title": "Topotecan Hydrochloride and Carboplatin With or Without Veliparib in Treating Advanced Myeloproliferative Disorders and Acute Myeloid Leukemia or Chronic Myelomonocytic Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5341,
+                    "therapyName": "Carboplatin + Topotecan + Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 7710,
+                    "therapyName": "Carboplatin + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03862157",
+            "title": "Azacitidine, Venetoclax, and Pevonedistat in Treating Patients With Newly Diagnosed Acute Myeloid Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7993,
+                    "therapyName": "Azacitidine + MLN4924 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04262141",
+            "title": "IMG-7289 in Patients With Essential Thrombocythemia (ET) or Polycythemia Vera (PV)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7194,
+                    "therapyName": "IMG-7289",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04282187",
+            "title": "Decitabine With Ruxolitinib or Fedratinib for the Treatment of Accelerated/Blast Phase Myeloproliferative Neoplasms",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9427,
+                    "therapyName": "Decitabine + Fedratinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1735,
+                    "therapyName": "Decitabine + Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

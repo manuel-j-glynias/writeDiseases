@@ -1,0 +1,1050 @@
+{
+    "id": 3458,
+    "name": "breast adenocarcinoma",
+    "source": "DOID",
+    "definition": "A breast carcinoma that originates in the milk ducts and/or lobules (glandular tissue) of the breast. [url:http\\://www.virtualmedicalcentre.com/diseases.asp?did=696]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3458",
+    "evidence": [
+        {
+            "id": 363,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Acalisib (GS-9820) resulted in tumor growth inhibition in xenograft models of breast adenocarcinoma harboring a PIK3CA mutation (Mol Cancer Ther 2009;8(12 Suppl):B136).",
+            "molecularProfile": {
+                "id": 429,
+                "profileName": "PIK3CA mutant"
+            },
+            "therapy": {
+                "id": 1021,
+                "therapyName": "GS-9820",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1019,
+                    "pubMedId": null,
+                    "title": "Abstract B136: CAL?120, a novel dual p110beta/p110delta phosphatidylinositol?3?kinase (PI3K) inhibitor, attenuates PI3K signaling and demonstrates potent in vivo antitumor activity against solid tumors",
+                    "url": "http://mct.aacrjournals.org/content/8/12_Supplement/B136.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4267,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Cixutumumab treatment had no beneficial effects on progression-free survival and overall survival in patients with hormone receptor positive (Esr1 and/or Pgr positive) breast adenocarcinoma (PMID: 26324738).",
+            "molecularProfile": {
+                "id": 1188,
+                "profileName": "ESR1 positive"
+            },
+            "therapy": {
+                "id": 701,
+                "therapyName": "Cixutumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4473,
+                    "pubMedId": 26324738,
+                    "title": "Clinical and Translational Results of a Phase II, Randomized Trial of an Anti-IGF-1R (Cixutumumab) in Women with Breast Cancer That Progressed on Endocrine Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324738"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4268,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Cixutumumab treatment had no beneficial effects on progression-free survival and overall survival in patients with hormone receptor positive (Esr1 and/or Pgr positive) breast adenocarcinoma (PMID: 26324738).",
+            "molecularProfile": {
+                "id": 1856,
+                "profileName": "PGR positive"
+            },
+            "therapy": {
+                "id": 701,
+                "therapyName": "Cixutumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4473,
+                    "pubMedId": 26324738,
+                    "title": "Clinical and Translational Results of a Phase II, Randomized Trial of an Anti-IGF-1R (Cixutumumab) in Women with Breast Cancer That Progressed on Endocrine Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324738"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4269,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Cixutumumab treatment had no beneficial effects on progression-free survival and overall survival in patients with hormone receptor positive (Esr1 and/or Pgr positive) breast adenocarcinoma (PMID: 26324738).",
+            "molecularProfile": {
+                "id": 7400,
+                "profileName": "ESR1 pos PGR pos"
+            },
+            "therapy": {
+                "id": 701,
+                "therapyName": "Cixutumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4473,
+                    "pubMedId": 26324738,
+                    "title": "Clinical and Translational Results of a Phase II, Randomized Trial of an Anti-IGF-1R (Cixutumumab) in Women with Breast Cancer That Progressed on Endocrine Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324738"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4685,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast adenocarcinoma cell line treated with PHM16 demonstrated inhibition of Fak autophosphorylation and decreased cell proliferation in culture (PMID: 24657306).",
+            "molecularProfile": {
+                "id": 18706,
+                "profileName": "PTK2 positive"
+            },
+            "therapy": {
+                "id": 3595,
+                "therapyName": "PHM16",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4667,
+                    "pubMedId": 24657306,
+                    "title": "Inhibition of both focal adhesion kinase and fibroblast growth factor receptor 2 pathways induces anti-tumor and anti-angiogenic activities.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24657306"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8835,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 0617B inhibited survival of breast adenocarcinoma cells with activated Stat3 signaling in culture (PMID: 27439479).",
+            "molecularProfile": {
+                "id": 20856,
+                "profileName": "STAT3 positive"
+            },
+            "therapy": {
+                "id": 4822,
+                "therapyName": "Debio 0617B",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6765,
+                    "pubMedId": 27439479,
+                    "title": "Debio 0617B Inhibits Growth of STAT3-Driven Solid Tumors through Combined Inhibition of JAK, SRC, and Class III/V Receptor Tyrosine Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27439479"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8869,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Enhertu (fam-trastuzumab deruxtecan-nxki) inhibited growth of an ERBB2 (HER2)-positive breast adenocarcinoma cell line in culture (PMID: 27026201).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 4844,
+                "therapyName": "Fam-trastuzumab deruxtecan-nxki",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6780,
+                    "pubMedId": 27026201,
+                    "title": "DS-8201a, A Novel HER2-Targeting ADC with a Novel DNA Topoisomerase I Inhibitor, Demonstrates a Promising Antitumor Efficacy with Differentiation from T-DM1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27026201"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10706,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast adenocarcinoma cell line harboring PTEN loss was sensitive to XL765 (SAR245409), demonstrating inhibition of cell proliferation in culture (PMID: 24634413).",
+            "molecularProfile": {
+                "id": 479,
+                "profileName": "PTEN loss"
+            },
+            "therapy": {
+                "id": 1051,
+                "therapyName": "SAR245409",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8768,
+                    "pubMedId": 24634413,
+                    "title": "Characterization of the activity of the PI3K/mTOR inhibitor XL765 (SAR245409) in tumor models with diverse genetic alterations affecting the PI3K pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24634413"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10822,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY 1129980 decreased viability of an LYPD3 (C4.4A)-expressing breast adenocarcinoma cell line in culture (PMID: 28292941).",
+            "molecularProfile": {
+                "id": 27809,
+                "profileName": "LYPD3 positive"
+            },
+            "therapy": {
+                "id": 5651,
+                "therapyName": "BAY 1129980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8854,
+                    "pubMedId": 28292941,
+                    "title": "Preclinical Antitumor Efficacy of BAY 1129980-a Novel Auristatin-Based Anti-C4.4A (LYPD3) Antibody-Drug Conjugate for the Treatment of Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28292941"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11828,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, a breast adenocarcinoma patient harboring PTEN loss demonstrated a partial response when treated with a combination of LY2780301 and Gemzar (gemcitabine) (PMID: 28750271).",
+            "molecularProfile": {
+                "id": 479,
+                "profileName": "PTEN loss"
+            },
+            "therapy": {
+                "id": 6168,
+                "therapyName": "Gemcitabine + LY2780301",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9864,
+                    "pubMedId": 28750271,
+                    "title": "Safety, tolerability\u00a0and antitumour activity of LY2780301 (p70S6K/AKT inhibitor) in combination with gemcitabine in molecularly selected patients with advanced or metastatic cancer: a phase IB dose escalation study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28750271"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12714,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Disarib treatment led to apoptotic induction and resulted in tumor regression in breast adenocarcinoma cell line mouse models (PMID: 27693384).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6600,
+                "therapyName": "Disarib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3458,
+                "name": "breast adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10633,
+                    "pubMedId": 27693384,
+                    "title": "A novel inhibitor of BCL2, Disarib abrogates tumor growth while sparing platelets, by activating intrinsic pathway of apoptosis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27693384"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00461773",
+            "title": "Randomized Phase II Study of Preoperative Letrozole (Femara) in Combination With Avastin in Hormone Receptor Positive Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 794,
+                    "therapyName": "Letrozole",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00796978",
+            "title": "Trastuzumab in Treating Older Women With Early-Stage Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 947,
+                    "therapyName": "Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00826085",
+            "title": "Phase 1/2 Study of ThermoDox With Approved Hyperthermia in Treatment of Breast Cancer Recurrence at the Chest Wall",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1054,
+                    "therapyName": "ThermoDox",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01007695",
+            "title": "Molecular Signature of Valproic Acid in Breast Cancer With Functional Imaging Assessment - a Pilot",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1076,
+                    "therapyName": "Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01111825",
+            "title": "Temsirolimus Plus Neratinib for Patients With Metastatic HER2-Amplified or Triple Negative Breast Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1527,
+                    "therapyName": "Neratinib + Temsirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01124695",
+            "title": "Tamoxifen Citrate in Treating Patients With Metastatic or Recurrent Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1456,
+                    "therapyName": "Tamoxifen",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01283789",
+            "title": "Lapatinib and RAD-001 for HER2 Positive Metastatic Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1539,
+                    "therapyName": "Everolimus + Lapatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01572038",
+            "title": "A Study of Pertuzumab in Combination With Herceptin (Trastuzumab) and A Taxane in First-Line Treatment in Patients With HER2-Positive Advanced Breast Cancer (PERUSE)",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1389,
+                    "therapyName": "Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 619,
+                    "therapyName": "Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01621906",
+            "title": "18F-FLT-PET Imaging of the Brain in Patients With Metastatic Breast Cancer to the Brain Treated With Whole Brain Radiation Therapy With or Without Sorafenib",
+            "phase": null,
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01697293",
+            "title": "Triciribine Phosphate, Paclitaxel, Doxorubicin Hydrochloride, and Cyclophosphamide in Treating Patients With Stage IIB-IV Breast Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3054,
+                    "therapyName": "Paclitaxel + Triciribine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1977,
+                    "therapyName": "Cyclophosphamide + Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01724606",
+            "title": "Whole Brain Radiotherapy (WBRT) With Sorafenib for Breast Cancer Brain Metastases (BCBM)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01824836",
+            "title": "A Study to Evaluate Genetic Predictors of Aromatase Inhibitor Musculoskeletal Symptoms (AIMSS)",
+            "phase": "Phase 0",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 633,
+                    "therapyName": "Anastrozole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01862081",
+            "title": "A Dose-Escalation Study to Assess the Safety, Tolerability, and Pharmacokinetics of GDC-0032 in Combination With Docetaxel or With Paclitaxel in Patients With HER2-negative Locally Recurrent or Metastatic Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2321,
+                    "therapyName": "Docetaxel + Taselisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2322,
+                    "therapyName": "Paclitaxel + Taselisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01897441",
+            "title": "Chemotherapy Before Surgery and Tissue Sample Collection in Patients With Stage IIA-IIIC Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1551,
+                    "therapyName": "Paclitaxel + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1977,
+                    "therapyName": "Cyclophosphamide + Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01928589",
+            "title": "Partial Breast Irradiation With Concurrent Chemotherapy for Women With Breast Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT01959490",
+            "title": "Trastuzumab or Bevacizumab With Combination Chemotherapy in Treating Patients With Stage II-III Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1486,
+                    "therapyName": "Bevacizumab + Cyclophosphamide + Doxorubicin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1485,
+                    "therapyName": "Carboplatin + Docetaxel + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01973309",
+            "title": "A Study of Vantictumab (OMP-18R5) in Combination With Paclitaxel in Locally Recurrent or Metastatic Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4398,
+                    "therapyName": "Paclitaxel + Vantictumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02053636",
+            "title": "A Phase II Trial Testing Oral Administration of Lucitanib in Patients With Fibroblast Growth Factor Receptor (FGFR)1-amplified or Non-amplified Estrogen Receptor Positive Metastatic Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1029,
+                    "therapyName": "Lucitanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02322814",
+            "title": "A Study of Cobimetinib in Combination With Paclitaxel as First-line Treatment for Patients With Metastatic Triple-negative Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1004,
+                    "therapyName": "Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02338349",
+            "title": "A Phase I, Multicenter, Open-Label, Multi-Part, Dose-escalation Study of RAD1901 in Postmenopausal Women With Advanced Estrogen Receptor Positive and HER2-Negative Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5890,
+                    "therapyName": "Elacestrant",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02423902",
+            "title": "A Study of Ad-RTS-hIL-12 With Veledimex in Subjects With Breast Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 4250,
+                    "therapyName": "Ad-RTS-IL-12 plus AL",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02450175",
+            "title": "Etiology of the Platelet-Cancer Metastatic Pathway - A Study of Inflammatory Markers, Platelet Characteristics and Metastatic Surrogates in Cancer Patients and Controls",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 794,
+                    "therapyName": "Letrozole",
+                    "synonyms": null
+                },
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02509507",
+            "title": "Trial to Evaluate the Safety of Talimogene Laherparepvec Injected Into Liver Tumors Alone and in Combination With Systemic Pembrolizumab",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4035,
+                    "therapyName": "Pembrolizumab + Talimogene laherparepvec",
+                    "synonyms": null
+                },
+                {
+                    "id": 2695,
+                    "therapyName": "Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02632071",
+            "title": "Phase I of ACY-1215 + Nab-paclitaxel in Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3313,
+                    "therapyName": "Nab-paclitaxel + Ricolinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02833233",
+            "title": "A Study of Pre-Operative Treatment With Cryoablation and Immune Therapy in Early Stage Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02952729",
+            "title": "Study of Antibody Drug Conjugate in Patients With Advanced Breast Cancer Expressing HER2",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5834,
+                    "therapyName": "XMT-1522",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02964507",
+            "title": "Dose Escalation and Expansion Study of GSK525762 in Combination With Fulvestrant in Subjects With Estrogen Receptor Positive (ER+) Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 744,
+                    "therapyName": "Fulvestrant",
+                    "synonyms": null
+                },
+                {
+                    "id": 5242,
+                    "therapyName": "Fulvestrant + GSK525762",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03094052",
+            "title": "Diarrhea Prophylaxis in Patients With HER2+ Breast Cancer Treated With Trastuzumab and Neratinib, Followed by Neratinib Monotherapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 828,
+                    "therapyName": "Neratinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2700,
+                    "therapyName": "Loperamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 5906,
+                    "therapyName": "Crofelemer",
+                    "synonyms": null
+                },
+                {
+                    "id": 4359,
+                    "therapyName": "Neratinib + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03199885",
+            "title": "Paclitaxel, Trastuzumab, and Pertuzumab With or Without Pembrolizumab in Treating Patients With Metastatic Breast Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1549,
+                    "therapyName": "Paclitaxel + Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5956,
+                    "therapyName": "Paclitaxel + Pembrolizumab + Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03284957",
+            "title": "Phase 1 / 2 Study of SAR439859 Single Agent and in Combination With Palbociclib in Postmenopausal Women With Estrogen Receptor Positive Advanced Breast Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6293,
+                    "therapyName": "SAR439859",
+                    "synonyms": null
+                },
+                {
+                    "id": 6294,
+                    "therapyName": "Palbociclib + SAR439859",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03432741",
+            "title": "Direct Tumor Microinjection and FDG-PET in Testing Drug Sensitivity in Patients With Relapsed or Refractory Non-Hodgkin Lymphoma, Hodgkin Lymphoma, or Stage IV Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1624,
+                    "therapyName": "Carfilzomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1630,
+                    "therapyName": "Daratumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1646,
+                    "therapyName": "Obinutuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 947,
+                    "therapyName": "Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1075,
+                    "therapyName": "Romidepsin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1078,
+                    "therapyName": "Belinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03616587",
+            "title": "Study of AZD9833 Alone or in Combination With Palbociclib in Women With Advanced Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7531,
+                    "therapyName": "AZD9833",
+                    "synonyms": null
+                },
+                {
+                    "id": 7535,
+                    "therapyName": "AZD9833 + Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03767335",
+            "title": "MEN1611 With Trastuzumab (+/- Fulvestrant) in Metastatic Breast Cancer (B-PRECISE-01)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9419,
+                    "therapyName": "CH5132799 + Fulvestrant + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3039,
+                    "therapyName": "CH5132799 + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03778931",
+            "title": "Phase 3 Trial of Elacestrant vs. Standard of Care for the Treatment of Patients With ER+/HER2- Advanced Breast Cancer (EMERALD)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 794,
+                    "therapyName": "Letrozole",
+                    "synonyms": null
+                },
+                {
+                    "id": 738,
+                    "therapyName": "Exemestane",
+                    "synonyms": null
+                },
+                {
+                    "id": 5890,
+                    "therapyName": "Elacestrant",
+                    "synonyms": null
+                },
+                {
+                    "id": 744,
+                    "therapyName": "Fulvestrant",
+                    "synonyms": null
+                },
+                {
+                    "id": 633,
+                    "therapyName": "Anastrozole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03893955",
+            "title": "A Study to Determine the Safety, Tolerability, Pharmacokinetics, and Preliminary Efficacy of ABBV-927 and ABBV-368 With and Without ABBV-181 in Subjects With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8118,
+                    "therapyName": "ABBV-368 + ABBV-927",
+                    "synonyms": null
+                },
+                {
+                    "id": 8119,
+                    "therapyName": "ABBV-181 + ABBV-368 + ABBV-927",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04024800",
+            "title": "Establishing the Recommended Biological Dose for AE37 Peptide Vaccine in Combination With Pembrolizumab That Will Enhance the Tumor-specific Immune Response and Demonstrate Efficacy in Patients With Advanced Triple-negative Breast Cancer (NSABP FB-14)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8605,
+                    "therapyName": "AE37 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04176757",
+            "title": "A Study of ZN-c5 in Participants With Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7055,
+                    "therapyName": "ZN-c5",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04197687",
+            "title": "TPIV100 and Sargramostim for the Treatment of HER2 Positive, Stage II-III Breast Cancer in Patients With Residual Disease After Chemotherapy and Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9092,
+                    "therapyName": "Ado-trastuzumab emtansine + Sargramostim + TPIV100",
+                    "synonyms": null
+                },
+                {
+                    "id": 9091,
+                    "therapyName": "Ado-trastuzumab emtansine + Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1389,
+                    "therapyName": "Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1402,
+                    "therapyName": "Ado-trastuzumab emtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04261218",
+            "title": "Safety, Pharmacodynamics, Pharmacokinetics, and Efficacy of Tomivosertib Combined With Paclitaxel in Advanced Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9319,
+                    "therapyName": "Paclitaxel + Tomivosertib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

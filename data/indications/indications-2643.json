@@ -1,0 +1,91 @@
+{
+    "id": 2643,
+    "name": "perivascular epithelioid cell tumor",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:2643",
+    "evidence": [
+        {
+            "id": 17206,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, ABI-009 (Nab-Rapamycin) treatment of malignant perivascular epithelioid cell patients resulted in partial response in 20% (1/5) of patients with TSC1 mutations, 100% (9/9) of patients with TSC2 patients, and 9% (1/11) of patients without a TSC mutation (J Clin Oncol 37, 2019 (suppl; abstr 11005); NCT02494570).",
+            "molecularProfile": {
+                "id": 1244,
+                "profileName": "TSC1 mutant"
+            },
+            "therapy": {
+                "id": 3380,
+                "therapyName": "Nab-Rapamycin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2643,
+                "name": "perivascular epithelioid cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15230,
+                    "pubMedId": null,
+                    "title": "ABI-009 (nab-sirolimus) in advanced malignant perivascular epithelioid cell tumors (PEComa): Preliminary efficacy, safety, and mutational status from AMPECT, an open label phase II registration trial.",
+                    "url": "https://abstracts.asco.org/239/AbstView_239_269473.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17207,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, ABI-009 (Nab-Rapamycin) treatment of malignant perivascular epithelioid cell patients resulted in partial response in 20% (1/5) of patients with TSC1 mutations, 100% (9/9) of patients with TSC2 patients, and 9% (1/11) of patients without a TSC mutation (J Clin Oncol 37, 2019 (suppl; abstr 11005); NCT02494570).",
+            "molecularProfile": {
+                "id": 1245,
+                "profileName": "TSC2 mutant"
+            },
+            "therapy": {
+                "id": 3380,
+                "therapyName": "Nab-Rapamycin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2643,
+                "name": "perivascular epithelioid cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15230,
+                    "pubMedId": null,
+                    "title": "ABI-009 (nab-sirolimus) in advanced malignant perivascular epithelioid cell tumors (PEComa): Preliminary efficacy, safety, and mutational status from AMPECT, an open label phase II registration trial.",
+                    "url": "https://abstracts.asco.org/239/AbstView_239_269473.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02494570",
+            "title": "A Phase 2 Study of ABI-009 in Patients With Advanced Malignant PEComa",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3380,
+                    "therapyName": "Nab-Rapamycin",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

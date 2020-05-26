@@ -1,0 +1,3559 @@
+{
+    "id": 3907,
+    "name": "lung squamous cell carcinoma",
+    "source": "DOID",
+    "definition": "A non-small cell lung carcinoma that has_material_basis_in the squamous cell. [url:http\\://cancergenome.nih.gov/cancersselected/lungsquamouscell, url:http\\://en.wikipedia.org/wiki/Squamous-cell_carcinoma, url:http\\://en.wikipedia.org/wiki/Squamous_cell_carcinoma_of_the_lung, url:http\\://www.cancer.gov/dictionary?CdrID=46595]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3907",
+    "evidence": [
+        {
+            "id": 648,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited growth of squamous cell lung cancer cell lines harboring FGFR1 amplification (PMID: 22238366).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 311,
+                    "pubMedId": 22238366,
+                    "title": "Ponatinib (AP24534), a multitargeted pan-FGFR inhibitor with activity in multiple FGFR-amplified or mutated cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22238366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 829,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, patient with lung squamous cell carcinoma harboring a DDR2 S768R mutation had a positive response to (Sprycel) dasatinib treatment (PMID: 23932362).",
+            "molecularProfile": {
+                "id": 1200,
+                "profileName": "DDR2 S768R"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 474,
+                    "pubMedId": 23932362,
+                    "title": "Response to dasatinib in a patient with SQCC of the lung harboring a discoid-receptor-2 and synchronous chronic myelogenous leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23932362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1802,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) prevented colony formation and induced cell death in lung squamous cell carcinoma cells expressing DDR2 L63V in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3448,
+                "profileName": "DDR2 L63V"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1803,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) inhibited proliferation of lung squamous cell carcinoma cells harboring a DDR2 L239R mutation in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3031,
+                "profileName": "DDR2 L239R"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1804,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of DDR2 T654M in lung squamous cell cancer cells harboring DDR2 I638F resulted in decreased sensitivity to Sprycel (dasatinib) in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3454,
+                "profileName": "DDR2 I638F DDR2 T654M"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1805,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) inhibited growth of a lung squamous cell carcinoma cell line harboring a DDR2 I638F mutation in culture and in xenograft models (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3455,
+                "profileName": "DDR2 I638F"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1806,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited proliferation of lung squamous cell carcinoma cells harboring a DDR2 I638F mutation in cell culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3455,
+                "profileName": "DDR2 I638F"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2498,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III clinical trial that supported FDA approval, treatment with Portrazza (necitumumab), in combination with gemcitabine and cisplatin, resulted in an increased median overall survival of 11.5 months in squamous NSCLC patients, compared to 9.9 months with gemcitabine and cisplatin alone (PMID: 26045340).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2882,
+                "therapyName": "Cisplatin + Gemcitabine + Necitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3181,
+                    "pubMedId": 26045340,
+                    "title": "Necitumumab plus gemcitabine and cisplatin versus gemcitabine and cisplatin alone as first-line therapy in patients with stage IV squamous non-small-cell lung cancer (SQUIRE): an open-label, randomised, controlled phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26045340"
+                },
+                {
+                    "id": 15601,
+                    "pubMedId": null,
+                    "title": "Portrazza (necitumumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125547"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3006,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) inhibited tumor growth in a patient-derived xenograft model of squamous cell lung carcinoma harboring a HIP1-ALK fusion (PMID: 24496003).",
+            "molecularProfile": {
+                "id": 11061,
+                "profileName": "HIP1 - ALK"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3565,
+                    "pubMedId": 24496003,
+                    "title": "HIP1-ALK, a novel ALK fusion variant that responds to crizotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24496003"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3177,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, the addition of Necitumumab (IMC-11F8) to pemetrexed and cisplatin did not increase survival of stage IV non-squamous NSCLC patients (PMID: 25701171).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3085,
+                "therapyName": "Cisplatin + Necitumumab + Pemetrexed",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3665,
+                    "pubMedId": 25701171,
+                    "title": "Necitumumab plus pemetrexed and cisplatin as first-line therapy in patients with stage IV non-squamous non-small-cell lung cancer (INSPIRE): an open-label, randomised, controlled phase 3 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25701171"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3771,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, AZD8186 demonstrated preliminary efficacy in patients with tumor types with prevalent PTEN-deficiency, including squamous non-small cell lung cancer (AACR; Cancer Res 2015;75(15 Suppl):Abstract nr CT329).",
+            "molecularProfile": {
+                "id": 479,
+                "profileName": "PTEN loss"
+            },
+            "therapy": {
+                "id": 992,
+                "therapyName": "AZD8186",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4118,
+                    "pubMedId": null,
+                    "title": "Phase I study of the PI3K?/? inhibitor AZD8186 in patients with advanced castration resistant prostate cancer, triple negative breast cancer, squamous non-small cell lung cancer or PTEN deficient solid tumors: update from dose-finding",
+                    "url": "http://cancerres.aacrjournals.org/content/75/15_Supplement/CT329.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5082,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) inhibited growth of a lung squamous cell cancer (SCC) cell line with amplification of PDGFRA in culture, and inhibited tumor growth in PDGFRA-amplified lung SCC xenograft models (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 1417,
+                "profileName": "PDGFRA amp"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5085,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung squamous cell cancer cells harboring DDR2 mutations demonstrated sensitivity to Sprycel (dasatinib) in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 1251,
+                "profileName": "DDR2 mutant"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5089,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of DDR2 T654M in lung squamous cell cancer cells harboring DDR2 L239R resulted in decreased sensitivity to Sprycel (dasatinib) in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 20266,
+                "profileName": "DDR2 L239R DDR2 T654M"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5090,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib) inhibited growth of lung squamous cell cancer cells with PDGFRA amplification in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 1417,
+                "profileName": "PDGFRA amp"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5095,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited growth of lung squamous cell cancer cells harboring DDR2 L239R in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3031,
+                "profileName": "DDR2 L239R"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5129,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a squamous cell lung cancer patient that demonstrated a radiographic response following Sprycel (dasatinib) and Tarceva (erlotinib) combination treatment was found to carry a DDR2 S768R mutation (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 1200,
+                "profileName": "DDR2 S768R"
+            },
+            "therapy": {
+                "id": 3759,
+                "therapyName": "Dasatinib + Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6701,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited growth of squamous cell lung carcinoma cells harboring mutant KRAS in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6934,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ABT-414 demonstrated cytoxicity against a lung squamous cell carcinoma cell line with EGFR over expression in culture and induced tumor regression in EGFR over expressing lung squamous cell carcinoma cell line xenograft models (PMID: 26846818).",
+            "molecularProfile": {
+                "id": 2419,
+                "profileName": "EGFR over exp"
+            },
+            "therapy": {
+                "id": 976,
+                "therapyName": "Depatuxizumab mafodotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5960,
+                    "pubMedId": 26846818,
+                    "title": "ABT-414, an Antibody-Drug Conjugate Targeting a Tumor-Selective EGFR Epitope.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26846818"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6962,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung squamous cell carcinoma cell line with ERBB2 (HER2) amplification demonstrated resistance to treatment with Iressa (gefitinib) in culture (PMID: 26545934).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7244,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, dovitinib treatment resulted in a objective response rate of 11.5% (3/26, all partial responses) and disease control rate of 50% (13/26), and a median progression-free survival of 2.9 months in lung squamous cell carcinoma patients with FGFR1 amplification, and FGFR1 amplification was not determined to be a predictive biomarker for sensitivity (PMID: 27315356).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 721,
+                "therapyName": "Dovitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6256,
+                    "pubMedId": 27315356,
+                    "title": "Efficacy and safety of dovitinib in pretreated patients with advanced squamous non-small cell lung cancer with FGFR1 amplification: A single-arm, phase 2 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27315356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 7967,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) induced apoptosis, inhibited cell proliferation, migration, and invasion of lung squamous cell carcinoma cells over expressing wild-type Pik3ca in culture (PMID: 26013318).",
+            "molecularProfile": {
+                "id": 20299,
+                "profileName": "PIK3CA over exp"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6528,
+                    "pubMedId": 26013318,
+                    "title": "Inhibition of PI3K Pathway Reduces Invasiveness and Epithelial-to-Mesenchymal Transition in Squamous Lung Cancer Cell Lines Harboring PIK3CA Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26013318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7968,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) induced apoptosis, inhibited cell proliferation, migration, and invasion of lung squamous cell carcinoma cells over expressing PIK3CA E545K in culture (PMID: 26013318).",
+            "molecularProfile": {
+                "id": 2421,
+                "profileName": "PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6528,
+                    "pubMedId": 26013318,
+                    "title": "Inhibition of PI3K Pathway Reduces Invasiveness and Epithelial-to-Mesenchymal Transition in Squamous Lung Cancer Cell Lines Harboring PIK3CA Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26013318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7969,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) induced apoptosis, inhibited cell proliferation, migration, and invasion of lung squamous cell carcinoma cells over expressing wild-type Pik3ca in culture (PMID: 26013318).",
+            "molecularProfile": {
+                "id": 1731,
+                "profileName": "PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6528,
+                    "pubMedId": 26013318,
+                    "title": "Inhibition of PI3K Pathway Reduces Invasiveness and Epithelial-to-Mesenchymal Transition in Squamous Lung Cancer Cell Lines Harboring PIK3CA Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26013318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7970,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 induced apoptosis, inhibited cell proliferation, migration, and invasion of lung squamous cell carcinoma cells over expressing wild-type Pik3ca in culture (PMID: 26013318).",
+            "molecularProfile": {
+                "id": 20299,
+                "profileName": "PIK3CA over exp"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6528,
+                    "pubMedId": 26013318,
+                    "title": "Inhibition of PI3K Pathway Reduces Invasiveness and Epithelial-to-Mesenchymal Transition in Squamous Lung Cancer Cell Lines Harboring PIK3CA Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26013318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7971,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 induced apoptosis, inhibited cell proliferation, migration, and invasion of lung squamous cell carcinoma cells over expressing PIK3CA E545K in culture (PMID: 26013318).",
+            "molecularProfile": {
+                "id": 2421,
+                "profileName": "PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6528,
+                    "pubMedId": 26013318,
+                    "title": "Inhibition of PI3K Pathway Reduces Invasiveness and Epithelial-to-Mesenchymal Transition in Squamous Lung Cancer Cell Lines Harboring PIK3CA Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26013318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7972,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 induced apoptosis, inhibited cell proliferation, migration, and invasion of lung squamous cell carcinoma cells over expressing PIK3CA H1047R in culture (PMID: 26013318).",
+            "molecularProfile": {
+                "id": 1731,
+                "profileName": "PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6528,
+                    "pubMedId": 26013318,
+                    "title": "Inhibition of PI3K Pathway Reduces Invasiveness and Epithelial-to-Mesenchymal Transition in Squamous Lung Cancer Cell Lines Harboring PIK3CA Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26013318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7973,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) induced apoptosis, inhibited cell proliferation, migration, and invasion of lung squamous cell carcinoma cells over expressing PIK3CA H1047R in culture (PMID: 26013318).",
+            "molecularProfile": {
+                "id": 1731,
+                "profileName": "PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6528,
+                    "pubMedId": 26013318,
+                    "title": "Inhibition of PI3K Pathway Reduces Invasiveness and Epithelial-to-Mesenchymal Transition in Squamous Lung Cancer Cell Lines Harboring PIK3CA Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26013318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7974,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) induced apoptosis, inhibited cell proliferation, migration, and invasion of lung squamous cell carcinoma cells over expressing PIK3CA E545K in culture (PMID: 26013318).",
+            "molecularProfile": {
+                "id": 2421,
+                "profileName": "PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6528,
+                    "pubMedId": 26013318,
+                    "title": "Inhibition of PI3K Pathway Reduces Invasiveness and Epithelial-to-Mesenchymal Transition in Squamous Lung Cancer Cell Lines Harboring PIK3CA Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26013318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7975,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) induced apoptosis, inhibited cell proliferation, migration, and invasion of lung squamous cell carcinoma cells over expressing wild-type PIK3CA in culture, and inhibited tumor growth in cell line xenograft models (PMID: 26013318).",
+            "molecularProfile": {
+                "id": 20299,
+                "profileName": "PIK3CA over exp"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6528,
+                    "pubMedId": 26013318,
+                    "title": "Inhibition of PI3K Pathway Reduces Invasiveness and Epithelial-to-Mesenchymal Transition in Squamous Lung Cancer Cell Lines Harboring PIK3CA Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26013318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8304,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, radiation induced over expression of EGFR and ERBB3 (HER3) in lung squamous cell carcinoma xenograft models demonstrated increased sensitivity when additionally treated with MEHD7945A, resulting in delayed tumor growth (PMID: 26141946).",
+            "molecularProfile": {
+                "id": 26227,
+                "profileName": "EGFR over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 4683,
+                "therapyName": "Duligotuzumab + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6593,
+                    "pubMedId": 26141946,
+                    "title": "Antitumor Effects of MEHD7945A, a Dual-Specific Antibody against EGFR and HER3, in Combination with Radiation in Lung and Head and Neck Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26141946"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8450,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGFR1 amplified lung squamous cell carcinoma cells were not sensitive to RO4987655 in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 903,
+                "therapyName": "RO4987655",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8468,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGFR1 amplified lung squamous cell carcinoma cells were not sensitive to RO5126766 in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 2011,
+                "therapyName": "RO5126766",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8482,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGFR1 amplified lung squamous cell carcinoma cells were not sensitive to Selumetinib (AZD-6244) in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9343,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, reduced Mtor expression via shRNA enhanced sensitivity of lung squamous cell carcinoma cells to Iclusig (ponatinib) in culture (PMID: 26359452).",
+            "molecularProfile": {
+                "id": 26789,
+                "profileName": "MTOR dec exp"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7121,
+                    "pubMedId": 26359452,
+                    "title": "Kinome RNAi Screens Reveal Synergistic Targeting of MTOR and FGFR1 Pathways for Treatment of Lung Cancer and HNSCC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26359452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9458,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) inhibited growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture, and inhibited tumor growth in xenograft models (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9459,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BKM120 did not inhibit growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture (PMID: 26544513)",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9462,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Selumetinib (AZD6244) and Afinitor (everolimus) inhibited growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture, and inhibited tumor growth in xenograft models, with increased efficacy compared to either agent alone (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 4901,
+                "therapyName": "Everolimus + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9463,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Binimetinib (MEK162) and Afinitor (everolimus) reduced phosphorylation of ERK and S6 and worked synergistically to inhibit growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 5022,
+                "therapyName": "Binimetinib + Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9467,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Binimetinib (MEK162) and AZD8055 reduced phosphorylation of ERK and S6 and worked synergistically to inhibit growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 5023,
+                "therapyName": "AZD8055 + Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9469,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EMD 1214063 inhibited Met phosphorylation and cell viability of Met over-expressing lung squamous cell carcinoma cells in culture (PMID: 26358474).",
+            "molecularProfile": {
+                "id": 5392,
+                "profileName": "MET over exp"
+            },
+            "therapy": {
+                "id": 726,
+                "therapyName": "EMD 1214063",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7198,
+                    "pubMedId": 26358474,
+                    "title": "Impact of p53 Status on Radiosensitization of Tumor Cells by MET Inhibition-Associated Checkpoint Abrogation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26358474"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9563,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Capmatinib (INC280) treatment resulted in a decreased tumor volume of 61% in a patient with lung squamous cell carcinoma harboring a MET exon 14 skipping mutation (PMID: 25971938).",
+            "molecularProfile": {
+                "id": 26413,
+                "profileName": "MET del exon14"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6712,
+                    "pubMedId": 25971938,
+                    "title": "Activation of MET via diverse exon 14 splicing alterations occurs in multiple tumor types and confers clinical sensitivity to MET inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25971938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9731,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, patients with lung squamous cell carcinoma harboring an FGFR1 amplification demonstrated a disease control rate of 50% (18/36) when treated with BGJ398, resulting in 14 patients with stable disease and 4 patients with a partial response (PMID: 27870574).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7516,
+                    "pubMedId": 27870574,
+                    "title": "Evaluation of BGJ398, a Fibroblast Growth Factor Receptor 1-3 Kinase Inhibitor, in Patients With Advanced Solid Tumors Harboring Genetic Alterations in Fibroblast Growth Factor Receptors: Results of a Global Phase I, Dose-Escalation and Dose-Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27870574"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9816,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, one patient with Pten negative squamous NSCLC had a partial response to Buparlisib (BKM120) however, stage 2 of the study was not initiated due to failure of meeting overall stage 1 response endpoints (PMID: 26098748).",
+            "molecularProfile": {
+                "id": 2077,
+                "profileName": "PTEN negative"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7642,
+                    "pubMedId": 26098748,
+                    "title": "Safety and Efficacy of Buparlisib (BKM120) in Patients with PI3K Pathway-Activated Non-Small Cell Lung Cancer: Results from the Phase II BASALT-1 Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26098748"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 10126,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with squamous cell lung cancer harboring a MET exon 14 skipping mutation was determined to have acquired MET D1228N after progression on Xalkori (crizotinib) therapy (PMID: 27343442).",
+            "molecularProfile": {
+                "id": 27264,
+                "profileName": "MET del exon14 MET D1228N"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 8066,
+                    "pubMedId": 27343442,
+                    "title": "Acquired Resistance to Crizotinib in NSCLC with MET\u00a0Exon 14 Skipping.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27343442"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10761,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/Ib trial, treatment with the combination of Mekinist (trametinib) and Taxotere (docetaxel) resulted in partial response in 1 patient and stable disease in 3 patients within the subset of 5 evaluable patients with squamous non-small cell lung cancer patients (PMID: 27876675).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1264,
+                "therapyName": "Docetaxel + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8810,
+                    "pubMedId": 27876675,
+                    "title": "A Phase 1/1b Study Evaluating Trametinib Plus Docetaxel or Pemetrexed in Patients With Advanced\u00a0Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27876675"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10825,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY 1129980 inhibited tumor growth in patient-derived xenograft (PDX) models of LYPD3 (C4.4A)-expressing lung squamous cell carcinoma (PMID: 28292941).",
+            "molecularProfile": {
+                "id": 27809,
+                "profileName": "LYPD3 positive"
+            },
+            "therapy": {
+                "id": 5651,
+                "therapyName": "BAY 1129980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8854,
+                    "pubMedId": 28292941,
+                    "title": "Preclinical Antitumor Efficacy of BAY 1129980-a Novel Auristatin-Based Anti-C4.4A (LYPD3) Antibody-Drug Conjugate for the Treatment of Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28292941"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11212,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of AZD4547 and Buparlisib (BKM120) induced apoptosis in a squamous cell lung cancer cell line with amplification of FGFR1 in culture (PMID: 28108151).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 5898,
+                "therapyName": "AZD4547 + Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9154,
+                    "pubMedId": 28108151,
+                    "title": "A Functional Genetic Screen Identifies the Phosphoinositide 3-kinase Pathway as a Determinant of Resistance to Fibroblast Growth Factor Receptor Inhibitors in FGFR Mutant Urothelial Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28108151"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12006,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, sensitivity to treatment with Rogaratinib (BAY 1163877) was demonstrated in patients with a variety of FGFR-expressing solid tumor types, including long lasting stable disease in a patient with FGFR3-positive lung squamous cell carcinoma (Ann Oncol 2017, Vol 28, Suppl 5, Abstract #379P; NCT01976741).",
+            "molecularProfile": {
+                "id": 9322,
+                "profileName": "FGFR3 positive"
+            },
+            "therapy": {
+                "id": 2030,
+                "therapyName": "Rogaratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9963,
+                    "pubMedId": null,
+                    "title": "A novel mRNA-based patient selection strategy identifies fibroblast growth factor receptor (FGFR) inhibitor-sensitive tumors: Results from rogaratinib Phase-1 study",
+                    "url": "http://www.esmo.org/Conferences/ESMO-2017-Congress/Abstracts"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12086,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, AZD4547 demonstrated limited efficacy in patients with squamous cell lung cancer with FGFR1 amplification, resulting in an overall response rate of 8% (1/15) and a median overall survival of 4.9 months (PMID: 28615371; NCT00979134).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10024,
+                    "pubMedId": 28615371,
+                    "title": "A Phase Ib Open-Label Multicenter Study of AZD4547 in Patients with Advanced Squamous Cell Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615371"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12257,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, MET amplification was detected in a squamous cell lung cancer patient harboring FGFR1 amplification whose disease relapsed after 17 months of BGJ398 treatment, supporting a role of MET amplification in drug resistance in FGFR1-amplified lung cancer (PMID: 28630215).",
+            "molecularProfile": {
+                "id": 28587,
+                "profileName": "FGFR1 amp MET amp"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10196,
+                    "pubMedId": 28630215,
+                    "title": "Mechanisms of Primary Drug Resistance in FGFR1-Amplified Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28630215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12812,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Portrazza (necitumumab) bound EGFR S492R, and reduced ligand-induced EGFR phosphorylation in lung squamous cell carcinoma cells expressing EGFR S492R (referred to as S468R) in cell culture (PMID: 29158469).",
+            "molecularProfile": {
+                "id": 12766,
+                "profileName": "EGFR S492R"
+            },
+            "therapy": {
+                "id": 826,
+                "therapyName": "Necitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10745,
+                    "pubMedId": 29158469,
+                    "title": "Molecular Basis for Necitumumab Inhibition of EGFR Variants Associated with Acquired Cetuximab Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29158469"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13579,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SCC244 inhibited Met activity, downstream signaling, and cell proliferation in lung squamous cell carcinoma cells harboring MET amplification in culture, and inhibited tumor growth in cell line xenograft models (PMID: 29237805).",
+            "molecularProfile": {
+                "id": 1629,
+                "profileName": "MET amp"
+            },
+            "therapy": {
+                "id": 6844,
+                "therapyName": "SCC244",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11200,
+                    "pubMedId": 29237805,
+                    "title": "Preclinical Evaluation of SCC244 (Glumetinib), a Novel, Potent, and Highly Selective Inhibitor of c-Met in MET-dependent Cancer Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29237805"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14529,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (LUX-Lung 8), secondary analysis demonstrated favorable outcomes with Gilotrif (afatinib) treatment compared to Tarceva (erlotinib) in lung squamous cell carcinoma patients with ERBB (HER) family mutations, and ERBB2 (HER2) mutations predicted an OS (HR=0.06, p=0.02) and PFS (HR=0.06, p=0.02) benefit for Gilotrif (afatinib) over Tarceva (erlotinib) treatment (PMID: 29902295; NCT01523587).",
+            "molecularProfile": {
+                "id": 1216,
+                "profileName": "ERBB2 mutant"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11727,
+                    "pubMedId": 29902295,
+                    "title": "Association of ERBB Mutations With Clinical Outcomes of Afatinib- or Erlotinib-Treated Patients With Lung Squamous Cell Carcinoma: Secondary Analysis of the LUX-Lung 8 Randomized Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29902295"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14530,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (LUX-Lung 8), secondary analysis demonstrated favorable outcomes with Gilotrif (afatinib) treatment compared to Tarceva (erlotinib) in lung squamous cell carcinoma patients with ERBB (HER) family mutations, and ERBB4 (HER4) mutations predicted an OS (HR=0.22) and PFS (HR=0.21) benefit for Gilotrif (afatinib) over Tarceva (erlotinib) treatment (PMID: 29902295; NCT01523587).",
+            "molecularProfile": {
+                "id": 6309,
+                "profileName": "ERBB4 mutant"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11727,
+                    "pubMedId": 29902295,
+                    "title": "Association of ERBB Mutations With Clinical Outcomes of Afatinib- or Erlotinib-Treated Patients With Lung Squamous Cell Carcinoma: Secondary Analysis of the LUX-Lung 8 Randomized Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29902295"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14565,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, treatment with Prexasertib (LY2606368) resulted in a clinical benefit rate (complete response+partial response+stable disease) of 56% (9/16, all stable disease), and a median progression-free survival of 3.0 months in patients with squamous non-small cell lung cancer (PMID: 29643063; NCT0115790).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1651,
+                "therapyName": "Prexasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11752,
+                    "pubMedId": 29643063,
+                    "title": "Evaluation of Prexasertib, a Checkpoint Kinase 1 Inhibitor, in a Phase Ib Study of Patients with Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29643063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15147,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (KEYNOTE-407) that supported FDA approval, Keytruda (pembrolizumab) in combination with chemotherapy consisted of carboplatin and paclitaxel or nab-paclitaxel significantly improved overall survival (15.9 vs 11.3 months), progression-free survival (6.4 vs 4.8 months), and overall response rate (58% vs 35%) compared to placebo plus chemotherapy in patients with untreated metastatic squamous non-small cell lung cancer (J Clin Oncol 36, no. 15_suppl, 105-105; NCT02775435).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2103,
+                "therapyName": "Carboplatin + Paclitaxel + Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12696,
+                    "pubMedId": null,
+                    "title": "Phase 3 study of carboplatin-paclitaxel/nab-paclitaxel (Chemo) with or without pembrolizumab (Pembro) for patients (Pts) with metastatic squamous (Sq) non-small cell lung cancer (NSCLC).",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.105"
+                },
+                {
+                    "id": 15508,
+                    "pubMedId": null,
+                    "title": "Keytruda (pembrolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15148,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (KEYNOTE-407) that supported FDA approval, Keytruda (pembrolizumab) in combination with chemotherapy consisted of carboplatin and paclitaxel or nab-paclitaxel significantly improved overall survival (15.9 vs 11.3 months), progression-free survival (6.4 vs 4.8 months), and overall response rate (58% vs 35%) compared to placebo plus chemotherapy in patients with untreated metastatic squamous non-small cell lung cancer (J Clin Oncol 36, no. 15_suppl, 105-105; NCT02775435).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5591,
+                "therapyName": "Carboplatin + Nab-paclitaxel + Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12696,
+                    "pubMedId": null,
+                    "title": "Phase 3 study of carboplatin-paclitaxel/nab-paclitaxel (Chemo) with or without pembrolizumab (Pembro) for patients (Pts) with metastatic squamous (Sq) non-small cell lung cancer (NSCLC).",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.105"
+                },
+                {
+                    "id": 15508,
+                    "pubMedId": null,
+                    "title": "Keytruda (pembrolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15770,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung squamous cell carcinoma patient-derived xenograft (PDX) models harboring PTEN loss did not respond to Buparlisib (BKM120) treatment (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 479,
+                "profileName": "PTEN loss"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15771,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung squamous cell carcinoma a patient-derived xenograft (PDX) model harboring PIK3CA amplification, without additional PIK3CA mutations, did not respond to Buparlisib (BKM120) treatment (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 1191,
+                "profileName": "PIK3CA amp"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15773,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) treatment resulted in inhibition of AKT and S6 phosphorylation and durable responses in 4/5 lung squamous cell carcinoma patient-derived xenograft (PDX) models harboring PIK3CA E545K or E542K mutations, 3 that also had PIK3CA amplification and 1 with PTEN loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 743,
+                "profileName": "PIK3CA act mut"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15782,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) treatment resulted in inhibition of AKT and S6 phosphorylation and durable responses in 2 of 3 lung squamous cell carcinoma patient-derived xenograft (PDX) models harboring PIK3CA E545K and PIK3CA amplification (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31215,
+                "profileName": "PIK3CA E545K PIK3CA amp"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15783,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) treatment resulted in inhibition of AKT and S6 phosphorylation and durable response in a lung squamous cell carcinoma patient-derived xenograft (PDX) model harboring PIK3CA E542K and PIK3CA amplification (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31218,
+                "profileName": "PIK3CA E542K PIK3CA amp"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15784,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) treatment resulted in inhibition of AKT and S6 phosphorylation and durable response in a lung squamous cell carcinoma patient-derived xenograft (PDX) model harboring PIK3CA E542K and PTEN loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 28682,
+                "profileName": "PIK3CA E545K PTEN loss"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15785,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) treatment resulted in responses in multiple lung squamous cell carcinoma patient-derived xenograft (PDX) models harboring PIK3CA E545K or E542K mutations, including models with PIK3CA amplification or PTEN loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 743,
+                "profileName": "PIK3CA act mut"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15789,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) treatment resulted in response in a lung squamous cell carcinoma patient-derived xenograft (PDX) model harboring PIK3CA E542K and PIK3CA amplification (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31218,
+                "profileName": "PIK3CA E542K PIK3CA amp"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15791,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) treatment resulted in response in a lung squamous cell carcinoma patient-derived xenograft (PDX) model harboring PIK3CA E542K and PTEN loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 27243,
+                "profileName": "PIK3CA E542K PTEN loss"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15795,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Buparlisib (BYL719) and Ibrance (palbociclib) resulted in increased tumor growth inhibition compared to either agent alone in patient-derived xenograft (PDX) models of lung squamous cell carcinoma harboring PIK3CA E542K or E545K mutations with p16 (CDKN2A) loss, including models that also had either PIK3CA amplification or PTEN loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31219,
+                "profileName": "CDKN2A loss PIK3CA act mut"
+            },
+            "therapy": {
+                "id": 7736,
+                "therapyName": "Buparlisib + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15798,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Buparlisib (BYL719) and Ibrance (palbociclib) resulted in increased tumor growth inhibition compared to either agent alone in patient-derived xenograft (PDX) models of lung squamous cell carcinoma harboring PIK3CA E545K and PIK3CA amplification, with p16 (CDKN2A) loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31223,
+                "profileName": "CDKN2A loss PIK3CA E545K PIK3CA amp"
+            },
+            "therapy": {
+                "id": 7736,
+                "therapyName": "Buparlisib + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15799,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Buparlisib (BYL719) and Ibrance (palbociclib) resulted in increased tumor growth inhibition compared to either agent alone in a patient-derived xenograft (PDX) model of lung squamous cell carcinoma harboring PIK3CA E542K and PTEN loss, with p16 (CDKN2A) loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31222,
+                "profileName": "CDKN2A loss PIK3CA E542K PTEN loss"
+            },
+            "therapy": {
+                "id": 7736,
+                "therapyName": "Buparlisib + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15800,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Buparlisib (BYL719) and Ibrance (palbociclib) resulted in increased tumor growth inhibition compared to either agent alone in a patient-derived xenograft (PDX) model of lung squamous cell carcinoma harboring PIK3CA E542K and PIK3CA amplification, with p16 (CDKN2A) loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31224,
+                "profileName": "CDKN2A loss PIK3CA E542K PIK3CA amp"
+            },
+            "therapy": {
+                "id": 7736,
+                "therapyName": "Buparlisib + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15866,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Gilotrif (afatinib) treatment resulted in stable disease over 8-months in a patient with advanced squamous cell lung carcinoma harboring ERBB2 (HER2) S310Y (PMID: 30584328).",
+            "molecularProfile": {
+                "id": 3285,
+                "profileName": "ERBB2 S310Y"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13864,
+                    "pubMedId": 30584328,
+                    "title": "Clinical benefit from afatinib in an advanced squamous cell lung carcinoma patient harboring HER2 S310Y mutation: a case report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30584328"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16844,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, WSD0922 treatment resulted in tumor regression in patient-derived xenograft (PDX) models of squamous lung cancer harboring EGFR activating mutations (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1326).",
+            "molecularProfile": {
+                "id": 423,
+                "profileName": "EGFR act mut"
+            },
+            "therapy": {
+                "id": 8206,
+                "therapyName": "WSD0922",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14952,
+                    "pubMedId": null,
+                    "title": "WSD0922: A BBB penetrable EGFR/EGFRVIII inhibitor for the treatment of GBM and metastatic CNS tumor",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17053,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Combination Paraplatin (carboplatin), Taxol (paclitaxel), and Keytruda (pembrolizumab) is in guidelines as first-line therapy for patients with advanced lung squamous cell carcinoma with CD274 (PD-L1) expression of greater than or equal to 1%, and as preferred therapy in patients with CD274 (PD-L1) expression of 1-49% (NCCN.org).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 2103,
+                "therapyName": "Carboplatin + Paclitaxel + Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17054,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Combination Platinol (cisplatin), Taxol (paclitaxel), and Keytruda (pembrolizumab) is in guidelines as first-line therapy for patients with advanced lung squamous cell carcinoma with CD274 (PD-L1) expression of greater than or equal to 1%, and as preferred therapy in patients with CD274 (PD-L1) expression of 1-49% (NCCN.org).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 6522,
+                "therapyName": "Cisplatin + Paclitaxel + Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17055,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Combination Paraplatin (carboplatin), Abraxane (nab-paclitaxel), and Keytruda (pembrolizumab) is in guidelines as first-line therapy for patients with advanced lung squamous cell carcinoma with CD274 (PD-L1) expression of greater than or equal to 1%, and as preferred therapy in patients with CD274 (PD-L1) expression of 1-49% (NCCN.org)",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 5591,
+                "therapyName": "Carboplatin + Nab-paclitaxel + Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17056,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Combination Platinol (cisplatin), Abraxane (nab-paclitaxel), and Keytruda (pembrolizumab) is in guidelines as first-line therapy for patients with advanced lung squamous cell carcinoma with CD274 (PD-L1) expression of greater than or equal to 1%, and as preferred therapy in patients with CD274 (PD-L1) expression of 1-49% (NCCN.org).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 8395,
+                "therapyName": "Cisplatin + Nab-paclitaxel + Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17080,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Debio 1347 treatment resulted in a stable disease with 26.7% reduction of tumor size and 100% decrease of DUSP6 score in a patient with lung squamous cell carcinoma harboring FGFR1 amplification (PMID: 30745300; NCT01948297).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15194,
+                    "pubMedId": 30745300,
+                    "title": "A Phase I, Open-Label, Multicenter, Dose-escalation Study of the Oral Selective FGFR Inhibitor Debio 1347 in Patients with Advanced Solid Tumors Harboring FGFR Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30745300"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17256,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) inhibited mTOR signaling in lung squamous cell carcinoma cells harboring NFE2L2 E79K in culture, resulted in 55% tumor inhibition in cell line xenograft models (J Clin Oncol 37, 2019 (suppl; abstr 9085)).",
+            "molecularProfile": {
+                "id": 11098,
+                "profileName": "NFE2L2 E79K"
+            },
+            "therapy": {
+                "id": 1282,
+                "therapyName": "Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15277,
+                    "pubMedId": null,
+                    "title": "Targeting NFE2L2/KEAP1 mutations in advanced NSCLC with the TORC1/2 inhibitor TAK-228.",
+                    "url": "http://abstracts.asco.org/239/AbstView_239_265315.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17257,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Sapanisertib (MLN0128) treatment resulted in an objective response rate of 29% (2/7, 2 partial response) and a disease control rate of 100% (7/7) in lung squamous cell carcinoma patients harboring NFE2L2 mutations (J Clin Oncol 37, 2019 (suppl; abstr 9085)).",
+            "molecularProfile": {
+                "id": 10205,
+                "profileName": "NFE2L2 mutant"
+            },
+            "therapy": {
+                "id": 1282,
+                "therapyName": "Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15277,
+                    "pubMedId": null,
+                    "title": "Targeting NFE2L2/KEAP1 mutations in advanced NSCLC with the TORC1/2 inhibitor TAK-228.",
+                    "url": "http://abstracts.asco.org/239/AbstView_239_265315.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17258,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Sapanisertib (MLN0128) treatment resulted in a disease control rate of 66% (2/3, 2 stable disease) in lung squamous cell carcinoma patients harboring KEAP1 mutations (J Clin Oncol 37, 2019 (suppl; abstr 9085)).",
+            "molecularProfile": {
+                "id": 10206,
+                "profileName": "KEAP1 mutant"
+            },
+            "therapy": {
+                "id": 1282,
+                "therapyName": "Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15277,
+                    "pubMedId": null,
+                    "title": "Targeting NFE2L2/KEAP1 mutations in advanced NSCLC with the TORC1/2 inhibitor TAK-228.",
+                    "url": "http://abstracts.asco.org/239/AbstView_239_265315.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17322,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, with only 1 responder in the primary analysis population (n=21) (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 429,
+                "profileName": "PIK3CA mutant"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17323,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, only 1 of the 11 patients harboring PIK3CA E545K demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 2421,
+                "profileName": "PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17324,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, none of the 6 patients harboring PIK3CA E542K demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17325,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, none of the 4 patients harboring PIK3CA H1047R demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 1731,
+                "profileName": "PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17326,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, none of the 2 patients harboring PIK3CA N345K demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 3668,
+                "profileName": "PIK3CA N345K"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17327,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, a patients harboring PIK3CA E453K did not demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 3596,
+                "profileName": "PIK3CA E453K"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17328,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, a patients harboring PIK3CA G1047R did not demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 3629,
+                "profileName": "PIK3CA G1049R"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17329,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, a patients harboring PIK3CA M1043I did not demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 3661,
+                "profileName": "PIK3CA M1043I"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18787,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, OMO-1 induced tumor regression in a cell line xenograft model of MET-amplified squamous non-small cell lung cancer (Cancer Res 2018;78(13 Suppl):Abstract nr 4791).",
+            "molecularProfile": {
+                "id": 1629,
+                "profileName": "MET amp"
+            },
+            "therapy": {
+                "id": 8846,
+                "therapyName": "OMO-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16455,
+                    "pubMedId": null,
+                    "title": "OMO-1, a potent, highly selective, orally bioavailable, MET kinase inhibitor with a favorable preclinical toxicity profile, shows both monotherapy activity, against MET pathway-driven tumors, and EGFR TKI combination activity in acquired resistance models",
+                    "url": "https://cancerres.aacrjournals.org/content/78/13_Supplement/4791"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19078,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DDR2 T654I was identified as an acquired mutation in lung squamous cell carcinoma cells harboring DDR2 L239R that became resistant to Sprycel (dasatinib) in culture (PMID: 24296828).",
+            "molecularProfile": {
+                "id": 33919,
+                "profileName": "DDR2 L239R DDR2 T654I"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 2149,
+                    "pubMedId": 24296828,
+                    "title": "Acquired resistance to dasatinib in lung cancer cell lines conferred by DDR2 gatekeeper mutation and NF1 loss.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24296828"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19721,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with lung squamous cell carcinoma harboring EGFR S752_I759del and de novo MET amplification had primary resistance to icotinib treatment, demonstrating increased tumor size and metastasis after 3 weeks of treatment (PMID: 31131689).",
+            "molecularProfile": {
+                "id": 34468,
+                "profileName": "EGFR S752_I759del MET amp"
+            },
+            "therapy": {
+                "id": 769,
+                "therapyName": "Icotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17525,
+                    "pubMedId": 31131689,
+                    "title": "De novo MET amplification promotes intrinsic resistance to first-generation EGFR tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31131689"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19722,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with lung squamous cell carcinoma harboring EGFR S752_I759del and de novo MET amplification with primary resistance to Conmana (Icotinib) treatment demonstrated a decrease in tumor size following treatment with single-agent Xalkori (crizotinib) (PMID: 31131689).",
+            "molecularProfile": {
+                "id": 34468,
+                "profileName": "EGFR S752_I759del MET amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17525,
+                    "pubMedId": 31131689,
+                    "title": "De novo MET amplification promotes intrinsic resistance to first-generation EGFR tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31131689"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19884,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CH6953755 treatment inhibited tumor growth in a cell line xenograft model of squamous non-small cell lung cancer harboring YES1 amplification (PMID: 31391186).",
+            "molecularProfile": {
+                "id": 27722,
+                "profileName": "YES1 amp"
+            },
+            "therapy": {
+                "id": 9238,
+                "therapyName": "CH6953755",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16801,
+                    "pubMedId": 31391186,
+                    "title": "YES1 Is a Targetable Oncogene in Cancers Harboring YES1 Gene Amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31391186"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01351103",
+            "title": "A Study of LGK974 in Patients With Malignancies Dependent on Wnt Ligands",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1937,
+                    "therapyName": "LGK974",
+                    "synonyms": null
+                },
+                {
+                    "id": 7468,
+                    "therapyName": "LGK974 + Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01737502",
+            "title": "Sirolimus and Auranofin in Treating Patients With Advanced or Recurrent Non-Small Cell Lung Cancer or Small Cell Lung Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2301,
+                    "therapyName": "Auranofin + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01741727",
+            "title": "A Study of ABT-414 in Subjects With Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 976,
+                    "therapyName": "Depatuxizumab mafodotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01820325",
+            "title": "Safety and Efficacy of Buparlisib (BKM120) in Patients With Untreated Squamous Non-small Cell Lung Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 680,
+                    "therapyName": "Buparlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01877811",
+            "title": "CEP-32496 in Patients With Advanced Solid Tumors in Phase 1 and Advanced Melanoma and Metastatic Colorectal Cancer in Phase 2",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1002,
+                    "therapyName": "RXDX-105",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01948141",
+            "title": "Nintedanib in Treating Patients With Advanced Non-Small Cell Lung Cancer Who Have Failed Up to Two Previous Chemotherapy Regimens",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 831,
+                    "therapyName": "Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01976741",
+            "title": "Phase I Dose Escalation Pan-FGFR (Fibroblast Growth Factor Receptor) Inhibitor",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2030,
+                    "therapyName": "Rogaratinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02240238",
+            "title": "Combination Therapy With NC-6004 and Gemcitabine in Advanced Solid Tumors or Non-Small Cell Lung, Biliary and Bladder Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5626,
+                    "therapyName": "Gemcitabine + NC-6004",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02393248",
+            "title": "Open-Label, Dose-Escalation Study of Pemigatinib in Subjects With Advanced Malignancies - (FIGHT-101)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4176,
+                    "therapyName": "Cisplatin + Gemcitabine + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4174,
+                    "therapyName": "Docetaxel + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8250,
+                    "therapyName": "INCMGA00012 + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8249,
+                    "therapyName": "Pemigatinib + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4088,
+                    "therapyName": "Epacadostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02403895",
+            "title": "AZD2014 and Weekly Paclitaxel in Squamous NSCLC",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 991,
+                    "therapyName": "Vistusertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02417701",
+            "title": "TORC1/2 Inhibitor MLN0128 in Treating Patients With Stage IV or Recurrent Lung Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1282,
+                    "therapyName": "Sapanisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02443337",
+            "title": "A Study of LY3023414 and Necitumumab in Squamous Lung Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 826,
+                    "therapyName": "Necitumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02444793",
+            "title": "A Study of PF-05082566 In Combination With Mogamulizumab In Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6332,
+                    "therapyName": "Mogamulizumab + Utomilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02513563",
+            "title": "AZD1775 Plus Carboplatin-Paclitaxel in Squamous Cell Lung Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 822,
+                    "therapyName": "Adavosertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02536495",
+            "title": "Selinexor and Docetaxel in Treating Patients With Recurrent or Metastatic Squamous Cell Lung Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02785913",
+            "title": "Lung-MAP: Taselisib as Second-Line Therapy in Treating Patients With Recurrent Stage IV Squamous Cell Lung Cancer and Positive Biomarker Matches",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1016,
+                    "therapyName": "Taselisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02785939",
+            "title": "Lung-MAP: Palbociclib as Second-Line Therapy in Treating Patients With Recurrent Stage IV Squamous Cell Lung Cancer and Positive Biomarker Matches",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02785952",
+            "title": "Lung-MAP: Nivolumab With or Without Ipilimumab as Second-Line Therapy in Treating Patients With Recurrent Stage IV Squamous Cell Lung Cancer and No Matching Biomarkers",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02924233",
+            "title": "Sym004 in Combination With Nivolumab Versus Nivolumab Monotherapy in EGFR-amplified Squamous Non-Small Cell Lung Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4833,
+                    "therapyName": "Nivolumab + SYM004",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03065062",
+            "title": "Study of the CDK4/6 Inhibitor Palbociclib (PD-0332991) in Combination With the PI3K/mTOR Inhibitor Gedatolisib (PF-05212384) for Patients With Advanced Squamous Cell Lung, Pancreatic, Head & Neck and Other Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4034,
+                    "therapyName": "Gedatolisib + Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03157089",
+            "title": "Testing Afatinib in Combination With Pembrolizumab in Patients With Squamous Cell Carcinoma of the Lung (LUX-Lung IO)",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2435,
+                    "therapyName": "Afatinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03178552",
+            "title": "A Study to Evaluate Efficacy and Safety of Multiple Targeted Therapies as Treatments for Participants With Non-Small Cell Lung Cancer (NSCLC) (B-FAST)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1455,
+                    "therapyName": "Entrectinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4686,
+                    "therapyName": "Carboplatin + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4616,
+                    "therapyName": "Carboplatin + Cisplatin + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 698,
+                    "therapyName": "Alectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03234712",
+            "title": "A Study Evaluating the Safety, Pharmacokinetics, and Anti-tumor Activity of ABBV-321 in Subjects With Advanced Solid Tumors Associated With Overexpression of the Epidermal Growth Factor Receptor (EGFR) or Its Ligands",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6975,
+                    "therapyName": "ABBV-321",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03261947",
+            "title": "A Study to Evaluate the Safety, Tolerability, and Activity of TAK-931 in Participants With Metastatic Pancreatic Cancer, Metastatic Colorectal Cancer, and Other Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7279,
+                    "therapyName": "TAK-931",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03377556",
+            "title": "Lung-MAP: Talazoparib in Treating Patients With HRRD Positive Recurrent Stage IV Squamous Cell Lung Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 682,
+                    "therapyName": "Talazoparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03441100",
+            "title": "TCR-engineered T Cells in NSCLC and HCC Patients",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                },
+                {
+                    "id": 6783,
+                    "therapyName": "IMA202",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03476681",
+            "title": "QUILT-3.017: Study of NEO-201 in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7808,
+                    "therapyName": "NEO-201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03574753",
+            "title": "Lung-MAP S1400K: c-MET Positive",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1363,
+                    "therapyName": "Telisotuzumab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03811652",
+            "title": "A Multiple Ascending Dose Study of MEDI7247 in Advanced or Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5762,
+                    "therapyName": "MEDI7247",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03894618",
+            "title": "SL-279252 (PD1-Fc-OX40L) in Subjects With Advanced Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8683,
+                    "therapyName": "SL-279252",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03976362",
+            "title": "A Study of Pembrolizumab (MK-3475) With or Without Maintenance Olaparib in First-line Metastatic Squamous Non-small Cell Lung Cancer (NSCLC, MK-7339-008/KEYLYNK-008)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2103,
+                    "therapyName": "Carboplatin + Paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5591,
+                    "therapyName": "Carboplatin + Nab-paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5342,
+                    "therapyName": "Olaparib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03976375",
+            "title": "Efficacy and Safety of Pembrolizumab (MK-3475) With Lenvatinib (E7080/MK-7902) vs. Docetaxel in Participants With Metastatic Non-Small Cell Lung Cancer (NSCLC) and Progressive Disease (PD) After Platinum Doublet Chemotherapy and Immunotherapy (MK-7902-008/E7080-G000-316/LEAP-008)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 792,
+                    "therapyName": "Lenvatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4782,
+                    "therapyName": "Lenvatinib + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04043195",
+            "title": "Nivolumab and Ipilimumab in Combination With Immunogenic Chemotherapy for Patients With Advanced NSCLC (NSCLC)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8635,
+                    "therapyName": "Ipilimumab + Nivolumab + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8634,
+                    "therapyName": "Nivolumab + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04145622",
+            "title": "Study of DS-7300a in Participants With Advanced Solid Malignant Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9154,
+                    "therapyName": "DS-7300a",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04152018",
+            "title": "Study of PF-06940434 in Patients With Advanced or Metastatic Solid Tumors.",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8931,
+                    "therapyName": "PF-06801591 + PF-06940434",
+                    "synonyms": null
+                },
+                {
+                    "id": 8930,
+                    "therapyName": "PF-06940434",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04262856",
+            "title": "Study to Evaluate Monotherapy and Combination Immunotherapies in Participants With PD-L1 Positive Non-small Cell Lung Cancer (ARC-7)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9357,
+                    "therapyName": "AB154 + AB928 + GLS-010",
+                    "synonyms": null
+                },
+                {
+                    "id": 6139,
+                    "therapyName": "GLS-010",
+                    "synonyms": null
+                },
+                {
+                    "id": 8177,
+                    "therapyName": "AB154 + GLS-010",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04266730",
+            "title": "Trial of a Personalized and Adaptive Neoantigen Dose-Adjusted Vaccine Concurrently With Pembrolizumab (PANDA-VAC)",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9476,
+                    "therapyName": "PANDA-VAC + Pembrolizumab + Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

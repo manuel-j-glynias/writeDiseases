@@ -1,0 +1,73 @@
+{
+    "id": 138,
+    "name": "vaginal squamous tumor",
+    "source": "DOID",
+    "definition": "A vaginal cancer that has_material_basis in squamous tissue. [url:https\\://www.ncbi.nlm.nih.gov/pubmed/23057430]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:138",
+    "evidence": [
+        {
+            "id": 4013,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, GDC-0632 treatment resulted in stable disease for more than 5 months in 13% (6/45) of patients with advanced solid tumors and 1 partial response in a squamous cell vaginal carcinoma patient carrying wild-type KRAS (Mol Cancer Ther 2013;12(11 Suppl):B75).",
+            "molecularProfile": {
+                "id": 496,
+                "profileName": "KRAS wild-type"
+            },
+            "therapy": {
+                "id": 748,
+                "therapyName": "GDC-0623",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 138,
+                "name": "vaginal squamous tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4367,
+                    "pubMedId": null,
+                    "title": "A first in-human phase I study to evaluate the MEK1/2 inhibitor GDC-0623 in patients with advanced solid tumors.",
+                    "url": "http://mct.aacrjournals.org/content/12/11_Supplement/B75.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074513",
+            "title": "Atezolizumab and Bevacizumab in Rare Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

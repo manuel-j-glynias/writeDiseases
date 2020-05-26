@@ -1,0 +1,92 @@
+{
+    "id": 8747,
+    "name": "subacute myeloid leukemia",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "8746",
+        "8993"
+    ],
+    "termId": "DOID:8747",
+    "evidence": [
+        {
+            "id": 8245,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Venclexta (venetoclax) and Cytosar-U (cytarabine) combination treatment synergistically induced cell death in patient-derived acute myeloid leukemia cells in culture (PMID: 27103402).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3182,
+                "therapyName": "Cytarabine + Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8747,
+                "name": "subacute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6583,
+                    "pubMedId": 27103402,
+                    "title": "Binding of Released Bim to Mcl-1 is a Mechanism of Intrinsic Resistance to ABT-199 which can be Overcome by Combination with Daunorubicin or Cytarabine in AML Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27103402"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10952,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AMG-564 induced cytotoxicity of CD33-positive acute myeloid leukemia (AML) cells in culture, and inhibited tumor growth in a CD33-positive AML cell line xenograft model (PMID: 27189165).",
+            "molecularProfile": {
+                "id": 27618,
+                "profileName": "CD33 positive"
+            },
+            "therapy": {
+                "id": 5711,
+                "therapyName": "AMV-564",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8747,
+                "name": "subacute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8953,
+                    "pubMedId": 27189165,
+                    "title": "Characterization of CD33/CD3 Tetravalent Bispecific Tandem Diabodies (TandAbs) for the Treatment of Acute Myeloid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27189165"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01305499",
+            "title": "A Trial to Evaluate Two Schedules of MS275 in Combination With 5AC in Elderly Patients With Acute Myeloid Leukemia (AML)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2645,
+                    "therapyName": "Azacitidine + Entinostat",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "id": 5176,
+    "name": "renal Wilms' tumor",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:5176",
+    "evidence": [
+        {
+            "id": 3941,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BMS-754807 treatment resulted in significant tumor growth delay in 100% (3/3) of cell line xenograft models of Wilms tumor (PMID: 21298745).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 686,
+                "therapyName": "BMS-754807",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5176,
+                "name": "renal Wilms' tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4302,
+                    "pubMedId": 21298745,
+                    "title": "Initial testing (stage 1) of the IGF-1 receptor inhibitor BMS-754807 by the pediatric preclinical testing program.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21298745"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02130869",
+            "title": "A Pilot Study of Immunotherapy Including Haploidentical NK Cell Infusion Following CD133+ Positively-Selected Autologous Hematopoietic Stem Cells in Children With High Risk Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2378,
+                    "therapyName": "Bendamustine + Cytarabine + Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2460,
+                    "therapyName": "Busulfan + Hu14.18K322A",
+                    "synonyms": null
+                },
+                {
+                    "id": 2459,
+                    "therapyName": "Aldesleukin + Melphalan + Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1791,
+                    "therapyName": "Carboplatin + Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02574728",
+            "title": "Sirolimus in Combination With Metronomic Chemotherapy in Children With Recurrent and/or Refractory Solid and CNS Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3143,
+                    "therapyName": "Celecoxib + Cyclophosphamide + Etoposide + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867592",
+            "title": "Cabozantinib-S-Malate in Treating Younger Patients With Recurrent, Refractory, or Newly Diagnosed Sarcomas, Wilms Tumor, or Other Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

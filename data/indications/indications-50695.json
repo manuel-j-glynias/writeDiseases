@@ -1,0 +1,60 @@
+{
+    "id": 50695,
+    "name": "malignant pleural solitary fibrous tumor",
+    "source": "DOID",
+    "definition": "A pleural cancer that is located_in mesenchymal cells in the areolar tissue subjacent to the mesothelial-lined pleura. [url:https\\://www.ncbi.nlm.nih.gov/pubmed/17075563]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050695",
+    "evidence": [
+        {
+            "id": 9674,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, patients with solitary fibrous tumors demonstrated a median progression free survival of 2 months and five patients demonstrated an objective tumor response when treated with Sprycel (dasatinib) (PMID: 27696380).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50695,
+                "name": "malignant pleural solitary fibrous tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7465,
+                    "pubMedId": 27696380,
+                    "title": "Phase 2 study of dasatinib in patients with alveolar soft part sarcoma, chondrosarcoma, chordoma, epithelioid sarcoma, or solitary fibrous tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27696380"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT04028063",
+            "title": "Doxorubicin Plus Dual Checkpoint Blockade for Soft Tissue Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9314,
+                    "therapyName": "AGEN1884 + AGEN2034 + Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

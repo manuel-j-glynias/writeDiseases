@@ -1,0 +1,104 @@
+{
+    "id": 660,
+    "name": "adrenal cortex cancer",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "3949"
+    ],
+    "termId": "DOID:660",
+    "evidence": [
+        {
+            "id": 3908,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Linsitinib (OSI-906) was well-tolerated and resulted in stable disease in 41% (27/66) of patients with an advanced solid tumor and a partial response in two patients with adrenocortical carcinoma (PMID: 25208878).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 798,
+                "therapyName": "Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 660,
+                "name": "adrenal cortex cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4283,
+                    "pubMedId": 25208878,
+                    "title": "Phase I study of intermittent oral dosing of the insulin-like growth factor-1 and insulin receptors inhibitor OSI-906 in patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25208878"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01396408",
+            "title": "A Phase II Study of Sunitinib or Temsirolimus in Patients With Advanced Rare Tumours",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02673333",
+            "title": "Single Agent Pembrolizumab in Subjects With Advanced Adrenocortical Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867592",
+            "title": "Cabozantinib-S-Malate in Treating Younger Patients With Recurrent, Refractory, or Newly Diagnosed Sarcomas, Wilms Tumor, or Other Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

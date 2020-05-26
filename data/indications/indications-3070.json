@@ -1,0 +1,4873 @@
+{
+    "id": 3070,
+    "name": "malignant glioma",
+    "source": "DOID",
+    "definition": "A cell type cancer that has_material_basis_in glial cells and is located in brain or located in spine. [url:http\\://en.wikipedia.org/wiki/Malignant_glioma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "2627"
+    ],
+    "termId": "DOID:3070",
+    "evidence": [
+        {
+            "id": 847,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II clinical trial, Torisel (temsirolimus) in combination with Tarceva (erlotinib) demostrated minimal efficacy at the maximum tolerated dosage in high-grade glioma patients, with no correlation between EGFR amplification and survival (PMID: 24470557).",
+            "molecularProfile": {
+                "id": 447,
+                "profileName": "EGFR amp"
+            },
+            "therapy": {
+                "id": 1340,
+                "therapyName": "Erlotinib + Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 491,
+                    "pubMedId": 24470557,
+                    "title": "Phase I/II study of erlotinib and temsirolimus for patients with recurrent malignant gliomas: North American Brain Tumor Consortium trial 04-02.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24470557"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 861,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Mithracin (plicamycin) induced cell death and inhibited migration of glioma cell lines in culture (PMID: 20556479).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1397,
+                "therapyName": "Plicamycin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 518,
+                    "pubMedId": 20556479,
+                    "title": "Therapeutic effects of the Sp1 inhibitor mithramycin A in glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20556479"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1493,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of Id4 in glioma cells resulted in increased resistance to BCNU in culture (PMID: 21531766).",
+            "molecularProfile": {
+                "id": 2607,
+                "profileName": "ID4 over exp"
+            },
+            "therapy": {
+                "id": 1811,
+                "therapyName": "Carmustine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 1413,
+                    "pubMedId": 21531766,
+                    "title": "ID4 imparts chemoresistance and cancer stemness to glioma cells by derepressing miR-9*-mediated suppression of SOX2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21531766"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1625,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "TNFAIP3 overexpression has been demonstrated in glioma, and is associated with poor prognosis (PMID: 20186265). ShRNA inhibition of TNFAIP3 in glioma stem cells resulted in increased apoptosis in cell culture, and increased survival in glioma xenograft models, suggesting that TNFAIP3 may be a potential therapeutic target for glioma (PMID: 20186265).",
+            "molecularProfile": {
+                "id": 2783,
+                "profileName": "TNFAIP3 over exp"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1751,
+                    "pubMedId": 20186265,
+                    "title": "Targeting A20 decreases glioma stem cell survival and tumor growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20186265"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2070,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AGI-5198 inhibited growth and promoted differentiation in glioma cells expressing IDH1 R132C (PMID: 23558169).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 2569,
+                "therapyName": "AGI-5198",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2552,
+                    "pubMedId": 23558169,
+                    "title": "An inhibitor of mutant IDH1 delays growth and promotes differentiation of glioma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23558169"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2071,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AGI-5198 inhibited growth of a glioma cell line harboring IDH1 R132H in culture and in xenograft models (PMID: 23558169).",
+            "molecularProfile": {
+                "id": 1253,
+                "profileName": "IDH1 R132H"
+            },
+            "therapy": {
+                "id": 2569,
+                "therapyName": "AGI-5198",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2552,
+                    "pubMedId": 23558169,
+                    "title": "An inhibitor of mutant IDH1 delays growth and promotes differentiation of glioma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23558169"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2231,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MRX34 (miR-34a) induced apoptosis and inhibited growth of glioma cells in culture and in xenograft models (PMID: 19773441).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1035,
+                "therapyName": "MRX34",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2819,
+                    "pubMedId": 19773441,
+                    "title": "MicroRNA-34a inhibits glioblastoma growth by targeting multiple oncogenes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19773441"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2251,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinb) induced cell death and decreased proliferation of glioma cells in culture (PMID: 25458015).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2833,
+                    "pubMedId": 25458015,
+                    "title": "Sunitinib impedes brain tumor progression and reduces tumor-induced neurodegeneration in the microenvironment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25458015"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6242,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, Sutent (sunitinib) was well-tolerated in young patients with high grade glioma, but did not demonstrate sufficient anti-tumor activity as a single agent, with no patients achieving a sustained objective response (PMID: 27109549).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5506,
+                    "pubMedId": 27109549,
+                    "title": "Phase II evaluation of sunitinib in the treatment of recurrent or refractory high-grade glioma or ependymoma in children: a children's Oncology Group Study ACNS1021.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27109549"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2259,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SD-208 reduced cancer cell migration, increased tumor infiltration by immune cells, and prolonged survival of TGFBR1 positive glioma cell line xenograft models (PMID: 15520202).",
+            "molecularProfile": {
+                "id": 6275,
+                "profileName": "TGFBR1 positive"
+            },
+            "therapy": {
+                "id": 2749,
+                "therapyName": "SD-208",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2871,
+                    "pubMedId": 15520202,
+                    "title": "SD-208, a novel transforming growth factor beta receptor I kinase inhibitor, inhibits growth and invasiveness and enhances immunogenicity of murine and human glioma cells in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15520202"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2704,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PD173074 inhibited Fgfr3 kinase activity and growth in transformed astrocytes expressing the FGFR3-TACC3 fusion in culture and in cell line xenograft models (PMID: 22837387).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 2948,
+                "therapyName": "PD173074",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3426,
+                    "pubMedId": 22837387,
+                    "title": "Transforming fusions of FGFR and TACC genes in human glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22837387"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2705,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PD173074 inhibited Fgfr1 kinase activity and cell growth in transformed cells expressing the FGFR1-TACC1 fusion in culture (PMID: 22837387).",
+            "molecularProfile": {
+                "id": 10477,
+                "profileName": "FGFR1 - TACC1"
+            },
+            "therapy": {
+                "id": 2948,
+                "therapyName": "PD173074",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3426,
+                    "pubMedId": 22837387,
+                    "title": "Transforming fusions of FGFR and TACC genes in human glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22837387"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2706,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 inhibited Fgfr3 kinase activity in transformed astrocytes expressing the FGFR3-TACC3 fusion in culture (PMID: 22837387).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3426,
+                    "pubMedId": 22837387,
+                    "title": "Transforming fusions of FGFR and TACC genes in human glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22837387"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2707,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 inhibited Fgfr1 kinase activity and cell growth in transformed cells expressing the FGFR1-TACC1 fusion in culture (PMID: 22837387).",
+            "molecularProfile": {
+                "id": 10477,
+                "profileName": "FGFR1 - TACC1"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3426,
+                    "pubMedId": 22837387,
+                    "title": "Transforming fusions of FGFR and TACC genes in human glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22837387"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2708,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BJG398 inhibited Fgfr1 kinase activity and cell growth in transformed cells expressing the FGFR1-TACC1 fusion in culture (PMID: 22837387).",
+            "molecularProfile": {
+                "id": 10477,
+                "profileName": "FGFR1 - TACC1"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3426,
+                    "pubMedId": 22837387,
+                    "title": "Transforming fusions of FGFR and TACC genes in human glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22837387"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2709,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BJG398) inhibited Fgfr3 kinase activity in transformed astrocytes expressing the FGFR3-TACC3 fusion in culture (PMID: 22837387).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3426,
+                    "pubMedId": 22837387,
+                    "title": "Transforming fusions of FGFR and TACC genes in human glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22837387"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18849,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment inhibited tumor growth in a patient-derived xenograft (PDX) model of glioma harboring FGFR3-TACC3 (Cancer Res 2019;79(13 Suppl):Abstract nr 2206).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16500,
+                    "pubMedId": null,
+                    "title": "Anti-tumor activity of infigratinib, a potent and selective inhibitor of FGFR1, FGFR2 and FGFR3, in FGFR fusion-positive cholangiocarcinoma and other solid tumors",
+                    "url": "https://cancerres.aacrjournals.org/content/79/13_Supplement/2206"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3911,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PQ401 disrupted cell migration and inhibited growth of glioma cells in culture, and suppressed tumor growth in cell line xenograft models (PMID: 25971682).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2744,
+                "therapyName": "PQ401",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4286,
+                    "pubMedId": 25971682,
+                    "title": "PQ401, an IGF-1R inhibitor, induces apoptosis and inhibits growth, proliferation and migration of glioma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25971682"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4009,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Balversa (erdafitinib) inhibited proliferation of glioma cells harboring FGFR3-TACC3 fusion in culture and xenograft tumor growth in animal models (PMID: 25609060).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4364,
+                    "pubMedId": 25609060,
+                    "title": "Detection, Characterization, and Inhibition of FGFR-TACC Fusions in IDH Wild-type Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25609060"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4333,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SH5-07 inhibited proliferation of glioma cell lines harboring constitutively active Stat3 in culture and reduced tumor growth in cell line xenograft models (PMID: 26088127).",
+            "molecularProfile": {
+                "id": 17818,
+                "profileName": "STAT3 act mut"
+            },
+            "therapy": {
+                "id": 3494,
+                "therapyName": "SH5-07",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4499,
+                    "pubMedId": 26088127,
+                    "title": "Hydroxamic Acid and Benzoic Acid-Based STAT3 Inhibitors Suppress Human Glioma and Breast Cancer Phenotypes In Vitro and In Vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26088127"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4343,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SH4-54 inhibited proliferation of glioma cell lines harboring constitutively active Stat3 in culture and reduced tumor growth in cell line xenograft models (PMID: 26088127).",
+            "molecularProfile": {
+                "id": 17818,
+                "profileName": "STAT3 act mut"
+            },
+            "therapy": {
+                "id": 3493,
+                "therapyName": "SH4-54",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4499,
+                    "pubMedId": 26088127,
+                    "title": "Hydroxamic Acid and Benzoic Acid-Based STAT3 Inhibitors Suppress Human Glioma and Breast Cancer Phenotypes In Vitro and In Vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26088127"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5211,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SF1126 inhibited Akt activation, proliferation, and migration of transgenic mouse glioma cells expressing HRAS G12V in culture, and suppressed tumor growth in xenograft models (PMID: 25425962).",
+            "molecularProfile": {
+                "id": 2794,
+                "profileName": "HRAS G12V"
+            },
+            "therapy": {
+                "id": 915,
+                "therapyName": "SF1126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4921,
+                    "pubMedId": 25425962,
+                    "title": "Anti-tumor effect of a novel PI3-kinase inhibitor, SF1126, in (12)\u2009V-Ha-Ras transgenic mouse glioma model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25425962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6030,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "In multiple clinical studies, including two meta-analyses, IDH1 mutations were associated with improved overall survival and progression free survival in patients with gliomas (PMID: 23817809, PMID: 26220714, PMID: 23894344).",
+            "molecularProfile": {
+                "id": 1781,
+                "profileName": "IDH1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5239,
+                    "pubMedId": 23817809,
+                    "title": "A population-based study of low-grade gliomas and mutated isocitrate dehydrogenase 1 (IDH1).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23817809"
+                },
+                {
+                    "id": 5240,
+                    "pubMedId": 26220714,
+                    "title": "Prognostic role of IDH mutations in gliomas: a meta-analysis of 55 observational studies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26220714"
+                },
+                {
+                    "id": 5241,
+                    "pubMedId": 23894344,
+                    "title": "IDH1/IDH2 mutations define the prognosis and molecular profiles of patients with gliomas: a meta-analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23894344"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13752,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "IDH1 mutations are associated with a favorable prognosis in patients with glioma, and are associated with a survival benefit for patients treated with radiation or alkylator therapy (NCCN.org).",
+            "molecularProfile": {
+                "id": 1781,
+                "profileName": "IDH1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6033,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "IDH1 mutations aid in the diagnosis of gliomas (PMID: 23041832, PMID: 19755387, PMID: 19915484; NCCN.org).",
+            "molecularProfile": {
+                "id": 1781,
+                "profileName": "IDH1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5246,
+                    "pubMedId": 23041832,
+                    "title": "Diagnostic implications of IDH1-R132H and OLIG2 expression patterns in rare and challenging glioblastoma variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23041832"
+                },
+                {
+                    "id": 5247,
+                    "pubMedId": 19755387,
+                    "title": "IDH1 mutations as molecular signature and predictive factor of secondary glioblastomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19755387"
+                },
+                {
+                    "id": 5248,
+                    "pubMedId": 19915484,
+                    "title": "Diagnostic use of IDH1/2 mutation analysis in routine clinical testing of formalin-fixed, paraffin-embedded glioma tissues.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19915484"
+                },
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6205,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Gemzar (gemcitabine) plus radiation therapy resulted in median overall survival of 73.5 months in 7 high-grade glioma patients with IDH mutated, non-codeleted tumors with ATRX loss (PMID: 26853339).",
+            "molecularProfile": {
+                "id": 22833,
+                "profileName": "ATRX loss IDH1 mut"
+            },
+            "therapy": {
+                "id": 4093,
+                "therapyName": "Gemcitabine + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5446,
+                    "pubMedId": 26853339,
+                    "title": "Gemcitabine Plus Radiation Therapy for High-Grade Glioma: Long-Term Results of a Phase 1 Dose-Escalation Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26853339"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6935,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, GDC-0084 treatment resulted in metabolic partial response in 18.5% (5/27) and stable disease in 40.4% (19/47) of high-grade glioma patients (J Clin Oncol (Meeting Abstracts) May 2016 vol. 34 no. 15_suppl 2012).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2018,
+                "therapyName": "GDC-0084",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5961,
+                    "pubMedId": null,
+                    "title": "A first-in-human phase 1 study to evaluate the brain-penetrant PI3K/mTOR inhibitor GDC-0084 in patients with progressive or recurrent high-grade glioma.",
+                    "url": "http://meeting.ascopubs.org/cgi/content/abstract/34/15_suppl/2012"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8787,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ADDA 5 inhibited energy metabolism and proliferation in both chemo-sensitive and chemo-resistant glioma cell lines in culture, and suppressed tumor growth in cell line xenograft models (PMID: 27679486).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4812,
+                "therapyName": "ADDA 5",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6750,
+                    "pubMedId": 27679486,
+                    "title": "Identification of Small Molecule Inhibitors of Human Cytochrome c Oxidase That Target Chemoresistant Glioma Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27679486"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9106,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) and Afinitor (everolimus) synergistically inhibited growth and induced apoptosis in glioma cell lines in culture, resulted in prolonged survival in cell line xenograft models (PMID: 27217440).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 4901,
+                "therapyName": "Everolimus + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6921,
+                    "pubMedId": 27217440,
+                    "title": "BRAF Status in Personalizing Treatment Approaches for Pediatric Gliomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27217440"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9107,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) and PLX4720 synergistically inhibited growth and induced apoptosis in glioma cell lines in culture, resulted in prolonged survival in cell line xenograft models (PMID: 27217440).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1061,
+                "therapyName": "PLX4720 + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6921,
+                    "pubMedId": 27217440,
+                    "title": "BRAF Status in Personalizing Treatment Approaches for Pediatric Gliomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27217440"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9108,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Afinitor (everolimus) and PLX4720 synergistically inhibited growth and induced apoptosis in glioma cell lines in culture (PMID: 27217440).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 4902,
+                "therapyName": "Everolimus + PLX4720",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6921,
+                    "pubMedId": 27217440,
+                    "title": "BRAF Status in Personalizing Treatment Approaches for Pediatric Gliomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27217440"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9109,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Afinitor (everolimus) and Selumetinib (AZD6244) synergistically inhibited growth and induced apoptosis in glioma cell lines in culture (PMID: 27217440).",
+            "molecularProfile": {
+                "id": 4,
+                "profileName": "BRAF wild-type"
+            },
+            "therapy": {
+                "id": 4901,
+                "therapyName": "Everolimus + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6921,
+                    "pubMedId": 27217440,
+                    "title": "BRAF Status in Personalizing Treatment Approaches for Pediatric Gliomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27217440"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9361,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, AG-120 demonstrated safety and preliminary efficacy in IDH1-mutant glioma patients (Neuro Oncol (2016) 18 (suppl 6): vi12).",
+            "molecularProfile": {
+                "id": 1781,
+                "profileName": "IDH1 mutant"
+            },
+            "therapy": {
+                "id": 1491,
+                "therapyName": "Ivosidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7126,
+                    "pubMedId": null,
+                    "title": "AG120, A FIRST-IN-CLASS MUTANT IDH1 INHIBITOR IN PATIENTS WITH RECURRENT OR PROGRESSIVE IDH1 MUTANT GLIOMA: RESULTS FROM THE PHASE 1 GLIOMA EXPANSION COHORTS",
+                    "url": "http://neuro-oncology.oxfordjournals.org/content/18/suppl_6/vi12.1.abstract?sid=36b4e22f-cb42-46ee-b8dd-4ea89b6a04fe"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9482,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Afinitor (everolimus) treatment resulted in a 6-month progression free survival rate of 87% and 55% in patients with WHO grade II and III/IV glioma, respectively (Neuro Oncol (2016) 18 (suppl 6): vi8-vi9.).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7201,
+                    "pubMedId": null,
+                    "title": "A PROSPECTIVE PHASE II STUDY OF EVEROLIMUS FOR RECURRENT ADULT LOW GRADE GLIOMAS",
+                    "url": "http://neuro-oncology.oxfordjournals.org/content/18/suppl_6/vi8.4.abstract?sid=d8ee130e-a72b-4041-8e4b-de5e91956109"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9483,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Marizomib (NPI-0052) and Avastin (bevacizumab) combination therapy resulted in complete target lesion response in 14% (5/36), partial response in 25% (9/36), and stable disease in 31% (11/36) of Avastin (bevacizumab)-naive patients with WHO grade IV malignant giloma (Neuro Oncol (2016) 18 (suppl 6): vi13.).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2166,
+                "therapyName": "Bevacizumab + Marizomib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7202,
+                    "pubMedId": null,
+                    "title": "MARIZOMIB (MRZ) WITH BEVACIZUMAB (BEV) IN WHO GRADE IV MALIGNANT GLIOMA (G4 MG): FULL ENROLLMENT RESULTS FROM THE PHASE 1, MULTICENTER, OPEN-LABEL STUDY",
+                    "url": "http://neuro-oncology.oxfordjournals.org/content/18/suppl_6/vi13.1.abstract?sid=ad844053-14c2-462b-b5b1-989be93a747b"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9485,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Toca 511 and Toca FC demonstrated safety and preliminary efficacy, with median overall survival ranging from 12.1 to 13.6 months in patients with recurrent high grade glioma (Neuro Oncol (2016) 18 (suppl 6): vi18.; NCT02414165).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3211,
+                "therapyName": "Toca 511 + Toca FC",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7204,
+                    "pubMedId": null,
+                    "title": "COMPLEMENTARY CLINICAL AND ANCILLARY DATA FROM 123 PATIENTS WITH RECURRENT HIGH GRADE GLIOMA FROM THREE PHASE 1 TRIALS OF TOCA 511 AND TOCA FC: UPDATE AND JUSTIFICATION FOR A PHASE 2/3 TRIAL",
+                    "url": "http://neuro-oncology.oxfordjournals.org/content/18/suppl_6/vi18.2.abstract?sid=a0cb3fc1-c011-4ac9-814c-2056450bbaa4"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14223,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Toca 511 and Toca FC combination treatment resulted in complete response in 3 and partial response in 2 patients with recurrent high-grade glioma, with a median duration of response of 25.2 months (Mol Cancer Ther 2018;17(1 Suppl):Abstract nr A085; NCT01470794).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3211,
+                "therapyName": "Toca 511 + Toca FC",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11546,
+                    "pubMedId": null,
+                    "title": "Durable responses observed in recurrent high-grade glioma (rHGG) with Toca 511 and Toca FC treatment",
+                    "url": "http://mct.aacrjournals.org/content/17/1_Supplement/A085"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9755,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a glioma cell line expressing IDH1 R132H demonstrated increased sensitivity to growth inhibition by BPTES compared to a cell line expressing wild-type IDH1 in culture (PMID: 21045145).",
+            "molecularProfile": {
+                "id": 1253,
+                "profileName": "IDH1 R132H"
+            },
+            "therapy": {
+                "id": 5194,
+                "therapyName": "BPTES",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7525,
+                    "pubMedId": 21045145,
+                    "title": "Inhibition of glutaminase preferentially slows growth of glioma cells with mutant IDH1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21045145"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9939,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, patient-derived glioma cells harboring IDH1 R132H demonstrated increased sensitivity to Talazoparib (BMN-673)-induced growth inhibition in culture (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1253,
+                "profileName": "IDH1 R132H"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9940,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, patient-derived glioma cells harboring IDH1 R132C demonstrated increased sensitivity to Talazoparib (BMN-673)-induced growth inhibition in culture (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9980,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Merestinib (LY2801653) demonstrated anti-tumor activity in cell line xenograft models of glioma with autocrine activation of Met signaling (PMID: 23275061).",
+            "molecularProfile": {
+                "id": 2096,
+                "profileName": "MET act mut"
+            },
+            "therapy": {
+                "id": 1030,
+                "therapyName": "Merestinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 331,
+                    "pubMedId": 23275061,
+                    "title": "LY2801653 is an orally bioavailable multi-kinase inhibitor with potent activity against MET, MST1R, and other oncoproteins, and displays anti-tumor activities in mouse xenograft models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23275061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11222,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, addition of AdV-tk and Valacyclovir to standard of care improved meidan overall survival (17.1 vs 13.5 months) compared to standard of care alone in patients with malignant glioma (PMID: 26843484).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5172,
+                "therapyName": "AdV-tk + Valacyclovir",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9166,
+                    "pubMedId": 26843484,
+                    "title": "Phase II multicenter study of gene-mediated cytotoxic immunotherapy as adjuvant to surgical resection for newly diagnosed malignant glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12751,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, glioma cells treated with PV1019 before and after radiotherapy resulted in greater cell death in culture than compared to radiation treatment alone (PMID: 19741151).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6623,
+                "therapyName": "PV1019 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2452,
+                    "pubMedId": 19741151,
+                    "title": "Cellular inhibition of checkpoint kinase 2 (Chk2) and potentiation of camptothecins and radiation by the novel Chk2 inhibitor PV1019 [7-nitro-1H-indole-2-carboxylic acid {4-[1-(guanidinohydrazone)-ethyl]-phenyl}-amide].",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19741151"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13074,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AG-881 treatment decreased tumor 2HG levels in a glioma cell line xenograft model harboring IDH2 R140Q (Mol Cancer Ther Jan 1 2018 (17) (1 Supp) B126).",
+            "molecularProfile": {
+                "id": 1254,
+                "profileName": "IDH2 R140Q"
+            },
+            "therapy": {
+                "id": 2995,
+                "therapyName": "AG-881",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10950,
+                    "pubMedId": null,
+                    "title": "Abstract B126: AG-881, a brain penetrant, potent, pan-mutant IDH (mIDH) inhibitor for use in mIDH solid and hematologic malignancies",
+                    "url": "http://mct.aacrjournals.org/content/17/1_Supplement/B126"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13075,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AG-881 treatment decreased brain tumor 2HG levels in an orthotopic glioma cell line xenograft model harboring IDH1 R132H (Mol Cancer Ther Jan 1 2018 (17) (1 Supp) B126).",
+            "molecularProfile": {
+                "id": 1253,
+                "profileName": "IDH1 R132H"
+            },
+            "therapy": {
+                "id": 2995,
+                "therapyName": "AG-881",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10950,
+                    "pubMedId": null,
+                    "title": "Abstract B126: AG-881, a brain penetrant, potent, pan-mutant IDH (mIDH) inhibitor for use in mIDH solid and hematologic malignancies",
+                    "url": "http://mct.aacrjournals.org/content/17/1_Supplement/B126"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13407,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The presence of a TERT mutation, in the absence of an IDH mutation, is associated with reduced overall survival in patients with diffusely infiltrative gliomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 29114,
+                "profileName": "IDH1 wild-type IDH2 wild-type TERT mut"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13408,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "H3-3A K28M (also referred to as K27M) is associated with adverse prognosis in adult and pediatric glioma patients (NCCN.org).",
+            "molecularProfile": {
+                "id": 28928,
+                "profileName": "H3-3A K28M"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13558,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RES-529 (Palomid 529) inhibited tumor growth and angiogenesis in glioma cell line xenograft models (PMID: 19010932).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2250,
+                "therapyName": "RES-529",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2071,
+                    "pubMedId": 19010932,
+                    "title": "Palomid 529, a novel small-molecule drug, is a TORC1/TORC2 inhibitor that reduces tumor growth, tumor angiogenesis, and vascular permeability.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19010932"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13753,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "IDH2 mutations are associated with a favorable prognosis in patients with glioma, and are associated with a survival benefit for patients treated with radiation or alkylator therapy (NCCN.org).",
+            "molecularProfile": {
+                "id": 5912,
+                "profileName": "IDH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13754,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "IDH2 mutations aid in the diagnosis of gliomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 5912,
+                "profileName": "IDH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13756,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "IDH1 R132H is diagnostic and aids in the diagnosis of gliomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 1253,
+                "profileName": "IDH1 R132H"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13759,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "IDH1 wild-type is associated with increased risk of aggressive disease in patients with grade II or III infiltrative gliomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 576,
+                "profileName": "IDH1 wild-type"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13760,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "IDH2 wild-type is associated with increased risk of aggressive disease in patients with grade II or III infiltrative gliomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 577,
+                "profileName": "IDH2 wild-type"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13767,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "ATRX mutations aid in the diagnosis of gliomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 28008,
+                "profileName": "ATRX mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13773,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "H3-3A mutations aid in the diagnosis of infiltrative glioma (NCCN.org).",
+            "molecularProfile": {
+                "id": 27805,
+                "profileName": "H3-3A mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13899,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, DNX-2401 treatment demonstrated virus-induced oncolysis in patients' tumors, resulted in more than 95% tumor reduction in 3 patients, and survival for more than 3 years in 20% (5/25) of patients with recurrent malignant glioma (PMID: 29432077; NCT02197169).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4407,
+                "therapyName": "DNX-2401",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11344,
+                    "pubMedId": 29432077,
+                    "title": "Phase I Study of DNX-2401 (Delta-24-RGD) Oncolytic Adenovirus: Replication and Immunotherapeutic Effects in Recurrent Malignant Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29432077"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14224,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, DNX-2401 treatment resulted in tumor reduction in 72% (18/25), complete response in 12% (3/25) and prolonged stable disease in 8% (2/25) of patients with recurrent malignant glioma, with a median overall survival of 9.5 months and progression-free survival of more than 3 years in patients achieved complete responses (PMID: 29432077).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4407,
+                "therapyName": "DNX-2401",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11344,
+                    "pubMedId": 29432077,
+                    "title": "Phase I Study of DNX-2401 (Delta-24-RGD) Oncolytic Adenovirus: Replication and Immunotherapeutic Effects in Recurrent Malignant Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29432077"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14090,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with NEO212 resulted in decreased cell migration and invasion, thereby slowing tumor progression in a glioma mouse model (PMID: 29440289).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7016,
+                "therapyName": "NEO212",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11445,
+                    "pubMedId": 29440289,
+                    "title": "NEO212 Inhibits Migration and Invasion of Glioma Stem Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29440289"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14484,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, MEDI3617 in combination with Avastin (bevacizumab) resulted in no objective response (0/11) and stable disease in 18% (2/11) of patients with recurrent malignant glioma, with a median progression-free survival of 1.4 months (PMID: 29559563; NCT01248949).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7096,
+                "therapyName": "Bevacizumab + MEDI3617",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11647,
+                    "pubMedId": 29559563,
+                    "title": "Phase I Study of MEDI3617, a Selective Angiopoietin-2 Inhibitor Alone and Combined with Carboplatin/Paclitaxel, Paclitaxel, or Bevacizumab for Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29559563"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15213,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with Bozitinib (PLB-1001) in six of the evaluable secondary glioblastoma patients harboring PTPRZ1-MET, including one patient with both PTPRZ1-MET and MET del exon14, resulted in a partial response in two and stable disease in two, and in nine evaluable grade III glioma patients harboring PTPRZ1-MET, five demonstrated stable disease with treatment (PMID: 30343896; NCT02978261).",
+            "molecularProfile": {
+                "id": 30833,
+                "profileName": "PTPRZ1 - MET"
+            },
+            "therapy": {
+                "id": 7469,
+                "therapyName": "Bozitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12846,
+                    "pubMedId": 30343896,
+                    "title": "Mutational Landscape of Secondary Glioblastoma Guides MET-Targeted Trial in Brain Tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30343896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15212,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, astrocytic cells expressing PTPRZ1-MET demonstrated inhibition of Met and Stat3 phosphorylation when treated with Bozitinib (PLB-1001) in culture and in glioblastoma cell line xenograft models, Bozitinib (PLB-1001) treatment led to reduced tumor growth (PMID: 30343896).",
+            "molecularProfile": {
+                "id": 30833,
+                "profileName": "PTPRZ1 - MET"
+            },
+            "therapy": {
+                "id": 7469,
+                "therapyName": "Bozitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12846,
+                    "pubMedId": 30343896,
+                    "title": "Mutational Landscape of Secondary Glioblastoma Guides MET-Targeted Trial in Brain Tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30343896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15903,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial (VE-BASKET), treatment of patients with gliomas harboring BRAF V600E mutations with Zelboraf (vemurafenib) resulted in a 25% (6/24) objective response rate, 5.5-month median progression free survival, 28.2 month median overall survival, and best overall response rates of 4.2% (1/24) for complete response, 20.8% (5/24) for partial response, and 41.7% (10/24) for stable disease (PMID: 30351999; NCT01524978).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13949,
+                    "pubMedId": 30351999,
+                    "title": "BRAF Inhibition in BRAFV600-Mutant Gliomas: Results From the VE-BASKET Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30351999"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16156,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with glioma (n=117) and a high tumor mutational burden (TMB) (>5.9 mutations/Mb) did not demonstrate an improved overall survival compared to those patients with a low TMB when treated with an unspecified PD-1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 3890,
+                "therapyName": "unspecified PD-1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16157,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with glioma (n=117) and a high tumor mutational burden (TMB) (>5.9 mutations/Mb) did not demonstrate an improved overall survival compared to those patients with a low TMB when treated with an unspecified PD-L1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 5248,
+                "therapyName": "unspecified PD-L1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16224,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NEO214 induced apoptosis and inhibited growth of glioma cell lines in culture, including cell lines resistant to Temodar (temozolmide), and inhibited tumor growth and improved survival in a mouse glioma model (PMID: 30647121).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7945,
+                "therapyName": "NEO214",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14347,
+                    "pubMedId": 30647121,
+                    "title": "The Rolipram-Perillyl Alcohol Conjugate (NEO214) Is A Mediator of Cell Death through the Death Receptor Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30647121"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17687,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, malignant glioma cells expressing GRM3 demonstrated decreased cell growth and MAPK pathway activation in culture and reduced tumor size in cell line xenograft models when treated with LY341495 (PMID: 16053698).",
+            "molecularProfile": {
+                "id": 15081,
+                "profileName": "GRM3 positive"
+            },
+            "therapy": {
+                "id": 3267,
+                "therapyName": "LY341495",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4064,
+                    "pubMedId": 16053698,
+                    "title": "Pharmacological blockade of group II metabotropic glutamate receptors reduces the growth of glioma cells in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16053698"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18741,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, hEGFRvIII-CD3 bi-scFv induced tumor cell lysis in malignant glioma cell lines expressing EGFRvIII, induced cytotoxicity in patient-derived cells harboring EGFRvIII in culture, increased survival in a glioma cell line xenograft model, and decreased tumor burden and increased survival in both syngeneic mouse and patient-derived xenograft (PDX) malignant glioma models (PMID: 29703821).",
+            "molecularProfile": {
+                "id": 32825,
+                "profileName": "EGFR V30_R297delinsG"
+            },
+            "therapy": {
+                "id": 8685,
+                "therapyName": "hEGFRvIII-CD3 bi-scFv",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16072,
+                    "pubMedId": 29703821,
+                    "title": "A Rationally Designed Fully Human EGFRvIII:CD3-Targeted Bispecific Antibody Redirects Human T Cells to Treat Patient-derived Intracerebral Malignant Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29703821"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19433,
+            "approvalStatus": "Expanded access",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, ONC201 treatment in patients with diffuse intrinsic pontine glioma harboring either H3-3A K28M or H3C2 K28M (also referred to as K27M) resulted in a median progression-free survival of 14 weeks (15 weeks adults; 13 weeks for pediatric patients), a median overall survival of 17 weeks, and a complete response in one patient (n=18), and three patients remained progression-free during treatment for a median of 49.6 weeks (PMID: 31456142).",
+            "molecularProfile": {
+                "id": 28928,
+                "profileName": "H3-3A K28M"
+            },
+            "therapy": {
+                "id": 1687,
+                "therapyName": "ONC201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17018,
+                    "pubMedId": 31456142,
+                    "title": "Pediatric and adult H3 K27M-mutant diffuse midline glioma treated with the selective DRD2 antagonist ONC201.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31456142"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19434,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a cell line from a patient with diffuse intrinsic pontine glioma harboring H3-3A K28M (also referred to as K27M) demonstrated decreased viability when treated with ONC201 in culture, and subsequent treatment of the patient with ONC201 led to stable tumor size and continued treatment for over 18 months (PMID: 31456142).",
+            "molecularProfile": {
+                "id": 28928,
+                "profileName": "H3-3A K28M"
+            },
+            "therapy": {
+                "id": 1687,
+                "therapyName": "ONC201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17018,
+                    "pubMedId": 31456142,
+                    "title": "Pediatric and adult H3 K27M-mutant diffuse midline glioma treated with the selective DRD2 antagonist ONC201.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31456142"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19447,
+            "approvalStatus": "Expanded access",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, ONC201 treatment in patients with diffuse intrinsic pontine glioma harboring either H3C2 K28M or H3-3A K28M (also referred to as K27M) resulted in a median progression-free survival of 14 weeks (15 weeks adults; 13 weeks for pediatric patients), a median overall survival of 17 weeks, and a complete response in one patient (n=18), and three patients remained progression-free during treatment for a median of 49.6 weeks (PMID: 31456142).",
+            "molecularProfile": {
+                "id": 28929,
+                "profileName": "H3C2 K28M"
+            },
+            "therapy": {
+                "id": 1687,
+                "therapyName": "ONC201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17018,
+                    "pubMedId": 31456142,
+                    "title": "Pediatric and adult H3 K27M-mutant diffuse midline glioma treated with the selective DRD2 antagonist ONC201.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31456142"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19718,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, Tafinlar (dabrafenib) treatment was well tolerated and demonstrated preliminary efficacy, resulted in an objective response rate of 44% (14/32, 1 complete response, 13 partial response) and a disease control rate of 78% (25/32), with a median duration of response of 26 months in pediatric patients with BRAF V600-mutant low-grade gliomas (PMID: 31811016; NCT01677741).",
+            "molecularProfile": {
+                "id": 1186,
+                "profileName": "BRAF V600X"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17524,
+                    "pubMedId": 31811016,
+                    "title": "Efficacy and Safety of Dabrafenib in Pediatric Patients with BRAF V600 Mutation-Positive Relapsed or Refractory Low-Grade Glioma: Results from a Phase I/IIa Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31811016"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20277,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Adavosertib (MK-1775) inhibited growth of patient-derived glioma cells harboring ATRX S458* in culture (PMID: 31551363).",
+            "molecularProfile": {
+                "id": 35015,
+                "profileName": "ATRX S458*"
+            },
+            "therapy": {
+                "id": 822,
+                "therapyName": "Adavosertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17792,
+                    "pubMedId": 31551363,
+                    "title": "Genome-Wide CRISPR-Cas9 Screen Reveals Selective Vulnerability of ATRX-Mutant Cancers to WEE1 Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31551363"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20278,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Adavosertib (MK-1775) inhibited growth of patient-derived glioma cells harboring ATRX R781* in culture (PMID: 31551363).",
+            "molecularProfile": {
+                "id": 21929,
+                "profileName": "ATRX R781*"
+            },
+            "therapy": {
+                "id": 822,
+                "therapyName": "Adavosertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17792,
+                    "pubMedId": 31551363,
+                    "title": "Genome-Wide CRISPR-Cas9 Screen Reveals Selective Vulnerability of ATRX-Mutant Cancers to WEE1 Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31551363"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20850,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) reduced tumor size in cell line xenograft models of glioma expressing EGFR del exon27 (PMID: 22001862).",
+            "molecularProfile": {
+                "id": 35361,
+                "profileName": "EGFR del exon27"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18090,
+                    "pubMedId": 22001862,
+                    "title": "Glioblastoma-derived epidermal growth factor receptor carboxyl-terminal deletion mutants are transforming and are sensitive to EGFR-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22001862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20851,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) reduced tumor size in cell line xenograft models of glioma expressing EGFR del exon27 (PMID: 22001862).",
+            "molecularProfile": {
+                "id": 35361,
+                "profileName": "EGFR del exon27"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18090,
+                    "pubMedId": 22001862,
+                    "title": "Glioblastoma-derived epidermal growth factor receptor carboxyl-terminal deletion mutants are transforming and are sensitive to EGFR-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22001862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20854,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) inhibited tumor growth in cell line xenograft models of glioma expressing EGFR V1010_D1152del, and resulted in modest improvement of survival compared to control (60.5 vs 55.5 days, p=0.04) in an orthotopic brain tumor model (PMID: 22001862).",
+            "molecularProfile": {
+                "id": 35365,
+                "profileName": "EGFR V1010_D1152del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18090,
+                    "pubMedId": 22001862,
+                    "title": "Glioblastoma-derived epidermal growth factor receptor carboxyl-terminal deletion mutants are transforming and are sensitive to EGFR-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22001862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20855,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) inhibited tumor growth in cell line xenograft models of glioma expressing EGFR V1010_D1152del, and prolonged survival in an orthotopic brain tumor model (PMID: 22001862).",
+            "molecularProfile": {
+                "id": 35365,
+                "profileName": "EGFR V1010_D1152del"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18090,
+                    "pubMedId": 22001862,
+                    "title": "Glioblastoma-derived epidermal growth factor receptor carboxyl-terminal deletion mutants are transforming and are sensitive to EGFR-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22001862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20856,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) treatment prolonged survival in an orthotopic brain tumor model of glioma cells expressing EGFR V30_R297delinsG (reported as EGFR vIII) (PMID: 22001862).",
+            "molecularProfile": {
+                "id": 32825,
+                "profileName": "EGFR V30_R297delinsG"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18090,
+                    "pubMedId": 22001862,
+                    "title": "Glioblastoma-derived epidermal growth factor receptor carboxyl-terminal deletion mutants are transforming and are sensitive to EGFR-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22001862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20857,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) treatment did not prolong survival compared to control (84 vs 79.5 days, p=0.63) in an orthotopic brain tumor model of glioma cells expressing EGFR V30_R297delinsG (reported as EGFR vIII) (PMID: 22001862).",
+            "molecularProfile": {
+                "id": 32825,
+                "profileName": "EGFR V30_R297delinsG"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 18090,
+                    "pubMedId": 22001862,
+                    "title": "Glioblastoma-derived epidermal growth factor receptor carboxyl-terminal deletion mutants are transforming and are sensitive to EGFR-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22001862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20946,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in greater growth inhibition of astrocytoma cells expressing PIK3CA R88Q than cells with wild-type PIK3CA in culture (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 3041,
+                "profileName": "PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20948,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in greater growth inhibition of astrocytoma cells expressing PIK3CA E542K than cells with wild-type PIK3CA in culture (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20952,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in growth inhibition of astrocytoma cells expressing PIK3CA H1047R, but did not result in an effect as high as that seen in cells expressing PIK3CA R88Q or PIK3CA E542K in culture (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 1731,
+                "profileName": "PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20964,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in growth inhibition of astrocytoma cells with an HRAS mutation and expressing PIK3CA M1043V in culture, but at a higher drug concentration compared to cells without mutant HRAS (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 35460,
+                "profileName": "HRAS mut PIK3CA M1043V"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20965,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in growth inhibition of astrocytoma cells with an HRAS mutation and expressing PIK3CA R88Q in culture, but at a higher drug concentration compared to cells without mutant HRAS (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 35457,
+                "profileName": "HRAS mut PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20966,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in growth inhibition of astrocytoma cells with an HRAS mutation expressing PIK3CA E542K in culture, but at a higher drug concentration compared to cells without mutant HRAS (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 35458,
+                "profileName": "HRAS mut PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21182,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, H3.3K27M peptide vaccine combined with poly ICLC treatment was well tolerated, and resulted in an overall survival of 39% (n=10) at 12 months in patients with non-DIPG midline glioma, including spinal cord tumors, harboring H3.3 K28M (also referred to as H3.3 K27M) (Neuro-Oncology, Vol.21, suppl_6, Abs nr: PDCT-17 (LTBK-11)).",
+            "molecularProfile": {
+                "id": 28928,
+                "profileName": "H3-3A K28M"
+            },
+            "therapy": {
+                "id": 9586,
+                "therapyName": "H3.3K27M peptide vaccine + Poly ICLC",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18451,
+                    "pubMedId": null,
+                    "title": "H3.3K27M SPECIFIC PEPTIDE VACCINE COMBINED WITH POLY-ICLC FOR THE TREATMENT OF NEWLY DIAGNOSED HLA-A2+ H3.3K27M MIDLINE GLIOMAS",
+                    "url": "https://academic.oup.com/neuro-oncology/article-abstract/21/Supplement_6/vi284/5637723?redirectedFrom=fulltext"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00876993",
+            "title": "Study of Irinotecan and Bevacizumab With Temozolomide in Refractory/Relapsed Central Nervous System (CNS) Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1463,
+                    "therapyName": "Bevacizumab + Irinotecan + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00879437",
+            "title": "Valproic Acid and Radiation Followed by Maintenance Valproic Acid and Bevacizumab in Children With High Grade Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1076,
+                    "therapyName": "Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01052363",
+            "title": "OXC401-PO1s/WVU 1309 - A Pilot Study of Fosbretabulin With Bevacizumab in Recurrent High-Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 2109,
+                    "therapyName": "Bevacizumab + Fosbretabulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01089101",
+            "title": "Selumetinib in Treating Young Patients With Recurrent or Refractory Low Grade Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01107522",
+            "title": "Safety and Tolerability of Carboxyamidotriazole Orotate (CTO) in Solid Tumors or With Temodar&#174; in Glioblastoma or Other Recurrent Malignant Gliomas or in Combination With Temodar&#174; and Radiation Therapy for Patients With Newly Diagnosed Glioblastoma and Malignant Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1142,
+                    "therapyName": "Carboxyamidotriazole Orotate  + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 999,
+                    "therapyName": "Carboxyamidotriazole Orotate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01130077",
+            "title": "A Pilot Study of Glioma Associated Antigen Vaccines in Conjunction With Poly-ICLC in Pediatric Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01156584",
+            "title": "A Study of a Retroviral Replicating Vector Administered to Subjects With Recurrent Malignant Glioma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3211,
+                    "therapyName": "Toca 511 + Toca FC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01188096",
+            "title": "A Trial of Poly-ICLC in the Management of Recurrent Pediatric Low Grade Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01266031",
+            "title": "Bevacizumab Versus Bevacizumab Plus Vorinostat in Adults With Recurrent Glioblastoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2110,
+                    "therapyName": "Bevacizumab + Vorinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01386580",
+            "title": "An Open-label, Phase I/IIa, Dose Escalating Study of 2B3-101 in Patients With Solid Tumors and Brain Metastases or Recurrent Malignant Glioma.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 974,
+                    "therapyName": "2B3-101",
+                    "synonyms": null
+                },
+                {
+                    "id": 1274,
+                    "therapyName": "2B3-101 + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01392209",
+            "title": "Hypofractionated Stereotactic Radiotherapy With Bevacizumab in the Treatment of Recurrent Malignant Glioma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01434602",
+            "title": "Phase I-II Everolimus and Sorafenib in Recurrent High-Grade Gliomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2299,
+                    "therapyName": "Everolimus + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01435395",
+            "title": "Trial of Temozolomide, Bevacizumab Plus Bortezomib for Recurrent Glioblastoma Multiforme",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2122,
+                    "therapyName": "Bevacizumab + Bortezomib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01478178",
+            "title": "Safety Study of VAL-083 in Patients With Recurrent Malignant Glioma or Progressive Secondary Brain Tumor",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2921,
+                    "therapyName": "VAL-083",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01478321",
+            "title": "Efficacy of Hypofractionated XRT w/Bev. + Temozolomide for Recurrent Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2115,
+                    "therapyName": "Bevacizumab + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01547546",
+            "title": "A Study of GDC-0084 in Patients With Progressive or Recurrent High-Grade Glioma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2018,
+                    "therapyName": "GDC-0084",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01644773",
+            "title": "Study of the Combination of Crizotinib and Dasatinib in Pediatric Research Participants With Diffuse Pontine Glioma (DIPG) and High-Grade Glioma (HGG)",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1252,
+                    "therapyName": "Crizotinib + Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01648348",
+            "title": "Bevacizumab With or Without Anti-Endoglin Monoclonal Antibody TRC105 in Treating Patients With Recurrent Glioblastoma Multiforme",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1242,
+                    "therapyName": "Carotuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01661400",
+            "title": "Anti-Angiogenic Therapy Post Transplant (ASCR) for Relapsed and Refractory Pediatric Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1475,
+                    "therapyName": "Thalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01743950",
+            "title": "A Phase II Study of Pulse Reduced Dose Rate Radiation Therapy With Bevacizumab",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01748149",
+            "title": "Vemurafenib in Children With Recurrent/Refractory BRAFV600E-mutant Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01817751",
+            "title": "Sorafenib Tosylate, Valproic Acid, and Sildenafil Citrate in Treating Patients With Recurrent High-Grade Glioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1076,
+                    "therapyName": "Valproic acid",
+                    "synonyms": null
+                },
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01903330",
+            "title": "ERC1671/GM-CSF/Cyclophosphamide for the Treatment of Glioblastoma Multiforme",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1873,
+                    "therapyName": "Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01925573",
+            "title": "NOVOTTF-100A+ Bevacizumab+ Hypofractionated Stereotactic Irradiation Bevacizumab-Naive Recurrent Glioblastoma (GCC 1344)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01954030",
+            "title": "Phase 1/2 CTO + Bevacizumab for Recurrent Glioma Post-Bevacizumab Failure",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 999,
+                    "therapyName": "Carboxyamidotriazole Orotate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01977677",
+            "title": "Plerixafor After Radiation Therapy and Temozolomide in Treating Patients With Newly Diagnosed High Grade Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01985256",
+            "title": "Study of a Retroviral Replicating Vector Given Intravenously to Patients Undergoing Surgery for Recurrent Brain Tumor",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3209,
+                    "therapyName": "Toca 511",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01989052",
+            "title": "Ph 1/2 CTO With Lomustine for Bevacizumab-Naive Recurrent Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2075,
+                    "therapyName": "Lomustine",
+                    "synonyms": null
+                },
+                {
+                    "id": 999,
+                    "therapyName": "Carboxyamidotriazole Orotate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02017717",
+            "title": "A Randomized Study of Nivolumab Versus Bevacizumab and a Safety Study of Nivolumab in Adult Subjects With Recurrent Glioblastoma (GBM) (CheckMate 143)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02023905",
+            "title": "Everolimus With and Without Temozolomide in Adult Low Grade Glioma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02026271",
+            "title": "A Study of Ad-RTS-hIL-12 With Veledimex in Subjects With Glioblastoma or Malignant Glioma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4250,
+                    "therapyName": "Ad-RTS-IL-12 plus AL",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02034110",
+            "title": "Efficacy and Safety of the Combination Therapy of Dabrafenib and Trametinib in Subjects With BRAF V600E- Mutated Rare Cancers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02052648",
+            "title": "Study of IDO Inhibitor and Temozolomide for Adult Patients With Primary Malignant Brain Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2976,
+                    "therapyName": "Indoximod",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02100891",
+            "title": "Phase 2 STIR Trial: Haploidentical Transplant and Donor Natural Killer Cells for Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT02101905",
+            "title": "Lapatinib Ditosylate Before Surgery in Treating Patients With Recurrent High-Grade Glioma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 787,
+                    "therapyName": "Lapatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02186509",
+            "title": "Alisertib and Fractionated Stereotactic Radiosurgery in Treating Patients With Recurrent High Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 626,
+                    "therapyName": "Alisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02193347",
+            "title": "RESIST: Patients With IDH1 Positive Recurrent Grade II Glioma Enrolled in a Safety and Immunogenicity Study of Tumor-Specific Peptide Vaccine",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1635,
+                    "therapyName": "PEPIDH1M vaccine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02238496",
+            "title": "Perifosine and Torisel (Temsirolimus) for Recurrent/Progressive Malignant Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2194,
+                    "therapyName": "Perifosine + Temsirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02273739",
+            "title": "Study of Orally Administered AG-221 in Subjects With Advanced Solid Tumors, Including Glioma, and With Angioimmunoblastic T-cell Lymphoma, With an IDH2 Mutation",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2982,
+                    "therapyName": "Enasidenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02303678",
+            "title": "D2C7 for Adult Patients With Recurrent Malignant Glioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8354,
+                    "therapyName": "D2C7-IT",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02311582",
+            "title": "MK-3475 in Combination With MRI-guided Laser Ablation in Recurrent Malignant Gliomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02313272",
+            "title": "Phase I Trial of HFSRT With Pembrolizumab and Bevacizumab for Recurrent High Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2119,
+                    "therapyName": "Bevacizumab + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02323880",
+            "title": "Study of Selinexor in Pediatric Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02330562",
+            "title": "Study of Marizomib With Bevacizumab in Bevacizumab-Na&#239;ve Subjects With WHO Grade IV Malignant Glioma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2166,
+                    "therapyName": "Bevacizumab + Marizomib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02332889",
+            "title": "Phase I/II Decitabine/Vaccine Therapy in Relapsed/Refractory Pediatric High Grade Gliomas/Medulloblastomas/CNS PNETs",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02337491",
+            "title": "Pembrolizumab +/- Bevacizumab for Recurrent GBM",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2119,
+                    "therapyName": "Bevacizumab + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02337686",
+            "title": "Pharmacodynamic Study of Pembrolizumab in Patients With Recurrent Glioblastoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02343718",
+            "title": "Vinblastine and Temsirolimus in Pediatric Patients With Recurrent or Refractory Lymphoma or Solid Tumours Including CNS Tumours",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2492,
+                    "therapyName": "Temsirolimus + Vinblastine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02345824",
+            "title": "Early-Phase Study to Assess Inhibitor LEE011 in Patients With Recurrent Glioblastoma or Anaplastic Glioma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02358187",
+            "title": "A Vaccine Trial for Low Grade Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02359565",
+            "title": "Pembrolizumab in Treating Younger Patients With Recurrent, Progressive, or Refractory High-Grade Gliomas or Diffuse Intrinsic Pontine Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02366728",
+            "title": "C Migration Study for Newly-Diagnosed GBM (ELEVATE)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7732,
+                    "therapyName": "pp65 Dendritic Cell Vaccine + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02372006",
+            "title": "Trial of Afatinib in Pediatric Tumours",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02390752",
+            "title": "PLX3397 in Children and Young Adults With Refractory Leukemias and Refractory Solid Tumors Including Neurofibromatosis Type 1 (NF1) Associated Plexiform Neurofibromas (PN)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 874,
+                    "therapyName": "Pexidartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02423343",
+            "title": "A Study of Galunisertib (LY2157299) in Combination With Nivolumab in Advanced Refractory Solid Tumors and in Recurrent or Refractory NSCLC, Hepatocellular Carcinoma, or Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2409,
+                    "therapyName": "Galunisertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02423525",
+            "title": "Safety Study of Afatinib for Brain Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02455245",
+            "title": "A Study Comparing Two Carboplatin Containing Regimens for Children and Young Adults With Previously Untreated Low Grade Glioma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8990,
+                    "therapyName": "Carboplatin + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02481154",
+            "title": "Study of Orally Administered AG-881 in Patients With Advanced Solid Tumors, Including Gliomas, With an IDH1 and/or IDH2 Mutation",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2995,
+                    "therapyName": "AG-881",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02502708",
+            "title": "Study of the IDO Pathway Inhibitor, Indoximod, and Temozolomide for Pediatric Patients With Primary Malignant Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2976,
+                    "therapyName": "Indoximod",
+                    "synonyms": null
+                },
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02507583",
+            "title": "Antisense102: Pilot Immunotherapy for Newly Diagnosed Malignant Glioma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4325,
+                    "therapyName": "IGF-1R/AS ODN",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02529072",
+            "title": "Nivolumab With DC Vaccines for Recurrent Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02540161",
+            "title": "Phase 2 Study of Sym004 for Adult Patients With Recurrent Glioblastoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 931,
+                    "therapyName": "SYM004",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02549833",
+            "title": "Neo-adjuvant Evaluation of Glioma Lysate Vaccines in WHO Grade II Glioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9775,
+                    "therapyName": "GBM6-AD lysate protein vaccine + Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02607124",
+            "title": "Administration of Ribociclib Following Radiation Therapy in Children With Newly Diagnosed Non-biopsied Diffuse Pontine Gliomas (DIPG) and RB+ Biopsied DIPG and High Grade Gliomas (HGG)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639546",
+            "title": "Safety and Pharmacokinetics of Cobimetinib in Pediatric and Young Adult Participants With Previously Treated Solid Tumors (iMATRIXcobi)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1004,
+                    "therapyName": "Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02644460",
+            "title": "Abemaciclib in Children With DIPG or Recurrent/Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02655601",
+            "title": "Trial of Newly Diagnosed High Grade Glioma Treated With Concurrent Radiation Therapy, Temozolomide and BMX-001",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5841,
+                    "therapyName": "BMX-001 + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02658279",
+            "title": "Pembrolizumab (MK-3475) in Patients With Recurrent Malignant Glioma With a Hypermutator Phenotype",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02659800",
+            "title": "Study of the Effect IL 7/ NT-I7 on CD4 Counts in Patients With High Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9352,
+                    "therapyName": "Dexamethasone + NT-I7",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02661282",
+            "title": "Autologous CMV-Specific Cytotoxic T Cells and Temozolomide in Treating Patients With Glioblastoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9746,
+                    "therapyName": "Autologous CMV-specific CTLs + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02669173",
+            "title": "Capecitabine + Bevacizumab in Patients With Recurrent Glioblastoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2097,
+                    "therapyName": "Bevacizumab + Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02684058",
+            "title": "Phase II Pediatric Study With Dabrafenib in Combination With Trametinib in Patients With HGG",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02743078",
+            "title": "Optune Plus Bevacizumab in Bevacizumab-Refractory Recurrent Glioblastoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02768389",
+            "title": "Feasibility Trial of the Modified Atkins Diet and Bevacizumab for Recurrent Glioblastoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02794883",
+            "title": "Tremelimumab and Durvalumab in Combination or Alone in Treating Patients With Recurrent Malignant Glioma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02829931",
+            "title": "Hypofractionated Stereotactic Irradiation With Nivolumab in Patients With Recurrent High Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02833701",
+            "title": "Bevacizumab and Ascorbic Acid in Patients Treating With Recurrent High Grade Glioma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02840409",
+            "title": "Vinblastine +/- Bevacizumab in Children With Unresectable or Progressive Low Grade Glioma (LGG)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2635,
+                    "therapyName": "Vinblastine",
+                    "synonyms": null
+                },
+                {
+                    "id": 5178,
+                    "therapyName": "Bevacizumab + Vinblastine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02852655",
+            "title": "A Pilot Surgical Trial To Evaluate Early Immunologic Pharmacodynamic Parameters For The PD-1 Checkpoint Inhibitor, Pembrolizumab (MK-3475), In Patients With Surgically Accessible Recurrent/Progressive Glioblastoma",
+            "phase": "Phase 0",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02859857",
+            "title": "Phase 1 Study of BXQ-350 in Adult Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7031,
+                    "therapyName": "BXQ-350",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02871843",
+            "title": "Phase 1 Two Part Dose Escalation Trial of RRx-001 + Radiation + Temozolomide and RRx-001 + Temozolomide Post-RT In Newly Diagnosed Glioblastoma and Anaplastic Gliomas (G-FORCE-1)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4596,
+                    "therapyName": "RRx-001 + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02885324",
+            "title": "Pilot Study of Cabozantinib for Recurrent or Progressive High-Grade Glioma in Children",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02924038",
+            "title": "A Study of Varlilumab and IMA950 Vaccine Plus Poly-ICLC in Patients With WHO Grade II Low-Grade Glioma (LGG)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4835,
+                    "therapyName": "IMA950 + Poly ICLC",
+                    "synonyms": null
+                },
+                {
+                    "id": 2525,
+                    "therapyName": "Varlilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02933736",
+            "title": "Ribociclib (LEE011) in Preoperative Glioma and Meningioma Patients",
+            "phase": "Phase 0",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02960230",
+            "title": "H3.3K27M Peptide Vaccine With Nivolumab for Children With Newly Diagnosed DIPG and Other Gliomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9583,
+                    "therapyName": "H3.3K27M peptide vaccine + Montanide ISA 51 + Nivolumab + Poly ICLC + Tetanus Toxoid peptide",
+                    "synonyms": null
+                },
+                {
+                    "id": 9585,
+                    "therapyName": "H3.3K27M peptide vaccine + Montanide ISA 51 + Poly ICLC + Tetanus Toxoid peptide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02968940",
+            "title": "Avelumab With Hypofractionated Radiation Therapy in Adults With Isocitrate Dehydrogenase (IDH) Mutant Glioblastoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02977689",
+            "title": "Trial of IDH305 in IDH1 Mutant Grade II or III Glioma",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 2981,
+                    "therapyName": "IDH305",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02986178",
+            "title": "PVSRIPO With/Without Lomustine",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7602,
+                    "therapyName": "Lomustine + PVSRIPO",
+                    "synonyms": null
+                },
+                {
+                    "id": 7569,
+                    "therapyName": "PVSRIPO",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03072134",
+            "title": "Neural Stem Cell Based Virotherapy of Newly Diagnosed Malignant Glioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9597,
+                    "therapyName": "NSC-CRAd-Survivin-pk7",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03095248",
+            "title": "Trial of Selumetinib in Patients With Neurofibromatosis Type II Related Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03130959",
+            "title": "An Investigational Immuno-therapy Study of Nivolumab Monotherapy and Nivolumab in Combination With Ipilimumab in Pediatric Patients With High Grade Primary CNS Malignancies (CheckMate 908)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03134131",
+            "title": "Expanded Access Program for ONC201 to Treat Recurrent Histone H3 Mutant Glioma",
+            "phase": "Expanded access",
+            "recruitment": "Available",
+            "therapies": [
+                {
+                    "id": 1687,
+                    "therapyName": "ONC201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03173950",
+            "title": "Immune Checkpoint Inhibitor Nivolumab in People With Select Rare CNS Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03174197",
+            "title": "Atezolizumab (aPDL1) + Temozolomide and Radiation for Newly Diagnosed Glioblastoma (GBM)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5872,
+                    "therapyName": "Atezolizumab + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03210714",
+            "title": "Erdafitinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With FGFR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03212274",
+            "title": "Olaparib in Treating Patients With Advanced Glioma, Cholangiocarcinoma, or Solid Tumors With IDH1 or IDH2 Mutations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213678",
+            "title": "PI3K/mTOR Inhibitor LY3023414 in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With TSC or PI3K/MTOR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03220646",
+            "title": "The Purpose of This Study is to Test Any Good and Bad Effects of a Study Drug Called Abemaciclib (LY2835219) in Patients With Recurrent Brain Tumors.",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03233204",
+            "title": "Olaparib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With Defects in DNA Damage Repair Genes (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03245151",
+            "title": "Study of Lenvatinib in Combination With Everolimus in Recurrent and Refractory Pediatric Solid Tumors, Including Central Nervous System Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1713,
+                    "therapyName": "Everolimus + Lenvatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03283631",
+            "title": "Intracerebral EGFR-vIII CAR-T Cells for Recurrent GBM",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6452,
+                    "therapyName": "EGFR-vIII CAR-T Cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03295396",
+            "title": "ONC201 in Adults With Recurrent High-grade Glioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1687,
+                    "therapyName": "ONC201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03352427",
+            "title": "Study of Dasatinib in Combination With Everolimus for Children and Young Adults With Gliomas Harboring PDGFR Alterations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6477,
+                    "therapyName": "Dasatinib + Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03355794",
+            "title": "A Study of Ribociclib and Everolimus Following Radiation Therapy in Children With Newly Diagnosed Non-biopsied Diffuse Pontine Gliomas (DIPG) and RB+ Biopsied DIPG and High Grade Gliomas (HGG)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5073,
+                    "therapyName": "Everolimus + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03387020",
+            "title": "Ribociclib and Everolimus in Treating Children With Recurrent or Refractory Malignant Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5073,
+                    "therapyName": "Everolimus + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03389230",
+            "title": "Memory-Enriched T Cells in Treating Patients With Recurrent or Refractory Grade III-IV Glioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6007,
+                    "therapyName": "HER2 CAR-T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03416530",
+            "title": "ONC201 in Pediatric H3 K27M Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1687,
+                    "therapyName": "ONC201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03426891",
+            "title": "Pembrolizumab and Vorinostat Combined With Temozolomide for Newly Diagnosed Glioblastoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6703,
+                    "therapyName": "Pembrolizumab + Temozolomide + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03452930",
+            "title": "EDO-S101 for MGMT Unmethylated Glioblastoma (nGBM)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6104,
+                    "therapyName": "Tinostamustine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03463265",
+            "title": "ABI-009 (Nab-Rapamycin) in Recurrent High Grade Glioma and Newly Diagnosed Glioblastoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7409,
+                    "therapyName": "Lomustine + Nab-Rapamycin",
+                    "synonyms": null
+                },
+                {
+                    "id": 3380,
+                    "therapyName": "Nab-Rapamycin",
+                    "synonyms": null
+                },
+                {
+                    "id": 7408,
+                    "therapyName": "Nab-Rapamycin + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 7407,
+                    "therapyName": "Bevacizumab + Nab-Rapamycin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03514069",
+            "title": "Ruxolitinib With Radiation and Temozolomide for Grade III Gliomas and Glioblastoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6913,
+                    "therapyName": "Ruxolitinib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03532295",
+            "title": "Epacadostat in Combination With Radiation Therapy and Avelumab in Patients With Recurrent Gliomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 6953,
+                    "therapyName": "Avelumab + Bevacizumab + Epacadostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03557359",
+            "title": "Nivolumab for Recurrent or Progressive IDH Mutant Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03581292",
+            "title": "Veliparib, Radiation Therapy, and Temozolomide in Treating Participants With Newly Diagnosed Malignant Glioma Without H3 K27M or BRAFV600E Mutations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1193,
+                    "therapyName": "Temozolomide + Veliparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03598244",
+            "title": "Volitinib in Treating Participants With Recurrent or Refractory Primary CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2161,
+                    "therapyName": "Savolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03605550",
+            "title": "A Phase 1b Study of PTC596 in Children With Newly Diagnosed Diffuse Intrinsic Pontine Glioma and High Grade Glioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5407,
+                    "therapyName": "PTC596",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03632317",
+            "title": "A Study of Panobinostat in Combination With Everolimus for Children and Young Adults With Gliomas",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1964,
+                    "therapyName": "Everolimus + Panobinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03652545",
+            "title": "Multi-antigen T Cell Infusion Against Neuro-oncologic Disease (REMIND)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03684811",
+            "title": "A Study of FT 2102 in Participants With Advanced Solid Tumors and Gliomas With an IDH1 Mutation",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7527,
+                    "therapyName": "Cisplatin + FT-2102 + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4449,
+                    "therapyName": "Azacitidine + FT-2102",
+                    "synonyms": null
+                },
+                {
+                    "id": 4336,
+                    "therapyName": "FT-2102",
+                    "synonyms": null
+                },
+                {
+                    "id": 7526,
+                    "therapyName": "FT-2102 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03687957",
+            "title": "rhIL-7-hyFc on Increasing Lymphocyte Counts in Patients With Newly Diagnosed Non-lymphopenic Gliomas Following Radiation and Temzolomide",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9384,
+                    "therapyName": "Radiotherapy + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 9383,
+                    "therapyName": "NT-I7 + Radiotherapy + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03690869",
+            "title": "REGN2810 in Pediatric Patients With Relapsed, Refractory Solid, or Central Nervous System (CNS) Tumors and Safety and Efficacy of REGN2810 in Combination With Radiotherapy in Pediatric Patients With Newly Diagnosed or Recurrent Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03696355",
+            "title": "Study of GDC-0084 in Pediatric Patients With Newly Diagnosed Diffuse Intrinsic Pontine Glioma or Diffuse Midline Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2018,
+                    "therapyName": "GDC-0084",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03718767",
+            "title": "Nivolumab in People With IDH-Mutant Gliomas With and Without Hypermutator Phenotype",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03746080",
+            "title": "Whole Brain Radiation Therapy With Standard Temozolomide Chemo-Radiotherapy and Plerixafor in Treating Patients With Glioblastoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7582,
+                    "therapyName": "Plerixafor + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03749187",
+            "title": "BGB-290 and Temozolomide in Treating Isocitrate Dehydrogenase (IDH)1/2-Mutant Grade I-IV Gliomas (PNOC017)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6124,
+                    "therapyName": "Pamiparib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03763396",
+            "title": "Azoles Targeting Recurrent High Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4108,
+                    "therapyName": "Posaconazole",
+                    "synonyms": null
+                },
+                {
+                    "id": 2858,
+                    "therapyName": "Ketoconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03834740",
+            "title": "Ph0/2 Ribociclib & Everolimus",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5073,
+                    "therapyName": "Everolimus + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03893487",
+            "title": "Fimepinostat in Treating Brain Tumors in Children and Young Adults (PNOC016)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 709,
+                    "therapyName": "CUDC-907",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03914742",
+            "title": "BGB-290 and Temozolomide in Treating Patients With Recurrent Gliomas With IDH1/2 Mutations",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6124,
+                    "therapyName": "Pamiparib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03919071",
+            "title": "Dabrafenib Combined With Trametinib After Radiation Therapy in Treating Patients With Newly-Diagnosed High-Grade Glioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03922555",
+            "title": "ASTX727 in Recurrent/Progressive Non-enhancing IDH Mutant Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1759,
+                    "therapyName": "ASTX727",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03973879",
+            "title": "Combination of PVSRIPO and Atezolizumab for Adults With Recurrent Malignant Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 8438,
+                    "therapyName": "Atezolizumab + PVSRIPO",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04015700",
+            "title": "Neoantigen-based Personalized DNA Vaccine Combined With Immune Checkpoint Blockade Therapy in Patients With Newly Diagnosed, Unmethylated Glioblastoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8570,
+                    "therapyName": "GNOS-PV01 + INO-9012 + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8569,
+                    "therapyName": "GNOS-PV01 + INO-9012 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04047706",
+            "title": "Nivolumab, BMS-986205, and Radiation Therapy With or Without Temozolomide in Treating Patients With Newly Diagnosed Glioblastoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3569,
+                    "therapyName": "BMS-986205 + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8660,
+                    "therapyName": "BMS-986205 + Nivolumab + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04051606",
+            "title": "Phase II Study of Regorafenib in Bevacizumab Refractory Recurrent Glioblastoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04089449",
+            "title": "A Study of PRT811 in Participants With Advanced Solid Tumors, Gliomas and Myelofibrosis",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9227,
+                    "therapyName": "PRT811",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04099797",
+            "title": "C7R-GD2.CAR T Cells for Patients With GD2-expressing Brain Tumors (GAIL-B)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9563,
+                    "therapyName": "C7R-GD2.CART cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04160494",
+            "title": "D2C7-IT With Atezolizumab for Recurrent Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8950,
+                    "therapyName": "Atezolizumab + D2C7-IT",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04166409",
+            "title": "A Study of the Drugs Selumetinib vs. Carboplatin and Vincristine in Patients With Low-Grade Glioma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8990,
+                    "therapyName": "Carboplatin + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04172597",
+            "title": "A Study of Poziotinib in Patients With EGFR or HER2 Activating Mutations in Advanced Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1042,
+                    "therapyName": "Poziotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04195139",
+            "title": "Nivolumab and Temozolomide Versus Temozolomide Alone in Newly Diagnosed Elderly Patients With GBM (NUTMEG)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3724,
+                    "therapyName": "Nivolumab + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1141,
+                    "therapyName": "Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04201457",
+            "title": "A Trial of Dabrafenib, Trametinib and Hydroxychloroquine for Patients With Recurrent LGG or HGG With a BRAF Aberration",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7799,
+                    "therapyName": "Hydroxychloroquine + Trametinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 9169,
+                    "therapyName": "Dabrafenib + Hydroxychloroquine + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04220892",
+            "title": "Pilot Study of Pembrolizumab Combined With Pemetrexed or Abemaciclib for High Grade Glioma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 4242,
+                    "therapyName": "Abemaciclib + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5498,
+                    "therapyName": "Pembrolizumab + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04254419",
+            "title": "Intra-tumoral Injection of Natural Killer Cells in High-Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT04295759",
+            "title": "INCB7839 in Treating Children With Recurrent/Progressive High-Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 6876,
+                    "therapyName": "INCB7839",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04323046",
+            "title": "Immunotherapy (Nivolumab and Ipilimumab) Before and After Surgery for the Treatment of Recurrent or Progressive High Grade Glioma in Children and Young Adults",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

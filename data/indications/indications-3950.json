@@ -1,0 +1,60 @@
+{
+    "id": 3950,
+    "name": "adrenal carcinoma",
+    "source": "DOID",
+    "definition": "An adrenal cancer that is located_in the cortex (steroid hormone-producing tissue) of the adrenal gland and that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:http\\://en.wikipedia.org/wiki/Adrenocortical_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3950",
+    "evidence": [
+        {
+            "id": 4007,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted tumor shrinkage and no disease progression for 10 months in an adrenal carcinoma patient harboring FGFR3-TACC3 and FGFR2-CCDC6 fusions (PMID: 26324363; NCT01703481).",
+            "molecularProfile": {
+                "id": 32061,
+                "profileName": "FGFR2 - CCDC6 FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3950,
+                "name": "adrenal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4363,
+                    "pubMedId": 26324363,
+                    "title": "Phase I Dose-Escalation Study of JNJ-42756493, an Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients With Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324363"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02831179",
+            "title": "Veliparib, Capecitabine, and Temozolomide in Patients With Advanced, Metastatic, and Recurrent Neuroendocrine Tumor",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4463,
+                    "therapyName": "Capecitabine + Temozolomide + Veliparib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

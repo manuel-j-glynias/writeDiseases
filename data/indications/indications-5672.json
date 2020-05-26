@@ -1,0 +1,49 @@
+{
+    "id": 5672,
+    "name": "large intestine cancer",
+    "source": "DOID",
+    "definition": "An intestinal cancer that effects the long, tube-like organ that is connected to the small intestine at one end and the anus at the other. [url:http\\://en.wikipedia.org/wiki/Large_intestine]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "1994",
+        "1997"
+    ],
+    "termId": "DOID:5672",
+    "evidence": [
+        {
+            "id": 726,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing MTOR S2215Y were sensitive to Rapamune (sirolimus) (PMID: 20190810).",
+            "molecularProfile": {
+                "id": 828,
+                "profileName": "MTOR S2215Y"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5672,
+                "name": "large intestine cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 374,
+                    "pubMedId": 20190810,
+                    "title": "Single amino-acid changes that confer constitutive activation of mTOR are discovered in human cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20190810"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

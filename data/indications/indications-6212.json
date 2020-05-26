@@ -1,0 +1,122 @@
+{
+    "id": 6212,
+    "name": "ovarian endometrial cancer",
+    "source": "DOID",
+    "definition": "An ovary epithelial cancer that has_material_basis_in the endometrium and is located_in the ovary. [url:http\\://en.wikipedia.org/wiki/Endometrial_cancer]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "4116"
+    ],
+    "termId": "DOID:6212",
+    "evidence": [
+        {
+            "id": 3621,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical study, a patient with endometrioid ovarian carcinoma harboring AKT1 E17K had a sustained partial response to AZD5363 for more than two years (PMID: 26351323).",
+            "molecularProfile": {
+                "id": 643,
+                "profileName": "AKT1 E17K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6212,
+                "name": "ovarian endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3912,
+                    "pubMedId": 26351323,
+                    "title": "Tumors with AKT1E17K Mutations Are Rational Targets for Single Agent or Combination Therapy with AKT Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26351323"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01844986",
+            "title": "Olaparib Monotherapy in Patients With BRCA Mutated Ovarian Cancer Following First Line Platinum Based Chemotherapy (SOLO-1)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02345265",
+            "title": "Olaparib and Cediranib Maleate in Treating Patients With Recurrent Ovarian, Primary Peritoneal, or Fallopian Tube Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1971,
+                    "therapyName": "Cediranib + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02983799",
+            "title": "Olaparib Tablets as a Treatment for Ovarian Cancer Subjects With Different HRD Tumor Status",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03395080",
+            "title": "A Study of DKN-01 as a Monotherapy or in Combination With Paclitaxel in Patients With Relapsed/ Refractory Endometrioid Endometrial or Endometrioid Ovarian Cancer (P204) (P204)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6244,
+                    "therapyName": "DKN-01",
+                    "synonyms": null
+                },
+                {
+                    "id": 6254,
+                    "therapyName": "DKN-01 + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03602859",
+            "title": "A Phase 3 Comparison of Platinum-Based Therapy With TSR-042 and Niraparib Versus Standard of Care Platinum-Based Therapy as First-Line Treatment of Stage III or IV Nonmucinous Epithelial Ovarian Cancer (FIRST)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6321,
+                    "therapyName": "Niraparib + TSR-042",
+                    "synonyms": null
+                },
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

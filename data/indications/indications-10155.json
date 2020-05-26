@@ -1,0 +1,48 @@
+{
+    "id": 10155,
+    "name": "intestinal cancer",
+    "source": "DOID",
+    "definition": "A gastrointestinal system cancer that is located_in the intestine. [url:http\\://en.wikipedia.org/wiki/Intestine]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:10155",
+    "evidence": [
+        {
+            "id": 5822,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, WNT-C59 treatment prevented the growth of intestinal cancer cells with RNF43 and ZNRF3 loss in mouse models (PMID: 26023187).",
+            "molecularProfile": {
+                "id": 21668,
+                "profileName": "RNF43 loss ZNRF3 loss"
+            },
+            "therapy": {
+                "id": 3775,
+                "therapyName": "WNT-C59",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10155,
+                "name": "intestinal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5163,
+                    "pubMedId": 26023187,
+                    "title": "Porcupine inhibitor suppresses paracrine Wnt-driven growth of Rnf43;Znrf3-mutant neoplasia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26023187"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

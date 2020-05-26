@@ -1,0 +1,438 @@
+{
+    "id": 1749,
+    "name": "squamous cell carcinoma",
+    "source": "DOID",
+    "definition": "A carcinoma that derives_from squamous epithelial cells. [url:http\\://en.wikipedia.org/wiki/Squamous_cell_carcinoma, url:http\\://www.medicinenet.com/skin_cancer/page2.htm]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5512"
+    ],
+    "termId": "DOID:1749",
+    "evidence": [
+        {
+            "id": 1363,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, carboxyamidotriazole orotate treatment demonstrated some efficacy in patients with various solid tumors including squamous cell carcinomas (tonsil) with PI3KCA and NRAS mutations (J Clin Oncol 31, 2013 (suppl; abstr 2518)).",
+            "molecularProfile": {
+                "id": 429,
+                "profileName": "PIK3CA mutant"
+            },
+            "therapy": {
+                "id": 999,
+                "therapyName": "Carboxyamidotriazole Orotate",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1082,
+                    "pubMedId": null,
+                    "title": "A phase I study of carboxyamidotriazole orotate (CTO) in of advanced solid tumors.",
+                    "url": "http://meetinglibrary.asco.org/content/115114-132"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3222,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Glucophage (metformin) did not induce growth inhibition or apoptosis in a KRAS wild-type squamous cell carcinoma cell line in culture and did not inhibit tumor growth in xenograft models (PMID: 23877793).",
+            "molecularProfile": {
+                "id": 496,
+                "profileName": "KRAS wild-type"
+            },
+            "therapy": {
+                "id": 1031,
+                "therapyName": "Metformin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 342,
+                    "pubMedId": 23877793,
+                    "title": "K\u2011ras gene mutation as a predictor of cancer cell responsiveness to metformin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23877793"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3780,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with GA201 resulted in inhibition of EGFR signaling and induced antibody-dependent cell-mediated cytotoxicity towards EGFR-over expressing squamous cell carcinoma cells in culture (PMID: 23209031).",
+            "molecularProfile": {
+                "id": 2419,
+                "profileName": "EGFR over exp"
+            },
+            "therapy": {
+                "id": 3154,
+                "therapyName": "GA201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3814,
+                    "pubMedId": 23209031,
+                    "title": "GA201 (RG7160): a novel, humanized, glycoengineered anti-EGFR antibody with enhanced ADCC and superior in vivo efficacy compared with cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23209031"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7849,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-285 inhibited growth of squamous cell carcinoma cells harboring EGFR over expression in culture and in cell line xenograft models (PMID: 23983820).",
+            "molecularProfile": {
+                "id": 2419,
+                "profileName": "EGFR over exp"
+            },
+            "therapy": {
+                "id": 2135,
+                "therapyName": "TAK-285",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1960,
+                    "pubMedId": 23983820,
+                    "title": "Antitumor Activity of TAK-285, an Investigational, Non-Pgp Substrate HER2/EGFR Kinase Inhibitor, in Cultured Tumor Cells, Mouse and Rat Xenograft Tumors, and in an HER2-Positive Brain Metastasis Model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23983820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8058,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGB-283 inhibited Egfr phosphorylation in Egfr over expressing squamous cell carcinoma cells in culture, and inhibited tumor growth in cell line xenograft models (PMID: 26208524).",
+            "molecularProfile": {
+                "id": 2419,
+                "profileName": "EGFR over exp"
+            },
+            "therapy": {
+                "id": 4025,
+                "therapyName": "BGB-283",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5280,
+                    "pubMedId": 26208524,
+                    "title": "BGB-283, a Novel RAF Kinase and EGFR Inhibitor, Displays Potent Antitumor Activity in BRAF-Mutated Colorectal Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26208524"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9117,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Abivertinib (AC0010) resulted in no antitumor activity when treating a squamous cell carcinoma cell line xenograft model harboring wild-type EGFR (PMID: 27573423).",
+            "molecularProfile": {
+                "id": 343,
+                "profileName": "EGFR wild-type"
+            },
+            "therapy": {
+                "id": 2909,
+                "therapyName": "Abivertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6924,
+                    "pubMedId": 27573423,
+                    "title": "AC0010, an Irreversible EGFR Inhibitor Selectively Targeting Mutated EGFR and Overcoming T790M-Induced Resistance in Animal Models and Lung Cancer Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27573423"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12613,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Prexasertib (LY2606368) treatment resulted in partial response in 2 patients with squamous cell carcinoma (SCC), and 40% (6/15) of solid tumor patients who achieved stable disease had SCC (PMID: 27044938; NCT0115790).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1651,
+                "therapyName": "Prexasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10479,
+                    "pubMedId": 27044938,
+                    "title": "Phase I Study of LY2606368, a Checkpoint Kinase 1 Inhibitor, in Patients With Advanced Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27044938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14562,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, Prexasertib (LY2606368) demonstrated safety and resulted in a clinical benefit rate at 3 months of 29% (29/101) in squamous cell carcinoma patients, including patients with squamous cell carcinoma of the anus, head and neck squamous cell carcinoma, and squamous non-small cell lung cancer (PMID: 29643063; NCT0115790).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1651,
+                "therapyName": "Prexasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11752,
+                    "pubMedId": 29643063,
+                    "title": "Evaluation of Prexasertib, a Checkpoint Kinase 1 Inhibitor, in a Phase Ib Study of Patients with Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29643063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15033,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I and a Phase II trial that supported FDA approval, Libtayo (cemiplimab) treatment resulted in an objective response rate of 46.7% (35/75), a complete response rate of 5.3% (4/75), and a partial response rate of 41.3% (31/75) in patients with metastatic cutaneous squamous cell carcinoma (PMID: 29863979; NCT02383212, NCT02760498).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5656,
+                "therapyName": "Cemiplimab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12430,
+                    "pubMedId": 29863979,
+                    "title": "PD-1 Blockade with Cemiplimab in Advanced Cutaneous Squamous-Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29863979"
+                },
+                {
+                    "id": 15663,
+                    "pubMedId": null,
+                    "title": "Libtayo (cemiplimab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761097"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19225,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PMX-53 treatment enhanced the sensitivity of Taxol (paclitaxel) therapy, leading to a synergistic effect and resulting in inhibition of cell proliferation and tumor growth in a syngeneic mouse model of poorly differentiated squamous cell carcinoma (PMID: 30300579).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8944,
+                "therapyName": "Paclitaxel + PMX-53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16794,
+                    "pubMedId": 30300579,
+                    "title": "Complement C5a Fosters Squamous Carcinogenesis and Limits T Cell Response to Chemotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30300579"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19226,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PMX-53 treatment did not inhibit tumor growth in a syngeneic mouse model of poorly differentiated squamous cell carcinoma (PMID: 30300579).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8943,
+                "therapyName": "PMX-53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1749,
+                "name": "squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16794,
+                    "pubMedId": 30300579,
+                    "title": "Complement C5a Fosters Squamous Carcinogenesis and Limits T Cell Response to Chemotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30300579"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02723955",
+            "title": "Dose Escalation and Expansion Study of GSK3359609 in Subjects With Selected Advanced Solid Tumors (INDUCE-1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4409,
+                    "therapyName": "GSK3359609",
+                    "synonyms": null
+                },
+                {
+                    "id": 4410,
+                    "therapyName": "GSK3359609 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03357757",
+            "title": "Avelumab With Valproic Acid in Virus-associated Cancer (LATENT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6769,
+                    "therapyName": "Avelumab + Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03391973",
+            "title": "Pembrolizumab in Patients With Poor-Prognosis Carcinoma of Unknown Primary Site (CUP) (CUP)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03396471",
+            "title": "Study of Pembrolizumab and Concurrent Radiation in Patients With Previously Treated Carcinoma of Unknown Primary",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03669718",
+            "title": "A Randomized Phase 2 Study of Cemiplimab +/- ISA101b in HPV16-Positive OPC",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7644,
+                    "therapyName": "Cemiplimab + ISA101b",
+                    "synonyms": null
+                },
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

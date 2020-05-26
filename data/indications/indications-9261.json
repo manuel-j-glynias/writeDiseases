@@ -1,0 +1,913 @@
+{
+    "id": 9261,
+    "name": "nasopharynx carcinoma",
+    "source": "DOID",
+    "definition": "A pharynx cancer that is located in the nasopharynx, the uppermost region of the pharynx or throat, where the nasal passages and auditory tubes join the remainder of the upper respiratory tract. [url:http\\://en.wikipedia.org/wiki/Nasopharyngeal_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "9229",
+        "9144",
+        "8813",
+        "8814",
+        "9057",
+        "9197"
+    ],
+    "termId": "DOID:9261",
+    "evidence": [
+        {
+            "id": 2478,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II study, MK2206 increased stable disease to 12 months in a nasopharyngeal carcinoma patient with Pik3ca amplification (PMID: 26084990).",
+            "molecularProfile": {
+                "id": 1191,
+                "profileName": "PIK3CA amp"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3155,
+                    "pubMedId": 26084990,
+                    "title": "Multicenter phase II study of the AKT inhibitor MK-2206 in recurrent or metastatic nasopharyngeal carcinoma from patients in the mayo phase II consortium and the cancer therapeutics research group (MC1079).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26084990"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5193,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, nasopharynx carcinoma cells treated with WNT-C59 in culture and mouse models demonstrated inhibition of the Wnt signaling pathway and suppression of tumor growth (PMID: 25980501).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3775,
+                "therapyName": "WNT-C59",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4905,
+                    "pubMedId": 25980501,
+                    "title": "Wnt-C59 arrests stemness and suppresses growth of nasopharyngeal carcinoma in mice by inhibiting the Wnt pathway in the tumor microenvironment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25980501"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13077,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Inlyta (axitinib) inhibited growth of nasopharyngeal carcinoma cell lines in culture, and inhibited tumor growth, decreased microvessel density, and increased tumor necrosis in a nasopharyngeal carcinoma xenograft model (PMID: 29301831).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10959,
+                    "pubMedId": 29301831,
+                    "title": "Efficacy, Safety, and Pharmacokinetics of Axitinib in Nasopharyngeal Carcinoma: A Preclinical and Phase II Correlative Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29301831"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13076,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical trial, treatment with Inlyta (axitinib) resulted in a 3-month clinical benefit rate (CBR) of 78.4% (29/37; 1 confirmed partial response (PR), 6 unconfirmed PR, 22 stable disease for greater than 3 months) and 6-month CBR of 43.2%, a median progression-free survival of 5.0 months, and median overall survival of 10.4 months in patients with nasopharyngeal carcinoma (PMID: 29301831).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10959,
+                    "pubMedId": 29301831,
+                    "title": "Efficacy, Safety, and Pharmacokinetics of Axitinib in Nasopharyngeal Carcinoma: A Preclinical and Phase II Correlative Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29301831"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16195,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Camrelizumab (SHR-1210) treatment was well tolerated in patients with refractory nasopharyngeal carcinoma, and demonstrated preliminary efficacy with an overall response rate of 34% (31/91, 2 complete responses and 29 partial responses) and a disease control rate of 59% (54/91, stable disease or better) (PMID: 30213452; NCT02721589).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6137,
+                "therapyName": "Camrelizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14312,
+                    "pubMedId": 30213452,
+                    "title": "Camrelizumab (SHR-1210) alone or in combination with gemcitabine plus cisplatin for nasopharyngeal carcinoma: results from two single-arm, phase 1 trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30213452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13871,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Camrelizumab (SHR-1210) demonstrated safety and preliminary anti-tumor activity, resulted in partial response in 33.3% (1/3) of patients with nasopharynx cancer (J Clin Onc. 2017 35:15_suppl, e15572-e15572; NCT02742935).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6137,
+                "therapyName": "Camrelizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9759,
+                    "pubMedId": null,
+                    "title": "Phase I study of the anti-PD-1 antibody SHR-1210 in patients with advanced solid tumors.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2017.35.15_suppl.e15572"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15030,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, nasopharyngeal cancer cell lines overexpressing Bst2 were resistant to cisplatin, as demonstrated by apoptosis assays and gene knockdown experiments (PMID: 28617432).",
+            "molecularProfile": {
+                "id": 30562,
+                "profileName": "BST2 over exp"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12343,
+                    "pubMedId": 28617432,
+                    "title": "BST2 confers cisplatin resistance via NF-\u03baB signaling in nasopharyngeal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28617432"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15763,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) treatment resulted in cell cycle arrest, leading to tumor growth suppression in patient-derived xenograft (PDX) models of nasopharyngeal carcinoma harboring CCND1 amplification and CDKN2A loss (PMID: 30236142).",
+            "molecularProfile": {
+                "id": 26317,
+                "profileName": "CCND1 amp CDKN2A loss"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13785,
+                    "pubMedId": 30236142,
+                    "title": "Integrated genomic analyses in PDX model reveal a cyclin-dependent kinase inhibitor Palbociclib as a novel candidate drug for nasopharyngeal carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30236142"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16196,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, combination of Camrelizumab (SHR-1210), Gemzar (gemcitabine), and Platinol (cisplatin) demonstrated safety and preliminary anti-tumor activity in patients with treatment-naive nasopharyngeal carcinoma, resulted in an objective response rate of 91% (20/22, 1 complete response and 19 partial responses) and a disease control of 100% (22/22, stable disease or better (PMID: 30213452; NCT03121716).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7913,
+                "therapyName": "Camrelizumab + Cisplatin + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14312,
+                    "pubMedId": 30213452,
+                    "title": "Camrelizumab (SHR-1210) alone or in combination with gemcitabine plus cisplatin for nasopharyngeal carcinoma: results from two single-arm, phase 1 trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30213452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16248,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial (KEYNOTE-028), Keytruda (pembrolizumab) treatment demonstrated safety and preliminary efficacy, resulted in partial response in 25.9% (7/27) and stable disease in 51.9% (14/27) of patients with nasopharynx carcinoma that had CD274 (PD-L1) expression in 1% or more of tumor cells or tumor-infiltrating lymphocytes (PMID: 28837405; NCT02054806).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14392,
+                    "pubMedId": 28837405,
+                    "title": "Safety and Antitumor Activity of Pembrolizumab in Patients With Programmed Death-Ligand 1-Positive Nasopharyngeal Carcinoma: Results of the KEYNOTE-028 Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28837405"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16398,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SAIT301 inhibited phosphorylation of Met and downstream targets, and reduced migration and growth of nasopharygeal carcinoma cell lines treated with HGF in culture (PMID: 24722284).",
+            "molecularProfile": {
+                "id": 25620,
+                "profileName": "HGF positive"
+            },
+            "therapy": {
+                "id": 8017,
+                "therapyName": "SAIT301",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14479,
+                    "pubMedId": 24722284,
+                    "title": "Met degradation by SAIT301, a Met monoclonal antibody, reduces the invasion and migration of nasopharyngeal cancer cells via inhibition of EGR-1 expression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24722284"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01498484",
+            "title": "Therapeutic Effects of Epstein-Barr Virus Immune T-Lymphocytes Derived From a Normal HLA-Compatible Or Partially-Matched Third-Party Donor in the Treatment of EBV Lymphoproliferative Disorders and EBV-Associated Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5057,
+                    "therapyName": "EB-VST cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01966445",
+            "title": "Dose Escalation Study to Investigate the Safety, Pharmacokinetics, and Pharmacodynamics of GSK2849330 in Subjects With Advanced Her3-Positive Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2919,
+                    "therapyName": "GSK2849330",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02113878",
+            "title": "Phase Ib Study of BKM120 With Cisplatin and XRT in High Risk Locally Advanced Squamous Cell Cancer of Head and Neck",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1691,
+                    "therapyName": "Buparlisib + Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02269943",
+            "title": "Safety and Efficacy of Oral Azacitidine in Previously Treated Subjects With Locally Advanced or Metastatic Nasopharyngeal Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02287311",
+            "title": "Most Closely Matched 3rd Party Rapidly Generated LMP, BARF1 And EBNA1 Specific CTL, EBV-Positive Lymphoma (MABEL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9679,
+                    "therapyName": "LMP/BARF1/EBNA1-specific cytotoxic T lymphocytes",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02339558",
+            "title": "Nivolumab in Treating Patients With Recurrent and/or Metastatic Nasopharyngeal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02358031",
+            "title": "A Study of Pembrolizumab (MK-3475) for First Line Treatment of Recurrent or Metastatic Squamous Cell Cancer of the Head and Neck (MK-3475-048/KEYNOTE-048)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1715,
+                    "therapyName": "Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02460224",
+            "title": "Safety and Efficay of LAG525 Single Agent and in Combination With PDR001 in Patients With Advanced Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2887,
+                    "therapyName": "LAG525",
+                    "synonyms": null
+                },
+                {
+                    "id": 2659,
+                    "therapyName": "Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02488759",
+            "title": "A Study to Investigate the Safety and Efficacy of Nivolumab in Virus-associated Tumors (CheckMate358)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02538510",
+            "title": "Pembrolizumab and Vorinostat in Treating Patients With Recurrent Squamous Cell Head and Neck Cancer and Salivary Gland Cancer That Is Metastatic and/or Cannot Be Removed by Surgery",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3077,
+                    "therapyName": "Pembrolizumab + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02605967",
+            "title": "Safety and Efficacy Study of PDR001 in Patients With Recurrent or Metastatic Nasopharyngeal Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2659,
+                    "therapyName": "Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02611960",
+            "title": "Study of Pembrolizumab (MK-3475) in Platinum Pre-treated Recurrent/Metastatic Nasopharyngeal Cancer (MK-3475-122, KEYNOTE-122)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4203,
+                    "therapyName": "Capecitabine + Docetaxel + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02643550",
+            "title": "Study of IPH2201 (Monalizumab) and Cetuximab in Patients With Recurrent or Metastatic Squamous Cell Carcinoma of the Head and Neck",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3383,
+                    "therapyName": "Cetuximab + IPH2201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02706691",
+            "title": "Pan FGFR Kinase Inhibitor BGJ398 in Treating Patients With FGFR1-3 Translocated, Mutated, or Amplified Recurrent Head and Neck Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 674,
+                    "therapyName": "BGJ398",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02780011",
+            "title": "Alsertib (MLN8237) and Brentuximab Vedotin for Relapsed/Refractory CD30-Positive Lymphomas and Solid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4301,
+                    "therapyName": "Alisertib + Brentuximab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02795156",
+            "title": "Study to Assess the Activity of Molecularly Matched Targeted Therapies in Select Tumor Types Based on Genomic Alterations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02875613",
+            "title": "Avelumab for Recurrent/Metastatic Nasopharyngeal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02892201",
+            "title": "Pembrolizumab in HNSCC With Residual Disease After Radiation",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02900651",
+            "title": "Safety and Efficacy of MAK683 in Adult Patients With Advanced Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9055,
+                    "therapyName": "MAK683",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074513",
+            "title": "Atezolizumab and Bevacizumab in Rare Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03144661",
+            "title": "An Open-Label Safety and Tolerability Study of INCB062079 in Subjects With Advanced Hepatocellular Carcinoma and Other Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5832,
+                    "therapyName": "INCB062079",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03267498",
+            "title": "Nivolumab + Chemoradiation in Stage II-IVB Nasopharyngeal Carcinoma (NPC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4760,
+                    "therapyName": "Cisplatin + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03341936",
+            "title": "Adjuvant Nivolumab and Lirilumab in Patients With Relapsed, Resectable Squamous Cell Carcinoma of the Head and Neck",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2584,
+                    "therapyName": "IPH2102 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03357757",
+            "title": "Avelumab With Valproic Acid in Virus-associated Cancer (LATENT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6769,
+                    "therapyName": "Avelumab + Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03422536",
+            "title": "Ficlatuzumab With or Without Cetuximab in Treating Patients With Cetuximab-Resistant, Recurrent or Metastatic Head and Neck Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 740,
+                    "therapyName": "Ficlatuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1959,
+                    "therapyName": "Cetuximab + Ficlatuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03474640",
+            "title": "Safety, Tolerability and Pharmacokinetics of an Anti-PD-1 Monoclonal Antibody in Subjects With Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5891,
+                    "therapyName": "Toripalimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03674567",
+            "title": "Dose Escalation and Expansion Study of FLX475 Monotherapy and in Combination With Pembrolizumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7533,
+                    "therapyName": "FLX475 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7530,
+                    "therapyName": "FLX475",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03700294",
+            "title": "Safety, Tolerability, Pharmacokinetics, and Antitumor Study of ADCT-601 to Treat Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 7566,
+                    "therapyName": "ADCT-601",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03708224",
+            "title": "Phase II Study of Perioperative Immunotherapy in Patients With Advanced Non-Virally Associated Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7438,
+                    "therapyName": "Atezolizumab + Emactuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03719690",
+            "title": "Safety and Efficacy of Tipifarnib in Head and Neck Cancer With HRAS Mutations and Impact of HRAS on Response to Therapy (AIM-HN/SEQ-HN)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 938,
+                    "therapyName": "Tipifarnib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03752398",
+            "title": "A Study of XmAb23104 in Subjects With Selected Advanced Solid Tumors (DUET-3) (DUET-3)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9200,
+                    "therapyName": "XmAb23104",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03769467",
+            "title": "Tabelecleucel in Combination With Pembrolizumab in Subjects With EBV+ Nasopharyngeal Carcinoma (ATA129-NPC-202)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7639,
+                    "therapyName": "Pembrolizumab + Tabelecleucel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03849469",
+            "title": "A Study of XmAb22841 Monotherapy & in Combination w/ Pembrolizumab in Subjects w/ Selected Advanced Solid Tumors (DUET-4)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7902,
+                    "therapyName": "Pembrolizumab + XmAb22841",
+                    "synonyms": null
+                },
+                {
+                    "id": 7901,
+                    "therapyName": "XmAb22841",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03891953",
+            "title": "Study of Safety and Efficacy of DKY709 Alone or in Combination With PDR001 in Patients With Advanced Solid Tumors.",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8612,
+                    "therapyName": "DKY709",
+                    "synonyms": null
+                },
+                {
+                    "id": 8613,
+                    "therapyName": "DKY709 + Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03936959",
+            "title": "A Study of LY3434172, a PD-1 and PD-L1 Bispecific Antibody, in Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 9537,
+                    "therapyName": "LY3434172",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04231864",
+            "title": "Durvalumab and Epacadostat for Treatment of Unresectable, Recurrent, or Metastatic Epstein-Barr Virus Positive Nasopharyngeal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 3015,
+                    "therapyName": "Durvalumab + Epacadostat",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

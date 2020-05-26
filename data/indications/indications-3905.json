@@ -1,0 +1,977 @@
+{
+    "id": 3905,
+    "name": "lung carcinoma",
+    "source": "DOID",
+    "definition": "A lung cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells and is located_in the lungs and has_symptom cough and has_symptom chest discomfort or pain and has_symptom weight loss and has_symptom hemoptysis. [url:https\\://merck.com/mmpe/sec05/ch062/ch062b.html]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3905",
+    "evidence": [
+        {
+            "id": 99,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) in combination with Afinitor (everolimus) inhibited tumor growth in mouse lung cancer xenograft models (PMID: 22781393).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1314,
+                "therapyName": "Buparlisib + Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 178,
+                    "pubMedId": 22781393,
+                    "title": "The combination of RAD001 and NVP-BKM120 synergistically inhibits the growth of lung cancer in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22781393"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 692,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) failed to induce apoptosis in lung carcinoma cells expressing BRAF V600E (PMID: 22649091).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 423,
+                    "pubMedId": 22649091,
+                    "title": "Kinase-impaired BRAF mutations in lung cancer confer sensitivity to dasatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22649091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 878,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung carcinoma cell lines harboring MET T1010I showed sensitivity to Xalkori (crizotinib) in cell culture (PMID: 17483355).",
+            "molecularProfile": {
+                "id": 1408,
+                "profileName": "MET T1010I"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 333,
+                    "pubMedId": 17483355,
+                    "title": "An orally available small-molecule inhibitor of c-Met, PF-2341066, exhibits cytoreductive antitumor efficacy through antiproliferative and antiangiogenic mechanisms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17483355"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2215,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Verrucarin A treatment resulted in increased degradation of Ncoa3 (Src-3) protein and growth inhibition in lung carcinoma cells in culture (PMID: 24743578).",
+            "molecularProfile": {
+                "id": 6301,
+                "profileName": "NCOA3 over exp"
+            },
+            "therapy": {
+                "id": 2715,
+                "therapyName": "Verrucarin A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 2775,
+                    "pubMedId": 24743578,
+                    "title": "Identification of verrucarin a as a potent and selective steroid receptor coactivator-3 small molecule inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24743578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4356,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R547 inhibited proliferation of lung carcinoma cell lines harboring wild-type Tp53 and Rb1 in culture and reduced tumor growth in xenograft models (PMID: 17121911).",
+            "molecularProfile": {
+                "id": 17823,
+                "profileName": "RB1 wild-type TP53 wild-type"
+            },
+            "therapy": {
+                "id": 3497,
+                "therapyName": "R547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4503,
+                    "pubMedId": 17121911,
+                    "title": "In vitro and in vivo activity of R547: a potent and selective cyclin-dependent kinase inhibitor currently in phase I clinical trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17121911"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5533,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YU238259 demonstrated increased cytotoxicity in ATRIP-deficient lung carcinoma cell lines in culture (PMID: 26116172).",
+            "molecularProfile": {
+                "id": 20968,
+                "profileName": "ATRIP dec exp"
+            },
+            "therapy": {
+                "id": 3880,
+                "therapyName": "YU238259",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5087,
+                    "pubMedId": 26116172,
+                    "title": "YU238259 Is a Novel Inhibitor of Homology-Dependent DNA Repair That Exhibits Synthetic Lethality and Radiosensitization in Repair-Deficient Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26116172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5534,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YU238259 demonstrated increased cytotoxicity in NBN-deficient lung carcinoma cell lines in culture (PMID: 26116172).",
+            "molecularProfile": {
+                "id": 20969,
+                "profileName": "NBN dec exp"
+            },
+            "therapy": {
+                "id": 3880,
+                "therapyName": "YU238259",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5087,
+                    "pubMedId": 26116172,
+                    "title": "YU238259 Is a Novel Inhibitor of Homology-Dependent DNA Repair That Exhibits Synthetic Lethality and Radiosensitization in Repair-Deficient Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26116172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5546,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung carcinoma cell lines demonstrating lower basal protein level of Egfr, Erbb2 (Her2) and Erbb3 (Her3) were resistant to Pan-HER in culture (PMID: 26420857).",
+            "molecularProfile": {
+                "id": 20977,
+                "profileName": "EGFR dec exp ERBB2 dec exp ERBB3 dec exp"
+            },
+            "therapy": {
+                "id": 3885,
+                "therapyName": "Pan-HER",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5091,
+                    "pubMedId": 26420857,
+                    "title": "Pan-HER Inhibitor Augments Radiation Response in Human Lung and Head and Neck Cancer Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26420857"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6017,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YW3-56 inhibited proliferation of lung carcinoma cell lines in culture, independent of TP53 status (PMID: 25612620).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4006,
+                "therapyName": "YW3-56",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5233,
+                    "pubMedId": 25612620,
+                    "title": "ATF4 Gene Network Mediates Cellular Response to the Anticancer PAD Inhibitor YW3-56 in Triple-Negative Breast Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25612620"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6176,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment of lung carcinoma mouse models with NGR-TNF decreased tumor blood vessel density and induced apoptosis thereby resulting in decreased tumor growth (PMID: 23828516).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4078,
+                "therapyName": "NGR-TNF",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5382,
+                    "pubMedId": 23828516,
+                    "title": "NGR-TNF, a novel vascular-targeting agent, does not induce cytokine recruitment of proangiogenic bone marrow-derived cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23828516"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6278,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FAP positive lung carcinoma cells with decreased expression of TNFRSF10B demonstrated sensitivity to RG7386, resulting in apoptotic induction in culture (PMID: 27037412).",
+            "molecularProfile": {
+                "id": 23097,
+                "profileName": "FAP pos TNFRSF10B dec exp"
+            },
+            "therapy": {
+                "id": 4110,
+                "therapyName": "RG7386",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5521,
+                    "pubMedId": 27037412,
+                    "title": "RG7386, a Novel Tetravalent FAP-DR5 Antibody, Effectively Triggers FAP-Dependent, Avidity-Driven DR5 Hyperclustering and Tumor Cell Apoptosis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27037412"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8059,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGB-283 inhibited Egfr phosphorylation and cell proliferation in lung carcinoma cells harboring EGFR E746_A750del in culture, and resulted in tumor regression in cell line xenograft models (PMID: 26208524).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 4025,
+                "therapyName": "BGB-283",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5280,
+                    "pubMedId": 26208524,
+                    "title": "BGB-283, a Novel RAF Kinase and EGFR Inhibitor, Displays Potent Antitumor Activity in BRAF-Mutated Colorectal Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26208524"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8445,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, INCB001158 (CB-1158) had no effect on Lewis Lung carcinoma cells growth in culture, but inhibited tumor growth in syngeneic animal models through regulation of host immune response (Cancer Res 2016;76(14 Suppl):Abstract nr 552).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6341,
+                "therapyName": "INCB001158",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6662,
+                    "pubMedId": null,
+                    "title": "Immuno-oncology agent CB-1158 is a potent and selective arginase inhibitor and causes an immune-mediated anti-tumor response",
+                    "url": "http://cancerres.aacrjournals.org/content/76/14_Supplement/552"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8961,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MGCD516 decreased tumor cell proliferation, tumor vascularization, and target phosphorylation in human lung carcinoma cell line xenograft models (Cancer Research: April 15, 2013; Volume 73, Issue 8, Supplement 1, Abstract 930).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1655,
+                "therapyName": "MGCD516",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6811,
+                    "pubMedId": null,
+                    "title": "Preclinical characterization of MG516, a novel inhibitor of receptor tyrosine kinases involved in resistance to targeted therapies.",
+                    "url": "http://cancerres.aacrjournals.org/content/73/8_Supplement/930"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9239,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) did not inhibit growth of lung carcinoma cells with activated wild-type EGFR signaling via EGF stimulation in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 343,
+                "profileName": "EGFR wild-type"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10015,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD6738 treatment increased sensitivity to radiotherapy in a lung carcinoma cell line harboring wild-type TP53 in culture, resulting in a greater decrease in cell survival compared to radiation treatment alone (PMID: 28062704).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 5346,
+                "therapyName": "AZD6738 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7909,
+                    "pubMedId": 28062704,
+                    "title": "Radiosensitization by the ATR Inhibitor AZD6738 through Generation of Acentric Micronuclei.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28062704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11320,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4785 inhibited Kras expression, resulted in growth inhibition in 3-D cultures of lung carcinoma cells harboring KRAS G12S (PMID: 28615361).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 5914,
+                "therapyName": "AZD4785",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9180,
+                    "pubMedId": 28615361,
+                    "title": "Targeting KRAS-dependent tumors with AZD4785, a high-affinity therapeutic antisense oligonucleotide inhibitor of KRAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615361"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11328,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4785 inhibited Kras expression, resulted in growth inhibition in 3-D cultures of lung carcinoma cell lines harboring KRAS mutations, and anti-tumor activity in cell line xenograft models (PMID: 28615361).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 5914,
+                "therapyName": "AZD4785",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9180,
+                    "pubMedId": 28615361,
+                    "title": "Targeting KRAS-dependent tumors with AZD4785, a high-affinity therapeutic antisense oligonucleotide inhibitor of KRAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615361"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11329,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KRAS wild-type lung carcinoma cell lines demonstrated decreased respond to AZD4785 compared to KRAS mutant cell lines in culture (PMID: 28615361).",
+            "molecularProfile": {
+                "id": 496,
+                "profileName": "KRAS wild-type"
+            },
+            "therapy": {
+                "id": 5914,
+                "therapyName": "AZD4785",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9180,
+                    "pubMedId": 28615361,
+                    "title": "Targeting KRAS-dependent tumors with AZD4785, a high-affinity therapeutic antisense oligonucleotide inhibitor of KRAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615361"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12780,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "in a preclinical study, Lucitanib (E-3810) preferentially inhibited growth of FGFR1-amplified lung carcinoma cell lines in culture and in cell line xenograft models (PMID: 27988457).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 1029,
+                "therapyName": "Lucitanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10583,
+                    "pubMedId": 27988457,
+                    "title": "In Vitro and In Vivo Activity of Lucitanib in FGFR1/2 Amplified or Mutated Cancer Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27988457"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14995,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MRx0518 stimulated immune response and reduced tumor size in syngeneic mouse models of lung carcinoma (Journal of Clinical Oncology 36, no. 15_suppl).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7320,
+                "therapyName": "MRx0518",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12004,
+                    "pubMedId": null,
+                    "title": "Host-microbe interactions mediating antitumorigenic effects of MRX0518, a gut microbiota-derived bacterial strain, in breast, renal and lung carcinoma.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.e15006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17954,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JQ1 decreased tumor immunosuppression, increased T-lymphocyte infiltration and reduced tumor growth and increased survival in syngeneic mouse lung carcinoma models (PMID: 31018997).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15920,
+                    "pubMedId": 31018997,
+                    "title": "SF2523: Dual PI3K/BRD4 Inhibitor Blocks Tumor Immunosuppression and Promotes Adaptive Immune Responses in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31018997"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17955,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SF1126 decreased tumor immunosuppression and reduced tumor growth in syngeneic mouse lung carcinoma models (PMID: 31018997).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 915,
+                "therapyName": "SF1126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15920,
+                    "pubMedId": 31018997,
+                    "title": "SF2523: Dual PI3K/BRD4 Inhibitor Blocks Tumor Immunosuppression and Promotes Adaptive Immune Responses in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31018997"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17956,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SF2523 decreased tumor immunosuppression, increased T-lymphocyte infiltration, and reduced tumor growth in syngeneic mouse lung carcinoma models (PMID: 31018997).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8652,
+                "therapyName": "SF2523",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15920,
+                    "pubMedId": 31018997,
+                    "title": "SF2523: Dual PI3K/BRD4 Inhibitor Blocks Tumor Immunosuppression and Promotes Adaptive Immune Responses in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31018997"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18688,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ARS1620 treatment resulted in minor reduction of Erk phosphorylation and had no effect on apoptosis in lung carcinoma cells harboring KRAS G12C and NRAS Q61H in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 33499,
+                "profileName": "KRAS G12C NRAS Q61H"
+            },
+            "therapy": {
+                "id": 7862,
+                "therapyName": "ARS1620",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18689,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ARS1620, Afinitor (everolimus), and Linsitinib (OSI-906) triple combination treatment inhibited Erk and S6 phosphorylation but had no effect on apoptosis in lung carcinoma cells harboring KRAS G12C and NRAS Q61H in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 33499,
+                "profileName": "KRAS G12C NRAS Q61H"
+            },
+            "therapy": {
+                "id": 8792,
+                "therapyName": "ARS1620 + Everolimus + Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18690,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) treatment induced apoptosis in lung carcinoma cells harboring KRAS G12C and NRAS Q61H in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 33499,
+                "profileName": "KRAS G12C NRAS Q61H"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18691,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Afinitor (everolimus), Linsitinib (OSI-906), and Mekinist (trametinib) triple combination treatment inhibited Erk and S6 phosphorylation, resulted in apoptosis in lung carcinoma cells harboring KRAS G12C and NRAS Q61H in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 33499,
+                "profileName": "KRAS G12C NRAS Q61H"
+            },
+            "therapy": {
+                "id": 8786,
+                "therapyName": "Everolimus + Linsitinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19874,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MYCi975 treatment inhibited tumor growth in a mouse model of Lewis lung carcinoma (PMID: 31679823).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9235,
+                "therapyName": "MYCi975",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17557,
+                    "pubMedId": 31679823,
+                    "title": "Small-Molecule MYC Inhibitors Suppress Tumor Growth and Enhance Immunotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31679823"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20949,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AGI-134 treatment induced killing of lung carcinoma cells in the presence of normal human serum in culture and induced phagocytosis when co-cultured with human macrophages (PMID: 31889898).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9446,
+                "therapyName": "AGI-134",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 18037,
+                    "pubMedId": 31889898,
+                    "title": "AGI-134: a fully synthetic \u03b1-Gal glycolipid that converts tumors into in situ autologous vaccines, induces anti-tumor immunity and is synergistic with an anti-PD-1 antibody in mouse melanoma models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31889898"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02960594",
+            "title": "hTERT Immunotherapy Alone or in Combination With IL-12 DNA Followed by Electroporation in Adults With Solid Tumors at High Risk of Relapse",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5844,
+                    "therapyName": "INO-1400 + INO-9012",
+                    "synonyms": null
+                },
+                {
+                    "id": 5807,
+                    "therapyName": "INO-1400",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

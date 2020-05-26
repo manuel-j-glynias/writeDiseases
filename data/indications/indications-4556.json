@@ -1,0 +1,401 @@
+{
+    "id": 4556,
+    "name": "lung large cell carcinoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4556",
+    "evidence": [
+        {
+            "id": 6865,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 inhibited proliferation of a large cell lung cancer cell line harboring FGFR1 amplification in culture and induced tumor regression in xenograft models (PMID: 23082000).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5821,
+                    "pubMedId": 23082000,
+                    "title": "Translating the therapeutic potential of AZD4547 in FGFR1-amplified non-small cell lung cancer through the use of patient-derived tumor xenograft models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23082000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9342,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, reduced Mtor expression via shRNA enhanced sensitivity of lung large cell carcinoma cells to Iclusig (ponatinib) in culture (PMID: 26359452).",
+            "molecularProfile": {
+                "id": 26789,
+                "profileName": "MTOR dec exp"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7121,
+                    "pubMedId": 26359452,
+                    "title": "Kinome RNAi Screens Reveal Synergistic Targeting of MTOR and FGFR1 Pathways for Treatment of Lung Cancer and HNSCC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26359452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9345,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 and AZD8055 synergistically inhibited survival of FGFR1-dependent lung large cell carcinoma cells in culture (PMID: 26359452).",
+            "molecularProfile": {
+                "id": 26138,
+                "profileName": "FGFR1 positive"
+            },
+            "therapy": {
+                "id": 4983,
+                "therapyName": "AZD4547 + AZD8055",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7121,
+                    "pubMedId": 26359452,
+                    "title": "Kinome RNAi Screens Reveal Synergistic Targeting of MTOR and FGFR1 Pathways for Treatment of Lung Cancer and HNSCC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26359452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9346,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 and Vistusertib (AZD2014) synergistically inhibited survival of FGFR1-dependent lung large cell carcinoma cells in culture and in cell line xenograft models (PMID: 26359452).",
+            "molecularProfile": {
+                "id": 26138,
+                "profileName": "FGFR1 positive"
+            },
+            "therapy": {
+                "id": 4984,
+                "therapyName": "AZD4547 + Vistusertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7121,
+                    "pubMedId": 26359452,
+                    "title": "Kinome RNAi Screens Reveal Synergistic Targeting of MTOR and FGFR1 Pathways for Treatment of Lung Cancer and HNSCC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26359452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9351,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 and Rapamune (sirolimus) synergistically inhibited survival of FGFR1-dependent lung large cell carcinoma cells in culture (PMID: 26359452).",
+            "molecularProfile": {
+                "id": 26138,
+                "profileName": "FGFR1 positive"
+            },
+            "therapy": {
+                "id": 4985,
+                "therapyName": "AZD4547 + Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7121,
+                    "pubMedId": 26359452,
+                    "title": "Kinome RNAi Screens Reveal Synergistic Targeting of MTOR and FGFR1 Pathways for Treatment of Lung Cancer and HNSCC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26359452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9562,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Capmatinib (INC280) treatment resulted in decreased tumor volume by 53% in a patient with large cell lung carcinoma harboring MET exon 14 skipping and TP53 N30fs*14 (PMID: 25971938).",
+            "molecularProfile": {
+                "id": 26905,
+                "profileName": "MET del exon14 TP53 N30fs"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6712,
+                    "pubMedId": 25971938,
+                    "title": "Activation of MET via diverse exon 14 splicing alterations occurs in multiple tumor types and confers clinical sensitivity to MET inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25971938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10712,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung large cell carcinoma cells harboring TP53 R175L demonstrated increased sensitivity to NSC319726 in culture (PMID: 22624712).",
+            "molecularProfile": {
+                "id": 4502,
+                "profileName": "TP53 R175L"
+            },
+            "therapy": {
+                "id": 3405,
+                "therapyName": "NSC319726",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4308,
+                    "pubMedId": 22624712,
+                    "title": "Allele-specific p53 mutant reactivation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22624712"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10714,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NSC319726 did not inhibit tumor growth in xenograft models of TP53 wild-type lung large cell carcinoma (PMID: 22624712).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 3405,
+                "therapyName": "NSC319726",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4308,
+                    "pubMedId": 22624712,
+                    "title": "Allele-specific p53 mutant reactivation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22624712"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16371,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ODM-203 inhibited FGFR signaling and proliferation in a large cell lung cancer cell line with amplification of chromosome 8p12 leading to increased FGFR1 copy number, and inhibited tumor growth in xenograft models (PMID: 30301864).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 8010,
+                "therapyName": "ODM-203",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14470,
+                    "pubMedId": 30301864,
+                    "title": "ODM-203, a Selective Inhibitor of FGFR and VEGFR, Shows Strong Antitumor Activity, and Induces Antitumor Immunity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30301864"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18797,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Combination Platinol (cisplatin), Alimta (pemetrexed), and Keytruda (pembrolizumab) is in guidelines as first-line therapy for patients with advanced large cell lung cancer with CD274 (PD-L1) expression of greater than or equal to 1%, and as preferred therapy in patients with CD274 (PD-L1) expression of 1-49% (NCCN.org).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 6798,
+                "therapyName": "Cisplatin + Pembrolizumab + Pemetrexed",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18798,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Combination Paraplatin (carboplatin), Alimta (pemetrexed), and Keytruda (pembrolizumab) is in guidelines as first-line therapy for patients with advanced large cell lung cancer with CD274 (PD-L1) expression of greater than or equal to 1%, and as preferred therapy in patients with CD274 (PD-L1) expression of 1-49% (NCCN.org).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 2105,
+                "therapyName": "Carboplatin + Pembrolizumab + Pemetrexed",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18799,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Combination Paraplatin (carboplatin), Taxol (paclitaxel), Avastin (bevacizumab), and Tecentriq (atezolizumab) is in guidelines as first-line therapy for patients with advanced large cell lung cancer with CD274 (PD-L1) expression of greater than or equal to 1% (NCCN.org).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 2370,
+                "therapyName": "Atezolizumab + Bevacizumab + Carboplatin + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02185690",
+            "title": "A Phase I/Ib Study of MEK162, a MEK Inhibitor, in Combination With Carboplatin and Pemetrexed in Patients With Non-squamous Carcinoma of the Lung",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2213,
+                    "therapyName": "Binimetinib + Carboplatin + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

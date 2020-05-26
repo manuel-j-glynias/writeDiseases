@@ -1,0 +1,348 @@
+{
+    "id": 80199,
+    "name": "colorectal carcinoma",
+    "source": "DOID",
+    "definition": "A colorectal cancer that arises from the colon or rectum and invades through the muscularis mucosa into the submucosa. [url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=16.12d&ns=NCI_Thesaurus&code=C4978]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0080199",
+    "evidence": [
+        {
+            "id": 12667,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, GI-6301 demonstrated safety and preliminary efficacy, induced brachyury-specific T-cell immune responses in 54% (14/31) of patients with solid tumors, resulted in disease control in 2 chordoma patients and prolonged stable disease in a patient with colorectal carcinoma (PMID: 26130065).",
+            "molecularProfile": {
+                "id": 28829,
+                "profileName": "TBXT positive"
+            },
+            "therapy": {
+                "id": 6570,
+                "therapyName": "GI-6301",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80199,
+                "name": "colorectal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10573,
+                    "pubMedId": 26130065,
+                    "title": "Phase I Trial of a Yeast-Based Therapeutic Cancer Vaccine (GI-6301) Targeting the Transcription Factor Brachyury.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130065"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13873,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Camrelizumab (SHR-1210) demonstrated safety and preliminary anti-tumor activity, resulted in partial response in 33.3% (1/3) of patients with colorectal carcinoma (J Clin Onc. 2017 35:15_suppl, e15572-e15572; NCT02742935).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6137,
+                "therapyName": "Camrelizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80199,
+                "name": "colorectal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9759,
+                    "pubMedId": null,
+                    "title": "Phase I study of the anti-PD-1 antibody SHR-1210 in patients with advanced solid tumors.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2017.35.15_suppl.e15572"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16251,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial (KEYNOTE-028), Keytruda (pembrolizumab) treatment demonstrated safety and preliminary efficacy, resulted in partial response in 4% (1/24) and stable disease in 17% (4/24) of pretreated patients with CD274 (PD-L1)-positive colorectal carcinoma (PMID: 29284010; NCT02054806).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80199,
+                "name": "colorectal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14394,
+                    "pubMedId": 29284010,
+                    "title": "Safety and antitumor activity of the anti-PD-1 antibody pembrolizumab in patients with advanced colorectal carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29284010"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19071,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY-8002 inhibited proliferation of a SLC16A1-positive colorectal carcinoma cell line in culture, however, did not inhibit tumor growth in a cell line xenograft model (PMID: 30115664).",
+            "molecularProfile": {
+                "id": 28744,
+                "profileName": "SLC16A1 positive"
+            },
+            "therapy": {
+                "id": 8690,
+                "therapyName": "BAY-8002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80199,
+                "name": "colorectal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16079,
+                    "pubMedId": 30115664,
+                    "title": "Preclinical Efficacy of the Novel Monocarboxylate Transporter 1 Inhibitor BAY-8002 and Associated Markers of Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30115664"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19072,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD3965 inhibited proliferation of a SLC16A1-positive colorectal carcinoma cell line in culture, however, did not reduce tumor growth in a cell line xenograft model (PMID: 30115664).",
+            "molecularProfile": {
+                "id": 28744,
+                "profileName": "SLC16A1 positive"
+            },
+            "therapy": {
+                "id": 653,
+                "therapyName": "AZD3965",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80199,
+                "name": "colorectal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16079,
+                    "pubMedId": 30115664,
+                    "title": "Preclinical Efficacy of the Novel Monocarboxylate Transporter 1 Inhibitor BAY-8002 and Associated Markers of Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30115664"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19934,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of  borussertib and Mekinist (trametinib) inhibited tumor growth in KRAS-mutant colorectal carcinoma patient-derived xenograft (PDX) models, resulting in 2 partial responses and stable disease in 3, and demonstrated increased efficacy over borussertib monotherapy (PMID: 30858154).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 9257,
+                "therapyName": "Borussertib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80199,
+                "name": "colorectal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17595,
+                    "pubMedId": 30858154,
+                    "title": "Preclinical Efficacy of Covalent-Allosteric AKT Inhibitor Borussertib in Combination with Trametinib in KRAS-Mutant Pancreatic and Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30858154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20491,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD3965-resistant colorectal carcinoma cells expressing SLC16A1, and overexpressing SLC16A3 and SLC16A7 demonstrated resistance to BAY-8002 treatment in culture (PMID: 30115664).",
+            "molecularProfile": {
+                "id": 35201,
+                "profileName": "SLC16A3 over exp SLC16A7 over exp"
+            },
+            "therapy": {
+                "id": 8690,
+                "therapyName": "BAY-8002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80199,
+                "name": "colorectal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16079,
+                    "pubMedId": 30115664,
+                    "title": "Preclinical Efficacy of the Novel Monocarboxylate Transporter 1 Inhibitor BAY-8002 and Associated Markers of Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30115664"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20492,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY-8002-resistant colorectal carcinoma cells expressing SLC16A1, and overexpressing SLC16A3 and SLC16A7 demonstrated resistance to AZD3965 treatment in culture (PMID: 30115664).",
+            "molecularProfile": {
+                "id": 35201,
+                "profileName": "SLC16A3 over exp SLC16A7 over exp"
+            },
+            "therapy": {
+                "id": 653,
+                "therapyName": "AZD3965",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80199,
+                "name": "colorectal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16079,
+                    "pubMedId": 30115664,
+                    "title": "Preclinical Efficacy of the Novel Monocarboxylate Transporter 1 Inhibitor BAY-8002 and Associated Markers of Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30115664"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03428958",
+            "title": "A Safety Study of NUC-3373 in Combination With Standard Agents Used in Colorectal Cancer Treatment",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT03517488",
+            "title": "A Study of XmAb20717 in Subjects With Selected Advanced Solid Tumors (DUET-2)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6973,
+                    "therapyName": "XmAb20717",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03752398",
+            "title": "A Study of XmAb23104 in Subjects With Selected Advanced Solid Tumors (DUET-3) (DUET-3)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9200,
+                    "therapyName": "XmAb23104",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03849469",
+            "title": "A Study of XmAb22841 Monotherapy & in Combination w/ Pembrolizumab in Subjects w/ Selected Advanced Solid Tumors (DUET-4)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7902,
+                    "therapyName": "Pembrolizumab + XmAb22841",
+                    "synonyms": null
+                },
+                {
+                    "id": 7901,
+                    "therapyName": "XmAb22841",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04060407",
+            "title": "CD24Fc With Ipilimumab and Nivolumab to Decrease irAE (CINDI) (CINDI)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8698,
+                    "therapyName": "CD24Fc + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04096638",
+            "title": "Evaluating Safety and Efficacy of SB 11285 Alone and in Combination With Nivolumab in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8759,
+                    "therapyName": "Nivolumab + SB 11285",
+                    "synonyms": null
+                },
+                {
+                    "id": 8758,
+                    "therapyName": "SB 11285",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

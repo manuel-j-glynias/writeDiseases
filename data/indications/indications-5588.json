@@ -1,0 +1,79 @@
+{
+    "id": 5588,
+    "name": "lung papillary adenocarcinoma",
+    "source": "DOID",
+    "definition": "A papillary adenocarcinoma that is located_in the lung. [url:https\\://radiopaedia.org/articles/mediastinal-teratoma, url:https\\://www.ncbi.nlm.nih.gov/pubmed/26766978]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:5588",
+    "evidence": [
+        {
+            "id": 9256,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung papillary adenocarcinoma cell line harboring EGFR wild-type and expressing PAK1 demonstrated resistance to Iressa (gefitinib) in culture (PMID: 27178741).",
+            "molecularProfile": {
+                "id": 26797,
+                "profileName": "EGFR wild-type PAK1 pos"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5588,
+                "name": "lung papillary adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7046,
+                    "pubMedId": 27178741,
+                    "title": "PAK1 Is a Novel Therapeutic Target in Tyrosine Kinase Inhibitor-Resistant Lung Adenocarcinoma Activated by the PI3K/AKT Signaling Regardless of EGFR Mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27178741"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9978,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with ABBV-399 resulted in complete response in a MET-over expressing papillary lung adenocarcinoma cell line xenograft model (PMID: 27573171).",
+            "molecularProfile": {
+                "id": 5392,
+                "profileName": "MET over exp"
+            },
+            "therapy": {
+                "id": 1363,
+                "therapyName": "Telisotuzumab vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5588,
+                "name": "lung papillary adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7833,
+                    "pubMedId": 27573171,
+                    "title": "ABBV-399, a c-Met Antibody-Drug Conjugate that Targets Both MET-Amplified and c-Met-Overexpressing Tumors, Irrespective of MET Pathway Dependence.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27573171"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

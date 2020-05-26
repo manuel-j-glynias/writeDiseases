@@ -1,0 +1,389 @@
+{
+    "id": 2893,
+    "name": "cervix carcinoma",
+    "source": "DOID",
+    "definition": "A cervical cancer that is located_in the cervix uteri or located_in the cervical area and that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:http\\://en.wikipedia.org/wiki/Cervical_cancer]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:2893",
+    "evidence": [
+        {
+            "id": 1982,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval, the addition of Avastin (bevacizumab) to Hycamtin (topotecan) and Taxol (paclitaxel) chemotherapy resulted in improved overall survival and progression-free survival compared to chemotherapy alone in patients with cervical cancer (PMID: 25281440, PMID: 24552320).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2513,
+                "therapyName": "Bevacizumab + Paclitaxel + Topotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2893,
+                "name": "cervix carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2422,
+                    "pubMedId": 25281440,
+                    "title": "Bevacizumab and treatment of cervical cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25281440"
+                },
+                {
+                    "id": 2423,
+                    "pubMedId": 24552320,
+                    "title": "Improved survival with bevacizumab in advanced cervical cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24552320"
+                },
+                {
+                    "id": 15584,
+                    "pubMedId": null,
+                    "title": "Avastin (bevacizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125085"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1984,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval, the addition of Avastin (bevacizumab) to Platinol (cisplatin) and Taxol (paclitaxel) chemotherapy resulted in improved overall survival and progression-free survival compared to chemotherapy alone in patients with cervical cancer (PMID: 25281440, PMID: 24552320).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2512,
+                "therapyName": "Bevacizumab + Cisplatin + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2893,
+                "name": "cervix carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2422,
+                    "pubMedId": 25281440,
+                    "title": "Bevacizumab and treatment of cervical cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25281440"
+                },
+                {
+                    "id": 2423,
+                    "pubMedId": 24552320,
+                    "title": "Improved survival with bevacizumab in advanced cervical cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24552320"
+                },
+                {
+                    "id": 15584,
+                    "pubMedId": null,
+                    "title": "Avastin (bevacizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125085"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11703,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KO-947 inhibited Erk signaling and induced tumor regression in patient-derived xenograft models of BRAF-mutant cervical carcinoma (Cancer Res 2017;77(13 Suppl):Abstract nr 5168).",
+            "molecularProfile": {
+                "id": 465,
+                "profileName": "BRAF mutant"
+            },
+            "therapy": {
+                "id": 5747,
+                "therapyName": "KO-947",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2893,
+                "name": "cervix carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9707,
+                    "pubMedId": null,
+                    "title": "KO-947, a potent ERK inhibitor with robust preclinical single agent activity in MAPK pathway dysregulated tumors",
+                    "url": "http://cancerres.aacrjournals.org/content/77/13_Supplement/5168.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11704,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KO-947 inhibited Erk signaling and induced tumor regression in patient-derived xenograft models of NRAS-mutant cervical carcinoma (Cancer Res 2017;77(13 Suppl):Abstract nr 5168).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 5747,
+                "therapyName": "KO-947",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2893,
+                "name": "cervix carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9707,
+                    "pubMedId": null,
+                    "title": "KO-947, a potent ERK inhibitor with robust preclinical single agent activity in MAPK pathway dysregulated tumors",
+                    "url": "http://cancerres.aacrjournals.org/content/77/13_Supplement/5168.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11973,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KO-947 inhibited Erk signaling and induced tumor regression in patient-derived xenograft models of KRAS-mutant cervical carcinoma (Cancer Res 2017;77(13 Suppl):Abstract nr 5168).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 5747,
+                "therapyName": "KO-947",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2893,
+                "name": "cervix carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9707,
+                    "pubMedId": null,
+                    "title": "KO-947, a potent ERK inhibitor with robust preclinical single agent activity in MAPK pathway dysregulated tumors",
+                    "url": "http://cancerres.aacrjournals.org/content/77/13_Supplement/5168.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01607905",
+            "title": "Safety Study of the Selective Inhibitor of Nuclear Export (SINE) KPT-330 in Patients With Advanced or Metastatic Solid Tumor Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02164461",
+            "title": "ADXS11-001 High Dose HPV+ Cervical Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3090,
+                    "therapyName": "ADXS11-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02291055",
+            "title": "Phase 1-2 Study of ADXS11-001 or MEDI4736 Alone or Combo In Cervical or HPV+ Head &amp; Neck Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3090,
+                    "therapyName": "ADXS11-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02315066",
+            "title": "Study Of OX40 Agonist PF-04518600 Alone And In Combination With 4-1BB Agonist PF-05082566",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4333,
+                    "therapyName": "PF-04518600",
+                    "synonyms": null
+                },
+                {
+                    "id": 4448,
+                    "therapyName": "PF-04518600 + Utomilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02394652",
+            "title": "The Potential for Metformin to Improve Tumor Oxygenation in Locally Advanced Cervix Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02628067",
+            "title": "Study of Pembrolizumab (MK-3475) in Participants With Advanced Solid Tumors (MK-3475-158/KEYNOTE-158)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02723955",
+            "title": "Dose Escalation and Expansion Study of GSK3359609 in Subjects With Selected Advanced Solid Tumors (INDUCE-1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4409,
+                    "therapyName": "GSK3359609",
+                    "synonyms": null
+                },
+                {
+                    "id": 4410,
+                    "therapyName": "GSK3359609 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02835833",
+            "title": "Study of Nintedanib Plus Bevacizumab in Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4498,
+                    "therapyName": "Bevacizumab + Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02921269",
+            "title": "Atezolizumab and Bevacizumab in Treating Patients With Recurrent, Persistent, or Metastatic Cervical Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03345784",
+            "title": "WEE1 Inhibitor AZD1775, External Beam Radiation Therapy, and Cisplatin in Treating Patients With Cervical, Vaginal, or Uterine Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1725,
+                    "therapyName": "Adavosertib + Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03476798",
+            "title": "Bevacizumab and Rucaparib in Recurrent Carcinoma of the Cervix or Endometrium",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6839,
+                    "therapyName": "Bevacizumab + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03752398",
+            "title": "A Study of XmAb23104 in Subjects With Selected Advanced Solid Tumors (DUET-3) (DUET-3)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9200,
+                    "therapyName": "XmAb23104",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03849469",
+            "title": "A Study of XmAb22841 Monotherapy & in Combination w/ Pembrolizumab in Subjects w/ Selected Advanced Solid Tumors (DUET-4)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7902,
+                    "therapyName": "Pembrolizumab + XmAb22841",
+                    "synonyms": null
+                },
+                {
+                    "id": 7901,
+                    "therapyName": "XmAb22841",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

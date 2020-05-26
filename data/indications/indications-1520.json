@@ -1,0 +1,1421 @@
+{
+    "id": 1520,
+    "name": "colon carcinoma",
+    "source": "DOID",
+    "definition": "A colon cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:http\\://en.wikipedia.org/wiki/Carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:1520",
+    "evidence": [
+        {
+            "id": 242,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AMG 900 inhibited growth of an AZD1152-resistant colon carcinoma cell line harboring AURKB W221L in culture (PMID: 20935223).",
+            "molecularProfile": {
+                "id": 612,
+                "profileName": "AURKB W221L"
+            },
+            "therapy": {
+                "id": 983,
+                "therapyName": "AMG 900",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 46,
+                    "pubMedId": 20935223,
+                    "title": "Preclinical evaluation of AMG 900, a novel potent and highly selective pan-aurora kinase inhibitor with activity in taxane-resistant tumor cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20935223"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 307,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, CEP-32496 (RXDX-105) reduced tumor volume and promoted tumor regression in xenograft models of a BRAF V600E mutant human colon carcinoma cell line (PMID: 22319199).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1002,
+                "therapyName": "RXDX-105",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 203,
+                    "pubMedId": 22319199,
+                    "title": "CEP-32496: a novel orally active BRAF(V600E) inhibitor with selective cellular and in vivo antitumor activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22319199"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1772,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, S-49076, in combination with Avastin (bevacizumab) arrested tumor growth in cell line xenograft models of colon carcinoma with previous resistance to Avastin (bevacizumab) (PMID: 23804704).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2178,
+                "therapyName": "Bevacizumab + S-49076",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2007,
+                    "pubMedId": 23804704,
+                    "title": "S49076 is a novel kinase inhibitor of MET, AXL, and FGFR with strong preclinical activity alone and in association with bevacizumab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23804704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2456,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "Preclinical shRNA mediated-inhibition of PTEN-induced putative kinase 1 (PINK1) in colon carcinoma cells with MSH6 loss resulted in synthetic lethality, suggesting PINK1 may be a promising therapeutic target for MSH6 deficient cancer cells (PMID: 21242281).",
+            "molecularProfile": {
+                "id": 7744,
+                "profileName": "MSH6 loss"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3097,
+                    "pubMedId": 21242281,
+                    "title": "Parallel high-throughput RNA interference screens identify PINK1 as a potential therapeutic target for the treatment of DNA mismatch repair-deficient cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21242281"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3140,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FH535 inhibited beta-catenin/TCF-dependent transactivation and demonstrated toxicity in colon carcinoma cells harboring an APC mutation in culture (PMID: 18347139).",
+            "molecularProfile": {
+                "id": 1734,
+                "profileName": "APC inact mut"
+            },
+            "therapy": {
+                "id": 2083,
+                "therapyName": "FH535",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1914,
+                    "pubMedId": 18347139,
+                    "title": "A small-molecule inhibitor of Tcf/beta-catenin signaling down-regulates PPARgamma and PPARdelta activities.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18347139"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3193,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the pan-Notch inhibitor, BMS-906024, inhibited growth of colon carcinoma xenografts (PMID: 26005526).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2545,
+                "therapyName": "BMS-906024",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3681,
+                    "pubMedId": 26005526,
+                    "title": "Discovery of Clinical Candidate BMS-906024: A Potent Pan-Notch Inhibitor for the Treatment of Leukemia and Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26005526"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3953,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colon carcinoma cells were sensitive to GSK1904529A in both culture and xenograft models, resulting in cell cycle arrest, decreased phosphorylation of Igf1r, and inhibition of tumor growth (PMID: 19383820).",
+            "molecularProfile": {
+                "id": 6626,
+                "profileName": "IGF1R over exp"
+            },
+            "therapy": {
+                "id": 2743,
+                "therapyName": "GSK1904529A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 2857,
+                    "pubMedId": 19383820,
+                    "title": "Antitumor activity of GSK1904529A, a small-molecule inhibitor of the insulin-like growth factor-I receptor tyrosine kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19383820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4085,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SP600125 induced cell death in colon carcinoma cells deficient for p53 (PMID: 22438244).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 3366,
+                "therapyName": "SP600125",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4399,
+                    "pubMedId": 22438244,
+                    "title": "Selective killing of p53-deficient cancer cells by SP600125.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22438244"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4197,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mps-BAY1 inhibited cell cycle progression and induced cell death of colon carcinoma cells in culture (PMID: 23933817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3449,
+                "therapyName": "Mps-BAY1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4417,
+                    "pubMedId": 23933817,
+                    "title": "Characterization of novel MPS1 inhibitors with preclinical anticancer activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23933817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4198,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mps-BAY2a inhibited cell cycle progression and induced cell death of colon carcinoma cells in culture (PMID: 23933817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3450,
+                "therapyName": "Mps-BAY2a",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4417,
+                    "pubMedId": 23933817,
+                    "title": "Characterization of novel MPS1 inhibitors with preclinical anticancer activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23933817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4199,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mps-BAY2b inhibited cell cycle progression and induced cell death of colon carcinoma cells in culture (PMID: 23933817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3451,
+                "therapyName": "Mps-BAY2b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4417,
+                    "pubMedId": 23933817,
+                    "title": "Characterization of novel MPS1 inhibitors with preclinical anticancer activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23933817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4201,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mps-BAY1, in combination with paclitaxel, had increased efficacy in inhibiting cell proliferation of colon carcinoma cell in culture (PMID: 23933817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3453,
+                "therapyName": "Mps-BAY1 + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4417,
+                    "pubMedId": 23933817,
+                    "title": "Characterization of novel MPS1 inhibitors with preclinical anticancer activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23933817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4202,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mps-BAY2a, in combination with paclitaxel, had increased efficacy in inhibiting cell proliferation of colon carcinoma cell in culture (PMID: 23933817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3454,
+                "therapyName": "Mps-BAY2a + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4417,
+                    "pubMedId": 23933817,
+                    "title": "Characterization of novel MPS1 inhibitors with preclinical anticancer activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23933817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4203,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mps-BAY2b, in combination with paclitaxel, had increased efficacy in inhibiting cell proliferation of colon carcinoma cell in culture (PMID: 23933817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3452,
+                "therapyName": "Mps-BAY2b + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4417,
+                    "pubMedId": 23933817,
+                    "title": "Characterization of novel MPS1 inhibitors with preclinical anticancer activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23933817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4205,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study the TTK (MPS1) inhibitor, MPI-0479605, inhibited cell cycle progression of colon carcinoma cells deficient for Tp53 with equivalent efficacy to cells with wild-type Tp53 (PMID: 21980130).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 3458,
+                "therapyName": "MPI-0479605",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4435,
+                    "pubMedId": 21980130,
+                    "title": "Characterization of the cellular and antitumor effects of MPI-0479605, a small-molecule inhibitor of the mitotic kinase Mps1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21980130"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4206,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study the TTK (MPS1) inhibitor, MPI-0479605, inhibited cell cycle progression of colon carcinoma cells deficient for Tp53 with equivalent efficacy to cells with wild-type Tp53 (PMID: 21980130).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 3458,
+                "therapyName": "MPI-0479605",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4435,
+                    "pubMedId": 21980130,
+                    "title": "Characterization of the cellular and antitumor effects of MPI-0479605, a small-molecule inhibitor of the mitotic kinase Mps1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21980130"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4207,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study the TTK (MPS1) inhibitor, MPI-0479605, inhibited tumor growth of colon carcinoma xenografts, however, the toxicity was significant (PMID: 21980130).",
+            "molecularProfile": {
+                "id": 13160,
+                "profileName": "TTK over exp"
+            },
+            "therapy": {
+                "id": 3458,
+                "therapyName": "MPI-0479605",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4435,
+                    "pubMedId": 21980130,
+                    "title": "Characterization of the cellular and antitumor effects of MPI-0479605, a small-molecule inhibitor of the mitotic kinase Mps1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21980130"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4354,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R547 inhibited proliferation of colon carcinoma cell lines harboring wild-type Tp53 and Rb1 in culture and reduced tumor growth in xenograft models (PMID: 17121911).",
+            "molecularProfile": {
+                "id": 17823,
+                "profileName": "RB1 wild-type TP53 wild-type"
+            },
+            "therapy": {
+                "id": 3497,
+                "therapyName": "R547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4503,
+                    "pubMedId": 17121911,
+                    "title": "In vitro and in vivo activity of R547: a potent and selective cyclin-dependent kinase inhibitor currently in phase I clinical trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17121911"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4355,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R547 inhibited proliferation of colon carcinoma cell lines harboring mutant Tp53 and wild-type Rb1 (PMID: 17121911).",
+            "molecularProfile": {
+                "id": 17822,
+                "profileName": "RB1 wild-type TP53 mut"
+            },
+            "therapy": {
+                "id": 3497,
+                "therapyName": "R547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4503,
+                    "pubMedId": 17121911,
+                    "title": "In vitro and in vivo activity of R547: a potent and selective cyclin-dependent kinase inhibitor currently in phase I clinical trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17121911"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4596,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KW-2450 treatment inhibited Igf1r signaling and resulted in moderate tumor growth inhibition in a colon carcinoma xenograft model (PMID: 26850678).",
+            "molecularProfile": {
+                "id": 16581,
+                "profileName": "IGF1R positive"
+            },
+            "therapy": {
+                "id": 785,
+                "therapyName": "KW-2450",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4624,
+                    "pubMedId": 26850678,
+                    "title": "Preclinical and first-in-human phase I studies of KW-2450, an oral tyrosine kinase inhibitor with insulin-like growth factor receptor-1/insulin receptor selectivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26850678"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6514,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BI 885578 inhibited proliferation of colon carcinoma cell lines harboring IGF2 over expression and KRAS G12A in culture, and reduced tumor growth in xenograft models (PMID: 26438154).",
+            "molecularProfile": {
+                "id": 23605,
+                "profileName": "IGF2 over exp KRAS G12A"
+            },
+            "therapy": {
+                "id": 4132,
+                "therapyName": "BI 885578",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5673,
+                    "pubMedId": 26438154,
+                    "title": "BI 885578, a Novel IGF1R/INSR Tyrosine Kinase Inhibitor with Pharmacokinetic Properties That Dissociate Antitumor Efficacy and Perturbation of Glucose Homeostasis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7934,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AURKB W221L was detected as a secondary mutation in colon carcinoma cells with acquired resistance to Barasertib (AZD1152) in culture (PMID: 20935223).",
+            "molecularProfile": {
+                "id": 612,
+                "profileName": "AURKB W221L"
+            },
+            "therapy": {
+                "id": 662,
+                "therapyName": "Barasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 46,
+                    "pubMedId": 20935223,
+                    "title": "Preclinical evaluation of AMG 900, a novel potent and highly selective pan-aurora kinase inhibitor with activity in taxane-resistant tumor cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20935223"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9929,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with TMB-high colon carcinoma harboring homozygous JAK1 W690* demonstrated resistance to treatment with Keytruda (pembrolizumab) (PMID: 27903500).",
+            "molecularProfile": {
+                "id": 33667,
+                "profileName": "JAK1 W690* TMB high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7756,
+                    "pubMedId": 27903500,
+                    "title": "Primary Resistance to PD-1 Blockade Mediated by JAK1/2 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27903500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9937,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colon carcinoma cells over expressing IDH1 R132H demonstrated increased sensitivity to Talazoparib (BMN-673)-induced growth inhibition in culture (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1253,
+                "profileName": "IDH1 R132H"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9942,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colon carcinoma cells over expressing IDH1 R132H demonstrated increased sensitivity to Lynparza (olaparib)-induced growth inhibition in culture (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1253,
+                "profileName": "IDH1 R132H"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10837,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Libtayo (cemiplimab) reduced tumor growth and improved survival of knock-in mouse models expressing human PDCD1 (PD-1) that were engrafted with mouse colon carcinoma cells (PMID: 28265006).",
+            "molecularProfile": {
+                "id": 27130,
+                "profileName": "PDCD1 positive"
+            },
+            "therapy": {
+                "id": 5656,
+                "therapyName": "Cemiplimab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8864,
+                    "pubMedId": 28265006,
+                    "title": "Characterization of the Anti-PD-1 Antibody REGN2810 and Its Antitumor Activity in Human PD-1 Knock-In Mice.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28265006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11074,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of CFI-402257 and an anti-PD-1 antibody induced tumor regression in 2/8 tumors in syngeneic mouse models of colon carcinoma, and no regressions were demonstrated in mice treated with single agent CFI-402257 or anti-PD-1 antibody (PMID: 28270606).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5855,
+                "therapyName": "CFI-402257 + unspecified PD-1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9063,
+                    "pubMedId": 28270606,
+                    "title": "Functional characterization of CFI-402257, a potent and selective Mps1/TTK kinase inhibitor, for the treatment of cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28270606"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11129,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, UD-017 inhibited tumor growth in cell line xenograft models of colon carcinoma (J Clin Oncol 35, 2017 (suppl; abstr e14085)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5869,
+                "therapyName": "UD-017",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9099,
+                    "pubMedId": null,
+                    "title": "Preclinical in vitro and in vivo evaluation of antitumor activity of UD-017, a novel selective and orally available CDK7 inhibitor, in colorectal cancer.",
+                    "url": "http://abstracts.asco.org/199/AbstView_199_194372.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11864,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of MU380 resulted in increased sensitivity to Droxia (hydroxyurea) in colon carcinoma cell lines in culture, leading to decreased proliferation (PMID: 28619751).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6182,
+                "therapyName": "Hydroxyurea + MU380",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9884,
+                    "pubMedId": 28619751,
+                    "title": "Synthesis and Profiling of a Novel Potent Selective Inhibitor of CHK1 Kinase Possessing Unusual N-trifluoromethylpyrazole Pharmacophore Resistant to Metabolic N-dealkylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12557,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CA-170 activated peripheral T cells inhibited tumor growth in mouse models of colon carcinoma (Ann Oncol. 2017 Sep 18; 28 (Suppl_5): Abstract 1141PD).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5885,
+                "therapyName": "CA-170",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10429,
+                    "pubMedId": null,
+                    "title": "CA-170, a first in class oral small molecule dual inhibitor of immune checkpoints PD-L1 and VISTA, demonstrates tumor growth inhibition in pre-clinical models and promotes T cell activation in Phase 1 study",
+                    "url": "https://academic.oup.com/annonc/article/28/suppl_5/mdx376.007/4109221"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12762,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Camptothecin and CHIR-124 demonstrated synergy in TP53-mutant colon carcinoma cell lines in culture, resulting in increased growth inhibition (PMID: 17255282).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 6626,
+                "therapyName": "Camptothecin + CHIR-124",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10687,
+                    "pubMedId": 17255282,
+                    "title": "CHIR-124, a novel potent inhibitor of Chk1, potentiates the cytotoxicity of topoisomerase I poisons in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17255282"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12806,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CEP-28122 did not inhibit tumor growth in cell line xenograft models of ALK-negative colon carcinoma (PMID: 22203728).",
+            "molecularProfile": {
+                "id": 24175,
+                "profileName": "ALK negative"
+            },
+            "therapy": {
+                "id": 2519,
+                "therapyName": "CEP-28122",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2441,
+                    "pubMedId": 22203728,
+                    "title": "CEP-28122, a highly potent and selective orally active inhibitor of anaplastic lymphoma kinase with antitumor activity in experimental models of human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22203728"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12851,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, radiation effects were enhanced by the addition of XL-844 in colon carcinoma cells in culture, demonstrating inhibition of DNA repair, mitotic catastrophe, and decreased cell survival (PMID: 20024691).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6684,
+                "therapyName": "Radiotherapy + XL-844",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1829,
+                    "pubMedId": 20024691,
+                    "title": "A novel Chk inhibitor, XL-844, increases human cancer cell radiosensitivity through promotion of mitotic catastrophe.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20024691"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13832,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colon carcinoma cell line harboring CTNNB1 S45del, demonstrated increased sensitivity to NTRC 0066-0 compared to cell lines with wild-type CTNNB1 or an isogenic cell line lacking the CTNNB1 mutation, in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 1001,
+                "profileName": "CTNNB1 S45del"
+            },
+            "therapy": {
+                "id": 3461,
+                "therapyName": "NTRC 0066-0",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13836,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colon carcinoma cell line harboring CTNNB1 S45del, demonstrated increased sensitivity to Mps-BAY2b compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 1001,
+                "profileName": "CTNNB1 S45del"
+            },
+            "therapy": {
+                "id": 3451,
+                "therapyName": "Mps-BAY2b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13844,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colon carcinoma cell line harboring CTNNB1 S45del, demonstrated increased sensitivity to NMS-P715 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 1001,
+                "profileName": "CTNNB1 S45del"
+            },
+            "therapy": {
+                "id": 3107,
+                "therapyName": "NMS-P715",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13847,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colon carcinoma cell line harboring CTNNB1 S45del, demonstrated increased sensitivity to BAY1161909 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 1001,
+                "profileName": "CTNNB1 S45del"
+            },
+            "therapy": {
+                "id": 3445,
+                "therapyName": "BAY1161909",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13853,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colon carcinoma cell line harboring CTNNB1 S45del, demonstrated increased sensitivity to BAY1217389 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 1001,
+                "profileName": "CTNNB1 S45del"
+            },
+            "therapy": {
+                "id": 3446,
+                "therapyName": "BAY1217389",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13856,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colon carcinoma cell line harboring CTNNB1 S45del, demonstrated increased sensitivity to Mps1-IN-1 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 1001,
+                "profileName": "CTNNB1 S45del"
+            },
+            "therapy": {
+                "id": 3424,
+                "therapyName": "Mps1-IN-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13861,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cell lines harboring CTNNB1 hotspot mutations, including a colon carcinoma cell line harboring CTNNB1 S45del demonstrated increased sensitivity to MPI-0479605 compared to cell lines with wild-type CTNNB1 in culture (PMID: 28751540).",
+            "molecularProfile": {
+                "id": 1001,
+                "profileName": "CTNNB1 S45del"
+            },
+            "therapy": {
+                "id": 3458,
+                "therapyName": "MPI-0479605",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11310,
+                    "pubMedId": 28751540,
+                    "title": "TTK Inhibitors as a Targeted Therapy for CTNNB1 (\u03b2-catenin) Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16920,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ATOR-1015 inhibited tumor growth in a syngeneic mouse model of colon carcinoma expressing human OX40 (TNFRSF4), with CTLA-4-expressing regulatory T-cells (PMID: 30975201).",
+            "molecularProfile": {
+                "id": 32239,
+                "profileName": "CTLA4 pos TNFRSF4 pos"
+            },
+            "therapy": {
+                "id": 8239,
+                "therapyName": "ATOR-1015",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15057,
+                    "pubMedId": 30975201,
+                    "title": "The CTLA-4 x OX40 bispecific antibody ATOR-1015 induces anti-tumor effects through tumor-directed immune activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30975201"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18528,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with SB 11285 delayed tumor growth and reduced tumor volume in a syngeneic mouse model of colon carcinoma (Journal of Clinical Oncology 2017 35:15_suppl, e14616).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8758,
+                "therapyName": "SB 11285",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16314,
+                    "pubMedId": null,
+                    "title": "Preclinical studies of SB 11285, a novel STING agonist for immuno-oncology.",
+                    "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2017.35.15_suppl.e14616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18529,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with SB 11285 combined with an anti-CTLA4 antibody delayed tumor growth and reduced tumor volume in a syngeneic mouse model of colon carcinoma (Journal of Clinical Oncology 2017 35:15_suppl, e14616).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8765,
+                "therapyName": "SB 11285 + unspecified CTLA4 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16314,
+                    "pubMedId": null,
+                    "title": "Preclinical studies of SB 11285, a novel STING agonist for immuno-oncology.",
+                    "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2017.35.15_suppl.e14616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01309126",
+            "title": "Study of Imprime PGG in Combination With Cetuximab in Subjects With Recurrent or Progressive KRAS Wild Type Colorectal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2065,
+                    "therapyName": "Cetuximab + PGG beta-glucan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01985763",
+            "title": "Genistein in Treatment of Metastatic Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 757,
+                    "therapyName": "Genistein",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02723955",
+            "title": "Dose Escalation and Expansion Study of GSK3359609 in Subjects With Selected Advanced Solid Tumors (INDUCE-1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4409,
+                    "therapyName": "GSK3359609",
+                    "synonyms": null
+                },
+                {
+                    "id": 4410,
+                    "therapyName": "GSK3359609 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890758",
+            "title": "Phase I Trial of Universal Donor NK Cell Therapy in Combination With ALT803",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

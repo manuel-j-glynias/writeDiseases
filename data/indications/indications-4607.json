@@ -1,0 +1,1338 @@
+{
+    "id": 4607,
+    "name": "biliary tract cancer",
+    "source": "DOID",
+    "definition": "A hepatobiliary system cancer that results_in malignant growth located_in the gallbladder or located_in the bile duct. [url:http\\://en.wikipedia.org/wiki/Biliary_tract_cancer]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "8092"
+    ],
+    "termId": "DOID:4607",
+    "evidence": [
+        {
+            "id": 2721,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Aliqopa (copanlisib) and Refametinib (BAY86-9766) worked synergistically to inhibit proliferation and increase apoptosis of biliary tract cancer cells harboring KRAS G12D in culture (Cancer Res April 15, 2012 72:869).",
+            "molecularProfile": {
+                "id": 746,
+                "profileName": "KRAS G12D"
+            },
+            "therapy": {
+                "id": 3018,
+                "therapyName": "Copanlisib + Refametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3436,
+                    "pubMedId": null,
+                    "title": "Abstract 869: Potent in vitro and in vivo anti-tumor activity of PI3K inhibitor BAY 80-6946 and MEK inhibitor BAY 86-9766 in preclinical biliary tract cancer models",
+                    "url": "http://cancerres.aacrjournals.org/content/72/8_Supplement/869.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3686,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, a PFS difference was not observed between KRAS wild-type biliary tract cancer patients when treated with a combination of Vectibix (panitumumab), Gemzar (gemcitabine), and Eloxatin (oxaliplatin) versus Gemzar (gemcitabine) and Eloxatin (oxaliplatin) only (PMID: 26540314).",
+            "molecularProfile": {
+                "id": 496,
+                "profileName": "KRAS wild-type"
+            },
+            "therapy": {
+                "id": 3226,
+                "therapyName": "Gemcitabine + Oxaliplatin + Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3992,
+                    "pubMedId": 26540314,
+                    "title": "Panitumumab in combination with gemcitabine and oxaliplatin does not prolong survival in wild-type KRAS advanced biliary tract cancer: A randomized phase 2 trial (Vecti-BIL study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26540314"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 9453,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Bosulif (bosutinib) inhibited Src signaling, resulted in cell cycle arrest and decreased invasion of biliary tract cancer cell lines in culture, and delayed tumor growth in cell line xenograft models (PMID: 27196758).",
+            "molecularProfile": {
+                "id": 1875,
+                "profileName": "SRC positive"
+            },
+            "therapy": {
+                "id": 690,
+                "therapyName": "Bosutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7196,
+                    "pubMedId": 27196758,
+                    "title": "Src as a Therapeutic Target in Biliary Tract Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196758"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9454,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Bosulif (bosutinib) and Gemzar (gemcitabine) synergistically inhibited Src signaling, decreased proliferation and migration of billary tract cancer cell lines in culture, and inhibited tumor growth in cell line xenograft models (PMID: 27196758).",
+            "molecularProfile": {
+                "id": 1875,
+                "profileName": "SRC positive"
+            },
+            "therapy": {
+                "id": 5020,
+                "therapyName": "Bosutinib + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7196,
+                    "pubMedId": 27196758,
+                    "title": "Src as a Therapeutic Target in Biliary Tract Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196758"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9455,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Bosulif (bosutinib) and Platinol (cisplatin) synergistically inhibited Src signaling, decreased proliferation and migration of billary tract cancer cell lines in culture, and inhibited tumor growth in cell line xenograft models (PMID: 27196758).",
+            "molecularProfile": {
+                "id": 1875,
+                "profileName": "SRC positive"
+            },
+            "therapy": {
+                "id": 5021,
+                "therapyName": "Bosutinib + Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7196,
+                    "pubMedId": 27196758,
+                    "title": "Src as a Therapeutic Target in Biliary Tract Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196758"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10457,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Binimetinib (MEK162) treatment resulted in complete response in 3.3% (1/30) and partial response in 6.7% (2/30) of patients with biliary tract cancer, with estimated progression free survival of 2.1 months and overall survival of 4.8 months (PMID: 28152546).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8465,
+                    "pubMedId": 28152546,
+                    "title": "A phase 1 dose-escalation and expansion study of binimetinib (MEK162), a potent and selective oral MEK1/2 inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28152546"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10460,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Binimetinib (MEK162) treatment resulted in partial response in a biliary tract cancer patient harboring NRAS mutation (PMID: 28152546)",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8465,
+                    "pubMedId": 28152546,
+                    "title": "A phase 1 dose-escalation and expansion study of binimetinib (MEK162), a potent and selective oral MEK1/2 inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28152546"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11503,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with ERBB2 (HER2)-specific CAR-T cells demonstrated safety and preliminary activity in patients with biliary tract or pancreatic carcinoma with ERBB2 (HER2) over expression, resulting in partial response in one of 11 patients and stable disease in 5, and a median progression free survival of 4.8 months (PMID: 28710747; NCT01935843).",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 6007,
+                "therapyName": "HER2 CAR-T cells",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9587,
+                    "pubMedId": 28710747,
+                    "title": "Phase I study of chimeric antigen receptor modified T cells in treating HER2-positive advanced biliary tract cancers and pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28710747"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11986,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, TAS-120 treatment resulted in stable disease over 24 weeks in two biliary tract cancer patients harboring FGFR2 fusions (Ann Oncol 2017, Vol 28, Suppl 5, Abstract # 372PD).",
+            "molecularProfile": {
+                "id": 2969,
+                "profileName": "FGFR2 fusion"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9948,
+                    "pubMedId": null,
+                    "title": "First-in-human (FIH) study of TAS-120, a highly selective covalent oral fibroblast growth factor receptor (FGFR) inhibitor, in patients (pts) with advanced solid tumors",
+                    "url": "http://www.esmo.org/content/download/117241/2057634/file/ESMO-2017-Abstract-Book.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13182,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in an objective response rate at 8 weeks of 22.2% (2/9), a clinical benefit rate of 33.3% (3/9), and a median progression-free survival of 2.8 months in patients with biliary tract cancer harboring ERBB2 (HER2) mutations (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 1216,
+                "profileName": "ERBB2 mutant"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13194,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in progressive disease in one and stable disease in another patient with biliary tract cancer harboring ERBB2 (HER2) L755S (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3151,
+                "profileName": "ERBB2 L755S"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13195,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in partial response in one and progressive disease in another patient with biliary tract cancer harboring ERBB2 (HER2) S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13196,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease with a progression-free survival of 3.7 months in a patient with biliary tract cancer harboring ERBB2 (HER2) T733I (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 24166,
+                "profileName": "ERBB2 T733I"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13197,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease with a progression-free survival of 11.1 months in a patient with biliary tract cancer harboring ERBB2 (HER2) V659E (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13198,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in partial response with a progression-free survival of 3.6 months in one patient, and progressive disease with a progression-free survival of 0.8 months in another patient with biliary tract cancer harboring ERBB2 (HER2) V777L (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3234,
+                "profileName": "ERBB2 V777L"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13843,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with EGFR-specific CAR T cells demonstrated safety and preliminary efficacy, resulted in complete response in 6% (1/17) and stable disease in 59% (10/17) of patients with Egfr-positive biliary tract cancer (PMID: 29138340; NCT01869166).",
+            "molecularProfile": {
+                "id": 1102,
+                "profileName": "EGFR positive"
+            },
+            "therapy": {
+                "id": 2915,
+                "therapyName": "anti-EGFR CAR T",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11319,
+                    "pubMedId": 29138340,
+                    "title": "Phase I Study of Chimeric Antigen Receptor-Modified T Cells in Patients with EGFR-Positive Advanced Biliary Tract Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29138340"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14135,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Cyramza (ramucirumab) treatment resulted in a progression-free survival of 2.73 months, an overall survival of 6.31 months, 0% objective response rate, and a disease control rate of 44% (15/34) in patients with advanced biliary cancer(J Clin Oncol 36, 2018 (suppl; abstr 4081); NCT02520141).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 886,
+                "therapyName": "Ramucirumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11476,
+                    "pubMedId": null,
+                    "title": "A phase II study of ramucirumab for advanced, pre-treated biliary cancers.",
+                    "url": "https://meetinglibrary.asco.org/record/160084/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14553,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PTC-209 inhibited proliferation in 7/8 tested biliary tract cancer (BTC) cell lines, induced cell cycle arrest in a BTC cell line in culture (PMID: 26623561).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7021,
+                "therapyName": "PTC-209",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11744,
+                    "pubMedId": 26623561,
+                    "title": "The BMI1 inhibitor PTC-209 is a potential compound to halt cellular growth in biliary tract cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26623561"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16087,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Herceptin (trastuzumab) and Perjeta (pertuzumab) combination treatment resulted in objective response in 29% (2/7, all partial response) and stable disease lasting over 120 days in 38% (3/7) of patients with biliary cancer harboring ERBB2 (HER2) amplification or overexpression (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16088,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Herceptin (trastuzumab) and Perjeta (pertuzumab) combination treatment resulted in objective response in 29% (2/7, all partial response) and stable disease lasting over 120 days in 38% (3/7) of patients with biliary cancer harboring ERBB2 (HER2) amplification or overexpression (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16097,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Herceptin (trastuzumab) and Perjeta (pertuzumab) combination treatment resulted in an objective response in a patient with biliary cancer harboring an ERBB2 (HER2) activating mutation, but no amplification or overexpression (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 1243,
+                "profileName": "ERBB2 act mut"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16263,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (KEYNOTE-158), Keytruda (pembrolizumab) demonstrated efficacy in patients with advanced biliary tract cancer regardless of CD274 (PD-L1) status, resulted in partial response in 5.8% (6/104) and stable disease in 16% (17/104) of patients; objective response rate, median progression-free survival, and median overall survival were 6.6%, 1.9, and 7.2 months in patients with CPS?1 (n?=?61), and 2.9%, 2.1, and 9.6 months in patients with CPS<1 (n?=?34) (Ann Oncol 29(suppl_8); NCT02628067).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14411,
+                    "pubMedId": null,
+                    "title": "Pembrolizumab for advanced biliary adenocarcinoma: Results from the multicohort, phase II KEYNOTE-158 study",
+                    "url": "https://academic.oup.com/annonc/article/29/suppl_8/mdy282.009/5140655"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18864,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (TAPUR), patients with biliary cancer harboring a CDKN2A mutation or loss of CDKN2A (n=10) did not demonstrate an objective response or stable disease at 16 weeks when treated with single therapy, Ibrance (palbociclib), demonstrating a median progression-free survival of 7.3 weeks and an overall survival of 11.1 weeks (JCO Precision Oncology, Aug 14, 2019; NCT02693535).",
+            "molecularProfile": {
+                "id": 1806,
+                "profileName": "CDKN2A loss"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16508,
+                    "pubMedId": null,
+                    "title": "Palbociclib in Patients With Pancreatic and Biliary Cancer With CDKN2A Alterations: Results From the Targeted Agent and Profiling Utilization Registry Study",
+                    "url": "https://ascopubs.org/doi/10.1200/PO.19.00124"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18865,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (TAPUR), patients with biliary cancer harboring a CDKN2A mutation or loss of CDKN2A (n=10) did not demonstrate an objective response or stable disease at 16 weeks when treated with single therapy, Ibrance (palbociclib), demonstrating a median progression-free survival of 7.3 weeks and an overall survival of 11.1 weeks (JCO Precision Oncology, Aug 14, 2019; NCT02693535).",
+            "molecularProfile": {
+                "id": 4974,
+                "profileName": "CDKN2A mutant"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16508,
+                    "pubMedId": null,
+                    "title": "Palbociclib in Patients With Pancreatic and Biliary Cancer With CDKN2A Alterations: Results From the Targeted Agent and Profiling Utilization Registry Study",
+                    "url": "https://ascopubs.org/doi/10.1200/PO.19.00124"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01828034",
+            "title": "First Line Gemcitabine, Cisplatin and MEK162 in Advanced Biliary Tract Carcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2218,
+                    "therapyName": "Binimetinib + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01853618",
+            "title": "Tremelimumab With Chemoembolization or Ablation for Liver Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02034110",
+            "title": "Efficacy and Safety of the Combination Therapy of Dabrafenib and Trametinib in Subjects With BRAF V600E- Mutated Rare Cancers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02053376",
+            "title": "A Phase 2 Trial of Regorafenib as A Single Agent in Advanced and Metastatic Biliary Tract Carcinoma/Cholangiocarcinoma Patients Who Have Failed First-line Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02091141",
+            "title": "My Pathway: A Study Evaluating Herceptin/Perjeta, Tarceva, Zelboraf/Cotellic, Erivedge, Alecensa, and Tecentriq Treatment Targeted Against Certain Molecular Alterations in Participants With Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4,
+                    "therapyName": "Erlotinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 698,
+                    "therapyName": "Alectinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1657,
+                    "therapyName": "Cobimetinib + Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1389,
+                    "therapyName": "Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02105350",
+            "title": "A Study of MEK162 With Gemcitabine and Oxaliplatin in Biliary Cancer",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 2210,
+                    "therapyName": "Binimetinib + Gemcitabine + Oxaliplatin",
+                    "synonyms": "EPOCH"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02151084",
+            "title": "A Study of Different Dosing Schedules of Selumetinib With Cisplatin/Gemcitabine (CIS/GEM) Versus CIS/GEM Alone in Biliary Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2222,
+                    "therapyName": "Cisplatin + Gemcitabine + Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02240238",
+            "title": "Combination Therapy With NC-6004 and Gemcitabine in Advanced Solid Tumors or Non-Small Cell Lung, Biliary and Bladder Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5626,
+                    "therapyName": "Gemcitabine + NC-6004",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02265341",
+            "title": "Ponatinib Hydrochloride in Treating Patients With Advanced Biliary Cancer With FGFR2 Fusions",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 877,
+                    "therapyName": "Ponatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02268825",
+            "title": "Phase I/IIA Study MK-3475 With Chemotherapy in Patients With Advanced GI Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02451553",
+            "title": "Afatinib Dimaleate and Capecitabine in Treating Patients With Advanced Refractory Solid Tumors, Pancreatic Cancer or Biliary Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02452970",
+            "title": "RRx-001 in Second Line Treatment of Advanced Cholangiocarcinoma Prior to Readministration of First-Line Therapy (EPIC)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3680,
+                    "therapyName": "RRx-001",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02454972",
+            "title": "Clinical Trial of Lurbinectedin (PM01183) in Selected Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1195,
+                    "therapyName": "Lurbinectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02576431",
+            "title": "A Study to Test the Effect of the Drug Larotrectinib in Adults and Children With NTRK-fusion Positive Solid Tumors (NAVIGATE)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02703714",
+            "title": "Pembrolizumab and GM-CSF in Biliary Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4217,
+                    "therapyName": "Pembrolizumab + Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02711553",
+            "title": "A Study of Ramucirumab (LY3009806) or Merestinib (LY2801653) in Advanced or Metastatic Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1030,
+                    "therapyName": "Merestinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02795156",
+            "title": "Study to Assess the Activity of Molecularly Matched Targeted Therapies in Select Tumor Types Based on Genomic Alterations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02821754",
+            "title": "A Pilot Study of Combined Immune Checkpoint Inhibition in Combination With Ablative Therapies in Subjects With Hepatocellular Carcinoma (HCC) or Biliary Tract Carcinomas (BTC)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02897375",
+            "title": "Palbociclib With Cisplatin or Carboplatin in Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4734,
+                    "therapyName": "Cisplatin + Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4735,
+                    "therapyName": "Carboplatin + Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03093870",
+            "title": "Varlitinib in Combination With Capecitabine for Advanced or Metastatic Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5543,
+                    "therapyName": "Capecitabine + Varlitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03101566",
+            "title": "Study of Nivolumab in Combination With Gemcitabine/Cisplatin or Ipilimumab for Patients With Advanced Unresectable Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5511,
+                    "therapyName": "Cisplatin + Gemcitabine + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03111732",
+            "title": "Pembrolizumab, a Monoclonal Antibody Against PD-1, in Combination With Capecitabine and Oxaliplatin (CAPOX) in People With Advanced Biliary Tract Carcinoma (BTC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5549,
+                    "therapyName": "Capecitabine + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03337087",
+            "title": "Liposomal Irinotecan, Fluorouracil, Leucovorin Calcium, and Rucaparib Phosphate in Treating Patients With Metastatic Pancreatic, Colorectal, Gastroesophageal, or Biliary Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6442,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03410927",
+            "title": "A Study of TAS0728 in Patients With Solid Tumors With HER2 or HER3 Abnormalities",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8170,
+                    "therapyName": "TAS0728",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03482102",
+            "title": "Durvalumab (MEDI4736) and Tremelimumab and Radiation Therapy in Hepatocellular Carcinoma and Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03639935",
+            "title": "Rucaparib in Combination With Nivolumab in Patients With Advanced or Metastatic Biliary Tract Cancer Following Platinum",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6450,
+                    "therapyName": "Nivolumab + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03684811",
+            "title": "A Study of FT 2102 in Participants With Advanced Solid Tumors and Gliomas With an IDH1 Mutation",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7527,
+                    "therapyName": "Cisplatin + FT-2102 + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4449,
+                    "therapyName": "Azacitidine + FT-2102",
+                    "synonyms": null
+                },
+                {
+                    "id": 4336,
+                    "therapyName": "FT-2102",
+                    "synonyms": null
+                },
+                {
+                    "id": 7526,
+                    "therapyName": "FT-2102 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03768531",
+            "title": "Safety and Tolerability Study of Nivolumab and Cabiralizumab for Resectable Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6438,
+                    "therapyName": "Cabiralizumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03785873",
+            "title": "Phase Ib/II Trial of Nal-Irinotecan and Nivolumab as Second-Line Treatment in Patients With Advanced Biliary Tract Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7659,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03833661",
+            "title": "M7824 Monotherapy in Locally Advanced or Metastatic Second Line (2L) Biliary Tract Cancer (Cholangiocarcinoma and Gallbladder Cancer)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5860,
+                    "therapyName": "M7824",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03875235",
+            "title": "A Global Phase III Study of Durvalumab or Placebo in Combination With Gemcitabine/Cisplatin in Patients With 1st Line Advanced Biliary Tract Cancer (TOPAZ-1)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 7461,
+                    "therapyName": "Cisplatin + Durvalumab + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03936959",
+            "title": "A Study of LY3434172, a PD-1 and PD-L1 Bispecific Antibody, in Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 9537,
+                    "therapyName": "LY3434172",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03991832",
+            "title": "Study of Olaparib and Durvalumab in IDH-Mutated Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2894,
+                    "therapyName": "Durvalumab + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04003896",
+            "title": "A Study to Evaluate Abemaciclib in Advanced Biliary Tract Carcinoma Who Failed Prior First Line Therapy",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04066491",
+            "title": "Gemcitabine Plus Cisplatin With or Without M7824 in Participants With 1L Biliary Tract Cancer (BTC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 7873,
+                    "therapyName": "Cisplatin + Gemcitabine + M7824",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04163900",
+            "title": "Comparing NUC-1031 Plus Cisplatin to Gemcitabine Plus Cisplatin in Patients With Advanced Biliary Tract Cancer (NuTide:121)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9599,
+                    "therapyName": "Cisplatin + NUC-1031",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

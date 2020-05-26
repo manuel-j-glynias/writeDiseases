@@ -1,0 +1,230 @@
+{
+    "id": 50921,
+    "name": "pharynx squamous cell carcinoma",
+    "source": "DOID",
+    "definition": "A pharynx cancer that has_material_basis_in squamous cells. [url:http\\://en.wikipedia.org/wiki/Squamous-cell_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050921",
+    "evidence": [
+        {
+            "id": 9145,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RN927C demonstrated cytotoxicity in a Tacstd2 (Trop-2)-expressing pharynx squamous cell carcinoma cell line in culture (PMID: 27582525).",
+            "molecularProfile": {
+                "id": 26744,
+                "profileName": "TACSTD2 positive"
+            },
+            "therapy": {
+                "id": 4913,
+                "therapyName": "RN927C",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50921,
+                "name": "pharynx squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6932,
+                    "pubMedId": 27582525,
+                    "title": "RN927C, a Site-Specific Trop-2 Antibody-Drug Conjugate (ADC) with Enhanced Stability, Is Highly Efficacious in Preclinical Solid Tumor Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27582525"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10017,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD6738 treatment increased sensitivity to radiotherapy in a pharynx squamous cell carcinoma cell line harboring a TP53 mutation in culture, resulting in a greater decrease in cell survival compared to radiation treatment alone (PMID: 28062704).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 5346,
+                "therapyName": "AZD6738 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50921,
+                "name": "pharynx squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7909,
+                    "pubMedId": 28062704,
+                    "title": "Radiosensitization by the ATR Inhibitor AZD6738 through Generation of Acentric Micronuclei.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28062704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03247309",
+            "title": "TCR-engineered T Cells in Solid Tumors With Emphasis on NSCLC and HNSCC (ACTengine) (ACTengine)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7285,
+                    "therapyName": "Aldesleukin + IMA201",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03258008",
+            "title": "Utomilumab and ISA101b Vaccination in Patients With HPV-16-Positive Incurable Oropharyngeal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6148,
+                    "therapyName": "ISA101b + Utomilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03383094",
+            "title": "Chemoradiation vs Immunotherapy and Radiation for Head and Neck Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6559,
+                    "therapyName": "Cisplatin + Radiotherapy",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03601507",
+            "title": "Alpelisib in Treating Participants With Transorally Resectable HPV-Associated Stage I-IVA Oropharyngeal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 691,
+                    "therapyName": "Alpelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03618134",
+            "title": "Stereotactic Body Radiation Therapy and Durvalumab With or Without Tremelimumab Before Surgery in Treating Participants With Human Papillomavirus Positive Oropharyngeal Squamous Cell Caner",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03719690",
+            "title": "Safety and Efficacy of Tipifarnib in Head and Neck Cancer With HRAS Mutations and Impact of HRAS on Response to Therapy (AIM-HN/SEQ-HN)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 938,
+                    "therapyName": "Tipifarnib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03906526",
+            "title": "A Study to Evaluate Immune Biomarker Modulation in Response to VTX-2337 in Combination With an Anti- PD-1 Inhibitor in Head and Neck Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3091,
+                    "therapyName": "Motolimod",
+                    "synonyms": null
+                },
+                {
+                    "id": 8774,
+                    "therapyName": "Motolimod + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03944915",
+            "title": "De-Escalation Therapy for Human Papillomavirus Negative Disease (DEPEND)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5303,
+                    "therapyName": "Carboplatin + Nivolumab + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 8378,
+                    "therapyName": "Cisplatin + Filgrastim + Fluorouracil + Hydroxyurea + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04106362",
+            "title": "Radiation Therapy and Cisplatin With or Without Cetuximab in Treating Patients With HPV Positive, KRAS-Variant Stage III-IV Oropharyngeal Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1915,
+                    "therapyName": "Cetuximab + Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

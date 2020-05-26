@@ -1,0 +1,773 @@
+{
+    "id": 50933,
+    "name": "ovarian serous carcinoma",
+    "source": "DOID",
+    "definition": "An ovarian carcinoma that has_material_basis_in the lining of the ovary and produces a serum-like fluid. [url:http\\://en.wikipedia.org/wiki/Serous_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050933",
+    "evidence": [
+        {
+            "id": 6845,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with CUL1-BRAF positive serous ovarian cancer experienced a sustained complete remission when treated with Selumetinib (AZD6244) and Taxol (paclitaxel), with remission lasting off therapy and for greater than 18 months of follow up (PMID: 26324360).",
+            "molecularProfile": {
+                "id": 23814,
+                "profileName": "CUL1 - BRAF"
+            },
+            "therapy": {
+                "id": 4282,
+                "therapyName": "Paclitaxel + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5860,
+                    "pubMedId": 26324360,
+                    "title": "Extreme Outlier Analysis Identifies Occult Mitogen-Activated Protein Kinase Pathway Mutations in Patients With Low-Grade Serous Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324360"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7751,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, treatment with Selumetinib (AZD6244) resulted in lack of tumor progression for greater than 7 years in a patient with low grade serous ovarian carcinoma harboring KRAS G12V (PMID: 27231576).",
+            "molecularProfile": {
+                "id": 1127,
+                "profileName": "KRAS G12V"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6470,
+                    "pubMedId": 27231576,
+                    "title": "A long-term surviving patient with recurrent low-grade serous ovarian carcinoma treated with the MEK1/2 inhibitor, selumetinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231576"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9050,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of the mTORC1/2 inhibitor Torkinib (PP242) and Paraplatin (carboplatin) increased survival and inhibited tumor growth in platinum-resistant ovarian serous carcinoma cell line xenograft models, with increased efficacy over either agent alone or mTORC1 inhibitor treatment (PMID: 27196780).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4870,
+                "therapyName": "Carboplatin + Torkinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6888,
+                    "pubMedId": 27196780,
+                    "title": "Dual mTORC1/2 Inhibition as a Novel Strategy for the Resensitization and Treatment of Platinum-Resistant Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196780"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9422,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Faslodex (fulvestrant) and Selumetinib (AZD6244) synergistically inhibited Mapk1 signaling, resulted in cell cycle arrest in ovarian serous carcinoma cells with high Esr1 expression and low Mapk1 activity in culture and tumor growth inhibition in cell line xenograft models (PMID: 26482043).",
+            "molecularProfile": {
+                "id": 26841,
+                "profileName": "MAPK1 positive"
+            },
+            "therapy": {
+                "id": 5015,
+                "therapyName": "Fulvestrant + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7184,
+                    "pubMedId": 26482043,
+                    "title": "MAPK Activation Predicts Poor Outcome and the MEK Inhibitor, Selumetinib, Reverses Antiestrogen Resistance in ER-Positive High-Grade Serous Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26482043"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9423,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Faslodex (fulvestrant) and Selumetinib (AZD6244) synergistically inhibited survival of ER-positive ovarian serous carcinoma cells with high Mapk1 activity in culture (PMID: 26482043).",
+            "molecularProfile": {
+                "id": 26842,
+                "profileName": "ESR1 pos MAPK1 pos"
+            },
+            "therapy": {
+                "id": 5015,
+                "therapyName": "Fulvestrant + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7184,
+                    "pubMedId": 26482043,
+                    "title": "MAPK Activation Predicts Poor Outcome and the MEK Inhibitor, Selumetinib, Reverses Antiestrogen Resistance in ER-Positive High-Grade Serous Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26482043"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9424,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ER-positive ovarian serous carcinoma cells with high Mapk1 activity were resistant to Selumetinib (AZD6244) in culture (PMID: 26482043).",
+            "molecularProfile": {
+                "id": 26842,
+                "profileName": "ESR1 pos MAPK1 pos"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7184,
+                    "pubMedId": 26482043,
+                    "title": "MAPK Activation Predicts Poor Outcome and the MEK Inhibitor, Selumetinib, Reverses Antiestrogen Resistance in ER-Positive High-Grade Serous Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26482043"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9425,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a preclinical study, high phosphorylated Mapk1 level correlated with poor overall survival in high-grade serous ovarian cancer patients, suggesting Mapk1 hyperactivation may serve as a prognostic marker (PMID: 26482043).",
+            "molecularProfile": {
+                "id": 26841,
+                "profileName": "MAPK1 positive"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7184,
+                    "pubMedId": 26482043,
+                    "title": "MAPK Activation Predicts Poor Outcome and the MEK Inhibitor, Selumetinib, Reverses Antiestrogen Resistance in ER-Positive High-Grade Serous Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26482043"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10736,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Kevetrin (thioureidobutyronitrile) treatment decreased mutant Tp53 level, resulted in apoptosis of ovarian serous carcinoma cells harboring TP53 mutations in culture (Proceedings of the AACR, Vol 58, Apr 2017, abstract # 3221).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 2999,
+                "therapyName": "thioureidobutyronitrile",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8790,
+                    "pubMedId": null,
+                    "title": "Kevetrin induces p53-dependent and independent cell cycle arrest and apoptosis in ovarian cancer cell lines representing heterogeneous histologies",
+                    "url": "http://www.abstractsonline.com/pp8/#!/4292/presentation/3876"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11072,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CFI-402257 growth in patient-derived xenograft (PDX) models of platinum-sensitive and platinum-resistant high-grade serous ovarian cancer (PMID: 28270606).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5853,
+                "therapyName": "CFI-402257",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9063,
+                    "pubMedId": 28270606,
+                    "title": "Functional characterization of CFI-402257, a potent and selective Mps1/TTK kinase inhibitor, for the treatment of cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28270606"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11884,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, HKT288 induced tumor regression in a CDH6-positive ovarian serous carcinoma cell line xenograft model (PMID: 28526733).",
+            "molecularProfile": {
+                "id": 28334,
+                "profileName": "CDH6 positive"
+            },
+            "therapy": {
+                "id": 6198,
+                "therapyName": "HKT288",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9886,
+                    "pubMedId": 28526733,
+                    "title": "Discovery and Optimization of HKT288, a Cadherin-6-Targeting ADC for the Treatment of Ovarian and Renal Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28526733"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12770,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Prexasertib (LY2606368) treatment resulted in a partial response in 33% (8/24) of BRCA wild-type patients with high-grade serous ovarian cancer (PMID: 29361470; NCT02203513).",
+            "molecularProfile": {
+                "id": 22293,
+                "profileName": "BRCA1 wild-type BRCA2 wild-type"
+            },
+            "therapy": {
+                "id": 1651,
+                "therapyName": "Prexasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10707,
+                    "pubMedId": 29361470,
+                    "title": "Prexasertib, a cell cycle checkpoint kinase 1 and 2 inhibitor, in BRCA wild-type recurrent high-grade serous ovarian cancer: a first-in-class proof-of-concept phase 2 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29361470"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14533,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, the combination therapy of Taxol (paclitaxel) and Vistusertib (AZD2014) resulted in a RECIST response rate of 64% (16/25), a CA125 response rate of 52% (13/25), and a median progression-free survival of 5.8 months in patients with high grade serous ovarian cancer (PMID: 30016392; NCT02193633).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1973,
+                "therapyName": "Paclitaxel + Vistusertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11735,
+                    "pubMedId": 30016392,
+                    "title": "Vistusertib (dual m-TORC1/2 inhibitor) in combination with paclitaxel in patients with high-grade serous ovarian and squamous non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30016392"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18866,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Selumetinib (AZD6244) treatment resulted in a complete response that lasted over 5 years with continuous treatment in a patient with serous ovarian cancer harboring MAP2K1 Q56_V60del (PMID: 26324360).",
+            "molecularProfile": {
+                "id": 23938,
+                "profileName": "MAP2K1 Q56_V60del"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50933,
+                "name": "ovarian serous carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5860,
+                    "pubMedId": 26324360,
+                    "title": "Extreme Outlier Analysis Identifies Occult Mitogen-Activated Protein Kinase Pathway Mutations in Patients With Low-Grade Serous Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324360"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02278250",
+            "title": "An Open-Label Study of the Safety, Tolerability, and Pharmacokinetic/Pharmacodynamic Profile of VX-803/M4344 as a Single Agent and in Combination With Cytotoxic Chemotherapy in Participants With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7440,
+                    "therapyName": "VX-803",
+                    "synonyms": null
+                },
+                {
+                    "id": 7442,
+                    "therapyName": "Carboplatin + VX-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02446600",
+            "title": "Olaparib or Cediranib Maleate and Olaparib Compared With Standard Platinum-Based Chemotherapy in Treating Patients With Recurrent Platinum-Sensitive Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1971,
+                    "therapyName": "Cediranib + Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8341,
+                    "therapyName": "Carboplatin + Gemcitabine + Paclitaxel + Pegylated liposomal-doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02540291",
+            "title": "Study of E7046 in Subjects With Selected Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5694,
+                    "therapyName": "E7046",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02759588",
+            "title": "GL-ONC1 Oncolytic Immunotherapy in Patients With Recurrent Ovarian Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6364,
+                    "therapyName": "GL-ONC1",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02898207",
+            "title": "Olaparib and Hsp90 Inhibitor AT13387 in Treating Patients With Solid Tumors That Are Metastatic or Cannot Be Removed by Surgery or Recurrent Ovarian, Fallopian Tube, Primary Peritoneal, or Triple-Negative Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4729,
+                    "therapyName": "Olaparib + Onalespib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02983799",
+            "title": "Olaparib Tablets as a Treatment for Ovarian Cancer Subjects With Different HRD Tumor Status",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03042702",
+            "title": "A Phase 2 Study of Kevetrin in Subjects With Ovarian Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2999,
+                    "therapyName": "thioureidobutyronitrile",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03144661",
+            "title": "An Open-Label Safety and Tolerability Study of INCB062079 in Subjects With Advanced Hepatocellular Carcinoma and Other Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5832,
+                    "therapyName": "INCB062079",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03205176",
+            "title": "Phase I Study of AZD5153 in Patients With Relapsed or Refractory Solid Tumors and Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4910,
+                    "therapyName": "AZD5153",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03402841",
+            "title": "Multicentre Study of Olaparib Maintenance Monotherapy in Platinum Sensitive Relapsed Non gBRCAm Ovarian Cancer Patients (OPINION)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03414047",
+            "title": "A Study of Prexasertib (LY2606368) in Platinum-Resistant or Refractory Recurrent Ovarian Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1651,
+                    "therapyName": "Prexasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03462342",
+            "title": "Combination ATR and PARP Inhibitor (CAPRI) Trial With AZD6738 and Olaparib in Recurrent Ovarian Cancer (CAPRI)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4739,
+                    "therapyName": "AZD6738 + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03531645",
+            "title": "Fulvestrant Plus Palbociclib in Women With Advanced Low Grade Serous Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3205,
+                    "therapyName": "Fulvestrant + Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03587311",
+            "title": "Bevacizumab and Anetumab Ravtansine or Paclitaxel in Treating Participants With Refractory Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7173,
+                    "therapyName": "Anetumab ravtansine + Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2123,
+                    "therapyName": "Bevacizumab + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03602859",
+            "title": "A Phase 3 Comparison of Platinum-Based Therapy With TSR-042 and Niraparib Versus Standard of Care Platinum-Based Therapy as First-Line Treatment of Stage III or IV Nonmucinous Epithelial Ovarian Cancer (FIRST)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6321,
+                    "therapyName": "Niraparib + TSR-042",
+                    "synonyms": null
+                },
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03673124",
+            "title": "Ribociclib and Letrozole Treatment in Ovarian Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1568,
+                    "therapyName": "Letrozole + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03695380",
+            "title": "A Clinical Study of Cobimetinib Administered in Combination With Niraparib, With or Without Atezolizumab to Patients With Advanced Platinum-sensitive Ovarian Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7550,
+                    "therapyName": "Atezolizumab + Cobimetinib + Niraparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 7549,
+                    "therapyName": "Cobimetinib + Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03840200",
+            "title": "A Study Evaluating the Safety, Pharmacokinetics and Efficacy of Ipatasertib Administered in Combination With Rucaparib in Participants With Advanced Breast, Ovarian Cancer, and Prostate Cancer.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7867,
+                    "therapyName": "Ipatasertib + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03909152",
+            "title": "A Study of Onapristone ER in Gynecologic Cancers That Respond to Progesterone",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1886,
+                    "therapyName": "Onapristone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03955471",
+            "title": "A Phase 2 Open-Label, Single-Arm Study to Evaluate the Efficacy and Safety of the Combination of Niraparib and TSR-042 in Patients With Platinum Resistant Ovarian Cancer (MOONSTONE)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6321,
+                    "therapyName": "Niraparib + TSR-042",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04034927",
+            "title": "Testing the Addition of an Immunotherapy Drug, Tremelimumab, to the PARP Inhibition Drug, Olaparib, for Recurrent Ovarian, Fallopian Tube or Peritoneal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8289,
+                    "therapyName": "Olaparib + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04095364",
+            "title": "Letrozole With or Without Paclitaxel and Carboplatin in Treating Patients With Stage II-IV Ovarian or Primary Peritoneal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8755,
+                    "therapyName": "Carboplatin + Letrozole + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 794,
+                    "therapyName": "Letrozole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04209855",
+            "title": "A Study of Mirvetuximab Soravtansine vs. Investigator's Choice of Chemotherapy in Advanced High-Grade Epithelial Ovarian, Primary Peritoneal, or Fallopian Tube Cancers With High Folate Receptor-Alpha Expression (MIRASOL)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1008,
+                    "therapyName": "Pegylated liposomal-doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 3232,
+                    "therapyName": "Mirvetuximab Soravtansine",
+                    "synonyms": null
+                },
+                {
+                    "id": 942,
+                    "therapyName": "Topotecan",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

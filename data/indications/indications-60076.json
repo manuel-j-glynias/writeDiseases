@@ -1,0 +1,349 @@
+{
+    "id": 60076,
+    "name": "estrogen-receptor negative breast cancer",
+    "source": "DOID",
+    "definition": "A breast cancer that is characterized by the absence of estrogen receptors. [url:https\\://www.cancer.org/cancer/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-hormone-receptor-status.html, url:https\\://www.ncbi.nlm.nih.gov/pubmed/25471040]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0060076",
+    "evidence": [
+        {
+            "id": 330,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, breast cancer patients harboring TP53 P72R who were estrogen receptor negative had a more favorable response to Doxil (doxorubicin) in combination with Adrucil (fluorouracil) and Cytoxan (cyclophosphamide) (PMID: 16243804).",
+            "molecularProfile": {
+                "id": 621,
+                "profileName": "TP53 P72R"
+            },
+            "therapy": {
+                "id": 1706,
+                "therapyName": "Cyclophosphamide + Doxorubicin + Fluorouracil",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13,
+                    "pubMedId": 16243804,
+                    "title": "p53 Codon 72 polymorphism predicts the pathologic response to neoadjuvant chemotherapy in patients with breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16243804"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3535,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Brivanib (BMS-540215) did not inhibit growth of estrogen receptor (ER)-negative breast cancer cells with FGFR2 amplification in culture (PMID: 22238366).",
+            "molecularProfile": {
+                "id": 3147,
+                "profileName": "FGFR2 amp"
+            },
+            "therapy": {
+                "id": 996,
+                "therapyName": "Brivanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 311,
+                    "pubMedId": 22238366,
+                    "title": "Ponatinib (AP24534), a multitargeted pan-FGFR inhibitor with activity in multiple FGFR-amplified or mutated cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22238366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10247,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CRT 0066101 inhibited growth and metastasis of Estrogen receptor negative breast cancer cells in culture and in cell line xenograft models, in which loss of Estrogen receptor lead to upregulation of Pkd3 (PMID: 25852060).",
+            "molecularProfile": {
+                "id": 1190,
+                "profileName": "ESR1 negative"
+            },
+            "therapy": {
+                "id": 5439,
+                "therapyName": "CRT 0066101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8228,
+                    "pubMedId": 25852060,
+                    "title": "Effective Targeting of Estrogen Receptor-Negative Breast Cancers with the Protein Kinase D Inhibitor CRT0066101.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25852060"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16130,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with estrogen-receptor negative breast cancer (n=21) and a high tumor mutational burden (TMB) (>4.4 mutations/Mb) did not demonstrate an improved overall survival compared to those patients with a low TMB when treated with an unspecified PD-1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 3890,
+                "therapyName": "unspecified PD-1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16131,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with estrogen-receptor negative breast cancer (n=21) and a high tumor mutational burden (TMB) (>4.4 mutations/Mb) did not demonstrate an improved overall survival compared to those patients with a low TMB when treated with an unspecified PD-L1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 5248,
+                "therapyName": "unspecified PD-L1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16132,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with estrogen-receptor negative breast cancer (n=21) and a high tumor mutational burden (TMB) (>4.4 mutations/Mb) did not demonstrate an improved overall survival compared to those patients with a low TMB when treated with an unspecified CTLA-4 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 5489,
+                "therapyName": "unspecified CTLA4 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16133,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with estrogen-receptor negative breast cancer (n=21) and a high tumor mutational burden (TMB) (>4.4 mutations/Mb) did not demonstrate an improved overall survival compared to those patients with a low TMB when treated with a combination of an unspecified CTLA-4 antibody and an unspecified PD-1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 6804,
+                "therapyName": "unspecified CTLA4 antibody + unspecified PD-1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16134,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with estrogen-receptor negative breast cancer (n=21) and a high tumor mutational burden (TMB) (>4.4 mutations/Mb) did not demonstrate an improved overall survival compared to those patients with a low TMB when treated with a combination of an unspecified CTLA-4 antibody and an unspecified PD-L1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 7906,
+                "therapyName": "unspecified CTLA4 antibody + unspecified PD-L1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20152,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VU661013 treatment induced apoptosis and inhibited growth of estrogen receptor-positive breast cancer cell lines expressing MCL1 in culture, and induced cell death and inhibited tumor growth in a cell line xenograft model (PMID: 31595181).",
+            "molecularProfile": {
+                "id": 26203,
+                "profileName": "MCL1 positive"
+            },
+            "therapy": {
+                "id": 8904,
+                "therapyName": "VU661013",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16725,
+                    "pubMedId": 31595181,
+                    "title": "Therapeutic inhibition of Mcl-1 blocks cell survival in estrogen receptor-positive breast cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31595181"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01471106",
+            "title": "Phase II Short-term Adjuvant Therapy and Biomarker Studies With Targeted Agents in Women With Estrogen Receptor Negative Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04020185",
+            "title": "Safety and Efficacy Study of IMSA101 in Refractory Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9540,
+                    "therapyName": "IMSA101 + unspecified PD-L1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9539,
+                    "therapyName": "IMSA101 + unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9538,
+                    "therapyName": "IMSA101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04191499",
+            "title": "A Study Evaluating the Efficacy and Safety of GDC-0077 + Palbociclib + Fulvestrant vs Placebo + Palbociclib + Fulvestrant in Patients With PIK3CA-Mutant, Hormone Receptor-Positive, Her2-Negative, Locally Advanced or Metastatic Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3205,
+                    "therapyName": "Fulvestrant + Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 9037,
+                    "therapyName": "Fulvestrant + GDC-0077 + Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

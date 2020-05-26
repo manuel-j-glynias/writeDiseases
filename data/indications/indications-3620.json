@@ -1,0 +1,770 @@
+{
+    "id": 3620,
+    "name": "central nervous system cancer",
+    "source": "DOID",
+    "definition": "A nervous system cancer that is located_in the central nervous system. [url:http\\://en.wikipedia.org/wiki/Central_nervous_system]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "0060093",
+        "1318"
+    ],
+    "termId": "DOID:3620",
+    "evidence": [
+        {
+            "id": 6691,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited growth of human central nervous system cancer cells harboring mutant NRAS in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3620,
+                "name": "central nervous system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9473,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, CC-122 demonstrated safety and preliminary efficacy in patients with glioblastom and other central nervous system tumors, resulted in a meidan progressin-free survival of 58 days (Neuro Oncol (2016) 18 (suppl 6): vi24.).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2358,
+                "therapyName": "CC-122",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3620,
+                "name": "central nervous system cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7200,
+                    "pubMedId": null,
+                    "title": "A PHASE 1A/1B, MULTI-CENTER, OPEN-LABEL DOSE FINDING STUDY TO ASSESS THE SAFETY, TOLERABILITY AND EFFICACY OF THE PLEIOTROPIC PATHWAY MODIFIER CC-122 ADMINISTERED ORALLY TO PATIENTS WITH GLIOBLASTOMA MULTIFORME (GBM) AND OTHER BRAIN TUMORS",
+                    "url": "http://neuro-oncology.oxfordjournals.org/content/18/suppl_6/vi24.1.abstract?sid=d99b8d46-acae-4427-baa2-93c7065a25a7"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16050,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Avadomide (CC-122) treatment was well tolerated in patients with central nervous system tumors, and resulted in a 6-month progression-free survival (PFS) rate of 83% (5/6) and a PFS ranging from 58 to 1,079 days (PMID: 30201761; NCT01421524).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2358,
+                "therapyName": "CC-122",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3620,
+                "name": "central nervous system cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14158,
+                    "pubMedId": 30201761,
+                    "title": "A First-in-Human Study of Novel Cereblon Modulator Avadomide (CC-122) in Advanced Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30201761"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10490,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with Rozlytrek (entrectinib) resulted in stable disease and 60% reduction of tumor burden in a patient with glioneuronal tumor harboring BCAN-NTRK1 fusion (PMID: 28183697).",
+            "molecularProfile": {
+                "id": 27053,
+                "profileName": "BCAN - NTRK1"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3620,
+                "name": "central nervous system cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8566,
+                    "pubMedId": 28183697,
+                    "title": "Safety and Antitumor Activity of the Multitargeted Pan-TRK, ROS1, and ALK Inhibitor Entrectinib: Combined Results from Two Phase I Trials (ALKA-372-001 and STARTRK-1).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28183697"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16312,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rozlytrek (entrectinib) treatment reduced viability of TP53-null mouse adult neuronal stem cells harboring BCAN-NTRK1 in culture, and improved survival and decreased tumor cell proliferation in xenograft models (PMID: 28695888).",
+            "molecularProfile": {
+                "id": 31590,
+                "profileName": "BCAN - NTRK1 TP53 del"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3620,
+                "name": "central nervous system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14433,
+                    "pubMedId": 28695888,
+                    "title": "Somatic chromosomal engineering identifies BCAN-NTRK1 as a potent glioma driver and therapeutic target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28695888"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00939770",
+            "title": "Crizotinib in Treating Young Patients With Relapsed or Refractory Solid Tumors or Anaplastic Large Cell Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 706,
+                    "therapyName": "Crizotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02255461",
+            "title": "Palbociclib Isethionate in Treating Younger Patients With Recurrent, Progressive, or Refractory Central Nervous System Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02303028",
+            "title": "Phase I Dose Escalation Study of Topotecan and Pazopanib in Children With Recurrent/Refractory Solid and CNS Tumours",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1469,
+                    "therapyName": "Pazopanib + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02390752",
+            "title": "PLX3397 in Children and Young Adults With Refractory Leukemias and Refractory Solid Tumors Including Neurofibromatosis Type 1 (NF1) Associated Plexiform Neurofibromas (PN)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 874,
+                    "therapyName": "Pexidartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02390843",
+            "title": "Simvastatin With Topotecan and Cyclophosphamide in Relapsed and/or Refractory Pediatric Solid and CNS Tumors (AflacST1402)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9077,
+                    "therapyName": "Cyclophosphamide + Filgrastim + Simvastatin + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02455245",
+            "title": "A Study Comparing Two Carboplatin Containing Regimens for Children and Young Adults With Previously Untreated Low Grade Glioma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8990,
+                    "therapyName": "Carboplatin + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02564198",
+            "title": "A Study of Ramucirumab (LY3009806) in Children With Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02576431",
+            "title": "A Study to Test the Effect of the Drug Larotrectinib in Adults and Children With NTRK-fusion Positive Solid Tumors (NAVIGATE)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02637687",
+            "title": "A Study to Test the Safety and Efficacy of the Drug Larotrectinib for the Treatment of Tumors With NTRK-fusion in Children (SCOUT)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02650401",
+            "title": "Study Of Entrectinib (Rxdx-101) in Children and Adolescents With No Curative First-Line Treatment Option, Recurrent or Refractory Solid Tumors And Primary Cns Tumors, With or Without Trk, Ros1, or Alk Fusions",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1455,
+                    "therapyName": "Entrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02653196",
+            "title": "A Multi-Institutional Phase II Feasibility Study of Allogeneic Hematopoietic Stem Cell Transplantation for Patients With Malignant Neuro-Epithelial and Other Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2563,
+                    "therapyName": "Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1205,
+                    "therapyName": "Alemtuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2373,
+                    "therapyName": "Palifermin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2237,
+                    "therapyName": "Fludarabine + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 3948,
+                    "therapyName": "Cyclosporine + Mycophenolate mofetil + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02677116",
+            "title": "A Study of Olaratumab Alone and in Combination With Standard Chemotherapies in Children With Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1441,
+                    "therapyName": "Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 3618,
+                    "therapyName": "Irinotecan + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 3269,
+                    "therapyName": "Olaratumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02780804",
+            "title": "Entinostat in Treating Pediatric Patients With Recurrent or Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1541,
+                    "therapyName": "Entinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02793466",
+            "title": "Durvalumab in Pediatric and Adolescent Patients",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02808650",
+            "title": "Prexasertib in Treating Pediatric Patients With Recurrent or Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1651,
+                    "therapyName": "Prexasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867592",
+            "title": "Cabozantinib-S-Malate in Treating Younger Patients With Recurrent, Refractory, or Newly Diagnosed Sarcomas, Wilms Tumor, or Other Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02932280",
+            "title": "Safety and Dose Finding Study of Neratinib in Children and Young Adults With Cancer That Has Returned or Not Responded to Treatment",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 828,
+                    "therapyName": "Neratinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03050450",
+            "title": "Study of Lenalidomide With Vorinostat in Pediatric Patients With High Grade or Progressive CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5337,
+                    "therapyName": "Lenalidomide + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03130959",
+            "title": "An Investigational Immuno-therapy Study of Nivolumab Monotherapy and Nivolumab in Combination With Ipilimumab in Pediatric Patients With High Grade Primary CNS Malignancies (CheckMate 908)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03155620",
+            "title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                },
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 961,
+                    "therapyName": "Ensartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03323034",
+            "title": "Pevonedistat, Irinotecan Hydrochloride, and Temozolomide in Treating Patients With Recurrent or Refractory Solid Tumors or Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6388,
+                    "therapyName": "Irinotecan + MLN4924 + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03371004",
+            "title": "DM-CHOC-PEN Plus Radiation for Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7030,
+                    "therapyName": "DM-CHOC-PEN",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03389802",
+            "title": "Phase I Study of APX005M in Pediatric CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3835,
+                    "therapyName": "APX005M",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03429803",
+            "title": "TAK-580 In Gliomas and Other Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1034,
+                    "therapyName": "MLN2480",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03434262",
+            "title": "Molecularly-Driven Doublet Therapy for Recurrent CNS Malignant Neoplasms",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6688,
+                    "therapyName": "Filgrastim + Gemcitabine + Pegfilgrastim + Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2,
+                    "therapyName": "Trametinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1428,
+                    "therapyName": "Sonidegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4472,
+                    "therapyName": "Ribociclib + Trametinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6687,
+                    "therapyName": "Ribociclib + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03500991",
+            "title": "HER2-specific CAR T Cell Locoregional Immunotherapy for HER2-positive Recurrent/Refractory Pediatric CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6007,
+                    "therapyName": "HER2 CAR-T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03554707",
+            "title": "SGT-53 in Children With Recurrent or Progressive CNS Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7083,
+                    "therapyName": "Bevacizumab + Irinotecan + SGT-53 + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03598244",
+            "title": "Volitinib in Treating Participants With Recurrent or Refractory Primary CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2161,
+                    "therapyName": "Savolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03638167",
+            "title": "EGFR806-specific CAR T Cell Locoregional Immunotherapy for EGFR-positive Recurrent or Refractory Pediatric CNS Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7809,
+                    "therapyName": "EGFR806-specific CAR T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03652545",
+            "title": "Multi-antigen T Cell Infusion Against Neuro-oncologic Disease (REMIND)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03690869",
+            "title": "REGN2810 in Pediatric Patients With Relapsed, Refractory Solid, or Central Nervous System (CNS) Tumors and Safety and Efficacy of REGN2810 in Combination With Radiotherapy in Pediatric Patients With Newly Diagnosed or Recurrent Glioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03899792",
+            "title": "A Study of Oral LOXO-292 in Pediatric Patients With Advanced Solid or Primary Central Nervous System Tumors (LIBRETTO-121)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5702,
+                    "therapyName": "Selpercatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04185038",
+            "title": "Study of B7-H3-Specific CAR T Cell Locoregional Immunotherapy for Diffuse Intrinsic Pontine Glioma/Diffuse Midline Glioma and Recurrent or Refractory Pediatric Central Nervous System Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9686,
+                    "therapyName": "B7-H3 CAR T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04238819",
+            "title": "A Study of Abemaciclib (LY2835219) in Combination With Temozolomide and Irinotecan and Abemaciclib in Combination With Temozolomide in Children and Young Adult Participants With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 5028,
+                    "therapyName": "Abemaciclib + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 9458,
+                    "therapyName": "Abemaciclib + Irinotecan + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04308330",
+            "title": "Vorinostat in Combination With Chemotherapy in Relapsed/Refractory Solid Tumors and CNS Malignancies (NYMC195)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9559,
+                    "therapyName": "Cefixime + Irinotecan + Temozolomide + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9560,
+                    "therapyName": "Cefixime + Irinotecan + Temozolomide + Vincristine + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

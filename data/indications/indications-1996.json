@@ -1,0 +1,1093 @@
+{
+    "id": 1996,
+    "name": "rectum adenocarcinoma",
+    "source": "DOID",
+    "definition": "A rectum cancer that derives_from epithelial cells of glandular origin. [url:http\\://en.wikipedia.org/wiki/Adenocarcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:1996",
+    "evidence": [
+        {
+            "id": 9333,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a rectal adenocarcinoma patient harboring APC Q1429fs, BRAF N581S, and ERBB2 L755S did not respond to Herceptin (trastuzumab) treatment in combination with Fluorouracil and Wellcovorin (leucovorin) (PMID: 27626067).",
+            "molecularProfile": {
+                "id": 26822,
+                "profileName": "APC Q1429fs BRAF N581S ERBB2 L755S"
+            },
+            "therapy": {
+                "id": 4970,
+                "therapyName": "Fluorouracil + Leucovorin + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1996,
+                "name": "rectum adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 7088,
+                    "pubMedId": 27626067,
+                    "title": "Testing ERBB2 p.L755S kinase domain mutation as a druggable target in a patient with advanced colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27626067"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00602329",
+            "title": "MRI in Predicting Response in Patients Receiving Combination Chemotherapy and Bevacizumab For Advanced or Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00967655",
+            "title": "Capecitabine, Panitumumab, and Radiation Therapy With or Without Irinotecan Hydrochloride in Treating Patients Undergoing Surgery for Localized Rectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1960,
+                    "therapyName": "Capecitabine + Panitumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01206530",
+            "title": "FOLFOX/Bevacizumab/Hydroxychloroquine (HCQ) in Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1316,
+                    "therapyName": "Hydroxychloroquine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01282502",
+            "title": "Midostaurin (PKC412) for Locally Advanced Rectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 810,
+                    "therapyName": "Midostaurin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01298570",
+            "title": "Regorafenib+FOLFIRI Versus Placebo+FOLFIRI as 2nd Line Tx in Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01442935",
+            "title": "Chemotherapies Associated With Targeted Therapies on the Resection Rate of Hepatic Metastases",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1484,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFOX"
+                },
+                {
+                    "id": 2180,
+                    "therapyName": "Cetuximab + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "Cetuximab + FOLFIRI"
+                },
+                {
+                    "id": 2181,
+                    "therapyName": "Bevacizumab + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "Bevacizumab + FOLFIRI"
+                },
+                {
+                    "id": 2182,
+                    "therapyName": "Cetuximab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Cetuximab + FOLFOX"
+                },
+                {
+                    "id": 2183,
+                    "therapyName": "Bevacizumab + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFIRINOX"
+                },
+                {
+                    "id": 2184,
+                    "therapyName": "Cetuximab + Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "Cetuximab + FOLFIRINOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01471353",
+            "title": "Sorafenib Plus Capecitabine (SorCape) in Previously Treated Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2428,
+                    "therapyName": "Capecitabine + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01516216",
+            "title": "Study of Vitamin D in Untreated Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01538680",
+            "title": "Regorafenib in Subjects With Metastatic Colorectal Cancer (CRC) Who Have Progressed After Standard Therapy",
+            "phase": "Phase III",
+            "recruitment": "No longer available",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01571284",
+            "title": "Safety and Quality of Life Study of Aflibercept in Patients With Metastatic Colorectal Cancer Previously Treated With an Oxaliplatin-Based Regimen",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2095,
+                    "therapyName": "Aflibercept + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "Aflibercept + FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01634685",
+            "title": "A Phase I Study of Bavituximab, Capecitabine, and Radiation for the Treatment of Rectal Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3684,
+                    "therapyName": "Bavituximab + Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01652482",
+            "title": "A Study of MEHD7945A + FOLFIRI Versus Cetuximab + FOLFIRI in Second Line in Patients With KRAS Wild-Type Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 806,
+                    "therapyName": "Duligotuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01803282",
+            "title": "Safety and Tolerability Study in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3320,
+                    "therapyName": "GS-5745",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1602,
+                    "therapyName": "Carboplatin + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01814501",
+            "title": "Panitumumab and Chemotherapy in Patients With Advanced Colorectal Cancer After Prior Therapy With Bevacizumab",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 845,
+                    "therapyName": "Panitumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01871571",
+            "title": "Bevacizumab, Fluorouracil, Leucovorin Calcium, and Oxaliplatin Before Surgery in Treating Patients With Stage II-III Rectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1484,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01896856",
+            "title": "Phase I Study of SGI-110 With Irinotecan Followed by Randomized Phase II Study of SGI-110 With Irinotecan Versus Regorafenib in Previously Treated Metastatic Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2015,
+                    "therapyName": "Guadecitabine + Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01939223",
+            "title": "COlorectal Cancer Treated With Adjuvant Regorafenib Versus Placebo After Curative Treatment of Liver Metastases in a Randomized, Double-blind, Placebo?Controlled Phase-III STudy (COAST)",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01949194",
+            "title": "Study to Determine the Efficacy of Regorafenib in Metastatic Colorectal Cancer Patients and to Discover Biomarkers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02008383",
+            "title": "Cabozantinib and Panitumumab to Treat KRAS Wild-Type Metastatic Colorectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1985,
+                    "therapyName": "Cabozantinib + Panitumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02045030",
+            "title": "Study to Identify Biomarkers of Clinical Response to Aflibercept in Patients With Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2095,
+                    "therapyName": "Aflibercept + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "Aflibercept + FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02046538",
+            "title": "Phase II Study of Zaltrap and Chemotherapy for Advanced Resectable Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 624,
+                    "therapyName": "Aflibercept",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02096354",
+            "title": "A Phase 2 Randomized, Open-Label Study of RRx-001 vs Regorafenib in Subjects With Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02119676",
+            "title": "Study of Ruxolitinib in Colorectal Cancer Patients",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02138617",
+            "title": "Genotype-Directed Study Of Irinotecan Dosing In FOLFIRI + BevacizumabTreated Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1642,
+                    "therapyName": "Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1715,
+                    "therapyName": "Fluorouracil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02164916",
+            "title": "S1406 Phase II Study of Irinotecan and Cetuximab With or Without Vemurafenib in BRAF Mutant Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1874,
+                    "therapyName": "Cetuximab + Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1331,
+                    "therapyName": "Cetuximab + Irinotecan + Vemurafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02178644",
+            "title": "Pilot Trial of KD018 With Neo-Adjuvant Concurrent Chemo-Radiation Therapy in Patients With Locally Advanced Rectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1699,
+                    "therapyName": "KD018",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02195011",
+            "title": "Safety Study of Regorafenib and SIR-Spheres\u00ae Microspheres Radioembolization in Patients With Refractory Metastatic Colorectal Cancer With Liver Metastases",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02287727",
+            "title": "Regorafenib in Reducing Recurrence in Patients With Non-metastatic Rectal Cancer Who Have Completed Curative-Intent Treatment",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02305758",
+            "title": "Study Comparing Veliparib Plus FOLFIRI Versus Placebo Plus FOLFIRI With or Without Bevacizumab in Previously Untreated Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 954,
+                    "therapyName": "Veliparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02368886",
+            "title": "Lower or Standard Dose Regorafenib in Treating Patients With Refractory Metastatic Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2350,
+                    "therapyName": "Clobetasol + Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02393755",
+            "title": "Nintedanib and Capecitabine in Treating Patients With Refractory Metastatic Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2589,
+                    "therapyName": "Capecitabine + Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02550743",
+            "title": "BrUOG 302:BYL719, Capecitabine and Radiation for Rectal Cancer: A Brown University Oncology Research Group Study",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1535,
+                    "therapyName": "Alpelisib + Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02569645",
+            "title": "Rosuvastatin in the Treatment of Rectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2928,
+                    "therapyName": "Rosuvastatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02575508",
+            "title": "Pan FGFR Kinase Inhibitor BGJ398 and Combination Chemotherapy in Treating Patients With Untreated Metastatic Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3142,
+                    "therapyName": "BGJ398 + Fluorouracil + Irinotecan + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02651415",
+            "title": "Phase II Study of Perindopril and Regorafenib in mCRC",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3410,
+                    "therapyName": "Perindopril + Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02688712",
+            "title": "ExIST Study of LY2157299 (Galunisertib) in Rectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5788,
+                    "therapyName": "Capecitabine + Galunisertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5789,
+                    "therapyName": "Fluorouracil + Galunisertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2409,
+                    "therapyName": "Galunisertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1715,
+                    "therapyName": "Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02788279",
+            "title": "A Study to Investigate Efficacy and Safety of Cobimetinib Plus Atezolizumab and Atezolizumab Monotherapy Versus Regorafenib in Participants With Metastatic Colorectal Adenocarcinoma",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1343,
+                    "therapyName": "Atezolizumab + Cobimetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02921256",
+            "title": "Veliparib and Combination Chemotherapy in Treating Patient With Locally Advanced Rectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 954,
+                    "therapyName": "Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4838,
+                    "therapyName": "Capecitabine + Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02935309",
+            "title": "Phase I Study of Capecitabine and Lenvatinib With External Radiation in Rectal Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4779,
+                    "therapyName": "Capecitabine + Lenvatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02972034",
+            "title": "Study of MK-8353 in Combination With Pembrolizumab (MK-3475) in Participants With Advanced Malignancies (MK-8353-013)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5269,
+                    "therapyName": "MK-8353 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02997228",
+            "title": "Combination Chemotherapy, Bevacizumab, and/or Atezolizumab in Treating Patients With Microsatellite Instability-High Metastatic Colorectal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1484,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFOX"
+                },
+                {
+                    "id": 5126,
+                    "therapyName": "Atezolizumab + Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03043313",
+            "title": "Tucatinib (ONT-380) and Trastuzumab for Patients With HER2-positive Metastatic Colorectal Cancer (MOUNTAINEER)Tucatinib (ONT-380) and Trastuzumab for Patients With HER2-positive Metastatic Colorectal Cancer (MOUNTAINEER) (MOUNTAINEER)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1560,
+                    "therapyName": "Trastuzumab + Tucatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03053544",
+            "title": "Metformin With Neoadjuvant Chemoradiation to Improve Pathologic Responses in Rectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03102047",
+            "title": "Study of Durvalumab (MEDI4736) After Chemo-Radiation for Microsatellite Stable Stage II-IV Rectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03261947",
+            "title": "A Study to Evaluate the Safety, Tolerability, and Activity of TAK-931 in Participants With Metastatic Pancreatic Cancer, Metastatic Colorectal Cancer, and Other Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7279,
+                    "therapyName": "TAK-931",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03300544",
+            "title": "Talimogene Laherparepvec, Capecitabine, and Chemoradiation Before Surgery in Treating Patients With Locally Advanced or Metastatic Rectal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8026,
+                    "therapyName": "Capecitabine + Fluorouracil + Oxaliplatin + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03365882",
+            "title": "S1613, Trastuzumab and Pertuzumab or Cetuximab and Irinotecan Hydrochloride in Treating Patients With Locally Advanced or Metastatic HER2/Neu Amplified Colorectal Cancer That Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1874,
+                    "therapyName": "Cetuximab + Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1389,
+                    "therapyName": "Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03368859",
+            "title": "A Study of ABT-165 Plus FOLFIRI vs Bevacizumab Plus FOLFIRI in Subjects With Metastatic Colorectal Cancer Previously Treated With Fluoropyrimidine/Oxaliplatin and Bevacizumab",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 6525,
+                    "therapyName": "ABT-165 + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "ABT-165 + FOLFIRI"
+                },
+                {
+                    "id": 2181,
+                    "therapyName": "Bevacizumab + Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "Bevacizumab + FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03436563",
+            "title": "M7824 in Consensus Molecular Subtype 4, Treatment-Refractory Metastatic Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5860,
+                    "therapyName": "M7824",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03592641",
+            "title": "Volitinib in Treating Participants With MET Amplified Metastatic or Unresectable Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2161,
+                    "therapyName": "Savolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03801915",
+            "title": "Perioperative MVT-5873, a Fully Human Monoclonal Antibody Against a CA 19-9 Epitope, for Operable CA 19-9 Producing Pancreatic Cancers, Cholangiocarcinomas, and Metastatic Colorectal Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5712,
+                    "therapyName": "MVT-5873",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03811652",
+            "title": "A Multiple Ascending Dose Study of MEDI7247 in Advanced or Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5762,
+                    "therapyName": "MEDI7247",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03866239",
+            "title": "A Phase Ib Study to Evaluate the Safety, Efficacy, and Pharmacokinetics of Cibisatamab in Combination With Atezolizumab After Pretreatment With Obinutuzumab in Participants With Previously Treated Metastatic Colorectal Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7998,
+                    "therapyName": "Atezolizumab + Obinutuzumab + RO6958688",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03948763",
+            "title": "A Study of mRNA-5671/V941 as Monotherapy and in Combination With Pembrolizumab (V941-001)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8563,
+                    "therapyName": "mRNA 5671",
+                    "synonyms": null
+                },
+                {
+                    "id": 8564,
+                    "therapyName": "mRNA 5671 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03992456",
+            "title": "Panitumumab, Regorafenib, or TAS-102, in Treating Patients With Metastatic and/or Unresectable RAS Wild-Type Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 845,
+                    "therapyName": "Panitumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2426,
+                    "therapyName": "trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04017650",
+            "title": "Encorafenib, Cetuximab, and Nivolumab in Treating Patients With Microsatellite Stable, BRAFV600E Mutated Unresectable or Metastatic Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8571,
+                    "therapyName": "Cetuximab + Encorafenib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04044430",
+            "title": "Encorafenib, Binimetinib, and Nivolumab in Treating Patients With Microsatellite Stable BRAFV600E Metastatic Colorectal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8637,
+                    "therapyName": "Binimetinib + Encorafenib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04109924",
+            "title": "TAS-102, Irinotecan, and Bevacizumab for the Treatment of Pre-treated Metastatic or Unresectable Colorectal Cancer, the TABAsCO Study",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8949,
+                    "therapyName": "Bevacizumab + Irinotecan + trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04126733",
+            "title": "Study on the Effectiveness and Safety of the Combination of the Two Drugs Regorafenib and Nivolumab in Patients With Colorectal Cancer (Cancer of the Colon or Rectum Classified as Proficient Mismatch Repair and Microsatellite Stable)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7443,
+                    "therapyName": "Nivolumab + Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04130854",
+            "title": "Phase II Randomized Multi-center Trial of Total Neoadjuvant Therapy With and Without CD40 Agonist, APX005M, for Locally Advanced Rectal Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 3835,
+                    "therapyName": "APX005M",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04165772",
+            "title": "TSR-042 in People With Locally Advanced Mismatch Repair Deficient Rectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8959,
+                    "therapyName": "Capecitabine + TSR-042",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04169347",
+            "title": "FOLFOXIRI Plus Panitumumab in Metastatic RAS Wild-type, Left-sided Colorectal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8360,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin + Panitumumab",
+                    "synonyms": "Panitumumab + FOLFOXIRI"
+                }
+            ]
+        }
+    ]
+}

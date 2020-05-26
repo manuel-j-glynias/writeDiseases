@@ -1,0 +1,73 @@
+{
+    "id": 80145,
+    "name": "childhood T-cell acute lymphoblastic leukemia",
+    "source": "DOID",
+    "definition": "A childhood acute lymphoblastic leukemia that has_material_basis in T-cells. [url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=16.07d&ns=NCI_Thesaurus&code=C7953]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "7933"
+    ],
+    "termId": "DOID:0080145",
+    "evidence": [
+        {
+            "id": 19568,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CD4CAR-expressing natural killer cells induced tumor cell lysis when co-cultured with a patient-derived CD4-positive pediatric T-cell acute lymphoblastic leukemia cell line in culture (PMID: 29348865).",
+            "molecularProfile": {
+                "id": 34220,
+                "profileName": "CD4 positive"
+            },
+            "therapy": {
+                "id": 9084,
+                "therapyName": "CD4CAR",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80145,
+                "name": "childhood T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17177,
+                    "pubMedId": 29348865,
+                    "title": "Targeting T-cell malignancies using anti-CD4 CAR NK-92 cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29348865"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02999633",
+            "title": "Safety and Efficacy of Isatuximab in Lymphoblastic Leukemia (ISLAY)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6331,
+                    "therapyName": "Isatuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03328104",
+            "title": "AflacLL1602 ENCERT",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8014,
+                    "therapyName": "Cyclophosphamide + Etoposide + Everolimus + Nelarabine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

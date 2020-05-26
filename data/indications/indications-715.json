@@ -1,0 +1,129 @@
+{
+    "id": 715,
+    "name": "T-cell lymphoblastic leukemia/lymphoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:715",
+    "evidence": [
+        {
+            "id": 4586,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Jakafi (ruxolitinib) and AZD1208 combination treatment did not inhibit proliferation of a T-cell leukemia cell line in culture (PMID: 26472029).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3550,
+                "therapyName": "AZD1208 + Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 715,
+                "name": "T-cell lymphoblastic leukemia/lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4621,
+                    "pubMedId": 26472029,
+                    "title": "The PIM inhibitor AZD1208 synergizes with ruxolitinib to induce apoptosis of ruxolitinib sensitive and resistant JAK2-V617F-driven cells and inhibit colony formation of primary MPN cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26472029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02535806",
+            "title": "Four Drug Reinduction With Bortezomib for Relapsed or Refractory ALL or LL in Children and Young Adults",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1638,
+                    "therapyName": "Pegaspargase",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1740,
+                    "therapyName": "Mitoxantrone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02631746",
+            "title": "Nivolumab in Treating Patients With HTLV-Associated T-Cell Leukemia/Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03829540",
+            "title": "CD4CAR for CD4+ Leukemia and Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9084,
+                    "therapyName": "CD4CAR",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03952078",
+            "title": "A Dose Escalation Study Evaluating CPI-818 in Relapsed/Refractory T-Cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9715,
+                    "therapyName": "CPI-818",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

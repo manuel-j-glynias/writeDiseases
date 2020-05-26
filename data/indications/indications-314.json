@@ -1,0 +1,123 @@
+{
+    "id": 314,
+    "name": "tenosynovial giant cell tumor",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:314",
+    "evidence": [
+        {
+            "id": 2791,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, PLX3397 reduced tenosynovial giant cell tumor volume in patients with overexpression of Csf1r (PMID: 26222558).",
+            "molecularProfile": {
+                "id": 10685,
+                "profileName": "CSF1R over exp"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 314,
+                "name": "tenosynovial giant cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3480,
+                    "pubMedId": 26222558,
+                    "title": "Structure-Guided Blockade of CSF1R Kinase in Tenosynovial Giant-Cell Tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26222558"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17940,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ENLIVEN) that supported FDA approval, Turalio (pexidartinib) treatment resulted in improved overall response rate at week 25 (24/61, 39% vs 0/59, 0%, p<0.0001) compared to placebo in patients with advanced tenosynovial giant cell tumour (PMID: 31229240; NCT02371369).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 314,
+                "name": "tenosynovial giant cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15910,
+                    "pubMedId": null,
+                    "title": "Turalio (pexidartinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211810"
+                },
+                {
+                    "id": 15913,
+                    "pubMedId": 31229240,
+                    "title": "Pexidartinib versus placebo for advanced tenosynovial giant cell tumour (ENLIVEN): a randomised phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31229240"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01207492",
+            "title": "Nilotinib in Patients With Relapsed or Metastatic Pigmented Villonodular Synovitis/Tenosynovial Giant Cell Tumor/Diffuse-Type Giant Cell Tumor",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 829,
+                    "therapyName": "Nilotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02471716",
+            "title": "Study of FPA008 in Patients With Pigmented Villonodular Synovitis / Diffuse Type Tenosynovial Giant Cell Tumor",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2840,
+                    "therapyName": "Cabiralizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02673736",
+            "title": "A Study of PLX73086 in Advanced Solid Tumors and Locally Advanced or Refractory Tenosynovial Giant Cell Tumor",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2845,
+                    "therapyName": "AC708",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

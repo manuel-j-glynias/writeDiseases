@@ -1,0 +1,896 @@
+{
+    "id": 70004,
+    "name": "myeloid neoplasm",
+    "source": "DOID",
+    "definition": "A bone marrow cancer that is formed of any one of the bone marrow cells belonging to the granulocytic (neutrophil, eosinophil, basophil), monocytic/macrophage, erythroid, megakaryocytic and mast cell lineages. [url:http\\://www.bloodjournal.org/content/bloodjournal/128/3/462.full.pdf, url:https\\://www.ncbi.nlm.nih.gov/pubmed/19357394]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0070004",
+    "evidence": [
+        {
+            "id": 1095,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK525762 inhibited growth of myeloma cells with MYC over expression in both culture and xenograft models (PMID: 24335499).",
+            "molecularProfile": {
+                "id": 4715,
+                "profileName": "MYC over exp"
+            },
+            "therapy": {
+                "id": 784,
+                "therapyName": "GSK525762",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 827,
+                    "pubMedId": 24335499,
+                    "title": "Potent antimyeloma activity of the novel bromodomain inhibitors I-BET151 and I-BET762.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24335499"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1460,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a preclinical study, the fusion of murine colony stimulating factor 2 with residues 6-76 of C-C motif chemokine 2 (named GMME1) bound to the receptor Ccr2 and induced apoptosis in a human multiple myeloma cell line and primary human myeloma cells, and also inhibited myeloma tumor growth in mice (PMID: 21943176).",
+            "molecularProfile": {
+                "id": 2562,
+                "profileName": "CCR2 wild-type"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1327,
+                    "pubMedId": 21943176,
+                    "title": "A MCP1 fusokine with CCR2-specific tumoricidal activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21943176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1756,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Amuvatinib (MP470) demonstrated efficacy in reducing Met phosphorylation and inducing apoptosis in cultured myeloma cells (PMID: 24326130).",
+            "molecularProfile": {
+                "id": 1240,
+                "profileName": "MET positive"
+            },
+            "therapy": {
+                "id": 632,
+                "therapyName": "Amuvatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 2025,
+                    "pubMedId": 24326130,
+                    "title": "Targeting MET kinase with the small-molecule inhibitor amuvatinib induces cytotoxicity in primary myeloma cells and cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24326130"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2571,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZ8010 inhibited Fgfr3 signaling and decreased proliferation of myeloma cells with HRAS K117E and overexpression of FGFR3 K650E in culture (PMID: 22869148).",
+            "molecularProfile": {
+                "id": 13017,
+                "profileName": "FGFR3 K650E FGFR3 over exp HRAS K117E"
+            },
+            "therapy": {
+                "id": 2955,
+                "therapyName": "AZ8010",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3319,
+                    "pubMedId": 22869148,
+                    "title": "Tumour cell responses to new fibroblast growth factor receptor tyrosine kinase inhibitors and identification of a gatekeeper mutation in FGFR3 as a mechanism of acquired resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22869148"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4015,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SSR128129E inhibited proliferation of myeloma cells expressing wild-type FGFR3 in culture (PMID: 23597562).",
+            "molecularProfile": {
+                "id": 544,
+                "profileName": "FGFR3 wild-type"
+            },
+            "therapy": {
+                "id": 2508,
+                "therapyName": "SSR128129E",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2414,
+                    "pubMedId": 23597562,
+                    "title": "Inhibition of tumor angiogenesis and growth by a small-molecule multi-FGF receptor blocker with allosteric properties.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23597562"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4016,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SSR128129E did not inhibit proliferation of myeloma cells expressing FGFR3 K650E in culture (PMID: 23597562).",
+            "molecularProfile": {
+                "id": 2183,
+                "profileName": "FGFR3 K650E"
+            },
+            "therapy": {
+                "id": 2508,
+                "therapyName": "SSR128129E",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 2414,
+                    "pubMedId": 23597562,
+                    "title": "Inhibition of tumor angiogenesis and growth by a small-molecule multi-FGF receptor blocker with allosteric properties.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23597562"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4063,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 inhibited proliferation of myeloma cell lines harboring FGFR3 Y373C in culture (PMID: 25169980).",
+            "molecularProfile": {
+                "id": 3514,
+                "profileName": "FGFR3 Y373C"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4388,
+                    "pubMedId": 25169980,
+                    "title": "The fibroblast growth factor receptor genetic status as a potential predictor of the sensitivity to CH5183284/Debio 1347, a novel selective FGFR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25169980"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4064,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 inhibited proliferation of myeloma cell lines harboring FGFR3 K650E in culture (PMID: 25169980).",
+            "molecularProfile": {
+                "id": 2183,
+                "profileName": "FGFR3 K650E"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4388,
+                    "pubMedId": 25169980,
+                    "title": "The fibroblast growth factor receptor genetic status as a potential predictor of the sensitivity to CH5183284/Debio 1347, a novel selective FGFR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25169980"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4066,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 inhibited proliferation of myeloma cell lines harboring FGFR3 F386L in culture (PMID: 25169980).",
+            "molecularProfile": {
+                "id": 5005,
+                "profileName": "FGFR3 F386L"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4388,
+                    "pubMedId": 25169980,
+                    "title": "The fibroblast growth factor receptor genetic status as a potential predictor of the sensitivity to CH5183284/Debio 1347, a novel selective FGFR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25169980"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7843,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SU5402 inhibited proliferation of myeloma cells expressing wild-type FGFR3 in culture (PMID: 23597562).",
+            "molecularProfile": {
+                "id": 544,
+                "profileName": "FGFR3 wild-type"
+            },
+            "therapy": {
+                "id": 3305,
+                "therapyName": "SU5402",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2414,
+                    "pubMedId": 23597562,
+                    "title": "Inhibition of tumor angiogenesis and growth by a small-molecule multi-FGF receptor blocker with allosteric properties.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23597562"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7844,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SU5402 inhibited proliferation of myeloma cells expressing FGFR3 K650E in culture (PMID: 23597562).",
+            "molecularProfile": {
+                "id": 2183,
+                "profileName": "FGFR3 K650E"
+            },
+            "therapy": {
+                "id": 3305,
+                "therapyName": "SU5402",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2414,
+                    "pubMedId": 23597562,
+                    "title": "Inhibition of tumor angiogenesis and growth by a small-molecule multi-FGF receptor blocker with allosteric properties.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23597562"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8408,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PRN1371 inhibited proliferation of myeloma cells harboring FGFR3 rearrangements in culture (AACR; Cancer Res 2016;76(14 Suppl):Abstract nr 1249).",
+            "molecularProfile": {
+                "id": 1318,
+                "profileName": "FGFR3 rearrange"
+            },
+            "therapy": {
+                "id": 3583,
+                "therapyName": "PRN1371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6640,
+                    "pubMedId": null,
+                    "title": "PRN1371, an irreversible, covalent inhibitor of FGFR1, 2, 3 and 4 is highly efficacious in preclinical tumor models",
+                    "url": "http://cancerres.aacrjournals.org/content/76/14_Supplement/1249"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8458,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, myeloma cells harboring FGFR3 Y373C were not sensitive to RO4987655 in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 3514,
+                "profileName": "FGFR3 Y373C"
+            },
+            "therapy": {
+                "id": 903,
+                "therapyName": "RO4987655",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8474,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, myeloma cells harboring FGFR3 Y373C were not sensitive to RO5126766 in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 3514,
+                "profileName": "FGFR3 Y373C"
+            },
+            "therapy": {
+                "id": 2011,
+                "therapyName": "RO5126766",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8488,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, myeloma cells harboring FGFR3 Y373C were not sensitive to Selumetinib (AZD-6244) in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 3514,
+                "profileName": "FGFR3 Y373C"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9122,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4547 inhibited survival of myeloma cells harboring FGFR3 translocation in culture and in cell line xenograft models (PMID: 27550940).",
+            "molecularProfile": {
+                "id": 1318,
+                "profileName": "FGFR3 rearrange"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6925,
+                    "pubMedId": 27550940,
+                    "title": "Identification of Pharmacodynamic Transcript Biomarkers in Response to FGFR Inhibition by AZD4547.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27550940"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9290,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ONC201 induced apoptosis in an ABCB1 (MDR1)-over expressing myeloma cell line in culture (PMID: 26884599).",
+            "molecularProfile": {
+                "id": 26812,
+                "profileName": "ABCB1 over exp"
+            },
+            "therapy": {
+                "id": 1687,
+                "therapyName": "ONC201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7063,
+                    "pubMedId": 26884599,
+                    "title": "ATF4 induction through an atypical integrated stress response to ONC201 triggers p53-independent apoptosis in hematological malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26884599"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9786,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, myeloma cell lines expressing PIM2 demonstrated sensitivity to LGH447, resulting in cell cycle disruption and apoptotic induction in culture and decreased tumor burden in xenograft models (PMID: 27440267).",
+            "molecularProfile": {
+                "id": 27092,
+                "profileName": "PIM2 positive"
+            },
+            "therapy": {
+                "id": 2402,
+                "therapyName": "LGH447",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7604,
+                    "pubMedId": 27440267,
+                    "title": "The Novel Pan-PIM Kinase Inhibitor, PIM447, Displays Dual Antimyeloma and Bone-Protective Effects, and Potently Synergizes with Current Standards of Care.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27440267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9787,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of LGH447, Velcade (bortezomib), and Adexone (dexamethasone) resulted in a strong synergistic effect in myeloma cells expressing PIM2, demonstrating decreased cell viability (PMID: 27440267).",
+            "molecularProfile": {
+                "id": 27092,
+                "profileName": "PIM2 positive"
+            },
+            "therapy": {
+                "id": 5231,
+                "therapyName": "Bortezomib + Dexamethasone + LGH447",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7604,
+                    "pubMedId": 27440267,
+                    "title": "The Novel Pan-PIM Kinase Inhibitor, PIM447, Displays Dual Antimyeloma and Bone-Protective Effects, and Potently Synergizes with Current Standards of Care.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27440267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9788,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of LGH447, Revlimid (lenalidomide), and Adexone (dexamethasone) resulted in a strong synergistic effect in myeloma cells expressing PIM2, demonstrating decreased cell viability (PMID: 27440267).",
+            "molecularProfile": {
+                "id": 27092,
+                "profileName": "PIM2 positive"
+            },
+            "therapy": {
+                "id": 5232,
+                "therapyName": "Dexamethasone + Lenalidomide + LGH447",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7604,
+                    "pubMedId": 27440267,
+                    "title": "The Novel Pan-PIM Kinase Inhibitor, PIM447, Displays Dual Antimyeloma and Bone-Protective Effects, and Potently Synergizes with Current Standards of Care.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27440267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9789,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of LGH447, Pomalyst (pomalidomide), and Adexone (dexamethasone) resulted in a strong synergistic effect in myeloma cells expressing PIM2, demonstrating decreased cell viability (PMID: 27440267).",
+            "molecularProfile": {
+                "id": 27092,
+                "profileName": "PIM2 positive"
+            },
+            "therapy": {
+                "id": 5233,
+                "therapyName": "Dexamethasone + LGH447 + Pomalidomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7604,
+                    "pubMedId": 27440267,
+                    "title": "The Novel Pan-PIM Kinase Inhibitor, PIM447, Displays Dual Antimyeloma and Bone-Protective Effects, and Potently Synergizes with Current Standards of Care.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27440267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9790,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of LGH447 and Adexone (dexamethasone) resulted in a synergistic effect in myeloma cells expressing PIM2, demonstrating decreased cell viability (PMID: 27440267).",
+            "molecularProfile": {
+                "id": 27092,
+                "profileName": "PIM2 positive"
+            },
+            "therapy": {
+                "id": 5234,
+                "therapyName": "Dexamethasone + LGH447",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7604,
+                    "pubMedId": 27440267,
+                    "title": "The Novel Pan-PIM Kinase Inhibitor, PIM447, Displays Dual Antimyeloma and Bone-Protective Effects, and Potently Synergizes with Current Standards of Care.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27440267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9831,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, Velcade (bortezomib) in combination with Revlimid (lenalidomide) and dexamethasone resulted in an improved median progression-free survival of 43 months compared to 30 months with Revlimid (lenalidomide) plus dexamethasone, and a response rate of 81.5% (176/216) compared to 71.5% (153/214) with Revlimid (lenalidomide) plus dexamethasone in myeloma patients (PMID: 28017406).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3342,
+                "therapyName": "Bortezomib + Dexamethasone + Lenalidomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 70004,
+                "name": "myeloid neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7654,
+                    "pubMedId": 28017406,
+                    "title": "Bortezomib with lenalidomide and dexamethasone versus lenalidomide and dexamethasone alone in patients with newly diagnosed myeloma without intent for immediate autologous stem-cell transplant (SWOG S0777): a randomised, open-label, phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28017406"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01885897",
+            "title": "IL-15 Super Agonist ALT-803 to Treat Relapse Of Hematologic Malignancy After Allogeneic SCT",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02420860",
+            "title": "Study of Elotuzumab With Lenalidomide as Maintenance After Autologous Stem Cell Transplant (ASCT)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5972,
+                    "therapyName": "Famotidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 3430,
+                    "therapyName": "Elotuzumab + Lenalidomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1275,
+                    "therapyName": "Diphenhydramine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02506959",
+            "title": "Panobinostat Combined With High-Dose Gemcitabine/Busulfan/Melphalan With Autologous Stem Cell Transplant for Patients With Refractory/Relapsed Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2558,
+                    "therapyName": "Busulfan + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 3277,
+                    "therapyName": "Pyridoxine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1080,
+                    "therapyName": "Panobinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2373,
+                    "therapyName": "Palifermin",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02843074",
+            "title": "Elotuzumab, Lenalidomide and Dexamethasone (ERd) in the Induction, Consolidation and Maintenance Treatment of Transplant-Eligible, Newly Diagnosed Multiple Myeloma Patients",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3353,
+                    "therapyName": "Dexamethasone + Elotuzumab + Lenalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02969837",
+            "title": "Study of Initial Treatment With Elotuzumab, Carfilzomib, Lenalidomide and Dexamethasone in Multiple Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5033,
+                    "therapyName": "Carfilzomib + Dexamethasone + Elotuzumab + Lenalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03531918",
+            "title": "Gemtuzumab Ozogamicin With G-CSF, Cladribine, Cytarabine and Mitoxantrone in Treating Participants With Previously Untreated Acute Myeloid Leukemia or High-Grade Myeloid Neoplasm",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7904,
+                    "therapyName": "Cladribine + Cytarabine + Filgrastim + Gemtuzumab ozogamicin + Mitoxantrone",
+                    "synonyms": null
+                },
+                {
+                    "id": 7905,
+                    "therapyName": "Cladribine + Cytarabine + Filgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03862157",
+            "title": "Azacitidine, Venetoclax, and Pevonedistat in Treating Patients With Newly Diagnosed Acute Myeloid Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7993,
+                    "therapyName": "Azacitidine + MLN4924 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04189445",
+            "title": "Futibatinib in Patients With Specific FGFR Aberrations",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1053,
+                    "therapyName": "Futibatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04195945",
+            "title": "CPX-351 or CLAG-M Regimen for the Treatment of Acute Myeloid Leukemia or Other High-Grade Myeloid Neoplasms in Medically Less-Fit Patients",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4341,
+                    "therapyName": "CPX-351",
+                    "synonyms": null
+                },
+                {
+                    "id": 4363,
+                    "therapyName": "Cladribine + Cytarabine + Filgrastim + Mitoxantrone",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,741 @@
+{
+    "id": 2226,
+    "name": "myeloproliferative neoplasm",
+    "source": "DOID",
+    "definition": "A myeloid neoplasm that is characterized by a group of slow growing blood cancers in which large numbers of abnormal red blood cells, white blood cells, or platelets grow and spread in the bone marrow and the peripheral blood. [url:http\\://www.bloodjournal.org/content/114/5/937.long, url:http\\://www.cancer.gov/cancertopics/types/myeloproliferative]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "6002"
+    ],
+    "termId": "DOID:2226",
+    "evidence": [
+        {
+            "id": 4039,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, primary cells from 8p11 myeloproliferative syndrome patients harboring FGFR1 rearrangement were sensitive to Dovitinib (TKI258)-induced growth inhibition in culture (PMID: 17698633).",
+            "molecularProfile": {
+                "id": 1276,
+                "profileName": "FGFR1 rearrange"
+            },
+            "therapy": {
+                "id": 721,
+                "therapyName": "Dovitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4384,
+                    "pubMedId": 17698633,
+                    "title": "Activity of TKI258 against primary cells and cell lines with FGFR1 fusion genes associated with the 8p11 myeloproliferative syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17698633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17405,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial that supported FDA approval, Gleevec (imatinib) resulted in complete response in 35.7% (5/14) and partial response in 7.1% (1/14) of patients with hypereosinophilic syndrome, and responses were demonstrated in the 3 patients of 7 screened that harbored FIP1L1-PDGFRA, while none of the 4 patients that were negative for FIP1L1-PDGFRA demonstrated responses (PMID: 18451237).",
+            "molecularProfile": {
+                "id": 7080,
+                "profileName": "FIP1L1 - PDGFRA"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6183,
+                    "pubMedId": 18451237,
+                    "title": "Phase II, open-label study evaluating the activity of imatinib in treating life-threatening malignancies known to be associated with imatinib-sensitive tyrosine kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18451237"
+                },
+                {
+                    "id": 15459,
+                    "pubMedId": null,
+                    "title": "Gleevec (imatinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=021588"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4388,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, 100% (16/16) of patients with chronic eosinophilic leukemia harboring FIP1L1-PDGFRA demonstrated a complete hematological remission after 3 months, and 75% (12/16) demonstrated a complete molecular remission by 6 months following treatment with Gleevec (imatinib) (PMID: 18950453).",
+            "molecularProfile": {
+                "id": 7080,
+                "profileName": "FIP1L1 - PDGFRA"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4510,
+                    "pubMedId": 18950453,
+                    "title": "Safety and efficacy of imatinib in chronic eosinophilic leukaemia and hypereosinophilic syndrome: a phase-II study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18950453"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6185,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited colony growth in cells derived from patients with 8p11 myeloproliferative syndrome harboring ZMYM2-FGFR1 in culture (PMID: 22875613).",
+            "molecularProfile": {
+                "id": 17529,
+                "profileName": "ZMYM2 - FGFR1"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5786,
+                    "pubMedId": 22875613,
+                    "title": "Ponatinib as targeted therapy for FGFR1 fusions associated with the 8p11 myeloproliferative syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22875613"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6186,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited colony growth in cells derived from patients with 8p11 myeloproliferative syndrome harboring BCR-FGFR1 in culture (PMID: 22875613).",
+            "molecularProfile": {
+                "id": 17379,
+                "profileName": "BCR - FGFR1"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5786,
+                    "pubMedId": 22875613,
+                    "title": "Ponatinib as targeted therapy for FGFR1 fusions associated with the 8p11 myeloproliferative syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22875613"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6187,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited colony growth in cells derived from a patient with 8p11 myeloproliferative syndrome harboring CEP43-FGFR1 in culture (PMID: 22875613).",
+            "molecularProfile": {
+                "id": 24414,
+                "profileName": "CEP43 - FGFR1"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5786,
+                    "pubMedId": 22875613,
+                    "title": "Ponatinib as targeted therapy for FGFR1 fusions associated with the 8p11 myeloproliferative syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22875613"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13267,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Gleevec (imatinib mesylate) treatment resulted in rapid normalization of blood count in a patient with myeloproliferative neoplasm harboring NUMA1-PDGFRB fusion (PMID: 28449810).",
+            "molecularProfile": {
+                "id": 29048,
+                "profileName": "NUMA1 - PDGFRB"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11028,
+                    "pubMedId": 28449810,
+                    "title": "Novel t(5;11)(q32;q13.4) with NUMA1-PDGFRB fusion in a myeloid neoplasm with eosinophilia with response to imatinib mesylate.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28449810"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13570,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BMS-911543 inhibited colony growth in myeloproliferative neoplasm patient-derived hematopoetic progenitor cells harboring MPL W515L in culture (PMID: 22015772).",
+            "molecularProfile": {
+                "id": 589,
+                "profileName": "MPL W515L"
+            },
+            "therapy": {
+                "id": 2779,
+                "therapyName": "BMS-911543",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2934,
+                    "pubMedId": 22015772,
+                    "title": "Characterization of BMS-911543, a functionally selective small-molecule inhibitor of JAK2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22015772"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13571,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BMS-911543 inhibited colony growth in myeloproliferative neoplasm patient-derived hematopoetic progenitor cells harboring JAK2 V617F in culture (PMID: 22015772).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 2779,
+                "therapyName": "BMS-911543",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2934,
+                    "pubMedId": 22015772,
+                    "title": "Characterization of BMS-911543, a functionally selective small-molecule inhibitor of JAK2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22015772"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13574,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with Gandotinib (LY2784544) demonstrated safety in myeloproliferative neoplasm patients harboring JAK2 V617F and resulted in clinical improvement as best response in 29% (9/31) patients with myelofibrosis (PMID: 28934680).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 801,
+                "therapyName": "LY2784544",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11197,
+                    "pubMedId": 28934680,
+                    "title": "A phase 1 study of the Janus kinase 2 (JAK2)V617F inhibitor, gandotinib (LY2784544), in patients with primary myelofibrosis, polycythemia vera, and essential thrombocythemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28934680"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15417,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Gleevec (imatinib mesylate) treatment resulted in remission for greater than three years in a patient with a myeloproliferative neoplasm harboring a CEP85L-PDGFRB fusion (PMID: 23186533).",
+            "molecularProfile": {
+                "id": 31020,
+                "profileName": "CEP85L - PDGFRB"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12894,
+                    "pubMedId": 23186533,
+                    "title": "Recurrent CEP85L-PDGFRB fusion in patient with t(5;6) and imatinib-responsive myeloproliferative neoplasm with eosinophilia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23186533"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18320,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ropeginterferon treatment resulted in dose-dependent inhibition of cell proliferation in myeloproliferative neoplasm cell lines harboring JAK2 V617F in culture (PMID: 30287855).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 8691,
+                "therapyName": "Ropeginterferon",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2226,
+                "name": "myeloproliferative neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16080,
+                    "pubMedId": 30287855,
+                    "title": "Ropeginterferon alpha-2b targets JAK2V617F-positive polycythemia vera cells in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30287855"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00074490",
+            "title": "Donor Stem Cell Transplant With No or Low-Intensity Chemotherapy Using Sirolimus and Treated Immune Cells to Treat Blood and Lymph Cancers",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1650,
+                    "therapyName": "Cyclosporine",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02393248",
+            "title": "Open-Label, Dose-Escalation Study of Pemigatinib in Subjects With Advanced Malignancies - (FIGHT-101)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4176,
+                    "therapyName": "Cisplatin + Gemcitabine + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4174,
+                    "therapyName": "Docetaxel + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8250,
+                    "therapyName": "INCMGA00012 + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8249,
+                    "therapyName": "Pemigatinib + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4088,
+                    "therapyName": "Epacadostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02556931",
+            "title": "Shorter Course Tacro After NMA, Related Donor PBSCT With High-dose Posttransplant Cy for Hard-to-Engraft Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4228,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Melphalan + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02677922",
+            "title": "A Safety and Efficacy Study of Oral AG-120 Plus Subcutaneous Azacitidine and Oral AG-221 Plus Subcutaneous Azacitidine in Subjects With Newly Diagnosed Acute Myeloid Leukemia (AML)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4002,
+                    "therapyName": "Azacitidine + Ivosidenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4003,
+                    "therapyName": "Azacitidine + Enasidenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02722668",
+            "title": "UCB Transplant for Hematological DIseases Using a Non Myeloablative Prep",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2281,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02795520",
+            "title": "Pharmacological Study of Intravenous OTS167 in Patients With Refractory or Relapsed Acute Myeloid Leukemia, Acute Lymphoblastic Leukemia, Advanced Myelodysplastic Syndromes, Advanced Myeloproliferative Neoplastic Disorders, or Advanced Chronic Myelogenous Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3951,
+                    "therapyName": "OTS167",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890758",
+            "title": "Phase I Trial of Universal Donor NK Cell Therapy in Combination With ALT803",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03289910",
+            "title": "Topotecan Hydrochloride and Carboplatin With or Without Veliparib in Treating Advanced Myeloproliferative Disorders and Acute Myeloid Leukemia or Chronic Myelomonocytic Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5341,
+                    "therapyName": "Carboplatin + Topotecan + Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 7710,
+                    "therapyName": "Carboplatin + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03386513",
+            "title": "Study of IMGN632 in Patients With Relapse/Refractory AML, BPDCN, ALL, Other CD123+ Hem Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7340,
+                    "therapyName": "IMGN632",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03471260",
+            "title": "Study of Venetoclax With the mIDH1 Inhibitor Ivosidenib (AG120) in IDH1-Mutated Hematologic Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7991,
+                    "therapyName": "Ivosidenib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03807063",
+            "title": "Rivogenlecleucel Donor Lymphocyte Immunotherapy in Treating Patients With Recurrent Blood Cancers After Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Enrolling by invitation",
+            "therapies": [
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                },
+                {
+                    "id": 6053,
+                    "therapyName": "BPX-501",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03862157",
+            "title": "Azacitidine, Venetoclax, and Pevonedistat in Treating Patients With Newly Diagnosed Acute Myeloid Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7993,
+                    "therapyName": "Azacitidine + MLN4924 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04016116",
+            "title": "Dual PD-1 and JAK2 Inhibition in Hematological Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 5227,
+                    "therapyName": "Pembrolizumab + Ruxolitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04022785",
+            "title": "PLX51107 and Azacitidine in Treating Patients With Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8600,
+                    "therapyName": "Azacitidine + PLX51107",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04089449",
+            "title": "A Study of PRT811 in Participants With Advanced Solid Tumors, Gliomas and Myelofibrosis",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9227,
+                    "therapyName": "PRT811",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04092179",
+            "title": "Study of Enasidenib and Venetoclax in IDH2-Mutated Blood Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8752,
+                    "therapyName": "Enasidenib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04146038",
+            "title": "Salsalate, Venetoclax, and Decitabine or Azacitidine for the Treatment of Acute Myeloid Leukemia or Advanced Myelodysplasia/Myeloproliferative Disease",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8892,
+                    "therapyName": "Decitabine + Salsalate + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 8893,
+                    "therapyName": "Azacitidine + Salsalate + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04281498",
+            "title": "Combined Ruxolitinib and Enasidenib in Patients With Accelerated/Blast-phase Myeloproliferative Neoplasm or Chronic-phase Myelofibrosis With an IDH2 Mutation",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9426,
+                    "therapyName": "Enasidenib + Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04282187",
+            "title": "Decitabine With Ruxolitinib or Fedratinib for the Treatment of Accelerated/Blast Phase Myeloproliferative Neoplasms",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9427,
+                    "therapyName": "Decitabine + Fedratinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1735,
+                    "therapyName": "Decitabine + Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

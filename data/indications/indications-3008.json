@@ -1,0 +1,160 @@
+{
+    "id": 3008,
+    "name": "invasive ductal carcinoma",
+    "source": "DOID",
+    "definition": "A breast ductal carcinoma that is characterized by infiltration into the fibrous or fatty tissue of the breast outside of the duct where it originated. [url:https\\://www.hopkinsmedicine.org/breast_center/breast_cancers_other_conditions/invasive_ductal_carcinoma.html, url:https\\://www.ncbi.nlm.nih.gov/pubmed/25343550]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "3005"
+    ],
+    "termId": "DOID:3008",
+    "evidence": [
+        {
+            "id": 8822,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast invasive ductal carcinoma cells harboring BRCA1 E23Vfs*17 (also referred to as BRCA1 185delAG) acquired resistance to Rubraca (rucaparib) both in culture and in cell line xenograft models through the expression of a RING-less Brca1 protein utilizing an in-frame translation start site downstream of the mutation (PMID: 27454289).",
+            "molecularProfile": {
+                "id": 26390,
+                "profileName": "BRCA1 E23Vfs*17"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3008,
+                "name": "invasive ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6763,
+                    "pubMedId": 27454289,
+                    "title": "RING domain-deficient BRCA1 promotes PARP inhibitor and platinum resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27454289"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8823,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast invasive ductal carcinoma cells harboring BRCA1 E23Vfs*17 (also referred to as BRCA1 185delAG) acquired resistance to Platinol (cisplatin) both in culture and in cell line xenograft models through the expression of a RING-less Brca1 protein utilizing an in-frame translation start site downstream of the mutation (PMID: 27454289).",
+            "molecularProfile": {
+                "id": 26390,
+                "profileName": "BRCA1 E23Vfs*17"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3008,
+                "name": "invasive ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6763,
+                    "pubMedId": 27454289,
+                    "title": "RING domain-deficient BRCA1 promotes PARP inhibitor and platinum resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27454289"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02779855",
+            "title": "Talimogene Laherparepvec in Combination With Neoadjuvant Chemotherapy in Triple Negative Breast Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7114,
+                    "therapyName": "Paclitaxel + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03596073",
+            "title": "Topical Calcipotriene Treatment for Breast Cancer Immunoprevention",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3695,
+                    "therapyName": "calcipotriene",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03725059",
+            "title": "Study of Pembrolizumab (MK-3475) Versus Placebo in Combination With Neoadjuvant Chemotherapy & Adjuvant Endocrine Therapy in the Treatment of Early-Stage Estrogen Receptor-Positive, Human Epidermal Growth Factor Receptor 2-Negative (ER+/HER2-) Breast Cancer (MK-3475-756/KEYNOTE-756)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7723,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6882,
+                    "therapyName": "Cyclophosphamide + Epirubicin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1495,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 7722,
+                    "therapyName": "Cyclophosphamide + Epirubicin + Paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04129216",
+            "title": "The Effects of Short-term Preoperative Treatment With Hormonal Therapy on Gene Profiles in Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 794,
+                    "therapyName": "Letrozole",
+                    "synonyms": null
+                },
+                {
+                    "id": 1456,
+                    "therapyName": "Tamoxifen",
+                    "synonyms": null
+                },
+                {
+                    "id": 738,
+                    "therapyName": "Exemestane",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

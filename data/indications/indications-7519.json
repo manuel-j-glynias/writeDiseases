@@ -1,0 +1,48 @@
+{
+    "id": 7519,
+    "name": "endocervical carcinoma",
+    "source": "DOID",
+    "definition": "A cervix carcinoma that is located_in the endocervix. [url:https\\://www.ncbi.nlm.nih.gov/pubmed/2067992]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:7519",
+    "evidence": [
+        {
+            "id": 2139,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 inhibited proliferation of endometrial cancer cells harboring PIK3CA E365K and PTEN mutations in culture (PMID: 22662154).",
+            "molecularProfile": {
+                "id": 5401,
+                "profileName": "PIK3CA E365K PTEN mut"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7519,
+                "name": "endocervical carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 348,
+                    "pubMedId": 22662154,
+                    "title": "Genotype-dependent efficacy of a dual PI3K/mTOR inhibitor, NVP-BEZ235, and an mTOR inhibitor, RAD001, in endometrial carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22662154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

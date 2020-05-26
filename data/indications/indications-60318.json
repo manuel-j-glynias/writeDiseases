@@ -1,0 +1,840 @@
+{
+    "id": 60318,
+    "name": "acute promyelocytic leukemia",
+    "source": "DOID",
+    "definition": "An acute myeloid leukemia characterized by accumulation of promyelocytes in the bone marrow and by a translocation between chromosomes 15 and 17. [url:http\\://en.wikipedia.org/wiki/Acute_promyelocytic_leukemia, url:http\\://ghr.nlm.nih.gov/condition/acute-promyelocytic-leukemia]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0060318",
+    "evidence": [
+        {
+            "id": 4389,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In clinical studies that supported FDA approval, treatment with Tretinoin in acute promyelocytic leukemia patients harboring PML-RARA induced remission and resulted in improved survival when compared to chemotherapeutics (PMID: 8291820, PMID: 8712802, PMID: 1850498).",
+            "molecularProfile": {
+                "id": 2571,
+                "profileName": "PML - RARA"
+            },
+            "therapy": {
+                "id": 1877,
+                "therapyName": "Tretinoin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4511,
+                    "pubMedId": 8291820,
+                    "title": "All-trans retinoic acid for acute promyelocytic leukemia. Results of the New York Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8291820"
+                },
+                {
+                    "id": 4512,
+                    "pubMedId": 1850498,
+                    "title": "Differentiation therapy of acute promyelocytic leukemia with tretinoin (all-trans-retinoic acid).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/1850498"
+                },
+                {
+                    "id": 10792,
+                    "pubMedId": 8712802,
+                    "title": "Pathogenesis and management of acute promyelocytic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8712802"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4722,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical trial that supported FDA approval, treatment with Trisenox (arsenic trioxide) resulted in complete remission in 85% (34/40) of acute promyelocytic leukemia patients harboring PML-RARA, with conversion to no detectable PML-RARA fusion in 86% of patients assessed by RT-PCR (PMID: 11559723).",
+            "molecularProfile": {
+                "id": 2571,
+                "profileName": "PML - RARA"
+            },
+            "therapy": {
+                "id": 640,
+                "therapyName": "Arsenic trioxide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10759,
+                    "pubMedId": 11559723,
+                    "title": "United States multicenter study of arsenic trioxide in relapsed acute promyelocytic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11559723"
+                },
+                {
+                    "id": 15572,
+                    "pubMedId": null,
+                    "title": "Trisenox (arsenic trioxide) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021248"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5069,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PI-103 treatment inhibited proliferation and induced apoptosis in primary patient-derived acute promyelocytic leukemia cells with elevated Pik3cb and decreased Pik3ca protein expression in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20234,
+                "profileName": "PIK3CA dec exp PIK3CB over exp"
+            },
+            "therapy": {
+                "id": 870,
+                "therapyName": "PI-103",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5070,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY294002 inhibited proliferation of primary patient-derived acute promyelocytic leukemia cells with elevated Pik3cb and decreased Pik3ca protein expression in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20234,
+                "profileName": "PIK3CA dec exp PIK3CB over exp"
+            },
+            "therapy": {
+                "id": 1062,
+                "therapyName": "LY294002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5071,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TGX-221 treatment inhibited proliferation and induced apoptosis in primary patient-derived acute promyelocytic leukemia cells with elevated Pik3cb and decreased Pik3ca protein expression in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20234,
+                "profileName": "PIK3CA dec exp PIK3CB over exp"
+            },
+            "therapy": {
+                "id": 2514,
+                "therapyName": "TGX-221",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5072,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, IC87114 inhibited proliferation and induced apoptosis in primary patient-derived acute promyelocytic leukemia cells with elevated Pik3cb and decreased Pik3ca protein expression in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20234,
+                "profileName": "PIK3CA dec exp PIK3CB over exp"
+            },
+            "therapy": {
+                "id": 3504,
+                "therapyName": "IC87114",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5073,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rapamune (sirolimus) inhibited proliferation and induced apoptosis in primary patient-derived acute promyelocytic leukemia cells with elevated Pik3cb and decreased Pik3ca protein expression in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20234,
+                "profileName": "PIK3CA dec exp PIK3CB over exp"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5074,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TGX-155 moderately inhibited proliferation of acute promyelocytic leukemia cell lines expressing endogenous Pik3ca, Pik3cb, and Pik3cd in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20238,
+                "profileName": "PIK3CA pos PIK3CB pos PIK3CD pos"
+            },
+            "therapy": {
+                "id": 3503,
+                "therapyName": "TGX-155",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5075,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PI-103 inhibited proliferation of acute promyelocytic leukemia cell lines expressing endogenous Pik3ca, Pik3cb, and Pik3cd in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20238,
+                "profileName": "PIK3CA pos PIK3CB pos PIK3CD pos"
+            },
+            "therapy": {
+                "id": 870,
+                "therapyName": "PI-103",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5076,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY294002 inhibited proliferation and induced apoptosis in acute promyelocytic leukemia cell lines expressing endogenous Pik3ca, Pik3cb, and Pik3cd in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20238,
+                "profileName": "PIK3CA pos PIK3CB pos PIK3CD pos"
+            },
+            "therapy": {
+                "id": 1062,
+                "therapyName": "LY294002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5077,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, IC87114 moderately inhibited proliferation of acute promyelocytic leukemia cell lines expressing endogenous Pik3ca, Pik3cb, and Pik3cd in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20238,
+                "profileName": "PIK3CA pos PIK3CB pos PIK3CD pos"
+            },
+            "therapy": {
+                "id": 3504,
+                "therapyName": "IC87114",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5078,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rapamune (sirolimus) moderately inhibited proliferation of acute promyelocytic leukemia cell lines expressing endogenous Pik3ca, Pik3cb, and Pik3cd in culture (PMID: 19176369).",
+            "molecularProfile": {
+                "id": 20238,
+                "profileName": "PIK3CA pos PIK3CB pos PIK3CD pos"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4874,
+                    "pubMedId": 19176369,
+                    "title": "Inhibition of class I phosphoinositide 3-kinase activity impairs proliferation and triggers apoptosis in acute promyelocytic leukemia without affecting atra-induced differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5515,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In clinical case study, a patient with acute promyelocytic leukemia harboring PML-RARA treated with arsenic trioxide initially demonstrated a response, but subsequently developed resistance due to a secondary mutation, PML L218P (PMID: 21613260).",
+            "molecularProfile": {
+                "id": 20956,
+                "profileName": "PML - RARA PML L218P"
+            },
+            "therapy": {
+                "id": 640,
+                "therapyName": "Arsenic trioxide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5077,
+                    "pubMedId": 21613260,
+                    "title": "Missense mutations in PML-RARA are critical for the lack of responsiveness to arsenic trioxide treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21613260"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5516,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with acute promyelocytic leukemia harboring PML-RARA treated with arsenic trioxide initially demonstrated a response, but subsequently developed resistance due to a secondary mutation, PML A216V (PMID: 21613260).",
+            "molecularProfile": {
+                "id": 20957,
+                "profileName": "PML - RARA PML A216V"
+            },
+            "therapy": {
+                "id": 640,
+                "therapyName": "Arsenic trioxide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5077,
+                    "pubMedId": 21613260,
+                    "title": "Missense mutations in PML-RARA are critical for the lack of responsiveness to arsenic trioxide treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21613260"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7511,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, a 40.6 month follow-up of acute promyelocytic leukemia (APL) patients treated with the combination of Vesanoid (tretinoin) and Trisenox (arsenic trioxide) demonstrated a better event-free survival, cumulative incidence of relapse, and overall survival when compared to APL patients treated with the combination of Vesanoid (tretinoin) and chemotherapy (PMID: 27400939).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3687,
+                "therapyName": "Arsenic trioxide + Tretinoin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6387,
+                    "pubMedId": 27400939,
+                    "title": "Improved Outcomes With Retinoic Acid and Arsenic Trioxide Compared With Retinoic Acid and Chemotherapy in Non-High-Risk Acute Promyelocytic Leukemia: Final Results of the Randomized Italian-German APL0406 Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27400939"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7912,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with acute promyelocytic leukemia harboring BCOR-RARA demonstrated sensitivity to treatment with Vesanoid (tretinoin) and achieved a complete response (PMID: 25790901).",
+            "molecularProfile": {
+                "id": 24667,
+                "profileName": "BCOR - RARA"
+            },
+            "therapy": {
+                "id": 1877,
+                "therapyName": "Tretinoin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6523,
+                    "pubMedId": 25790901,
+                    "title": "Successful treatment of acute promyelocytic leukemia with a t(X;17)(p11.4;q21) and BCOR-RARA fusion gene.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25790901"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11375,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with acute promyelocytic leukemia harboring FLT3 D835Y demonstrated a complete molecular remission after treatment with Trisenox (arsenic trioxide) and Vesanoid (tretinoin) combined with Cytosar-U (cytarabine) and Methotrexate (PMID: 27626069).",
+            "molecularProfile": {
+                "id": 3153,
+                "profileName": "FLT3 D835Y"
+            },
+            "therapy": {
+                "id": 5965,
+                "therapyName": "Arsenic trioxide + Cytarabine + Methotrexate + Tretinoin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9268,
+                    "pubMedId": 27626069,
+                    "title": "Evolution of a FLT3-TKD mutated subclone at meningeal relapse in acute promyelocytic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27626069"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11376,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with acute promyelocytic leukemia developed meningeal relapse after maintenance therapy with Vesanoid (tretinoid), which was found to be due to a FLT3 D835Y variant (PMID: 27626069).",
+            "molecularProfile": {
+                "id": 3153,
+                "profileName": "FLT3 D835Y"
+            },
+            "therapy": {
+                "id": 1877,
+                "therapyName": "Tretinoin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9268,
+                    "pubMedId": 27626069,
+                    "title": "Evolution of a FLT3-TKD mutated subclone at meningeal relapse in acute promyelocytic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27626069"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11681,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EDO-S101 and Kyprolis (carfilzomib) worked synergistically to decrease viability of an acute promyelocytic leukemia cell line in culture (PMID: 28753594).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6106,
+                "therapyName": "Carfilzomib + Tinostamustine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9700,
+                    "pubMedId": 28753594,
+                    "title": "The first-in-class alkylating HDAC inhibitor EDO-S101 is highly synergistic with proteasome inhibition against multiple myeloma through activation of multiple pathways.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28753594"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11685,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EDO-S101 and Velcade (bortezomib) worked synergistically to decrease viability of an acute promyelocytic leukemia cell line in culture (PMID: 28753594).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6105,
+                "therapyName": "Bortezomib + Tinostamustine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9700,
+                    "pubMedId": 28753594,
+                    "title": "The first-in-class alkylating HDAC inhibitor EDO-S101 is highly synergistic with proteasome inhibition against multiple myeloma through activation of multiple pathways.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28753594"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13268,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tretinoin (all-trans retinoic acid) treatment resulted in complete remission in a patient with acute promyelocytic leukemia harboring NUMA1-RARA (PMID: 9288109).",
+            "molecularProfile": {
+                "id": 29051,
+                "profileName": "NUMA1 - RARA"
+            },
+            "therapy": {
+                "id": 1877,
+                "therapyName": "Tretinoin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11031,
+                    "pubMedId": 9288109,
+                    "title": "Fusion of retinoic acid receptor alpha to NuMA, the nuclear mitotic apparatus protein, by a variant translocation in acute promyelocytic leukaemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9288109"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18740,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, A-366 inhibited cell proliferation in an EHMT2-positive acute promyelocytic leukemia cell line in culture (PMID: 26147105).",
+            "molecularProfile": {
+                "id": 33565,
+                "profileName": "EHMT2 positive"
+            },
+            "therapy": {
+                "id": 8827,
+                "therapyName": "A-366",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16422,
+                    "pubMedId": 26147105,
+                    "title": "The Histone Methyltransferase Inhibitor A-366 Uncovers a Role for G9a/GLP in the Epigenetics of Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26147105"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19569,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CD4CAR-expressing natural killer cells induced tumor cell lysis when co-cultured with a CD4-positive acute promyelocytic leukemia cell line in culture (PMID: 29348865).",
+            "molecularProfile": {
+                "id": 34220,
+                "profileName": "CD4 positive"
+            },
+            "therapy": {
+                "id": 9084,
+                "therapyName": "CD4CAR",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17177,
+                    "pubMedId": 29348865,
+                    "title": "Targeting T-cell malignancies using anti-CD4 CAR NK-92 cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29348865"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20820,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a cell line xenograft model of acute promyelocytic leukemia expressing CD33 and consisting of human natural killer cells treated with GTB-3550 TriKE reduced tumor burden (PMID: 26847056).",
+            "molecularProfile": {
+                "id": 27618,
+                "profileName": "CD33 positive"
+            },
+            "therapy": {
+                "id": 9469,
+                "therapyName": "GTB-3550 TriKE",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60318,
+                "name": "acute promyelocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18074,
+                    "pubMedId": 26847056,
+                    "title": "IL15 Trispecific Killer Engagers (TriKE) Make Natural Killer Cells Specific to CD33+ Targets While Also Inducing Persistence, In Vivo Expansion, and Enhanced Function.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26847056"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01409161",
+            "title": "Acute Promyelocytic Leukemia (APL) Treated With ATRA, Arsenic Trioxide and Gemtuzumab Ozogamicin",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3685,
+                    "therapyName": "Arsenic trioxide + Gemtuzumab ozogamicin + Tretinoin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01869803",
+            "title": "Gemtuzumab Ozogamicin in Treating Patients With Relapsed or Refractory Acute Myeloid Leukemia or Acute Promyelocytic Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Approved for marketing",
+            "therapies": [
+                {
+                    "id": 756,
+                    "therapyName": "Gemtuzumab ozogamicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02339740",
+            "title": "Tretinoin and Arsenic Trioxide in Treating Patients With Untreated Acute Promyelocytic Leukemia",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3686,
+                    "therapyName": "Cytarabine + Dexamethasone + Idarubicin + Mitoxantrone",
+                    "synonyms": null
+                },
+                {
+                    "id": 3685,
+                    "therapyName": "Arsenic trioxide + Gemtuzumab ozogamicin + Tretinoin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03674411",
+            "title": "Trial Evaluating MGTA-456 in Patients With High-Risk Malignancy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9613,
+                    "therapyName": "Busulfan + Filgrastim + Fludarabine + Melphalan + MGTA-456 + Mycophenolate mofetil + Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 9612,
+                    "therapyName": "Cyclophosphamide + Filgrastim + Fludarabine + MGTA-456 + Mycophenolate mofetil + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

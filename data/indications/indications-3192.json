@@ -1,0 +1,184 @@
+{
+    "id": 3192,
+    "name": "neurilemmoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3192",
+    "evidence": [
+        {
+            "id": 2237,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) inhibited PDGFRB, ERK1/2, and AKT activity and blocked cell proliferation in cultured human primary schwannomas deficient in NF2 (PMID: 18593924).",
+            "molecularProfile": {
+                "id": 6530,
+                "profileName": "NF2 loss"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3192,
+                "name": "neurilemmoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2821,
+                    "pubMedId": 18593924,
+                    "title": "Dissecting and targeting the growth factor-dependent and growth factor-independent extracellular signal-regulated kinase pathway in human schwannoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18593924"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2240,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AR-42 reduced activation of AKT and inhibited growth NF2-deficient primary human schwannoma cells and schwannoma cell lines in culture, and induced apoptosis and inhibited tumor growth in cell line xenograft models of NF2-deficient malignant schwannoma (PMID: 21778190).",
+            "molecularProfile": {
+                "id": 6530,
+                "profileName": "NF2 loss"
+            },
+            "therapy": {
+                "id": 987,
+                "therapyName": "AR-42",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3192,
+                "name": "neurilemmoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2816,
+                    "pubMedId": 21778190,
+                    "title": "AR42, a novel histone deacetylase inhibitor, as a potential therapy for vestibular schwannomas and meningiomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21778190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2248,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) inhibited growth and viability of human schwannoma cell lines deficient in NF2 (PMID: 19509233).",
+            "molecularProfile": {
+                "id": 6530,
+                "profileName": "NF2 loss"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3192,
+                "name": "neurilemmoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2831,
+                    "pubMedId": 19509233,
+                    "title": "Human schwannomas express activated platelet-derived growth factor receptors and c-kit and are growth inhibited by Gleevec (Imatinib Mesylate).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19509233"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11321,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human schwann cells expressing SH3PXD2A-HTRA1 demonstrated cell growth inhibition and abrogated expression of phosphorylated Mapk and Erk in culture when treated with Mekinist (trametinib) (PMID: 27723760).",
+            "molecularProfile": {
+                "id": 27958,
+                "profileName": "SH3PXD2A - HTRA1"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3192,
+                "name": "neurilemmoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9239,
+                    "pubMedId": 27723760,
+                    "title": "The genomic landscape of schwannoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27723760"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11322,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human schwann cells harboring a NF2 mutation and expressing SH3PXD2A-HTRA1 demonstrated cell growth inhibition and abrogated expression of phosphorylated Mapk and Erk in culture when treated with Mekinist (trametinib) (PMID: 27723760).",
+            "molecularProfile": {
+                "id": 27959,
+                "profileName": "SH3PXD2A - HTRA1 NF2 mut"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3192,
+                "name": "neurilemmoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9239,
+                    "pubMedId": 27723760,
+                    "title": "The genomic landscape of schwannoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27723760"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03095248",
+            "title": "Trial of Selumetinib in Patients With Neurofibromatosis Type II Related Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

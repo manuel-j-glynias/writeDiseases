@@ -1,0 +1,409 @@
+{
+    "id": 8691,
+    "name": "mycosis fungoides",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "8737"
+    ],
+    "termId": "DOID:8691",
+    "evidence": [
+        {
+            "id": 9559,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ALCANZA) that supported FDA approval, Adcetris (brentuximab vedotin) treatment resulted in an objective response lasting at least 4 months in 56.3% (36/64) of patients with previously treated TNFRSF8-positive mycosis fungoides (n=48) or primary cutaneous anaplastic large-cell lymphoma (n=16) (PMID: 28600132; NCT01578499).",
+            "molecularProfile": {
+                "id": 23635,
+                "profileName": "TNFRSF8 positive"
+            },
+            "therapy": {
+                "id": 2486,
+                "therapyName": "Brentuximab vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8691,
+                "name": "mycosis fungoides",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10386,
+                    "pubMedId": 28600132,
+                    "title": "Brentuximab vedotin or physician's choice in CD30-positive cutaneous T-cell lymphoma (ALCANZA): an international, open-label, randomised, phase 3, multicentre trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28600132"
+                },
+                {
+                    "id": 15574,
+                    "pubMedId": null,
+                    "title": "Adcetris (brentuximab vedotin) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125388"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14980,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (MAVORIC) that supported FDA approval, Poteligeo (mogamulizumab-kpkc) treatment resulted in significantly improved progression-free survival (7.7 vs 3.1 months, HR=0.53, p<0.0001) and objective response rate (28.0% vs 4.8%) compared to Zolinza (vorinostat) in patients with mycosis fungoides or S\u00e9zary syndrome (Blood 2017 130(Suppl 1):817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2968,
+                "therapyName": "Mogamulizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8691,
+                "name": "mycosis fungoides",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11927,
+                    "pubMedId": null,
+                    "title": "Anti-CCR4 Monoclonal Antibody, Mogamulizumab, Demonstrates Significant Improvement in PFS Compared to Vorinostat in Patients with Previously Treated Cutaneous T-Cell Lymphoma (CTCL): Results from the Phase III MAVORIC Study",
+                    "url": "http://www.bloodjournal.org/content/130/Suppl_1/817"
+                },
+                {
+                    "id": 15661,
+                    "pubMedId": null,
+                    "title": "Poteligeo (mogamulizumab-kpkc) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761051"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17946,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, IPH4102 demonstrated safety, and treatment resulted in a median progression-free survival of 3.9 months, and a response in 1 and stable disease in 7 of 8 patients with mycosis fungoides (PMID: 31253572; NCT02593045).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8650,
+                "therapyName": "IPH4102",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8691,
+                "name": "mycosis fungoides",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15919,
+                    "pubMedId": 31253572,
+                    "title": "IPH4102, a first-in-class anti-KIR3DL2 monoclonal antibody, in patients with relapsed or refractory cutaneous T-cell lymphoma: an international, first-in-human, open-label, phase 1 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31253572"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01976585",
+            "title": "In Situ Vaccine for Low-Grade Lymphoma: Combination of Intratumoral Flt3L and Poly-ICLC With Low-Dose Radiotherapy",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4337,
+                    "therapyName": "CDX-301 + Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02232516",
+            "title": "Romidepsin and Lenalidomide in Treating Patients With Previously Untreated Peripheral T-Cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8060,
+                    "therapyName": "Lenalidomide + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02542124",
+            "title": "NM-IL-12 in Cutaneous T-Cell Lymphoma (CTCL) Undergoing Total Skin Electron Beam Therapy (TSEBT)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5262,
+                    "therapyName": "Interleukin-12",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02580552",
+            "title": "Safety, Tolerability and Pharmacokinetics of MRG-106 in Patients With Mycosis Fungoides (MF), CLL, DLBCL or ATLL",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7304,
+                    "therapyName": "MRG-106",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02616965",
+            "title": "A Study to Assess the Feasibility of Romidepsin Combined With Brentuximab Vedotin in Cutaneous T-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8061,
+                    "therapyName": "Brentuximab vedotin + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890368",
+            "title": "Trial of Intratumoral Injections of TTI-621 in Subjects With Relapsed and Refractory Solid Tumors and Mycosis Fungoides",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5338,
+                    "therapyName": "TTI-621",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978625",
+            "title": "Talimogene Laherparepvec and Nivolumab in Treating Patients With Refractory Lymphomas or Advanced or Refractory Non-melanoma Skin Cancers",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5080,
+                    "therapyName": "Nivolumab + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03011814",
+            "title": "Durvalumab With or Without Lenalidomide in Treating Patients With Relapsed or Refractory Cutaneous or Peripheral T Cell Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3934,
+                    "therapyName": "Durvalumab + Lenalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03063632",
+            "title": "Pembrolizumab and Interferon Gamma-1b in Treating Patients With Stage IB-IVB Relapsed or Refractory Mycosis Fungoides and Sezary Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5367,
+                    "therapyName": "interferon gamma + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03075553",
+            "title": "Nivolumab in Treating Patients With Relapsed or Refractory Peripheral T-cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03598998",
+            "title": "Pembrolizumab and Pralatrexate in Treating Participants With Relapsed or Refractory Peripheral T-Cell Lymphomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6356,
+                    "therapyName": "Pembrolizumab + Pralatrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03695471",
+            "title": "Pembrolizumab in Treating Patients With Stage IB-IV Mycosis Fungoides",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03713320",
+            "title": "SOLAR: Efficacy and Safety of Cobomarsen (MRG-106) vs. Active Comparator in Subjects With Mycosis Fungoides (SOLAR)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1077,
+                    "therapyName": "Vorinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 7304,
+                    "therapyName": "MRG-106",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03837457",
+            "title": "PRISM: Efficacy and Safety of Cobomarsen (MRG-106) in Subjects With Mycosis Fungoides Who Have Completed the SOLAR Study (PRISM)",
+            "phase": "Phase II",
+            "recruitment": "Enrolling by invitation",
+            "therapies": [
+                {
+                    "id": 7304,
+                    "therapyName": "MRG-106",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03902184",
+            "title": "IPH4102 Alone or in Combination With Chemotherapy in Patients With Advanced T Cell Lymphoma (TELLOMAK)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8662,
+                    "therapyName": "Gemcitabine + IPH4102 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8650,
+                    "therapyName": "IPH4102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03905135",
+            "title": "Interleukin-15 (IL-5) in Combination With Avelumab (Bavencio) in Relapsed/Refractory Mature T-cell Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8142,
+                    "therapyName": "Avelumab + rhIL-15",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04074746",
+            "title": "Modified Immune Cells (AFM13-NK) and A Monoclonal Antibody (AFM13) in Treating Patients With Recurrent or Refractory CD30 Positive Hodgkin or Non-Hodgkin Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8710,
+                    "therapyName": "AFM13 + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04101331",
+            "title": "Phase II Study to Assess AFM13 in Patients With R/R CD30-positive T-cell Lymphoma or Transformed Mycosis Fungoides (REDIRECT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4389,
+                    "therapyName": "AFM13",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04185220",
+            "title": "Phase I Study of Recombinant Human IL-15 (rhIL-15) and Mogamulizumab for People With Refractory or Relapsed Adult T-Cell Leukemia and Mycosis Fungoides/Sezary Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9034,
+                    "therapyName": "Mogamulizumab + rhIL-15",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04234048",
+            "title": "Phase 1 Trial of ST-001 nanoFenretinide in Relapsed/Refractory T-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2731,
+                    "therapyName": "Fenretinide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04256018",
+            "title": "Mogamulizumab + Low-Dose Total Skin Electron Beam Tx in Mycosis Fungoides & Sezary Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2968,
+                    "therapyName": "Mogamulizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

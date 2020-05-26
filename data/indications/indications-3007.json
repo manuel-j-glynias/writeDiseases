@@ -1,0 +1,48 @@
+{
+    "id": 3007,
+    "name": "breast ductal carcinoma",
+    "source": "DOID",
+    "definition": "A breast carcinoma that derives_from the lining of milk ducts. [url:http\\://cancergenome.nih.gov/cancersselected/breastductal, url:http\\://www.cancer.gov/dictionary?CdrID=45085]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3007",
+    "evidence": [
+        {
+            "id": 20167,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SLMP53-2 treatment inhibited growth of a breast ductal carcinoma cell line harboring TP53 Y220C and resulted in increased expression of the Tp53 targets MDM2, p21, and KILLER and decreased expression of Survivin and VEGF in culture (PMID: 31405179).",
+            "molecularProfile": {
+                "id": 1043,
+                "profileName": "TP53 Y220C"
+            },
+            "therapy": {
+                "id": 9281,
+                "therapyName": "SLMP53-2",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3007,
+                "name": "breast ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17718,
+                    "pubMedId": 31405179,
+                    "title": "SLMP53-2 Restores Wild-Type-Like Function to Mutant p53 through Hsp70: Promising Activity in Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405179"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

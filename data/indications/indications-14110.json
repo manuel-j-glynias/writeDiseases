@@ -1,0 +1,143 @@
+{
+    "id": 14110,
+    "name": "anus cancer",
+    "source": "DOID",
+    "definition": "A large intestine cancer that is located_in the anus. [url:http\\://en.wikipedia.org/wiki/Anus]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "12240"
+    ],
+    "termId": "DOID:14110",
+    "evidence": [
+        {
+            "id": 13862,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, M7824 saturated peripheral CD274 (PD-L1) and sequestered plasma TGFbeta 1/2/3, resulted in partial response in a patient with anal cancer (PMID: 29298798; NCT02517398).",
+            "molecularProfile": {
+                "id": 28058,
+                "profileName": "CD274 pos TGFB1 pos"
+            },
+            "therapy": {
+                "id": 5860,
+                "therapyName": "M7824",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 14110,
+                "name": "anus cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11321,
+                    "pubMedId": 29298798,
+                    "title": "Phase I Trial of M7824 (MSB0011359C), a Bifunctional Fusion Protein Targeting PD-L1 and TGF\u03b2, in Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29298798"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02199236",
+            "title": "Dose Escalation Trial of Endoluminal High-Dose-Rate Brachytherapy With Concurrent Chemotherapy for Rectal or Anal Cancer in Patients With Recurrent Disease or Undergoing Non-Operative Management",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1619,
+                    "therapyName": "Capecitabine + Fluorouracil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02812056",
+            "title": "Alisertib and TAK-228 in Participants With Human Papilloma Virus (HPV) Associated Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4214,
+                    "therapyName": "Alisertib + Sapanisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02919969",
+            "title": "Pembrolizumab in Refractory Metastatic Anal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03289962",
+            "title": "A Study of RO7198457 (Personalized Cancer Vaccine [PCV]) as a Single Agent and in Combination With Atezolizumab in Participants With Locally Advanced or Metastatic Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6234,
+                    "therapyName": "RO7198457",
+                    "synonyms": null
+                },
+                {
+                    "id": 6235,
+                    "therapyName": "Atezolizumab + RO7198457",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03439085",
+            "title": "Vaccine + Durvalumab in Human Papilloma Virus (HPV) Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5791,
+                    "therapyName": "Durvalumab + MEDI0457",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03936959",
+            "title": "A Study of LY3434172, a PD-1 and PD-L1 Bispecific Antibody, in Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 9537,
+                    "therapyName": "LY3434172",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04287868",
+            "title": "Combination Immunotherapy in Subjects With Advanced HPV Associated Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9432,
+                    "therapyName": "M7824 + NHS-IL12 + PDS0101",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

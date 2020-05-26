@@ -1,0 +1,404 @@
+{
+    "id": 5603,
+    "name": "T-cell acute lymphoblastic leukemia",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5599"
+    ],
+    "termId": "DOID:5603",
+    "evidence": [
+        {
+            "id": 4394,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, T-cell leukemia cells with over expression of Stat5b demonstrated sensitivity to pimozide in culture (Cancer Res August 1, 2015 75; 2702).",
+            "molecularProfile": {
+                "id": 17942,
+                "profileName": "STAT5B over exp"
+            },
+            "therapy": {
+                "id": 3499,
+                "therapyName": "Pimozide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5603,
+                "name": "T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4514,
+                    "pubMedId": null,
+                    "title": "Abstract 2702: Therapeutic potentials of STAT5 inhibitors in overcoming bortezomib resistance in human T-cell leukemia",
+                    "url": "https://cancerres.aacrjournals.org/content/75/15_Supplement/2702"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5139,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, T-cell leukemia cells harboring PSMB5 A108T demonstrated resistance to Velcade (bortezomib) in culture (PMID: 18502982).",
+            "molecularProfile": {
+                "id": 20273,
+                "profileName": "PSMB5 A108T"
+            },
+            "therapy": {
+                "id": 688,
+                "therapyName": "Bortezomib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5603,
+                "name": "T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4884,
+                    "pubMedId": 18502982,
+                    "title": "Point mutation of the proteasome beta5 subunit gene is an important mechanism of bortezomib resistance in bortezomib-selected variants of Jurkat T cell lymphoblastic lymphoma/leukemia line.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18502982"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7485,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human T cell leukemia cell line harboring both MTOR C1483Y and R2430M demonstrated hypersensitivity to Rapamune (sirolimus) induced growth inhibition in culture (PMID: 24631838).",
+            "molecularProfile": {
+                "id": 25517,
+                "profileName": "MTOR C1483Y MTOR R2430M"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5603,
+                "name": "T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20119,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a T-cell acute lymphoblastic leukemia cell line harboring PSMB5 C111F demonstrated resistance to treatment with Velcade (bortezomib) in culture (PMID: 21941364).",
+            "molecularProfile": {
+                "id": 32046,
+                "profileName": "PSMB5 C111F"
+            },
+            "therapy": {
+                "id": 688,
+                "therapyName": "Bortezomib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5603,
+                "name": "T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 14921,
+                    "pubMedId": 21941364,
+                    "title": "Impaired bortezomib binding to mutant \u03b25 subunit of the proteasome is the underlying basis for bortezomib resistance in leukemia cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21941364"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20427,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DT2216 treatment resulted in decreased BCL-XL expression and increased apoptosis and reduced viability of a T-cell acute lymphoblastic leukemia (T-ALL) cell line in culture, and decreased tumor growth in xenograft models (PMID: 31792461).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9340,
+                "therapyName": "DT2216",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5603,
+                "name": "T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17825,
+                    "pubMedId": 31792461,
+                    "title": "A selective BCL-XL PROTAC degrader achieves safe and potent antitumor activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31792461"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20434,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of DT2216 to therapy with Oncovin (vincristine), dexamethasone, and Elspar (asparaginase) resulted in increased survival in a chemotherapy-resistant patient-derived xenograft (PDX) model of T-cell acute lymphoblastic leukemia that expressed high levels of BCL2, MCL1, and BCL-XL (BCL2L1) (PMID: 31792461).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9351,
+                "therapyName": "Asparaginase + Dexamethasone + DT2216 + Vincristine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5603,
+                "name": "T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17825,
+                    "pubMedId": 31792461,
+                    "title": "A selective BCL-XL PROTAC degrader achieves safe and potent antitumor activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31792461"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 21275,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tyrphostin B42 (AG-490) inhibited proliferation of T-cell acute lymphoblastic leukemia cells harboring a JAK1 nonsense mutation and TYK2 E957D in culture (PMID: 23471820).",
+            "molecularProfile": {
+                "id": 36165,
+                "profileName": "JAK1 inact mut TYK2 E957D"
+            },
+            "therapy": {
+                "id": 2783,
+                "therapyName": "Tyrphostin B42",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5603,
+                "name": "T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17688,
+                    "pubMedId": 23471820,
+                    "title": "TYK2-STAT1-BCL2 pathway dependence in T-cell acute lymphoblastic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23471820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21276,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pyridone 6 (CMP6) inhibited proliferation of T-cell acute lymphoblastic leukemia cells harboring a JAK1 nonsense mutation and TYK2 E957D in culture (PMID: 23471820).",
+            "molecularProfile": {
+                "id": 36165,
+                "profileName": "JAK1 inact mut TYK2 E957D"
+            },
+            "therapy": {
+                "id": 2797,
+                "therapyName": "Pyridone 6",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5603,
+                "name": "T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17688,
+                    "pubMedId": 23471820,
+                    "title": "TYK2-STAT1-BCL2 pathway dependence in T-cell acute lymphoblastic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23471820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21277,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, T-cell acute lymphoblastic leukemia cells harboring a JAK1 nonsense mutation and TYK2 E957D demonstrated resistance to Xeljanz (tofacitinib) in culture (PMID: 23471820).",
+            "molecularProfile": {
+                "id": 36165,
+                "profileName": "JAK1 inact mut TYK2 E957D"
+            },
+            "therapy": {
+                "id": 941,
+                "therapyName": "Tofacitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5603,
+                "name": "T-cell acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17688,
+                    "pubMedId": 23471820,
+                    "title": "TYK2-STAT1-BCL2 pathway dependence in T-cell acute lymphoblastic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23471820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02112916",
+            "title": "Combination Chemotherapy With or Without Bortezomib in Treating Younger Patients With Newly Diagnosed T-Cell Acute Lymphoblastic Leukemia or Stage II-IV T-Cell Lymphoblastic Lymphoma",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1441,
+                    "therapyName": "Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1638,
+                    "therapyName": "Pegaspargase",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1640,
+                    "therapyName": "Mercaptopurine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1641,
+                    "therapyName": "Thioguanine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1642,
+                    "therapyName": "Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1006,
+                    "therapyName": "Daunorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02518113",
+            "title": "A Study of LY3039478 in Combination With Dexamethasone in Participants With T-ALL/T-LBL",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2958,
+                    "therapyName": "LY3039478",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04128501",
+            "title": "Venetoclax and Azacitidine for the Treatment of Acute Myeloid Leukemia in the Post-Transplant Setting",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1637,
+                    "therapyName": "Azacitidine + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

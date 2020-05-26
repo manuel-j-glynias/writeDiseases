@@ -1,0 +1,462 @@
+{
+    "id": 285,
+    "name": "hairy cell leukemia",
+    "source": "DOID",
+    "definition": "A chronic lymphocytic leukemia that is characterized by over production of B cells (lymphocytes) by the bone marrow where the B cells appear hairy under a microscope. [url:https\\://en.wikipedia.org/wiki/Hairy_cell_leukemia, url:https\\://www.mayoclinic.org/diseases-conditions/hairy-cell-leukemia/symptoms-causes/syc-20372956, url:https\\://www.ncbi.nlm.nih.gov/pubmed/30723113]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:285",
+    "evidence": [
+        {
+            "id": 1220,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Imbruvica (ibrutinib) inhibited Btk activity and B-cell receptor signaling, thereby resulting in inhibition of cell proliferation and decreased survival of human hairy cell leukemia cells in culture (PMID: 24697238).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 285,
+                "name": "hairy cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 958,
+                    "pubMedId": 24697238,
+                    "title": "The bruton tyrosine kinase inhibitor ibrutinib (PCI-32765) blocks hairy cell leukaemia survival, proliferation and B cell receptor signalling: a new therapeutic approach.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24697238"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3620,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In two Phase II clinical studies, patients with refractory hairy cell leukemia harboring BRAF V600E responded to Zelboraf (vemurafenib) with overall response rates of 96% (25/26) and 100% (24/24) as well as complete response rates of 35% (9/26) and 42% (10/24) with median follow up times of 8 and 12 weeks, respectively (PMID: 26352686).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 285,
+                "name": "hairy cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3911,
+                    "pubMedId": 26352686,
+                    "title": "Targeting Mutant BRAF in Relapsed or Refractory Hairy-Cell Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26352686"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 11792,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Fenretinide treatment resulted in stable disease in a patient with hairy cell leukemia (PMID:28420721).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2731,
+                "therapyName": "Fenretinide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 285,
+                "name": "hairy cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9767,
+                    "pubMedId": 28420721,
+                    "title": "Phase I Study of Fenretinide Delivered Intravenously in Patients with Relapsed or Refractory Hematologic Malignancies: A California Cancer Consortium Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28420721"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12170,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "BRAF V600E is diagnostic and aids in distinguishing classic hairy cell leukemia (cHCL) from variant hairy cell leukemia (HCLv) and other B-cell lymphomas and leukemias (PMID: 29118233, NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 285,
+                "name": "hairy cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10462,
+                    "pubMedId": 29118233,
+                    "title": "Hairy Cell Leukemia, Version 2.2018, NCCN Clinical Practice Guidelines in Oncology.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29118233"
+                },
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15029,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval, Lumoxiti (moxetumomab pasudotox-tdfk) treatment resulted in durable complete response in 30% (24/80), complete response in 41% (33/80), objective response (complete response and partial response) in 75% (60/80), and hematologic remission in 80% (64/80) of patients with relapsed or refractory hairy cell leukemia who had more than 2 prior systemic therapies (PMID: 30030507; NCT01829711).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7397,
+                "therapyName": "Moxetumomab pasudotox-tdfk",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 285,
+                "name": "hairy cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12313,
+                    "pubMedId": 30030507,
+                    "title": "Moxetumomab pasudotox in relapsed/refractory hairy cell leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30030507"
+                },
+                {
+                    "id": 15662,
+                    "pubMedId": null,
+                    "title": "Lumoxiti (moxetumomab pasudotox-tdfk) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761104"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15710,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a single patient with hairy cell leukemia harboring BRAF V600E, who relapsed after a 38 week remission in response to Zelboraf (vemurafenib) treatment, was found to have acquired multiple clones with Mek/Erk activating mutations, of which the MAP2K1 K57T clone became dominant (PMID: 30341394).",
+            "molecularProfile": {
+                "id": 31172,
+                "profileName": "BRAF V600E MAP2K1 K57T"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 285,
+                "name": "hairy cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13685,
+                    "pubMedId": 30341394,
+                    "title": "Targeting MEK in vemurafenib-resistant hairy cell leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30341394"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00671112",
+            "title": "Everolimus and Bortezomib in Treating Patients With Relapsed or Refractory Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2234,
+                    "therapyName": "Bortezomib + Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01059786",
+            "title": "Randomized Phase II Trial of Rituximab With Either Pentostatin or Bendamustine for Multiply Relapsed or Refractory Hairy Cell Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2323,
+                    "therapyName": "Bendamustine + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9704,
+                    "therapyName": "Pentostatin + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01711632",
+            "title": "BRAF Inhibitor, Vemurafenib, in Patients With Relapsed or Refractory Hairy Cell Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01841723",
+            "title": "Ibrutinib in Treating Patients With Relapsed Hairy Cell Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01905813",
+            "title": "Study of INCB040093 in Subjects With Previously Treated B-Cell Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2420,
+                    "therapyName": "INCB040093 + Itacitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2021,
+                    "therapyName": "INCB040093",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02012231",
+            "title": "Phase I/IIa Study to Evaluate the Safety, PK, PD, and Preliminary Efficacy of PLX8394 in Patients With Advanced Cancers.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1041,
+                    "therapyName": "PLX8394",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02018861",
+            "title": "A Phase 1, Open-Label, Dose Escalation, Safety and Tolerability Study of INCB050465 Monotherapy and in Combination With INCB039110 in Subjects With Previously Treated B-Cell Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2406,
+                    "therapyName": "Itacitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3097,
+                    "therapyName": "Itacitinib + Parsaclisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1231,
+                    "therapyName": "Bendamustine",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2352,
+                    "therapyName": "Carboplatin + Etoposide + Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 3088,
+                    "therapyName": "Parsaclisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02034110",
+            "title": "Efficacy and Safety of the Combination Therapy of Dabrafenib and Trametinib in Subjects With BRAF V600E- Mutated Rare Cancers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02328014",
+            "title": "ACP-196 in Combination With ACP-319, for Treatment of B-Cell Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3265,
+                    "therapyName": "ACP-319",
+                    "synonyms": null
+                },
+                {
+                    "id": 1605,
+                    "therapyName": "Acalabrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02924402",
+            "title": "Study to Evaluate Safety and Tolerability of XmAb13676 in Patients With CD20-expressing Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7600,
+                    "therapyName": "XmAb13676",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03010358",
+            "title": "Entospletinib and Obinutuzumab in Treating Patients With Relapsed Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma, or Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8065,
+                    "therapyName": "Entospletinib + Obinutuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03410875",
+            "title": "A Phase II Study of the BRAF Inhibitor, Vemurafenib, Plus Obinutuzumab in Patients With Previously Untreated Classical Hairy Cell Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7846,
+                    "therapyName": "Obinutuzumab + Vemurafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03739606",
+            "title": "Flotetuzumab in Treating Patients With Recurrent or Refractory CD123 Positive Blood Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7193,
+                    "therapyName": "Flotetuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03805932",
+            "title": "Title: Moxetumomab Pasudotox-tdfk (Lumoxiti ) and Rituximab (Rituxan ) for Relapsed Hairy Cell Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8673,
+                    "therapyName": "Moxetumomab pasudotox-tdfk + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04322383",
+            "title": "Binimetinib for People With Relapsed/Refractory BRAF Wild Type Hairy Cell Leukemia and Variant",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 807,
+                    "therapyName": "Binimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04324112",
+            "title": "Encorafenib Plus Binimetinib for People With BRAF V600E Mutated Relapsed/Refractory HCL",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1100,
+                    "therapyName": "Binimetinib + Encorafenib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

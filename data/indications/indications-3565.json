@@ -1,0 +1,418 @@
+{
+    "id": 3565,
+    "name": "meningioma",
+    "source": "DOID",
+    "definition": "A central nervous system cancer that are manifested in the central nervous system and arise from the arachnoid cap cells of the arachnoid villi in the meninges. [url:http\\://en.wikipedia.org/wiki/Meningioma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "3554",
+        "1137",
+        "3567",
+        "4750"
+    ],
+    "termId": "DOID:3565",
+    "evidence": [
+        {
+            "id": 2232,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AR-42 induced apoptosis and inhibited proliferation of meningioma cells in culture (PMID: 21778190).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 987,
+                "therapyName": "AR-42",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3565,
+                "name": "meningioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2816,
+                    "pubMedId": 21778190,
+                    "title": "AR42, a novel histone deacetylase inhibitor, as a potential therapy for vestibular schwannomas and meningiomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21778190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10443,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Torin 1 inhibited proliferation of NF2-deficient primary meningioma cells in culture (PMID: 22426462).",
+            "molecularProfile": {
+                "id": 6530,
+                "profileName": "NF2 loss"
+            },
+            "therapy": {
+                "id": 2247,
+                "therapyName": "Torin 1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3565,
+                "name": "meningioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8458,
+                    "pubMedId": 22426462,
+                    "title": "Regulation of mTOR complex 2 signaling in neurofibromatosis 2-deficient target cell types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22426462"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10445,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rapamune (sirolimus) inhibited proliferation of NF2-deficient primary meningioma cells in culture (PMID: 22426462).",
+            "molecularProfile": {
+                "id": 6530,
+                "profileName": "NF2 loss"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3565,
+                "name": "meningioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8458,
+                    "pubMedId": 22426462,
+                    "title": "Regulation of mTOR complex 2 signaling in neurofibromatosis 2-deficient target cell types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22426462"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17303,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Avastin (bevacizumab) and Afinitor (everolimus) combination therapy prevented additional tumor growth after 4 cycles of treatment in a patient with recurrent progressive intracranial meningioma harboring an NF2 mutation (PMID: 31043950).",
+            "molecularProfile": {
+                "id": 3109,
+                "profileName": "NF2 mutant"
+            },
+            "therapy": {
+                "id": 1120,
+                "therapyName": "Bevacizumab + Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3565,
+                "name": "meningioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15349,
+                    "pubMedId": 31043950,
+                    "title": "Everolimus and Bevacizumab in the Management of Recurrent, Progressive Intracranial NF2 Mutated Meningioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31043950"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20442,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (CEVOREM), the combination therapy of Afinitor (everolimus) and Sandostatin Lar Depot (octreotide acetate) in patients with a recurrent meningioma resulted in a 6 month progression-free survival of 55% (11/20), 6 month and 12 month overall survivals of 90% (18/20) and 75% (15/20), respectively, and a decreased tumor growth rate in 78% of patients at 3 months (PMID: 31969329; NCT02333565).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5944,
+                "therapyName": "Everolimus + Octreotide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3565,
+                "name": "meningioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17844,
+                    "pubMedId": 31969329,
+                    "title": "Everolimus and Octreotide for Patients with Recurrent Meningioma: Results from the Phase II CEVOREM Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31969329"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01880749",
+            "title": "Exploring the Activity of RAD001 in Vestibular Schwannomas and Meningiomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01967823",
+            "title": "T Cell Receptor Immunotherapy Targeting NY-ESO-1 for Patients With NY-ESO-1 Expressing Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8359,
+                    "therapyName": "Aldesleukin + Anti-NY ESO-1 mTCR PBL + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02282917",
+            "title": "Exploratory Evaluation of AR-42 Histone Deacetylase Inhibitor in the Treatment of Vestibular Schwannoma and Meningioma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 987,
+                    "therapyName": "AR-42",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02423525",
+            "title": "Safety Study of Afatinib for Brain Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02523014",
+            "title": "A Study Looking at Targeted Therapy According to Tumor Markers for People With Meningiomas",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 3078,
+                    "therapyName": "GSK2256098",
+                    "synonyms": null
+                },
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02648997",
+            "title": "A Study of Nivolumab in Adult Participants With Recurrent High-Grade Meningioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02831257",
+            "title": "AZD2014 In NF2 Patients With Progressive or Symptomatic Meningiomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 991,
+                    "therapyName": "Vistusertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02847559",
+            "title": "Optune Delivered Electric Field Therapy and Bevacizumab in Treating Patients With Recurrent or Progressive Grade 2 or 3 Meningioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02933736",
+            "title": "Ribociclib (LEE011) in Preoperative Glioma and Meningioma Patients",
+            "phase": "Phase 0",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03071874",
+            "title": "Phase II Study Of Vistusertib (AZD2014) For Recurrent Grade II-III Meningiomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 991,
+                    "therapyName": "Vistusertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03095248",
+            "title": "Trial of Selumetinib in Patients With Neurofibromatosis Type II Related Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03173950",
+            "title": "Immune Checkpoint Inhibitor Nivolumab in People With Select Rare CNS Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03220646",
+            "title": "The Purpose of This Study is to Test Any Good and Bad Effects of a Study Drug Called Abemaciclib (LY2835219) in Patients With Recurrent Brain Tumors.",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03267836",
+            "title": "Neoadjuvant Avelumab and Hypofractionated Proton Radiation Therapy Followed by Surgery for Recurrent Radiation-refractory Meningioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03279692",
+            "title": "Phase II Trial of Pembrolizumab in Recurrent or Residual High Grade Meningioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03604978",
+            "title": "Nivolumab and Multi-fraction Stereotactic Radiosurgery With or Without Ipilimumab in Treating Participants With Recurrent Grade II-III Meningioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03971461",
+            "title": "A Single Arm, Open-label, Multicenter Phase II Study of 177Lu-DOTATATE Radionuclide in Adults With Progressive or High-risk Meningioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6696,
+                    "therapyName": "lutetium Lu 177 dotatate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04082520",
+            "title": "Lutathera for the Treatment of Inoperable, Progressive Meningioma After External Beam Radiation Therapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6696,
+                    "therapyName": "lutetium Lu 177 dotatate",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

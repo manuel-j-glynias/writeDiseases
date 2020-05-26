@@ -1,0 +1,65 @@
+{
+    "id": 5693,
+    "name": "adult liposarcoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:5693",
+    "evidence": [
+        {
+            "id": 1682,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, Ibrance (palbociclib) demonstrated efficacy and improved progression free survival in patients with CDK4 amplified liposarcoma with expression of RB1 (PMID: 23569312).",
+            "molecularProfile": {
+                "id": 16567,
+                "profileName": "CDK4 amp RB1 pos"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5693,
+                "name": "adult liposarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1787,
+                    "pubMedId": 23569312,
+                    "title": "Phase II trial of the CDK4 inhibitor PD0332991 in patients with advanced CDK4-amplified well-differentiated or dedifferentiated liposarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23569312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01446809",
+            "title": "Pazopanib Hydrochloride Followed By Chemotherapy and Surgery in Treating Patients With Soft Tissue Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1472,
+                    "therapyName": "Doxorubicin + Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1471,
+                    "therapyName": "Doxorubicin + Ifosfamide + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

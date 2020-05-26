@@ -1,0 +1,257 @@
+{
+    "id": 3275,
+    "name": "thymoma",
+    "source": "DOID",
+    "definition": "A thymus cancer that derives_from epithelial cells located_in the thymus. The tumor cells in a thymoma look similar to the normal cells of the thymus, grow slowly, and rarely spread beyond the thymus. [url:http\\://cancergenome.nih.gov/cancersselected/Thymoma, url:http\\://en.wikipedia.org/wiki/Thymoma, url:http\\://www.cancer.gov/cancertopics/pdq/treatment/thymoma/patient/page1]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3275",
+    "evidence": [
+        {
+            "id": 6522,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Resminostat (4SC-201) treatment resulted in stable disease in 58% (11/19) of heavily pretreated patients with advanced solid tumors, and a 27% reduction of tumor in a thymoma patient (PMID: 24065624).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4134,
+                "therapyName": "Resminostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3275,
+                "name": "thymoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5683,
+                    "pubMedId": 24065624,
+                    "title": "First-in-human, pharmacokinetic and pharmacodynamic phase I study of Resminostat, an oral histone deacetylase inhibitor, in patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24065624"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12228,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a thymoma cell line with TP53 loss demonstrated primary resistance to Selinexor (KPT-330) in culture, and reconstitution of TP53 expression resulted in increased Selinexor sensitivity (PMID: 28819023).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 1749,
+                "therapyName": "Selinexor",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3275,
+                "name": "thymoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10184,
+                    "pubMedId": 28819023,
+                    "title": "Therapeutic Effects of XPO1 Inhibition in Thymic Epithelial Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28819023"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20012,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Keytruda (pembrolizumab) treatment resulted in partial response in 28.6% (2/7) and stable disease in 71.6% (5/7) of patients with refractory or relapsed thymoma, with a median progression-free survival of 6.1 months, however, grade 3 or higher immune-related adverse events were seen in 71.4% (5/7) of the patients (PMID: 29906252).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3275,
+                "name": "thymoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17654,
+                    "pubMedId": 29906252,
+                    "title": "Pembrolizumab for Patients With Refractory or Relapsed Thymic Epithelial Tumor: An Open-Label Phase II Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29906252"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01011439",
+            "title": "Phase II Study Of Oral PHA-848125AC In Patients With Thymic Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2654,
+                    "therapyName": "Milciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01025089",
+            "title": "Chemotherapy Plus Cetuximab Followed by Surgical Resection in Patients With Locally Advanced or Recurrent Thymoma or Thymic Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1927,
+                    "therapyName": "Cisplatin + Cyclophosphamide + Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01301391",
+            "title": "Study Of Oral PHA-848125AC In Patients With Malignant Thymoma Previously Treated With Multiple Lines Of Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2654,
+                    "therapyName": "Milciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01621568",
+            "title": "Sunitinib for Advanced Thymus Cancer Following Earlier Treatment",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02220855",
+            "title": "A Study of BKM120 (Buparlisib) in Relapsed or Refractory Thymomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 680,
+                    "therapyName": "Buparlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02721732",
+            "title": "Study for the Evaluation of Efficacy of Pembrolizumab (MK-3475) in Patients With Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03023319",
+            "title": "Bosutinib in Combination With Pemetrexed in Patients With Selected Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5237,
+                    "therapyName": "Bosutinib + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03076554",
+            "title": "A Pilot Study to Investigate the Safety and Clinical Activity of Avelumab (MSB0010718C) in Thymoma and Thymic Carcinoma After Progression on Platinum-Based Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03193437",
+            "title": "Selinexor in Patients With Advanced Thymic Epithelial Tumor Progressing After Primary Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03295227",
+            "title": "Feasibility Trial of Pembrolizumab in Unresectable Thymoma and Thymic Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03556228",
+            "title": "Oral TrkA Inhibitor VMD-928 for Treatment of Advanced Adult Solid Tumors or Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9610,
+                    "therapyName": "VMD-928",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

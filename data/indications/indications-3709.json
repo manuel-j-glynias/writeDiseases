@@ -1,0 +1,91 @@
+{
+    "id": 3709,
+    "name": "rectum mucinous adenocarcinoma",
+    "source": "DOID",
+    "definition": "A rectal adenocarcinoma that produces mucin. [url:https\\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110493/]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3709",
+    "evidence": [
+        {
+            "id": 8152,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with microsatellite-stable mucinous rectal cancer harboring BRAF V600E and acquired MET amplification responded to the combination treatment of Xalkori (crizotinib) and Zelboraf (vemurafenib), resulting in a rapid clinical and metabolic response (PMID: 27325282).",
+            "molecularProfile": {
+                "id": 31714,
+                "profileName": "BRAF V600E MET amp"
+            },
+            "therapy": {
+                "id": 4648,
+                "therapyName": "Crizotinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3709,
+                "name": "rectum mucinous adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6560,
+                    "pubMedId": 27325282,
+                    "title": "MET-Driven Resistance to Dual EGFR and BRAF Blockade May Be Overcome by Switching from EGFR to MET Inhibition in BRAF-Mutated Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27325282"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8153,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with microsatellite-stable mucinous rectal cancer harboring BRAF V600E eventually developed resistance to Vectibix (panitumumab) and Zelboraf (vemurafenib) combination therapy, potentially due to acquiring amplification of MET (PMID: 27325282).",
+            "molecularProfile": {
+                "id": 31714,
+                "profileName": "BRAF V600E MET amp"
+            },
+            "therapy": {
+                "id": 1717,
+                "therapyName": "Panitumumab + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3709,
+                "name": "rectum mucinous adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 6560,
+                    "pubMedId": 27325282,
+                    "title": "MET-Driven Resistance to Dual EGFR and BRAF Blockade May Be Overcome by Switching from EGFR to MET Inhibition in BRAF-Mutated Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27325282"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03693846",
+            "title": "Nivolumab and Ipilimumab in Mucinous Colorectal and Appendiceal Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

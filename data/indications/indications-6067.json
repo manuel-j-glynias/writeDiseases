@@ -1,0 +1,184 @@
+{
+    "id": 6067,
+    "name": "ovarian mucinous neoplasm",
+    "source": "DOID",
+    "definition": "An ovary epithelial cancer that is characterized by the presence of mucin. [url:https\\://en.wikipedia.org/wiki/Ovarian_mucinous_tumor]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "3712"
+    ],
+    "termId": "DOID:6067",
+    "evidence": [
+        {
+            "id": 5905,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KX2-391 inhibited survival of PTEN wild-type mucinous ovarian carcinoma cell lines in culture, and reduced tumor growth in xenograft models (PMID: 24100628).",
+            "molecularProfile": {
+                "id": 683,
+                "profileName": "PTEN wild-type"
+            },
+            "therapy": {
+                "id": 786,
+                "therapyName": "KX2-391",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6067,
+                "name": "ovarian mucinous neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5193,
+                    "pubMedId": 24100628,
+                    "title": "Targeting SRC and tubulin in mucinous ovarian carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24100628"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5906,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KX2-391 and Eloxatin (oxaliplatin) synergistically inhibited survival of PTEN wild-type mucinous ovarian carcinoma cell lines in culture, and reduced tumor growth in xenograft models (PMID: 24100628).",
+            "molecularProfile": {
+                "id": 683,
+                "profileName": "PTEN wild-type"
+            },
+            "therapy": {
+                "id": 3979,
+                "therapyName": "KX2-391 + Oxaliplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6067,
+                "name": "ovarian mucinous neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5193,
+                    "pubMedId": 24100628,
+                    "title": "Targeting SRC and tubulin in mucinous ovarian carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24100628"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5907,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclincal study, mucinous ovarian carcinoma cell lines harboring PTEN loss were less sensitive to KX2-391 induced growth inhibition in culture and tumor suppression in xenograft models (PMID: 24100628).",
+            "molecularProfile": {
+                "id": 479,
+                "profileName": "PTEN loss"
+            },
+            "therapy": {
+                "id": 786,
+                "therapyName": "KX2-391",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6067,
+                "name": "ovarian mucinous neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5193,
+                    "pubMedId": 24100628,
+                    "title": "Targeting SRC and tubulin in mucinous ovarian carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24100628"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5908,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclincal study, mucinous ovarian carcinoma cell lines over-expressing PTEN G129R were less sensitive to KX2-391 induced growth inhibition in culture and tumor suppression in xenograft models (PMID: 24100628).",
+            "molecularProfile": {
+                "id": 4015,
+                "profileName": "PTEN G129R"
+            },
+            "therapy": {
+                "id": 786,
+                "therapyName": "KX2-391",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6067,
+                "name": "ovarian mucinous neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5193,
+                    "pubMedId": 24100628,
+                    "title": "Targeting SRC and tubulin in mucinous ovarian carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24100628"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5909,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KX2-391 and Eloxatin (oxaliplatin) combination treatment did not show improved tumor suppression in xenograft models of ovarian mucinous carcinoma harboring PTEN loss when compared to single agent treatment (PMID: 24100628).",
+            "molecularProfile": {
+                "id": 479,
+                "profileName": "PTEN loss"
+            },
+            "therapy": {
+                "id": 3979,
+                "therapyName": "KX2-391 + Oxaliplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6067,
+                "name": "ovarian mucinous neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5193,
+                    "pubMedId": 24100628,
+                    "title": "Targeting SRC and tubulin in mucinous ovarian carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24100628"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03476681",
+            "title": "QUILT-3.017: Study of NEO-201 in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7808,
+                    "therapyName": "NEO-201",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

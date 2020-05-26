@@ -1,0 +1,364 @@
+{
+    "id": 305,
+    "name": "carcinoma",
+    "source": "DOID",
+    "definition": "A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:http\\://en.wikipedia.org/wiki/Carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "6570",
+        "2428"
+    ],
+    "termId": "DOID:305",
+    "evidence": [
+        {
+            "id": 7753,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with a carcinoma of unknown primary harboring MET amplification and KRAS G12V demonstrated a durable response following treatment with Xalkori (crizotinib) (PMID: 25232318).",
+            "molecularProfile": {
+                "id": 25979,
+                "profileName": "KRAS G12V MET amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 305,
+                "name": "carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6473,
+                    "pubMedId": 25232318,
+                    "title": "Durable Response to Crizotinib in a MET-Amplified, KRAS-Mutated Carcinoma of Unknown Primary.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25232318"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10447,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Margetuximab (MGAH22) treatment resulted in partial responses in 12% (7/60) and stable disease in 50% (30/60) of patients with ERBB2 (HER2)-positive breast or gastric cancer, or other carcinomas that overexpress Erbb2 (Her2) (PMID: 28119295).",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 808,
+                "therapyName": "MGAH22",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 305,
+                "name": "carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8461,
+                    "pubMedId": 28119295,
+                    "title": "First-in-human phase 1 study of margetuximab (MGAH22), an Fc-modified chimeric monoclonal antibody, in patients with HER2-positive advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119295"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11589,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with cancer of unknown primary harboring CD274 amplification and overexpression, and a hypermutated genome was sensitive to Keytruda (pembrolizumab), demonstrating tumor regression after two months of treatment and a near complete remission after six months of treatment (PMID: 27900363).",
+            "molecularProfile": {
+                "id": 16029,
+                "profileName": "CD274 amp"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 305,
+                "name": "carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9654,
+                    "pubMedId": 27900363,
+                    "title": "Integration of genomics and histology revises diagnosis and enables effective therapy of refractory cancer of unknown primary with PDL1 amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27900363"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12664,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, GI-6207 demonstrated saety and preliminary efficacy, resulted in stable disease over 3 months in 20% (5/25) of patients with CEA-positive carcinomas (PMID: 24327292).",
+            "molecularProfile": {
+                "id": 28828,
+                "profileName": "CEACAM5 positive"
+            },
+            "therapy": {
+                "id": 6569,
+                "therapyName": "GI-6207",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 305,
+                "name": "carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10571,
+                    "pubMedId": 24327292,
+                    "title": "Phase I trial of a recombinant yeast-CEA vaccine (GI-6207) in adults with metastatic CEA-expressing carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24327292"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17096,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Mekinist (trametinib) and Opdivo (nivolumab) combination treatment resulted in a partial response and rapid decrease of CA-19-9 levels after 8 weeks in a patient with adenocarcinoma of unknown primary with liver and abdominal lymph node metastases harboring KRAS G12D and MLH1 R389W (PMID: 28642281).",
+            "molecularProfile": {
+                "id": 32333,
+                "profileName": "KRAS G12D MLH1 R389W"
+            },
+            "therapy": {
+                "id": 4753,
+                "therapyName": "Nivolumab + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 305,
+                "name": "carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11306,
+                    "pubMedId": 28642281,
+                    "title": "Utility of Genomic Analysis In Circulating Tumor DNA from Patients with Carcinoma of Unknown Primary.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28642281"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00720785",
+            "title": "Natural Killer Cells and Bortezomib to Treat Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01148849",
+            "title": "Safety Study of MGAH22 in HER2-positive Carcinomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 808,
+                    "therapyName": "MGAH22",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02259114",
+            "title": "A Phase IB Trial With OTX015, a Small Molecule Inhibitor of the Bromodomain and Extra-Terminal (BET) Proteins, in Patients With Selected Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2034,
+                    "therapyName": "Birabresib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02454972",
+            "title": "Clinical Trial of Lurbinectedin (PM01183) in Selected Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1195,
+                    "therapyName": "Lurbinectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02637531",
+            "title": "A Dose-Escalation Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of IPI-549",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3363,
+                    "therapyName": "IPI-549",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02648490",
+            "title": "An Open-label, Phase 1 Study to Determine the Maximum Tolerated Dose of HLX07,in Patients With Advanced Solid Cancers",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3939,
+                    "therapyName": "Acetaminophen + Dexamethasone + Diphenhydramine + Ondansetron",
+                    "synonyms": null
+                },
+                {
+                    "id": 3938,
+                    "therapyName": "HLX07",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02721732",
+            "title": "Study for the Evaluation of Efficacy of Pembrolizumab (MK-3475) in Patients With Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02879162",
+            "title": "Durvalumab and Tremelimumab in Patients With Advanced Rare Tumours",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03094169",
+            "title": "AVID100 in Advanced Epithelial Carcinomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5755,
+                    "therapyName": "AVID100",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03391973",
+            "title": "Pembrolizumab in Patients With Poor-Prognosis Carcinoma of Unknown Primary Site (CUP) (CUP)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03396471",
+            "title": "Study of Pembrolizumab and Concurrent Radiation in Patients With Previously Treated Carcinoma of Unknown Primary",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03570619",
+            "title": "Immunotherapy iImmunotherapy in Patients With Metastatic Cancers and CDK12 Mutations (IMPACT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03852511",
+            "title": "First in Human Study of NG-350A (an Oncolytic Adenoviral Vector Which Expresses an Anti-CD40 Antibody) (FORTITUDE)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8080,
+                    "therapyName": "NG-350A",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04147819",
+            "title": "A First in Human Study of BAY2701439 to Look at Safety, How the Body Absorbs, Distributes and Excretes the Drug, and How Well the Drug Works in Participants With Advanced Cancer Expressing the HER2 Protein",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9606,
+                    "therapyName": "BAY2701439",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

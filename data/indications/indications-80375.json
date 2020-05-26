@@ -1,0 +1,352 @@
+{
+    "id": 80375,
+    "name": "gastroesophageal adenocarcinoma",
+    "source": "DOID",
+    "definition": "A gastroesophageal cancer that has_material_basis_in abnormally proliferating cells, derives_from epithelial cells, which originate in glandular tissue. [url:https\\://www.ncbi.nlm.nih.gov/pmc/articles/PMC5827797]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0080375",
+    "evidence": [
+        {
+            "id": 16768,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, GBR 1302 treatment resulted in prolonged (more than 4 months) stable disease in a patient with ERBB2 (HER2) positive (IHC 3+) gastroesophageal adenocarcinoma (Annals of Oncology, Volume 29, Issue suppl_8, October 2018, mdy288.020; NCT02829372).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 8171,
+                "therapyName": "GBR1302",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80375,
+                "name": "gastroesophageal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14826,
+                    "pubMedId": null,
+                    "title": "GBR1302: a BEAT bispecific antibody for the treatment of HER2 positive cancers",
+                    "url": "https://www.ejcancer.com/article/S0959-8049(14)70265-5/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17157,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, AMG 337 treatment resulted in an objective response rate of 18% (8/45, 8 partial responses) and stable disease in 36% (16/45) of patients with MET-amplified gastroesophageal adenocarcinoma (PMID: 30366938; NCT02016534).",
+            "molecularProfile": {
+                "id": 1629,
+                "profileName": "MET amp"
+            },
+            "therapy": {
+                "id": 1064,
+                "therapyName": "AMG 337",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80375,
+                "name": "gastroesophageal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15223,
+                    "pubMedId": 30366938,
+                    "title": "A Multicenter Phase II Study of AMG 337 in Patients with MET-Amplified Gastric/Gastroesophageal Junction/Esophageal Adenocarcinoma and Other MET-Amplified Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30366938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20572,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial that supported FDA approval, the Herceptin (trastuzumab) biosimilar Kanjinti (Trastuzumab-anns) demonstrated structure, function, and pharmacokinetic profile comparable to Herceptin (trastuzumab) (PMID: 28341959), thus supporting the extrapolation of data from the Phase III trial that supported the approval of Herceptin (trastuzumab) in Erbb2 (Her2) overexpressing gastrioesophageal adenocarcinoma (PMID: 20728210; NCT01041404) for approval of Kanjinti (Trastuzumab-anns) (FDA.gov).",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 6243,
+                "therapyName": "Trastuzumab-anns",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80375,
+                "name": "gastroesophageal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 286,
+                    "pubMedId": null,
+                    "title": "FDA.gov",
+                    "url": "http://www.fda.gov/"
+                },
+                {
+                    "id": 893,
+                    "pubMedId": 20728210,
+                    "title": "Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20728210"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 17932,
+                    "pubMedId": null,
+                    "title": "Kanjinti (Trastuzumab-anns) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761073"
+                },
+                {
+                    "id": 17935,
+                    "pubMedId": 28341959,
+                    "title": "A randomized, single-blind, single-dose study evaluating the pharmacokinetic equivalence of proposed biosimilar ABP 980 and trastuzumab in healthy male subjects.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28341959"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02824042",
+            "title": "Thorough ECG (Electrocardiogram) and Drug Interaction Study With Anetumab Ravtansine and Itraconazole",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4594,
+                    "therapyName": "Anetumab ravtansine + Itraconazole",
+                    "synonyms": null
+                },
+                {
+                    "id": 4593,
+                    "therapyName": "Anetumab ravtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02954536",
+            "title": "Phase II Trial of Pembrolizumab With Trastuzumab and Chemotherapy in Advanced HER2 Positive Esophagogastric (EG) Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4945,
+                    "therapyName": "Capecitabine + Cisplatin + Pembrolizumab + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03697304",
+            "title": "Platform Trial Evaluating Safety and Efficacy of BI 754091 Anti- PD-1 Based Combination Therapies in PD-(L)1 na\u00efve and PD- (L)1 Pretreated Patient Populations With Advanced/Metastatic Solid Tumours.",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5692,
+                    "therapyName": "BI 754091",
+                    "synonyms": null
+                },
+                {
+                    "id": 5690,
+                    "therapyName": "BI 754111",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03783936",
+            "title": "Trial of mFOLFOX6 + Trastuzumab + Avelumab in Gastric and Esophageal Adenocarcinomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8350,
+                    "therapyName": "Avelumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8349,
+                    "therapyName": "Avelumab + Fluorouracil + Leucovorin + Oxaliplatin + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03821233",
+            "title": "A Dose Finding Study of ZW49 in Patients With HER2-Positive Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9492,
+                    "therapyName": "ZW49",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03921021",
+            "title": "Phase 2 Study of Telomelysin (OBP-301) in Combination With Pembrolizumab in Esophagogastric Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9570,
+                    "therapyName": "OBP-301 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03929666",
+            "title": "A Safety and Efficacy Study of ZW25 Plus Combination Chemotherapy in HER2-expressing Gastroesophageal Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8232,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + ZW25",
+                    "synonyms": "mFOLFOX6 + ZW25"
+                },
+                {
+                    "id": 8231,
+                    "therapyName": "Cisplatin + Fluorouracil + Leucovorin + ZW25",
+                    "synonyms": null
+                },
+                {
+                    "id": 8230,
+                    "therapyName": "Capecitabine + Cisplatin + ZW25",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04021108",
+            "title": "Phase II Study of Short Course FOLFOX Chemotherapy With Either Nivolumab or Nivolumab + Radiation in the First Line Treatment of Metastatic or Unresectable Gastroesophageal Cancers (BMS Protocol CA209-76L)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7184,
+                    "therapyName": "Fluorouracil + Leucovorin + Nivolumab + Oxaliplatin",
+                    "synonyms": "Nivolumab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04029922",
+            "title": "Study of MT-5111 in HER2-positive Solid Tumors (MT-5111)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8209,
+                    "therapyName": "MT-5111",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04060342",
+            "title": "GB1275 Monotherapy and in Combination With an Anti-PD1 Antibody in Patients With Specified Advanced Solid Tumors or in Combination With Standard of Care in Patients With Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8693,
+                    "therapyName": "GB1275",
+                    "synonyms": null
+                },
+                {
+                    "id": 8694,
+                    "therapyName": "GB1275 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8695,
+                    "therapyName": "GB1275 + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04150640",
+            "title": "P2 5-FU, Oxaliplatin & Liposomal Irinotecan (Nal-IRI) in 1st Line Advanced Esophageal & Gastric",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8919,
+                    "therapyName": "Fluorouracil + MM-398 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8920,
+                    "therapyName": "Fluorouracil + MM-398 + Oxaliplatin + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04164979",
+            "title": "Ph II Study of Cabozantinib With Pembrolizumab in Metastatic Gastric and Gastroesophageal Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5680,
+                    "therapyName": "Cabozantinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04198766",
+            "title": "Study of INBRX-106 in Subjects With Locally Advanced or Metastatic Solid Tumors (Hexavalent OX40 Agonist)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9075,
+                    "therapyName": "INBRX-106",
+                    "synonyms": null
+                },
+                {
+                    "id": 9076,
+                    "therapyName": "INBRX-106 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

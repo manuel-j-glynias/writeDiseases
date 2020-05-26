@@ -1,0 +1,355 @@
+{
+    "id": 50523,
+    "name": "adult T-cell leukemia",
+    "source": "DOID",
+    "definition": "A T-cell leukemia that results_in abnormal increase of lymphocytes, derives_from T-cells, has_material_basis_in Human T-lymphotropic virus 1, which is transmitted_by sexual contact, transmitted_by contaminated needles used by intravenous-drug users, and transmitted_by breast feeding. The infection results_in_formation_of skin lesions. [url:http\\://en.wikipedia.org/wiki/Adult_T-cell_leukemia/lymphoma, url:http\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=14.10d&code=C3184]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050523",
+    "evidence": [
+        {
+            "id": 9677,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Alemtuzumab resulted in 51.7% (15/29) of patients with adult T-cell leukemia demonstrating an overall objective response, a median progression free survival of 2.0 months, and overall survival of 5.9 months (PMID: 27486175).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1205,
+                "therapyName": "Alemtuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50523,
+                "name": "adult T-cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7474,
+                    "pubMedId": 27486175,
+                    "title": "Phase II Study of Alemtuzumab (CAMPATH-1) in Patients with HTLV-1-Associated Adult T-cell Leukemia/lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27486175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10842,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, 3144 inhibited growth of patient-derived T-cell acute lymphocytic leukemia cells harboring NRAS G13V in culture, and reduced tumor burden in xenograft models (PMID: 28235199).",
+            "molecularProfile": {
+                "id": 3366,
+                "profileName": "NRAS G13V"
+            },
+            "therapy": {
+                "id": 5658,
+                "therapyName": "3144",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50523,
+                "name": "adult T-cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8866,
+                    "pubMedId": 28235199,
+                    "title": "Multivalent Small-Molecule Pan-RAS Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28235199"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10843,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, 3144 inhibited growth of patient-derived T-cell acute lymphocytic leukemia cells harboring NRAS G13D in culture (PMID: 28235199).",
+            "molecularProfile": {
+                "id": 3361,
+                "profileName": "NRAS G13D"
+            },
+            "therapy": {
+                "id": 5658,
+                "therapyName": "3144",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50523,
+                "name": "adult T-cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8866,
+                    "pubMedId": 28235199,
+                    "title": "Multivalent Small-Molecule Pan-RAS Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28235199"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18959,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Adcentris (brentuximab vedotin) in combination with cyclophosphamide, doxorubicin, and prednisone (CHP) is included in guidelines as an initial therapy for patients with TNFRSF8 (CD30)-positive adult T-cell leukemia/lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 23635,
+                "profileName": "TNFRSF8 positive"
+            },
+            "therapy": {
+                "id": 7500,
+                "therapyName": "Brentuximab vedotin + Cyclophosphamide + Doxorubicin + Prednisone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50523,
+                "name": "adult T-cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18960,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Adcentris (brentuximab vedotin) is included in guidelines as a second-line or subsequent therapy for patients with TNFRSF8 (CD30)-positive adult T-cell leukemia/lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 23635,
+                "profileName": "TNFRSF8 positive"
+            },
+            "therapy": {
+                "id": 2486,
+                "therapyName": "Brentuximab vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50523,
+                "name": "adult T-cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19704,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) treatment inhibited activation of Akt, however, did not inhibit migration of an adult T cell leukemia/lymphoma cell line harboring CCR4 Q330* allele in culture (PMID: 25488980).",
+            "molecularProfile": {
+                "id": 34459,
+                "profileName": "CCR4 Q330*"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50523,
+                "name": "adult T-cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 17516,
+                    "pubMedId": 25488980,
+                    "title": "Gain-of-function CCR4 mutations in adult T cell leukemia/lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25488980"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01712659",
+            "title": "Ruxolitinib for Adult T-Cell Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02580552",
+            "title": "Safety, Tolerability and Pharmacokinetics of MRG-106 in Patients With Mycosis Fungoides (MF), CLL, DLBCL or ATLL",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7304,
+                    "therapyName": "MRG-106",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02588651",
+            "title": "A Phase II Study of Single Agent Brentuximab Vedotin in Relapsed/Refractory CD30 Low (<10%) Mature T Cell Lymphoma (TCL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2486,
+                    "therapyName": "Brentuximab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02689453",
+            "title": "Subcutaneous Recombinant Human IL-15 (s.c. rhIL-15) and Alemtuzumab for People With Refractory or Relapsed Chronic and Acute Adult T-cell Leukemia (ATL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9641,
+                    "therapyName": "Alemtuzumab + rhIL-15",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02732275",
+            "title": "DS-3201b in Participants With Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5691,
+                    "therapyName": "DS-3201b",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02737046",
+            "title": "Belinostat Therapy With Zidovudine for Adult T-Cell Leukemia-Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1299,
+                    "therapyName": "Interferon alpha-2b",
+                    "synonyms": null
+                },
+                {
+                    "id": 2624,
+                    "therapyName": "Peginterferon alfa-2b",
+                    "synonyms": null
+                },
+                {
+                    "id": 4361,
+                    "therapyName": "Belinostat + Zidovudine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03075553",
+            "title": "Nivolumab in Treating Patients With Relapsed or Refractory Peripheral T-cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03264131",
+            "title": "BV-CHEP Chemotherapy for Adult T-cell Leukemia or Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9023,
+                    "therapyName": "Brentuximab vedotin + Cyclophosphamide + Doxorubicin + Etoposide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03829540",
+            "title": "CD4CAR for CD4+ Leukemia and Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9084,
+                    "therapyName": "CD4CAR",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04185220",
+            "title": "Phase I Study of Recombinant Human IL-15 (rhIL-15) and Mogamulizumab for People With Refractory or Relapsed Adult T-Cell Leukemia and Mycosis Fungoides/Sezary Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9034,
+                    "therapyName": "Mogamulizumab + rhIL-15",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04283097",
+            "title": "Safety, Tolerability and Pharmacokinetics Study of KPG-818 in Hematological Malignancies Subjects",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9479,
+                    "therapyName": "KPG-818",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "id": 10816,
+    "name": "duodenum adenocarcinoma",
+    "source": "DOID",
+    "definition": "A duodenum cancer that derives_from epithelial cells of glandular origin. [url:http\\://en.wikipedia.org/wiki/Adenocarcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:10816",
+    "evidence": [
+        {
+            "id": 524,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, Caprelsa (vandetinib) reduced the number and size of polyps in mouse models of intestinal cancer and may be a beneficial strategy in early intestinal cancer (PMID: 18347145).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10816,
+                "name": "duodenum adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 309,
+                    "pubMedId": 18347145,
+                    "title": "Dual inhibition of VEGFR and EGFR signaling reduces the incidence and size of intestinal adenomas in Apc(Min/+) mice.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18347145"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 529,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II study, Cyramza (ramuciramab), in combination with mFOLFOX-6 chemotherapy regimen (Wellcovorin (leucovorin), Adrucil (fluorouracil) and Eloxatin (oxaliplatin)), demonstrated safety and efficacy in metastatic colorectal cancer (PMID: 24674871).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 886,
+                "therapyName": "Ramucirumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10816,
+                "name": "duodenum adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 310,
+                    "pubMedId": 24674871,
+                    "title": "An open-label phase II study evaluating the safety and efficacy of ramucirumab combined with mFOLFOX-6 as first-line therapy for metastatic colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24674871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11715,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with duodenal adenocarcinoma harboring ERBB2 (HER2) amplification demonstrated a complete pathologic response after treatment with a combination of Herceptin (trastuzumab), Adrucil (fluorouracil), Wellcovorin (leucovorin), and Eloxatin (oxaliplatin) (PMID: 28784859).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 3439,
+                "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10816,
+                "name": "duodenum adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9726,
+                    "pubMedId": 28784859,
+                    "title": "Neoadjuvant Treatment With Trastuzumab and FOLFOX Induces a Complete Pathologic Response in a Metastatic ERBB2 (HER2)-Amplified Duodenal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28784859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02949219",
+            "title": "Pembrolizumab in Treating Patients With Small Bowel Adenocarcinoma That is Metastatic or Locally Advanced and Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

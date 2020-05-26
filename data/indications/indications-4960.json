@@ -1,0 +1,1570 @@
+{
+    "id": 4960,
+    "name": "bone marrow cancer",
+    "source": "DOID",
+    "definition": "A hematopoietic cancer that derives_from the blood-forming stem cells of the bone marrow. [url:http\\://nci.nih.gov/dictionary/?CdrID=430857]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "2356",
+        "2761"
+    ],
+    "termId": "DOID:4960",
+    "evidence": [
+        {
+            "id": 3331,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Quizartinib (AC220) reduced white blood cell counts and decreased myeloid cell invasion in a CBL mutant mouse model with myeloproliferative disorder (PMID: 22990016).",
+            "molecularProfile": {
+                "id": 13184,
+                "profileName": "CBL mutant"
+            },
+            "therapy": {
+                "id": 882,
+                "therapyName": "Quizartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3302,
+                    "pubMedId": 22990016,
+                    "title": "Flt3 inhibitor AC220 is a potent therapy in a mouse model of myeloproliferative disease driven by enhanced wild-type Flt3 signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22990016"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4581,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, myeloproliferative cancer cell lines harboring JAK2 V617F demonstrated reduced sensitivity to SGI-1776 induced growth inhibition in culture (PMID: 26472029).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 3533,
+                "therapyName": "SGI-1776",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4621,
+                    "pubMedId": 26472029,
+                    "title": "The PIM inhibitor AZD1208 synergizes with ruxolitinib to induce apoptosis of ruxolitinib sensitive and resistant JAK2-V617F-driven cells and inhibit colony formation of primary MPN cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26472029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4582,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, myeloproliferative cancer cell lines harboring JAK2 V617F demonstrated reduced sensitivity to AZD1208 induced growth inhibition in culture (PMID: 26472029).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 3224,
+                "therapyName": "AZD1208",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4621,
+                    "pubMedId": 26472029,
+                    "title": "The PIM inhibitor AZD1208 synergizes with ruxolitinib to induce apoptosis of ruxolitinib sensitive and resistant JAK2-V617F-driven cells and inhibit colony formation of primary MPN cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26472029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4583,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Jakafi (ruxolitinib) worked synergistically with SGI-1776 to inhibit proliferation of myeloproliferative cancer cell lines harboring JAK2 V617F in culture (PMID: 26472029).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 3549,
+                "therapyName": "Ruxolitinib + SGI-1776",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4621,
+                    "pubMedId": 26472029,
+                    "title": "The PIM inhibitor AZD1208 synergizes with ruxolitinib to induce apoptosis of ruxolitinib sensitive and resistant JAK2-V617F-driven cells and inhibit colony formation of primary MPN cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26472029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4584,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Jakafi (ruxolitinib) worked synergistically with AZD1208 to inhibit proliferation of myeloproliferative cancer cell lines harboring JAK2 V617F in culture (PMID: 26472029).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 3550,
+                "therapyName": "AZD1208 + Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4621,
+                    "pubMedId": 26472029,
+                    "title": "The PIM inhibitor AZD1208 synergizes with ruxolitinib to induce apoptosis of ruxolitinib sensitive and resistant JAK2-V617F-driven cells and inhibit colony formation of primary MPN cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26472029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4587,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD1208 treatment inhibited proliferation of JAK2 inhibitor-resistant myeloproliferative cancer cell lines harboring JAK2 V617F and elevated protein level of PIM1, PIM2 AND PIM3 in culture (PMID: 26472029).",
+            "molecularProfile": {
+                "id": 18597,
+                "profileName": "JAK2 V617F PIM1 over exp PIM2 over exp PIM3 over exp"
+            },
+            "therapy": {
+                "id": 3224,
+                "therapyName": "AZD1208",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4621,
+                    "pubMedId": 26472029,
+                    "title": "The PIM inhibitor AZD1208 synergizes with ruxolitinib to induce apoptosis of ruxolitinib sensitive and resistant JAK2-V617F-driven cells and inhibit colony formation of primary MPN cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26472029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6061,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CHZ868 inhibited proliferation of myeloproliferative neoplasm cells harboring JAK2 V617F , including cells with decreased response to Type I JAK inhibitors following chronic exposure, and decreased mutant allele burden in a mouse polycythemia vera model expressing JAK2 V617F (PMID: 26175413).",
+            "molecularProfile": {
+                "id": 591,
+                "profileName": "JAK2 V617F"
+            },
+            "therapy": {
+                "id": 4016,
+                "therapyName": "CHZ868",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5260,
+                    "pubMedId": 26175413,
+                    "title": "CHZ868, a Type II JAK2 Inhibitor, Reverses Type I JAK Inhibitor Persistence and Demonstrates Efficacy in Myeloproliferative Neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26175413"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6425,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Fasudil (HA-1077) selectively inhibited proliferation of CBL and CBLB double knockout hematopoietic stem/progenitor cells in a mouse model of myeloproliferative disorder (PMID: 26177294).",
+            "molecularProfile": {
+                "id": 23386,
+                "profileName": "CBL del CBLB del"
+            },
+            "therapy": {
+                "id": 1777,
+                "therapyName": "Fasudil",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5583,
+                    "pubMedId": 26177294,
+                    "title": "Fasudil, a clinically safe ROCK inhibitor, decreases disease burden in a Cbl/Cbl-b deficiency-driven murine model of myeloproliferative disorders.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26177294"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6433,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Roferon-A (Alpha 2 Interferon) treatment resulted in hematologic response in 100% (31/31) and complete molecular response in 6% (2/31) of essential thrombocythemia (ET) patients harboring CALR mutations (PMID: 26486786).",
+            "molecularProfile": {
+                "id": 23414,
+                "profileName": "CALR mutant"
+            },
+            "therapy": {
+                "id": 1187,
+                "therapyName": "Alpha 2 Interferon",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5594,
+                    "pubMedId": 26486786,
+                    "title": "Clinical and molecular response to interferon-\u03b1 therapy in essential thrombocythemia patients with CALR mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26486786"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6434,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "CALR mutations are used in the diagnosis of myeloproliferative neoplasms, especially of essential thrombocythemia and primary myelofibrosis (PMID: 26697989, PMID: 26449662, PMID: 26071474, PMID: 25873496).",
+            "molecularProfile": {
+                "id": 23414,
+                "profileName": "CALR mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5595,
+                    "pubMedId": 26697989,
+                    "title": "Myeloproliferative neoplasms: Current molecular biology and genetics.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26697989"
+                },
+                {
+                    "id": 5596,
+                    "pubMedId": 26449662,
+                    "title": "Differential clinical effects of different mutation subtypes in CALR-mutant myeloproliferative neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26449662"
+                },
+                {
+                    "id": 5597,
+                    "pubMedId": 26071474,
+                    "title": "The Prevalence of JAK2, MPL, and CALR Mutations in Chinese Patients With BCR-ABL1-Negative Myeloproliferative Neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26071474"
+                },
+                {
+                    "id": 5598,
+                    "pubMedId": 25873496,
+                    "title": "CALR, JAK2, and MPL mutation profiles in patients with four different subtypes of myeloproliferative neoplasms: primary myelofibrosis, essential thrombocythemia, polycythemia vera, and myeloproliferative neoplasm, unclassifiable.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25873496"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6483,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In clinical studies, high frequency of CSF3R mutations was identified in patients with chronic neutrophilic leukemia (PMID: 23656643, PMID: 24081659), suggesting that this may serve as a future diagnostic biomarker (PMID: 24441292).",
+            "molecularProfile": {
+                "id": 23595,
+                "profileName": "CSF3R mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4960,
+                "name": "bone marrow cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3951,
+                    "pubMedId": 23656643,
+                    "title": "Oncogenic CSF3R mutations in chronic neutrophilic leukemia and atypical CML.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23656643"
+                },
+                {
+                    "id": 5647,
+                    "pubMedId": 24081659,
+                    "title": "The CSF3R T618I mutation causes a lethal neutrophilic neoplasia in mice that is responsive to therapeutic JAK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24081659"
+                },
+                {
+                    "id": 5648,
+                    "pubMedId": 24441292,
+                    "title": "An overview on CALR and CSF3R mutations and a proposal for revision of WHO diagnostic criteria for myeloproliferative neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24441292"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00084695",
+            "title": "Umbilical Cord Blood for Stem Cell Transplantation in Treating Young Patients With Malignant or Nonmalignant Diseases",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2558,
+                    "therapyName": "Busulfan + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00513474",
+            "title": "Rasburicase in Preventing Graft-Versus-Host Disease in Patients With Hematologic Cancer or Other Disease Undergoing Donor Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2313,
+                    "therapyName": "Rasburicase",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1650,
+                    "therapyName": "Cyclosporine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 2314,
+                    "therapyName": "Busulfan + Cyclophosphamide + Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00602693",
+            "title": "T-Regulatory Cell Infusion Post Umbilical Cord Blood Transplant in Patients With Advanced Hematologic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2311,
+                    "therapyName": "Allopurinol + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00620633",
+            "title": "Dose Escalation Trial of WT1-Sensitized T Cells for Residual or Relapsed Leukemia After Allogeneic Hematopoietic Progenitor Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7192,
+                    "therapyName": "ATA520",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00679536",
+            "title": "Allogeneic Transplantation for Pediatric Leukemias With Unrelated Donors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1846,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00857389",
+            "title": "Thiotepa-Clofarabine-Busulfan With Allogeneic Stem Cell Transplant for High Risk Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2563,
+                    "therapyName": "Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 2469,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00892190",
+            "title": "Study of Dasatinib and All-Trans Retinoic Acid for Relapsed/Refractory and/or Elderly Patients With Acute Myelogenous Leukemia (AML) or Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00908167",
+            "title": "Sorafenib in Combination With Cytarabine and Clofarabine in Patients With Refractory or Relapsed Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2374,
+                    "therapyName": "Clofarabine + Cytarabine + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01251575",
+            "title": "Sirolimus, Cyclosporine, and Mycophenolate Mofetil In Preventing Graft-Versus-Host Disease in Treating Patients With Hematologic Malignancies Undergoing Donor Peripheral Blood Stem Cell Transplant",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2270,
+                    "therapyName": "Cyclosporine + Mycophenolate mofetil + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01338987",
+            "title": "Pilot Study of Lupron to Improve Immune Function After Allogeneic Bone Marrow Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01584531",
+            "title": "Efficacy and Safety of Oral Rigosertib in Transfusion-dependent, Low or Int-1 or Trisomy 8 Int-2 Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1046,
+                    "therapyName": "Rigosertib Sodium",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01593670",
+            "title": "Decitabine and Vorinostat Conditioning Followed by CD3-/CD19- NK Cells Infusion for High Risk Myelodysplastic Syndromes",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1077,
+                    "therapyName": "Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01606579",
+            "title": "Safety and Efficacy Study of PRI-724 in Subjects With Advanced Myeloid Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2466,
+                    "therapyName": "Cytarabine + Pri-724",
+                    "synonyms": null
+                },
+                {
+                    "id": 2465,
+                    "therapyName": "Dasatinib + Pri-724",
+                    "synonyms": null
+                },
+                {
+                    "id": 1083,
+                    "therapyName": "Pri-724",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01621477",
+            "title": "T-Cell Replete Haploidentical Donor Hematopoietic Stem Cell Plus Natural Killer (NK) Cell Transplantation in Patients With Hematologic Malignancies Relapsed or Refractory Despite Previous Allogeneic Transplant",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 2469,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1783,
+                    "therapyName": "Cyclophosphamide + Cytarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01634217",
+            "title": "Inducible Regulatory T Cells (iTregs) in Non-Myeloablative Sibling Donor Peripheral Blood Stem Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT01640301",
+            "title": "Laboratory-Treated T Cells in Treating Patients With High-Risk Relapsed Acute Myeloid Leukemia, Myelodysplastic Syndrome, or Chronic Myelogenous Leukemia Previously Treated With Donor Stem Cell Transplant",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2901,
+                    "therapyName": "WT1 sensitized T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01687400",
+            "title": "Genomic Predictors of Decitabine Response in Patients With Acute Myeloid Leukemia or Myelodysplastic Syndromes",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01720225",
+            "title": "Decitabine Versus Azacitidine in Myelodysplastic Syndrome Patients With Low and Intermediate-1 Risk",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01746849",
+            "title": "Palifermin With Leuprolide Acetate for the Promotion of Immune Recovery Following Total Body Irradiation Based T-Cell Depleted Allogeneic Hematopoietic Stem Cell Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2563,
+                    "therapyName": "Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 2373,
+                    "therapyName": "Palifermin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01812252",
+            "title": "Chemotherapy in Treating Patients With Myelodysplastic Syndrome Before Donor Stem Cell Transplant",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1606,
+                    "therapyName": "Cytarabine + Idarubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1798,
+                    "therapyName": "Azacitidine + Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01823198",
+            "title": "Natural Killer (NK) Cells With HLA Compatible Hematopoietic Transplantation for High Risk Myeloid Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 1846,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01834248",
+            "title": "DEC-205/NY-ESO-1 Fusion Protein CDX-1401and Decitabine in Treating Patients With Myelodysplastic Syndrome or Acute Myeloid Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1795,
+                    "therapyName": "DEC-205-NY-ESO-1 fusion protein vaccine + Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01841333",
+            "title": "PF-04449913 For Patients With Acute Leukemia at High Risk of Relapse After Donor Stem Cell Transplant",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1748,
+                    "therapyName": "Glasdegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01842646",
+            "title": "Phase II Hedgehog Inhibitor for Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1748,
+                    "therapyName": "Glasdegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01869114",
+            "title": "Sirolimus and Azacitidine in Treating Patients With High Risk Myelodysplastic Syndrome or Acute Myeloid Leukemia That is Recurrent or Not Eligible for Intensive Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2233,
+                    "therapyName": "Azacitidine + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01880437",
+            "title": "A Study of Vismodegib in Patients With Relapsed/Refractory Acute Myelogenous Leukemia and Relapsed Refractory High-Risk Myleodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1802,
+                    "therapyName": "Cytarabine + Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01885689",
+            "title": "Clofarabine and Melphalan Before Donor Stem Cell Transplant in Treating Patients With Myelodysplasia or Acute Leukemia in Remission",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2236,
+                    "therapyName": "Clofarabine + Melphalan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01893320",
+            "title": "Study of Vosaroxin and Decitabine in Older Patients With Acute Myeloid Leukemia and High-risk Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1766,
+                    "therapyName": "Decitabine + Vosaroxin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01895842",
+            "title": "Ruxolitinib for Patients With Low or Intermediate-1 Risk Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01926587",
+            "title": "Oral Rigosertib in Combination With Azacitidine",
+            "phase": "Phase Ib/II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 2320,
+                    "therapyName": "Azacitidine + Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01928537",
+            "title": "Efficacy and Safety of IV Rigosertib in MDS Patients With Excess Blasts Progressing After Azacitidine or Decitabine",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1046,
+                    "therapyName": "Rigosertib Sodium",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01953692",
+            "title": "A Trial of Pembrolizumab (MK-3475) in Participants With Blood Cancers (MK-3475-013)(KEYNOTE-013)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01993641",
+            "title": "Phase 2 Study Adding Pracinostat to a Hypomethylating Agent (HMA) in Patients With MDS Who Failed to Respond to Single Agent HMA",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1758,
+                    "therapyName": "Pracinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02010645",
+            "title": "Eltrombopag With Decitabine in Advanced Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1763,
+                    "therapyName": "Decitabine + Eltrombopag",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02076191",
+            "title": "Study of Combination Ruxolitinib and Decitabine Treatment for Accelerated Phase MPN or Post-MPN AML",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1735,
+                    "therapyName": "Decitabine + Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02078609",
+            "title": "A Safety and Efficacy Study of LGH447 in Patients With Acute Myeloid Leukemia (AML) or High Risk Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2402,
+                    "therapyName": "LGH447",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02083250",
+            "title": "Fludarabine/Clofarabine/Busulfan Combined With SAHA in Acute Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1077,
+                    "therapyName": "Vorinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 3201,
+                    "therapyName": "Busulfan + Clofarabine + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02103478",
+            "title": "Pharmacokinetic Guided Dose Escalation and Dose Confirmation With Oral Decitabine and Oral CDAi in Patients With MDS",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1759,
+                    "therapyName": "ASTX727",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02121418",
+            "title": "Decitabine and Cytarabine in Treating Older Patients With Newly Diagnosed Acute Myeloid Leukemia, High Risk Myelodysplastic Syndrome, or Myeloproliferative Neoplasm",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1736,
+                    "therapyName": "Cytarabine + Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02129101",
+            "title": "Azacitidine and Sonidegib in Treating Patients With Myeloid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1428,
+                    "therapyName": "Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02131597",
+            "title": "SGI-110 in Higher Risk Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1949,
+                    "therapyName": "Guadecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02141477",
+            "title": "Omacetaxine and Decitabine in Acute Myelogenous Leukemia (AML) and Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1762,
+                    "therapyName": "Decitabine + Omacetaxine mepesuccinate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02200380",
+            "title": "A Safety and Tolerability Study of CDX-301 With or Without Plerixafor for Stem Cell Mobilization in Matched Related Allogeneic Donor/Recipient Sibling Transplant Pairs",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                },
+                {
+                    "id": 3007,
+                    "therapyName": "CDX-301",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02212561",
+            "title": "Selinexor With Fludarabine and Cytarabine for Treatment of Refractory or Relapsed Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2345,
+                    "therapyName": "Cytarabine + Dexamethasone + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02296242",
+            "title": "Phase 1/2 Study of the ERK1/2 Inhibitor BVD-523 in Patients With Acute Myelogenous Leukemia or Myelodysplastic Syndromes",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02308761",
+            "title": "A Dose Escalation and Cohort Expansion Study of TEN-010 in Patients With Acute Myeloid Leukemia and Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 937,
+                    "therapyName": "TEN-010",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02312102",
+            "title": "Phase I Study of Velcade and Lenalidomide in Patients With Relapsed AML and MDS After Allogeneic Stem Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3220,
+                    "therapyName": "Bortezomib + Lenalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02319369",
+            "title": "Study to Evaluate the Safety, Tolerability and Pharmacokinetics of DS-3032b in Hematological Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2079,
+                    "therapyName": "DS-3032b",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02333162",
+            "title": "Intensity Modulated Total Marrow Irradiation, Fludarabine Phosphate, and Melphalan in Treating Patients With Relapsed Hematologic Cancers Undergoing a Second Donor Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2237,
+                    "therapyName": "Fludarabine + Melphalan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02381548",
+            "title": "Phase I Trial of AZD1775 and Belinostat in Treating Patients With Relapsed or Refractory Myeloid Malignancies or Untreated Acute Myeloid Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3197,
+                    "therapyName": "Adavosertib + Belinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02392572",
+            "title": "ONC201 in Relapsed/Refractory Acute Leukemias and High-risk Myelodysplastic Syndromes (HR-MDS)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1687,
+                    "therapyName": "ONC201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02400281",
+            "title": "Study of Crenolanib Combined With Chemotherapy in FLT3-mutated Acute Myeloid Leukemia Patients",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 705,
+                    "therapyName": "Crenolanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1606,
+                    "therapyName": "Cytarabine + Idarubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02418000",
+            "title": "A Study of E6201 for the Treatment of Advanced Hematologic Malignancies With FLT3 Mutation",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1011,
+                    "therapyName": "E6201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02464657",
+            "title": "Nivolumab in Acute Myeloid Leukemia (AML)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 3192,
+                    "therapyName": "Cytarabine + Idarubicin + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02469415",
+            "title": "Pacritinib for Patients With Lower-Risk Myelodysplastic Syndromes (MDS)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2006,
+                    "therapyName": "Pacritinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02472145",
+            "title": "An Efficacy and Safety Study of Decitabine (DACOGEN) Plus Talacotuzumab (JNJ-56022473; Anti CD123) Versus Decitabine (DACOGEN) Alone in Participants With Acute Myeloid Leukemia (AML) Ineligible for Intensive Chemotherapy",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 5909,
+                    "therapyName": "Decitabine + Talacotuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02485535",
+            "title": "Selinexor in Treating Patients With Intermediate- and High-Risk Acute Myeloid Leukemia or High-Risk Myelodysplastic Syndrome After Transplant",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02527174",
+            "title": "A Study of Volasertib Plus Induction Chemotherapy for Acute Myeloid Leukemia (VIAC)",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3213,
+                    "therapyName": "Cytarabine + Idarubicin + Volasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02530476",
+            "title": "Phase I/II, Study of Selective Inhibitor of Nuclear Export (SINE) Selinexor (KPT-330) + Sorafenib in Acute Myeloid Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3189,
+                    "therapyName": "Selinexor + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02577406",
+            "title": "An Efficacy and Safety Study of AG-221 (CC-90007) Versus Conventional Care Regimens in Older Subjects With Late Stage Acute Myeloid Leukemia Harboring an Isocitrate Dehydrogenase 2 Mutation (IDHENTIFY)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2982,
+                    "therapyName": "Enasidenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02599649",
+            "title": "Lirilumab and Nivolumab With 5-Azacitidine in Patients With Myelodysplastic Syndromes (MDS)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2583,
+                    "therapyName": "IPH2102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02610777",
+            "title": "An Efficacy and Safety Study of Pevonedistat Plus Azacitidine Versus Single-Agent Azacitidine in Participants With Higher-Risk Myelodysplastic Syndromes (HR MDS), Chronic Myelomonocytic Leukemia (CMML) and Low-Blast Acute Myelogenous Leukemia (AML)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1688,
+                    "therapyName": "MLN4924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02721875",
+            "title": "Trial of Volasertib With or Without Azacitidine in Patients With Myelodysplastic Syndromes",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 957,
+                    "therapyName": "Volasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02722668",
+            "title": "UCB Transplant for Hematological DIseases Using a Non Myeloablative Prep",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2281,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02728050",
+            "title": "Filgrastim, Cladribine, Cytarabine and Mitoxantrone With or Without Sorafenib Tosylate in Treating Patients With Newly-Diagnosed, High-Risk Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4363,
+                    "therapyName": "Cladribine + Cytarabine + Filgrastim + Mitoxantrone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03011372",
+            "title": "A Study to Evaluate the Efficacy and Safety of INCB054828 in Subjects With Myeloid/Lymphoid Neoplasms With FGFR1 Rearrangement",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4173,
+                    "therapyName": "Pemigatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03065400",
+            "title": "PD-1 Inhibition in Advanced Myeloproliferative Neoplasms",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "id": 4226,
+    "name": "endometrial stromal sarcoma",
+    "source": "DOID",
+    "definition": "An endometrial stromal tumor that has_material_basis in connective tissue. [url:https\\://en.wikipedia.org/wiki/Endometrial_stromal_sarcoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4226",
+    "evidence": [
+        {
+            "id": 11628,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with endometrial stromal sarcoma that harbored MDM2 amplification quickly progressed after receiving Opdivo (nivolumab), resulted in new abdominal metastasis and a 242% increase of existing liver metastasis size within 1.5 months of treatment (PMID: 28351930).",
+            "molecularProfile": {
+                "id": 1425,
+                "profileName": "MDM2 amp"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4226,
+                "name": "endometrial stromal sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 9671,
+                    "pubMedId": 28351930,
+                    "title": "Hyperprogressors after Immunotherapy: Analysis of Genomic Alterations Associated with Accelerated Growth Rate.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28351930"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02963831",
+            "title": "A Phase 1/2 Study to Investigate the Safety, Biologic and Anti-tumor Activity of ONCOS-102 in Combination With Durvalumab in Subjects With Advanced Peritoneal Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4978,
+                    "therapyName": "Durvalumab + ONCOS-102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03241745",
+            "title": "A Study of Nivolumab in Selected Uterine Cancer Patients",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

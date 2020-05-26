@@ -1,0 +1,79 @@
+{
+    "id": 50938,
+    "name": "breast lobular carcinoma",
+    "source": "DOID",
+    "definition": "A breast carcinoma that derives_from breast lobules (milk glands). [url:http\\://cancergenome.nih.gov/cancersselected/breastlobular, url:http\\://www.cancer.gov/dictionary?CdrID=426416]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050938",
+    "evidence": [
+        {
+            "id": 11218,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lobular breast carcinoma patient harboring ERBB2 (HER2) L869R and ERBB3 (HER3) E928G achieved a clinical response following treatment with Nerlynx (neratinib), and sensitivity to Nerlynx (neratinib) was also demonstrated in cells expressing ERBB2 (HER2) L869R and ERBB3 (HER3) E928G in culture (PMID: 28274957).",
+            "molecularProfile": {
+                "id": 27927,
+                "profileName": "ERBB2 L869R ERBB3 E928G"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50938,
+                "name": "breast lobular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9156,
+                    "pubMedId": 28274957,
+                    "title": "An Acquired HER2T798I Gatekeeper Mutation Induces Resistance to Neratinib in a Patient with HER2 Mutant-Driven Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28274957"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11219,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lobular breast carcinoma patient harboring ERBB2 L869R and ERBB3 E928G demonstrated an initial response to treatment with Nerlynx (neratinib), but subsequently developed resistance, which was associated with acquisition of ERBB2 T798I (PMID: 28274957).",
+            "molecularProfile": {
+                "id": 27928,
+                "profileName": "ERBB2 T798I ERBB2 L869R ERBB3 E928G"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50938,
+                "name": "breast lobular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9156,
+                    "pubMedId": 28274957,
+                    "title": "An Acquired HER2T798I Gatekeeper Mutation Induces Resistance to Neratinib in a Patient with HER2 Mutant-Driven Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28274957"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

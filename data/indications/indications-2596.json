@@ -1,0 +1,230 @@
+{
+    "id": 2596,
+    "name": "larynx cancer",
+    "source": "DOID",
+    "definition": "A respiratory system cancer that is located_in the larynx. [url:http\\://en.wikipedia.org/wiki/Larynx]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:2596",
+    "evidence": [
+        {
+            "id": 16107,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Zelboraf (vemurafenib) treatment resulted in complete response in a patient with larynx cancer harboring BRAF V600E (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2596,
+                "name": "larynx cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01218048",
+            "title": "ERBITUX; Followed by Adjuvant Treatment With Chemoradiation and ERBITUX; for Locally Advanced Head and Neck Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02113878",
+            "title": "Phase Ib Study of BKM120 With Cisplatin and XRT in High Risk Locally Advanced Squamous Cell Cancer of Head and Neck",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1691,
+                    "therapyName": "Buparlisib + Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02124850",
+            "title": "A Phase Ib Study of Neoadjuvant Immune Biomarker Modulation With ERBITUX&#174; (Cetuximab) and VTX-2337",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02128906",
+            "title": "Radiotherapy With Cisplatin vs. Docetaxel-cetuximab in HNSCC",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1925,
+                    "therapyName": "Cetuximab + Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02177838",
+            "title": "Cetuximab and Radiation Therapy in Treating Patients With Stage III-IV Head and Neck Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1915,
+                    "therapyName": "Cetuximab + Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02777385",
+            "title": "Pembrolizumab in Combination With Cisplatin and Intensity Modulated Radiotherapy (IMRT) in Head and Neck Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3256,
+                    "therapyName": "Cisplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02795156",
+            "title": "Study to Assess the Activity of Molecularly Matched Targeted Therapies in Select Tumor Types Based on Genomic Alterations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03040999",
+            "title": "Study of Pembrolizumab (MK-3475) or Placebo With Chemoradiation in Participants With Locally Advanced Head and Neck Squamous Cell Carcinoma (MK-3475-412/KEYNOTE-412)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3256,
+                    "therapyName": "Cisplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03179956",
+            "title": "Impact of Ribociclib on Head and Neck Squamous Cell Cancer",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03529422",
+            "title": "Durvalumab and Tremelimumab With Radiotherapy for Adjuvant Treatment of Intermediate Risk SCCHN",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03765918",
+            "title": "Study of Pembrolizumab Given Prior to Surgery and in Combination With Radiotherapy Given Post-surgery for Advanced Head and Neck Squamous Cell Carcinoma (MK-3475-689)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3256,
+                    "therapyName": "Cisplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

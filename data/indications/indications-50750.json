@@ -1,0 +1,158 @@
+{
+    "id": 50750,
+    "name": "splenic marginal zone lymphoma",
+    "source": "DOID",
+    "definition": "A marginal zone B-cell lymphocyte located_in the spleen comprised of B-cells in place of white pulp. [url:http\\://en.wikipedia.org/wiki/Splenic_marginal_zone_lymphoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050750",
+    "evidence": [
+        {
+            "id": 6001,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ST7612AA1 inhibited proliferation of splenic marginal zone lymphoma cell lines in culture (PMID: 25671299).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3989,
+                "therapyName": "ST7612AA1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50750,
+                "name": "splenic marginal zone lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5200,
+                    "pubMedId": 25671299,
+                    "title": "Preclinical antitumor activity of ST7612AA1: a new oral thiol-based histone deacetylase (HDAC) inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25671299"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19111,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "MYD88 mutations aid in the diagnosis of splenic marginal zone lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 1917,
+                "profileName": "MYD88 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50750,
+                "name": "splenic marginal zone lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19112,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "BRAF mutations aid in the diagnosis of splenic marginal zone lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 465,
+                "profileName": "BRAF mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50750,
+                "name": "splenic marginal zone lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03601819",
+            "title": "Pacritinib in Relapsed/Refractory Lymphoproliferative Disorders",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2006,
+                    "therapyName": "Pacritinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03696784",
+            "title": "Anti-CD19 CAR-T Cells With Inducible Caspase 9 Safety Switch for B-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                },
+                {
+                    "id": 7976,
+                    "therapyName": "Bendamustine + Fludarabine + iC9/CAR.19/IL15-Transduced CB-NK",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04223765",
+            "title": "Study of Kappa Chimeric Antigen Receptor (CAR) T Lymphocytes Co-Expressing the Kappa and CD28 CARs for Relapsed/Refractory Kappa+ Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9229,
+                    "therapyName": "Bendamustine + CAR.k.28 cells + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9230,
+                    "therapyName": "CAR.k.28 cells + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,213 @@
+{
+    "id": 11615,
+    "name": "penile cancer",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "11614"
+    ],
+    "termId": "DOID:11615",
+    "evidence": [
+        {
+            "id": 6891,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, ABT-806 treatment resulted in stable disease for more than 2.5 years in a penile cancer patient harboring EGFR amplification (PMID: 25895099).",
+            "molecularProfile": {
+                "id": 447,
+                "profileName": "EGFR amp"
+            },
+            "therapy": {
+                "id": 4256,
+                "therapyName": "ABT-806",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11615,
+                "name": "penile cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5781,
+                    "pubMedId": 25895099,
+                    "title": "A phase 1 study of ABT-806 in subjects with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25895099"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17710,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a second-line therapy for unresectable or metastatic penile cancer patients with high microsatellite instability, MSI-H (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11615,
+                "name": "penile cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02426892",
+            "title": "Nivolumab and HPV-16 Vaccination in Patients With HPV-16 Positive Incurable Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02721732",
+            "title": "Study for the Evaluation of Efficacy of Pembrolizumab (MK-3475) in Patients With Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02812056",
+            "title": "Alisertib and TAK-228 in Participants With Human Papilloma Virus (HPV) Associated Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4214,
+                    "therapyName": "Alisertib + Sapanisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03333616",
+            "title": "Nivolumab Combined With Ipilimumab for Patients With Advanced Rare Genitourinary Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03427411",
+            "title": "Phase II Trial of M7824 in Subjects With HPV Positive Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5860,
+                    "therapyName": "M7824",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03439085",
+            "title": "Vaccine + Durvalumab in Human Papilloma Virus (HPV) Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5791,
+                    "therapyName": "Durvalumab + MEDI0457",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03618953",
+            "title": "This is a Trial of MG1-E6E7 With Ad-E6E7 and Atezolizumab in Patients With HPV Associated Cancers (Kingfisher)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7295,
+                    "therapyName": "Ad-E6E7 + Atezolizumab + MG1-E6E7",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03866382",
+            "title": "Cabozantinib in Combination With Nivolumab and Ipilimumab in Rare Genitourinary Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2067,
+                    "therapyName": "Cabozantinib + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2068,
+                    "therapyName": "Cabozantinib + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04287868",
+            "title": "Combination Immunotherapy in Subjects With Advanced HPV Associated Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9432,
+                    "therapyName": "M7824 + NHS-IL12 + PDS0101",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

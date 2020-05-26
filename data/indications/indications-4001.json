@@ -1,0 +1,2443 @@
+{
+    "id": 4001,
+    "name": "ovarian carcinoma",
+    "source": "DOID",
+    "definition": "An ovarian cancer that has_material_basis_in epithelial tissue and is located_in the ovary. [url:https\\://www.cancer.gov/types/ovarian]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4001",
+    "evidence": [
+        {
+            "id": 2394,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human ovarian carcinoma cells demonstrated cell cycle arrest in cell line xenograft models when treated with NMS-P937 (PMID: 22319201).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2806,
+                "therapyName": "NMS-P937",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2979,
+                    "pubMedId": 22319201,
+                    "title": "NMS-P937, an orally available, specific small-molecule polo-like kinase 1 inhibitor with antitumor activity in solid and hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22319201"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3196,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the pan-Notch inhibitor, BMS-906024, inhibited growth of ovarian carcinoma xenografts (PMID: 26005526).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2545,
+                "therapyName": "BMS-906024",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3681,
+                    "pubMedId": 26005526,
+                    "title": "Discovery of Clinical Candidate BMS-906024: A Potent Pan-Notch Inhibitor for the Treatment of Leukemia and Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26005526"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3292,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NMS-P715 inhibited tumor growth in ovarian carcinoma cell line xenograft models (PMID: 21159646).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3107,
+                "therapyName": "NMS-P715",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3716,
+                    "pubMedId": 21159646,
+                    "title": "Targeting the mitotic checkpoint for cancer therapy with NMS-P715, an inhibitor of MPS1 kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21159646"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3381,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, the combination of Torisel (temsirolimus) plus Avastin (bevacizumab) and Doxil (pegylated liposomal-doxorubicin) resulted in a partial response in a patient with ovarian clear cell carcinoma harboring PIK3CA H1047 and BRAF V600 mutations (PMID: 21216929).",
+            "molecularProfile": {
+                "id": 13306,
+                "profileName": "BRAF V600X PIK3CA H1047X"
+            },
+            "therapy": {
+                "id": 1121,
+                "therapyName": "Bevacizumab + Pegylated liposomal-doxorubicin + Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3726,
+                    "pubMedId": 21216929,
+                    "title": "PIK3CA mutations in patients with advanced cancers treated with PI3K/AKT/mTOR axis inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21216929"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3383,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, the combination of Torisel (temsirolimus) plus Avastin (bevacizumab) and Doxil (pegylated liposomal-doxorubicin) resulted in a partial response in a patient with ovarian carcinoma harboring both a PIK3CA mutation and a KRAS Q61 mutation (PMID: 21216929).",
+            "molecularProfile": {
+                "id": 13307,
+                "profileName": "KRAS Q61X PIK3CA mut"
+            },
+            "therapy": {
+                "id": 1121,
+                "therapyName": "Bevacizumab + Pegylated liposomal-doxorubicin + Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3726,
+                    "pubMedId": 21216929,
+                    "title": "PIK3CA mutations in patients with advanced cancers treated with PI3K/AKT/mTOR axis inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21216929"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3979,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ReACp53 induced cell death and decreased proliferation of human primary ovarian carcinoma cells harboring both TP53 I195* and TP53 R248Q in culture (PMID: 26748848).",
+            "molecularProfile": {
+                "id": 16640,
+                "profileName": "TP53 I195* TP53 R248Q"
+            },
+            "therapy": {
+                "id": 3406,
+                "therapyName": "ReACp53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4309,
+                    "pubMedId": 26748848,
+                    "title": "A Designed Inhibitor of p53 Aggregation Rescues p53 Tumor Suppression in Ovarian Carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748848"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3980,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ReACp53 induced cell death in human primary ovarian carcinoma cells harboring TP53 Y234C in culture (PMID: 26748848).",
+            "molecularProfile": {
+                "id": 16659,
+                "profileName": "TP53 Y234C"
+            },
+            "therapy": {
+                "id": 3406,
+                "therapyName": "ReACp53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4309,
+                    "pubMedId": 26748848,
+                    "title": "A Designed Inhibitor of p53 Aggregation Rescues p53 Tumor Suppression in Ovarian Carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748848"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3981,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ReACp53 induced cell death in human primary ovarian carcinoma cells harboring TP53 Y327L in culture (PMID: 26748848).",
+            "molecularProfile": {
+                "id": 16642,
+                "profileName": "TP53 Y327L"
+            },
+            "therapy": {
+                "id": 3406,
+                "therapyName": "ReACp53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4309,
+                    "pubMedId": 26748848,
+                    "title": "A Designed Inhibitor of p53 Aggregation Rescues p53 Tumor Suppression in Ovarian Carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748848"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3982,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ReACp53 induced cell death and decreased proliferation of ovarian carcinoma cells harboring TP53 mutations in culture, but did not effect viability of ovarian carcinoma cells with wild-type TP53 (PMID: 26748848).",
+            "molecularProfile": {
+                "id": 489,
+                "profileName": "TP53 inact mut"
+            },
+            "therapy": {
+                "id": 3406,
+                "therapyName": "ReACp53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4309,
+                    "pubMedId": 26748848,
+                    "title": "A Designed Inhibitor of p53 Aggregation Rescues p53 Tumor Suppression in Ovarian Carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748848"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4271,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells over expressing Ptk2 were sensitive to PF-562271 in mouse models, resulting in decreased phosphorylation of Ptk2 and reduced tumor growth (PMID: 24899686).",
+            "molecularProfile": {
+                "id": 17604,
+                "profileName": "PTK2 over exp"
+            },
+            "therapy": {
+                "id": 2087,
+                "therapyName": "PF-562271",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4361,
+                    "pubMedId": 24899686,
+                    "title": "FAK Inhibition disrupts a \u03b25 integrin signaling axis controlling anchorage-independent ovarian carcinoma growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24899686"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4272,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells over expressing Ptk2 were sensitive to VS-4718 (PMID: 24899686).",
+            "molecularProfile": {
+                "id": 17604,
+                "profileName": "PTK2 over exp"
+            },
+            "therapy": {
+                "id": 1933,
+                "therapyName": "VS-4718",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4361,
+                    "pubMedId": 24899686,
+                    "title": "FAK Inhibition disrupts a \u03b25 integrin signaling axis controlling anchorage-independent ovarian carcinoma growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24899686"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4337,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cell lines harboring decreased Stat3 activity demonstrated reduced sensitivity to SH5-07 treatment-induced growth inhibition in culture (PMID: 26088127).",
+            "molecularProfile": {
+                "id": 17820,
+                "profileName": "STAT3 inact mut"
+            },
+            "therapy": {
+                "id": 3494,
+                "therapyName": "SH5-07",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4499,
+                    "pubMedId": 26088127,
+                    "title": "Hydroxamic Acid and Benzoic Acid-Based STAT3 Inhibitors Suppress Human Glioma and Breast Cancer Phenotypes In Vitro and In Vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26088127"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4346,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cell lines harboring reduced Stat3 activity demonstrated reduced sensitivity to SH4-54 treatment-induced growth inhibition in culture (PMID: 26088127).",
+            "molecularProfile": {
+                "id": 17820,
+                "profileName": "STAT3 inact mut"
+            },
+            "therapy": {
+                "id": 3493,
+                "therapyName": "SH4-54",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4499,
+                    "pubMedId": 26088127,
+                    "title": "Hydroxamic Acid and Benzoic Acid-Based STAT3 Inhibitors Suppress Human Glioma and Breast Cancer Phenotypes In Vitro and In Vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26088127"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7617,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, 10058-F4 induced cell-cycle arrest and apoptosis and decreased Myc expression in ovarian carcinoma cell lines in culture, and inhibited proliferation of several Myc-positive patient-derived primary ovarian carcinoma cell cultures, with the level of sensitivity independent of the overall level of Myc expression (PMID: 25143136).",
+            "molecularProfile": {
+                "id": 15187,
+                "profileName": "MYC positive"
+            },
+            "therapy": {
+                "id": 3304,
+                "therapyName": "10058-F4",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4130,
+                    "pubMedId": 25143136,
+                    "title": "Evaluation of the antitumor effects of c-Myc-Max heterodimerization inhibitor 100258-F4 in ovarian cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25143136"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7767,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with ovarian carcinoma harboring KRAS Q61H demonstrated sensitivity to treatment with the combination of Nexavar (sorafenib) and Avastin (bevacizumab), resulting in 62% tumor regression (PMID: 25363205).",
+            "molecularProfile": {
+                "id": 1862,
+                "profileName": "KRAS Q61H"
+            },
+            "therapy": {
+                "id": 4517,
+                "therapyName": "Bevacizumab + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6478,
+                    "pubMedId": 25363205,
+                    "title": "Dual antiangiogenic inhibition: a phase I dose escalation and expansion trial targeting VEGF-A and VEGFR in patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25363205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7769,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with ovarian cancer harboring MET N375S demonstrated sensitivity to the combination treatment, Nexavar (sorafenib) and Avastin (bevacizumab), resulting in stable disease for greater than six months (PMID: 25363205).",
+            "molecularProfile": {
+                "id": 3165,
+                "profileName": "MET N375S"
+            },
+            "therapy": {
+                "id": 4517,
+                "therapyName": "Bevacizumab + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6478,
+                    "pubMedId": 25363205,
+                    "title": "Dual antiangiogenic inhibition: a phase I dose escalation and expansion trial targeting VEGF-A and VEGFR in patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25363205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8248,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SYD985 decreased survival of a ERBB2 (HER2)-positive ovarian carcinoma cell line in culture (PMID: 25589493).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 4539,
+                "therapyName": "SYD985",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6587,
+                    "pubMedId": 25589493,
+                    "title": "The Preclinical Profile of the Duocarmycin-Based HER2-Targeting ADC SYD985 Predicts for Clinical Benefit in Low HER2-Expressing Breast Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25589493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9631,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Rubraca (rucaparib) demonstrated activity in patients with platinum-sensitive high-grade ovarian carcinoma, with patients in the BRCA mutant and BRCA wild-type with high genomic loss-of-heterozygosity subgroups demonstrating increased progression-free survival compared to the BRCA wild-type with low genomic loss-of-heterozygosity subgroup (PMID: 27908594).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7354,
+                    "pubMedId": 27908594,
+                    "title": "Rucaparib in relapsed, platinum-sensitive high-grade ovarian carcinoma (ARIEL2 Part 1): an international, multicentre, open-label, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27908594"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9886,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian carcinoma mouse model did not respond to the combination of Ontak (denileukin diftitox) and Rapamune (sirolimus), demonstrating no decrease in tumor burden (PMID: 27737881).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5283,
+                "therapyName": "Denileukin diftitox + Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 7744,
+                    "pubMedId": 27737881,
+                    "title": "Biphasic Rapamycin Effects in Lymphoma and Carcinoma Treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27737881"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11867,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of MU380 resulted in increased sensitivity to Gemzar (gemcitabine) in a ovarian carcinoma cell line, resulting in decreased proliferation in culture and improved survival in xenograft models (PMID: 28619751).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6181,
+                "therapyName": "Gemcitabine + MU380",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9884,
+                    "pubMedId": 28619751,
+                    "title": "Synthesis and Profiling of a Novel Potent Selective Inhibitor of CHK1 Kinase Possessing Unusual N-trifluoromethylpyrazole Pharmacophore Resistant to Metabolic N-dealkylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12032,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian carcinoma patient harboring a RAD51C R193* germline mutation demonstrated a partial response when treated with Rubraca (rucaparib) (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28328,
+                "profileName": "RAD51C R193*"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12033,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian carcinoma patient harboring a RAD51C R193* germline mutation developed resistance to Rubraca (rucaparib) after acquisition of RAD51C R193W, RAD51C H192_R193delinsGG, and RAD51C R193L (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28392,
+                "profileName": "RAD51C H192_R193delinsGG RAD51C R193* RAD51C R193L RAD51C R193W"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12035,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C R193L demonstrated resistance to Rubraca (rucaparib) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28390,
+                "profileName": "RAD51C R193L"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12036,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C R193W demonstrated resistance to Rubraca (rucaparib) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28359,
+                "profileName": "RAD51C R193W"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12037,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C H192_R193delinsGG demonstrated resistance to Rubraca (rucaparib) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28388,
+                "profileName": "RAD51C H192_R193delinsGG"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12038,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C R193L demonstrated resistance to Zejula (niraparib) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28390,
+                "profileName": "RAD51C R193L"
+            },
+            "therapy": {
+                "id": 832,
+                "therapyName": "Niraparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12039,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C R193W demonstrated resistance to Zejula (niraparib) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28359,
+                "profileName": "RAD51C R193W"
+            },
+            "therapy": {
+                "id": 832,
+                "therapyName": "Niraparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12040,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C H192_R193delinsGG demonstrated resistance to Zejula (niraparib) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28388,
+                "profileName": "RAD51C H192_R193delinsGG"
+            },
+            "therapy": {
+                "id": 832,
+                "therapyName": "Niraparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12041,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C R193L demonstrated resistance to Lynparza (olaparib) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28390,
+                "profileName": "RAD51C R193L"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12042,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C R193W demonstrated resistance to Lynparza (olaparib) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28359,
+                "profileName": "RAD51C R193W"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12043,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C H192_R193delinsGG demonstrated resistance to Lynparza (olaparib) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28388,
+                "profileName": "RAD51C H192_R193delinsGG"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12044,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C R193L demonstrated resistance to Talazoparib (BMN-673) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28390,
+                "profileName": "RAD51C R193L"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12045,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C R193W demonstrated resistance to Talazoparib (BMN-673) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28359,
+                "profileName": "RAD51C R193W"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12046,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C H192_R193delinsGG demonstrated resistance to Talazoparib (BMN-673) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28388,
+                "profileName": "RAD51C H192_R193delinsGG"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12047,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C R193W demonstrated resistance to Veliparib (ABT-888) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28359,
+                "profileName": "RAD51C R193W"
+            },
+            "therapy": {
+                "id": 954,
+                "therapyName": "Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12048,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian carcinoma cells expressing RAD51C H192_R193delinsGG demonstrated resistance to Veliparib (ABT-888) in culture (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28388,
+                "profileName": "RAD51C H192_R193delinsGG"
+            },
+            "therapy": {
+                "id": 954,
+                "therapyName": "Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12049,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, an ovarian carcinoma patient harboring a RAD51D G258Sfs*50 germline mutation demonstrated stable disease when treated with Rubraca (rucaparib) (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28329,
+                "profileName": "RAD51D G258Sfs*50"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12050,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian carcinoma patient harboring a RAD51D G258Sfs*50 germline mutation developed resistance to Rubraca (rucaparib) after acquisition of RAD51D S257_R259delinsK (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28393,
+                "profileName": "RAD51D S257_R259delinsK RAD51D G258Sfs*50"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12052,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian carcinoma patient harboring a BRCA1 L392Qfs*5 germline mutation demonstrated a partial response when treated with Rubraca (rucaparib) (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28324,
+                "profileName": "BRCA1 L392Qfs*5"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12056,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian carcinoma patient harboring a BRCA1 W1782* germline mutation demonstrated stable disease when treated with Rubraca (rucaparib) (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28325,
+                "profileName": "BRCA1 W1782*"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12061,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian carcinoma patient harboring a BRCA1 L631Qfs*4 germline mutation demonstrated a partial response when treated with Rubraca (rucaparib) (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28326,
+                "profileName": "BRCA1 L631Qfs*4"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12062,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian carcinoma patient harboring a BRCA1 N682* germline mutation demonstrated a partial response when treated with Rubraca (rucaparib) (PMID: 28588062).",
+            "molecularProfile": {
+                "id": 28327,
+                "profileName": "BRCA1 N682*"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9883,
+                    "pubMedId": 28588062,
+                    "title": "Secondary Somatic Mutations Restoring RAD51C and RAD51D Associated with Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588062"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12713,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Disarib treatment led to apoptotic induction and resulted in tumor regression in ovarian carcinoma xenograft models (PMID: 27693384).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6600,
+                "therapyName": "Disarib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10633,
+                    "pubMedId": 27693384,
+                    "title": "A novel inhibitor of BCL2, Disarib abrogates tumor growth while sparing platelets, by activating intrinsic pathway of apoptosis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27693384"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13097,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, the combination of Veliparib (ABT-888) and topotecan demonstrated safety and tolerability, and resulted in an objective response rate of 9% (4/45; 1 complete response and 3 partial responses) and stable disease in 21 patients with ovarian carcinoma (PMID: 29138343; NCT01012817).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1132,
+                "therapyName": "Topotecan + Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10964,
+                    "pubMedId": 29138343,
+                    "title": "A Phase I Clinical Trial of the Poly(ADP-ribose) Polymerase Inhibitor Veliparib and Weekly Topotecan in Patients with Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29138343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14033,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective study of a Phase III trial, ovarian carcinoma patients harboring a mutation in either BRCA1, BRCA2, or another homologous recombination repair (HRR) gene did not demonstrate a significant difference in progression free survival when Avastin (bevacizumab) was added to the combined platinum therapy, Platinol (carboplatin) and Taxol (paclitaxel), versus the platinum therapy with placebo, suggesting HRR gene mutations do not impact the effect of Avastin (bevacizumab) (PMID: 29191972).",
+            "molecularProfile": {
+                "id": 1205,
+                "profileName": "BRCA1 mutant"
+            },
+            "therapy": {
+                "id": 1152,
+                "therapyName": "Bevacizumab + Carboplatin + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11433,
+                    "pubMedId": 29191972,
+                    "title": "Mutations in Homologous Recombination Genes and Outcomes in Ovarian Carcinoma Patients in GOG 218: An NRG Oncology/Gynecologic Oncology Group Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29191972"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14034,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective study of a Phase III trial, ovarian carcinoma patients harboring a mutation in either BRCA1, BRCA2, or another homologous recombination repair (HRR) gene did not demonstrate a significant difference in progression free survival when Avastin (bevacizumab) was added to the combined platinum therapy, Platinol (carboplatin) and Taxol (paclitaxel), versus the platinum therapy with placebo, suggesting HRR gene mutations do not impact the effect of Avastin (bevacizumab) (PMID: 29191972).",
+            "molecularProfile": {
+                "id": 1206,
+                "profileName": "BRCA2 mutant"
+            },
+            "therapy": {
+                "id": 1152,
+                "therapyName": "Bevacizumab + Carboplatin + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11433,
+                    "pubMedId": 29191972,
+                    "title": "Mutations in Homologous Recombination Genes and Outcomes in Ovarian Carcinoma Patients in GOG 218: An NRG Oncology/Gynecologic Oncology Group Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29191972"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14094,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SKLB-23bb treatment resulted in antitumor efficacy in ovarian carcinoma cells, demonstrating decreased colony formation in vitro and inhibition of tumor growth in cell line xenograft models (PMID: 29610282).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7019,
+                "therapyName": "SKLB-23bb",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11452,
+                    "pubMedId": 29610282,
+                    "title": "SKLB-23bb, A HDAC6-Selective Inhibitor, Exhibits Superior and Broad-Spectrum Antitumor Activity via Additionally Targeting Microtubules.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29610282"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14967,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with high grade ovarian carcinoma harboring a CD274 rearrangement demonstrated a complete response when treated with Keytruda (pembrolizumab) (PMID: 29351920).",
+            "molecularProfile": {
+                "id": 30402,
+                "profileName": "CD274 rearrange"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11864,
+                    "pubMedId": 29351920,
+                    "title": "Exceptional Response to Pembrolizumab in a Metastatic, Chemotherapy/Radiation-Resistant Ovarian Cancer Patient Harboring a PD-L1-Genetic Rearrangement.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29351920"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16699,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, BI 853520 demonstrated safety and some anti-tumor efficacy, resulting in stable disease in 31% (5/16) of patients with platinum-resistant ovarian carcinoma, one of whom had stable disease lasting greater than 150 days (PMID: 30756308; NCT01335269).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3599,
+                "therapyName": "BI 853520",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14726,
+                    "pubMedId": 30756308,
+                    "title": "Phase I Study of BI 853520, an Inhibitor of Focal Adhesion Kinase, in Patients with Advanced or Metastatic Nonhematologic Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30756308"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16784,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In retrospective analysis of a Phase II trial, patients with ovarian carcinoma harboring a BRCA1 or BRCA2 inactivating mutation and no reversion BRCA1 or BRCA2 mutation, which were tested via cell-free DNA, demonstrated a longer progression-free survival, 9.0 vs 1.8 mo (HR: 0.12, 95% CI 0.05-0.26), compared to those patients with a BRCA1 or BRCA2 reversion mutation (PMID: 30425037; NCT01891344).",
+            "molecularProfile": {
+                "id": 1282,
+                "profileName": "BRCA1 inact mut"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14910,
+                    "pubMedId": 30425037,
+                    "title": "BRCA Reversion Mutations in Circulating Tumor DNA Predict Primary and Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30425037"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17304,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Miransertib (ARQ092) treatment resulted in complete tumor remission and improved quality of life in a patient harboring AKT1 E17K who had Proteus syndrome and developed ovarian carcinoma, and treatment was ongoing at 22 months (PMID: 31058421).",
+            "molecularProfile": {
+                "id": 643,
+                "profileName": "AKT1 E17K"
+            },
+            "therapy": {
+                "id": 635,
+                "therapyName": "Miransertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15350,
+                    "pubMedId": 31058421,
+                    "title": "First evidence of a therapeutic effect of miransertib in a teenager with Proteus syndrome and ovarian carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31058421"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18018,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SP600125 treatment resulted in reduced migration in an ovarian carcinoma cell line overexpressing PPP2R1A W257G in culture (PMID: 27272709).",
+            "molecularProfile": {
+                "id": 26408,
+                "profileName": "PPP2R1A W257G"
+            },
+            "therapy": {
+                "id": 3366,
+                "therapyName": "SP600125",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15939,
+                    "pubMedId": 27272709,
+                    "title": "Patient derived mutation W257G of PPP2R1A enhances cancer cell migration through SRC-JNK-c-Jun pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27272709"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18683,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, the inclusion of Motolimod (VTX-2337) with Doxil (pegylated liposomal-doxorubicin) did not result in improved survival in patients with either ovarian, fallopian tube, or primary peritoneal carcinoma (PMID: 28453702; NCT01666444).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5609,
+                "therapyName": "Motolimod + Pegylated liposomal-doxorubicin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8793,
+                    "pubMedId": 28453702,
+                    "title": "A phase 2, randomized, double-blind, placebo-\u00a0controlled study of chemo-immunotherapy combination using motolimod with pegylated liposomal doxorubicin in recurrent or persistent ovarian cancer: a Gynecologic Oncology Group partners study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28453702"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00989651",
+            "title": "Carboplatin, Paclitaxel, Bevacizumab, and ABT-888 in Treating Patients With Newly Diagnosed Stage II, Stage III, or Stage IV Ovarian Epithelial Cancer, Fallopian Tube Cancer, or Primary Peritoneal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3047,
+                    "therapyName": "Bevacizumab + Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01174121",
+            "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01248962",
+            "title": "Standard Infusion Carboplatin Versus Prophylactic Extended Infusion Carboplatin in Patients With Patients With Recurrent, Ovary, Fallopian Tube, and Primary Peritoneal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01281514",
+            "title": "Carboplatin, Pegylated Liposomal Doxorubicin Hydrochloride, and Everolimus in Treating Patients With Relapsed Ovarian Epithelial, Fallopian Tube, or Peritoneal Cavity Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2168,
+                    "therapyName": "Carboplatin + Everolimus + Pegylated liposomal-doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01504126",
+            "title": "Beta-Blocker / Ovarian",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1912,
+                    "therapyName": "Propranolol",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01607905",
+            "title": "Safety Study of the Selective Inhibitor of Nuclear Export (SINE) KPT-330 in Patients With Advanced or Metastatic Solid Tumor Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01669798",
+            "title": "BIBF 1120 in Bevacizumab Resistant, Persistent, or Recurrent Epithelial Ovarian Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 831,
+                    "therapyName": "Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01849874",
+            "title": "A Study of MEK162 vs. Physician's Choice Chemotherapy in Patients With Low-grade Serous Ovarian, Fallopian Tube or Peritoneal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 807,
+                    "therapyName": "Binimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01936974",
+            "title": "(PGA) for Platinum-resistant/Refractory, Paclitaxel-Pretreated Recurrent Ovarian and Peritoneal Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1295,
+                    "therapyName": "Bevacizumab + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1296,
+                    "therapyName": "Bevacizumab + Gemcitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1294,
+                    "therapyName": "Bevacizumab + Carboplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1297,
+                    "therapyName": "Bevacizumab + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01940172",
+            "title": "Study of Birinapant in Combination With Conatumumab in Subjects With Relapsed Ovarian Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1458,
+                    "therapyName": "Conatumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2647,
+                    "therapyName": "Birinapant",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01974765",
+            "title": "Enzalutamide in Patients With Androgen Receptor Positive (AR+) Ovarian, Primary Peritoneal or Fallopian Tube Cancer and One, Two or Three Prior Therapies",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02042430",
+            "title": "INCB024360 Before Surgery in Treating Patients With Newly Diagnosed Stage III-IV Epithelial Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2575,
+                    "therapyName": "Epacadostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02059265",
+            "title": "Dasatinib in Treating Patients With Recurrent or Persistent Ovarian, Fallopian Tube, Endometrial or Peritoneal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02098343",
+            "title": "p53 Suppressor Activation in Recurrent High Grade Serous Ovarian Cancer, a Phase Ib/II Study of Systemic Carboplatin Combination Chemotherapy With or Without APR-246",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1953,
+                    "therapyName": "Carboplatin + Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1952,
+                    "therapyName": "APR-246 + Carboplatin + Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02101775",
+            "title": "Gemcitabine Hydrochloride With or Without WEE1 Inhibitor MK-1775 in Treating Patients With Recurrent Ovarian, Primary Peritoneal, or Fallopian Tube Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1279,
+                    "therapyName": "Adavosertib + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02101788",
+            "title": "Trametinib in Treating Patients With Recurrent or Progressive Low-Grade Ovarian Cancer or Peritoneal Cavity Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 942,
+                    "therapyName": "Topotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 2173,
+                    "therapyName": "Letrozole + Paclitaxel + Pegylated liposomal-doxorubicin + Tamoxifen",
+                    "synonyms": null
+                },
+                {
+                    "id": 2,
+                    "therapyName": "Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02121990",
+            "title": "Dose-Escalation Study of Intraperitoneal (IP) Cisplatin, IV/IP Paclitaxel, IV Bevacizumab, and Oral Olaparib for Newly Diagnosed Ovarian, Primary Peritoneal, and Fallopian Tube Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1451,
+                    "therapyName": "Bevacizumab + Cisplatin + Olaparib + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02122185",
+            "title": "Metformin Hydrochloride and Combination Chemotherapy in Treating Patients With Stage III-IV Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1827,
+                    "therapyName": "Carboplatin + Docetaxel + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02166905",
+            "title": "DEC-205/NY-ESO-1 Fusion Protein CDX-1401, Poly ICLC, and IDO1 Inhibitor INCB024360 in Treating Patients With Ovarian, Fallopian Tube, or Primary Peritoneal Cancer in Remission",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                },
+                {
+                    "id": 1324,
+                    "therapyName": "DEC-205-NY-ESO-1 fusion protein vaccine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2575,
+                    "therapyName": "Epacadostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02208375",
+            "title": "A Phase Ib Study of the Oral PARP Inhibitor Olaparib With the Oral mTORC1/2 Inhibitor AZD2014 or the Oral AKT Inhibitor AZD5363 for Recurrent Endometrial, Triple Negative Breast, and Ovarian, Primary Peritoneal, or Fallopian Tube Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3139,
+                    "therapyName": "Capivasertib + Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3141,
+                    "therapyName": "Olaparib + Vistusertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02270372",
+            "title": "Study of ONT-10 and Varlilumab to Treat Advanced Ovarian or Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2525,
+                    "therapyName": "Varlilumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3051,
+                    "therapyName": "ONT-10",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02272790",
+            "title": "A Phase II Study Comparing AZD1775 + Chemotherapy Versus Chemotherapy Alone in Patients to Treat Ovarian, Fallopian Tube, or Primary Peritoneal Cancer.",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1194,
+                    "therapyName": "Adavosertib + Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1279,
+                    "therapyName": "Adavosertib + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1567,
+                    "therapyName": "Adavosertib + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02283658",
+            "title": "Everolimus and Letrozole in Treating Patients With Recurrent Hormone Receptor Positive Ovarian, Fallopian Tube, or Primary Peritoneal Cavity Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1621,
+                    "therapyName": "Everolimus + Letrozole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02431559",
+            "title": "A Phase 1/2 Study of Motolimod (VTX-2337) and MEDI4736 in Subjects With Recurrent, Platinum-Resistant Ovarian Cancer for Whom Pegylated Liposomal Doxorubicin (PLD) is Indicated",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3101,
+                    "therapyName": "Aldoxorubicin + Durvalumab + Motolimod",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02440425",
+            "title": "Dose Dense Paclitaxel With Pembrolizumab (MK-3475) in Platinum Resistant Ovarian Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02444793",
+            "title": "A Study of PF-05082566 In Combination With Mogamulizumab In Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6332,
+                    "therapyName": "Mogamulizumab + Utomilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02459301",
+            "title": "Dose-Ranging Study of IPH2201 in Patients With High Grade Serious CA of Ovarian, Fallopian Tube or Peritoneal Origin",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3382,
+                    "therapyName": "IPH2201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02470585",
+            "title": "Veliparib With Carboplatin and Paclitaxel and as Continuation Maintenance Therapy in Subjects With Newly Diagnosed Stage III or IV, High-grade Serous, Epithelial Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 954,
+                    "therapyName": "Veliparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02485990",
+            "title": "Study of Tremelimumab Alone or Combined With Olaparib for Patients With Persistent EOC (Epithelial Ovarian, Fallopian Tube or Primary Peritoneal Carcinoma)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02489006",
+            "title": "A Study of Olaparib Prior to Surgery and Chemotherapy in Ovarian, Primary Peritoneal, and Fallopian Tube Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02520115",
+            "title": "Folate Receptor in Diagnosing Ovarian Cancer Using Serum Samples From Patients With Newly Diagnosed Pelvic Mass or Previously Diagnosed Ovarian Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1076,
+                    "therapyName": "Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02571725",
+            "title": "PARP-inhibition and CTLA-4 Blockade in BRCA-deficient Ovarian Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8289,
+                    "therapyName": "Olaparib + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02608684",
+            "title": "A Study of Pembrolizumab With Standard Treatment in Patients With Recurrent Platinum-resistant Ovarian Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3248,
+                    "therapyName": "Cisplatin + Gemcitabine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02657928",
+            "title": "Ribociclib and Letrozole in Treating Patients With Relapsed ER Positive Ovarian, Fallopian Tube, Primary Peritoneal or Endometrial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1568,
+                    "therapyName": "Letrozole + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02659241",
+            "title": "A Pilot Study of Induction Wee1 Inhibition in Ovarian Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 822,
+                    "therapyName": "Adavosertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02661815",
+            "title": "A Phase 1b Study of Weekly Paclitaxel And Oral Ricolinostat For The Treatment Of Recurrent Platinum Resistant Ovarian, Primary Peritoneal, Or Fallopian Tube Cancer",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3469,
+                    "therapyName": "Paclitaxel + Ricolinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02665416",
+            "title": "Study Evaluating the Safety, Pharmacokinetics (PK), Pharmacodynamics (PD), and Therapeutic Activity of RO7009789 With Vanucizumab in Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3468,
+                    "therapyName": "RO5520985 + RO7009789",
+                    "synonyms": null
+                },
+                {
+                    "id": 8302,
+                    "therapyName": "Bevacizumab + RO7009789",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02759588",
+            "title": "GL-ONC1 Oncolytic Immunotherapy in Patients With Recurrent Ovarian Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6364,
+                    "therapyName": "GL-ONC1",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02764333",
+            "title": "TPIV200/huFR-1 (A Multi-Epitope Anti-Folate Receptor Vaccine) Plus Anti-PD-L1 MEDI4736 (Durvalumab) in Patients With Platinum Resistant Ovarian Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4180,
+                    "therapyName": "Durvalumab + TPIV 200",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02835833",
+            "title": "Study of Nintedanib Plus Bevacizumab in Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4498,
+                    "therapyName": "Bevacizumab + Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02960594",
+            "title": "hTERT Immunotherapy Alone or in Combination With IL-12 DNA Followed by Electroporation in Adults With Solid Tumors at High Risk of Relapse",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5844,
+                    "therapyName": "INO-1400 + INO-9012",
+                    "synonyms": null
+                },
+                {
+                    "id": 5807,
+                    "therapyName": "INO-1400",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03017131",
+            "title": "Genetically Modified T Cells and Decitabine in Treating Patients With Recurrent or Refractory Ovarian, Primary Peritoneal, or Fallopian Tube Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9674,
+                    "therapyName": "Aldesleukin + Cyclophosphamide + Decitabine + NY-ESO-1-c259T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03029403",
+            "title": "Phase 2 Study of Pembrolizumab, DPX-Survivac Vaccine and Cyclophosphamide in Advanced Ovarian, Primary Peritoneal or Fallopian Tube Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5266,
+                    "therapyName": "Cyclophosphamide + DPX-Survivac + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03435640",
+            "title": "A Study of NKTR-262 in Combination With NKTR-214 and With NKTR-214 Plus Nivolumab in Patients With Locally Advanced or Metastatic Solid Tumor Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6790,
+                    "therapyName": "NKTR-214 + NKTR-262",
+                    "synonyms": null
+                },
+                {
+                    "id": 6791,
+                    "therapyName": "Nivolumab + NKTR-214 + NKTR-262",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03878849",
+            "title": "Investigation of 2X-121 in Patients With Advanced Ovarian Cancer Selected by the 2X-121 DRP (PREDICT 2X-121)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 724,
+                    "therapyName": "E7449",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03924245",
+            "title": "Olaparib and Entinostat in Patients With Recurrent, Platinum-Refractory, Resistant Ovarian, Primary Peritoneal, Fallopian Tube Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1541,
+                    "therapyName": "Entinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 8200,
+                    "therapyName": "Entinostat + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04096638",
+            "title": "Evaluating Safety and Efficacy of SB 11285 Alone and in Combination With Nivolumab in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8759,
+                    "therapyName": "Nivolumab + SB 11285",
+                    "synonyms": null
+                },
+                {
+                    "id": 8758,
+                    "therapyName": "SB 11285",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04140526",
+            "title": "Safety, PK and Efficacy of ONC-392 in Monotherapy and in Combination of Anti-PD-1 in Advanced Solid Tumors and NSCLC",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8898,
+                    "therapyName": "ONC-392",
+                    "synonyms": null
+                },
+                {
+                    "id": 8899,
+                    "therapyName": "ONC-392 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

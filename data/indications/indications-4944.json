@@ -1,0 +1,4710 @@
+{
+    "id": 4944,
+    "name": "gastroesophageal junction adenocarcinoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4944",
+    "evidence": [
+        {
+            "id": 894,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ToGA) that supported FDA approval, patients with either gastric cancer or gastroesophageal junction adenocarcinoma with ERBB2 (HER2) overexpression or ERBB2 (HER2) amplification had increased overall survival (13.8 mo vs 11.1 mo) when treated with Herceptin (trastuzumab) in combination with chemotherapy compared to chemotherapy alone (PMID: 20728210; NCT01041404).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 893,
+                    "pubMedId": 20728210,
+                    "title": "Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20728210"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15509,
+                    "pubMedId": null,
+                    "title": "Herceptin (trastuzumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 2002,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval, treatment with Cyramza (ramucirumab) in combination with Taxol (paclitaxel) increased progression-free and overall survival and improved quality of life compared to treatment with Taxol (paclitaxel) alone in patients with gastroesophageal junction adenocarcinoma (PMID:24706672).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1721,
+                "therapyName": "Paclitaxel + Ramucirumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 200,
+                    "pubMedId": 24706672,
+                    "title": "Ramucirumab extends gastric cancer survival.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24706672"
+                },
+                {
+                    "id": 15576,
+                    "pubMedId": null,
+                    "title": "Cyramza (ramucirumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125477"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2004,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval, treatment with Cyramza (ramucirumab) increased progression-free and overall survival in patients with gastroesophageal junction adenocarcinoma (PMID: 24094768).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 886,
+                "therapyName": "Ramucirumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2449,
+                    "pubMedId": 24094768,
+                    "title": "Ramucirumab monotherapy for previously treated advanced gastric or gastro-oesophageal junction adenocarcinoma (REGARD): an international, randomised, multicentre, placebo-controlled, phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24094768"
+                },
+                {
+                    "id": 15576,
+                    "pubMedId": null,
+                    "title": "Cyramza (ramucirumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125477"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2847,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, S-222611 resulted in a complete response in a gastric-esophageal junction cancer patient over expressing ERBB2 (HER2) and a partial response in a gastric cancer patient also over expressing ERBB2 (HER2) (J Clin Oncol 33, 2015 (suppl; abstr 2511)).",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 1048,
+                "therapyName": "S-222611",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3502,
+                    "pubMedId": null,
+                    "title": "Phase I expansion of S-222611, a reversible inhibitor of EGFR and HER2, in advanced solid tumors, including patients with brain metastases",
+                    "url": "http://meetinglibrary.asco.org/content/148414-156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3802,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III clinical trial, the addition of Tykerb (lapatinib) to Xeloda (capecitabine) and Eloxatin (oxaliplatin) combination treatment did not significantly prolong overall survival compared to placebo, but did improve progression-free survival and response rate in gastroesophageal junction adenocarcinoma patients harboring ERBB2 amplification (PMID: 26628478).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4167,
+                    "pubMedId": 26628478,
+                    "title": "Lapatinib in Combination With Capecitabine Plus Oxaliplatin in Human Epidermal Growth Factor Receptor 2-Positive Advanced or Metastatic Gastric, Esophageal, or Gastroesophageal Adenocarcinoma: TRIO-013/LOGiC--A Randomized Phase III Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26628478"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5290,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, 38% (3/8) of patients with gastroesophageal cancer remained on study for approximately 12-26 cycles with Glesatinib (MGCD265) and Tarceva (erlotinib) combination therapy (J Clin Oncol 30, 2012 (suppl; abstr e13602)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1126,
+                "therapyName": "Erlotinib + Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4988,
+                    "pubMedId": null,
+                    "title": "MGCD265, a multitargeted oral tyrosine kinase receptor inhibitor of Met and VEGFR, in combination with erlotinib in patients with advanced solid tumors.",
+                    "url": "http://meetinglibrary.asco.org/content/96526-114"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6713,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Taxol (paclitaxel) and Herceptin (trastuzumab) treatment in combination with MM-111 did not improve progression free survival (9.6 weeks) and median overall survival (32.1 weeks) compared to without MM-111 (23.3 weeks, 56.1 weeks) in ERBB2 positive gastroesophageal junction cancer patients (J Clin Oncol 34, 2016 (suppl; abstr 4043)).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 1892,
+                "therapyName": "MM-111 + Paclitaxel + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5771,
+                    "pubMedId": null,
+                    "title": "Randomized phase 2 study of paclitaxel (PTX), trastuzumab (T) with or without MM-111 in HER2 expressing gastroesophageal cancers (GEC).",
+                    "url": "http://abstracts.asco.org/176/AbstView_176_166103.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8740,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (GATSBY), Kadcyla (trastuzumab emtansine) did not demonstrate efficacy benefit over Taxol (paclitaxel) in median overall survival (7.9 vs 8.6 months) in patients with previously treated ERBB2 (HER2)-positive locally advanced or metastatic gastric/gastroesophageal junction adenocarcinoma (PMID: 28343975; NCT01641939).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6725,
+                    "pubMedId": null,
+                    "title": "A randomized, open-label, multicenter, adaptive phase 2/3 study of trastuzumab emtansine (T-DM1) versus a taxane (TAX) in patients (pts) with previously treated HER2-positive locally advanced or metastatic gastric/gastroesophageal junction adenocarcinoma",
+                    "url": "http://meetinglibrary.asco.org/content/159174-173"
+                },
+                {
+                    "id": 16370,
+                    "pubMedId": 28343975,
+                    "title": "Trastuzumab emtansine versus taxane use for previously treated HER2-positive locally advanced or metastatic gastric or gastro-oesophageal junction adenocarcinoma (GATSBY): an international randomised, open-label, adaptive, phase 2/3 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28343975"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8744,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, addition of Rilotumumab to chemotherapy consisted of epirubicin, cisplatin and capecitabine (ECX) resulted in statistically significantly worse overall survival (9.6 vs 11.5 months) compared to ECX alone in MET-positive, ERBB2 (HER2)-positive gastric/gastroesophageal junction adenocarcinoma patients (J Clin Oncol 33, 2015 (suppl; abstr 4000)).",
+            "molecularProfile": {
+                "id": 26426,
+                "profileName": "ERBB2 neg MET pos"
+            },
+            "therapy": {
+                "id": 629,
+                "therapyName": "Rilotumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6729,
+                    "pubMedId": null,
+                    "title": "Phase III, randomized, double-blind, multicenter, placebo (P)-controlled trial of rilotumumab (R) plus epirubicin, cisplatin and capecitabine (ECX) as first-line therapy in patients (pts) with advanced MET-positive (pos) gastric or gastroesophageal juncti",
+                    "url": "http://meetinglibrary.asco.org/content/147255-156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8747,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, addition of Onartuzumab to mFOLFOX6 did not improve clinical outcome compared to mFOLFOX6 alone in MET-positive, ERBB2 (HER2)-positive gastric/gastroesophageal junction adenocarcinoma patients (J Clin Oncol 33, 2015 (suppl; abstr 4012)).",
+            "molecularProfile": {
+                "id": 26426,
+                "profileName": "ERBB2 neg MET pos"
+            },
+            "therapy": {
+                "id": 838,
+                "therapyName": "Onartuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6730,
+                    "pubMedId": null,
+                    "title": "METGastric: A phase III study of onartuzumab plus mFOLFOX6 in patients with metastatic HER2-negative (HER2-) and MET-positive (MET+) adenocarcinoma of the stomach or gastroesophageal junction (GEC).",
+                    "url": "http://meetinglibrary.asco.org/content/147779-156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8762,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, Apatinib (YN968D1) treatment significantly improved median overall survival (6.5 vs 4.7 months) and median progression-free survival (2.6 vs 1.8 months) compared to placebo in chemotherapy-refractory patients with advanced gastric or gastroesophageal junction adenocarcinoma (PMID: 26884585).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 986,
+                "therapyName": "Apatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6420,
+                    "pubMedId": 26884585,
+                    "title": "Randomized, Double-Blind, Placebo-Controlled Phase III Trial of Apatinib in Patients With Chemotherapy-Refractory Advanced or Metastatic Adenocarcinoma of the Stomach or Gastroesophageal Junction.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26884585"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8768,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, addition of Claudiximab (IMAB362) to chemotherapy consisted of epirubicin, oxaliplatin, and capecitabine (EOX) resulted in improved progression-free survival (7.9 vs 5.7 months) and overall survival (12.5 vs 8.7 months) compared to EOX alone in patients with advanced gastric and gastroesophageal junction adenocarcinoma (J Clin Oncol 34, 2016 (suppl; abstr LBA4001)).",
+            "molecularProfile": {
+                "id": 26432,
+                "profileName": "CLDN18 positive"
+            },
+            "therapy": {
+                "id": 4258,
+                "therapyName": "Claudiximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6736,
+                    "pubMedId": null,
+                    "title": "FAST: An international, multicenter, randomized, phase II trial of epirubicin, oxaliplatin, and capecitabine (EOX) with or without IMAB362, a first-in-class anti-CLDN18.2 antibody, as first-line therapy in patients with advanced CLDN18.2+ gastric and gast",
+                    "url": "http://meetinglibrary.asco.org/content/164788-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8771,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, addition of Claudiximab (IMAB362) to chemotherapy consisted of epirubicin, oxaliplatin, and capecitabine (EOX) resulted in improved progression-free survival (9.1 vs 6.1 months) compared to EOX alone in patients with advanced gastric and gastroesophageal junction adenocarcinoma over-expressing Cldn18 (J Clin Oncol 34, 2016 (suppl; abstr LBA4001)).",
+            "molecularProfile": {
+                "id": 26433,
+                "profileName": "CLDN18 over exp"
+            },
+            "therapy": {
+                "id": 4258,
+                "therapyName": "Claudiximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6736,
+                    "pubMedId": null,
+                    "title": "FAST: An international, multicenter, randomized, phase II trial of epirubicin, oxaliplatin, and capecitabine (EOX) with or without IMAB362, a first-in-class anti-CLDN18.2 antibody, as first-line therapy in patients with advanced CLDN18.2+ gastric and gast",
+                    "url": "http://meetinglibrary.asco.org/content/164788-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8773,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Yervoy (ipilimumab) did not improve immune-related progression-free survival (2.9 vs 4.9 months) compared to best supportive care in patients with unresectable, locally advanced/metastatic gastric or gastroesophageal junction cancer (J Clin Oncol 34, 2016 (suppl; abstr 4011)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 779,
+                "therapyName": "Ipilimumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6738,
+                    "pubMedId": null,
+                    "title": "A randomized, open-label, two-arm phase II trial comparing the efficacy of sequential ipilimumab (ipi) versus best supportive care (BSC) following first-line (1L) chemotherapy in patients with unresectable, locally advanced/metastatic (A/M) gastric or gas",
+                    "url": "http://meetinglibrary.asco.org/content/166431-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14180,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III (BRIGHTER) trial, combination of Napabucasin (BBI608) and Taxol (paclitaxel) did not significantly improve overall survival (6.93 vs 7.36 months, HR=1.01, p=0.8596) or progression-free survival (3.55 vs 3.65 months, HR=1.00, p=0.9679) compared to placebo in patients with pretreated, advanced gastric and gastroesophageal junction adenocarcinoma (Journal of Clinical Oncology 36, no. 15_suppl (May 20 2018) 4010-4010; NCT02178956).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2586,
+                "therapyName": "Napabucasin + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11490,
+                    "pubMedId": null,
+                    "title": "The BRIGHTER trial: A phase 3 randomized double-blind study of napabucasin (NAPA) plus paclitaxel (PTX) versus placebo (PBO) plus PTX in patients (pts) with pretreated advanced gastric and gastroesophageal junction (GEJ) adenocarcinoma.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.4010"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8775,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II tiral, combination of BBI608 (Napabucasin) and Taxol (paclitaxel) demonstrated safety and clinical efficacy in patients with advanced gastric and gastroesophageal junction adenocarcinoma (J Clin Oncol 33, 2015 (suppl; abstr 4069)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2586,
+                "therapyName": "Napabucasin + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6739,
+                    "pubMedId": null,
+                    "title": "Phase Ib/II study of cancer stem cell (CSC) inhibitor BBI608 combined with paclitaxel in advanced gastric and gastroesophageal junction (GEJ) adenocarcinoma.",
+                    "url": "http://meetinglibrary.asco.org/content/153561-156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17694,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a preferred thrid-line or subsequent therapy for gastroesophageal junction adenocarcinoma patients with CD274 (PD-L1) expression by CPS greater or equal to 1 (NCCN.org).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12028,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (KEYNOTE-059) that supported FDA approval, Keytruda (pembrolizumab) treatment resulted in an objective response rate of 15.5% (23/148, complete response 3, partial response 20) with a median response duration of 16.3 months in patients with CD274 (PD-L1)-positive (CPS >1) gastric cancer or gastroesophageal junction adenocarcinoma (PMID: 29543932; NCT02335411).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9983,
+                    "pubMedId": null,
+                    "title": "KEYNOTE-059 cohort 1: Efficacy and safety of pembrolizumab (pembro) monotherapy in patients with previously treated advanced gastric cancer.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2017.35.15_suppl.4003"
+                },
+                {
+                    "id": 14045,
+                    "pubMedId": 29543932,
+                    "title": "Safety and Efficacy of Pembrolizumab Monotherapy in Patients With Previously Treated Advanced Gastric and Gastroesophageal Junction Cancer: Phase 2 Clinical KEYNOTE-059 Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29543932"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15508,
+                    "pubMedId": null,
+                    "title": "Keytruda (pembrolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8777,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib tiral, Keytruda (pembrolizumab) treatment resulted in partial response in 22% (8/36) of patients with CD274 (PD-L1)-positive gastric and gastroesophageal junction adenocarcinoma (PMID: 27157491).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6743,
+                    "pubMedId": 27157491,
+                    "title": "Pembrolizumab for patients with PD-L1-positive advanced gastric cancer (KEYNOTE-012): a multicentre, open-label, phase 1b trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27157491"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11004,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, MCLA-128 resulted in stable disease for 5 months in a patient with gastroesophageal junction cancer (Cancer Res 2016;76(14 Suppl):Abstract nr CT050).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5771,
+                "therapyName": "MCLA-128",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8980,
+                    "pubMedId": null,
+                    "title": "A Phase I/II Study of MCLA-128, a full length IgG1 Bispecific Antibody Targeting HER2 and HER3, in Patients with Solid Tumors",
+                    "url": "http://cancerres.aacrjournals.org/content/76/14_Supplement/CT050.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12866,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ERBB2 (HER2)-amplified gastroesophageal cancer cell line initially sensitive to treatment with Tykerb (lapatinib) in culture developed resistance and was subsequently found to have acquired a secondary drug resistant mutation, SRC E527K (PMID: 25350844).",
+            "molecularProfile": {
+                "id": 28944,
+                "profileName": "ERBB2 amp SRC E527K"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10818,
+                    "pubMedId": 25350844,
+                    "title": "Src mutation induces acquired lapatinib resistance in ERBB2-amplified human gastroesophageal adenocarcinoma models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25350844"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12867,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Tykerb (lapatinib) and Saracatinib (AZD0530) inhibited growth of ERBB2 (HER2)-amplified gastroesophageal adenocarcinoma cells harboring SRC E527K in culture (PMID: 25350844).",
+            "molecularProfile": {
+                "id": 28944,
+                "profileName": "ERBB2 amp SRC E527K"
+            },
+            "therapy": {
+                "id": 6686,
+                "therapyName": "Lapatinib + Saracatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10818,
+                    "pubMedId": 25350844,
+                    "title": "Src mutation induces acquired lapatinib resistance in ERBB2-amplified human gastroesophageal adenocarcinoma models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25350844"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12869,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Xalkori (crizotinib) and Tykerb (lapatinib) inhibited the growth of gastroesophageal adenocarcinoma cells with ERBB2 (HER2) and MET amplification in culture (PMID: 25350844).",
+            "molecularProfile": {
+                "id": 17215,
+                "profileName": "ERBB2 amp MET amp"
+            },
+            "therapy": {
+                "id": 3440,
+                "therapyName": "Crizotinib + Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10818,
+                    "pubMedId": 25350844,
+                    "title": "Src mutation induces acquired lapatinib resistance in ERBB2-amplified human gastroesophageal adenocarcinoma models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25350844"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13189,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in no objective response, a clinical benefit rate of 20% (1/5), and a median progression-free survival of 1.7 months in patients with gastroesophageal cancer harboring ERBB2 (HER2) mutations (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 1216,
+                "profileName": "ERBB2 mutant"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13246,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in progressive disease with a progression-free survival of 1.9 months in a patient with gastroesophageal cancer harboring ERBB2 (HER2) D769Y (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3129,
+                "profileName": "ERBB2 D769Y"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13247,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in progressive disease with a progression-free survival of 1.7 months in a patient with gastroesophageal cancer harboring ERBB2 (HER2) R678Q (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3281,
+                "profileName": "ERBB2 R678Q"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13248,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease with a progression-free survival of 3.9 months in a patient with gastroesophageal cancer harboring ERBB2 (HER2) S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13249,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in progressive disease with a progression-free survival of 0.8 month in a patient with gastroesophageal cancer harboring ERBB2 (HER2) S310Y (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3285,
+                "profileName": "ERBB2 S310Y"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13250,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in progressive disease with a progression-free survival of 1.1 months in a patient with gastroesophageal cancer harboring ERBB2 (HER2) V777L (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3234,
+                "profileName": "ERBB2 V777L"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17479,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ToGA) that supported FDA approval, patients with either gastric cancer or gastroesophageal junction adenocarcinoma with ERBB2 (HER2) overexpression or ERBB2 (HER2) amplification had increased overall survival (13.8 mo vs 11.1 mo) when treated with Herceptin (trastuzumab) in combination with chemotherapy compared to chemotherapy alone (PMID: 20728210; NCT01041404).",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 893,
+                    "pubMedId": 20728210,
+                    "title": "Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20728210"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15509,
+                    "pubMedId": null,
+                    "title": "Herceptin (trastuzumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13503,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Herceptin (trastuzumab), in combination with fluoropyrimidine and cisplatin, or other chemotherapy agents, but not anthracyclines, is included in guidelines for Erbb2 (Her2)-overexpressing metastatic esophagogastric junction adenocarcinoma patients (NCCN.org)",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14013,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, anti-Egfr antibody therapies including Erbitux (cetuximab) and ABT-806, alone or in combination with chemotherapy, resulted in an objective response in 57% (4/7, 3 complete response, 1 partial response), and disease control in 43% (3/7) of patients with EGFR amplified gastric and esophagogastric junction adenocarcinoma with a mean circulating tumor DNA copy number of 2.5 in non-responders vs 33.9 in responders (p=0.049) (PMID: 29449271).",
+            "molecularProfile": {
+                "id": 447,
+                "profileName": "EGFR amp"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11409,
+                    "pubMedId": 29449271,
+                    "title": "Targeted Therapies for Targeted Populations: Anti-EGFR Treatment for EGFR-Amplified Gastroesophageal Adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29449271"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14015,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, anti-Egfr antibody therapies including Erbitux (cetuximab) and ABT-806, alone or in combination with chemotherapy, resulted in an objective response in 57% (4/7, 3 complete response, 1 partial response), and disease control in 43% (3/7) of patients with EGFR amplified gastric and esophagogastric junction adenocarcinoma with a mean circulating tumor DNA copy number of 2.5 in non-responders vs 33.9 in responders (p=0.049) (PMID: 29449271).",
+            "molecularProfile": {
+                "id": 447,
+                "profileName": "EGFR amp"
+            },
+            "therapy": {
+                "id": 4256,
+                "therapyName": "ABT-806",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11409,
+                    "pubMedId": 29449271,
+                    "title": "Targeted Therapies for Targeted Populations: Anti-EGFR Treatment for EGFR-Amplified Gastroesophageal Adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29449271"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14137,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, adding Cyramza (ramucirumab) to chemotherapy consisting of TS-1 and Eloxatin (oxaliplatin) did not improve progression-free survival (6.34 vs 6.74 months), objective response rate (58.2% vs 50.%), and disease control rate (90.9% vs 87.0%) compared to placebo in patients with advanced gastric or gastroesophageal junction adenocarcinoma (J Clin Oncol 36, 2018 (suppl; abstr 4036); NCT02539225).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7027,
+                "therapyName": "Oxaliplatin + Ramucirumab + TS-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11477,
+                    "pubMedId": null,
+                    "title": "Randomized, double-blind, phase 2 study of S-1 plus oxaliplatin (SOX) with or without ramucirumab (RAM) as first-line therapy followed by paclitaxel plus RAM as second-line therapy in patients with advanced gastric or gastroesophageal junction adenocarcin",
+                    "url": "https://meetinglibrary.asco.org/record/160180/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15032,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with gastroesophageal junction adenocarcinoma with Mdm2 amplification, low tumor mutational burden, and MSI stable, had hyperprogression after treatment with Opdivo (nivolumab) (PMID: 30148248).",
+            "molecularProfile": {
+                "id": 30606,
+                "profileName": "MDM2 amp MSI low TMB low"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 12407,
+                    "pubMedId": 30148248,
+                    "title": "Analysis of MDM2 Amplification: Next-Generation Sequencing of Patients With Diverse Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30148248"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15967,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, combined Camrelizumab (SHR-1210) and Apatinib (YN968D1) treatment resulted in an overall response rate of 17.4% (4/23), a disease control rate of 78.3% (18/23), a median progression-free survival (PFS) of 2.9 months, and an overall survival of 11.4 months in evaluable patients with gastric or gastroesophageal junction cancer (PMID: 30348638; NCT02942329).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7840,
+                "therapyName": "Apatinib + Camrelizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14095,
+                    "pubMedId": 30348638,
+                    "title": "Anti-PD-1 Antibody SHR-1210 Combined with Apatinib for Advanced Hepatocellular Carcinoma, Gastric, or Esophagogastric Junction Cancer: An Open-label, Dose Escalation and Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30348638"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16120,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (TAGS) that supproted FDA approval, Lonsurf (trifluridine/tipiracil hydrochloride) treatment resulted in improved overall survival (5.7 vs 3.6 months, HR=0.69, p=0.00029) compared to placebo in patients with heavily pretreated metastatic or advanced gastric cancer or gastroesophageal junction adenocarcinoma (PMID: 30355453; NCT02500043).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2426,
+                "therapyName": "trifluridine/tipiracil hydrochloride",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14281,
+                    "pubMedId": 30355453,
+                    "title": "Trifluridine/tipiracil versus placebo in patients with heavily pretreated metastatic gastric cancer (TAGS): a randomised, double-blind, placebo-controlled, phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30355453"
+                },
+                {
+                    "id": 15615,
+                    "pubMedId": null,
+                    "title": "Lonsurf (trifluridine/tipiracil hydrochloride) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16148,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with esophagogastric cancer (n=126) and a high tumor mutational burden (TMB) (>8.8 mutations/Mb) demonstrated an improved overall survival and progression-free survival compared to those patients with a low TMB when treated with an unspecified PD-1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 3890,
+                "therapyName": "unspecified PD-1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16150,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with esophagogastric cancer (n=126) and a high tumor mutational burden (TMB) (>8.8 mutations/Mb) demonstrated an improved overall survival and progression-free survival compared to those patients with a low TMB when treated with an unspecified PD-L1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 5248,
+                "therapyName": "unspecified PD-L1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16152,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with esophagogastric cancer (n=126) and a high tumor mutational burden (TMB) (>8.8 mutations/Mb) demonstrated an improved overall survival and progression-free survival compared to those patients with a low TMB when treated with a combination of an unspecified CTLA-4 antibody and unspecified PD-1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 6804,
+                "therapyName": "unspecified CTLA4 antibody + unspecified PD-1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16154,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with esophagogastric cancer (n=126) and a high tumor mutational burden (TMB) (>8.8 mutations/Mb) demonstrated an improved overall survival and progression-free survival compared to those patients with a low TMB when treated with a combination of an unspecified CTLA-4 antibody and unspecified PD-L1 antibody (PMID: 30643254).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 7906,
+                "therapyName": "unspecified CTLA4 antibody + unspecified PD-L1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14282,
+                    "pubMedId": 30643254,
+                    "title": "Tumor mutational load predicts survival after immunotherapy across multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30643254"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16650,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, monotherapy with Gilotrif (afatinib) resulted in a moderate clinical benefit in ERBB2 (HER2)-positive patients with either gastroesophageal junction adenocarcinoma, metastatic esophageal cancer, or gastric adenocarcinoma, demonstrating a tumor reduction in 25% (5/20) according to RECIST, an objective partial response in 10% (2/20), a median progression-free survival of 2 months, and a median overall survival of 7 months (PMID: 30463996; NCT01522768).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14704,
+                    "pubMedId": 30463996,
+                    "title": "EGFR and MET Amplifications Determine Response to HER2 Inhibition in ERBB2-Amplified Esophagogastric Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30463996"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16657,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, the combination therapy of Gilotrif (afatinib) and Herceptin (trastuzumab) in ERBB2 (HER2)-positive patients with either gastroesophageal junction adenocarcinoma, metastatic esophageal cancer, or gastric adenocarcinoma resulted in a partial response in 8% (1/12) and disease control for 4 months or more in 17% (2/12) (PMID: 30463996; NCT01522768).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 1106,
+                "therapyName": "Afatinib + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14704,
+                    "pubMedId": 30463996,
+                    "title": "EGFR and MET Amplifications Determine Response to HER2 Inhibition in ERBB2-Amplified Esophagogastric Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30463996"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19878,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CH6953755 treatment inhibited viability of a gastroesophageal junction adenocarcinoma cell line harboring YES1 amplification in culture (PMID: 31391186).",
+            "molecularProfile": {
+                "id": 27722,
+                "profileName": "YES1 amp"
+            },
+            "therapy": {
+                "id": 9238,
+                "therapyName": "CH6953755",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16801,
+                    "pubMedId": 31391186,
+                    "title": "YES1 Is a Targetable Oncogene in Cancers Harboring YES1 Gene Amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31391186"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19879,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastroesophageal junction adenocarcinoma cell line harboring YES1 amplification and expressing YES1 T348I demonstrated resistance to CH6953755 treatment in culture (PMID: 31391186).",
+            "molecularProfile": {
+                "id": 34630,
+                "profileName": "YES1 T348I YES1 amp"
+            },
+            "therapy": {
+                "id": 9238,
+                "therapyName": "CH6953755",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16801,
+                    "pubMedId": 31391186,
+                    "title": "YES1 Is a Targetable Oncogene in Cancers Harboring YES1 Gene Amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31391186"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19881,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) treatment inhibited viability of a gastroesophageal junction adenocarcinoma cell line harboring YES1 amplification in culture (PMID: 31391186).",
+            "molecularProfile": {
+                "id": 27722,
+                "profileName": "YES1 amp"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16801,
+                    "pubMedId": 31391186,
+                    "title": "YES1 Is a Targetable Oncogene in Cancers Harboring YES1 Gene Amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31391186"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19883,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastroesophageal junction adenocarcinoma cell line harboring YES1 amplification and expressing YES1 T348I demonstrated resistance to Sprycel (dasatinib) treatment in culture (PMID: 31391186).",
+            "molecularProfile": {
+                "id": 34630,
+                "profileName": "YES1 T348I YES1 amp"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16801,
+                    "pubMedId": 31391186,
+                    "title": "YES1 Is a Targetable Oncogene in Cancers Harboring YES1 Gene Amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31391186"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20017,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as second-line or subsequent therapy for patients with advanced or metastatic gastroesophageal junction cancer with an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20018,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as second-line or subsequent therapy for patients with advanced or metastatic gastroesophageal junction cancer with an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20019,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as second-line or subsequent therapy for patients with advanced or metastatic gastroesophageal junction cancer with an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20023,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as second-line or subsequent therapy for patients with advanced or metastatic gastroesophageal junction cancer with an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20024,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as second-line or subsequent therapy for patients with advanced or metastatic gastroesophageal junction cancer with an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20025,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as second-line or subsequent therapy for patients with advanced or metastatic gastroesophageal junction cancer with an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20477,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (ATTRACTION-4), the combination therapy of Xeloda (capecitabine), Opdivo (nivolumab), Eloxatin (oxaliplatin), and TS-1 (tegafur-gimeracil-oteracil potassium) was well-tolerated and resulted in an objective response rate of 76.5% (13/17), a median progression-free survival of 10.6 months, and a median overall survival that was not yet reached in patients with either gastric cancer or gastroesophageal junction cancer (PMID: 30566590; NCT02746796).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9367,
+                "therapyName": "Capecitabine + Nivolumab + Oxaliplatin + TS-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17859,
+                    "pubMedId": 30566590,
+                    "title": "Safety and efficacy of nivolumab in combination with S-1/capecitabine plus oxaliplatin in patients with previously untreated, unresectable, advanced, or recurrent gastric/gastroesophageal junction cancer: interim results of a randomized, phase II trial (ATTRACTION-4).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30566590"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20680,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Ofev (nintedanib) was well tolerated and the study met its primary endpoint, resulted in progression-free survival at 6-months in 19% (6/32) of patients with esophageal/GEJ (n=17) or gastric (n=15) adenocarcinoma, with a median follow-up of 14.5 months and a median overall survival of 14.2 months (PMID: 30952642; NCT02234596).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 831,
+                "therapyName": "Nintedanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17979,
+                    "pubMedId": 30952642,
+                    "title": "Efficacy of Combined VEGFR1-3, PDGF\u03b1/\u03b2, and FGFR1-3 Blockade Using Nintedanib for Esophagogastric Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30952642"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00702884",
+            "title": "Sunitinib in Treating Patients With Relapsed or Refractory Esophageal or Gastroesophageal Junction Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00780494",
+            "title": "Ph II of Capecitabine, Carboplatin and Bevacizumab for Gastroesophageal Junction and Gastric Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2096,
+                    "therapyName": "Bevacizumab + Capecitabine + Carboplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01174121",
+            "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01183559",
+            "title": "A Trial of ZD6474 (Zactima), Paclitaxel, Carboplatin, 5-Fluorouracil, and XRT Followed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 2071,
+                    "therapyName": "Carboplatin + Fluorouracil + Paclitaxel + Vandetanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01191697",
+            "title": "CAPOX, Bevacizumab and Trastuzumab for Patients With HER2-Positive Metastatic Esophagogastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1596,
+                    "therapyName": "Bevacizumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01196390",
+            "title": "Radiation Therapy, Paclitaxel, and Carboplatin With or Without Trastuzumab in Treating Patients With Esophageal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1887,
+                    "therapyName": "Carboplatin + Paclitaxel + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01212822",
+            "title": "Bevacizumab and Combination Chemotherapy Before Surgery in Treating Patients With Locally Advanced Esophageal or Stomach Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1484,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01307956",
+            "title": "Panitumumab, Combination Chemotherapy, and Radiation Therapy Before Surgery in Treating Patients With Advanced Esophageal or Gastroesophageal Junction Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1986,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Panitumumab",
+                    "synonyms": "Panitumumab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01325441",
+            "title": "A Study of BBI608 Administered With Paclitaxel in Adult Patients With Advanced Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2586,
+                    "therapyName": "Napabucasin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01450696",
+            "title": "HELOISE Study: A Study of Herceptin (Trastuzumab) in Combination With Cisplatin/Capecitabine Chemotherapy in Patients With HER2-Positive Metastatic Gastric or Gastro-Esophageal Junction Cancer",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1899,
+                    "therapyName": "Capecitabine + Cisplatin + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01490749",
+            "title": "Trial of XELOX Followed by Radiation Combined With Carboplatin and RAD001 for Esophageal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1924,
+                    "therapyName": "Carboplatin + Cetuximab + Everolimus + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01526473",
+            "title": "A Phase I Study To Evaluate The Antitumor Activity And Safety Of AVX901",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1068,
+                    "therapyName": "AVX901",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01576666",
+            "title": "Phase Ib, Dose Escalation Study of Oral LDE225 in Combination With BKM120 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1547,
+                    "therapyName": "Buparlisib + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01641939",
+            "title": "A Study of Trastuzumab Emtansine Versus Taxane in Patients With Advanced Gastric Cancer",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1402,
+                    "therapyName": "Ado-trastuzumab emtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01662869",
+            "title": "A Study of Onartuzumab (MetMAb) in Combination With mFOLFOX6 in Patients With Metastatic HER2-Negative And Met-Positive Gastroesophageal Cancer (MetGastric)",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 838,
+                    "therapyName": "Onartuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01747551",
+            "title": "FOLFOX +/- Ziv-Aflibercept for Esophageal and Gastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 624,
+                    "therapyName": "Aflibercept",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01774786",
+            "title": "A Study of Perjeta (Pertuzumab) in Combination With Herceptin (Trastuzumab) and Chemotherapy in Patients With HER2-Positive Metastatic Gastroesophageal Junction or Gastric Cancer",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 856,
+                    "therapyName": "Pertuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1894,
+                    "therapyName": "Capecitabine + Cisplatin + Fluorouracil + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01774851",
+            "title": "A Study of MM-111 and Paclitaxel With Trastuzumab in Patients HER2 Positive Carcinomas of the Distal Esophagus, Gastroesophageal (GE) Junction and Stomach",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1892,
+                    "therapyName": "MM-111 + Paclitaxel + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1551,
+                    "therapyName": "Paclitaxel + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01803282",
+            "title": "Safety and Tolerability Study in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3320,
+                    "therapyName": "GS-5745",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1602,
+                    "therapyName": "Carboplatin + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01896531",
+            "title": "A Study of GDC-0068 in Combination With Fluoropyrimidine Plus Oxaliplatin in Patients With Advanced or Metastatic Gastric or Gastroesophageal Junction Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 747,
+                    "therapyName": "Ipatasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01913639",
+            "title": "FOLFOX Plus Regorafenib in Patients With Unresectable or Metastatic Esophagogastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2014,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Regorafenib",
+                    "synonyms": "Regorafenib + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01920061",
+            "title": "A Study Of PF-05212384 In Combination With Other Anti-Tumor Agents and in Combination With Cisplatin in Patients With Triple Negative Breast Cancer in an Expansion Arm (TNBC)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1287,
+                    "therapyName": "Dacomitinib + Gedatolisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1286,
+                    "therapyName": "Cisplatin + Gedatolisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1285,
+                    "therapyName": "Docetaxel + Gedatolisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01928290",
+            "title": "Combination Chemotherapy in Treating Patients With Advanced Stomach, Gastroesophageal, or Esophageal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 947,
+                    "therapyName": "Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1903,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFIRINOX|FOLFOXIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02013154",
+            "title": "A Study of DKN-01 in Combination With Paclitaxel",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6254,
+                    "therapyName": "DKN-01 + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02016534",
+            "title": "Phase 2 Study of AMG 337 in MET Amplified Gastric/Esophageal Adenocarcinoma or Other Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1064,
+                    "therapyName": "AMG 337",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02024607",
+            "title": "A Study of BBI608 in Combination With Standard Chemotherapies in Adult Patients With Advanced Gastrointestinal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2093,
+                    "therapyName": "Bevacizumab + Napabucasin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2094,
+                    "therapyName": "Napabucasin + Regorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2057,
+                    "therapyName": "Napabucasin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02065765",
+            "title": "International Expanded Access Program to Provide Ramucirumab for the Treatment of Metastatic Gastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "No longer available",
+            "therapies": [
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02082210",
+            "title": "A Study of LY2875358 in Combination With Ramucirumab (LY3009806) in Participants With Advanced Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1387,
+                    "therapyName": "Emibetuzumab + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02138929",
+            "title": "LDE225 + Everolimus in Advanced Gastroesophageal Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1871,
+                    "therapyName": "Everolimus + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02178956",
+            "title": "A Study of BBI608 Plus Weekly Paclitaxel to Treat Gastric and Gastro-Esophageal Junction Cancer",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2057,
+                    "therapyName": "Napabucasin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02187848",
+            "title": "Evaluation of SAR408701 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7225,
+                    "therapyName": "SAR408701",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02213289",
+            "title": "PANGEA-IMBBP: Personalized Antibodies for Gastro-Esophageal Adenocarcinoma - A 1st Pilot Metastatic Trial of Biologics Beyond Progression",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1913,
+                    "therapyName": "Docetaxel + Fluorouracil",
+                    "synonyms": "FOLTAX"
+                },
+                {
+                    "id": 947,
+                    "therapyName": "Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                },
+                {
+                    "id": 629,
+                    "therapyName": "Rilotumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02234180",
+            "title": "Study of Adjuvant Regorafenib vs Placebo in Patients With Node Positive Esophageal Cancer That Completed Pre-operative Therapy",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02234596",
+            "title": "Nintedanib in Patients With Advanced Esophagogastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 831,
+                    "therapyName": "Nintedanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02241720",
+            "title": "Regorafenib Second Line Treatment of Metastatic or Advanced Upper GI Cancers",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02264678",
+            "title": "Ascending Doses of AZD6738 in Combination With Chemotherapy and/or Novel Anti Cancer Agents",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2881,
+                    "therapyName": "AZD6738",
+                    "synonyms": null
+                },
+                {
+                    "id": 4737,
+                    "therapyName": "AZD6738 + Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 4738,
+                    "therapyName": "AZD6738 + Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4739,
+                    "therapyName": "AZD6738 + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02268825",
+            "title": "Phase I/IIA Study MK-3475 With Chemotherapy in Patients With Advanced GI Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02274012",
+            "title": "Trial of Afatinib in Combination With Weekly Paclitaxel in the Second Line Treatment of HER2 Amplified Advanced Gastric, Gastroesophageal Junction and Esophageal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 2441,
+                    "therapyName": "Afatinib + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02283359",
+            "title": "Selinexor in Combination With Irinotecan in Adenocarcinoma of Stomach and Distal Esophagus",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2588,
+                    "therapyName": "Irinotecan + Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02314117",
+            "title": "A Study of Ramucirumab (LY3009806) in Combination With Capecitabine and Cisplatin in Participants With Stomach Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1715,
+                    "therapyName": "Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02317991",
+            "title": "Study of Nab-Paclitaxel and Ramucirumab as Second-line Treatment for Patients With Metastatic Gastroesophageal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2039,
+                    "therapyName": "Nab-paclitaxel + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02318901",
+            "title": "Pembrolizumab and Monoclonal Antibody Therapy in Advanced Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1909,
+                    "therapyName": "Ado-trastuzumab emtansine + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1908,
+                    "therapyName": "Pembrolizumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1910,
+                    "therapyName": "Cetuximab + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02335411",
+            "title": "A Study of Pembrolizumab (MK-3475) in Participants With Recurrent or Metastatic Gastric or Gastroesophageal Junction Adenocarcinoma (MK-3475-059/KEYNOTE-059)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6051,
+                    "therapyName": "Cisplatin + Fluorouracil + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02340975",
+            "title": "A Phase 1b/2 Study of MEDI4736 With Tremelimumab, MEDI4736 or Tremelimumab Monotherapy in Gastric or GEJ Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02344810",
+            "title": "C-Met Inhibitor AMG 337, Oxaliplatin, Leucovorin Calcium, and Fluorouracil in Treating Patients With Advanced Stomach or Esophageal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1064,
+                    "therapyName": "AMG 337",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02358863",
+            "title": "Molecularly Tailored Therapy for Patients With Metastatic Cancer of the Esophagus and Stomach (mEGA)",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 4311,
+                    "therapyName": "Docetaxel + Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1835,
+                    "therapyName": "Cisplatin + Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1406,
+                    "therapyName": "Cisplatin + Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 4310,
+                    "therapyName": "Docetaxel + Epirubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 4309,
+                    "therapyName": "Capecitabine + Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02389751",
+            "title": "A Study of Ganetespib in Combination With Chemoradiation",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 745,
+                    "therapyName": "Ganetespib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02443324",
+            "title": "A Study of Ramucirumab Plus Pembrolizumab in Participants With Gastric or GEJ Adenocarcinoma, NSCLC or Transitional Cell Carcinoma of the Urothelium",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2896,
+                    "therapyName": "Pembrolizumab + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02443883",
+            "title": "A Phase 2 Study of Ramucirumab (LY3009806) in Participants With Gastric or Gastroesophageal Junction (GEJ) Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02460224",
+            "title": "Safety and Efficay of LAG525 Single Agent and in Combination With PDR001 in Patients With Advanced Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2887,
+                    "therapyName": "LAG525",
+                    "synonyms": null
+                },
+                {
+                    "id": 2659,
+                    "therapyName": "Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02488759",
+            "title": "A Study to Investigate the Safety and Efficacy of Nivolumab in Virus-associated Tumors (CheckMate358)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02494583",
+            "title": "Study of Pembrolizumab (MK-3475) as First-Line Monotherapy and Combination Therapy for Treatment of Advanced Gastric or Gastroesophageal Junction Adenocarcinoma (MK-3475-062/KEYNOTE-062)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1833,
+                    "therapyName": "Cisplatin + Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02500043",
+            "title": "Study of TAS-102 or Placebo Plus BSC in Patients With Metastatic Gastric Cancer",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2426,
+                    "therapyName": "trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02509507",
+            "title": "Trial to Evaluate the Safety of Talimogene Laherparepvec Injected Into Liver Tumors Alone and in Combination With Systemic Pembrolizumab",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4035,
+                    "therapyName": "Pembrolizumab + Talimogene laherparepvec",
+                    "synonyms": null
+                },
+                {
+                    "id": 2695,
+                    "therapyName": "Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02514551",
+            "title": "A Study of Ramucirumab (LY3009806) in Combination With Paclitaxel in Participants With Gastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02530437",
+            "title": "A Phase 1B/2 Study of LY2940680 in Combination With Weekly Paclitaxel, Carboplatin, and Radiation in Localized Adenocarcinoma of the Esophagus or Gastroesophageal Junction",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1587,
+                    "therapyName": "Taladegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02545504",
+            "title": "GS-5745 With mFOLFOX6 as First Line Treatment for Advanced Gastric or Gastroesophageal Junction Adenocarcinoma",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3320,
+                    "therapyName": "GS-5745",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02551055",
+            "title": "MLN1117 in Combination With Docetaxel, Paclitaxel, and Other Investigational Anticancer Agents to Treat Participants With Gastric and Gastroesophageal Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 626,
+                    "therapyName": "Alisertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3146,
+                    "therapyName": "TAK-659",
+                    "synonyms": null
+                },
+                {
+                    "id": 1033,
+                    "therapyName": "MLN1117",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02559687",
+            "title": "Study of Pembrolizumab (MK-3475) in Previously-Treated Participants With Advanced Carcinoma of the Esophagus or Esophagogastric Junction (MK-3475-180/KEYNOTE-180)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02564263",
+            "title": "Study of Pembrolizumab (MK-3475) Versus Investigator's Choice Standard Therapy for Participants With Advanced Esophageal/Esophagogastric Junction Carcinoma That Progressed After First-Line Therapy (MK-3475-181/KEYNOTE-181)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2282,
+                    "therapyName": "Docetaxel + Irinotecan + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02564900",
+            "title": "Study of DS-8201a in Subjects With Advanced Solid Malignant Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4844,
+                    "therapyName": "Fam-trastuzumab deruxtecan-nxki",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02572687",
+            "title": "A Study of Ramucirumab (LY3009806) Plus MEDI4736 in Participants With Advanced Gastrointestinal or Thoracic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3257,
+                    "therapyName": "Durvalumab + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02574663",
+            "title": "TGR-1202 Alone and in Combination With Either Nab-paclitaxel + Gemcitabine or With FOLFOX in Patients With Select Relapsed or Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2022,
+                    "therapyName": "Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02597036",
+            "title": "A Study of LY3127804 With Ramucirumab in Participants With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3562,
+                    "therapyName": "LY3127804",
+                    "synonyms": null
+                },
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02599324",
+            "title": "A Study to Evaluate Ibrutinib Combination Therapy in Patients With Selected Gastrointestinal and Genitourinary Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7471,
+                    "therapyName": "Cetuximab + Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8293,
+                    "therapyName": "Ibrutinib + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 8292,
+                    "therapyName": "Everolimus + Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8294,
+                    "therapyName": "Docetaxel + Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02625610",
+            "title": "Avelumab in First-Line Gastric Cancer (JAVELIN Gastric 100)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1104,
+                    "therapyName": "Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02625623",
+            "title": "Avelumab in Third-Line Gastric Cancer (JAVELIN Gastric 300)",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02658214",
+            "title": "Durvalumab and Tremelimumab in Combination With First-Line Chemotherapy in Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 8330,
+                    "therapyName": "Cisplatin + Durvalumab + Fluorouracil + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8329,
+                    "therapyName": "Durvalumab + Gemcitabine + Nab-paclitaxel + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8328,
+                    "therapyName": "Durvalumab + Fluorouracil + Leucovorin + Oxaliplatin + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8327,
+                    "therapyName": "Carboplatin + Durvalumab + Nab-paclitaxel + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8326,
+                    "therapyName": "Carboplatin + Durvalumab + Etoposide + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8325,
+                    "therapyName": "Carboplatin + Durvalumab + Paclitaxel + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7524,
+                    "therapyName": "Carboplatin + Durvalumab + Gemcitabine + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02660034",
+            "title": "The Safety, Pharmacokinetics and Antitumor Activity of BGB-A317 in Combination With BGB-290 in Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5883,
+                    "therapyName": "BGB-A317 + Pamiparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02689284",
+            "title": "Combination Margetuximab and Pembrolizumab for Advanced, Metastatic HER2(+) Gastric or Gastroesophageal Junction Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3728,
+                    "therapyName": "MGAH22 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02715531",
+            "title": "A Study of the Safety and Efficacy of Atezolizumab Administered in Combination With Bevacizumab and/or Other Treatments in Participants With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8305,
+                    "therapyName": "Atezolizumab + Cisplatin + Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 3947,
+                    "therapyName": "Atezolizumab + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 5126,
+                    "therapyName": "Atezolizumab + Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6275,
+                    "therapyName": "Atezolizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Atezolizumab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02726399",
+            "title": "Ramucirumab With Trastuzumab and Capecitabine/Cisplatin in Patients With Metastatic HER2-Positive Gastroesophageal Junction and Gastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3999,
+                    "therapyName": "Capecitabine + Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 3998,
+                    "therapyName": "Ramucirumab + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02730546",
+            "title": "Pembrolizumab, Combination Chemotherapy, and Radiation Therapy Before Surgery in Treating Adult Patients With Locally Advanced Gastroesophageal Junction or Gastric Cardia Cancer That Can Be Removed by Surgery",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02743494",
+            "title": "Study of Adjuvant Nivolumab or Placebo in Subjects With Resected Esophageal or Gastroesophageal Junction Cancer (CheckMate 577)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02749513",
+            "title": "Itraconazole as a Targeted Therapy for Inhibiting Hedgehog Pathway Signaling in Esophageal Cancer Patients",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1026,
+                    "therapyName": "Itraconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02773524",
+            "title": "A Study of Regorafenib in Refractory Advanced Gastro-Oesophageal Cancer (INTEGRATEII)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02830594",
+            "title": "Pembrolizumab and Palliative Radiation Therapy in Treating Patients With Metastatic Esophagus, Stomach, or Gastroesophageal Junction Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02864381",
+            "title": "GS-5745 Combined With Nivolumab Versus Nivolumab Alone in Adults With Unresectable or Recurrent Gastric or Gastroesophageal Junction Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4736,
+                    "therapyName": "GS-5745 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02872116",
+            "title": "Efficacy Study of Nivolumab Plus Ipilimumab Against Chemotherapy Standard of Care in Stomach Cancer or Stomach/Esophagus Junction Cancer (CheckMate649)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02892123",
+            "title": "Trial of ZW25 in Patients With Advanced HER2-expressing Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8332,
+                    "therapyName": "Capecitabine + ZW25",
+                    "synonyms": null
+                },
+                {
+                    "id": 6240,
+                    "therapyName": "ZW25",
+                    "synonyms": null
+                },
+                {
+                    "id": 8333,
+                    "therapyName": "Paclitaxel + ZW25",
+                    "synonyms": null
+                },
+                {
+                    "id": 8334,
+                    "therapyName": "Vinorelbine + ZW25",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02908451",
+            "title": "A Study of AbGn-107 in Patients With Gastric, Colorectal, or Pancreatic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7219,
+                    "therapyName": "AbGn-107",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02918162",
+            "title": "Perioperative Chemo and Pembrolizumab in Gastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4776,
+                    "therapyName": "Capecitabine + Epirubicin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02943603",
+            "title": "A Study of Perioperative mFOLFOX6 Plus Pembrolizumab in Patients With Potentially Resectable Adenocarcinoma of the Gastroesophageal Junction (GEJ) and Stomach",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02962063",
+            "title": "Durvalumab, an Anti-PD-L1 Antibody, and Chemoradiation Before Surgery for Esophageal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3997,
+                    "therapyName": "Carboplatin + Durvalumab + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02970539",
+            "title": "Ph1b Study of Oraxol in Comb. w. Ramucirumab in Patients w. Gastric, Gastro-esophageal, or Esophageal Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5032,
+                    "therapyName": "Oraxol + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02998268",
+            "title": "Study of Pembrolizumab in Locally Advanced Esophageal Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03008278",
+            "title": "Olaparib and Ramucirumab in Treating Patients With Metastatic or Locally Recurrent Gastric or Gastroesophageal Junction Cancer That Cannot Be Removed by Surgery",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5165,
+                    "therapyName": "Olaparib + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03042611",
+            "title": "Efficacy and Safety Trial of Apatinib Plus Best Supportive Care Compared to Placebo Plus Best Supportive Care in Patients With Gastric Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 986,
+                    "therapyName": "Apatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03044613",
+            "title": "Nivolumab or Nivolumab/Ipilimumab Prior to Chemoradiation Plus Nivolumab With II/III Gastro/Esophageal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5304,
+                    "therapyName": "Carboplatin + Ipilimumab + Nivolumab + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 5303,
+                    "therapyName": "Carboplatin + Nivolumab + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03064490",
+            "title": "Pembrolizumab, Radiotherapy, and Chemotherapy in Neoadjuvant Treatment of Malignant Esophago-gastric Diseases (PROCEED)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2103,
+                    "therapyName": "Carboplatin + Paclitaxel + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03076372",
+            "title": "A Study Evaluating MM-310 in Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 5758,
+                    "therapyName": "MM-310",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03095781",
+            "title": "Pembrolizumab and XL888 in Patients With Advanced Gastrointestinal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5533,
+                    "therapyName": "Pembrolizumab + XL888",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03122548",
+            "title": "Safety and Efficacy of CRS-207 With Pembrolizumab in Gastric, Gastroesophageal Junction or Esophageal Cancers",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5716,
+                    "therapyName": "CRS-207 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03126110",
+            "title": "Phase 1/2 Study Exploring the Safety, Tolerability, and Efficacy of INCAGN01876 Combined With Immune Therapies in Advanced or Metastatic Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5599,
+                    "therapyName": "INCAGN01876 + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5598,
+                    "therapyName": "INCAGN01876 + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5597,
+                    "therapyName": "INCAGN01876 + Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03141034",
+            "title": "Ramucirumab Plus Irinotecan for Previously Treated Advanced Gastric or Gastro-esophageal Junction Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5633,
+                    "therapyName": "Irinotecan + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03165994",
+            "title": "APX005M With Concurrent Chemoradiation for Resectable Esophageal and Gastroesophageal Junction Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5797,
+                    "therapyName": "APX005M + Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03175224",
+            "title": "CBT-101 Study for Advanced Solid Tumors and c-Met Dysregulation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5963,
+                    "therapyName": "CBT-101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03189719",
+            "title": "First-line Esophageal Carcinoma Study With Chemo vs. Chemo Plus Pembrolizumab (MK-3475-590/KEYNOTE-590)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1833,
+                    "therapyName": "Cisplatin + Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 6051,
+                    "therapyName": "Cisplatin + Fluorouracil + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03193918",
+            "title": "Study of Crenolanib With Ramucirumab and Paclitaxel for Advanced Esophagogastric Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5943,
+                    "therapyName": "Crenolanib + Paclitaxel + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03196232",
+            "title": "Epacadostat and Pembrolizumab in Treating Patients With Metastatic or Unresectable Gastroesophageal Junction or Gastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4088,
+                    "therapyName": "Epacadostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03221426",
+            "title": "Study of Pembrolizumab (MK-3475) Plus Chemotherapy Versus Placebo Plus Chemotherapy in Participants With Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma (MK-3475-585/KEYNOTE-585)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3999,
+                    "therapyName": "Capecitabine + Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 6050,
+                    "therapyName": "Capecitabine + Cisplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6051,
+                    "therapyName": "Cisplatin + Fluorouracil + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1833,
+                    "therapyName": "Cisplatin + Fluorouracil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03281369",
+            "title": "A Study of Multiple Immunotherapy-Based Treatment Combinations in Patients With Locally Advanced Unresectable or Metastatic Gastric or Gastroesophageal Junction Cancer (G/GEJ) (UMBRELLA)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1343,
+                    "therapyName": "Atezolizumab + Cobimetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6274,
+                    "therapyName": "Atezolizumab + Cobimetinib + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Atezolizumab + Cobimetinib + FOLFOX"
+                },
+                {
+                    "id": 6275,
+                    "therapyName": "Atezolizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Atezolizumab + FOLFOX"
+                },
+                {
+                    "id": 6276,
+                    "therapyName": "Atezolizumab + Linagliptin",
+                    "synonyms": null
+                },
+                {
+                    "id": 5941,
+                    "therapyName": "Atezolizumab + PEGPH20",
+                    "synonyms": null
+                },
+                {
+                    "id": 5942,
+                    "therapyName": "Atezolizumab + BKT140",
+                    "synonyms": null
+                },
+                {
+                    "id": 1721,
+                    "therapyName": "Paclitaxel + Ramucirumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5850,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03288350",
+            "title": "mDCF + Avelumab in Resectable Esophago-gastric Adenocarcinoma (EGA)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1930,
+                    "therapyName": "Cisplatin + Docetaxel + Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03321630",
+            "title": "A Study of Lenvatinib, a Multi-targeted Tyrosine Kinase Inhibitor, Combined With Pembrolizumab (PD-1 Inhibitor) for the Treatment of Metastatic Gastroesophageal Cancer Patients Who Have Progressed on First or Subsequent Line Therapies",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4782,
+                    "therapyName": "Lenvatinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03330561",
+            "title": "PRS-343 in HER2-Positive Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6437,
+                    "therapyName": "PRS-343",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03337087",
+            "title": "Liposomal Irinotecan, Fluorouracil, Leucovorin Calcium, and Rucaparib Phosphate in Treating Patients With Metastatic Pancreatic, Colorectal, Gastroesophageal, or Biliary Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6442,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03395847",
+            "title": "A Study of Pembrolizumab Monotherapy or in Combination With Other Agents in Patients With Previously Treated Advanced Gastroesophageal Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2896,
+                    "therapyName": "Pembrolizumab + Ramucirumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03407976",
+            "title": "Apatinib With Pembrolizumab in Previously Treated Advanced Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7064,
+                    "therapyName": "Apatinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03410927",
+            "title": "A Study of TAS0728 in Patients With Solid Tumors With HER2 or HER3 Abnormalities",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8170,
+                    "therapyName": "TAS0728",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03427814",
+            "title": "Study of BGB-290 or Placebo in Patients With Advanced or Inoperable Gastric Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2947,
+                    "therapyName": "Pamiparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03448042",
+            "title": "A Phase I Study of BTRC4017A in Participants With Locally Advanced or Metastatic HER2-Expressing Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7807,
+                    "therapyName": "BTRC 4017A",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03488667",
+            "title": "Perioperative mFOLFOX Plus Pembrolizumab in Gastroesophageal Junction (GEJ) and Stomach Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03504397",
+            "title": "A Study to Assess the Efficacy of IMAB362 Plus mFOLFOX6 Compared With Placebo Plus mFOLFOX6 as First-line Treatment of Subjects With Claudin (CLDN) 18.2 Positive, HER2-Negative, Locally Advanced Unresectable or Metastatic Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6967,
+                    "therapyName": "Claudiximab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Claudiximab + FOLFOX"
+                },
+                {
+                    "id": 5850,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03505320",
+            "title": "A Study to Assess the Antitumor Activity, Safety, Pharmacokinetics and Biomarkers of IMAB362 in Participants With Claudin (CLDN) 18.2 Positive, Metastatic or Advanced Unresectable Gastric and Gastroesophageal Junction (GEJ) Adenocarcinoma (ILUSTRO)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4258,
+                    "therapyName": "Claudiximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6967,
+                    "therapyName": "Claudiximab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Claudiximab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03511222",
+            "title": "Vorolanib (X-82) Combined With Checkpoint Inhibitors in Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6917,
+                    "therapyName": "Pembrolizumab + Vorolanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6916,
+                    "therapyName": "Nivolumab + Vorolanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03517488",
+            "title": "A Study of XmAb20717 in Subjects With Selected Advanced Solid Tumors (DUET-2)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6973,
+                    "therapyName": "XmAb20717",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03538028",
+            "title": "A Safety and Tolerability Study of INCAGN02385 in Select Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6977,
+                    "therapyName": "INCAGN02385",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03539822",
+            "title": "Cabozantinib in Combination With Durvalumab in Patients With Gastroesophageal Cancer and Other Gastrointestinal Malignancies (CAMILLA)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7108,
+                    "therapyName": "Cabozantinib + Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03588039",
+            "title": "Study of Oraxol and Pembrolizumab in Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7174,
+                    "therapyName": "Oraxol + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03596372",
+            "title": "Study of BAY1834942 in Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7305,
+                    "therapyName": "BAY1834942",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03604991",
+            "title": "Carboplatin, Paclitaxel and Radiation Therapy With or Without Nivolumab and Ipilimumab in Treating Participants With Esophageal and Gastroesophageal Junction Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1124,
+                    "therapyName": "Carboplatin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5303,
+                    "therapyName": "Carboplatin + Nivolumab + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03610711",
+            "title": "REACTION (Radiation Enhanced Assessment of Combination Therapies in Immuno-ONcology) - Nivolumab or Nivolumab in Combination With Other Immuno-oncology (IO) Agents After Targeted Systemic Radiation in Patients With Advanced Esophagogastric Cancer (REACTION)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4197,
+                    "therapyName": "Nivolumab + Relatlimab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03615326",
+            "title": "Pembrolizumab/Placebo Plus Trastuzumab Plus Chemotherapy in Human Epidermal Growth Factor Receptor 2 Positive (HER2+) Advanced Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma (MK-3475-811/KEYNOTE-811)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1408,
+                    "therapyName": "Oxaliplatin + Trastuzumab + TS-1",
+                    "synonyms": null
+                },
+                {
+                    "id": 7514,
+                    "therapyName": "Capecitabine + Oxaliplatin + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7512,
+                    "therapyName": "Oxaliplatin + Pembrolizumab + Trastuzumab + TS-1",
+                    "synonyms": null
+                },
+                {
+                    "id": 7513,
+                    "therapyName": "Cisplatin + Fluorouracil + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7510,
+                    "therapyName": "Cisplatin + Fluorouracil + Pembrolizumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7511,
+                    "therapyName": "Capecitabine + Oxaliplatin + Pembrolizumab + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03639714",
+            "title": "A Study of a Personalized Neoantigen Cancer Vaccine",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7679,
+                    "therapyName": "GRT-C901 + GRT-R902 + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03653507",
+            "title": "A Study of Zolbetuximab (IMAB362) Plus CAPOX Compared With Placebo Plus CAPOX as First-line Treatment of Subjects With Claudin (CLDN) 18.2-Positive, HER2-Negative, Locally Advanced Unresectable or Metastatic Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma (GLOW)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8348,
+                    "therapyName": "Capecitabine + Claudiximab + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03662659",
+            "title": "An Investigational Study of Immunotherapy Combinations With Chemotherapy in Patients With Gastric or Gastroesophageal Junction (GEJ) Cancers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7474,
+                    "therapyName": "Nivolumab + Relatlimab + TS-1",
+                    "synonyms": null
+                },
+                {
+                    "id": 7473,
+                    "therapyName": "Fluorouracil + Leucovorin + Nivolumab + Oxaliplatin + Relatlimab",
+                    "synonyms": "Nivolumab + Relatlimab + FOLFOX"
+                },
+                {
+                    "id": 7476,
+                    "therapyName": "Nivolumab + TS-1",
+                    "synonyms": null
+                },
+                {
+                    "id": 7475,
+                    "therapyName": "Capecitabine + Nivolumab + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 7184,
+                    "therapyName": "Fluorouracil + Leucovorin + Nivolumab + Oxaliplatin",
+                    "synonyms": "Nivolumab + FOLFOX"
+                },
+                {
+                    "id": 7472,
+                    "therapyName": "Capecitabine + Nivolumab + Oxaliplatin + Relatlimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03666273",
+            "title": "A First-in-human Study of ILDR2 (Immunoglobulin-like Domain Containing Receptor 2) Function-blocking Antibody BAY1905254",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8761,
+                    "therapyName": "BAY1905254",
+                    "synonyms": null
+                },
+                {
+                    "id": 8762,
+                    "therapyName": "BAY1905254 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03675737",
+            "title": "Pembrolizumab (MK-3475) Plus Chemotherapy Versus Placebo Plus Chemotherapy in Participants Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma (MK-3475-859/KEYNOTE-859)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 5549,
+                    "therapyName": "Capecitabine + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6051,
+                    "therapyName": "Cisplatin + Fluorouracil + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1833,
+                    "therapyName": "Cisplatin + Fluorouracil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03686488",
+            "title": "TAS 102 in Combination With Ramucirumab in Advanced, Refractory Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7529,
+                    "therapyName": "Ramucirumab + trifluridine/tipiracil hydrochloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03694249",
+            "title": "Ifetroban in Treating Patients With Malignant Solid Tumors at High Risk of Metastatic Recurrence",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 9193,
+                    "therapyName": "Ifetroban sodium",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03694522",
+            "title": "A Study of Bemarituzumab (FPA144) Combined With Modified FOLFOX6 (mFOLFOX6) in Gastric/Gastroesophageal Junction Cancer (FIGHT) (FIGHT)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7548,
+                    "therapyName": "Fluorouracil + FPA144 + Leucovorin + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 5850,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03704077",
+            "title": "An Investigational Immuno-therapy Study of Relatlimab Plus Nivolumab Compared to Various Standard-of-Care Trherapies in Previously Treated Participants With Recurrent, Advanced or Metastatic Gastric Cance or Gastroesophageal Junction Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1721,
+                    "therapyName": "Paclitaxel + Ramucirumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7433,
+                    "therapyName": "Nivolumab + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 7431,
+                    "therapyName": "Nivolumab + Paclitaxel + Relatlimab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4197,
+                    "therapyName": "Nivolumab + Relatlimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03735290",
+            "title": "A Study to Evaluate the Safety and Effectiveness of ILIxadencel Administered Into Tumors in Combination With Checkpoint Inhibitor (CPI) in Patients With ADvanced Cancer (ILIAD)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7463,
+                    "therapyName": "Intuvax + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03739801",
+            "title": "MM-398 and Ramucirumab in Treating Patients With Gastric Cancer or Gastroesophageal Junction Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 7493,
+                    "therapyName": "MM-398 + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03752398",
+            "title": "A Study of XmAb23104 in Subjects With Selected Advanced Solid Tumors (DUET-3) (DUET-3)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9200,
+                    "therapyName": "XmAb23104",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03776487",
+            "title": "Nivolumab, Ipilimumab and Chemoradiation in Treating Patients With Resectable Gastric Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7651,
+                    "therapyName": "Fluorouracil + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7652,
+                    "therapyName": "Fluorouracil + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03777657",
+            "title": "Tislelizumab in Combination With Chemotherapy as First-Line Treatment in Adults With Inoperable, Locally Advanced or Metastatic Gastric, or Gastroesophageal Junction Carcinoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1833,
+                    "therapyName": "Cisplatin + Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 7653,
+                    "therapyName": "BGB-A317 + Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 7654,
+                    "therapyName": "BGB-A317 + Cisplatin + Fluorouracil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03784326",
+            "title": "Atezolizumab, Oxaliplatin, and Fluorouracil in Treating Patients With Esophageal or Gastroesophageal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7657,
+                    "therapyName": "Atezolizumab + Fluorouracil + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03809624",
+            "title": "Study of INBRX-105 in Patients With Solid Tumors, Hodgkin or Non-Hodgkin Lymphoma (PDL1x41BB)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8934,
+                    "therapyName": "INBRX-105",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03840967",
+            "title": "A Study Evaluating Safety and Efficacy of Niraparib in Patients With Previously Treated Metastatic Esophageal/Gastroesophageal Junction/Proximal Gastric Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03849469",
+            "title": "A Study of XmAb22841 Monotherapy & in Combination w/ Pembrolizumab in Subjects w/ Selected Advanced Solid Tumors (DUET-4)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7902,
+                    "therapyName": "Pembrolizumab + XmAb22841",
+                    "synonyms": null
+                },
+                {
+                    "id": 7901,
+                    "therapyName": "XmAb22841",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03894618",
+            "title": "SL-279252 (PD1-Fc-OX40L) in Subjects With Advanced Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8683,
+                    "therapyName": "SL-279252",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03918499",
+            "title": "IRX-2, and Pembrolizumab in Treating Participants With Recurrent or Metastatic Gastric or Gastroesophageal Junction Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8199,
+                    "therapyName": "Cyclophosphamide + IRX-2 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03993873",
+            "title": "Phase 1 Study of TPX-0022, a MET/CSF1R/SRC Inhibitor, in Patients With Advanced Solid Tumors Harboring Genetic Alterations in MET",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8205,
+                    "therapyName": "TPX-0022",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03995017",
+            "title": "Rucaparib Plus Ramucirumab With or Without Nivolumab in Advanced Gastric and Esophageal Adenocarcinoma (RiME)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8775,
+                    "therapyName": "Ramucirumab + Rucaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8776,
+                    "therapyName": "Nivolumab + Ramucirumab + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03997448",
+            "title": "Abemaciclib and Pembrolizumab in Locally Advanced Unresectable or Metastatic Gastroesophageal Adenocarcinoma: Big Ten Cancer Research Consortium BTCRC-GI18-149",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4242,
+                    "therapyName": "Abemaciclib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04007744",
+            "title": "Sonidegib and Pembrolizumab in Treating Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8531,
+                    "therapyName": "Pembrolizumab + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04014075",
+            "title": "DS-8201a in HER2-positive Gastric Cancer That Cannot Be Surgically Removed or Has Spread",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4844,
+                    "therapyName": "Fam-trastuzumab deruxtecan-nxki",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04018872",
+            "title": "Evaluating the Effect of Itraconazole on Pathologic Complete Response Rates in Esophageal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1026,
+                    "therapyName": "Itraconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04021108",
+            "title": "Phase II Study of Short Course FOLFOX Chemotherapy With Either Nivolumab or Nivolumab + Radiation in the First Line Treatment of Metastatic or Unresectable Gastroesophageal Cancers (BMS Protocol CA209-76L)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7184,
+                    "therapyName": "Fluorouracil + Leucovorin + Nivolumab + Oxaliplatin",
+                    "synonyms": "Nivolumab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04032704",
+            "title": "A Study of Ladiratuzumab Vedotin in Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3615,
+                    "therapyName": "SGN-LIV1A",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04041310",
+            "title": "Nous-209 Genetic Vaccine for the Treatment of Microsatellite Unstable Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9087,
+                    "therapyName": "GAd-209-FSP + MVA-209-FSP",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04044859",
+            "title": "Surpass: ADP-A2M4CD8 in HLA-A2+ Subjects With MAGE-A4 Positive Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9445,
+                    "therapyName": "ADP-A2M4CD8 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04060342",
+            "title": "GB1275 Monotherapy and in Combination With an Anti-PD1 Antibody in Patients With Specified Advanced Solid Tumors or in Combination With Standard of Care in Patients With Metastatic Pancreatic Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8693,
+                    "therapyName": "GB1275",
+                    "synonyms": null
+                },
+                {
+                    "id": 8694,
+                    "therapyName": "GB1275 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8695,
+                    "therapyName": "GB1275 + Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04082364",
+            "title": "Combination Margetuximab, INCMGA00012, MGD013, and Chemotherapy Phase 2/3 Trial in HER2+ Gastric/GEJ Cancer (MAHOGANY)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9725,
+                    "therapyName": "Fluorouracil + Leucovorin + MGAH22 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 3439,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9720,
+                    "therapyName": "Capecitabine + INCMGA00012 + MGAH22 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 9719,
+                    "therapyName": "INCMGA00012 + MGAH22",
+                    "synonyms": null
+                },
+                {
+                    "id": 9722,
+                    "therapyName": "Capecitabine + MGAH22 + MGD013 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 7514,
+                    "therapyName": "Capecitabine + Oxaliplatin + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9721,
+                    "therapyName": "Fluorouracil + INCMGA00012 + Leucovorin + MGAH22 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 9724,
+                    "therapyName": "Capecitabine + MGAH22 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 9723,
+                    "therapyName": "Fluorouracil + Leucovorin + MGAH22 + MGD013 + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04089904",
+            "title": "Phase II Trial of Neoadjuvant Pembrolizumab for Patients With Early Stage Gastroesophageal Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04099641",
+            "title": "An Open Label Study of Bavituximab and Pembrolizumab in Advanced Gastric and GEJ Cancer Patients",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6919,
+                    "therapyName": "Bavituximab + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04114136",
+            "title": "Anti-PD-1 mAb Plus Metabolic Modulator in Solid Tumor Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5302,
+                    "therapyName": "Metformin + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6581,
+                    "therapyName": "Metformin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8813,
+                    "therapyName": "Pembrolizumab + Rosiglitazone",
+                    "synonyms": null
+                },
+                {
+                    "id": 8812,
+                    "therapyName": "Nivolumab + Rosiglitazone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04189445",
+            "title": "Futibatinib in Patients With Specific FGFR Aberrations",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1053,
+                    "therapyName": "Futibatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04208958",
+            "title": "Study of VE800 and Nivolumab in Patients With Selected Types of Advanced or Metastatic Cancer (Consortium-IO)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9184,
+                    "therapyName": "Nivolumab + Vancomycin + VE800",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04210115",
+            "title": "Study of Pembrolizumab (MK-3475) Versus Placebo in Participants With Esophageal Carcinoma Who Are Receiving Chemotherapy and Radiation Therapy (MK-3475-975/KEYNOTE-975)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6051,
+                    "therapyName": "Cisplatin + Fluorouracil + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5850,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFOX"
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1833,
+                    "therapyName": "Cisplatin + Fluorouracil",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

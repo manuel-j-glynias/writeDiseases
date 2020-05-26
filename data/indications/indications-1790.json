@@ -1,0 +1,721 @@
+{
+    "id": 1790,
+    "name": "malignant mesothelioma",
+    "source": "DOID",
+    "definition": "A cell type cancer that has_material_basis_in mesothelial tissue that develops from the thin layer of tissue that covers many of the internal organs. [url:http\\://cancergenome.nih.gov/cancersselected/Mesothelioma, url:http\\://www.cancer.gov/dictionary?CdrID=44323, url:http\\://www.merriam-webster.com/medlineplus/mesothelioma, url:https\\://en.wikipedia.org/wiki/Mesothelioma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "6965",
+        "4487",
+        "7434"
+    ],
+    "termId": "DOID:1790",
+    "evidence": [
+        {
+            "id": 2261,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SM16 promoted an immune response and inhibited growth of mouse models of mesothelioma over expressing TGFB1 (PMID: 17332368).",
+            "molecularProfile": {
+                "id": 6274,
+                "profileName": "TGFB1 over exp"
+            },
+            "therapy": {
+                "id": 2754,
+                "therapyName": "SM16",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2877,
+                    "pubMedId": 17332368,
+                    "title": "A novel small-molecule inhibitor of transforming growth factor beta type I receptor kinase (SM16) inhibits murine mesothelioma tumor growth in vivo and prevents tumor recurrence after surgical resection.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17332368"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7853,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Anetumab ravtansine inhibited survival of mesothelioma cells over expressing Msln (mesothelin) in culture and resulted in tumor regression in cell line and patient-derived xenograft models (PMID: 24714131).",
+            "molecularProfile": {
+                "id": 26076,
+                "profileName": "MSLN over exp"
+            },
+            "therapy": {
+                "id": 4593,
+                "therapyName": "Anetumab ravtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6512,
+                    "pubMedId": 24714131,
+                    "title": "Anetumab ravtansine: a novel mesothelin-targeting antibody-drug conjugate cures tumors with heterogeneous target expression favored by bystander effect.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24714131"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9103,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAP1-mutant mesothelioma cell lines demonstrated increased sensitivity to EPZ011989 in culture compared to BAP1 wild-type cell lines, and EPZ011989 inhibited tumor growth and metastasis in BAP1-mutant mesothelioma cell line xenograft models (PMID: 26437366).",
+            "molecularProfile": {
+                "id": 26741,
+                "profileName": "BAP1 mutant"
+            },
+            "therapy": {
+                "id": 2926,
+                "therapyName": "EPZ011989",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6916,
+                    "pubMedId": 26437366,
+                    "title": "Loss of BAP1 function leads to EZH2-dependent transformation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26437366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9104,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with GSK126 resulted in increased E-Cadherin expression and decreased invasion of a BAP1-mutant mesothelioma cells in culture (PMID: 26437366).",
+            "molecularProfile": {
+                "id": 26741,
+                "profileName": "BAP1 mutant"
+            },
+            "therapy": {
+                "id": 2925,
+                "therapyName": "GSK126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6916,
+                    "pubMedId": 26437366,
+                    "title": "Loss of BAP1 function leads to EZH2-dependent transformation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26437366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9962,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knockdown of Bap1 with siRNA in mesothelioma cells resulted in increased sensitivity to Zolinza (vorinostat) in culture (PMID: 25970771).",
+            "molecularProfile": {
+                "id": 27219,
+                "profileName": "BAP1 dec exp"
+            },
+            "therapy": {
+                "id": 1077,
+                "therapyName": "Vorinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7826,
+                    "pubMedId": 25970771,
+                    "title": "Loss of the deubiquitylase BAP1 alters class I histone deacetylase expression and sensitivity of mesothelioma cells to HDAC inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25970771"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9963,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knockdown of Bap1 with siRNA in mesothelioma cells resulted in increased sensitivity to Mocetinostat (MGCD0103) in culture (PMID: 25970771).",
+            "molecularProfile": {
+                "id": 27219,
+                "profileName": "BAP1 dec exp"
+            },
+            "therapy": {
+                "id": 3002,
+                "therapyName": "Mocetinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7826,
+                    "pubMedId": 25970771,
+                    "title": "Loss of the deubiquitylase BAP1 alters class I histone deacetylase expression and sensitivity of mesothelioma cells to HDAC inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25970771"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10449,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, malignant mesothelioma cells harboring an NF2 mutation demonstrated inhibition of cell proliferation by 40% when treated with Apitolisib (GDC-0980) in culture (Mol Cancer Ther 2015;14(7 Suppl):Abstract nr A34).",
+            "molecularProfile": {
+                "id": 3109,
+                "profileName": "NF2 mutant"
+            },
+            "therapy": {
+                "id": 750,
+                "therapyName": "GDC-0980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8464,
+                    "pubMedId": null,
+                    "title": "Abstract A34: GDC-0980, a dual PI3K/mTOR inhibitor, selectively inhibits NF2 mutant malignant mesothelioma (MM) cells and inhibits TOR signaling without activating Akt or ERK",
+                    "url": "http://mct.aacrjournals.org/content/14/7_Supplement/A34"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13303,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CFI-402257 inhibited growth of malignant mesothelioma overexpressing Ttk (MPS1) (PMID: 28759042).",
+            "molecularProfile": {
+                "id": 13160,
+                "profileName": "TTK over exp"
+            },
+            "therapy": {
+                "id": 5853,
+                "therapyName": "CFI-402257",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11082,
+                    "pubMedId": 28759042,
+                    "title": "Inhibition of the spindle assembly checkpoint kinase Mps-1 as a novel therapeutic strategy in malignant mesothelioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28759042"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16400,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ad-NK4 decreased phosphorylation of Met and Akt, decreased beta-catenin signaling, and inhibited viability and invasiveness of mesothelioma cell lines in culture, and inhibited tumor growth in xenograft models (PMID: 25501304).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8019,
+                "therapyName": "Ad-NK4",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14481,
+                    "pubMedId": 25501304,
+                    "title": "Inhibition of mesothelioma cancer stem-like cells with adenovirus-mediated NK4 gene therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25501304"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16416,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial (JAVELIN), Bavencio (avelumab) resulted in an objective response rate (ORR) of 9% (5/53, 1 complete response, 4 partial response) and a disease control rate of 58% (31/53) in patients with advanced unresectable mesothelioma, with a median progression-free survival of 4.1 months and a median overall survival of 10.7 months; ORR were 19% (3/16) and 7% (2/27) in patients with CD274 (PD-L1)-positive (5% or greater) or negative tumors (p=0.34) respectively (PMID: 30605211; NCT01772004).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3144,
+                "therapyName": "Avelumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14487,
+                    "pubMedId": 30605211,
+                    "title": "Efficacy and Safety of Avelumab Treatment in Patients With Advanced Unresectable Mesothelioma: Phase 1b Results From the JAVELIN Solid Tumor Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30605211"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16765,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, AMG 337 treatment resulted in a partial response in a patient with mesothelioma with MET overexpression by IHC (PMID: 30425090; NCT01253707).",
+            "molecularProfile": {
+                "id": 5392,
+                "profileName": "MET over exp"
+            },
+            "therapy": {
+                "id": 1064,
+                "therapyName": "AMG 337",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1790,
+                "name": "malignant mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14840,
+                    "pubMedId": 30425090,
+                    "title": "Phase I Study of AMG 337, a Highly Selective Small-molecule MET Inhibitor, in Patients with Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30425090"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01592383",
+            "title": "Erlotinib Hydrochloride in Treating Patients With Malignant Peritoneal Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4,
+                    "therapyName": "Erlotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01642342",
+            "title": "Recombinant Albumin Fusion Protein sEphB4-HSA in Treating Patients With Metastatic or Recurrent Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3013,
+                    "therapyName": "sEphB4-HSA",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02071862",
+            "title": "Study of the Glutaminase Inhibitor CB-839 in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5280,
+                    "therapyName": "CB-839 + Everolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 8272,
+                    "therapyName": "CB-839 + Erlotinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8273,
+                    "therapyName": "CB-839 + Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1667,
+                    "therapyName": "CB-839",
+                    "synonyms": null
+                },
+                {
+                    "id": 8271,
+                    "therapyName": "CB-839 + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 6859,
+                    "therapyName": "Cabozantinib + CB-839",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02293005",
+            "title": "Alisertib in Malignant Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 626,
+                    "therapyName": "Alisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02341625",
+            "title": "A Study of BMS-986148 in Patients With Select Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4923,
+                    "therapyName": "BMS-986148",
+                    "synonyms": null
+                },
+                {
+                    "id": 4924,
+                    "therapyName": "BMS-986148 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02349958",
+            "title": "Clinical Trial of Intraperitoneal Hyperthermic Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1133,
+                    "therapyName": "Mitomycin C",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02357147",
+            "title": "Study of the Safety and Efficacy of Amatuximab in Combination With Pemetrexed and Cisplatin in Subjects With Unresectable Malignant Pleural Mesothelioma (MPM). (ARTEMIS)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1857,
+                    "therapyName": "Cisplatin + Pemetrexed",
+                    "synonyms": null
+                },
+                {
+                    "id": 3513,
+                    "therapyName": "Amatuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02372227",
+            "title": "A Phase 1 Dose Escalation Study of VS-5584 Administered in Combination With VS-6063, in Subjects With Relapsed Malignant Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2464,
+                    "therapyName": "Defactinib + VS-5584",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02628067",
+            "title": "Study of Pembrolizumab (MK-3475) in Participants With Advanced Solid Tumors (MK-3475-158/KEYNOTE-158)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02628535",
+            "title": "Safety Study of MGD009 in B7-H3-expressing Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6631,
+                    "therapyName": "MGD009",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02760797",
+            "title": "A Study of Emactuzumab and RO7009789 Administered in Combination in Participants With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4181,
+                    "therapyName": "Emactuzumab + RO7009789",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02860286",
+            "title": "Study of the EZH2 Inhibitor Tazemetostat in Malignant Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02963831",
+            "title": "A Phase 1/2 Study to Investigate the Safety, Biologic and Anti-tumor Activity of ONCOS-102 in Combination With Durvalumab in Subjects With Advanced Peritoneal Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4978,
+                    "therapyName": "Durvalumab + ONCOS-102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03007030",
+            "title": "Brentuximab Vedotin in Treating Patients With CD30+ Malignant Mesothelioma That Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2486,
+                    "therapyName": "Brentuximab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03207347",
+            "title": "A Trial of Niraparib in BAP1 and Other DNA Double-Strand Break Repair Deficient Neoplasms (UF-STO-ETI-001)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03319537",
+            "title": "Pevonedistat Alone and in Combination With Chemotherapy in Patients With Mesothelioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1688,
+                    "therapyName": "MLN4924",
+                    "synonyms": null
+                },
+                {
+                    "id": 6378,
+                    "therapyName": "Cisplatin + MLN4924 + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03477162",
+            "title": "Metformin Pharmacology in Human Cancers: A Proof of Principle Study",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03502746",
+            "title": "Phase II Nivolumab and Ramucirumab for Patients With Previously-Treated Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6879,
+                    "therapyName": "Nivolumab + Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03517488",
+            "title": "A Study of XmAb20717 in Subjects With Selected Advanced Solid Tumors (DUET-2)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6973,
+                    "therapyName": "XmAb20717",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03531840",
+            "title": "Olaparib in People With Malignant Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03538028",
+            "title": "A Safety and Tolerability Study of INCAGN02385 in Select Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6977,
+                    "therapyName": "INCAGN02385",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03700294",
+            "title": "Safety, Tolerability, Pharmacokinetics, and Antitumor Study of ADCT-601 to Treat Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 7566,
+                    "therapyName": "ADCT-601",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03936959",
+            "title": "A Study of LY3434172, a PD-1 and PD-L1 Bispecific Antibody, in Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 9537,
+                    "therapyName": "LY3434172",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04173338",
+            "title": "Cabozantinib With Pemetrexed in Advanced Non-small Cell Lung Cancer, Urothelial Cancer and Malignant Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9288,
+                    "therapyName": "Cabozantinib + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

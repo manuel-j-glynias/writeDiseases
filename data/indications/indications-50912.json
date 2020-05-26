@@ -1,0 +1,60 @@
+{
+    "id": 50912,
+    "name": "colon adenoma",
+    "source": "DOID",
+    "definition": "A colonic benign neoplasm that has_material_basis_in epithelial tissue with glandular origin. [url:http\\://en.wikipedia.org/wiki/Colorectal_adenoma, url:http\\://www.cancer.gov/dictionary?CdrID=46217]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050912",
+    "evidence": [
+        {
+            "id": 14548,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TetMYB treatment resulted in improved median survival compared to control (356 vs 183 days) in APC-driven mouse models of colon adenoma (Gastroenterology, Volume 154, Issue 6, Supplement 1, May 2018, Pages S-1269).",
+            "molecularProfile": {
+                "id": 5414,
+                "profileName": "APC mutant"
+            },
+            "therapy": {
+                "id": 2722,
+                "therapyName": "TetMYB",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50912,
+                "name": "colon adenoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11740,
+                    "pubMedId": null,
+                    "title": "Cancer Vaccine Targeting MYB in Colorectal Cancer: From Pre-Clinical Model to Clinical Trial",
+                    "url": "https://www.sciencedirect.com/science/article/pii/S0016508518341593"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03631641",
+            "title": "Nivolumab in Preventing Colon Adenomas in Participants With Lynch Syndrome and a History of Partial Colectomy",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

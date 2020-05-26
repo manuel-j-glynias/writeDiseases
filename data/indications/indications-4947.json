@@ -1,0 +1,2879 @@
+{
+    "id": 4947,
+    "name": "cholangiocarcinoma",
+    "source": "DOID",
+    "definition": "A bile duct adenocarcinoma that has_material_basis_in bile duct epithelial cells. [url:http\\://cancergenome.nih.gov/cancersselected/Cholangiocarcinoma, url:http\\://en.wikipedia.org/wiki/Cholangiocarcinoma, url:http\\://www.cancer.gov/dictionary?CdrID=335064]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5249"
+    ],
+    "termId": "DOID:4947",
+    "evidence": [
+        {
+            "id": 1602,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib) treatment in a rat model of cholangiocarcinoma, which overexpressed the PDGF-BB homodimer, resulted in increased tumor cell apoptosis, and decreased tumor growth and metastasis (PMID: 22133064).",
+            "molecularProfile": {
+                "id": 2739,
+                "profileName": "PDGFB over exp"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1622,
+                    "pubMedId": 22133064,
+                    "title": "Targeting PDGFR-\u03b2 in Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22133064"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2771,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-733 induce tumor regression in patient derived xenografts of cholangiocarcinoma with Kras G12D mutations (AACR; Cancer Res 2010;70(8 Suppl):Abstract nr 2523).",
+            "molecularProfile": {
+                "id": 746,
+                "profileName": "KRAS G12D"
+            },
+            "therapy": {
+                "id": 932,
+                "therapyName": "TAK-733",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3467,
+                    "pubMedId": null,
+                    "title": "BRAF is not the only predictor of sensitivity in vitro and in vivo for TAK-733, a selective potent inhibitor of MEK1/2",
+                    "url": "http://cancerres.aacrjournals.org/content/70/8_Supplement/2523.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2800,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited Ros1 phosphorylation,resulted in growth inhibition in cholangiocarcinoma cell lines expressing GOPC-ROS1 (referred to as FIG-ROS1) in culture and in cell line xenograft models (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2801,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, Xalkori (crizotinib) inhibited Ros1 phosphorylation and growth of cholangiocarcinoma cells expressing GOPC-ROS1 (referred to as FIG-ROS1) in culture and in xenograft models (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3303,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, treatment with Zelboraf (vemurafenib) resulted in partial response in 12% (1/8) and stable disease in 50% (4/8) of cholangiocarcinoma patients with BRAF V600 mutations (PMID: 26287849).",
+            "molecularProfile": {
+                "id": 1186,
+                "profileName": "BRAF V600X"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3720,
+                    "pubMedId": 26287849,
+                    "title": "Vemurafenib in Multiple Nonmelanoma Cancers with BRAF V600 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26287849"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6177,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zebularine treatment decreased DNMT1 expression,and induced apoptosis in cholangiocarcinoma cell lines in culture (PMID: 25799509).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4077,
+                "therapyName": "Zebularine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5383,
+                    "pubMedId": 25799509,
+                    "title": "DNA methyltransferase inhibitor zebularine induces human cholangiocarcinoma cell death through alteration of DNA methylation status.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25799509"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8262,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Luminespib (AUY922) inhibited proliferation of HSP90-positive cholangiocarcinoma cell lines in culture and in xenograft models (PMID: 26141945).",
+            "molecularProfile": {
+                "id": 26213,
+                "profileName": "HSP90AA1 positive"
+            },
+            "therapy": {
+                "id": 647,
+                "therapyName": "Luminespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6589,
+                    "pubMedId": 26141945,
+                    "title": "Heat Shock Protein 90 Is a Potential Therapeutic Target in Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26141945"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9581,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY2801653 inhibited phosphorylation of Met, resulting in inhibition of cholangiocarcinoma proliferation in cell culture and growth of tumors in Pdx models (PMID: 26757360).",
+            "molecularProfile": {
+                "id": 587,
+                "profileName": "MET wild-type"
+            },
+            "therapy": {
+                "id": 1030,
+                "therapyName": "Merestinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7287,
+                    "pubMedId": 26757360,
+                    "title": "Targeting c-MET by LY2801653 for treatment of cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26757360"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9737,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, two patients with cholangiocarcinoma harboring FGFR2 fusions demonstrated a decreased tumor burden when treated with BGJ398 (PMID: 27870574).",
+            "molecularProfile": {
+                "id": 2969,
+                "profileName": "FGFR2 fusion"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7516,
+                    "pubMedId": 27870574,
+                    "title": "Evaluation of BGJ398, a Fibroblast Growth Factor Receptor 1-3 Kinase Inhibitor, in Patients With Advanced Solid Tumors Harboring Genetic Alterations in Fibroblast Growth Factor Receptors: Results of a Global Phase I, Dose-Escalation and Dose-Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27870574"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9738,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with cholangiocarcinoma harboring an FGFR2 mutation demonstrated a decreased tumor burden when treated with BGJ398 (PMID: 27870574).",
+            "molecularProfile": {
+                "id": 1185,
+                "profileName": "FGFR2 mutant"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7516,
+                    "pubMedId": 27870574,
+                    "title": "Evaluation of BGJ398, a Fibroblast Growth Factor Receptor 1-3 Kinase Inhibitor, in Patients With Advanced Solid Tumors Harboring Genetic Alterations in Fibroblast Growth Factor Receptors: Results of a Global Phase I, Dose-Escalation and Dose-Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27870574"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10147,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, FGFR2 mutations E565A, K659M, N549H, N549K and V564F were identified in the cell-free DNA of a cholangiocarcinoma patient harboring FGFR2-ZMYM4 fusion after the patient progressed while on Infigratinib (BGJ398) treatment (PMID: 28034880).",
+            "molecularProfile": {
+                "id": 27311,
+                "profileName": "FGFR2 - ZMYM4 FGFR2 N549H FGFR2 N549K FGFR2 V564F FGFR2 E565A FGFR2 K659M"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 8146,
+                    "pubMedId": 28034880,
+                    "title": "Polyclonal Secondary FGFR2 Mutations Drive Acquired Resistance to FGFR Inhibition in Patients with FGFR2 Fusion-Positive Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28034880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10148,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, FGFR2 mutations E565A, K641R, L617V, N549H and V564F were identified in the cell-free DNA of a cholangiocarcinoma patient harboring FGFR2-OPTN fusion after the patient progressed while on Infigratinib (BGJ398) treatment (PMID: 28034880).",
+            "molecularProfile": {
+                "id": 27312,
+                "profileName": "FGFR2 - OPTN FGFR2 N549H FGFR2 V564F FGFR2 E565A FGFR2 L617V FGFR2 K641R"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 8146,
+                    "pubMedId": 28034880,
+                    "title": "Polyclonal Secondary FGFR2 Mutations Drive Acquired Resistance to FGFR Inhibition in Patients with FGFR2 Fusion-Positive Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28034880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10149,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, FGFR2 V564F was identified in the cell-free DNA of a cholangiocarcinoma patient harboring FGFR2-BICC1 fusion after the patient progressed while on Infigratinib (BGJ398) treatment (PMID: 28034880).",
+            "molecularProfile": {
+                "id": 27313,
+                "profileName": "FGFR2 - BICC1 FGFR2 V564F"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 8146,
+                    "pubMedId": 28034880,
+                    "title": "Polyclonal Secondary FGFR2 Mutations Drive Acquired Resistance to FGFR Inhibition in Patients with FGFR2 Fusion-Positive Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28034880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10150,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, FGFR2 V564F was identified in the cell-free DNA of 3 cholangiocarcinoma patients harboring FGFR2 fusion after the patients progressed while on Infigratinib (BGJ398) treatment (PMID: 28034880).",
+            "molecularProfile": {
+                "id": 27314,
+                "profileName": "FGFR2 fusion FGFR2 V564F"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 8146,
+                    "pubMedId": 28034880,
+                    "title": "Polyclonal Secondary FGFR2 Mutations Drive Acquired Resistance to FGFR Inhibition in Patients with FGFR2 Fusion-Positive Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28034880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10412,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Cometriq (cabozantinib) treatment resulted in a median progression free survival of 1.8 months, and a median overall survival of 5.2 months in patients with advanced cholangiocarcinoma, but also induced grade 3/4 adverse events in 89% (17/19) of the patients (PMID: 28192597).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8428,
+                    "pubMedId": 28192597,
+                    "title": "A phase 2 and biomarker study of cabozantinib in patients with advanced cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28192597"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10413,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a cholangiocarcinoma patient with high Met expression in tumor stayed on Cometriq (cabozantinib) treatment for 278 days (PMID: 28192597).",
+            "molecularProfile": {
+                "id": 5392,
+                "profileName": "MET over exp"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8428,
+                    "pubMedId": 28192597,
+                    "title": "A phase 2 and biomarker study of cabozantinib in patients with advanced cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28192597"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 10414,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a Phase II trial, higher baseline soluble Met level correlated with longer overall survival in cholangiocarcinoma patients treated with Cometriq (cabozantinib) (PMID: 28192597).",
+            "molecularProfile": {
+                "id": 1240,
+                "profileName": "MET positive"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8428,
+                    "pubMedId": 28192597,
+                    "title": "A phase 2 and biomarker study of cabozantinib in patients with advanced cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28192597"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10960,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with cholangiocarcinoma demonstrated stable disease when treated with OPB-111077 (Mol Cancer Ther 2015;14(12 Suppl 2):Abstract nr B118).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5739,
+                "therapyName": "OPB-111077",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8960,
+                    "pubMedId": null,
+                    "title": "Abstract B118: A phase 1, open-label multiple dose escalation trial to determine safety and tolerability of once daily OPB-111077 in subjects with advanced cancer",
+                    "url": "http://mct.aacrjournals.org/content/14/12_Supplement_2/B118.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11505,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with perihilar cholangiocarcinoma over expressing ERBB2 achieved a partial response and progression-free survival for 4.5 months following treatment with ERBB2 (HER2)-specific CAR-T cells (PMID: 28710747, NCT01935843).",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 6007,
+                "therapyName": "HER2 CAR-T cells",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9587,
+                    "pubMedId": 28710747,
+                    "title": "Phase I study of chimeric antigen receptor modified T cells in treating HER2-positive advanced biliary tract cancers and pancreatic cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28710747"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12566,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with cholangiocarcinoma harboring ATP1B1-NRG1 demonstrated a lasting response when treated with Gilotrif (afatinib) (PMID: 28950338).",
+            "molecularProfile": {
+                "id": 28757,
+                "profileName": "ATP1B1 - NRG1"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10433,
+                    "pubMedId": 28950338,
+                    "title": "Successful targeting of the NRG1 pathway indicates novel treatment strategy for metastatic cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28950338"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12575,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, AG-120 treatment resulted in partial response in 6% (4/72) and stable disease in 56% (40/72) of cholangiocarcinoma patients harboring IDH1 mutations (Journal of Clinical Oncology 35, no. 15_suppl (May 2017) 4015-4015; NCT02073994).",
+            "molecularProfile": {
+                "id": 1781,
+                "profileName": "IDH1 mutant"
+            },
+            "therapy": {
+                "id": 1491,
+                "therapyName": "Ivosidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10453,
+                    "pubMedId": null,
+                    "title": "Phase I study of AG-120, an IDH1 mutant enzyme inhibitor: Results from the cholangiocarcinoma dose escalation and expansion cohorts.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2017.35.15_suppl.4015#affiliationsContainer"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12620,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MO-I-1151 delayed growth and progression of tumors in cholangiocarcinoma xenografts with Asph overexpression (PMID: 26954680).",
+            "molecularProfile": {
+                "id": 28790,
+                "profileName": "ASPH over exp"
+            },
+            "therapy": {
+                "id": 6545,
+                "therapyName": "MO-I-1151",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10489,
+                    "pubMedId": 26954680,
+                    "title": "Anti-Tumor Effects of Second Generation \u03b2-Hydroxylase Inhibitors on Cholangiocarcinoma Development and Progression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26954680"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14362,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Vitrakvi (larotrectinib) treatment resulted in partial response in a patient with cholangiocarcinoma harboring NTRK1 fusion (Annals of Oncology, Volume 29, Issue suppl_5; NCT02122913, NCT02637687, and NCT02576431).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11608,
+                    "pubMedId": null,
+                    "title": "Activity of larotrectinib in patients with TRK fusion GI malignancies",
+                    "url": "https://academic.oup.com/annonc/article/29/suppl_5/mdy149.019/5039356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14367,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, TAS-120 treatment resulted in an objective response rate of 25% (7/28, 7 partial responses) in patients with cholangiocarcinoma harboring FGFR2 fusions, with 71% of patients experienced tumor shrinkage, 54% (15/28) achieved stable disease (Annals of Oncology, Volume 29, Issue suppl_5).",
+            "molecularProfile": {
+                "id": 2969,
+                "profileName": "FGFR2 fusion"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11611,
+                    "pubMedId": null,
+                    "title": "Efficacy of TAS-120, an irreversible fibroblast growth factor receptor (FGFR) inhibitor, in cholangiocarcinoma patients with FGFR pathway alterations who were previously treated with chemotherapy and other FGFR inhibitors",
+                    "url": "https://academic.oup.com/annonc/article/29/suppl_5/mdy149/5039476"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14368,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, TAS-120 treatment resulted in partial response in 2 patients with cholangiocarcinoma harboring FGFR2 rearrangements (Annals of Oncology, Volume 29, Issue suppl_5).",
+            "molecularProfile": {
+                "id": 1317,
+                "profileName": "FGFR2 rearrange"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11611,
+                    "pubMedId": null,
+                    "title": "Efficacy of TAS-120, an irreversible fibroblast growth factor receptor (FGFR) inhibitor, in cholangiocarcinoma patients with FGFR pathway alterations who were previously treated with chemotherapy and other FGFR inhibitors",
+                    "url": "https://academic.oup.com/annonc/article/29/suppl_5/mdy149/5039476"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14369,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, TAS-120 treatment resulted in partial response in a patient with cholangiocarcinoma harboring FGFR2 rearrangement and FGFR2 amplification (Annals of Oncology, Volume 29, Issue suppl_5).",
+            "molecularProfile": {
+                "id": 29989,
+                "profileName": "FGFR2 amp FGFR2 rearrange"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11611,
+                    "pubMedId": null,
+                    "title": "Efficacy of TAS-120, an irreversible fibroblast growth factor receptor (FGFR) inhibitor, in cholangiocarcinoma patients with FGFR pathway alterations who were previously treated with chemotherapy and other FGFR inhibitors",
+                    "url": "https://academic.oup.com/annonc/article/29/suppl_5/mdy149/5039476"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15142,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (FIGHT-202) trial, Pemigatinib (INCB054828) treatment resulted in partial response in 18% (8/45, 1 unconfirmed complete response), stable disease in 58% (26/45) of patients with cholangiocarcinoma harboring FGFR2 translocations, with a median progression-free survival of 6.8 months; and no response were observed in cohorts of patients with other FGF/FGFR genetic alterations or wild-type FGF/FGFR (Ann Oncol, Oct 2018, 29 (suppl 8), abstract 756P; NCT02924376).",
+            "molecularProfile": {
+                "id": 1317,
+                "profileName": "FGFR2 rearrange"
+            },
+            "therapy": {
+                "id": 4173,
+                "therapyName": "Pemigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12689,
+                    "pubMedId": null,
+                    "title": "Interim results of fight-202, a phase II, open-label, multicenter study of INCB054828 in patients (pts) with previously treated advanced/metastatic or surgically unresectable cholangiocarcinoma (CCA) with/without fibroblast growth factor (FGF)/FGF recepto",
+                    "url": "https://academic.oup.com/annonc/article/29/suppl_8/mdy282.139/5142016"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15236,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the protein kinase CK2 inhibitor, Silmitasertib (CX-4945), inhibited tumor growth and increased survival of cholangiocarcinoma cell line xenograft models (PMID: 30316146).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6084,
+                "therapyName": "Silmitasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12958,
+                    "pubMedId": 30316146,
+                    "title": "Preclinical In Vitro and In Vivo Evidence of an Antitumor Effect of CX-4945, a Casein Kinase II Inhibitor, in Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30316146"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15237,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the protein kinase CK2 inhibitor, Silmitasertib (CX-4945), in combination with Platinol (cisplatin) and Gemzar (gemcitabine), inhibited tumor growth and increased survival of cholangiocarcinoma cell line xenograft models, to a greater extent than either compound alone (PMID: 30316146).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6091,
+                "therapyName": "Cisplatin + Gemcitabine + Silmitasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12958,
+                    "pubMedId": 30316146,
+                    "title": "Preclinical In Vitro and In Vivo Evidence of an Antitumor Effect of CX-4945, a Casein Kinase II Inhibitor, in Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30316146"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15269,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, NTRK1 F589L was identified at disease progression in a patient with cholangiocarcinoma harboring LMNA-NTRK1 treated with Vitrakvi (larotrectinib) (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 30928,
+                "profileName": "LMNA - NTRK1 NTRK1 F589L"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17166,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Debio 1347 treatment resulted in stable disease in a patient with cholangiocarcinoma harboring FGFR2-DDX21 (PMID: 30745300; NCT01948297).",
+            "molecularProfile": {
+                "id": 32331,
+                "profileName": "FGFR2 - DDX21"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15194,
+                    "pubMedId": 30745300,
+                    "title": "A Phase I, Open-Label, Multicenter, Dose-escalation Study of the Oral Selective FGFR Inhibitor Debio 1347 in Patients with Advanced Solid Tumors Harboring FGFR Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30745300"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17167,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Debio 1347 treatment resulted in stable disease in a patient with cholangiocarcinoma harboring FGFR2-KIAA1217 (PMID: 30745300; NCT01948297).",
+            "molecularProfile": {
+                "id": 32381,
+                "profileName": "FGFR2 - KIAA1217"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15194,
+                    "pubMedId": 30745300,
+                    "title": "A Phase I, Open-Label, Multicenter, Dose-escalation Study of the Oral Selective FGFR Inhibitor Debio 1347 in Patients with Advanced Solid Tumors Harboring FGFR Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30745300"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17169,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Debio 1347 treatment resulted in stable disease in a patient with cholangiocarcinoma harboring FGFR2-ROCK1 (PMID: 30745300; NCT01948297).",
+            "molecularProfile": {
+                "id": 32382,
+                "profileName": "FGFR2 - ROCK1"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15194,
+                    "pubMedId": 30745300,
+                    "title": "A Phase I, Open-Label, Multicenter, Dose-escalation Study of the Oral Selective FGFR Inhibitor Debio 1347 in Patients with Advanced Solid Tumors Harboring FGFR Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30745300"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17226,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, MBG453 treatment resulted in stable disease in 2 patients with cholangiocarcinoma (AACR Annual Meeting 2019, Abstract CT183; NCT02608268).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3560,
+                "therapyName": "MBG453",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15246,
+                    "pubMedId": null,
+                    "title": "Phase (Ph) I/II study of MBG453\u00b1 spartalizumab (PDR001) in patients (pts) with advanced malignancies",
+                    "url": "https://www.abstractsonline.com/pp8/#!/6812/presentation/9834"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18616,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted in an objective response rate of 27% (3/11) in patients with cholangiocarcinoma harboring FGFR genomic alterations, including 1 with FGFR2 mutation, 2 with FGFR3 mutations, and 8 with FGFR2 fusions (PMID: 31088831; NCT01703481).",
+            "molecularProfile": {
+                "id": 1185,
+                "profileName": "FGFR2 mutant"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16359,
+                    "pubMedId": 31088831,
+                    "title": "Multicenter Phase I Study of Erdafitinib (JNJ-42756493), Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients with Advanced or Refractory Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31088831"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18617,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted in an objective response rate of 27% (3/11) in patients with cholangiocarcinoma harboring FGFR genomic alterations, including 1 with FGFR2 mutation, 2 with FGFR3 mutations, and 8 with FGFR2 fusions (PMID: 31088831; NCT01703481).",
+            "molecularProfile": {
+                "id": 1222,
+                "profileName": "FGFR3 mutant"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16359,
+                    "pubMedId": 31088831,
+                    "title": "Multicenter Phase I Study of Erdafitinib (JNJ-42756493), Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients with Advanced or Refractory Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31088831"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18618,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted in an objective response rate of 27% (3/11) in patients with cholangiocarcinoma harboring FGFR genomic alterations, including 1 with FGFR2 mutation, 2 with FGFR3 mutations, and 8 with FGFR2 fusions (PMID: 31088831; NCT01703481).",
+            "molecularProfile": {
+                "id": 2969,
+                "profileName": "FGFR2 fusion"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16359,
+                    "pubMedId": 31088831,
+                    "title": "Multicenter Phase I Study of Erdafitinib (JNJ-42756493), Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients with Advanced or Refractory Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31088831"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18722,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with cholangiocarcinoma harboring PLEKHA6-NTRK1 developed resistance to Rozlytrek (entrectinib) and was subsequently found to have acquired MET amplification (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33524,
+                "profileName": "PLEKHA6 - NTRK1 MET amp"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18724,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with cholangiocarcinoma harboring PLEKHA6-NTRK1 and MET amplification demonstrated resistance to treatment with LOXO-195 (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33524,
+                "profileName": "PLEKHA6 - NTRK1 MET amp"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18725,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with cholangiocarcinoma harboring PLEKHA6-NTRK1 demonstrated a partial response when treated with Rozlytrek (entrectinib) (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 30946,
+                "profileName": "PLEKHA6 - NTRK1"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19107,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with cholangiocarcinoma harboring PLEKHA6-NTRK1 and MET amplification demonstrated tumor shrinkage at 8 weeks and disease control for 4.5 months when treated with the combination therapy of Xalkori (crizotinib) and LOXO-195, and subsequent cell-free DNA testing showed a loss of PLEKHA6-NTRK1 and MET amplfication (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33524,
+                "profileName": "PLEKHA6 - NTRK1 MET amp"
+            },
+            "therapy": {
+                "id": 8913,
+                "therapyName": "Crizotinib + LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19109,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with cholangiocarcinoma harboring PLEKHA6-NTRK1 and MET amplification initially demonstrated sensitivity to the combination therapy of Xalkori (crizotinib) and LOXO-195, but progressed after 4.5 months and was found to have acquired 13 new MET missense mutations, MET D1228H, MET D1228N, MET Y1230H, MET Y1230S, MET Y1230N, MET D1228Y, MET G1090S, MET G1090A, MET R1227K, MET D1213H, MET 1195V, MET Y1230C, and MET V1092I (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33935,
+                "profileName": "PLEKHA6 - NTRK1 MET G1090A MET G1090S MET V1092I MET L1195V MET D1213H MET R1227K MET D1228H MET D1228N MET D1228Y MET Y1230C MET Y1230H MET Y1230N MET Y1230S MET amp"
+            },
+            "therapy": {
+                "id": 8913,
+                "therapyName": "Crizotinib + LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19585,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) inhibited viability and migration of cholangiocarcinoma cells expressing FGFR2-PPHLN1 in culture (PMID: 25608663).",
+            "molecularProfile": {
+                "id": 25823,
+                "profileName": "FGFR2 - PPHLN1"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3876,
+                    "pubMedId": 25608663,
+                    "title": "Massive parallel sequencing uncovers actionable FGFR2-PPHLN1 fusion and ARAF mutations in intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25608663"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19813,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with cholangiocarcinoma harboring FGFR2-SHTN1 experienced a partial response according to RECIST criteria after four months of treatment with Infigratinib (BGJ398) (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 23681,
+                "profileName": "FGFR2 - SHTN1"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19816,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with cholangiocarcinoma harboring FGFR2-SHTN1 initially responded to treatment with Infigratinib (BGJ398), but progressed after eight months and via repeat tissue biopsy was found to have acquired FGFR2 E565A, and via circulating tumor DNA testing, FGFR2 L617M (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34542,
+                "profileName": "FGFR2 - SHTN1 FGFR2 E565A FGFR2 L617M"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19817,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 E565A demonstrated resistance to treatment with Infigratinib (BGJ398) in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34526,
+                "profileName": "FGFR2 - SHTN1 FGFR2 E565A"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19820,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 L617M demonstrated resistance to treatment with Infigratinib (BGJ398) in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34543,
+                "profileName": "FGFR2 - SHTN1 FGFR2 L617M"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19825,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing FGFR2-SHTN1 were sensitive to treatment with AZD4547, demonstrating decreased cell viability in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 23681,
+                "profileName": "FGFR2 - SHTN1"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19826,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing FGFR2-SHTN1 were sensitive to treatment with Balversa (erdafitinib), demonstrating decreased cell viability in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 23681,
+                "profileName": "FGFR2 - SHTN1"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19829,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing FGFR2-SHTN1 were sensitive to treatment with Futibatinib (TAS-120), demonstrating decreased cell viability in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 23681,
+                "profileName": "FGFR2 - SHTN1"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19830,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing FGFR2-SHTN1 were sensitive to treatment with Iclusig (ponatinib), demonstrating decreased cell viability in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 23681,
+                "profileName": "FGFR2 - SHTN1"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19833,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 E565A demonstrated resistance to treatment with AZD4547 in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34526,
+                "profileName": "FGFR2 - SHTN1 FGFR2 E565A"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19834,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 E565A demonstrated resistance to treatment with Balversa (erdafitinib) in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34526,
+                "profileName": "FGFR2 - SHTN1 FGFR2 E565A"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19837,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 E565A demonstrated resistance to treatment with Futibatinib (TAS-120) in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34526,
+                "profileName": "FGFR2 - SHTN1 FGFR2 E565A"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19839,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing FGFR2-SHTN1 demonstrated resistance to treatment with Dovitinib (TKI258) in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 23681,
+                "profileName": "FGFR2 - SHTN1"
+            },
+            "therapy": {
+                "id": 721,
+                "therapyName": "Dovitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19840,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 E565A demonstrated resistance to treatment with Dovitinib (TKI258) in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34526,
+                "profileName": "FGFR2 - SHTN1 FGFR2 E565A"
+            },
+            "therapy": {
+                "id": 721,
+                "therapyName": "Dovitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19843,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 L617M demonstrated resistance to treatment with AZD4547 in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34543,
+                "profileName": "FGFR2 - SHTN1 FGFR2 L617M"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19846,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both FGFR2-SHTN1 and FGFR2 L617M demonstrated resistance to treatment with Balversa (erdafitinib) in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34543,
+                "profileName": "FGFR2 - SHTN1 FGFR2 L617M"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19847,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 L617M demonstrated resistance to treatment with Futibatinib (TAS-120) in culture (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34543,
+                "profileName": "FGFR2 - SHTN1 FGFR2 L617M"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19849,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 E565A were sensitive to treatment with Iclusig (ponatinib) in culture, demonstrating reduced cell viability (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34543,
+                "profileName": "FGFR2 - SHTN1 FGFR2 L617M"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19850,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cholangiocarcinoma cells expressing both FGFR2-SHTN1 and FGFR2 E565A were sensitive to treatment with Iclusig (ponatinib) in culture, demonstrating reduced cell viability (PMID: 31911531).",
+            "molecularProfile": {
+                "id": 34526,
+                "profileName": "FGFR2 - SHTN1 FGFR2 E565A"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17547,
+                    "pubMedId": 31911531,
+                    "title": "Efficacy of FGFR Inhibitors and Combination Therapies for Acquired Resistance in FGFR2-Fusion Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911531"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19980,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment inhibited tumor growth in a patient-derived xenograft (PDX) model of cholangiocarcinoma harboring FGFR2-TTC28 fusion (Cancer Res 2019;79(13 Suppl):Abstract nr 2206).",
+            "molecularProfile": {
+                "id": 34738,
+                "profileName": "FGFR2 - TTC28"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16500,
+                    "pubMedId": null,
+                    "title": "Anti-tumor activity of infigratinib, a potent and selective inhibitor of FGFR1, FGFR2 and FGFR3, in FGFR fusion-positive cholangiocarcinoma and other solid tumors",
+                    "url": "https://cancerres.aacrjournals.org/content/79/13_Supplement/2206"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01174121",
+            "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01438554",
+            "title": "Phase 1 Study of Pazopanib With GSK1120212 in Advanced Solid Tumors, Enriched With Patients With Differentiated Thyroid Cancer, Soft-tissue Sarcoma, and Cholangiocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1310,
+                    "therapyName": "Pazopanib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01642342",
+            "title": "Recombinant Albumin Fusion Protein sEphB4-HSA in Treating Patients With Metastatic or Recurrent Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3013,
+                    "therapyName": "sEphB4-HSA",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01695005",
+            "title": "A Study of LY3039478 in Participants With Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2958,
+                    "therapyName": "LY3039478",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01825603",
+            "title": "ADH-1, Gemcitabine Hydrochloride and Cisplatin in Treating Patients With Metastatic Pancreatic or Biliary Tract Cancer That Cannot Be Removed By Surgery",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4952,
+                    "therapyName": "ADH-1 + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01888302",
+            "title": "Sirolimus, Gemcitabine Hydrochloride, and Cisplatin in Treating Patients At High Risk for Cholangiocarcinoma Recurrence After Liver Transplant or Surgery",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2289,
+                    "therapyName": "Cisplatin + Gemcitabine + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02024607",
+            "title": "A Study of BBI608 in Combination With Standard Chemotherapies in Adult Patients With Advanced Gastrointestinal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2093,
+                    "therapyName": "Bevacizumab + Napabucasin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2094,
+                    "therapyName": "Napabucasin + Regorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2057,
+                    "therapyName": "Napabucasin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1315,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin",
+                    "synonyms": "FOLFIRI"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02052778",
+            "title": "A Study of TAS-120 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1053,
+                    "therapyName": "Futibatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02053376",
+            "title": "A Phase 2 Trial of Regorafenib as A Single Agent in Advanced and Metastatic Biliary Tract Carcinoma/Cholangiocarcinoma Patients Who Have Failed First-line Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02128282",
+            "title": "Study of CX-4945 in Combination With Gemcitabine and Cisplatin for Frontline Treatment of Cholangiocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 6091,
+                    "therapyName": "Cisplatin + Gemcitabine + Silmitasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02150967",
+            "title": "A Phase II, Single Arm Study of BGJ398 in Patients With Advanced Cholangiocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 674,
+                    "therapyName": "BGJ398",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02187848",
+            "title": "Evaluation of SAR408701 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7225,
+                    "therapyName": "SAR408701",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02232633",
+            "title": "A Study of BBI503 in Adult Patients With Advanced Hepatobiliary Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1945,
+                    "therapyName": "BBI503",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02240238",
+            "title": "Combination Therapy With NC-6004 and Gemcitabine in Advanced Solid Tumors or Non-Small Cell Lung, Biliary and Bladder Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5626,
+                    "therapyName": "Gemcitabine + NC-6004",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02393248",
+            "title": "Open-Label, Dose-Escalation Study of Pemigatinib in Subjects With Advanced Malignancies - (FIGHT-101)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4176,
+                    "therapyName": "Cisplatin + Gemcitabine + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4174,
+                    "therapyName": "Docetaxel + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8250,
+                    "therapyName": "INCMGA00012 + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8249,
+                    "therapyName": "Pemigatinib + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4088,
+                    "therapyName": "Epacadostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02452970",
+            "title": "RRx-001 in Second Line Treatment of Advanced Cholangiocarcinoma Prior to Readministration of First-Line Therapy (EPIC)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3680,
+                    "therapyName": "RRx-001",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02479178",
+            "title": "A Study of BIND-014 in Patients With Urothelial Carcinoma, Cholangiocarcinoma, Cervical Cancer and Squamous Cell Carcinoma of the Head and Neck (iNSITE2)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3640,
+                    "therapyName": "BIND-014",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02508467",
+            "title": "A Phase 1 Study of BLU-554 in Patients With Hepatocellular Carcinoma and Cholangiocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3165,
+                    "therapyName": "BLU-554",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02520141",
+            "title": "Ramucirumab for Advanced Pre-treated Biliary Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02628067",
+            "title": "Study of Pembrolizumab (MK-3475) in Participants With Advanced Solid Tumors (MK-3475-158/KEYNOTE-158)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02638909",
+            "title": "Study of Oral Ceritinib in Patients With ALK-Activated Gastrointestinal Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 789,
+                    "therapyName": "Ceritinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02711553",
+            "title": "A Study of Ramucirumab (LY3009806) or Merestinib (LY2801653) in Advanced or Metastatic Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1030,
+                    "therapyName": "Merestinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02784795",
+            "title": "A Study of LY3039478 in Participants With Advanced or Metastatic Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4374,
+                    "therapyName": "Cisplatin + Gemcitabine + LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 4375,
+                    "therapyName": "Carboplatin + Gemcitabine + LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 4372,
+                    "therapyName": "LY3023414 + LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 4373,
+                    "therapyName": "Abemaciclib + LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 4371,
+                    "therapyName": "LY3039478 + Taladegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2958,
+                    "therapyName": "LY3039478",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02824042",
+            "title": "Thorough ECG (Electrocardiogram) and Drug Interaction Study With Anetumab Ravtansine and Itraconazole",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4594,
+                    "therapyName": "Anetumab ravtansine + Itraconazole",
+                    "synonyms": null
+                },
+                {
+                    "id": 4593,
+                    "therapyName": "Anetumab ravtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02856568",
+            "title": "Ricolinostat, Gemcitabine Hydrochloride, and Cisplatin in Treating Patients With Unresectable or Metastatic Cholangiocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4526,
+                    "therapyName": "Cisplatin + Gemcitabine + Ricolinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02924376",
+            "title": "Efficacy and Safety of INCB054828 in Subjects With Advanced/Metastatic or Surgically Unresectable Cholangiocarcinoma Who Failed Previous Therapy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4173,
+                    "therapyName": "Pemigatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02963831",
+            "title": "A Phase 1/2 Study to Investigate the Safety, Biologic and Anti-tumor Activity of ONCOS-102 in Combination With Durvalumab in Subjects With Advanced Peritoneal Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4978,
+                    "therapyName": "Durvalumab + ONCOS-102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02982720",
+            "title": "Evaluating Combination Immunotherapy for Advanced Cholangiocarcinoma With Pembrolizumab and PEG-Intron",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2625,
+                    "therapyName": "Peginterferon alfa-2b + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02989857",
+            "title": "Study of AG-120 in Previously Treated Advanced Cholangiocarcinoma With IDH1 Mutations (ClarIDHy)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1491,
+                    "therapyName": "Ivosidenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03093870",
+            "title": "Varlitinib in Combination With Capecitabine for Advanced or Metastatic Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5543,
+                    "therapyName": "Capecitabine + Varlitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03095781",
+            "title": "Pembrolizumab and XL888 in Patients With Advanced Gastrointestinal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5533,
+                    "therapyName": "Pembrolizumab + XL888",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03144661",
+            "title": "An Open-Label Safety and Tolerability Study of INCB062079 in Subjects With Advanced Hepatocellular Carcinoma and Other Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5832,
+                    "therapyName": "INCB062079",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03201458",
+            "title": "Atezolizumab With or Without Cobimetinib in Treating Patients With Metastatic Bile Duct Cancer That Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1343,
+                    "therapyName": "Atezolizumab + Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03207347",
+            "title": "A Trial of Niraparib in BAP1 and Other DNA Double-Strand Break Repair Deficient Neoplasms (UF-STO-ETI-001)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03212274",
+            "title": "Olaparib in Treating Patients With Advanced Glioma, Cholangiocarcinoma, or Solid Tumors With IDH1 or IDH2 Mutations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03230318",
+            "title": "ARQ 087 in Subjects With FGFR2 Gene Fusion Positive Inoperable or Advanced Intrahepatic Cholangiocarcinoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2900,
+                    "therapyName": "Derazantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03250273",
+            "title": "A Clinical Trial of Entinostat in Combination With Nivolumab for Patients With Previously Treated Unresectable or Metastatic Cholangiocarcinoma and Pancreatic Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6114,
+                    "therapyName": "Entinostat + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03257761",
+            "title": "Guadecitabine and Durvalumab in Treating Patients With Advanced Liver, Pancreatic, Bile Duct, or Gallbladder Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6146,
+                    "therapyName": "Durvalumab + Guadecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03267940",
+            "title": "Open-Label Study of PEGPH20 With CIS and GEM; PEGPH20 With Atezolizumab, CIS and GEM; and Compared With CIS and GEM Alone in HA-high Subjects With Previously Untreated, Unresectable, Locally Advanced, or Metastatic Intrahepatic and Extrahepatic Cholangiocarcinoma and Gallbladder Adenocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 6534,
+                    "therapyName": "Atezolizumab + Cisplatin + Gemcitabine + PEGPH20",
+                    "synonyms": null
+                },
+                {
+                    "id": 6533,
+                    "therapyName": "Cisplatin + Gemcitabine + PEGPH20",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03329950",
+            "title": "A Study of CDX-1140 as Monotherapy or in Combination in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7361,
+                    "therapyName": "CDX-1140 + CDX-301",
+                    "synonyms": null
+                },
+                {
+                    "id": 7330,
+                    "therapyName": "CDX-1140",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03377179",
+            "title": "A Study of ABC294640 in the Treatment of Patients With Advanced Cholangiocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3301,
+                    "therapyName": "ABC294640",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03656536",
+            "title": "A Study to Evaluate the Efficacy and Safety of Pemigatinib Versus Chemotherapy in Unresectable or Metastatic Cholangiocarcinoma - (FIGHT-302)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4173,
+                    "therapyName": "Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03773302",
+            "title": "Phase 3 Study of BGJ398 (Oral Infigratinib) in First Line Cholangiocarcinoma With FGFR2 Gene Fusions/Translocations",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 674,
+                    "therapyName": "BGJ398",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03797326",
+            "title": "Efficacy and Safety of Pembrolizumab (MK-3475) Plus Lenvatinib (E7080/MK-7902) in Previously Treated Participants With Select Solid Tumors (MK-7902-005/E7080-G000-224/LEAP-005)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4782,
+                    "therapyName": "Lenvatinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03872947",
+            "title": "A Study of TRK-950 in Combinations With Anti-Cancer Treatment Regimens in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8046,
+                    "therapyName": "Pembrolizumab + TRK-950",
+                    "synonyms": null
+                },
+                {
+                    "id": 8078,
+                    "therapyName": "Carboplatin + Gemcitabine + TRK-950",
+                    "synonyms": null
+                },
+                {
+                    "id": 8047,
+                    "therapyName": "Imiquimod + TRK-950",
+                    "synonyms": null
+                },
+                {
+                    "id": 8079,
+                    "therapyName": "Paclitaxel + Ramucirumab + TRK-950",
+                    "synonyms": null
+                },
+                {
+                    "id": 8045,
+                    "therapyName": "Nivolumab + TRK-950",
+                    "synonyms": null
+                },
+                {
+                    "id": 8077,
+                    "therapyName": "Cisplatin + Gemcitabine + TRK-950",
+                    "synonyms": null
+                },
+                {
+                    "id": 8043,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + TRK-950",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03878095",
+            "title": "Testing Olaparib and AZD6738 in IDH1 and IDH2 Mutant Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4739,
+                    "therapyName": "AZD6738 + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04003636",
+            "title": "Pembrolizumab (MK-3475) Plus Gemcitabine/Cisplatin Versus Placebo Plus Gemcitabine/Cisplatin for First-Line Advanced and/or Unresectable Biliary Tract Carcinoma (BTC) (MK-3475-966/KEYNOTE-966) (KEYNOTE-966)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 3248,
+                    "therapyName": "Cisplatin + Gemcitabine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04003896",
+            "title": "A Study to Evaluate Abemaciclib in Advanced Biliary Tract Carcinoma Who Failed Prior First Line Therapy",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04034238",
+            "title": "Mesothelin-Targeted Immunotoxin LMB-100 in Combination With Tofacitinib in Persons With Previously Treated Pancreatic Adenocarcinoma, Cholangiocarcinoma and Other Mesothelin Expressing Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8628,
+                    "therapyName": "LMB-100 + Tofacitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04057365",
+            "title": "A Single Arm Phase II Study of the Combination of DKN-01 and Nivolumab in Previously Treated Patients With Advanced Biliary Tract Cancer (BTC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8678,
+                    "therapyName": "DKN-01 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04068194",
+            "title": "Testing the Combination of New Anti-cancer Drug Nedisertib With Avelumab and Radiation Therapy for Advanced/Metastatic Solid Tumors and Hepatobiliary Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7558,
+                    "therapyName": "Avelumab + MSC2490484A",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04088188",
+            "title": "Gemcitabine and Cisplatin With Ivosidenib or Pemigatinib for the Treatment of Unresectable or Metastatic Cholangiocarcinoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 4176,
+                    "therapyName": "Cisplatin + Gemcitabine + Pemigatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8728,
+                    "therapyName": "Cisplatin + Gemcitabine + Ivosidenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04175912",
+            "title": "Testing the Combination of Pevonedistat With Chemotherapy for Bile Duct Cancer of the Liver",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6501,
+                    "therapyName": "Carboplatin + MLN4924 + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1688,
+                    "therapyName": "MLN4924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04233567",
+            "title": "Infigratinib for the Treatment of Advanced or Metastatic Solid Tumors in Patients With FGFR Gene Mutations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 674,
+                    "therapyName": "BGJ398",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04294576",
+            "title": "Safety Study of BJ-001, and IL-15 Fusion Protein, for Locally Advanced/Metastatic Solid Tumors (FIH)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9460,
+                    "therapyName": "BJ-001 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9459,
+                    "therapyName": "BJ-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04306367",
+            "title": "Study of Pembrolizumab and Olaparib in Bile Duct Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5342,
+                    "therapyName": "Olaparib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

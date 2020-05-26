@@ -1,0 +1,450 @@
+{
+    "id": 363,
+    "name": "uterine cancer",
+    "source": "DOID",
+    "definition": "A female reproductive organ cancer that is located_in the uterus. [url:http\\://www.cancer.gov/dictionary?CdrID=445094]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "4363"
+    ],
+    "termId": "DOID:363",
+    "evidence": [
+        {
+            "id": 2850,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Taselisib (GDC-0032) inhibited growth of HER2 positive uterine cancer cell lines with PIK3CA mutations (PMID: 25172762).",
+            "molecularProfile": {
+                "id": 1409,
+                "profileName": "ERBB2 pos PIK3CA act mut"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3505,
+                    "pubMedId": 25172762,
+                    "title": "Taselisib, a selective inhibitor of PIK3CA, is highly effective on PIK3CA-mutated and HER2/neu amplified uterine serous carcinoma in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25172762"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4690,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uterine cancer cells harboring a PTEN mutation demonstrated sensitivity to GSK2256098, resulting in inhibition of Ptk2 (Fak) phosphorylation, decreased tumor growth, and apoptosis both in culture and in mouse models (PMID: 25833835).",
+            "molecularProfile": {
+                "id": 1213,
+                "profileName": "PTEN mutant"
+            },
+            "therapy": {
+                "id": 3078,
+                "therapyName": "GSK2256098",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4669,
+                    "pubMedId": 25833835,
+                    "title": "PTEN Expression as a Predictor of Response to Focal Adhesion Kinase Inhibition in Uterine Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25833835"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4691,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK2256098 treatment resulted in a decreased response in uterine cancer cells with PTEN wild-type versus uterine cancer cells harboring a PTEN mutation (PMID: 25833835).",
+            "molecularProfile": {
+                "id": 683,
+                "profileName": "PTEN wild-type"
+            },
+            "therapy": {
+                "id": 3078,
+                "therapyName": "GSK2256098",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4669,
+                    "pubMedId": 25833835,
+                    "title": "PTEN Expression as a Predictor of Response to Focal Adhesion Kinase Inhibition in Uterine Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25833835"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5565,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uterine cancer cells harboring a PTEN mutation were more sensitive to the combination of GSK2256098 and Taxol (paclitaxel) than uterine cancer cells wild-type for PTEN, resulting in decreased tumor growth in culture and in mouse models (PMID: 25833835).",
+            "molecularProfile": {
+                "id": 1213,
+                "profileName": "PTEN mutant"
+            },
+            "therapy": {
+                "id": 3896,
+                "therapyName": "GSK2256098 + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4669,
+                    "pubMedId": 25833835,
+                    "title": "PTEN Expression as a Predictor of Response to Focal Adhesion Kinase Inhibition in Uterine Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25833835"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5566,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uterine cancer cells harboring a PTEN mutation were more sensitive to the combination of GSK2256098 and Hycamtin (topotecan) than uterine cancer cells wild-type for PTEN, resulting in decreased tumor growth in culture and in mouse models (PMID: 25833835).",
+            "molecularProfile": {
+                "id": 1213,
+                "profileName": "PTEN mutant"
+            },
+            "therapy": {
+                "id": 3897,
+                "therapyName": "GSK2256098 + Topotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4669,
+                    "pubMedId": 25833835,
+                    "title": "PTEN Expression as a Predictor of Response to Focal Adhesion Kinase Inhibition in Uterine Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25833835"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11051,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a uterine cancer patient harboring PIK3CA I391M demonstrated stable disease when treated with Rapamune (sirolimus) (PMID: 28514312).",
+            "molecularProfile": {
+                "id": 2891,
+                "profileName": "PIK3CA I391M"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9046,
+                    "pubMedId": 28514312,
+                    "title": "Treatment inferred from mutations identified using massive parallel sequencing leads to clinical benefit in some heavily pretreated cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28514312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11135,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, the combination therapy of BGB-A317 and BGB-290 resulted in a partial response in a patient with uterine cancer (J Clin Oncol 35, 2017 (suppl; abstr 3013)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5883,
+                "therapyName": "BGB-A317 + Pamiparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9103,
+                    "pubMedId": null,
+                    "title": "A phase 1b study of the anti-PD-1 monoclonal antibody BGB-A317 (A317) in combination with the PARP inhibitor BGB-290 (290) in advanced solid tumors",
+                    "url": "http://abstracts.asco.org/199/AbstView_199_191325.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16091,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Herceptin (trastuzumab) and Perjeta (pertuzumab) combination treatment resulted in no objective response (0/7) in patients with uterine cancer harboring ERBB2 (HER2) amplification or overexpression (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16092,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Herceptin (trastuzumab) and Perjeta (pertuzumab) combination treatment resulted in no objective response (0/7) in patients with uterine cancer harboring ERBB2 (HER2) amplification or overexpression (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17082,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Debio 1347 treatment resulted in a stable disease with 3.9% change of tumor size and 60% decrease of DUSP6 score in a patient with uterine cancer harboring FGFR2 amplification (PMID: 30745300; NCT01948297).",
+            "molecularProfile": {
+                "id": 3147,
+                "profileName": "FGFR2 amp"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15194,
+                    "pubMedId": 30745300,
+                    "title": "A Phase I, Open-Label, Multicenter, Dose-escalation Study of the Oral Selective FGFR Inhibitor Debio 1347 in Patients with Advanced Solid Tumors Harboring FGFR Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30745300"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02349958",
+            "title": "Clinical Trial of Intraperitoneal Hyperthermic Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1133,
+                    "therapyName": "Mitomycin C",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02584478",
+            "title": "Phase 1/2a Evaluation of Adding AL3818 to Standard Platinum-Based Chemotherapy in Subjects With Recurrent or Metastatic Endometrial, Ovarian, Fallopian, Primary Peritoneal or Cervical Carcinoma (AL3818-US-002)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7370,
+                    "therapyName": "Anlotinib + Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02646319",
+            "title": "Nanoparticle Albumin-Bound Rapamycin in Treating Patients With Advanced Cancer With mTOR Mutations",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3380,
+                    "therapyName": "Nab-Rapamycin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02874430",
+            "title": "Metformin Hydrochloride and Doxycycline in Treating Patients With Localized Breast or Uterine Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4610,
+                    "therapyName": "Doxycycline + Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03206177",
+            "title": "Paclitaxel/Carboplatin + Galunisertib for Patients With Carcinosarcoma of the Uterus or Ovary",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6265,
+                    "therapyName": "Carboplatin + Galunisertib + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03241745",
+            "title": "A Study of Nivolumab in Selected Uterine Cancer Patients",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03454451",
+            "title": "CPI-006 Alone and in Combination With CPI-444 and With Pembrolizumab for Patients With Advanced Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6755,
+                    "therapyName": "CPI-006",
+                    "synonyms": null
+                },
+                {
+                    "id": 6757,
+                    "therapyName": "CPI-006 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6756,
+                    "therapyName": "CPI-006 + CPI-444",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04250597",
+            "title": "Study of GNX102 in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9331,
+                    "therapyName": "GNX102",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

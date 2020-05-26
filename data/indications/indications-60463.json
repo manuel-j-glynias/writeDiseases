@@ -1,0 +1,329 @@
+{
+    "id": 60463,
+    "name": "NUT midline carcinoma",
+    "source": "DOID",
+    "definition": "A carcinoma that is characterized by a  BRD4-NUT translocation involving the rearrangement of the bromodomain-containing protein 4 (BRD4) and the gene encoding nuclear protein of the testis (NUT)  at 15q14, BRD4-NUT t(15;19)(q14;q13.1) and arises from midline epithelial structures, most commonly the head, neck, and mediastinum. [url:https\\://en.wikipedia.org/wiki/NUT_midline_carcinoma, url:https\\://omim.org/entry/608749, url:https\\://omim.org/entry/608963, url:https\\://www.ncbi.nlm.nih.gov/pubmed/21221870, url:https\\://www.ncbi.nlm.nih.gov/pubmed/25685583, url:https\\://www.ncbi.nlm.nih.gov/pubmed/26378054, url:https\\://www.ncbi.nlm.nih.gov/pubmed/26402248]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0060463",
+    "evidence": [
+        {
+            "id": 3113,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JQ1 inhibited proliferation and induced differentiation of a NUT midline carcinoma cell line harboring BRD4-NUTM1 in culture (PMID: 20871596).",
+            "molecularProfile": {
+                "id": 11680,
+                "profileName": "BRD4 - NUTM1"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60463,
+                "name": "NUT midline carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3615,
+                    "pubMedId": 20871596,
+                    "title": "Selective inhibition of BET bromodomains.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20871596"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3116,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Farydak (panobinostat) inhibited tumor growth, increased histone acetylation and induced squamous differentiation of human cancer cells harboring BRD4-NUTM1 in cell line xenograft models (PMID: 21447744).",
+            "molecularProfile": {
+                "id": 11680,
+                "profileName": "BRD4 - NUTM1"
+            },
+            "therapy": {
+                "id": 1080,
+                "therapyName": "Panobinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60463,
+                "name": "NUT midline carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3616,
+                    "pubMedId": 21447744,
+                    "title": "Differentiation of NUT midline carcinoma by epigenomic reprogramming.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21447744"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6007,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Birabresib (OTX015) treatment resulted in clinical and radiologic partial responses in two patients, stable disease with alleviation of symptoms within the first two weeks of therapy initiation in one patient, and rapid disease progression in one patient with BRD4-NUTM1 positive NUT midline carcinoma (PMID: 26976114).",
+            "molecularProfile": {
+                "id": 11680,
+                "profileName": "BRD4 - NUTM1"
+            },
+            "therapy": {
+                "id": 2034,
+                "therapyName": "Birabresib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60463,
+                "name": "NUT midline carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5226,
+                    "pubMedId": 26976114,
+                    "title": "Clinical Response of Carcinomas Harboring the BRD4-NUT Oncoprotein to the Targeted Bromodomain Inhibitor OTX015/MK-8628.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26976114"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7182,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, TEN-010 treatment given at 0.45 mg/kg resulted in tumor regression in two NUT midline carcinoma patients harboring BRD4-NUTM1 fusion (Mol Cancer Ther 2015;14(12 Suppl 2):Abstract nr A49).",
+            "molecularProfile": {
+                "id": 11680,
+                "profileName": "BRD4 - NUTM1"
+            },
+            "therapy": {
+                "id": 937,
+                "therapyName": "TEN-010",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60463,
+                "name": "NUT midline carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6144,
+                    "pubMedId": null,
+                    "title": "Clinically efficacy of the BET bromodomain inhibitor TEN-010 in an open-label substudy with patients with documented NUT-midline carcinoma (NMC)",
+                    "url": "http://mct.aacrjournals.org/content/14/12_Supplement_2/A49"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8149,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, GSK525762 treatment resulted in partial response in 20% (2/10) and stable disease in 40% (4/10) of NUT midline carcinoma patients (Cancer Res 2016;76(14 Suppl): Abstract nr CT014).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 784,
+                "therapyName": "GSK525762",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60463,
+                "name": "NUT midline carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6556,
+                    "pubMedId": null,
+                    "title": "GSK525762, a selective bromodomain (BRD) and extra terminal protein (BET) inhibitor: results from part 1 of a phase I/II open-label single-agent study in patients with NUT midline carcinoma (NMC) and other cancers",
+                    "url": "http://cancerres.aacrjournals.org/content/76/14_Supplement/CT014.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8729,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Birabresib (OTX015) inhibited tumor growth in cell line xenograft models of NUT midline carcinoma (Mol Cancer Ther November 2013 12; C244).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2034,
+                "therapyName": "Birabresib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60463,
+                "name": "NUT midline carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1848,
+                    "pubMedId": null,
+                    "title": "Abstract C244: Development of the BET bromodomain inhibitor OTX015.",
+                    "url": "http://mct.aacrjournals.org/content/12/11_Supplement/C244.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14526,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, Birabresib (OTX015) demonstrated favorable safety and resulted in partial response in 33% (3/9) and stable disease in 33% (3/9) patients with NUT midline carcinoma (PMID: 29733771; NCT02259114).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2034,
+                "therapyName": "Birabresib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60463,
+                "name": "NUT midline carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11583,
+                    "pubMedId": 29733771,
+                    "title": "Phase Ib Trial With Birabresib, a Small-Molecule Inhibitor of Bromodomain and Extraterminal Proteins, in Patients With Selected Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29733771"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9920,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CUDC-907 inhibited MYC expression and growth of a NUT midline carcinoma cell line harboring BRD4-NUTM1 in culture, and decreased tumor growth and improved survival in xenograft models (PMID: 27980108).",
+            "molecularProfile": {
+                "id": 11680,
+                "profileName": "BRD4 - NUTM1"
+            },
+            "therapy": {
+                "id": 709,
+                "therapyName": "CUDC-907",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60463,
+                "name": "NUT midline carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7758,
+                    "pubMedId": 27980108,
+                    "title": "Dual HDAC and PI3K Inhibitor CUDC-907 Downregulates MYC and Suppresses Growth of MYC-dependent Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27980108"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01587703",
+            "title": "A Study to Investigate the Safety, Pharmacokinetics, Pharmacodynamics, and Clinical Activity of GSK525762 in Subjects With NUT Midline Carcinoma (NMC) and Other Cancers",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 784,
+                    "therapyName": "GSK525762",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01987362",
+            "title": "A Two Part, Multicenter, Open-label Study of TEN-010 Given Subcutaneously",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 937,
+                    "therapyName": "TEN-010",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02307240",
+            "title": "Open Label, Multi-center Study to Assess the Safety, Tolerability and Pharmacokinetics of CUDC-907 in Subjects With Advanced/Relapsed Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 709,
+                    "therapyName": "CUDC-907",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02516553",
+            "title": "BI 894999 First in Human Dose Finding Study in Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5884,
+                    "therapyName": "BI 894999",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02698176",
+            "title": "A Dose Exploration Study With MK-8628 in Participants With Selected Advanced Solid Tumors (MK-8628-006)",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2034,
+                    "therapyName": "Birabresib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

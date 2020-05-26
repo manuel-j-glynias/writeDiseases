@@ -1,0 +1,2539 @@
+{
+    "id": 3369,
+    "name": "Ewing sarcoma",
+    "source": "DOID",
+    "definition": "A bone sarcoma that has_material_basis in neural crest cells derives_from undeveloped, undifferentiated neuroectoderm. [url:http\\://en.wikipedia.org/wiki/Primitive_neuroectodermal_tumor, url:http\\://www.cancer.gov/dictionary?cdrid=383924]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "4392",
+        "4390",
+        "0050607",
+        "4980",
+        "4158",
+        "4391"
+    ],
+    "termId": "DOID:3369",
+    "evidence": [
+        {
+            "id": 1465,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, arsenic trioxide inhibited GLI-mediated signaling, resulting in reduced target gene expression and decreased viability of GLI1-expressing Ewing's sarcoma cell lines in culture and decreased tumor growth in a GLI1-expressing Ewing's sarcoma cell line xenograft model (PMID: 21183792).",
+            "molecularProfile": {
+                "id": 2775,
+                "profileName": "GLI1 positive"
+            },
+            "therapy": {
+                "id": 640,
+                "therapyName": "Arsenic trioxide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1335,
+                    "pubMedId": 21183792,
+                    "title": "Arsenic trioxide inhibits human cancer cell growth and tumor development in mice by blocking Hedgehog/GLI pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21183792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2566,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited proliferation of Ewing\u2019s sarcoma cell lines with FGFR1 copy number gain in culture (PMID: 26179511).",
+            "molecularProfile": {
+                "id": 812,
+                "profileName": "FGFR1 amp"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3316,
+                    "pubMedId": 26179511,
+                    "title": "Deep Sequencing in Conjunction with Expression and Functional Analyses Reveals Activation of FGFR1 in Ewing Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26179511"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3943,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BMS-754807 treatment resulted in significant tumor growth delay in 50% (2/4) of cell line xenograft models of Ewing sarcoma (PMID: 21298745).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 686,
+                "therapyName": "BMS-754807",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4302,
+                    "pubMedId": 21298745,
+                    "title": "Initial testing (stage 1) of the IGF-1 receptor inhibitor BMS-754807 by the pediatric preclinical testing program.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21298745"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4963,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a Ewing's sarcoma cell line harboring EWSR1-FLI1 was sensitive to Istodax (romidepsin) in vitro and in mouse models, resulting in decreased expression of the fusion protein, inhibition of tumor growth, and apoptotic induction (PMID: 15849726).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 1075,
+                "therapyName": "Romidepsin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4814,
+                    "pubMedId": 15849726,
+                    "title": "Antitumor effects of histone deacetylase inhibitor on Ewing's family tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15849726"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5295,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGB-324 inhibited growth of Ewing sarcoma cell lines positive for Axl expression in culture (PMID: 25528764).",
+            "molecularProfile": {
+                "id": 20482,
+                "profileName": "AXL positive"
+            },
+            "therapy": {
+                "id": 2660,
+                "therapyName": "BGB-324",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4996,
+                    "pubMedId": 25528764,
+                    "title": "The role of AXL and the in vitro activity of the receptor tyrosine kinase inhibitor BGB324 in Ewing sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25528764"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5472,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YK-4-279 delayed tumor growth in human Ewing's sarcoma cell line xenograft models harboring EWSR1-FLI1 (PMID: 25964201).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 3419,
+                "therapyName": "YK-4-279",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5072,
+                    "pubMedId": 25964201,
+                    "title": "An Oral Formulation of YK-4-279: Preclinical Efficacy and Acquired Resistance Patterns in Ewing Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25964201"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5473,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of enzastaurin and YK-4-279 worked synergistically to inhibit growth of Ewing's sarcoma cell lines harboring EWSR1-FLI1 in culture (PMID: 25964201).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 3870,
+                "therapyName": "Enzastaurin + YK-4-279",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5072,
+                    "pubMedId": 25964201,
+                    "title": "An Oral Formulation of YK-4-279: Preclinical Efficacy and Acquired Resistance Patterns in Ewing Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25964201"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5610,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, THZ1 inhibited proliferation of MYC-amplified primitive neuroectodermal tumor cell lines in culture (PMID: 25416950).",
+            "molecularProfile": {
+                "id": 1426,
+                "profileName": "MYC amp"
+            },
+            "therapy": {
+                "id": 3908,
+                "therapyName": "THZ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5125,
+                    "pubMedId": 25416950,
+                    "title": "CDK7 inhibition suppresses super-enhancer-linked oncogenic transcription in MYCN-driven cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25416950"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5825,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing's sarcoma cells harboring EWSR1-FLI1 were sensitive to JQ1 in culture and in xenograft models, resulting in decreased expression of EWSR1-FLI1, apoptotic induction, and decreased tumor growth (PMID: 26623725).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5170,
+                    "pubMedId": 26623725,
+                    "title": "Targeting the EWS-ETS transcriptional program by BET bromodomain inhibition in Ewing sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26623725"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7197,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JQ1 inhibited downstream signaling and proliferation of Ewing's sarcoma cell lines harboring EWSR1-FLI1 in culture and inhibited tumor growth in xenograft models (PMID: 27259270).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6194,
+                    "pubMedId": 27259270,
+                    "title": "BET bromodomain inhibitors suppress EWS-FLI1-dependent transcription and the IGF1 autocrine mechanism in Ewing sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27259270"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5913,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing sarcoma cells treated with Temodar (temozolomide) combined with Talazoparib (BMN-673) resulted in strong synergism, demonstrating decreased cell viability in culture (PMID: 26438158).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1377,
+                "therapyName": "Talazoparib + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5197,
+                    "pubMedId": 26438158,
+                    "title": "PARP Inhibitors Sensitize Ewing Sarcoma Cells to Temozolomide-Induced Apoptosis via the Mitochondrial Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5914,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Temodar (temozolomide) combined with Zejula (niraparib) demonstrated strong synergism in Ewing sarcoma cells in culture, resulting in decreased cell viability (PMID: 26438158).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1437,
+                "therapyName": "Niraparib + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5197,
+                    "pubMedId": 26438158,
+                    "title": "PARP Inhibitors Sensitize Ewing Sarcoma Cells to Temozolomide-Induced Apoptosis via the Mitochondrial Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5917,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing sarcoma cells treated with Temodar (temozolomide) combined with Lynparza (olaparib) resulted in very strong synergism, inducing apoptosis and reducing cell viability in culture (PMID: 26438158).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1438,
+                "therapyName": "Olaparib + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5197,
+                    "pubMedId": 26438158,
+                    "title": "PARP Inhibitors Sensitize Ewing Sarcoma Cells to Temozolomide-Induced Apoptosis via the Mitochondrial Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5920,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing sarcoma cells treated with Temodar (temozolomide) combined with Veliparib (ABT-888) resulted in strong synergism, demonstrating reduced cell viability in culture (PMID: 26438158).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1193,
+                "therapyName": "Temozolomide + Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5197,
+                    "pubMedId": 26438158,
+                    "title": "PARP Inhibitors Sensitize Ewing Sarcoma Cells to Temozolomide-Induced Apoptosis via the Mitochondrial Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5921,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing sarcoma cells treated with SN-38 combined with Veliparib (ABT-888) resulted in synergism, demonstrating reduced cell viability in culture (PMID: 26438158).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3983,
+                "therapyName": "SN-38 + Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5197,
+                    "pubMedId": 26438158,
+                    "title": "PARP Inhibitors Sensitize Ewing Sarcoma Cells to Temozolomide-Induced Apoptosis via the Mitochondrial Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5922,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing sarcoma cells treated with SN-38 combined with Lynparza (olaparib) resulted in synergism, demonstrating reduced cell viability in culture (PMID: 26438158).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3984,
+                "therapyName": "Olaparib + SN-38",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5197,
+                    "pubMedId": 26438158,
+                    "title": "PARP Inhibitors Sensitize Ewing Sarcoma Cells to Temozolomide-Induced Apoptosis via the Mitochondrial Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5923,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with SN-38 combined with Zejula (niraparib) demonstrated synergism in Ewing sarcoma cells in culture, resulting in reduced cell viability (PMID: 26438158).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3985,
+                "therapyName": "Niraparib + SN-38",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5197,
+                    "pubMedId": 26438158,
+                    "title": "PARP Inhibitors Sensitize Ewing Sarcoma Cells to Temozolomide-Induced Apoptosis via the Mitochondrial Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5924,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing sarcoma cells treated with SN-38 combined with Talazoparib (BMN-673) resulted in synergism, demonstrating reduced cell viability in culture (PMID: 26438158).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3986,
+                "therapyName": "SN-38 + Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5197,
+                    "pubMedId": 26438158,
+                    "title": "PARP Inhibitors Sensitize Ewing Sarcoma Cells to Temozolomide-Induced Apoptosis via the Mitochondrial Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5928,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing sarcoma cells treated with the combination of Temodar (temozolomide), SN-38, and Lynparza (olaparib) had a much greater effect on decreasing cell viability and inducing apoptosis when compared to each treatment administered as a single agent or as dual agents in culture (PMID: 26438158).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3988,
+                "therapyName": "Olaparib + SN-38 + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5197,
+                    "pubMedId": 26438158,
+                    "title": "PARP Inhibitors Sensitize Ewing Sarcoma Cells to Temozolomide-Induced Apoptosis via the Mitochondrial Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6231,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a renal Ewing sarcoma cell line was sensitive to UAB30 in culture, demonstrating cell-cycle arrest, decreased cell proliferation, and apoptosis (PMID: 26873726).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4098,
+                "therapyName": "UAB30",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5496,
+                    "pubMedId": 26873726,
+                    "title": "Preclinical Evaluation of UAB30 in Pediatric Renal and Hepatic Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26873726"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7012,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SANT1 inhibited survival of Ewing sarcoma cell lines with elevated GLI2 and SHH mRNA in culture (PMID: 26781311).",
+            "molecularProfile": {
+                "id": 24358,
+                "profileName": "GLI2 over exp SHH over exp"
+            },
+            "therapy": {
+                "id": 3990,
+                "therapyName": "SANT1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6046,
+                    "pubMedId": 26781311,
+                    "title": "Targeting hedgehog signaling pathway in pediatric tumors: in vitro evaluation of SMO and GLI inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26781311"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7022,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GANT61 inhibited survival of Ewing sarcoma cell lines with elevated GLI2 and SHH mRNA levels in culture (PMID: 26781311).",
+            "molecularProfile": {
+                "id": 24358,
+                "profileName": "GLI2 over exp SHH over exp"
+            },
+            "therapy": {
+                "id": 1786,
+                "therapyName": "GANT61",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6046,
+                    "pubMedId": 26781311,
+                    "title": "Targeting hedgehog signaling pathway in pediatric tumors: in vitro evaluation of SMO and GLI inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26781311"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7198,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK525762 (I-BET762) inhibited viability of Ewing's sarcoma cell lines harboring EWSR1-FLI1 in culture (PMID: 27259270).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 784,
+                "therapyName": "GSK525762",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6194,
+                    "pubMedId": 27259270,
+                    "title": "BET bromodomain inhibitors suppress EWS-FLI1-dependent transcription and the IGF1 autocrine mechanism in Ewing sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27259270"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8291,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing's sarcoma cells were sensitive to GSK1904529A in culture, resulting in decreased cell viability (PMID: 19383820).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2743,
+                "therapyName": "GSK1904529A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2857,
+                    "pubMedId": 19383820,
+                    "title": "Antitumor activity of GSK1904529A, a small-molecule inhibitor of the insulin-like growth factor-I receptor tyrosine kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19383820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8325,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JQ1 treatment resulted in cytostatic effects in patient-derived Ewing's sarcoma cell lines in culture, but inhibited tumor growth in patient-derived xenograft models due to inhibition of tumor angiogenesis (PMID: 26908627).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6610,
+                    "pubMedId": 26908627,
+                    "title": "The Bromodomain BET Inhibitor JQ1 Suppresses Tumor Angiogenesis in Models of Childhood Sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26908627"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8339,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEDI-573 inhibited IGF signaling and growth of Ewing sarcoma cell lines with high levels of IGF1 in culture, and inhibited tumor growth in IGF1-expressing Ewing sarcoma cell line xenograft models (PMID: 25193511).",
+            "molecularProfile": {
+                "id": 26236,
+                "profileName": "IGF1 over exp"
+            },
+            "therapy": {
+                "id": 4708,
+                "therapyName": "MEDI-573",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6622,
+                    "pubMedId": 25193511,
+                    "title": "MEDI-573, alone or in combination with mammalian target of rapamycin inhibitors, targets the insulin-like growth factor pathway in sarcomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193511"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8340,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of MEDI-573 and Vistusertib (AZD2014) inhibited proliferation of a Ewing sarcoma cell line in culture, and inhibited tumor growth in a Ewing sarcoma cell line xenograft model, with increased efficacy compared to either as a single agent (PMID: 25193511).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4709,
+                "therapyName": "MEDI-573 + Vistusertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6622,
+                    "pubMedId": 25193511,
+                    "title": "MEDI-573, alone or in combination with mammalian target of rapamycin inhibitors, targets the insulin-like growth factor pathway in sarcomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193511"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8341,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of MEDI-573 and Rapamune (sirolimus) resulted in decreased Rapamune (sirolimus)-induced AKT activation and inhibited growth of a Ewing sarcoma cell line in culture and inhibited tumor growth Ewing sarcoma cell line xenograft models, with increased efficacy compared to either as a single agent (PMID: 25193511).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4710,
+                "therapyName": "MEDI-573 + Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6622,
+                    "pubMedId": 25193511,
+                    "title": "MEDI-573, alone or in combination with mammalian target of rapamycin inhibitors, targets the insulin-like growth factor pathway in sarcomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193511"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9334,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lurbinectedin resulted in decreased activity of EWSR1-FLI1 activity and repression of EWSR1-FLI gene targets in a Ewing sarcoma cell line in culture and prevented tumor growth in xenograft models (PMID: 27697767).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 1195,
+                "therapyName": "Lurbinectedin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7097,
+                    "pubMedId": 27697767,
+                    "title": "Lurbinectedin Inactivates the Ewing Sarcoma Oncoprotein EWS-FLI1 by Redistributing It within the Nucleus.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27697767"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9335,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Lurbinectedin and Camptosar (irinotecan) resulted in greater suppression of EWSR1-FLI1 activity, sustained tumor regression, and improved survival in Ewing sarcoma cell line xenograft models harboring EWSR1-FLI1 (PMID: 27697767).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 4979,
+                "therapyName": "Irinotecan + Lurbinectedin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7097,
+                    "pubMedId": 27697767,
+                    "title": "Lurbinectedin Inactivates the Ewing Sarcoma Oncoprotein EWS-FLI1 by Redistributing It within the Nucleus.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27697767"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10089,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Rydapt (midostaurin) and BMS-754807 resulted in a synergistic effect, demonstrating inhibition of colony formation and increased apoptotic activity in a Ewing sarcoma cell line harboring EWSR1-FLI1 in culture (PMID: 28062706).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 5379,
+                "therapyName": "BMS-754807 + Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8019,
+                    "pubMedId": 28062706,
+                    "title": "Combinatorial Drug Screening Identifies Ewing Sarcoma-specific Sensitivities.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28062706"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10090,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Rydapt (midostaurin) and Linsitinib (OSI-906) resulted in a synergistic effect in a Ewing sarcoma cell line harboring EWSR1-FLI1 in culture (PMID: 28062706).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 5380,
+                "therapyName": "Linsitinib + Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8019,
+                    "pubMedId": 28062706,
+                    "title": "Combinatorial Drug Screening Identifies Ewing Sarcoma-specific Sensitivities.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28062706"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10844,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zejula (niraparib) inhibited Parp activity and EWSR1-FLI1 gene regulation, and synergized with Temodar (temozolomide) to induce complete tumor regression in patient-derived xenograft models of Ewing's sarcoma harboring EWSR1-FLI1 fusion (Mol Cancer Ther 2013;12(11 Suppl):Abstract nr A258).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 1437,
+                "therapyName": "Niraparib + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8867,
+                    "pubMedId": null,
+                    "title": "The PARP inhibitor niraparib demonstrates synergy with chemotherapy in treatment of patient derived Ewing's sarcoma tumorGraft models.",
+                    "url": "http://mct.aacrjournals.org/content/12/11_Supplement/A258.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10845,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zejula (niraparib) inhibited Parp activity and EWSR1-FLI1 gene regulation, and synergized with Camptosar (irinotecan) to induce complete tumor regression in patient-derived xenograft models of Ewing's sarcoma harboring EWSR1-FLI1 fusion (Mol Cancer Ther 2013;12(11 Suppl):Abstract nr A258).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 5659,
+                "therapyName": "Irinotecan + Niraparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8867,
+                    "pubMedId": null,
+                    "title": "The PARP inhibitor niraparib demonstrates synergy with chemotherapy in treatment of patient derived Ewing's sarcoma tumorGraft models.",
+                    "url": "http://mct.aacrjournals.org/content/12/11_Supplement/A258.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11097,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Keytruda (pembrolizumab) treatment resulted in no objective response (0/13) in patients with Ewing sarcoma (J Clin Oncol 35, 2017 (suppl; abstr 11008)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 9070,
+                    "pubMedId": null,
+                    "title": "Multicenter phase II study of pembrolizumab (P) in advanced soft tissue (STS) and bone sarcomas (BS): Final results of SARC028 and biomarker analyses.",
+                    "url": "http://meetinglibrary.asco.org/record/145286/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 11199,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Talazoparib (BMN-673) treatment in patients with Ewing sarcoma did not result in any objective responses, however, resulted in a clinical benefit rate of 23% (PMID: 28242752).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9147,
+                    "pubMedId": 28242752,
+                    "title": "Phase I, Dose-Escalation, Two-Part Trial of the PARP Inhibitor Talazoparib in Patients with Advanced Germline BRCA1/2 Mutations and Selected Sporadic Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28242752"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11755,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Prexasertib (LY2606368) decreased proliferation of several pediatric tumor cell lines in culture, including Ewing sarcoma cell lines (PMID: 28270495).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1651,
+                "therapyName": "Prexasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9764,
+                    "pubMedId": 28270495,
+                    "title": "The Checkpoint Kinase 1 Inhibitor Prexasertib Induces Regression of Preclinical Models of Human Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28270495"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11764,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Selinexor (KPT-330) and Kyprolis (carfilzomib) resulted in downregulation of Birc5 (Survivin) and enhanced induction of apoptotic markers compared to Selinexor (KPT-330) alone, and worked synergistically to decrease viability of Ewing sarcoma cells in culture (PMID: 28314790).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6143,
+                "therapyName": "Carfilzomib + Selinexor",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9766,
+                    "pubMedId": 28314790,
+                    "title": "Selinexor (KPT-330) Induces Tumor Suppression through Nuclear Sequestration of I\u03baB and Downregulation of Survivin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28314790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14182,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, CUDC-907 treatment resulted in stable disease for 6 treatment cycles in a pediatric patient with Ewing sarcoma (Journal of Clinical Oncology 36, no. 15_suppl (May 20 2018) 10542-10542; NCT02909777).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 709,
+                "therapyName": "CUDC-907",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11492,
+                    "pubMedId": null,
+                    "title": "Phase I multicenter trial of CUDC-907 in children and young adults with relapsed/refractory solid tumors, CNS tumors, and lymphomas.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.10542"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15329,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing's sarcoma cells with targeted loss of SLFN11 demonstrated resistance to treatment with Lynparza (olaparib) in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15332,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing's sarcoma cells with targeted loss of SLFN11 demonstrated resistance to treatment with Talzenna (talazoparib) in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15335,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Talzenna (talazoparib) combined with Temodar (temozolomide) treatment resulted in a synergistic effect in MGMT-proficient Ewing's sarcoma cells with overexpression of SLFN11, demonstrating reduced cell viability in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30985,
+                "profileName": "SLFN11 over exp"
+            },
+            "therapy": {
+                "id": 1377,
+                "therapyName": "Talazoparib + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15338,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Talzenna (talazoparib) to Temodar (temozolomide) treatment resulted in no benefit in MGMT-proficient Ewing's sarcoma cells with targeted loss of SLFN11 when compared to Temodar (temozolomide) treatment alone in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 1377,
+                "therapyName": "Talazoparib + Temozolomide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15341,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VE-821 treatment combined with Talzenna (talazoparib) resulted in a synergistic effect in Ewing's sarcoma cells with targeted loss of SLFN11, demonstrating reduced cell viability in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 7562,
+                "therapyName": "Talazoparib + VE-821",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15344,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VE-821 treatment combined with Lynparza (olaparib) resulted in a synergistic effect in Ewing's sarcoma cells with targeted loss of SLFN11, demonstrating reduced cell viability in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30987,
+                "profileName": "SLFN11 loss"
+            },
+            "therapy": {
+                "id": 7563,
+                "therapyName": "Olaparib + VE-821",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15353,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VE-821 treatment combined with Talzenna (talazoparib) resulted in a synergistic effect in Ewing's sarcoma cells with overexpression of SLFN11, demonstrating greater reduced cell viability compared to Talzenna (talazoparib) treatment alone in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30985,
+                "profileName": "SLFN11 over exp"
+            },
+            "therapy": {
+                "id": 7562,
+                "therapyName": "Talazoparib + VE-821",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15356,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VE-821 treatment combined with Lynparza (olaparib) resulted in a synergistic effect in Ewing's sarcoma cells with overexpression of SLFN11, demonstrating greater reduced cell viability compared to Lynparza (olaparib) treatment alone in culture (PMID: 27708213).",
+            "molecularProfile": {
+                "id": 30985,
+                "profileName": "SLFN11 over exp"
+            },
+            "therapy": {
+                "id": 7563,
+                "therapyName": "Olaparib + VE-821",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13105,
+                    "pubMedId": 27708213,
+                    "title": "Resistance to PARP inhibitors by SLFN11 inactivation can be overcome by ATR inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27708213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16549,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Capmatinib (INC280) demonstrated safety and preliminary efficacy, resulted in stable disease as best overall response in a patients with Ewing sarcoma (PMID: 30724423).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14616,
+                    "pubMedId": 30724423,
+                    "title": "Phase I dose-escalation study of capmatinib (INC280) in Japanese patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30724423"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17677,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines for unresectable or metastatic MSI-high Ewing sarcoma patients who have progressed on prior therapy (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17679,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "EWSR1-FLI1 fusions aid the diagnosis of Ewing sarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17680,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "FUS-ERG fusions aid the diagnosis of Ewing sarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 16554,
+                "profileName": "FUS - ERG"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20036,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "EWSR1-ERG fusions aid the diagnosis of Ewing sarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 13557,
+                "profileName": "EWSR1 - ERG"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20037,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "EWSR1-FEV fusions aid the diagnosis of Ewing sarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 17381,
+                "profileName": "EWSR1 - FEV"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20038,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "EWSR1-ETV1 fusions aid the diagnosis of Ewing sarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 16922,
+                "profileName": "EWSR1 - ETV1"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20039,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "EWSR1-ETV4 fusions aid the diagnosis of Ewing sarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 17376,
+                "profileName": "EWSR1 - ETV4"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20040,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "EWSR1-PATZ1 fusions aid the diagnosis of Ewing sarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 17378,
+                "profileName": "EWSR1 - PATZ1"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20254,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing sarcoma cell lines overexpressing KDM1A and harboring EWSR1 fusions demonstrated resistance to GSK-LSD1 treatment in culture (PMID: 29997151).",
+            "molecularProfile": {
+                "id": 34977,
+                "profileName": "KDM1A over exp"
+            },
+            "therapy": {
+                "id": 9300,
+                "therapyName": "GSK-LSD1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17780,
+                    "pubMedId": 29997151,
+                    "title": "Therapeutic Targeting of KDM1A/LSD1 in Ewing Sarcoma with SP-2509 Engages the Endoplasmic Reticulum Stress Response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29997151"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20255,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SP-2509 treatment inhibited viability of Ewing sarcoma cell lines overexpressing KDM1A, and harboring EWSR1 fusions in culture (PMID: 29997151).",
+            "molecularProfile": {
+                "id": 34977,
+                "profileName": "KDM1A over exp"
+            },
+            "therapy": {
+                "id": 9301,
+                "therapyName": "SP-2509",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17780,
+                    "pubMedId": 29997151,
+                    "title": "Therapeutic Targeting of KDM1A/LSD1 in Ewing Sarcoma with SP-2509 Engages the Endoplasmic Reticulum Stress Response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29997151"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20256,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ewing sarcoma cell lines overexpressing KDM1A and harboring EWSR1-FLI1 fusions demonstrated resistance to Parnate (tranylcypromine) treatment in culture (PMID: 29997151).",
+            "molecularProfile": {
+                "id": 34977,
+                "profileName": "KDM1A over exp"
+            },
+            "therapy": {
+                "id": 8202,
+                "therapyName": "Tranylcypromine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3369,
+                "name": "Ewing sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17780,
+                    "pubMedId": 29997151,
+                    "title": "Therapeutic Targeting of KDM1A/LSD1 in Ewing Sarcoma with SP-2509 Engages the Endoplasmic Reticulum Stress Response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29997151"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00020566",
+            "title": "Combination Chemotherapy With or Without Peripheral Stem Cell Transplantation, Radiation Therapy, and/or Surgery in Treating Patients With Ewing's Sarcoma",
+            "phase": "Phase III",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 2558,
+                    "therapyName": "Busulfan + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 2670,
+                    "therapyName": "Dactinomycin + Doxorubicin + Etoposide + Ifosfamide + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00084695",
+            "title": "Umbilical Cord Blood for Stem Cell Transplantation in Treating Young Patients With Malignant or Nonmalignant Diseases",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2558,
+                    "therapyName": "Busulfan + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00089245",
+            "title": "Radiolabeled Monoclonal Antibody Therapy in Treating Patients With Refractory, Recurrent, or Advanced CNS or Leptomeningeal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 7169,
+                    "therapyName": "Omburtamab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00720785",
+            "title": "Natural Killer Cells and Bortezomib to Treat Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01241162",
+            "title": "Decitabine Followed by a Cancer Antigen Vaccine for Patients With Neuroblastoma and Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01286987",
+            "title": "Study of BMN 673, a PARP Inhibitor, in Patients With Advanced or Recurrent Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 682,
+                    "therapyName": "Talazoparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01396408",
+            "title": "A Phase II Study of Sunitinib or Temsirolimus in Patients With Advanced Rare Tumours",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01661400",
+            "title": "Anti-Angiogenic Therapy Post Transplant (ASCR) for Relapsed and Refractory Pediatric Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1475,
+                    "therapyName": "Thalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01858168",
+            "title": "Phase I Study of Olaprib and Temozolomide for Ewings Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1438,
+                    "therapyName": "Olaparib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01946529",
+            "title": "Therapeutic Trial for Patients With Ewing Sarcoma Family of Tumor and Desmoplastic Small Round Cell Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1433,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Etoposide + Ifosfamide + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1434,
+                    "therapyName": "Bevacizumab + Cyclophosphamide + Doxorubicin + Etoposide + Ifosfamide + Irinotecan + Sorafenib + Temozolomide + Temsirolimus + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02013336",
+            "title": "Phase 1 Study of MM-398 Plus Cyclophosphamide in Pediatric Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7579,
+                    "therapyName": "Cyclophosphamide + MM-398",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02044120",
+            "title": "ESP1/SARC025 Global Collaboration: A Phase I Study of a Combination of the PARP Inhibitor, Niraparib and Temozolomide in Patients With Previously Treated, Incurable Ewing Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1437,
+                    "therapyName": "Niraparib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02048371",
+            "title": "A Blanket Protocol to Study Oral Regorafenib in Patients With Refractory Liposarcoma, Osteogenic Sarcoma, and Ewing/Ewing-like Sarcomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02100891",
+            "title": "Phase 2 STIR Trial: Haploidentical Transplant and Donor Natural Killer Cells for Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT02116777",
+            "title": "BMN-673 and Temozolomide in Treating Younger Patients With Refractory or Recurrent Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1377,
+                    "therapyName": "Talazoparib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02173093",
+            "title": "Activated T Cells Armed With GD2 Bispecific Antibody in Children and Young Adults With Neuroblastoma and Osteosarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2058,
+                    "therapyName": "Aldesleukin + GD2Bi-a ATC + Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02306161",
+            "title": "Combination Chemotherapy With or Without Ganitumab in Treating Patients With Newly Diagnosed Metastatic Ewing Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1433,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Etoposide + Ifosfamide + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 746,
+                    "therapyName": "Ganitumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02454972",
+            "title": "Clinical Trial of Lurbinectedin (PM01183) in Selected Advanced Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1195,
+                    "therapyName": "Lurbinectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02644460",
+            "title": "Abemaciclib in Children With DIPG or Recurrent/Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02657005",
+            "title": "TK216 in Patients With Relapsed or Refractory Ewing Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4314,
+                    "therapyName": "TK216",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02748135",
+            "title": "A Two-Part Study of TB-403 in Pediatric Subjects With Relapsed or Refractory Medulloblastoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 4704,
+                    "therapyName": "TB-403",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02789228",
+            "title": "Research Study Utilizing Expanded Multi-antigen Specific Lymphocytes for the Treatment of Solid Tumors (REST)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867592",
+            "title": "Cabozantinib-S-Malate in Treating Younger Patients With Recurrent, Refractory, or Newly Diagnosed Sarcomas, Wilms Tumor, or Other Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890758",
+            "title": "Phase I Trial of Universal Donor NK Cell Therapy in Combination With ALT803",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02982941",
+            "title": "Enoblituzumab (MGA271) in Children With B7-H3-expressing Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2863,
+                    "therapyName": "MGA271",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03139331",
+            "title": "PAZIT Study for Children and Young Adults With Relapsed or Refractory Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5635,
+                    "therapyName": "Irinotecan + Pazopanib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03155620",
+            "title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                },
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 961,
+                    "therapyName": "Ensartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03190174",
+            "title": "Nivolumab (Opdivo) Plus ABI-009 (Nab-rapamycin) for Advanced Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5931,
+                    "therapyName": "Nab-Rapamycin + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03210714",
+            "title": "Erdafitinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With FGFR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213678",
+            "title": "PI3K/mTOR Inhibitor LY3023414 in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With TSC or PI3K/MTOR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213704",
+            "title": "Larotrectinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With NTRK Fusions (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03221400",
+            "title": "PEN-866 in Patients With Advanced Solid Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4842,
+                    "therapyName": "STA-8666",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03233204",
+            "title": "Olaparib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With Defects in DNA Damage Repair Genes (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03245151",
+            "title": "Study of Lenvatinib in Combination With Everolimus in Recurrent and Refractory Pediatric Solid Tumors, Including Central Nervous System Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1713,
+                    "therapyName": "Everolimus + Lenvatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03441360",
+            "title": "Study to Assess Safety and Preliminary Activity of Eribulin Mesylate in Pediatric Subjects With Relapsed/Refractory Rhabdomyosarcoma (RMS), Non-rhabdomyosarcoma Soft Tissue Sarcoma (NRSTS) and Ewing Sarcoma (EWS)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 728,
+                    "therapyName": "Eribulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03458728",
+            "title": "Safety, Tolerability, Efficacy and Pharmacokinetics of Copanlisib in Pediatric Patients",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 995,
+                    "therapyName": "Copanlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03495921",
+            "title": "Vigil + Irinotecan and Temozolomide in Ewing's Sarcoma",
+            "phase": null,
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7296,
+                    "therapyName": "FANG vaccine + Irinotecan + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1462,
+                    "therapyName": "Irinotecan + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03514407",
+            "title": "A Study of INCB059872 in Relapsed or Refractory Ewing Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5464,
+                    "therapyName": "INCB059872",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03600649",
+            "title": "Clinical Trial of SP-2577 in Patients With Relapsed or Refractory Ewing Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7312,
+                    "therapyName": "Seclidemstat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03709680",
+            "title": "Study Of Palbociclib Combined With Chemotherapy In Pediatric Patients With Recurrent/Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8371,
+                    "therapyName": "Irinotecan + Palbociclib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03778996",
+            "title": "SM-88 as Maintenance Therapy for Advanced Ewing's Sarcoma Patients and as Salvage Therapy for Sarcoma Patients (HopES)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8757,
+                    "therapyName": "Methoxsalen + Phenytoin + Sirolimus + SM88",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03880123",
+            "title": "Selinexor in Combination With Ixazomib for the Treatment of Advanced Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8089,
+                    "therapyName": "Ixazomib + Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04129151",
+            "title": "Palbociclib + Ganitumab In Ewing Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8855,
+                    "therapyName": "Ganitumab + Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04183062",
+            "title": "BIO-11006 for Osteosarcoma and Ewing's Sarcoma Lung Metastases",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9032,
+                    "therapyName": "BIO-11006 + Docetaxel + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

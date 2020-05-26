@@ -1,0 +1,2217 @@
+{
+    "id": 6354,
+    "name": "CLL/SLL",
+    "source": "DOID",
+    "definition": "A chronic lymphocytic leukemia that is characterized by the presence of immature lymphocytes in the blood and bone marrow and/or in the lymph nodes. [url:http\\://www.cancer.gov/dictionary?CdrID=641291]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:6354",
+    "evidence": [
+        {
+            "id": 12095,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Venclexta (venetoclax) treatment resulted in a 79% (92/116) overall response rate and 20% (23/116) complete response rate in patients with either chronic lymphocytic leukemia or small lymphocytic lymphoma (PMID: 26639348).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1562,
+                "therapyName": "Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10033,
+                    "pubMedId": 26639348,
+                    "title": "Targeting BCL2 with Venetoclax in Relapsed Chronic Lymphocytic Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26639348"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13538,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Imbruvica (ibrutinib) is indicated in the guidelines as first line therapy and relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with a TP53 mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13539,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Imbruvica (ibrutinib) is indicated in the guidelines as first line therapy and relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with TP53 loss (NCCN.org).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13540,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Venclexta (venetoclax) combined with Rituxan (rituximab) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with a TP53 mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 3937,
+                "therapyName": "Rituximab + Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13541,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Venclexta (venetoclax) combined with Rituxan (rituximab) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with TP53 loss (NCCN.org).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 3937,
+                "therapyName": "Rituximab + Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13542,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zydelig (idelalisib) combined with Rituxan (rituximab) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with a TP53 mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 2325,
+                "therapyName": "Idelalisib + Rituximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13543,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zydelig (idelalisib) combined with Rituxan (rituximab) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with TP53 loss (NCCN.org).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 2325,
+                "therapyName": "Idelalisib + Rituximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13544,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Venclexta (venetoclax) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with a TP53 mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 1562,
+                "therapyName": "Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13545,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Venclexta (venetoclax) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with TP53 loss (NCCN.org).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 1562,
+                "therapyName": "Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16694,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial that supported FDA approval, Zydelig (idelalisib) treatment resulted in an overall response rate of 58% (15/26, all partial response) in patients with relapsed small lymphocytic lymphoma, with a median duration of response of 11.9 months (PMID: 24450858; NCT01282424).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1023,
+                "therapyName": "Idelalisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14717,
+                    "pubMedId": 24450858,
+                    "title": "PI3K\u03b4 inhibition by idelalisib in patients with relapsed indolent lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24450858"
+                },
+                {
+                    "id": 15610,
+                    "pubMedId": null,
+                    "title": "Zydelig (idelalisib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205858"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16974,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval (CLL14), treatment with the combination of Venclexta (venetoclax) and Gazyva (obinutuzumab) resulted in improved progression-free survival (PFS) compared to treatment with Gazyva (obinutuzumab) plus chlorambucil ((HR 0.35; 95% CI 0.23-0.53; P<0.0001) (J Clin Oncol 37, 2019 (suppl; abstr 7502; NCT02242942).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3636,
+                "therapyName": "Obinutuzumab + Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15127,
+                    "pubMedId": null,
+                    "title": "Effect of fixed-duration venetoclax plus obinutuzumab (VenG) on progression-free survival (PFS), and rates and duration of minimal residual disease negativity (MRD-) in previously untreated patients (pts) with chronic lymphocytic leukemia (CLL ...",
+                    "url": "http://abstracts.asco.org/239/AbstView_239_263657.html"
+                },
+                {
+                    "id": 15612,
+                    "pubMedId": null,
+                    "title": "Venclexta (venetoclax) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208573"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18926,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "Loss of TP53 is associated with a poor prognosis in patients with chronic lymphocytic leukemia/small lymphocytic lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18927,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "TP53 mutations are associated with a poor prognosis in patients with chronic lymphocytic leukemia/small lymphocytic lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18929,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "The combination of Venclexta (venetoclax) and Gazyva (obinutuzumab) is indicated in the guidelines as first line therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with TP53 loss (NCCN.org).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 3636,
+                "therapyName": "Obinutuzumab + Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18930,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "The combination of Venclexta (venetoclax) and Gazyva (obinutuzumab) is indicated in the guidelines as first line therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with a TP53 mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 3636,
+                "therapyName": "Obinutuzumab + Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18931,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Calquence (acalabrutinib) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with a TP53 mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 1605,
+                "therapyName": "Acalabrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18932,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Calquence (acalabrutinib) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with TP53 loss (NCCN.org).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 1605,
+                "therapyName": "Acalabrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18933,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Copiktra (duvelisib) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with a TP53 mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 1024,
+                "therapyName": "Duvelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18934,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Copiktra (duvelisib) is indicated in the guidelines as relapsed/refractory therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with TP53 loss (NCCN.org).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 1024,
+                "therapyName": "Duvelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19236,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Brukinsa (zanubrutinib) treatment resulted in an overall response rate of 96.2% (75/78, 2 complete response, 63 partial response (PR), 10 PR with lymphocytosis) in patients with CLL/SLL (PMID: 31340982; NCT02343120).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2544,
+                "therapyName": "Zanubrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16806,
+                    "pubMedId": 31340982,
+                    "title": "Phase 1 study of the selective BTK inhibitor zanubrutinib in B-cell malignancies and safety and efficacy evaluation in CLL.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31340982"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19237,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Brukinsa (zanubrutinib) treatment resulted in an overall response rate of 100% (16/16) in patients with CLL/SLL harboring del (17p) or TP53 mutations (PMID: 31340982; NCT02343120).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 2544,
+                "therapyName": "Zanubrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16806,
+                    "pubMedId": 31340982,
+                    "title": "Phase 1 study of the selective BTK inhibitor zanubrutinib in B-cell malignancies and safety and efficacy evaluation in CLL.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31340982"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20083,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Calquence (acalabrutinib) combined with Gazyva (obinutuzumab) is indicated in the guidelines as first-line therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with TP53 loss (NCCN.org).",
+            "molecularProfile": {
+                "id": 630,
+                "profileName": "TP53 loss"
+            },
+            "therapy": {
+                "id": 3477,
+                "therapyName": "Acalabrutinib + Obinutuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20084,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Calquence (acalabrutinib) combined with Gazyva (obinutuzumab) is indicated in the guidelines as first-line therapy for chronic lymphocytic leukemia/small lymphocytic lymphoma patients with a TP53 mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 3477,
+                "therapyName": "Acalabrutinib + Obinutuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6354,
+                "name": "CLL/SLL",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00720785",
+            "title": "Natural Killer Cells and Bortezomib to Treat Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01125176",
+            "title": "Alternating Thalidomide and Lenalidomide Therapy Plus Rituximab (THRiL) as Initial Treatment for Patients With CLL",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6766,
+                    "therapyName": "Lenalidomide + Rituximab + Thalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01253460",
+            "title": "Sapacitabine, Cyclophosphamide, Rituximab for Relapsed Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma (CLL/SLL) With Deletion (11q22-23)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 3215,
+                    "therapyName": "Rituximab + sapacitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01353625",
+            "title": "Study to Assess Safety and Tolerability of Oral CC-115 for Patients With Advanced Solid Tumors, and Hematologic Malignancies.",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1000,
+                    "therapyName": "CC-115",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01796171",
+            "title": "A Phase I/II Study of Betalutin for Treatment of Relapsed Non-Hodgkin Lymphoma (LYMRIT-37-01)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7920,
+                    "therapyName": "Lilotomab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7393,
+                    "therapyName": "Betalutin",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01804686",
+            "title": "A Long-term Extension Study of PCI-32765 (Ibrutinib)",
+            "phase": "Phase III",
+            "recruitment": "Enrolling by invitation",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01811368",
+            "title": "Zevalin Before Stem Cell Transplant in Treating Patients With Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9105,
+                    "therapyName": "anti-thymocyte globulin + Ibritumomab tiuxetan + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2272,
+                    "therapyName": "Cyclosporine + Mycophenolate mofetil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01886859",
+            "title": "Lenalidomide and Ibrutinib in Treating Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3580,
+                    "therapyName": "Ibrutinib + Lenalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01976585",
+            "title": "In Situ Vaccine for Low-Grade Lymphoma: Combination of Intratumoral Flt3L and Poly-ICLC With Low-Dose Radiotherapy",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4337,
+                    "therapyName": "CDX-301 + Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01994382",
+            "title": "Phase 1 Dose Escalation Study in Chronic Lymphocytic Leukemia and Non-hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2531,
+                    "therapyName": "Cerdulatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02000934",
+            "title": "A Study of TAK-659 in Adult Patients With Advanced Solid Tumor and Lymphoma Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3146,
+                    "therapyName": "TAK-659",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02005289",
+            "title": "Phase II MOR00208 in Combination With Lenalidomide for Patients With Relapsed or Refractory CLL, SLL or PLL or Older Patients With Untreated CLL, SLL or PLL",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5843,
+                    "therapyName": "Lenalidomide + MOR208",
+                    "synonyms": null
+                },
+                {
+                    "id": 5847,
+                    "therapyName": "Ibrutinib + MOR208",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02006485",
+            "title": "Ublituximab in Combination With TGR-1202 in Patients With B-cell Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2319,
+                    "therapyName": "Ublituximab + Umbralisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02007044",
+            "title": "Ibrutinib Versus Ibrutinib + Rituximab (i vs iR) in Patients With Relapsed Chronic Lymphocytic Leukemia (CLL)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3280,
+                    "therapyName": "Ibrutinib + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02029443",
+            "title": "ACP-196, a Novel Bruton Tyrosine Kinase (Btk) Inhibitor, for Treatment of Chronic Lymphocytic Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1605,
+                    "therapyName": "Acalabrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02160015",
+            "title": "Lenalidomide, Ibrutinib, and Rituximab in Treating Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma That Is Metastatic or Cannot Be Removed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1610,
+                    "therapyName": "Ibrutinib + Lenalidomide + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02254772",
+            "title": "TLR9 Agonist SD-101, Ipilimumab, and Radiation Therapy in Treating Patients With Low-Grade Recurrent B-cell Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3848,
+                    "therapyName": "Ipilimumab + SD-101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02266147",
+            "title": "Study of SD-101 in Combination With Localized Low-dose Radiation in Patients With Untreated Low-grade B-cell Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3084,
+                    "therapyName": "SD-101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02296918",
+            "title": "ACP-196 in Combination With Obinutuzumab in Relapsed/Refractory or Untreated CLL/SLL/PLL",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3477,
+                    "therapyName": "Acalabrutinib + Obinutuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02329847",
+            "title": "Pharmacokinetic and Pharmacodynamic Study to Evaluate Safety and Efficacy of the Combination of Ibrutinib With Nivolumab in Participants With Hematologic Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3198,
+                    "therapyName": "Ibrutinib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02337829",
+            "title": "ACP-196 in Patients With Relapsed/Refractory and Treatment na\u00efve Deletion 17p CLL/SLL",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1605,
+                    "therapyName": "Acalabrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02339922",
+            "title": "Ixazomib Citrate and Rituximab in Treating Patients With Indolent B-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6730,
+                    "therapyName": "Ixazomib + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02381080",
+            "title": "Interaction Study of Ibrutinib and Cytochrome P450 (CYP) 3A Inhibitors in Participants With B-cell Malignancy",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3793,
+                    "therapyName": "Erythromycin + Ibrutinib + Voriconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02384954",
+            "title": "ALT-803 in Patients With Relapse/Refractory Indolent B Cell Non-Hodgkin Lymphoma (iNHL) in Conjunction With Rituximab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3936,
+                    "therapyName": "ALT-803 + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02406742",
+            "title": "A Phase 1/2, Open-label, Dose Finding Study to Evaluate CC-122 in Combination With Rituximab, Ibrutinib and Obinutuzumab in Subjects With Relapsed/Refractory CLL/SLL (ENHANCE)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1646,
+                    "therapyName": "Obinutuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2358,
+                    "therapyName": "CC-122",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02420912",
+            "title": "Nivolumab With Ibrutinib for Relapsed, Refractory or High-Risk Untreated Patients With Chronic Lymphocytic Leukemia (CLL)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3198,
+                    "therapyName": "Ibrutinib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02514083",
+            "title": "A Phase II Study Using Ibrutinib and Short-Course Fludarabine in Previously Untreated Patients With Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3633,
+                    "therapyName": "Fludarabine + Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02518555",
+            "title": "Ibrutinib as an Immune Modulating Agent for Patients With Asymptomatic, High-risk CLL/SLL Risk Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02529813",
+            "title": "CD19-Specific T-cells in Treating Patients With Advanced Lymphoid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7940,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Tisagenlecleucel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02556931",
+            "title": "Shorter Course Tacro After NMA, Related Donor PBSCT With High-dose Posttransplant Cy for Hard-to-Engraft Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4228,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Melphalan + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02576275",
+            "title": "A Study of Duvelisib in Combination With Rituximab and Bendamustine vs Placebo in Combination With Rituximab and Bendamustine in Subjects With Previously-Treated Indolent Non-Hodgkin Lymphoma (BRAVURA)",
+            "phase": "Phase III",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 2323,
+                    "therapyName": "Bendamustine + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02614508",
+            "title": "Buparlisib and Ofatumumab or Ibrutinib in Treating Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3630,
+                    "therapyName": "Buparlisib + Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3629,
+                    "therapyName": "Buparlisib + Ofatumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02626455",
+            "title": "Study of Copanlisib in Combination With Standard Immunochemotherapy in Relapsed Indolent Non-Hodgkin's Lymphoma (iNHL)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 3388,
+                    "therapyName": "Aldoxorubicin + Cyclophosphamide + Prednisone + Rituximab + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 995,
+                    "therapyName": "Copanlisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2323,
+                    "therapyName": "Bendamustine + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02629809",
+            "title": "First-line Therapy With Ibrutinib, Fludarabine, Cyclophosphamide, and Obinutuzumab (GA-101) (iFCG) for Patients With Chronic Lymphocytic Leukemia (CLL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3628,
+                    "therapyName": "Allopurinol",
+                    "synonyms": null
+                },
+                {
+                    "id": 3627,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Obinutuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639910",
+            "title": "Study to Evaluate Efficacy and Safety of MOR208 With Idelalisib or Venetoclax in R/R CLL/SLL Patients Pretreated With BTKi (COSMOS)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5785,
+                    "therapyName": "MOR208 + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 5784,
+                    "therapyName": "Idelalisib + MOR208",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02640209",
+            "title": "Pilot Trial Of Autologous T Cells Engineered To Express Anti-CD19 Chimeric Antigen Receptor (CART19)In Combination With Ibrutinib In Patients With Relapsed Or Refractory CD19+ Chronic Lymphocytic Leukemia (CLL)Or Small Lymphocytic Lymphoma (SLL)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5999,
+                    "therapyName": "CART19 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02640833",
+            "title": "A Study of Duvelisib and Venetoclax in Subjects With Relapsed or Refractory Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma, or Indolent or Aggressive Non-Hodgkin Lymphoma, Who Have Not Previously Received a Bcl-2 or PI3K Inhibitor",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3624,
+                    "therapyName": "Duvelisib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02662296",
+            "title": "Ibrutinib or Idelalisib in Treating Patients With Persistent or Relapsed Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma, or Non-Hodgkin Lymphoma After Donor Stem Cell Transplant",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1023,
+                    "therapyName": "Idelalisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02677948",
+            "title": "Multicenter Study of Pacritinib Combined With Ibrutinib in Relapsed/Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3623,
+                    "therapyName": "Ibrutinib + Pacritinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02722668",
+            "title": "UCB Transplant for Hematological DIseases Using a Non Myeloablative Prep",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2281,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02727803",
+            "title": "Personalized NK Cell Therapy After Chemotherapy and Cord Blood Transplant in Treating Patients With Myelodysplastic Syndrome, Leukemia, Lymphoma or Multiple Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9016,
+                    "therapyName": "anti-thymocyte globulin + Fludarabine + haNK cells + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 9015,
+                    "therapyName": "anti-thymocyte globulin + Cyclophosphamide + Fludarabine + haNK cells + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9014,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine + Fludarabine + haNK cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02756897",
+            "title": "Venetoclax and Ibrutinib in Patients With Chronic Lymphocytic Leukemia (CLL)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3392,
+                    "therapyName": "Ibrutinib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02787369",
+            "title": "ACY-1215 in Combination With BCR Pathway Inhibitors in Relapsed CLL",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4273,
+                    "therapyName": "Idelalisib + Ricolinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 4272,
+                    "therapyName": "Ibrutinib + Ricolinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02846623",
+            "title": "Atezolizumab (PD-L1 mAb) in Combination With Obinutuzumab and Ibrutinib in Patients With Relapsed Refractory or High-risk Untreated Chronic Lymphocytic Leukemia (CLL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1975,
+                    "therapyName": "Atezolizumab + Obinutuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867618",
+            "title": "Carfilzomib and TGR-1202 in Treatment of R/R Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4598,
+                    "therapyName": "Carfilzomib + Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02900716",
+            "title": "Safety Study of BTK Inhibitor, DTRMWXHS-12, Used Singly or in Combination, in CLL and B-cell Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7345,
+                    "therapyName": "DTRMWXHS-12 + Everolimus + Pomalidomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 7344,
+                    "therapyName": "DTRMWXHS-12",
+                    "synonyms": null
+                },
+                {
+                    "id": 7347,
+                    "therapyName": "DTRMWXHS-12 + Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02910583",
+            "title": "Ibrutinib Plus Venetoclax in Patients With Treatment-naive Chronic Lymphocytic Leukemia /Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3392,
+                    "therapyName": "Ibrutinib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02914938",
+            "title": "A Study of ME-401 in Subjects With CLL/SLL, FL, and B-cell Non Hodgkin's Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6745,
+                    "therapyName": "ME-401",
+                    "synonyms": null
+                },
+                {
+                    "id": 6746,
+                    "therapyName": "ME-401 + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02924402",
+            "title": "Study to Evaluate Safety and Tolerability of XmAb13676 in Patients With CD20-expressing Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7600,
+                    "therapyName": "XmAb13676",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02931110",
+            "title": "Study of IV CBL0137 in Previously Treated Hematological Subjects",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 3940,
+                    "therapyName": "CBL0137",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03010358",
+            "title": "Entospletinib and Obinutuzumab in Treating Patients With Relapsed Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma, or Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8065,
+                    "therapyName": "Entospletinib + Obinutuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03088878",
+            "title": "A Study of the Cirmtuzumab and Ibrutinib in Patients With B-Cell Lymphoid Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4312,
+                    "therapyName": "Cirmtuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5480,
+                    "therapyName": "Cirmtuzumab + Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03133221",
+            "title": "1630GCC: Zydelig Maintenance in B-Cell Non-Hodgkin's Lymphoma After Autologous Stem Cell Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1023,
+                    "therapyName": "Idelalisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03162536",
+            "title": "Safety, PK, PD, and Antitumor Activity of ARQ 531 in Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5224,
+                    "therapyName": "ARQ 531",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03204188",
+            "title": "Ibrutinib, Fludarabine, and Pembrolizumab in High-Risk or Relapsed/Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6154,
+                    "therapyName": "Fludarabine + Ibrutinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03218683",
+            "title": "Study of AZD5991 in Relapsed or Refractory Haematologic Malignancies.",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6425,
+                    "therapyName": "AZD5991",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03331198",
+            "title": "Study Evaluating Safety and Efficacy of JCAR017 in Subjects With Relapsed or Refractory CLL or SLL (TRANSCEND-CLL-004)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5980,
+                    "therapyName": "JCAR017",
+                    "synonyms": null
+                },
+                {
+                    "id": 6472,
+                    "therapyName": "Ibrutinib + JCAR017",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03336333",
+            "title": "A Study Comparing BGB-3111 With Bendamustine Plus Rituximab in Patients With Previously Untreated CLL or SLL",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2544,
+                    "therapyName": "Zanubrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2323,
+                    "therapyName": "Bendamustine + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03370185",
+            "title": "Phase 2 Study of Duvelisib in Previously Treated Patients With Chronic Lymphocytic Leukemia /Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03379493",
+            "title": "Study of ET190L1-ARTEMIS T Cells in Relapsed and Refractory CD19+ Non-Hodgkin's Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT03406156",
+            "title": "A Study in Previously Untreated Chronic Lymphocytic Leukemia (CLL) Subjects, Excluding Those With the 17p Deletion, to Evaluate Debulking Regimens Prior to Initiating Venetoclax Combination Therapy",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5225,
+                    "therapyName": "Bendamustine + Obinutuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3636,
+                    "therapyName": "Obinutuzumab + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 1231,
+                    "therapyName": "Bendamustine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03422393",
+            "title": "Venetoclax With High-dose Ibrutinib for the Treatment of Patients With Chronic Lymphocytic Leukemia With Progressive Disease on Single Agent Ibrutinib",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3392,
+                    "therapyName": "Ibrutinib + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 1562,
+                    "therapyName": "Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03462719",
+            "title": "A Study of the Combination of Ibrutinib Plus Venetoclax Versus Chlorambucil Plus Obinutuzumab for the First-line Treatment of Participants With Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1648,
+                    "therapyName": "Chlorambucil + Obinutuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3392,
+                    "therapyName": "Ibrutinib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03479268",
+            "title": "Pevonedistat and Ibrutinib in Treating Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia or Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7712,
+                    "therapyName": "Ibrutinib + MLN4924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03492125",
+            "title": "A Study Of The Selective PKC-beta Inhibitor MS- 553",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9671,
+                    "therapyName": "MS-553",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03498612",
+            "title": "Pembrolizumab in Untreated B-Cell Non-Hodgkin Lymphoproliferative Diseases",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03516617",
+            "title": "Acalabrutinib With or Without Obinutuzumab in Treating Participants With Early-Stage Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1605,
+                    "therapyName": "Acalabrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3477,
+                    "therapyName": "Acalabrutinib + Obinutuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03534323",
+            "title": "Duvelisib and Venetoclax in Relapsed or Refractory CLL or SLL",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3624,
+                    "therapyName": "Duvelisib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03547115",
+            "title": "A Phase 1 Study of Voruciclib in Subjects With B-Cell Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 842,
+                    "therapyName": "Voruciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03557619",
+            "title": "A Study to Assess the Effect of Venetoclax on Ethinyl Estradiol and Levonorgestrel in Female Subjects With Different Hematological Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7978,
+                    "therapyName": "Ethinylestradiol + Levonorgestrel + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03572634",
+            "title": "Phase 1/2 Study of TP-0903 (an Inhibitor of AXL Kinase) in Patients With Previously Treated CLL",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3826,
+                    "therapyName": "TP-0903",
+                    "synonyms": null
+                },
+                {
+                    "id": 7259,
+                    "therapyName": "Ibrutinib + TP-0903",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03579888",
+            "title": "CD19-Specific T Cells Post AlloSCT",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9593,
+                    "therapyName": "CD19-CD8-CD28-CD3zeta-CAR-mbIL15-HER1t T cells + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03580928",
+            "title": "Acalabrutinib, Venetoclax, and Obinutuzumab for Initial Therapy of CLL (AVO)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7663,
+                    "therapyName": "Acalabrutinib + Obinutuzumab + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03701282",
+            "title": "Ibrutinib and Obinutuzumab With or Without Venetoclax in Treating Patients With Chronic Lymphocytic Leukemia",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3476,
+                    "therapyName": "Ibrutinib + Obinutuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3472,
+                    "therapyName": "Ibrutinib + Obinutuzumab + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03711578",
+            "title": "Efficacy and Safety Study of Tenalisib (RP6530), a Novel PI3K delta/gamma Dual Inhibitor in Patients With Relapsed/Refractory Indolent Non-Hodgkin's Lymphoma (iNHL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2020,
+                    "therapyName": "RP6530",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03734016",
+            "title": "A Study of Zanubrutinib (BGB-3111) Versus Ibrutinib in Patients With Relapsed/Refractory Chronic Lymphocytic Leukemia",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2544,
+                    "therapyName": "Zanubrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03740529",
+            "title": "A Study of Oral LOXO-305 in Patients With Previously Treated CLL/SLL or NHL",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9507,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + LOXO-305 + Prednisone + Rituximab + Vincristine",
+                    "synonyms": "LOXO-305 + R-CHOP"
+                },
+                {
+                    "id": 9506,
+                    "therapyName": "LOXO-305 + Rituximab + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 9505,
+                    "therapyName": "LOXO-305 + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 9504,
+                    "therapyName": "LOXO-305",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03759184",
+            "title": "Human IL-15 (rhIL-15) and Obinutuzumab for Relapsed and Refractory Chronic Lymphocyte Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7950,
+                    "therapyName": "Obinutuzumab + rhIL-15",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03779113",
+            "title": "An Open-label, Dose Escalation Trial to Evaluate the Safety and Pharmacokinetics of HMPL-523 in Patients With Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5279,
+                    "therapyName": "HMPL-523",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03786926",
+            "title": "Trial to Evaluate the Safety and Pharmacokinetics of HMPL-689 in Patients With Lymphomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3669,
+                    "therapyName": "HMPL-689",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03788291",
+            "title": "Acalabrutinib and High Frequency Low Dose Subcutaneous Rituximab in Patients With Previously Untreated Chronic Lymphocytic Leukemia / Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8139,
+                    "therapyName": "Acalabrutinib + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03824483",
+            "title": "Study of Zanubrutinib, Obinutuzumab, and Venetoclax in Patients With Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Leukemia (SLL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7851,
+                    "therapyName": "Obinutuzumab + Venetoclax + Zanubrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03828448",
+            "title": "Study to Assess Umbralisib Plus Ublituximab in Patients With Treatment Naive Follicular Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2319,
+                    "therapyName": "Ublituximab + Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03884972",
+            "title": "Trabectedin and Venetoclax in Treating Patients With Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Resistant or Intolerant to a BTK Inhibitor",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4935,
+                    "therapyName": "Trabectedin + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03893682",
+            "title": "A Study of CG-806 in Patients With Relapsed or Refractory CLL/SLL or Non-Hodgkin's Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7038,
+                    "therapyName": "CG-806",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03960840",
+            "title": "CD19-specific CAR-T Cells in CLL/SLL and DLBCL",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8644,
+                    "therapyName": "Ibrutinib + YTB323",
+                    "synonyms": null
+                },
+                {
+                    "id": 8643,
+                    "therapyName": "YTB323",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03961672",
+            "title": "Intermittent Duvelisib Dosing in Treating Patients With Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04007029",
+            "title": "Modified Immune Cells (CD19/CD20 CAR-T Cells) in Treating Patients With Recurrent or Refractory B-Cell Lymphoma or Chronic Lymphocytic Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5647,
+                    "therapyName": "Tocilizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8530,
+                    "therapyName": "Anti-CD19/CD20 CAR T cells + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04038359",
+            "title": "A Phase 2 Study Comparing 2 Intermittent Dosing Schedules of Duvelisib in Subjects With Indolent Non-Hodgkin Lymphoma. (TEMPO)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04116437",
+            "title": "A Study of Zanubrutinib (BGB-3111) in Patients With Previously Treated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma Intolerant of Prior Treatment With Ibrutinib",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2544,
+                    "therapyName": "Zanubrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04155840",
+            "title": "Bendamustine and Rituximab in Combination With Copanlisib for the Treatment of Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8924,
+                    "therapyName": "Bendamustine + Copanlisib + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04160195",
+            "title": "T Cells Expressing Fully-human Anti-CD19 and Anti-CD20 Chimeric Antigen Receptors for Treating B-cell Malignancies and Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8529,
+                    "therapyName": "Anti-CD19/CD20 CAR T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04169737",
+            "title": "Acalabrutinib and Venetoclax With or Without Early Obinutuzumab for the Treatment of High Risk, Recurrent, or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7663,
+                    "therapyName": "Acalabrutinib + Obinutuzumab + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04209621",
+            "title": "Duvelisib for Ibrutinib-Resistant Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9119,
+                    "therapyName": "Duvelisib + Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04230304",
+            "title": "Daratumumab and Ibrutinib for the Treatment of Relapsed or Refractory Chronic Lymphocytic Leukemia, DIRECT Study",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 6744,
+                    "therapyName": "Daratumumab + Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

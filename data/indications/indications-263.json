@@ -1,0 +1,753 @@
+{
+    "id": 263,
+    "name": "kidney cancer",
+    "source": "DOID",
+    "definition": "A urinary system cancer that is located_in the kidney. [url:http\\://en.wikipedia.org/wiki/Kidney_cancer]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "3676",
+        "11834"
+    ],
+    "termId": "DOID:263",
+    "evidence": [
+        {
+            "id": 4387,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, renal cancer cell lines harboring a PIK3CB D1067V mutation demonstrated reduced sensitivity to GDC-0941-induced growth inhibition in culture (PMID: 26759240).",
+            "molecularProfile": {
+                "id": 4472,
+                "profileName": "PIK3CB D1067V"
+            },
+            "therapy": {
+                "id": 749,
+                "therapyName": "Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4509,
+                    "pubMedId": 26759240,
+                    "title": "Activating Mutations in PIK3CB Confer Resistance to PI3K Inhibition and Define a Novel Oncogenic Role for p110\u03b2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26759240"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6265,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DHA and Stivarga (regorafenib) synergistically inhibited survival of kidney cancer cells in culture and reduced tumor growth in kidney cancer cell line xenograft models (PMID: 26921392).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4107,
+                "therapyName": "DHA + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5514,
+                    "pubMedId": 26921392,
+                    "title": "Addition of DHA Synergistically Enhances the Efficacy of Regorafenib for Kidney Cancer Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26921392"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7488,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human kidney cancer cell line harboring MTOR E1799K demonstrated hypersensitivity to Rapamune (sirolimus) induced growth inhibition in culture (PMID: 24631838).",
+            "molecularProfile": {
+                "id": 3193,
+                "profileName": "MTOR E1799K"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7725,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, S-222611 inhibited tumor growth of human kidney cancer cells expressing EGFR in cell line xenograft models (PMID: 24837299).",
+            "molecularProfile": {
+                "id": 1102,
+                "profileName": "EGFR positive"
+            },
+            "therapy": {
+                "id": 1048,
+                "therapyName": "S-222611",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1835,
+                    "pubMedId": 24837299,
+                    "title": "Preclinical antitumor activity of S-222611, an oral reversible tyrosine kinase inhibitor of epidermal growth factor receptor and human epidermal growth factor receptor 2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24837299"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8758,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK126 inhibited growth of 3/4 tested renal cancer cell lines harboring PBRM1 inactivating mutations in culture, with inhibitor sensitivity associating with dependence on EZH2 catalytic activity (PMID: 26552009).",
+            "molecularProfile": {
+                "id": 21543,
+                "profileName": "PBRM1 inact mut"
+            },
+            "therapy": {
+                "id": 2925,
+                "therapyName": "GSK126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6732,
+                    "pubMedId": 26552009,
+                    "title": "SWI/SNF-mutant cancers depend on catalytic and non-catalytic activity of EZH2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26552009"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8941,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3023414 inhibited proliferation of renal cancer cells harboring PTEN inactivating mutation in culture, resulted in tumor growth inhibition in cell line xenograft models (PMID: 27439478).",
+            "molecularProfile": {
+                "id": 2095,
+                "profileName": "PTEN inact mut"
+            },
+            "therapy": {
+                "id": 1069,
+                "therapyName": "LY3023414",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6792,
+                    "pubMedId": 27439478,
+                    "title": "Characterization of LY3023414, a Novel PI3K/mTOR Dual Inhibitor Eliciting Transient Target Modulation to Impede Tumor Growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27439478"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9079,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Mekinist (trametinib) and Sutent (sunitinib) inhibited tumor growth in patient-derived xenograft models of renal cancer harboring VHL V155fs (referred to as V155fs*4) (PMID: 26487278).",
+            "molecularProfile": {
+                "id": 26715,
+                "profileName": "VHL V155fs"
+            },
+            "therapy": {
+                "id": 4874,
+                "therapyName": "Sunitinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6896,
+                    "pubMedId": 26487278,
+                    "title": "Preclinical Evidence That Trametinib Enhances the Response to Antiangiogenic Tyrosine Kinase Inhibitors in Renal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26487278"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10961,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with kidney cancer demonstrated stable disease when treated with OPB-111077 (Mol Cancer Ther 2015;14(12 Suppl 2):Abstract nr B118).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5739,
+                "therapyName": "OPB-111077",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8960,
+                    "pubMedId": null,
+                    "title": "Abstract B118: A phase 1, open-label multiple dose escalation trial to determine safety and tolerability of once daily OPB-111077 in subjects with advanced cancer",
+                    "url": "http://mct.aacrjournals.org/content/14/12_Supplement_2/B118.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11012,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CDX-014 inhibited growth of HAVCR1-positive renal cancer cells in culture, resulted in anti-tumor activity and improved survival in cell line xenograft models (PMID: 27671527).",
+            "molecularProfile": {
+                "id": 27883,
+                "profileName": "HAVCR1 positive"
+            },
+            "therapy": {
+                "id": 5774,
+                "therapyName": "CDX-014",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8982,
+                    "pubMedId": 27671527,
+                    "title": "Development of a Novel Antibody-Drug Conjugate for the Potential Treatment of Ovarian, Lung, and Renal Cell Carcinoma Expressing TIM-1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27671527"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11039,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CVX-241 did not improve overall survival in a mouse model of resected renal cancer (PMID: 27651308).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5619,
+                "therapyName": "CVX-241",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8822,
+                    "pubMedId": 27651308,
+                    "title": "Efficacy of Cotargeting Angiopoietin-2 and the VEGF Pathway in the Adjuvant Postsurgical Setting for Early Breast, Colorectal, and Renal Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27651308"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11040,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of CVX-060 and Sutent (sunitinib) demonstrated a trend improved overall survival compared to single agent Sutent (sunitinib) in mouse models of unresected and resected renal cancer, however, also demonstrated increased toxicity (PMID: 27651308).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5622,
+                "therapyName": "CVX-060 + Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8822,
+                    "pubMedId": 27651308,
+                    "title": "Efficacy of Cotargeting Angiopoietin-2 and the VEGF Pathway in the Adjuvant Postsurgical Setting for Early Breast, Colorectal, and Renal Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27651308"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12084,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ISTH0047 reduced lung metastasis, but not primary tumor growth, in a mouse model of metastatic kidney cancer (PMID: 28911087).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6256,
+                "therapyName": "ISTH0047",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10015,
+                    "pubMedId": 28911087,
+                    "title": "An antisense oligonucleotide targeting TGF-\u03b22 inhibits lung metastasis and induces CD86 expression in tumor-associated macrophages.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28911087"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18507,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human kidney cancer cell line expressing MTOR Y1974H demonstrated sensitivity to Rapamune (sirolimus) treatment in culture (PMID: 29118224).",
+            "molecularProfile": {
+                "id": 33382,
+                "profileName": "MTOR Y1974H"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12392,
+                    "pubMedId": 29118224,
+                    "title": "Exceptional Response to Temsirolimus in a Metastatic Clear Cell Renal Cell Carcinoma With an Early Novel MTOR-Activating Mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29118224"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00184015",
+            "title": "Bortezomib and Bevacizumab (\"BB-mib-mab\") in Patients With Advanced or Recurrent Renal Cell Cancer (RCC)",
+            "phase": null,
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00375674",
+            "title": "A Clinical Trial Comparing Efficacy And Safety Of Sunitinib Versus Placebo For TheTreatment Of Patients At High Risk Of Recurrent Renal Cell Cancer",
+            "phase": null,
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00923130",
+            "title": "Bevacizumab Plus Ixabepilone to Treat Patients With Advanced Kidney Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1122,
+                    "therapyName": "Bevacizumab + Ixabepilone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01005797",
+            "title": "Study of Panobinostat in Combination With Sorafenib in Kidney, Soft Tissue or Lung Cancers",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1131,
+                    "therapyName": "Panobinostat + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01184326",
+            "title": "An Expanded Phase I Study of Pazopanib and Everolimus in Patients With Advanced Solid Tumors and Previously Treated Advanced Urothelial Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1806,
+                    "therapyName": "Everolimus + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01217931",
+            "title": "Sequential Two-agent Assessment in Renal Cell Carcinoma Therapy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01218867",
+            "title": "Treating Metastatic Cancer With Anti-VEGFR2 Gene Engineered CD8+ Lymphocytes",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 984,
+                    "therapyName": "Anti-VEGFR2 CAR CD8 lymphocytes",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01480154",
+            "title": "Akt Inhibitor MK2206 and Hydroxychloroquine in Treating Patients With Advanced Solid Tumors, Melanoma, Prostate or Kidney Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1393,
+                    "therapyName": "Hydroxychloroquine + MK2206",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01497444",
+            "title": "Sorafenib Tosylate and Hypoxia-Activated Prodrug TH-302 in Treating Patients With Advanced Kidney Cancer or Liver Cancer That Cannot Be Removed By Surgery",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1320,
+                    "therapyName": "Evofosfamide + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01727089",
+            "title": "Bevacizumab With or Without Monoclonal Antibody Therapy in Treating Patients With Metastatic Kidney Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 667,
+                    "therapyName": "Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1243,
+                    "therapyName": "Bevacizumab + Carotuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02077933",
+            "title": "Study of Safety and Efficacy of BYL719 With Everolimus or BYL719 With Everolimus and Exemestane in Advanced Breast Cancer Patients, Renal Cell Cancer and Pancreatic Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1384,
+                    "therapyName": "Alpelisib + Everolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1385,
+                    "therapyName": "Alpelisib + Everolimus + Exemestane",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02318771",
+            "title": "Radiation Therapy and MK-3475 for Patients With Recurrent/Metastatic Head and Neck Cancer, Renal Cell Cancer, Urothelial Cancer, Melanoma, and Non-Small Cell Lung Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02460224",
+            "title": "Safety and Efficay of LAG525 Single Agent and in Combination With PDR001 in Patients With Advanced Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2887,
+                    "therapyName": "LAG525",
+                    "synonyms": null
+                },
+                {
+                    "id": 2659,
+                    "therapyName": "Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02504892",
+            "title": "Everolimus Therapy in People With Birt-Hogg-Dube Syndrome (BHD)-Associated Kidney Cancer or Sporadic Chromophobe Renal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02643303",
+            "title": "A Phase 1/2 Study of In Situ Vaccination With Tremelimumab and IV Durvalumab Plus PolyICLC in Subjects With Advanced, Measurable, Biopsy-accessible Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3385,
+                    "therapyName": "Durvalumab + Poly ICLC",
+                    "synonyms": null
+                },
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02899078",
+            "title": "Ibrutinib and Nivolumab in Treating Patients With Previously-Treated Metastatic Kidney Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3198,
+                    "therapyName": "Ibrutinib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02964078",
+            "title": "Interleukin-2 and Pembrolizumab for Metastatic Kidney Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4165,
+                    "therapyName": "Aldesleukin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03829501",
+            "title": "Safety and Efficacy of KY1044 and Atezolizumab in Advanced Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7826,
+                    "therapyName": "Atezolizumab + KY1044",
+                    "synonyms": null
+                },
+                {
+                    "id": 7825,
+                    "therapyName": "KY1044",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04134312",
+            "title": "A Phase 1 Open Label Trial of Intravenous Administration of MVA-BN-Brachyury Vaccine in Patients With Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6889,
+                    "therapyName": "MVA-BN-Brachyury",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04148937",
+            "title": "A Study of the CD73 Inhibitor LY3475070 Alone or in Combination With Pembrolizumab in Participants With Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8894,
+                    "therapyName": "LY3475070",
+                    "synonyms": null
+                },
+                {
+                    "id": 8895,
+                    "therapyName": "LY3475070 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04259450",
+            "title": "Study to Assess AFM24 in Advanced Solid Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5856,
+                    "therapyName": "AFM24",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

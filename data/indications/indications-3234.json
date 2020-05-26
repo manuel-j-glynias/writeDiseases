@@ -1,0 +1,646 @@
+{
+    "id": 3234,
+    "name": "central nervous system lymphoma",
+    "source": "DOID",
+    "definition": "A hematologic cancer that has_material_basis_in lymphoma located_in central nervous system. [url:https\\://www.lls.org/lymphoma/non-hodgkin-lymphoma/treatment/treatment-for-aggressive-nhl-subtypes/central-nervous-system-cns-lymphoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "3233"
+    ],
+    "termId": "DOID:3234",
+    "evidence": [
+        {
+            "id": 11995,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a meta-analysis of 580 patients, intravenous Rituximab treatment correlated with overall survival (HR=0.498, p<0.001) in patients with primary central nervous system lymphoma (Ann Oncol 2017, Vol 28, Suppl 5, Abstract # 333PD).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 897,
+                "therapyName": "Rituximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9952,
+                    "pubMedId": null,
+                    "title": "Meta-analysis of the effect of rituximab in the treatment of primary central nervous system lymphoma",
+                    "url": "http://www.esmo.org/content/download/117241/2057634/file/ESMO-2017-Abstract-Book.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12103,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Imbruvica (ibrutinib) treatment resulted in antitumor efficacy in 77% (10/13) of patients with primary central nervous system lymphoma, demonstrating a complete response in five patients and a partial response in five patients (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12104,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with primary central nervous system lymphoma harboring CARD11 R179Q demonstrated resistance to treatment with Imbruvica (ibrutinib) (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 28408,
+                "profileName": "CARD11 R179Q"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12105,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with primary central nervous system lymphoma harboring CARD11 R337Q, CD79B A42V (A43V), CD79B M163I (M164I), and MYD88 V217F demonstrated a partial response when treated with Imbruvica (ibrutinib) (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 28410,
+                "profileName": "CARD11 R337Q CD79B A42V CD79B M163I MYD88 V217F"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12106,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, two patients with primary central nervous system lymphoma each harboring MYD88 L265P demonstrated a complete response when treated with Imbruvica (ibrutinib) (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 6507,
+                "profileName": "MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12107,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with primary central nervous system lymphoma harboring both CD79B Y196H and MYD88 L265P demonstrated a partial response when treated with Imbruvica (ibrutinib) (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 28411,
+                "profileName": "CD79B Y196H MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12108,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with primary central nervous system lymphoma harboring CD79B Y196D, MYD88 L265P, and TNFAIP3 L324Qfs*7 demonstrated a partial response when treated with Imbruvica (ibrutinib) (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 28412,
+                "profileName": "CD79B Y196D MYD88 L265P TNFAIP3 L324Qfs*7"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12109,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with primary central nervous system lymphoma harboring CD79B Y196D, MYD88 L265P, and TNFAIP3 del demonstrated a partial response when treated with Imbruvica (ibrutinib) (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 28414,
+                "profileName": "CD79B Y196D MYD88 L265P TNFAIP3 del"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12110,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with primary central nervous system lymphoma harboring CARD11 S622del, CD79B Y196C, MYD88 M232T, and TNFAIP3 del demonstrated a partial response when treated with Imbruvica (ibrutinib) (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 28415,
+                "profileName": "CARD11 S622del CD79B Y196C MYD88 M232T TNFAIP3 del"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12111,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with primary central nervous system lymphoma harboring both CD79B Y196S and MYD88 L265P demonstrated stable disease when treated with Imbruvica (ibrutinib) (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 28416,
+                "profileName": "CD79B Y196S MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12112,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination treatment of Aliqopa (copanlisib) and Imbruvica (ibrutinib) resulted in a synergistic effect, inducing cell death and inhibiting the PI3K/mTOR pathway in primary central nervous system lymphoma cells harboring a CD79B mutation in culture (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 28417,
+                "profileName": "CD79B mutant"
+            },
+            "therapy": {
+                "id": 6295,
+                "therapyName": "Copanlisib + Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12113,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination treatment of Sapanisertib (MLN0128) and Imbruvica (ibrutinib) resulted in a synergistic effect, inducing cell death in primary central nervous system lymphoma cells harboring a CD79B mutation in culture (PMID: 28619981).",
+            "molecularProfile": {
+                "id": 28417,
+                "profileName": "CD79B mutant"
+            },
+            "therapy": {
+                "id": 6296,
+                "therapyName": "Ibrutinib + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3234,
+                "name": "central nervous system lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10035,
+                    "pubMedId": 28619981,
+                    "title": "Ibrutinib Unmasks Critical Role of Bruton Tyrosine Kinase in Primary CNS Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28619981"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00267865",
+            "title": "Chemotherapy and HAART to Treat AIDS-related Primary Brain Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 1642,
+                    "therapyName": "Leucovorin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00293475",
+            "title": "Rituximab and Methotrexate Chemotherapy w/Blood-Brain Barrier Disruption (BBBD) &amp; Sodium Thiosulfate Chemoprotection for Patients With Newly Diagnosed PCNSL",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1642,
+                    "therapyName": "Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2669,
+                    "therapyName": "Carboplatin + Methotrexate + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00621036",
+            "title": "Vaccine Therapy and GM-CSF in Treating Patients With CNS Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 2563,
+                    "therapyName": "Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 1873,
+                    "therapyName": "Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02203526",
+            "title": "Phase 1 Study of Ibrutinib and Immuno-Chemotherapy Using Dose-Adjusted-Temozolomide, Etoposide, Doxil, Dexamethasone, Ibrutinib,Rituximab (DA-TEDDI-R) in Primary CNS Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1607,
+                    "therapyName": "Dexamethasone + Etoposide + Ibrutinib + Pegylated liposomal-doxorubicin + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02301364",
+            "title": "Buparlisib (BKM120) In Patients With Recurrent/Refractory Primary Central Nervous System Lymphoma (PCNSL) and Recurrent/Refractory Secondary Central Nervous System Lymphoma (SCNSL)",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 680,
+                    "therapyName": "Buparlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02315326",
+            "title": "Bruton's Tyrosine Kinase (BTK) Inhibitor, Ibrutinib, in Patients With Refractory/Recurrent Primary Central Nervous System Lymphoma (PCNSL) and Refractory/Recurrent Secondary Central Nervous System Lymphoma (SCNSL)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02669511",
+            "title": "PQR309 in Patients With Relapsed or Refractory Primary Central Nervous System Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2019,
+                    "therapyName": "PQR309",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02857426",
+            "title": "A Study of Nivolumab in Relapsed/Refractory Primary Central Nervous System Lymphoma (PCNSL) and Relapsed/Refractory Primary Testicular Lymphoma (PTL) (CheckMate 647)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03220646",
+            "title": "The Purpose of This Study is to Test Any Good and Bad Effects of a Study Drug Called Abemaciclib (LY2835219) in Patients With Recurrent Brain Tumors.",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03558750",
+            "title": "Rituximab, Lenalidomide, and Nivolumab in Treating Participants With Relapsed or Refractory Non-Germinal Center Type Diffuse Large B Cell Lymphoma or Primary Central Nervous System Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 7053,
+                    "therapyName": "Lenalidomide + Nivolumab + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03581942",
+            "title": "Copanlisib With Ibrutinib for Patients With Recurrent/ Refractory Primary Central Nervous System Lymphoma (PCNSL)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6295,
+                    "therapyName": "Copanlisib + Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03684980",
+            "title": "LTA Pilot Study of Glucarpidase in Patients With Central Nervous System Lymphoma - ARM A",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9622,
+                    "therapyName": "Glucarpidase + Leucovorin + Methotrexate + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03703167",
+            "title": "Ibrutinib With Rituximab and Lenalidomide for Patients With Recurrent/Refractory Primary or Secondary Central Nervous System Lymphoma (PCNSL/SCNSL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1610,
+                    "therapyName": "Ibrutinib + Lenalidomide + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03770416",
+            "title": "Nivolumab and Ibrutinib in Treating Patients With Relapsed or Refractory Central Nervous System Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3198,
+                    "therapyName": "Ibrutinib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03964090",
+            "title": "Temozolomide, Etoposide, Doxil, Dexamethasone, Ibrutinib, and Rituximab (TEDDI-R) in Aggressive B-cell Lymphomas With Secondary Involvement of the Central Nervous System (CNS)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8428,
+                    "therapyName": "Cytarabine + Dexamethasone + Etoposide + Isavuconazole + Pegylated liposomal-doxorubicin + Rituximab + Temozolomide",
+                    "synonyms": null
+                },
+                {
+                    "id": 8429,
+                    "therapyName": "Cytarabine + Dexamethasone + Etoposide + Ibrutinib + Isavuconazole + Pegylated liposomal-doxorubicin + Rituximab + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04134117",
+            "title": "Tisagenlecleucel In Primary CNS Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5981,
+                    "therapyName": "Tisagenlecleucel",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

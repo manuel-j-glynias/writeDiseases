@@ -1,0 +1,232 @@
+{
+    "id": 3368,
+    "name": "Ewing sarcoma of bone",
+    "source": "DOID",
+    "definition": "A peripheral primitive neuroectodermal tumor that is located_in bone. [url:http\\://en.wikipedia.org/wiki/Ewing%27s_sarcoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "6392",
+        "4984"
+    ],
+    "termId": "DOID:3368",
+    "evidence": [
+        {
+            "id": 4133,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, a trial arm assessing Sprycel (dasatinib) in Ewing sarcoma patients (n=17) was suspended due to lack of drug activity (PMID: 26710211).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3368,
+                "name": "Ewing sarcoma of bone",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4408,
+                    "pubMedId": 26710211,
+                    "title": "SARC009: Phase 2 study of dasatinib in patients with previously treated, high-grade, advanced sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26710211"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4962,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a Ewing's sarcoma cell line harboring EWSR1-FLI1 treated with Farydak (panobinostat) demonstrated both decreased protein levels and altered transcriptional activity of EWSR1-FLI1 (PMID: 26929321).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 1080,
+                "therapyName": "Panobinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3368,
+                "name": "Ewing sarcoma of bone",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4813,
+                    "pubMedId": 26929321,
+                    "title": "High-throughput small molecule screen identifies inhibitors of aberrant chromatin accessibility.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26929321"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4964,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zolinza (vorinostat) induced apotosis of Ewing's sarcoma cells harboring EWSR1-FLI1 (PMID: 17486365, PMID: 24124617).",
+            "molecularProfile": {
+                "id": 11727,
+                "profileName": "EWSR1 - FLI1"
+            },
+            "therapy": {
+                "id": 1077,
+                "therapyName": "Vorinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3368,
+                "name": "Ewing sarcoma of bone",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4816,
+                    "pubMedId": 17486365,
+                    "title": "Histone deacetylase inhibitors induce cell death and enhance the apoptosis-inducing activity of TRAIL in Ewing's sarcoma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17486365"
+                },
+                {
+                    "id": 4817,
+                    "pubMedId": 24124617,
+                    "title": "Ewing sarcoma cells secrete EWS/Fli-1 fusion mRNA via microvesicles.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24124617"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01353625",
+            "title": "Study to Assess Safety and Tolerability of Oral CC-115 for Patients With Advanced Solid Tumors, and Hematologic Malignancies.",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1000,
+                    "therapyName": "CC-115",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01492673",
+            "title": "Cyclophosphamide, Topotecan, and Bevacizumab (CTB) in Patients With Relapsed/Refractory Ewing's Sarcoma and Neuroblastoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1479,
+                    "therapyName": "Bevacizumab + Cyclophosphamide + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01518413",
+            "title": "Dose Escalation Study of Sorafenib and Irinotecan Combination Therapy in Pediatric Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1323,
+                    "therapyName": "Irinotecan + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01610570",
+            "title": "Mithramycin for Children and Adults With Solid Tumors or Ewing Sarcoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1397,
+                    "therapyName": "Plicamycin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01625351",
+            "title": "A Study of CD45RA+ Depleted Haploidentical Stem Cell Transplantation in Children With Relapsed or Refractory Solid Tumors and Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1205,
+                    "therapyName": "Alemtuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01661400",
+            "title": "Anti-Angiogenic Therapy Post Transplant (ASCR) for Relapsed and Refractory Pediatric Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1475,
+                    "therapyName": "Thalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02511132",
+            "title": "Randomized Phase IIb Trial of Vigil Versus Gemcitabine + Docetaxel for Ewing's Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1157,
+                    "therapyName": "FANG vaccine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1439,
+                    "therapyName": "Docetaxel + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

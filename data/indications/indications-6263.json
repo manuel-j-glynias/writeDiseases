@@ -1,0 +1,202 @@
+{
+    "id": 6263,
+    "name": "inflammatory breast carcinoma",
+    "source": "DOID",
+    "definition": "A breast adenocarcinoma that is characterized by the clinical appearance of inflammation, with edema and redness of the breast due to pathologic plugging of the dermal lymphatics of the breast with tumor emboli. [url:https\\://www.ncbi.nlm.nih.gov/pmc/articles/PMC2852616/]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:6263",
+    "evidence": [
+        {
+            "id": 964,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapitinib (AZD8931) demonstrated antitumor activity in patient-derived, EGFR over expressing inflammatory breast cancer cell lines expressing low level of Erb2 (Her2) protein in culture and in xenograft models (PMID: 24886365).",
+            "molecularProfile": {
+                "id": 23650,
+                "profileName": "EGFR over exp ERBB2 dec exp"
+            },
+            "therapy": {
+                "id": 910,
+                "therapyName": "Sapitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6263,
+                "name": "inflammatory breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 625,
+                    "pubMedId": 24886365,
+                    "title": "AZD8931, an equipotent, reversible inhibitor of signaling by epidermal growth factor receptor (EGFR), HER2, and HER3: preclinical activity in HER2 non-amplified inflammatory breast cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24886365"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 965,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Sapatinib (AZD8931) and Taxol (paclitaxel) demonstrated enhanced antitumor activity in patient-derived, EGFR over expressing inflammatory breast cancer cell lines expressing low level of Erbb2 (Her2) protein in culture and in xenograft models (PMID: 24886365).",
+            "molecularProfile": {
+                "id": 23650,
+                "profileName": "EGFR over exp ERBB2 dec exp"
+            },
+            "therapy": {
+                "id": 1416,
+                "therapyName": "Paclitaxel + Sapitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6263,
+                "name": "inflammatory breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 625,
+                    "pubMedId": 24886365,
+                    "title": "AZD8931, an equipotent, reversible inhibitor of signaling by epidermal growth factor receptor (EGFR), HER2, and HER3: preclinical activity in HER2 non-amplified inflammatory breast cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24886365"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9570,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, treatment with Gilotrif (afatinib) resulted in a clinical benefit rate of 35% (9/26) in patients with ERBB2 (HER2)-positive inflammatory breast cancer, with 8 confirmed partial responses and 1 patient achieving stable disease for greater than 6 months (PMID: 27923043).",
+            "molecularProfile": {
+                "id": 1187,
+                "profileName": "ERBB2 positive"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6263,
+                "name": "inflammatory breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7283,
+                    "pubMedId": 27923043,
+                    "title": "Clonal Evolutionary Analysis during HER2 Blockade in HER2-Positive Inflammatory Breast Cancer: A Phase II Open-Label Clinical Trial of Afatinib +/- Vinorelbine.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27923043"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12807,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CEP-37440 inhibited Ptk2 (Fak) phosphorylation, resulting in growth inhibition of inflammatory breast carcinoma cell lines with elevated Ptk2 (Fak) expression in culture and in cell line xenograft models (PMID: 27009091).",
+            "molecularProfile": {
+                "id": 17604,
+                "profileName": "PTK2 over exp"
+            },
+            "therapy": {
+                "id": 2147,
+                "therapyName": "CEP-37440",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6263,
+                "name": "inflammatory breast carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10721,
+                    "pubMedId": 27009091,
+                    "title": "The effects of CEP-37440, an inhibitor of focal adhesion kinase, in vitro and in vivo on inflammatory breast cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02971748",
+            "title": "A Study of Anti-PD-1 (Pembrolizumab) + Hormonal Therapy in HR-positive Localized IBC Patients With Non-pCR to Neoadjuvant Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03202316",
+            "title": "Study of Triple Combination of Atezolizumab + Cobimetinib + Eribulin (ACE) in Patients With Chemotherapy Resistant Metastatic Inflammatory Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5970,
+                    "therapyName": "Atezolizumab + Cobimetinib + Eribulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03598257",
+            "title": "Radiation Therapy With or Without Olaparib in Treating Participants With Inflammatory Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03742986",
+            "title": "Trial of Nivolumab With Chemotherapy as Neoadjuvant Treatment in Inflammatory Breast Cancer (IBC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1977,
+                    "therapyName": "Cyclophosphamide + Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 7433,
+                    "therapyName": "Nivolumab + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 7547,
+                    "therapyName": "Docetaxel + Nivolumab + Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

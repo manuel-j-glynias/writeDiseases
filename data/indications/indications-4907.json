@@ -1,0 +1,60 @@
+{
+    "id": 4907,
+    "name": "small intestine carcinoma",
+    "source": "DOID",
+    "definition": "A small intestine cancer that develops from epithelial cells and is located_in the small intestine. [url:http\\://en.wikipedia.org/wiki/Small_intestine_cancer]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4907",
+    "evidence": [
+        {
+            "id": 12700,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with BVD-523 (ulixertinib) resulted in a partial response in two patients harboring BRAF G469A, including one patient with head and neck cancer and one patient with small bowel cancer (PMID: 29247021).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 997,
+                "therapyName": "Ulixertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4907,
+                "name": "small intestine carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10607,
+                    "pubMedId": 29247021,
+                    "title": "First-in-Class ERK1/2 Inhibitor Ulixertinib (BVD-523) in Patients with MAPK Mutant Advanced Solid Tumors: Results of a Phase I Dose-Escalation and Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29247021"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02638909",
+            "title": "Study of Oral Ceritinib in Patients With ALK-Activated Gastrointestinal Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 789,
+                    "therapyName": "Ceritinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

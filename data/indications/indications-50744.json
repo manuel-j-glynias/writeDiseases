@@ -1,0 +1,1877 @@
+{
+    "id": 50744,
+    "name": "anaplastic large cell lymphoma",
+    "source": "DOID",
+    "definition": "A non-Hodgkin lymphoma involving aberrant T-cells. [url:http\\://en.wikipedia.org/wiki/Anaplastic_large-cell_lymphoma#Epidemiology]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050744",
+    "evidence": [
+        {
+            "id": 2057,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an anaplastic large-cell lymphoma cell line expressing ALK I1171T in the context of NPM1-ALK demonstrated resistance to Xalkori (crizotinib) in culture (PMID: 24509625).",
+            "molecularProfile": {
+                "id": 5337,
+                "profileName": "NPM1 - ALK ALK I1171T"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 1898,
+                    "pubMedId": 24509625,
+                    "title": "Activating mutations in ALK kinase domain confer resistance to structurally unrelated ALK inhibitors in NPM-ALK-positive anaplastic large-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24509625"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2227,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Dacogen (decitabine) resulted in increased expression of tumor suppressor genes, cell cycle arrest, and induction of apoptosis in an anaplastic large cell lymphoma cell line in culture and xenograft models over expressing Dnmt1 (PMID: 22687603).",
+            "molecularProfile": {
+                "id": 6334,
+                "profileName": "DNMT1 over exp"
+            },
+            "therapy": {
+                "id": 650,
+                "therapyName": "Decitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2799,
+                    "pubMedId": 22687603,
+                    "title": "Antineoplastic activity of the DNA methyltransferase inhibitor 5-aza-2'-deoxycytidine in anaplastic large cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22687603"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3110,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) inhibited cell growth, Alk phosphorylation, downstream signaling and induced apoptosis in human anaplastic large cell lymphoma cell lines harboring a NPM1-ALK fusion in culture and in xenograft models (PMID: 18089725).",
+            "molecularProfile": {
+                "id": 11406,
+                "profileName": "NPM1 - ALK"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3631,
+                    "pubMedId": 18089725,
+                    "title": "Cytoreductive antitumor activity of PF-2341066, a novel inhibitor of anaplastic lymphoma kinase and c-Met, in experimental models of anaplastic large-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18089725"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12861,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, treatment with Xalkori (crizotinib) resulted in an objective response rate of 83% (5/6, all complete responses), at the 165 mg dose, and 90% (18/20, with complete response in 80% (16/20), at the recommended phase 2 dose of 280 mg, in patients with anaplastic large cell lymphoma harboring an ALK fusion, with 72% of tested patients harboring NPM1-ALK (PMID: 28787259; NCT00939770).",
+            "molecularProfile": {
+                "id": 11406,
+                "profileName": "NPM1 - ALK"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9791,
+                    "pubMedId": 28787259,
+                    "title": "Targeting ALK With Crizotinib in Pediatric Anaplastic Large Cell Lymphoma and Inflammatory Myofibroblastic Tumor: A Children's Oncology Group Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28787259"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3425,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anaplastic large cell lymphoma cell lines harboring an amplification of NPM1-ALK were resistant to Xalkori (crizotinib) treatment in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 13319,
+                "profileName": "NPM1 - ALK ALK amp NPM1 amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3426,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anaplastic large cell lymphoma cell lines harboring an amplification of NPM1-ALK were resistant to Zykadia (ceritinib) treatment in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 13319,
+                "profileName": "NPM1 - ALK ALK amp NPM1 amp"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3427,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anaplastic large cell lymphoma cell lines harboring an amplification of NPM1-ALK demonstrated a decreased response compared to parental cell lines harboring NPM1-ALK when treated with Alecensa (alectinib) in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 13319,
+                "profileName": "NPM1 - ALK ALK amp NPM1 amp"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3428,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alecensa (alectinib) inhibited growth of an anaplastic large cell lymphoma cell line harboring NPM1-ALK in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 11406,
+                "profileName": "NPM1 - ALK"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3429,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ASP3026 inhibited growth of an anaplastic large cell lymphoma cell line harboring NPM1-ALK in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 11406,
+                "profileName": "NPM1 - ALK"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3430,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zykadia (ceritinib) inhibited growth of an anaplastic large cell lymphoma cell line harboring NPM1-ALK in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 11406,
+                "profileName": "NPM1 - ALK"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3431,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anaplastic large cell lymphoma cell lines harboring an amplification of NPM1-ALK were resistant to ASP3026 treatment in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 13319,
+                "profileName": "NPM1 - ALK ALK amp NPM1 amp"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3432,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anaplastic large cell lymphoma cell lines harboring an amplification of NPM1-ALK were resistant to Alunbrig (brigatinib) in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 13319,
+                "profileName": "NPM1 - ALK ALK amp NPM1 amp"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3433,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited Alk phosphorylation and growth in anaplastic large cell lymphoma cell lines harboring NPM1-ALK in culture, and induced near complete tumor regression in cell line xenograft models (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 11406,
+                "profileName": "NPM1 - ALK"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3434,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK F1174V and ALK L1198F were resistant to Alunbrig (brigatinib) in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 13333,
+                "profileName": "NPM1 - ALK ALK F1174V ALK L1198F"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3435,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK L1122V and ALK L1196M were resistant to Alunbrig (brigatinib) in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 13328,
+                "profileName": "NPM1 - ALK ALK L1122V ALK L1196M"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3436,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anaplastic large cell lymphoma cell lines harboring NPM1-ALK ALK S1206C were resistant to Alunbrig (brigatinib) in culture (PMID: 25421750).",
+            "molecularProfile": {
+                "id": 13332,
+                "profileName": "NPM1 - ALK ALK S1206C"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3791,
+                    "pubMedId": 25421750,
+                    "title": "Treatment Efficacy and Resistance Mechanisms Using the Second-Generation ALK Inhibitor AP26113 in Human NPM-ALK-Positive Anaplastic Large Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25421750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5349,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK I1161S were resistant to Xalkori (crizotinib) in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20654,
+                "profileName": "NPM1 - ALK ALK I1171S"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5350,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK R1192P were resistant to Xalkori (crizotinib) in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20661,
+                "profileName": "NPM1 - ALK ALK R1192P"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5351,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK G1269A were resistant to Xalkori (crizotinib) in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20662,
+                "profileName": "NPM1 - ALK ALK G1269A"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5352,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK F1174L were resistant to Zykadia (ceritinib) in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20659,
+                "profileName": "NPM1 - ALK ALK F1174L"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5353,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK T1151M were resistant to Zykadia (ceritinib) in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20657,
+                "profileName": "NPM1 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5392,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK with ALK F1174I were resistant to ASP3026 mediated growth inhibition in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20772,
+                "profileName": "NPM1 - ALK ALK F1174I"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5410,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK C1156Y were resistant to ASP3026 mediated growth inhibition in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20770,
+                "profileName": "NPM1 - ALK ALK C1156Y"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5411,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK I1171T were resistant to ASP3026 mediated growth inhibition in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 5337,
+                "profileName": "NPM1 - ALK ALK I1171T"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5412,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK I1171N were resistant to ASP3026 mediated growth inhibition in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20769,
+                "profileName": "NPM1 - ALK ALK I1171N"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5413,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK G1128S were resistant to ASP3026 mediated growth inhibition in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20894,
+                "profileName": "NPM1 - ALK ALK G1128S"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5414,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK with ALK C1156F and D1203N were resistant to ASP3026 mediated growth inhibition in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20896,
+                "profileName": "NPM1 - ALK ALK C1156F ALK D1203N"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5415,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK with ALK E1210K were resistant to ASP3026 mediated growth inhibition in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20888,
+                "profileName": "NPM1 - ALK ALK E1210K"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5416,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK C1156F were resistant to ASP3026 mediated growth inhibition in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20881,
+                "profileName": "NPM1 - ALK ALK C1156F"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5417,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK N1178H were resistant to ASP3026 mediated growth inhibition in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20899,
+                "profileName": "NPM1 - ALK ALK N1178H"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5503,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ASP3026 inhibited growth of human anaplastic large cell lymphoma cell lines harboring NPM1-ALK containing the crizotinib-resistant mutation ALK L1196Q in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20952,
+                "profileName": "NPM1 - ALK ALK L1196Q"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5504,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK containing ALK L1196Q were resistant to Xalkori (crizotinib) in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20952,
+                "profileName": "NPM1 - ALK ALK L1196Q"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5635,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, anaplastic large cell lymphoma cells harboring NPM1-ALK were sensitive to Rozlytrek (entrectinib) in culture and in cell line xenograft models, resulting in inhibition of NPM1-ALK autophosphorylation and near complete tumor regression (PMID: 26939704).",
+            "molecularProfile": {
+                "id": 11406,
+                "profileName": "NPM1 - ALK"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5130,
+                    "pubMedId": 26939704,
+                    "title": "Entrectinib, a Pan-TRK, ROS1, and ALK Inhibitor with Activity in Multiple Molecularly Defined Cancer Indications.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26939704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11798,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, treatment with Xalkori (crizotinib) resulted in an objective response rate of 83% (5/6, all complete responses), at the 165 mg dose, and 90% (18/20, with complete response in 80% (16/20), at the recommended phase 2 dose of 280 mg, in patients with anaplastic large cell lymphoma harboring an ALK fusion, with 72% of tested patients harboring NPM1-ALK (PMID: 28787259; NCT00939770).",
+            "molecularProfile": {
+                "id": 2446,
+                "profileName": "ALK fusion"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9791,
+                    "pubMedId": 28787259,
+                    "title": "Targeting ALK With Crizotinib in Pediatric Anaplastic Large Cell Lymphoma and Inflammatory Myofibroblastic Tumor: A Children's Oncology Group Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28787259"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12489,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SGN-35) that supported FDA approval, Adcetris (brentuximab vedotin) treatment resulted in complete remission in 57% (33/58), partial remission in 29% (17/58) of patients with relapsed or refractory systemic anaplastic large cell lymphoma (PMID: 22614995; NCT00866047).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2486,
+                "therapyName": "Brentuximab vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10385,
+                    "pubMedId": 22614995,
+                    "title": "Brentuximab vedotin (SGN-35) in patients with relapsed or refractory systemic anaplastic large-cell lymphoma: results of a phase II study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22614995"
+                },
+                {
+                    "id": 15574,
+                    "pubMedId": null,
+                    "title": "Adcetris (brentuximab vedotin) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125388"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12797,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CEP-28122 inhibited Alk activation, resulting in growth inhibition in culture, and tumor regression in both cell line and patient-derived xenograft models of NPM1-ALK positive anaplastic large cell lymphoma (PMID: 22203728).",
+            "molecularProfile": {
+                "id": 11406,
+                "profileName": "NPM1 - ALK"
+            },
+            "therapy": {
+                "id": 2519,
+                "therapyName": "CEP-28122",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2441,
+                    "pubMedId": 22203728,
+                    "title": "CEP-28122, a highly potent and selective orally active inhibitor of anaplastic lymphoma kinase with antitumor activity in experimental models of human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22203728"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15229,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ECHELON-2) that supported FDA approval, treatment with Adcentris (brentuximab vedotin) in combination with cyclophosphamide, doxorubicin, and prednisone (CHP) resulted in improved median progression-free survival (48.2 vs 20.8 months, HR=0.71, p=0.011) compared to standard chemotherapy in patients with previously untreated TNFRSF8 (CD30)-positive peripheral T-cell lymphoma, 75% of the patients were diagnosed with systemic anaplastic large cell lymphoma (PMID: 30522922; NCT01777152).",
+            "molecularProfile": {
+                "id": 23635,
+                "profileName": "TNFRSF8 positive"
+            },
+            "therapy": {
+                "id": 7500,
+                "therapyName": "Brentuximab vedotin + Cyclophosphamide + Doxorubicin + Prednisone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15061,
+                    "pubMedId": 30522922,
+                    "title": "Brentuximab vedotin with chemotherapy for CD30-positive peripheral T-cell lymphoma (ECHELON-2): a global, double-blind, randomised, phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30522922"
+                },
+                {
+                    "id": 15574,
+                    "pubMedId": null,
+                    "title": "Adcetris (brentuximab vedotin) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125388"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16916,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SGN-35), Adcetris (brentuximab vedotin) treatment resulted in complete remission in 57% (33/58), partial remission in 29% (17/58) of patients with relapsed or refractory systemic anaplastic large cell lymphoma, 72% (42/58) of the patients were ALK-negative (PMID: 22614995; NCT00866047).",
+            "molecularProfile": {
+                "id": 24175,
+                "profileName": "ALK negative"
+            },
+            "therapy": {
+                "id": 2486,
+                "therapyName": "Brentuximab vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10385,
+                    "pubMedId": 22614995,
+                    "title": "Brentuximab vedotin (SGN-35) in patients with relapsed or refractory systemic anaplastic large-cell lymphoma: results of a phase II study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22614995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16918,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ALCANZA) that supported FDA approval, Adcetris (brentuximab vedotin) treatment resulted in an objective response lasting at least 4 months in 56.3% (36/64) of patients with previously treated TNFRSF8-positive mycosis fungoides (n=48) or primary cutaneous anaplastic large-cell lymphoma (n=16) (PMID: 28600132; NCT01578499).",
+            "molecularProfile": {
+                "id": 23635,
+                "profileName": "TNFRSF8 positive"
+            },
+            "therapy": {
+                "id": 2486,
+                "therapyName": "Brentuximab vedotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10386,
+                    "pubMedId": 28600132,
+                    "title": "Brentuximab vedotin or physician's choice in CD30-positive cutaneous T-cell lymphoma (ALCANZA): an international, open-label, randomised, phase 3, multicentre trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28600132"
+                },
+                {
+                    "id": 15574,
+                    "pubMedId": null,
+                    "title": "Adcetris (brentuximab vedotin) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125388"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18994,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The presence of ALK rearrangement is associated with a favorable prognosis in patients with anaplastic large cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 1248,
+                "profileName": "ALK rearrange"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18993,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "ALK rearrangement aids in the diagnosis of anaplastic large cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 1248,
+                "profileName": "ALK rearrange"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18995,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "The presence of DUSP22 rearrangement is associated with a favorable prognosis in patients with ALK-negative anaplastic large cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 33801,
+                "profileName": "ALK neg DUSP22 rearrange"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18998,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "TP63 rearrangement aids in the diagnosis of ALK-negative anaplastic large cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 33805,
+                "profileName": "ALK neg TP63 rearrange"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18999,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "DUSP22-IRF4 fusion aids in the diagnosis of ALK-negative anaplastic large cell lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 33803,
+                "profileName": "DUSP22 - IRF4 ALK neg"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20170,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Xalkori (crizotinib) is included in guidelines as second-line and subsequent therapy for patients with anaplastic large cell lymphoma harboring ALK rearrangements (NCCN.org).",
+            "molecularProfile": {
+                "id": 1248,
+                "profileName": "ALK rearrange"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00585195",
+            "title": "A Study Of Oral PF-02341066, A c-Met/Hepatocyte Growth Factor Tyrosine Kinase Inhibitor, In Patients With Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1526,
+                    "therapyName": "Crizotinib + Itraconazole",
+                    "synonyms": null
+                },
+                {
+                    "id": 1483,
+                    "therapyName": "Crizotinib + Rifampin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00671112",
+            "title": "Everolimus and Bortezomib in Treating Patients With Relapsed or Refractory Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2234,
+                    "therapyName": "Bortezomib + Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00939770",
+            "title": "Crizotinib in Treating Young Patients With Relapsed or Refractory Solid Tumors or Anaplastic Large Cell Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 706,
+                    "therapyName": "Crizotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01196208",
+            "title": "A Treatment-Option Protocol to Provide Brentuximab Vedotin to Eligible Patients Completing Studies SGN35-005 or C25001",
+            "phase": "Expanded access",
+            "recruitment": "Available",
+            "therapies": [
+                {
+                    "id": 2486,
+                    "therapyName": "Brentuximab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01449461",
+            "title": "A Phase 1/2 Study of the Oral ALK/EGFR Inhibitor AP26113",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 634,
+                    "therapyName": "Brigatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01606878",
+            "title": "Crizotinib and Combination Chemotherapy in Treating Younger Patients With Relapsed or Refractory Solid Tumors or Anaplastic Large Cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2952,
+                    "therapyName": "Dexamethasone + Doxorubicin + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2590,
+                    "therapyName": "Cyclophosphamide + Topotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 706,
+                    "therapyName": "Crizotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01686165",
+            "title": "Belinostat and Yttrium Y 90 Ibritumomab Tiuxetan in Treating Patients With Relapsed Aggressive B-Cell Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1078,
+                    "therapyName": "Belinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01979536",
+            "title": "Brentuximab Vedotin or Crizotinib and Combination Chemotherapy in Treating Patients With Newly Diagnosed Stage II-IV Anaplastic Large Cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 706,
+                    "therapyName": "Crizotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02203903",
+            "title": "Multi-institutional Prospective Research of Expanded Multi-antigen Specifically Oriented Lymphocytes for the Treatment of VEry High Risk Hematopoietic Malignancies (RESOLVE)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02232516",
+            "title": "Romidepsin and Lenalidomide in Treating Patients With Previously Untreated Peripheral T-Cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8060,
+                    "therapyName": "Lenalidomide + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02420795",
+            "title": "Study of Oral ONC201 in Patients With Relapsed/Refractory Non-Hodgkin's Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1687,
+                    "therapyName": "ONC201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02464228",
+            "title": "Study of Tipifarnib in Subjects With Relapsed or Refractory Peripheral T-Cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 938,
+                    "therapyName": "Tipifarnib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02568267",
+            "title": "Basket Study of Entrectinib (RXDX-101) for the Treatment of Patients With Solid Tumors Harboring NTRK1/2/3, ROS1, or ALK Gene Rearrangements (STARTRK-2)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1455,
+                    "therapyName": "Entrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02572453",
+            "title": "AT13387 in Treating Patients With Relapsed or Refractory Anaplastic Large Cell Lymphoma, Mantle Cell Lymphoma, or Diffuse Large B-cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 645,
+                    "therapyName": "Onalespib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02616965",
+            "title": "A Study to Assess the Feasibility of Romidepsin Combined With Brentuximab Vedotin in Cutaneous T-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8061,
+                    "therapyName": "Brentuximab vedotin + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02663297",
+            "title": "Administration of T Lymphocytes for Prevention of Relapse of Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9020,
+                    "therapyName": "ATLCAR.CD30 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02722668",
+            "title": "UCB Transplant for Hematological DIseases Using a Non Myeloablative Prep",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2281,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02729961",
+            "title": "Ceritinib With Brentuximab Vedotin in Treating Patients With ALK-Positive Anaplastic Large Cell Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4169,
+                    "therapyName": "Brentuximab vedotin + Ceritinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978625",
+            "title": "Talimogene Laherparepvec and Nivolumab in Treating Patients With Refractory Lymphomas or Advanced or Refractory Non-melanoma Skin Cancers",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5080,
+                    "therapyName": "Nivolumab + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03017820",
+            "title": "VSV-hIFNbeta-NIS in Treating Patients With Relapsed or Refractory Multiple Myeloma, Acute Myeloid Leukemia, or T-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7269,
+                    "therapyName": "VSV-hIFNbeta-NIS",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03049449",
+            "title": "T Cells Expressing a Fully-Human Anti-CD30 Chimeric Antigen Receptor for Treating CD30-Expressing Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9020,
+                    "therapyName": "ATLCAR.CD30 cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03075553",
+            "title": "Nivolumab in Treating Patients With Relapsed or Refractory Peripheral T-cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03372057",
+            "title": "A Study of Duvelisib in Patients With Relapsed or Refractory Peripheral T Cell Lymphoma (PTCL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03586999",
+            "title": "Nivolumab With Standard of Care Chemotherapy for Peripheral T Cell Lymphomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7928,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Etoposide + Nivolumab + Prednisone + Vincristine",
+                    "synonyms": "Nivolumab + EPOCH"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03674411",
+            "title": "Trial Evaluating MGTA-456 in Patients With High-Risk Malignancy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9613,
+                    "therapyName": "Busulfan + Filgrastim + Fludarabine + Melphalan + MGTA-456 + Mycophenolate mofetil + Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 9612,
+                    "therapyName": "Cyclophosphamide + Filgrastim + Fludarabine + MGTA-456 + Mycophenolate mofetil + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03719898",
+            "title": "Brigatinib in Relapsed or Refractory ALK-Positive Anaplastic Large Cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 634,
+                    "therapyName": "Brigatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03902184",
+            "title": "IPH4102 Alone or in Combination With Chemotherapy in Patients With Advanced T Cell Lymphoma (TELLOMAK)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8662,
+                    "therapyName": "Gemcitabine + IPH4102 + Oxaliplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8650,
+                    "therapyName": "IPH4102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03905135",
+            "title": "Interleukin-15 (IL-5) in Combination With Avelumab (Bavencio) in Relapsed/Refractory Mature T-cell Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8142,
+                    "therapyName": "Avelumab + rhIL-15",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03947255",
+            "title": "A Study of Retreatment With Brentuximab Vedotin in Subjects With Classic Hodgkin Lymphoma or CD30-expressing Peripheral T Cell Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2486,
+                    "therapyName": "Brentuximab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04074746",
+            "title": "Modified Immune Cells (AFM13-NK) and A Monoclonal Antibody (AFM13) in Treating Patients With Recurrent or Refractory CD30 Positive Hodgkin or Non-Hodgkin Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8710,
+                    "therapyName": "AFM13 + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04234048",
+            "title": "Phase 1 Trial of ST-001 nanoFenretinide in Relapsed/Refractory T-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2731,
+                    "therapyName": "Fenretinide",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

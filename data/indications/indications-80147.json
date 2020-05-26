@@ -1,0 +1,711 @@
+{
+    "id": 80147,
+    "name": "lymphoblastic lymphoma",
+    "source": "DOID",
+    "definition": "A lymphoma that has_material_basis_in immature malignant lymphocytes (lymphoblasts) committed to the B-cell or T-cell lineage and located_in primarily lymph nodes or located_in extranodal sites. [url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=14.10d&code=C7055]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0080147",
+    "evidence": [
+        {
+            "id": 9496,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Imbruvica (ibrutinib) and VLX1570 worked synergistically to reduce viability of an Imbruvica (ibrutinib)-resistant Waldenstrom macroglobulinemia cell line in culture (PMID: 27813535).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5040,
+                "therapyName": "Ibrutinib + VLX1570",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80147,
+                "name": "lymphoblastic lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7224,
+                    "pubMedId": 27813535,
+                    "title": "Coinhibition of the deubiquitinating enzymes, USP14 and UCHL5, with VLX1570 is lethal to ibrutinib- or bortezomib-resistant Waldenstrom macroglobulinemia tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27813535"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19119,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "BCR-ABL1 aids in the diagnosis of lymphoblastic lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 2513,
+                "profileName": "BCR - ABL1"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80147,
+                "name": "lymphoblastic lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00501826",
+            "title": "Combination Chemotherapy and Nelarabine in Treating Patients With T-cell Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8387,
+                    "therapyName": "Nelarabine + Pegaspargase + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 8366,
+                    "therapyName": "Cyclophosphamide + Dexamethasone + Doxorubicin + Nelarabine + Pegaspargase + Venetoclax + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8363,
+                    "therapyName": "Mercaptopurine + Methotrexate + Prednisone + Venetoclax + Vincristine",
+                    "synonyms": "POMP + Venetoclax"
+                },
+                {
+                    "id": 8365,
+                    "therapyName": "Cytarabine + Methotrexate + Nelarabine + Pegaspargase + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 8364,
+                    "therapyName": "Methotrexate + Pegaspargase + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01658007",
+            "title": "Pilot Study Of Sirolimus Plus Multiagent Chemotherapy For Relapsed/Refractory Acute Lymphoblastic Leukemia/Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02112916",
+            "title": "Combination Chemotherapy With or Without Bortezomib in Treating Younger Patients With Newly Diagnosed T-Cell Acute Lymphoblastic Leukemia or Stage II-IV T-Cell Lymphoblastic Lymphoma",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1441,
+                    "therapyName": "Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1638,
+                    "therapyName": "Pegaspargase",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1640,
+                    "therapyName": "Mercaptopurine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1641,
+                    "therapyName": "Thioguanine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1642,
+                    "therapyName": "Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1006,
+                    "therapyName": "Daunorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02793544",
+            "title": "HLA-Mismatched Unrelated Donor Bone Marrow Transplantation With Post-Transplantation Cyclophosphamide",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 5682,
+                    "therapyName": "Mesna",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02877303",
+            "title": "Blinatumomab and Combination Chemotherapy as Frontline Therapy in Treating Patients With B Acute Lymphoblastic Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9108,
+                    "therapyName": "Blinatumomab + Cyclophosphamide + Dexamethasone + Doxorubicin + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9109,
+                    "therapyName": "Blinatumomab + Mercaptopurine + Methotrexate + Prednisone + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9110,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Dexamethasone + Doxorubicin + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9111,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Dexamethasone + Doxorubicin + Methotrexate + Ofatumumab + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9112,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Dexamethasone + Doxorubicin + Methotrexate + Rituximab + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02879643",
+            "title": "Vincristine Sulfate Liposome Injection (Marqibo) in Combination With UK ALL R3 Induction Chemotherapy for Children, Adolescents, and Young Adults With Relapsed ALL",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8063,
+                    "therapyName": "Dexamethasone + Methotrexate + Pegaspargase + Vincristine sulfate liposome",
+                    "synonyms": null
+                },
+                {
+                    "id": 8064,
+                    "therapyName": "Dexamethasone + Mercaptopurine + Methotrexate + Vincristine sulfate liposome",
+                    "synonyms": null
+                },
+                {
+                    "id": 8062,
+                    "therapyName": "Dexamethasone + Methotrexate + Mitoxantrone + Pegaspargase + Vincristine sulfate liposome",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02906371",
+            "title": "Study of the Tocilizumab Optimization Timing for CART19 Associated Cytokine Release Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5647,
+                    "therapyName": "Tocilizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03023046",
+            "title": "Etoposide, Prednisone, Vincristine Sulfate, Cyclophosphamide, and Doxorubicin in Treating Patients With Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 770,
+                    "therapyName": "Imatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03117751",
+            "title": "Total Therapy XVII for Newly Diagnosed Patients With Acute Lymphoblastic Leukemia and Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1022,
+                    "therapyName": "Idarubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1876,
+                    "therapyName": "Blinatumomab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1746,
+                    "therapyName": "Clofarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1077,
+                    "therapyName": "Vorinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1006,
+                    "therapyName": "Daunorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1640,
+                    "therapyName": "Mercaptopurine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1638,
+                    "therapyName": "Pegaspargase",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03136146",
+            "title": "Study of Clofarabine, Etoposide, Cyclophosphamide [CEC], Liposomal Vincristine (VCR), Dexamethasone and Bortezomib in Relapsed/Refractory Acute Lymphoblastic Leukemia (ALL) and Lymphoblastic Lymphoma (LL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1090,
+                    "therapyName": "Ofatumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1746,
+                    "therapyName": "Clofarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03328104",
+            "title": "AflacLL1602 ENCERT",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8014,
+                    "therapyName": "Cyclophosphamide + Etoposide + Everolimus + Nelarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03349281",
+            "title": "Pevonedistat With VXLD Chemotherapy for Adolescent/Young Adults With Relapsed/Refractory Acute Lymphoblastic Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6638,
+                    "therapyName": "Dexamethasone + Doxorubicin + MLN4924 + Pegaspargase + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03792256",
+            "title": "Palbociclib in Combination With Chemotherapy in Treating Children With Relapsed Acute Lymphoblastic Leukemia (ALL) or Lymphoblastic Lymphoma (LL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8175,
+                    "therapyName": "Cytarabine + Hydrocortisone + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8217,
+                    "therapyName": "Cytarabine + Doxorubicin + Palbociclib + Pegaspargase + Prednisone + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8218,
+                    "therapyName": "Cytarabine + Doxorubicin + Palbociclib + Pegaspargase + Prednisolone + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03914625",
+            "title": "Blinatumomab in Combination With Chemotherapy in Treating Patients With or Without Down Syndrome and Newly Diagnosed, Standard Risk B-Lymphoblastic Leukemia or Localized B-Lymphoblastic Lymphoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8540,
+                    "therapyName": "Cytarabine + Leucovorin + Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8543,
+                    "therapyName": "Blinatumomab + Dexamethasone + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8542,
+                    "therapyName": "Leucovorin + Mercaptopurine + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8545,
+                    "therapyName": "Blinatumomab + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 1824,
+                    "therapyName": "Mercaptopurine + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8544,
+                    "therapyName": "Blinatumomab + Dexamethasone + Leucovorin + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8547,
+                    "therapyName": "Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8546,
+                    "therapyName": "Blinatumomab + Leucovorin + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8549,
+                    "therapyName": "Blinatumomab + Dexamethasone + Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8548,
+                    "therapyName": "Mercaptopurine + Methotrexate + Prednisolone + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8550,
+                    "therapyName": "Dexamethasone + Doxorubicin + Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8552,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Dexamethasone + Doxorubicin + Leucovorin + Methotrexate + Pegaspargase + Thioguanine + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8555,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Mercaptopurine + Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8554,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Leucovorin + Mercaptopurine + Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8535,
+                    "therapyName": "Leucovorin + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8534,
+                    "therapyName": "Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8537,
+                    "therapyName": "Dexamethasone + Mercaptopurine + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8536,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Dexamethasone + Doxorubicin + Methotrexate + Pegaspargase + Thioguanine + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8539,
+                    "therapyName": "Cytarabine + Dexamethasone + Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 3194,
+                    "therapyName": "Mercaptopurine + Methotrexate + Prednisone + Vincristine",
+                    "synonyms": "POMP"
+                },
+                {
+                    "id": 8538,
+                    "therapyName": "Dexamethasone + Leucovorin + Mercaptopurine + Methotrexate + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03962465",
+            "title": "Phase I Study of Inotuzumab With Augmented BFM Re-Induction for Younger Adults With Relapsed/Refractory B-cell ALL (ALL 001)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8400,
+                    "therapyName": "Daunorubicin + inotuzumab ozogamicin + Pegaspargase + Prednisone + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8399,
+                    "therapyName": "Daunorubicin + inotuzumab ozogamicin + Prednisone + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04145531",
+            "title": "An Open-Label Study of JZP-458 (RC-P) in Patients With Acute Lymphoblastic Leukemia (ALL)/Lymphoblastic Lymphoma (LBL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9207,
+                    "therapyName": "JZP-458",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

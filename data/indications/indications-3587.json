@@ -1,0 +1,238 @@
+{
+    "id": 3587,
+    "name": "pancreatic ductal carcinoma",
+    "source": "DOID",
+    "definition": "A pancreatic carcinoma located_in the pancreatic duct. [url:http\\://en.wikipedia.org/wiki/Pancreatic_cancer, url:http\\://en.wikipedia.org/wiki/Pancreatic_duct]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "10023"
+    ],
+    "termId": "DOID:3587",
+    "evidence": [
+        {
+            "id": 4448,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CB-839 increased senstivity of KRAS-mutant pancreatic ductal carcinoma cells with NQO1-over expression to ARQ761 in culture, and CB-839 and ARQ761 in combination resulted in decreased tumor growth and extended median survival in NQO1-over expressing KRAS-mutant pancreatic ductal carcinoma cell line xenograft models (PMID: 26462257)",
+            "molecularProfile": {
+                "id": 18160,
+                "profileName": "KRAS mut NQO1 over exp"
+            },
+            "therapy": {
+                "id": 3517,
+                "therapyName": "ARQ761 + CB-839",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3587,
+                "name": "pancreatic ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4555,
+                    "pubMedId": 26462257,
+                    "title": "Targeting glutamine metabolism sensitizes pancreatic cancer to PARP-driven metabolic catastrophe induced by \u00df-lapachone.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26462257"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6423,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a preclinical study, addition of Tarceva (erlotinib) overcame Gemzar (gemcitabine)-resistance in pancreatic ductal carcinoma cell lines with reduced Cbl expression via shRNA, resulted in decreased viability in cell culture and reduced tumor growth in cell line xenograft models (PMID: 25348515).",
+            "molecularProfile": {
+                "id": 23382,
+                "profileName": "CBL dec exp"
+            },
+            "therapy": {
+                "id": 2381,
+                "therapyName": "Erlotinib + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3587,
+                "name": "pancreatic ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5579,
+                    "pubMedId": 25348515,
+                    "title": "Low expression of the E3 ubiquitin ligase CBL confers chemoresistance in human pancreatic cancer and is targeted by epidermal growth factor receptor inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25348515"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6733,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human pancreatic ductal carcinoma cell lines harboring mutant KRAS were insensitive to Mekinist (trametinib) in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 448,
+                "profileName": "KRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3587,
+                "name": "pancreatic ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14200,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, SBP-101 demonstrated safety and preliminary efficacy, resulted in stable disease in 27.6% (8/29) of patients with pancreatic ductal adenocarcinoma (Journal of Clinical Oncology 36, no. 15_suppl; NCT02657330).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7037,
+                "therapyName": "SBP-101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3587,
+                "name": "pancreatic ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11506,
+                    "pubMedId": null,
+                    "title": "A phase 1 safety study of SBP-101, a polyamine metabolic inhibitor, for pancreatic ductal adenocarcinoma (PDA).",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.e16231"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01621243",
+            "title": "M402 in Combination With Nab-Paclitaxel and Gemcitabine in Pancreatic Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1779,
+                    "therapyName": "Gemcitabine + Nab-paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 4251,
+                    "therapyName": "Necuparanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01821729",
+            "title": "Proton w/FOLFIRINOX-Losartan for Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1903,
+                    "therapyName": "Fluorouracil + Irinotecan + Leucovorin + Oxaliplatin",
+                    "synonyms": "FOLFIRINOX|FOLFOXIRI"
+                },
+                {
+                    "id": 2998,
+                    "therapyName": "Losartan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02452424",
+            "title": "A Combination Clinical Study of PLX3397 and Pembrolizumab To Treat Advanced Melanoma and Other Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2736,
+                    "therapyName": "Pembrolizumab + Pexidartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02558894",
+            "title": "Phase II Study of MEDI4736 Monotherapy or in Combinations With Tremelimumab in Metastatic Pancreatic Ductal Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02646748",
+            "title": "Pembrolizumab Combined With Itacitinib (INCB039110) and/or Pembrolizumab Combined With INCB050465 in Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7159,
+                    "therapyName": "Itacitinib + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8295,
+                    "therapyName": "Parsaclisib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04177810",
+            "title": "Plerixafor and Cemiplimab in Metastatic Pancreatic Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9002,
+                    "therapyName": "Cemiplimab + Plerixafor",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,501 @@
+{
+    "id": 3121,
+    "name": "gallbladder cancer",
+    "source": "DOID",
+    "definition": "A biliary tract cancer that is located_in the gallbladder. [url:http\\://en.wikipedia.org/wiki/Gallbladder]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "8090",
+        "8157"
+    ],
+    "termId": "DOID:3121",
+    "evidence": [
+        {
+            "id": 2257,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, gallbladder cancer cells harboring KEAP inactivating mutations had increased NRF2 activation and demonstrated resistance to Adrucil (fluorouracil) in culture (PMID: 18692501).",
+            "molecularProfile": {
+                "id": 6544,
+                "profileName": "KEAP1 inact mut"
+            },
+            "therapy": {
+                "id": 1715,
+                "therapyName": "Fluorouracil",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2843,
+                    "pubMedId": 18692501,
+                    "title": "Genetic alteration of Keap1 confers constitutive Nrf2 activation and resistance to chemotherapy in gallbladder cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18692501"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12697,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with BVD-523 (Ulixertinib) resulted in a complete response lasting almost 1 year in a gallbladder cancer patient harboring BRAF L485W (PMID: 29247016, PMID: 29247021).",
+            "molecularProfile": {
+                "id": 28841,
+                "profileName": "BRAF L485W"
+            },
+            "therapy": {
+                "id": 997,
+                "therapyName": "Ulixertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10607,
+                    "pubMedId": 29247021,
+                    "title": "First-in-Class ERK1/2 Inhibitor Ulixertinib (BVD-523) in Patients with MAPK Mutant Advanced Solid Tumors: Results of a Phase I Dose-Escalation and Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29247021"
+                },
+                {
+                    "id": 10750,
+                    "pubMedId": 29247016,
+                    "title": "Accelerating Discovery of Functional Mutant Alleles in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29247016"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16342,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ONO-7579 decreased NTRK2 phosphorylation and reduced migration, invasion, and proliferation of a gallbladder cell line expressing NTRK2 with wild-type KRAS in culture (PMID: 29599313).",
+            "molecularProfile": {
+                "id": 31607,
+                "profileName": "KRAS wild-type NTRK2 pos"
+            },
+            "therapy": {
+                "id": 8005,
+                "therapyName": "ONO-7579",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14462,
+                    "pubMedId": 29599313,
+                    "title": "The Novel Selective Pan-TRK Inhibitor ONO-7579 Exhibits Antitumor Efficacy Against Human Gallbladder Cancer In Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29599313"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17168,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Debio 1347 treatment resulted in stable disease in a patient with gallbladder cancer harboring FGFR3-TACC3 (PMID: 30745300; NCT01948297).",
+            "molecularProfile": {
+                "id": 10071,
+                "profileName": "FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15194,
+                    "pubMedId": 30745300,
+                    "title": "A Phase I, Open-Label, Multicenter, Dose-escalation Study of the Oral Selective FGFR Inhibitor Debio 1347 in Patients with Advanced Solid Tumors Harboring FGFR Gene Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30745300"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17697,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as primary therapy for patients with unresectable or metastatic gallbladder cancer with high microsatellite instability (MSI-H) or deficient mismatch repair (dMMR) (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20181,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic gallbladder cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20182,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic gallbladder cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20183,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic gallbladder cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20184,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic gallbladder cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20185,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic gallbladder cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20186,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic gallbladder cancer harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3121,
+                "name": "gallbladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01642342",
+            "title": "Recombinant Albumin Fusion Protein sEphB4-HSA in Treating Patients With Metastatic or Recurrent Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3013,
+                    "therapyName": "sEphB4-HSA",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02240238",
+            "title": "Combination Therapy With NC-6004 and Gemcitabine in Advanced Solid Tumors or Non-Small Cell Lung, Biliary and Bladder Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5626,
+                    "therapyName": "Gemcitabine + NC-6004",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02520141",
+            "title": "Ramucirumab for Advanced Pre-treated Biliary Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02711553",
+            "title": "A Study of Ramucirumab (LY3009806) or Merestinib (LY2801653) in Advanced or Metastatic Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 886,
+                    "therapyName": "Ramucirumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1030,
+                    "therapyName": "Merestinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03093870",
+            "title": "Varlitinib in Combination With Capecitabine for Advanced or Metastatic Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5543,
+                    "therapyName": "Capecitabine + Varlitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03797326",
+            "title": "Efficacy and Safety of Pembrolizumab (MK-3475) Plus Lenvatinib (E7080/MK-7902) in Previously Treated Participants With Select Solid Tumors (MK-7902-005/E7080-G000-224/LEAP-005)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4782,
+                    "therapyName": "Lenvatinib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04003636",
+            "title": "Pembrolizumab (MK-3475) Plus Gemcitabine/Cisplatin Versus Placebo Plus Gemcitabine/Cisplatin for First-Line Advanced and/or Unresectable Biliary Tract Carcinoma (BTC) (MK-3475-966/KEYNOTE-966) (KEYNOTE-966)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 3248,
+                    "therapyName": "Cisplatin + Gemcitabine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04057365",
+            "title": "A Single Arm Phase II Study of the Combination of DKN-01 and Nivolumab in Previously Treated Patients With Advanced Biliary Tract Cancer (BTC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8678,
+                    "therapyName": "DKN-01 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04306367",
+            "title": "Study of Pembrolizumab and Olaparib in Bile Duct Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5342,
+                    "therapyName": "Olaparib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

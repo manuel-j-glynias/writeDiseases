@@ -1,0 +1,346 @@
+{
+    "id": 1037,
+    "name": "lymphoid leukemia",
+    "source": "DOID",
+    "definition": "A leukemia that has_material_basis_in a B-cell or T-cell lineage involving primarily the bone marrow and the peripheral blood. [url:http\\://www.cancer.gov/dictionary?CdrID=616067]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "10747"
+    ],
+    "termId": "DOID:1037",
+    "evidence": [
+        {
+            "id": 185,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lymphoblastoid cell lines with ATM inactivation derived from ataxia-telangiectasia patients demonstrated increased sensitivity to Lynparza (olaparib) in culture, compared to ATM wild-type cell lines (PMID: 20739657).",
+            "molecularProfile": {
+                "id": 522,
+                "profileName": "ATM inact mut"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1037,
+                "name": "lymphoid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 137,
+                    "pubMedId": 20739657,
+                    "title": "The PARP inhibitor olaparib induces significant killing of ATM-deficient lymphoid tumor cells in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20739657"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1875,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial which supported FDA approval, Iclusig (ponatinib) was effective in promoting disease regression in 52% of patients with accelerated phase chronic myeloid leukemia, 31% of patients with blast phase chronic myeloid leukemia, and 41% of patients with Philadelphia chromosome positive acute lymphoblastic leukemia (PMID: 23935038).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1037,
+                "name": "lymphoid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2374,
+                    "pubMedId": 23935038,
+                    "title": "Ponatinib--a step forward in overcoming resistance in chronic myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23935038"
+                },
+                {
+                    "id": 15534,
+                    "pubMedId": null,
+                    "title": "Iclusig (ponatinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203469"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1884,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (PACE) that supported FDA approval, Iclusig (ponatinib) resulted in a hematological response in 41% and a major cytogenetic response in 47% of patients with Philadelphia chromosome (BCR-ABL1)-positive acute lymphoblastic leukemia (PMID: 24180494, PMID: 23935038; NCT01207440).",
+            "molecularProfile": {
+                "id": 2513,
+                "profileName": "BCR - ABL1"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1037,
+                "name": "lymphoid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2374,
+                    "pubMedId": 23935038,
+                    "title": "Ponatinib--a step forward in overcoming resistance in chronic myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23935038"
+                },
+                {
+                    "id": 5465,
+                    "pubMedId": 24180494,
+                    "title": "A phase 2 trial of ponatinib in Philadelphia chromosome-positive leukemias.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24180494"
+                },
+                {
+                    "id": 15534,
+                    "pubMedId": null,
+                    "title": "Iclusig (ponatinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203469"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00990249",
+            "title": "Busulfan Plus Clofarabine Followed by Allogeneic Hematopoietic Stem Cell Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2469,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01319981",
+            "title": "Hyper-CVAD With Liposomal Vincristine in Acute Lymphoblastic Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 770,
+                    "therapyName": "Imatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02116777",
+            "title": "BMN-673 and Temozolomide in Treating Younger Patients With Refractory or Recurrent Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1377,
+                    "therapyName": "Talazoparib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02512497",
+            "title": "Romidepsin Maintenance After Allogeneic Stem Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1075,
+                    "therapyName": "Romidepsin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8058,
+                    "therapyName": "Busulfan + Fludarabine + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02535806",
+            "title": "Four Drug Reinduction With Bortezomib for Relapsed or Refractory ALL or LL in Children and Young Adults",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1638,
+                    "therapyName": "Pegaspargase",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1740,
+                    "therapyName": "Mitoxantrone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03136146",
+            "title": "Study of Clofarabine, Etoposide, Cyclophosphamide [CEC], Liposomal Vincristine (VCR), Dexamethasone and Bortezomib in Relapsed/Refractory Acute Lymphoblastic Leukemia (ALL) and Lymphoblastic Lymphoma (LL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1090,
+                    "therapyName": "Ofatumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1746,
+                    "therapyName": "Clofarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03592576",
+            "title": "Expanded Access to Navitoclax",
+            "phase": "Expanded access",
+            "recruitment": "Available",
+            "therapies": [
+                {
+                    "id": 825,
+                    "therapyName": "Navitoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03792256",
+            "title": "Palbociclib in Combination With Chemotherapy in Treating Children With Relapsed Acute Lymphoblastic Leukemia (ALL) or Lymphoblastic Lymphoma (LL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8175,
+                    "therapyName": "Cytarabine + Hydrocortisone + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8217,
+                    "therapyName": "Cytarabine + Doxorubicin + Palbociclib + Pegaspargase + Prednisone + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8218,
+                    "therapyName": "Cytarabine + Doxorubicin + Palbociclib + Pegaspargase + Prednisolone + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

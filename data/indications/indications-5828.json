@@ -1,0 +1,323 @@
+{
+    "id": 5828,
+    "name": "endometrioid ovary carcinoma",
+    "source": "DOID",
+    "definition": "An ovary adenocarcinoma that has_material_basis_in endometrial tissue. [url:https\\://www.ncbi.nlm.nih.gov/pubmed/25120828]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:5828",
+    "evidence": [
+        {
+            "id": 1651,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, AZD5363 demonstrated safety and efficacy in patients with advanced solid tumors, including prolonged stable disease in one patient with a PIK3CA-mutant endometrioid ovarian cancer (American Association for Cancer Research; 06 Apr 2013-10 Apr 2013; Abstract LB-66).",
+            "molecularProfile": {
+                "id": 429,
+                "profileName": "PIK3CA mutant"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5828,
+                "name": "endometrioid ovary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1761,
+                    "pubMedId": null,
+                    "title": "Results of two Phase 1 multicenter trials of AZD5363, an inhibitor of AKT1, 2 and 3: biomarker and early clinical evaluation in Western and Japanese patients with advanced solid tumors.",
+                    "url": "https://www.escholar.manchester.ac.uk/uk-ac-man-scw:194446"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10735,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Kevetrin (thioureidobutyronitrile) treatment increased Tp53 and Cdkn1a protein levels, resulted in growth inhibition of TP53 wild-type endometrioid ovary carcinoma cells in culture and in cell line xenograft models (Proceedings of the AACR, Vol 58, Apr 2017, abstract # 3221).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 2999,
+                "therapyName": "thioureidobutyronitrile",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5828,
+                "name": "endometrioid ovary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8790,
+                    "pubMedId": null,
+                    "title": "Kevetrin induces p53-dependent and independent cell cycle arrest and apoptosis in ovarian cancer cell lines representing heterogeneous histologies",
+                    "url": "http://www.abstractsonline.com/pp8/#!/4292/presentation/3876"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02282020",
+            "title": "Olaparib Treatment in Relapsed Breast Cancer Susceptibility Gene (BRCA) Mutated Ovarian Cancer Patients Who Have Progressed at Least 6 Months After Last Platinum Treatment and Have Received at Least 2 Prior Platinum Treatments.",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02345265",
+            "title": "Olaparib and Cediranib Maleate in Treating Patients With Recurrent Ovarian, Primary Peritoneal, or Fallopian Tube Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1971,
+                    "therapyName": "Cediranib + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02446600",
+            "title": "Olaparib or Cediranib Maleate and Olaparib Compared With Standard Platinum-Based Chemotherapy in Treating Patients With Recurrent Platinum-Sensitive Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1971,
+                    "therapyName": "Cediranib + Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8341,
+                    "therapyName": "Carboplatin + Gemcitabine + Paclitaxel + Pegylated liposomal-doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02584478",
+            "title": "Phase 1/2a Evaluation of Adding AL3818 to Standard Platinum-Based Chemotherapy in Subjects With Recurrent or Metastatic Endometrial, Ovarian, Fallopian, Primary Peritoneal or Cervical Carcinoma (AL3818-US-002)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7370,
+                    "therapyName": "Anlotinib + Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02759588",
+            "title": "GL-ONC1 Oncolytic Immunotherapy in Patients With Recurrent Ovarian Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6364,
+                    "therapyName": "GL-ONC1",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02889900",
+            "title": "Efficacy and Safety Study of Cediranib in Combination With Olaparib in Patients With Recurrent Platinum-Resistant Ovarian Cancer (CONCERTO)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1971,
+                    "therapyName": "Cediranib + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03348631",
+            "title": "Tazemetostat in Treating Patients With Recurrent Ovarian, Primary Peritoneal, or Endometrial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03395080",
+            "title": "A Study of DKN-01 as a Monotherapy or in Combination With Paclitaxel in Patients With Relapsed/ Refractory Endometrioid Endometrial or Endometrioid Ovarian Cancer (P204) (P204)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6244,
+                    "therapyName": "DKN-01",
+                    "synonyms": null
+                },
+                {
+                    "id": 6254,
+                    "therapyName": "DKN-01 + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03402841",
+            "title": "Multicentre Study of Olaparib Maintenance Monotherapy in Platinum Sensitive Relapsed Non gBRCAm Ovarian Cancer Patients (OPINION)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03587311",
+            "title": "Bevacizumab and Anetumab Ravtansine or Paclitaxel in Treating Participants With Refractory Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7173,
+                    "therapyName": "Anetumab ravtansine + Bevacizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2123,
+                    "therapyName": "Bevacizumab + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03695380",
+            "title": "A Clinical Study of Cobimetinib Administered in Combination With Niraparib, With or Without Atezolizumab to Patients With Advanced Platinum-sensitive Ovarian Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7550,
+                    "therapyName": "Atezolizumab + Cobimetinib + Niraparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 7549,
+                    "therapyName": "Cobimetinib + Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03737643",
+            "title": "Durvalumab Treatment in Combination With Chemotherapy and Bevacizumab, Followed by Maintenance Durvalumab, Bevacizumab and Olaparib Treatment in Advanced Ovarian Cancer Patients. (DUO-O)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1152,
+                    "therapyName": "Bevacizumab + Carboplatin + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 7489,
+                    "therapyName": "Bevacizumab + Carboplatin + Durvalumab + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 7490,
+                    "therapyName": "Bevacizumab + Durvalumab + Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2117,
+                    "therapyName": "Bevacizumab + Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03840200",
+            "title": "A Study Evaluating the Safety, Pharmacokinetics and Efficacy of Ipatasertib Administered in Combination With Rucaparib in Participants With Advanced Breast, Ovarian Cancer, and Prostate Cancer.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7867,
+                    "therapyName": "Ipatasertib + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03955471",
+            "title": "A Phase 2 Open-Label, Single-Arm Study to Evaluate the Efficacy and Safety of the Combination of Niraparib and TSR-042 in Patients With Platinum Resistant Ovarian Cancer (MOONSTONE)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6321,
+                    "therapyName": "Niraparib + TSR-042",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04034927",
+            "title": "Testing the Addition of an Immunotherapy Drug, Tremelimumab, to the PARP Inhibition Drug, Olaparib, for Recurrent Ovarian, Fallopian Tube or Peritoneal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8289,
+                    "therapyName": "Olaparib + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

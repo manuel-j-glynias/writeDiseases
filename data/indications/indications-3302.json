@@ -1,0 +1,275 @@
+{
+    "id": 3302,
+    "name": "chordoma",
+    "source": "DOID",
+    "definition": "A notochordal cancer that derives_from cellular remnants of the notochord. [url:http\\://en.wikipedia.org/wiki/Chordoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3302",
+    "evidence": [
+        {
+            "id": 7583,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) inhibited expression of phosphorylated Rb and growth of chordoma cell lines with CDKN2A loss and loss of p16 protein expression in culture (PMID: 26183925).",
+            "molecularProfile": {
+                "id": 1806,
+                "profileName": "CDKN2A loss"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3302,
+                "name": "chordoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4578,
+                    "pubMedId": 26183925,
+                    "title": "Preclinical Characterization of Novel Chordoma Cell Systems and Their Targeting by Pharmocological Inhibitors of the CDK4/6 Cell-Cycle Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26183925"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7585,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Abemaciclib (LY2835219) inhibited growth of chordoma cell lines with CDKN2A loss and loss of p16 protein expression in culture (PMID: 26183925).",
+            "molecularProfile": {
+                "id": 1806,
+                "profileName": "CDKN2A loss"
+            },
+            "therapy": {
+                "id": 802,
+                "therapyName": "Abemaciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3302,
+                "name": "chordoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4578,
+                    "pubMedId": 26183925,
+                    "title": "Preclinical Characterization of Novel Chordoma Cell Systems and Their Targeting by Pharmocological Inhibitors of the CDK4/6 Cell-Cycle Pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26183925"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9675,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, patients with chordoma demonstrated a median progression free survival of 6.3 months and six patients demonstrated an objective tumor response when treated with Sprycel (dasatinib) (PMID: 27696380).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3302,
+                "name": "chordoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7465,
+                    "pubMedId": 27696380,
+                    "title": "Phase 2 study of dasatinib in patients with alveolar soft part sarcoma, chondrosarcoma, chordoma, epithelioid sarcoma, or solitary fibrous tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27696380"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12688,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Tazemetostat (EPZ-6438) was well-tolerated and demonstrated anti-tumor activity in pediatric patients with SMARCB1 (INI)-deficient tumors, including complete or partial responses in patients with epithelioid sarcoma (n=1), chordoma (n=2), and atypical teratoid rhaboid tumor (n=1) (AACR-NCI-EORTC Int Conference on Molecular Targets and Cancer Therapeutics 2017, A175; NCT02601937).",
+            "molecularProfile": {
+                "id": 2085,
+                "profileName": "SMARCB1 negative"
+            },
+            "therapy": {
+                "id": 2683,
+                "therapyName": "Tazemetostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3302,
+                "name": "chordoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10601,
+                    "pubMedId": null,
+                    "title": "A175 / 175 - Phase 1 study of the EZH2 inhibitor, tazemetostat, in children with relapsed or refractory INI1-negative tumors including rhabdoid tumors, epithelioid sarcoma, chordoma, and synovial sarcoma",
+                    "url": "http://www.abstractsonline.com/pp8/#!/4557/presentation/282"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17675,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tykerb (lapatinib) is included in guidelines for recurrent chordoma patients that are EGFR positive (NCCN.org).",
+            "molecularProfile": {
+                "id": 1102,
+                "profileName": "EGFR positive"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3302,
+                "name": "chordoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01407198",
+            "title": "Nilotinib With Radiation for High Risk Chordoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 829,
+                    "therapyName": "Nilotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02383498",
+            "title": "The National Cancer Institute Opens A Randomized, Double-Blind, Phase 2 Trial of GI-6301 (Yeast-Brachyury Vaccine) Versus Placebo in Combination With Standard of Care Definitive Radiotherapy in Locally Advanced, Unresectable, Chordoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6570,
+                    "therapyName": "GI-6301",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02989636",
+            "title": "Nivolumab With or Without Stereotactic Radiosurgery in Treating Patients With Recurrent, Advanced, or Metastatic Chordoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03173950",
+            "title": "Immune Checkpoint Inhibitor Nivolumab in People With Select Rare CNS Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03623854",
+            "title": "Nivolumab and Relatlimab in Treating Participants With Advanced Chordoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4197,
+                    "therapyName": "Nivolumab + Relatlimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03647423",
+            "title": "QUILT-3.091 NANT Chordoma Vaccine vs Radiation in Subjects With Unresectable Chordoma.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 7402,
+                    "therapyName": "Aldoxorubicin + ALT-803 + Avelumab + Cetuximab + ETBX-051 + ETBX-061 + GI-6301 + haNK cells",
+                    "synonyms": "NANT chordoma vaccine combination"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03886311",
+            "title": "Talimogene Laherparepvec, Nivolumab and Trabectedin for Sarcoma (TNT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8111,
+                    "therapyName": "Nivolumab + Talimogene laherparepvec + Trabectedin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04134312",
+            "title": "A Phase 1 Open Label Trial of Intravenous Administration of MVA-BN-Brachyury Vaccine in Patients With Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6889,
+                    "therapyName": "MVA-BN-Brachyury",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

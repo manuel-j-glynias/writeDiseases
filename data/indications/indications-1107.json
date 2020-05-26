@@ -1,0 +1,417 @@
+{
+    "id": 1107,
+    "name": "esophageal carcinoma",
+    "source": "DOID",
+    "definition": "A esophageal cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:http\\://en.wikipedia.org/wiki/Esophageal_cancer]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:1107",
+    "evidence": [
+        {
+            "id": 4089,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human esophageal carcinoma cell line harboring amplification of ERBB2 (HER2) and MET was resistant to Xalkori (crizotinib) in culture (PMID: 26432108).",
+            "molecularProfile": {
+                "id": 17215,
+                "profileName": "ERBB2 amp MET amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1107,
+                "name": "esophageal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4397,
+                    "pubMedId": 26432108,
+                    "title": "Molecular Heterogeneity and Receptor Coamplification Drive Resistance to Targeted Therapy in MET-Amplified Esophagogastric Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26432108"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4090,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human esophageal carcinoma cell line harboring amplification of ERBB2 and MET was resistant to Tykerb (lapatinib) in culture (PMID: 26432108).",
+            "molecularProfile": {
+                "id": 17215,
+                "profileName": "ERBB2 amp MET amp"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1107,
+                "name": "esophageal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4397,
+                    "pubMedId": 26432108,
+                    "title": "Molecular Heterogeneity and Receptor Coamplification Drive Resistance to Targeted Therapy in MET-Amplified Esophagogastric Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26432108"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4092,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human esophageal carcinoma cell line harboring amplification of ERBB2 (HER2) and MET was sensitive to inhibition by Tykerb (lapatinib) and Xalkori (crizotinib) in culture (PMID: 26432108).",
+            "molecularProfile": {
+                "id": 17215,
+                "profileName": "ERBB2 amp MET amp"
+            },
+            "therapy": {
+                "id": 3440,
+                "therapyName": "Crizotinib + Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1107,
+                "name": "esophageal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4397,
+                    "pubMedId": 26432108,
+                    "title": "Molecular Heterogeneity and Receptor Coamplification Drive Resistance to Targeted Therapy in MET-Amplified Esophagogastric Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26432108"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16491,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial (KEYNOTE-028), Keytruda (pembrolizumab) treatment resulted in an objective response rate of 30% (7/23, all partial responses), a median progression-free survival of 1.8 months, and a median overall survival of 7.0 months in patients with heavily pretreated, CD274 (PD-L1)-positive (1% or more) advanced esophageal carcinoma (PMID: 29116900; NCT02054806).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1107,
+                "name": "esophageal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14555,
+                    "pubMedId": 29116900,
+                    "title": "Safety and Antitumor Activity of the Anti-Programmed Death-1 Antibody Pembrolizumab in Patients With Advanced Esophageal Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29116900"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16701,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, BI 853520 demonstrated safety and some anti-tumor efficacy, resulting in stable disease in 12.5% (2/16) of patients with esophageal carcinoma (PMID: 30756308; NCT01335269).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3599,
+                "therapyName": "BI 853520",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1107,
+                "name": "esophageal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14726,
+                    "pubMedId": 30756308,
+                    "title": "Phase I Study of BI 853520, an Inhibitor of Focal Adhesion Kinase, in Patients with Advanced or Metastatic Nonhematologic Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30756308"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00702884",
+            "title": "Sunitinib in Treating Patients With Relapsed or Refractory Esophageal or Gastroesophageal Junction Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01183559",
+            "title": "A Trial of ZD6474 (Zactima), Paclitaxel, Carboplatin, 5-Fluorouracil, and XRT Followed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 2071,
+                    "therapyName": "Carboplatin + Fluorouracil + Paclitaxel + Vandetanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01191697",
+            "title": "CAPOX, Bevacizumab and Trastuzumab for Patients With HER2-Positive Metastatic Esophagogastric Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1596,
+                    "therapyName": "Bevacizumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1597,
+                    "therapyName": "Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01212822",
+            "title": "Bevacizumab and Combination Chemotherapy Before Surgery in Treating Patients With Locally Advanced Esophageal or Stomach Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1484,
+                    "therapyName": "Bevacizumab + Fluorouracil + Leucovorin + Oxaliplatin",
+                    "synonyms": "Bevacizumab + FOLFOX"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02274012",
+            "title": "Trial of Afatinib in Combination With Weekly Paclitaxel in the Second Line Treatment of HER2 Amplified Advanced Gastric, Gastroesophageal Junction and Esophageal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 2441,
+                    "therapyName": "Afatinib + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02344810",
+            "title": "C-Met Inhibitor AMG 337, Oxaliplatin, Leucovorin Calcium, and Fluorouracil in Treating Patients With Advanced Stomach or Esophageal Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1064,
+                    "therapyName": "AMG 337",
+                    "synonyms": null
+                },
+                {
+                    "id": 1161,
+                    "therapyName": "Fluorouracil + Leucovorin + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02675946",
+            "title": "Study of CGX1321 in Subjects With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6584,
+                    "therapyName": "CGX1321",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02723955",
+            "title": "Dose Escalation and Expansion Study of GSK3359609 in Subjects With Selected Advanced Solid Tumors (INDUCE-1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4409,
+                    "therapyName": "GSK3359609",
+                    "synonyms": null
+                },
+                {
+                    "id": 4410,
+                    "therapyName": "GSK3359609 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02743494",
+            "title": "Study of Adjuvant Nivolumab or Placebo in Subjects With Resected Esophageal or Gastroesophageal Junction Cancer (CheckMate 577)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02789228",
+            "title": "Research Study Utilizing Expanded Multi-antigen Specific Lymphocytes for the Treatment of Solid Tumors (REST)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02830594",
+            "title": "Pembrolizumab and Palliative Radiation Therapy in Treating Patients With Metastatic Esophagus, Stomach, or Gastroesophageal Junction Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03076372",
+            "title": "A Study Evaluating MM-310 in Patients With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 5758,
+                    "therapyName": "MM-310",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03165994",
+            "title": "APX005M With Concurrent Chemoradiation for Resectable Esophageal and Gastroesophageal Junction Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5797,
+                    "therapyName": "APX005M + Carboplatin + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03288350",
+            "title": "mDCF + Avelumab in Resectable Esophago-gastric Adenocarcinoma (EGA)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1930,
+                    "therapyName": "Cisplatin + Docetaxel + Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03474640",
+            "title": "Safety, Tolerability and Pharmacokinetics of an Anti-PD-1 Monoclonal Antibody in Subjects With Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5891,
+                    "therapyName": "Toripalimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03674567",
+            "title": "Dose Escalation and Expansion Study of FLX475 Monotherapy and in Combination With Pembrolizumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7533,
+                    "therapyName": "FLX475 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7530,
+                    "therapyName": "FLX475",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "id": 4932,
+    "name": "ampulla of Vater carcinoma",
+    "source": "DOID",
+    "definition": "An ampulla of Vater cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:http\\://en.wikipedia.org/wiki/Carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4932",
+    "evidence": [
+        {
+            "id": 14510,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Gilotrif (afatinib) treatment resulted in stable disease with slight lymph node metastasis reduction in a patient with ampulla of Vater carcinoma harboring ERBB2 S310F and G660D, but the disease eventually progressed after 4 months (PMID: 29146616).",
+            "molecularProfile": {
+                "id": 30080,
+                "profileName": "ERBB2 S310F ERBB2 G660D"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4932,
+                "name": "ampulla of Vater carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11692,
+                    "pubMedId": 29146616,
+                    "title": "Therapeutic Potential of Afatinib for Cancers with ERBB2 (HER2) Transmembrane Domain Mutations G660D and V659E.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29146616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01825603",
+            "title": "ADH-1, Gemcitabine Hydrochloride and Cisplatin in Treating Patients With Metastatic Pancreatic or Biliary Tract Cancer That Cannot Be Removed By Surgery",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4952,
+                    "therapyName": "ADH-1 + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02240238",
+            "title": "Combination Therapy With NC-6004 and Gemcitabine in Advanced Solid Tumors or Non-Small Cell Lung, Biliary and Bladder Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5626,
+                    "therapyName": "Gemcitabine + NC-6004",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03000179",
+            "title": "Safety and Efficacy of Avelumab in Small Intestinal Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03093870",
+            "title": "Varlitinib in Combination With Capecitabine for Advanced or Metastatic Biliary Tract Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5543,
+                    "therapyName": "Capecitabine + Varlitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1105,
+                    "therapyName": "Capecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03111732",
+            "title": "Pembrolizumab, a Monoclonal Antibody Against PD-1, in Combination With Capecitabine and Oxaliplatin (CAPOX) in People With Advanced Biliary Tract Carcinoma (BTC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5549,
+                    "therapyName": "Capecitabine + Oxaliplatin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04003896",
+            "title": "A Study to Evaluate Abemaciclib in Advanced Biliary Tract Carcinoma Who Failed Prior First Line Therapy",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

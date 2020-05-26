@@ -1,0 +1,118 @@
+{
+    "id": 50688,
+    "name": "anal canal cancer",
+    "source": "DOID",
+    "definition": "A large intestine cancer that is located_in the terminal part of the large intestine. [url:http\\://en.wikipedia.org/wiki/Anal_canal]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050688",
+    "evidence": [
+        {
+            "id": 3828,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with BAY1125976 reduced tumor growth and resulted in partial tumor regression or stable disease in anal cancer patient-derived xenograft (PDX) models harboring AKT1 E17K (PMID: 27699769).",
+            "molecularProfile": {
+                "id": 643,
+                "profileName": "AKT1 E17K"
+            },
+            "therapy": {
+                "id": 994,
+                "therapyName": "BAY1125976",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50688,
+                "name": "anal canal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2275,
+                    "pubMedId": null,
+                    "title": "Abstract 3685: BAY 1125976, is a selective allosteric AKT1/2 inhibitor with high efficacy in AKT1-mutated cancers",
+                    "url": "http://cancerres.aacrjournals.org/content/74/19_Supplement/3685"
+                },
+                {
+                    "id": 6757,
+                    "pubMedId": 27699769,
+                    "title": "BAY 1125976, a selective allosteric AKT1/2 inhibitor, exhibits high efficacy on AKT signaling-dependent tumor growth in mouse models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27699769"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02399813",
+            "title": "Phase 2 Study of ADXS11-001 in Subjects With Anal Cancer or Cancer of the Rectum",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3090,
+                    "therapyName": "ADXS11-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02404441",
+            "title": "Phase I/II Study of PDR001 in Patients With Advanced Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2659,
+                    "therapyName": "Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02426892",
+            "title": "Nivolumab and HPV-16 Vaccination in Patients With HPV-16 Positive Incurable Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03427411",
+            "title": "Phase II Trial of M7824 in Subjects With HPV Positive Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5860,
+                    "therapyName": "M7824",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03618953",
+            "title": "This is a Trial of MG1-E6E7 With Ad-E6E7 and Atezolizumab in Patients With HPV Associated Cancers (Kingfisher)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7295,
+                    "therapyName": "Ad-E6E7 + Atezolizumab + MG1-E6E7",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

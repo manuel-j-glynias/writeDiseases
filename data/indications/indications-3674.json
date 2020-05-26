@@ -1,0 +1,60 @@
+{
+    "id": 3674,
+    "name": "kidney rhabdoid cancer",
+    "source": "DOID",
+    "definition": "A embryonal cancer that is located in the kidney. [url:http\\://www.childrenshospital.org/az/Site1526/mainpageS1526P0.html]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3674",
+    "evidence": [
+        {
+            "id": 6230,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human malignant rhabdoid kidney tumor cell line was sensitive to UAB30 in both culture and in xenograft models, demonstrating cell-cycle arrest, decreased cell proliferation, apoptosis, and reduced tumor growth (PMID: 26873726).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4098,
+                "therapyName": "UAB30",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3674,
+                "name": "kidney rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5496,
+                    "pubMedId": 26873726,
+                    "title": "Preclinical Evaluation of UAB30 in Pediatric Renal and Hepatic Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26873726"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02601937",
+            "title": "A Phase 1 Study of the EZH2 Inhibitor Tazemetostat in Pediatric Subjects With Relapsed or Refractory INI1-Negative Tumors or Synovial Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

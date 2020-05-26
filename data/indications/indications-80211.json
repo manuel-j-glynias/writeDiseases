@@ -1,0 +1,83 @@
+{
+    "id": 80211,
+    "name": "nodal marginal zone lymphoma",
+    "source": "DOID",
+    "definition": "A marginal zone B-cell lymphoma  which morphologically resembles lymph nodes involved by marginal zone lymphomas of extranodal or splenic types, but without evidence of extranodal or splenic disease. [url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=16.12d&ns=NCI_Thesaurus&code=C8863, url:https\\://www.ncbi.nlm.nih.gov/pubmed/26989202]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0080211",
+    "evidence": [
+        {
+            "id": 19108,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "MYD88 mutations aid in the diagnosis of nodal marginal zone lymphoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 1917,
+                "profileName": "MYD88 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80211,
+                "name": "nodal marginal zone lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03696784",
+            "title": "Anti-CD19 CAR-T Cells With Inducible Caspase 9 Safety Switch for B-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                },
+                {
+                    "id": 7976,
+                    "therapyName": "Bendamustine + Fludarabine + iC9/CAR.19/IL15-Transduced CB-NK",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04223765",
+            "title": "Study of Kappa Chimeric Antigen Receptor (CAR) T Lymphocytes Co-Expressing the Kappa and CD28 CARs for Relapsed/Refractory Kappa+ Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9229,
+                    "therapyName": "Bendamustine + CAR.k.28 cells + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9230,
+                    "therapyName": "CAR.k.28 cells + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

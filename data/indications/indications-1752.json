@@ -1,0 +1,104 @@
+{
+    "id": 1752,
+    "name": "ocular melanoma",
+    "source": "DOID",
+    "definition": "An ocular cancer that has_material_basis_in melanocytes and is located_in the eye. [url:http\\://www.cancer.gov/dictionary?CdrID=269467]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:1752",
+    "evidence": [
+        {
+            "id": 10644,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, Refametinib (BAY 86-9766) demonstrated preliminary clinical activity in patients with several tumor types, including prolonged stable disease in an ocular melanoma patient harboring GNAQ Q209L and PTEN R173S (PMID: 23434733).",
+            "molecularProfile": {
+                "id": 27655,
+                "profileName": "GNAQ Q209L PTEN R173S"
+            },
+            "therapy": {
+                "id": 888,
+                "therapyName": "Refametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1752,
+                "name": "ocular melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 1066,
+                    "pubMedId": 23434733,
+                    "title": "Multicenter phase I trial of the mitogen-activated protein kinase 1/2 inhibitor BAY 86-9766 in patients with advanced cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23434733"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01252251",
+            "title": "RAD001 (Everolimus) and Pasireotide (SOM230) LAR in Patients With Advanced Uveal Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2261,
+                    "therapyName": "Everolimus + Pasireotide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01801358",
+            "title": "A Phase Ib/II Study of AEB071 and MEK162 in Adult Patients With Metastatic Uveal Melanoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 807,
+                    "therapyName": "Binimetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1114,
+                    "therapyName": "AEB071 + Binimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03528408",
+            "title": "Study of Adjuvant Ipilimumab and Nivolumab in Subjects With High-risk Ocular Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04042506",
+            "title": "SBRT as a Vaccination for Metastatic Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

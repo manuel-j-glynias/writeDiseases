@@ -1,0 +1,329 @@
+{
+    "id": 687,
+    "name": "hepatoblastoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:687",
+    "evidence": [
+        {
+            "id": 6229,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human hepatoblastoma cell line was sensitive to UAB30 in both culture and in xenograft models, demonstrating cell-cycle arrest, decreased cell proliferation, and reduced tumor growth (PMID: 26873726).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4098,
+                "therapyName": "UAB30",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 687,
+                "name": "hepatoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5496,
+                    "pubMedId": 26873726,
+                    "title": "Preclinical Evaluation of UAB30 in Pediatric Renal and Hepatic Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26873726"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15230,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD1208 treatment of hepatoblastoma cell lines and xenografts, overexpressing Pim3, resulted in decreased proliferation, migration, invasion, and tumor growth (PMID: 29854306).",
+            "molecularProfile": {
+                "id": 18334,
+                "profileName": "PIM3 over exp"
+            },
+            "therapy": {
+                "id": 3224,
+                "therapyName": "AZD1208",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 687,
+                "name": "hepatoblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12928,
+                    "pubMedId": 29854306,
+                    "title": "Targeting PIM kinase as a therapeutic strategy in human hepatoblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29854306"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00980460",
+            "title": "Risk-Based Therapy in Treating Younger Patients With Newly Diagnosed Liver Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2298,
+                    "therapyName": "Irinotecan + Temsirolimus + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2297,
+                    "therapyName": "Cisplatin + Fluorouracil + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01956669",
+            "title": "Pazopanib Paediatric Phase II Trial Children's Oncology Group (COG) in Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867592",
+            "title": "Cabozantinib-S-Malate in Treating Younger Patients With Recurrent, Refractory, or Newly Diagnosed Sarcomas, Wilms Tumor, or Other Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03155620",
+            "title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                },
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 961,
+                    "therapyName": "Ensartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03210714",
+            "title": "Erdafitinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With FGFR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213678",
+            "title": "PI3K/mTOR Inhibitor LY3023414 in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With TSC or PI3K/MTOR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213704",
+            "title": "Larotrectinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With NTRK Fusions (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03233204",
+            "title": "Olaparib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With Defects in DNA Damage Repair Genes (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03533582",
+            "title": "Cisplatin and Combination Chemotherapy in Treating Children and Young Adults With Hepatoblastoma or Liver Cancer After Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8240,
+                    "therapyName": "Cisplatin + Doxorubicin + Gemcitabine + Oxaliplatin + Sorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6946,
+                    "therapyName": "Cisplatin + Doxorubicin + Fluorouracil + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8242,
+                    "therapyName": "Carboplatin + Cisplatin + Doxorubicin + Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 8241,
+                    "therapyName": "Carboplatin + Cisplatin + Doxorubicin + Irinotecan + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 6951,
+                    "therapyName": "Cisplatin + Doxorubicin + Sorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6947,
+                    "therapyName": "Cisplatin + Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8243,
+                    "therapyName": "Carboplatin + Cisplatin + Doxorubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03654716",
+            "title": "Phase 1 Study of the Dual MDM2/MDMX Inhibitor ALRN-6924 in Pediatric Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4755,
+                    "therapyName": "ALRN-6924 + Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2273,
+                    "therapyName": "ALRN-6924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

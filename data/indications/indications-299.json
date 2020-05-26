@@ -1,0 +1,112 @@
+{
+    "id": 299,
+    "name": "adenocarcinoma",
+    "source": "DOID",
+    "definition": "A carcinoma that has_material_basis_in abnormally proliferating cells, derives_from epithelial cells, which originate in glandular tissue. [url:http\\://en.wikipedia.org/wiki/Adenocarcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:299",
+    "evidence": [
+        {
+            "id": 18041,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in rapid clinical improvement and a complete response 1 month after treatment in a patient with adenocarcinoma of unknown primary harboring MET amplification and a NTRK1 mutation (c.339-2 A>C), with a progression-free survival of 8.5 months and an overall survival of 10.0 months (PMID: 31213843).",
+            "molecularProfile": {
+                "id": 32950,
+                "profileName": "MET amp NTRK1 mut"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 299,
+                "name": "adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15970,
+                    "pubMedId": 31213843,
+                    "title": "Complete response to crizotinib in a metastatic adenocarcinoma of unknown primary harboring MET amplification and NTRK1 co-occurring mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31213843"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00720785",
+            "title": "Natural Killer Cells and Bortezomib to Treat Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02789228",
+            "title": "Research Study Utilizing Expanded Multi-antigen Specific Lymphocytes for the Treatment of Solid Tumors (REST)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03391973",
+            "title": "Pembrolizumab in Patients With Poor-Prognosis Carcinoma of Unknown Primary Site (CUP) (CUP)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03396471",
+            "title": "Study of Pembrolizumab and Concurrent Radiation in Patients With Previously Treated Carcinoma of Unknown Primary",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04214418",
+            "title": "Study of Combination Therapy With the MEK Inhibitor, Cobimetinib, Immune Checkpoint Blockade, Atezolizumab, and the AUTOphagy Inhibitor, Hydroxychloroquine in KRAS-mutated Advanced Malignancies (MEKiAUTO)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9170,
+                    "therapyName": "Atezolizumab + Cobimetinib + Hydroxychloroquine",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

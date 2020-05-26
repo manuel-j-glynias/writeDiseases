@@ -1,0 +1,570 @@
+{
+    "id": 3151,
+    "name": "skin squamous cell carcinoma",
+    "source": "DOID",
+    "definition": "A skin carcinoma that has_material_basis_in squamous cells. [url:http\\://en.wikipedia.org/wiki/Squamous-cell_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3151",
+    "evidence": [
+        {
+            "id": 7902,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX7904 did not stimulate growth of Zelboraf (vemurafenib)-induced cutaneous squamous cell carcinoma cells harboring HRAS Q61L in culture or in cell line xenograft models (PMID: 26466569).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 4606,
+                "therapyName": "PLX7904",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3151,
+                "name": "skin squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6521,
+                    "pubMedId": 26466569,
+                    "title": "RAF inhibitors that evade paradoxical MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26466569"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9144,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RN927C demonstrated cytotoxicity in a Tacstd2 (Trop-2)-expressing epidermoid carcinoma cell line in culture (PMID: 27582525).",
+            "molecularProfile": {
+                "id": 26744,
+                "profileName": "TACSTD2 positive"
+            },
+            "therapy": {
+                "id": 4913,
+                "therapyName": "RN927C",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3151,
+                "name": "skin squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6932,
+                    "pubMedId": 27582525,
+                    "title": "RN927C, a Site-Specific Trop-2 Antibody-Drug Conjugate (ADC) with Enhanced Stability, Is Highly Efficacious in Preclinical Solid Tumor Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27582525"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11501,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) induced cell cycle arrest, inhibited growth of skin squamous cell carcinoma cells through inhibition of Skp2 expression and signaling in culture (Cancer Res 2017;77(13 Suppl):Abstract nr 2108).",
+            "molecularProfile": {
+                "id": 26070,
+                "profileName": "SKP2 positive"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3151,
+                "name": "skin squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9585,
+                    "pubMedId": null,
+                    "title": "Imatinib-induced downregulation of Skp2 inhibits cell growth in human squamous cell ca",
+                    "url": "http://cancerres.aacrjournals.org/content/77/13_Supplement/2108.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16136,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Erivedge (vismodegib) treatment resulted in partial response in a patient with skin squamous cancer harboring a PTCH1 loss-of-function mutation (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 1272,
+                "profileName": "PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3151,
+                "name": "skin squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19097,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R11.1.6 treatment did not inhibit colony formation in a skin squamous cell carcinoma cell line in culture (PMID: 29720559).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8686,
+                "therapyName": "R11.1.6",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3151,
+                "name": "skin squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16741,
+                    "pubMedId": 29720559,
+                    "title": "A Raf-Competitive K-Ras Binder Can Fail to Functionally Antagonize Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29720559"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02324608",
+            "title": "Cetuximab Before Surgery in Treating Patients With Aggressive Locally Advanced Skin Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02449681",
+            "title": "Study for Treatment of Patients With Recurrent or Metastatic SCCHN or SCCS",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2910,
+                    "therapyName": "TH-4000",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02721732",
+            "title": "Study for the Evaluation of Efficacy of Pembrolizumab (MK-3475) in Patients With Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02760498",
+            "title": "Study of REGN2810 in Patients With Advanced Cutaneous Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02964559",
+            "title": "Pembrolizumab in Patients With Locally Advanced or Metastatic Skin Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978625",
+            "title": "Talimogene Laherparepvec and Nivolumab in Treating Patients With Refractory Lymphomas or Advanced or Refractory Non-melanoma Skin Cancers",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5080,
+                    "therapyName": "Nivolumab + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03108131",
+            "title": "Cobimetinib and Atezolizumab in Advanced Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1343,
+                    "therapyName": "Atezolizumab + Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03284424",
+            "title": "Study of Pembrolizumab (MK-3475) in Adults With Recurrent or Metastatic Cutaneous Squamous Cell Carcinoma (R/M cSCC) (MK-3475-629/KEYNOTE-629)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03289962",
+            "title": "A Study of RO7198457 (Personalized Cancer Vaccine [PCV]) as a Single Agent and in Combination With Atezolizumab in Participants With Locally Advanced or Metastatic Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6234,
+                    "therapyName": "RO7198457",
+                    "synonyms": null
+                },
+                {
+                    "id": 6235,
+                    "therapyName": "Atezolizumab + RO7198457",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03524326",
+            "title": "Testing Lenvatinib and Cetuximab in Patients With Advanced Head and Neck Squamous Cell Carcinoma and Cutaneous Squamous Cell Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6943,
+                    "therapyName": "Cetuximab + Lenvatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03767348",
+            "title": "Study of RP1 Monotherapy and RP1 in Combination With Nivolumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7820,
+                    "therapyName": "Nivolumab + RP1",
+                    "synonyms": null
+                },
+                {
+                    "id": 7819,
+                    "therapyName": "RP1",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03816332",
+            "title": "Tacrolimus, Nivolumab, and Ipilimumab in Treating Kidney Transplant Recipients With Selected Unresectable or Metastatic Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8592,
+                    "therapyName": "Ipilimumab + Nivolumab + Prednisone + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03833167",
+            "title": "Pembrolizumab Versus Placebo Following Surgery and Radiation in Participants With Locally Advanced Cutaneous Squamous Cell Carcinoma (MK-3475-630/KEYNOTE-630)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03871348",
+            "title": "A First-in-Human Dose Escalation and Expansion Study to Evaluate Intratumoral Administration of SAR441000 as Monotherapy and in Combination With Cemiplimab in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9295,
+                    "therapyName": "SAR441000",
+                    "synonyms": null
+                },
+                {
+                    "id": 9296,
+                    "therapyName": "Cemiplimab + SAR441000",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03889912",
+            "title": "Pre-Operative Cemiplimab Administered Intralesionally for Patients With Recurrent Cutaneous Squamous Cell Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03894618",
+            "title": "SL-279252 (PD1-Fc-OX40L) in Subjects With Advanced Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8683,
+                    "therapyName": "SL-279252",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03901573",
+            "title": "High-Risk Skin Cancers With Atezolizumab Plus NT-I7",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9321,
+                    "therapyName": "Atezolizumab + NT-I7",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03936959",
+            "title": "A Study of LY3434172, a PD-1 and PD-L1 Bispecific Antibody, in Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 9537,
+                    "therapyName": "LY3434172",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03944941",
+            "title": "Avelumab With or Without Cetuximab in Treating Patients With Advanced Skin Squamous Cell Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 8437,
+                    "therapyName": "Avelumab + Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03969004",
+            "title": "Study of Adjuvant Cemiplimab Versus Placebo After Surgery and Radiation Therapy in Patients With High Risk Cutaneous Squamous Cell Carcinoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04050436",
+            "title": "Study Evaluating Cemiplimab Alone and Combined With RP1 in Treating Advanced Squamous Skin Cancer (CERPASS)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9287,
+                    "therapyName": "Cemiplimab + RP1",
+                    "synonyms": null
+                },
+                {
+                    "id": 7819,
+                    "therapyName": "RP1",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04105543",
+            "title": "CLR 131 Combined With Radiation for Head and Neck Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7331,
+                    "therapyName": "CLR 131",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04154943",
+            "title": "Study of Cemiplimab in Patients With Type of Skin Cancer Stage II to IV Cutaneous Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04160065",
+            "title": "Immunotherapy With IFx-Hu2.0 Vaccine for Advanced MCC or cSCC",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9147,
+                    "therapyName": "IFx-Hu2.0",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04163952",
+            "title": "Talimogene Laherparepvec and Panitumumab for the Treatment of Locally Advanced or Metastatic Squamous Cell Carcinoma of the Skin",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8951,
+                    "therapyName": "Panitumumab + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04260802",
+            "title": "A Study to Evaluate the Safety and Pharmacokinetics of OC-001 in Patients With Locally Advanced or Metastatic Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9335,
+                    "therapyName": "OC-001 + unspecified PD-L1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9334,
+                    "therapyName": "OC-001 + unspecified PD-1 antibody",
+                    "synonyms": null
+                },
+                {
+                    "id": 9333,
+                    "therapyName": "OC-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04293679",
+            "title": "Open Label, Dose Escalation Study for the Safety and Efficacy of STP705 in Adult Patients With isSCC",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9485,
+                    "therapyName": "STP705",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04315701",
+            "title": "A PD-1 Checkpoint Inhibitor (Cemiplimab) for High-Risk Localized, Locally Recurrent, or Regionally Advanced Skin Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

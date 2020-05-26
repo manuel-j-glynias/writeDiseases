@@ -1,0 +1,48 @@
+{
+    "id": 5432,
+    "name": "bladder papillary transitional cell neoplasm",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:5432",
+    "evidence": [
+        {
+            "id": 12617,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Votrient (pazopanib) treatment resulted in a partial response that lasted more than 6 months in a patient with bladder papillary urothelial carcinoma harboring FGFR3 S249C, and amplification of FGFR3, FGF19, and CCND1 (PMID: 25766722).",
+            "molecularProfile": {
+                "id": 28792,
+                "profileName": "CCND1 amp FGF19 amp FGFR3 S249C FGFR3 amp"
+            },
+            "therapy": {
+                "id": 848,
+                "therapyName": "Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5432,
+                "name": "bladder papillary transitional cell neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10498,
+                    "pubMedId": 25766722,
+                    "title": "Exceptional Response to Pazopanib in a Patient with Urothelial Carcinoma Harboring FGFR3 Activating Mutation and Amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25766722"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

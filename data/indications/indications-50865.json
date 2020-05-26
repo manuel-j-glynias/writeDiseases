@@ -1,0 +1,104 @@
+{
+    "id": 50865,
+    "name": "tongue squamous cell carcinoma",
+    "source": "DOID",
+    "definition": "A head and neck squamous cell carcinoma that is located_in the tongue. [url:http\\://en.wikipedia.org/wiki/Squamous_cell_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050865",
+    "evidence": [
+        {
+            "id": 10016,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD6738 treatment increased sensitivity to radiotherapy in a tongue squamous cell carcinoma cell line harboring a TP53 mutation in culture, resulting in a greater decrease in cell survival compared to radiation treatment alone (PMID: 28062704).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 5346,
+                "therapyName": "AZD6738 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50865,
+                "name": "tongue squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7909,
+                    "pubMedId": 28062704,
+                    "title": "Radiosensitization by the ATR Inhibitor AZD6738 through Generation of Acentric Micronuclei.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28062704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02993991",
+            "title": "Pre-operative Mocetinostat (MGCD0103) and Durvalumab (MEDI4736) (PRIMED) for Squamous Cell Carcinoma of the Oral Cavity",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4378,
+                    "therapyName": "Durvalumab + Mocetinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03799445",
+            "title": "Ipilimumab, Nivolumab, and Radiation Therapy in Treating Patients With HPV Positive Advanced Oropharyngeal Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03829722",
+            "title": "Radiotherapy, Carboplatin/Paclitaxel and Nivolumab for High Risk HPV-related Head and Neck Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5303,
+                    "therapyName": "Carboplatin + Nivolumab + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03952585",
+            "title": "De-intensified Radiation Therapy With Chemotherapy (Cisplatin) or Immunotherapy (Nivolumab) in Treating Patients With Early-Stage, HPV-Positive, Non-Smoking Associated Oropharyngeal Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

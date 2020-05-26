@@ -1,0 +1,605 @@
+{
+    "id": 10286,
+    "name": "prostate carcinoma",
+    "source": "DOID",
+    "definition": "A prostate cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:http\\://en.wikipedia.org/wiki/Carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:10286",
+    "evidence": [
+        {
+            "id": 2511,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with BEZ235 resulted in a decrease in prostate cancer progenitor cells in culture and reduced tumor growth in prostate carcinoma xenograft models (PMID: 21138868).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3195,
+                    "pubMedId": 21138868,
+                    "title": "Combination therapy targeting both tumor-initiating and differentiated cell populations in prostate carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21138868"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3669,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BI2536 and Metformin worked synergistically to induce apoptosis and inhibit growth of PLK1-over expressing prostate cancer cells with wild-type TP53 in cell culture and in PDX models (PMID: 25505174).",
+            "molecularProfile": {
+                "id": 14280,
+                "profileName": "PLK1 over exp TP53 wild-type"
+            },
+            "therapy": {
+                "id": 3223,
+                "therapyName": "BI2536 + Metformin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3947,
+                    "pubMedId": 25505174,
+                    "title": "Inhibition of polo-like kinase 1 (Plk1) enhances the antineoplastic activity of metformin in prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25505174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3670,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, decreased expression of Tp53 in Plk1-over expressing prostate carcinoma cell lines resulted in decreased response to growth inhibition by the combination of BI2536 and Metformin in culture (PMID: 25505174).",
+            "molecularProfile": {
+                "id": 14282,
+                "profileName": "PLK1 over exp TP53 dec exp"
+            },
+            "therapy": {
+                "id": 3223,
+                "therapyName": "BI2536 + Metformin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3947,
+                    "pubMedId": 25505174,
+                    "title": "Inhibition of polo-like kinase 1 (Plk1) enhances the antineoplastic activity of metformin in prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25505174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4358,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R547 inhibited proliferation of prostate carcinoma cell lines harboring Tp53 and Rb1 mutations in culture and reduced tumor growth in xenograft models (PMID: 17121911).",
+            "molecularProfile": {
+                "id": 17821,
+                "profileName": "RB1 mut TP53 mut"
+            },
+            "therapy": {
+                "id": 3497,
+                "therapyName": "R547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4503,
+                    "pubMedId": 17121911,
+                    "title": "In vitro and in vivo activity of R547: a potent and selective cyclin-dependent kinase inhibitor currently in phase I clinical trials.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17121911"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5080,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) treatment resulted in minor inhibition of tumor growth in xenograft models of AR-dependent prostate cancer cells harboring PTEN mutations (PMID: 25544636).",
+            "molecularProfile": {
+                "id": 20265,
+                "profileName": "AR pos PTEN mut"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4876,
+                    "pubMedId": 25544636,
+                    "title": "Feedback suppression of PI3K\u03b1 signaling in PTEN-mutated tumors is relieved by selective inhibition of PI3K\u03b2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25544636"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5081,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD8186 treatment resulted in minor inhibition of tumor growth in xenograft models of AR-dependent prostate cancer cells harboring PTEN mutations (PMID: 25544636).",
+            "molecularProfile": {
+                "id": 20265,
+                "profileName": "AR pos PTEN mut"
+            },
+            "therapy": {
+                "id": 992,
+                "therapyName": "AZD8186",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4876,
+                    "pubMedId": 25544636,
+                    "title": "Feedback suppression of PI3K\u03b1 signaling in PTEN-mutated tumors is relieved by selective inhibition of PI3K\u03b2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25544636"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5083,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD8186 and Alpelisib (BYL719) combination treatment resulted in inhibition of tumor growth in xenograft models of AR-dependent prostate cancer cells harboring PTEN mutations (PMID: 25544636).",
+            "molecularProfile": {
+                "id": 20265,
+                "profileName": "AR pos PTEN mut"
+            },
+            "therapy": {
+                "id": 3749,
+                "therapyName": "Alpelisib + AZD8186",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4876,
+                    "pubMedId": 25544636,
+                    "title": "Feedback suppression of PI3K\u03b1 signaling in PTEN-mutated tumors is relieved by selective inhibition of PI3K\u03b2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25544636"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5084,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD8186, Alpelisib (BYL719) and Xtandi (enzalutamide) combination treatment resulted in tumor regression in xenograft models of AR-dependent prostate cancer cells harboring PTEN mutations (PMID: 25544636).",
+            "molecularProfile": {
+                "id": 20265,
+                "profileName": "AR pos PTEN mut"
+            },
+            "therapy": {
+                "id": 3750,
+                "therapyName": "Alpelisib + AZD8186 + Enzalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4876,
+                    "pubMedId": 25544636,
+                    "title": "Feedback suppression of PI3K\u03b1 signaling in PTEN-mutated tumors is relieved by selective inhibition of PI3K\u03b2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25544636"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5086,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XTANDI (enzalutamide) treatment resulted in tumor growth inhibition in cell line xenograft models of AR-dependent prostate cancer cells harboring PTEN mutations (PMID: 25544636).",
+            "molecularProfile": {
+                "id": 20265,
+                "profileName": "AR pos PTEN mut"
+            },
+            "therapy": {
+                "id": 1262,
+                "therapyName": "Enzalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4876,
+                    "pubMedId": 25544636,
+                    "title": "Feedback suppression of PI3K\u03b1 signaling in PTEN-mutated tumors is relieved by selective inhibition of PI3K\u03b2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25544636"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5087,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Alpelisib (BYL719) and Xtandi (enzalutamide) resulted in tumor growth inhibition in xenograft models of an AR-dependent, PTEN-mutant human prostate cancer cell line (PMID: 25544636).",
+            "molecularProfile": {
+                "id": 20265,
+                "profileName": "AR pos PTEN mut"
+            },
+            "therapy": {
+                "id": 3751,
+                "therapyName": "Alpelisib + Enzalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4876,
+                    "pubMedId": 25544636,
+                    "title": "Feedback suppression of PI3K\u03b1 signaling in PTEN-mutated tumors is relieved by selective inhibition of PI3K\u03b2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25544636"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5088,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD8186 and Xtandi (enzalutamide) combination treatment resulted in complete inhibition of tumor growth in xenograft models of AR-dependent prostate cancer cells harboring PTEN mutations (PMID: 25544636).",
+            "molecularProfile": {
+                "id": 20265,
+                "profileName": "AR pos PTEN mut"
+            },
+            "therapy": {
+                "id": 3752,
+                "therapyName": "AZD8186 + Enzalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4876,
+                    "pubMedId": 25544636,
+                    "title": "Feedback suppression of PI3K\u03b1 signaling in PTEN-mutated tumors is relieved by selective inhibition of PI3K\u03b2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25544636"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7772,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a precliinical study, PTEN deficient prostate carcinoma cells demonstrated reduced response to SAR260301 in cell culture and in cell line xenograft models (PMID: 27196754).",
+            "molecularProfile": {
+                "id": 479,
+                "profileName": "PTEN loss"
+            },
+            "therapy": {
+                "id": 1052,
+                "therapyName": "SAR260301",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6491,
+                    "pubMedId": 27196754,
+                    "title": "Concomitant Inhibition of PI3K\u03b2 and BRAF or MEK in PTEN-Deficient/BRAF-Mutant Melanoma Treatment: Preclinical Assessment of SAR260301 Oral PI3K\u03b2-Selective Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196754"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01385228",
+            "title": "Pazopanib, Docetaxel, Prednisone Prostate",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2042,
+                    "therapyName": "Docetaxel + Pazopanib + Pegfilgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01391143",
+            "title": "Safety Study of MGA271 in Refractory Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2863,
+                    "therapyName": "MGA271",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01561482",
+            "title": "Study of Metformin With Simvastatin for Men With Prostate Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1829,
+                    "therapyName": "Metformin + Simvastatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02113657",
+            "title": "T-Cell Responses to Neoantigens Post Treatment With Ipilimumab in Men With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02234115",
+            "title": "Safety, Efficacy, and Pharmacokinetic Behavior of Leuprolide Mesylate in Subjects With Advanced Prostate Carcinoma",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02516553",
+            "title": "BI 894999 First in Human Dose Finding Study in Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5884,
+                    "therapyName": "BI 894999",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02565901",
+            "title": "Sirolimus, Docetaxel, and Carboplatin in Treating Patients With Metastatic Hormone-Resistant Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3111,
+                    "therapyName": "Carboplatin + Docetaxel + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02723955",
+            "title": "Dose Escalation and Expansion Study of GSK3359609 in Subjects With Selected Advanced Solid Tumors (INDUCE-1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4409,
+                    "therapyName": "GSK3359609",
+                    "synonyms": null
+                },
+                {
+                    "id": 4410,
+                    "therapyName": "GSK3359609 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02952534",
+            "title": "A Study of Rucaparib in Patients With MetA Study of Rucaparib in Patients With Metastatic Castration-resistant Prostate Cancer and Homologous Recombination Gene Deficiency (TRITON2)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 906,
+                    "therapyName": "Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02975934",
+            "title": "A Study of Rucaparib Versus Physician's Choice of Therapy in Patients With Metastatic Castration-resistant Prostate Cancer and Homologous Recombination Gene Deficiency (TRITON3)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 906,
+                    "therapyName": "Rucaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03261999",
+            "title": "Safety, Efficacy, and Pharmacokinetic Behavior of Leuprolide Mesylate (LMIS 25 mg) in Subjects With Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03263650",
+            "title": "Randomized Phase II Study of Olaparib Maintenance Following Cabazitaxel-Carbo in Men With AVPC",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3844,
+                    "therapyName": "Cabazitaxel + Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03837353",
+            "title": "A Parallel Arm Phase 1b/2a Study of DKN-01 as Monotherapy or in Combination With Docetaxel for the Treatment of Advanced Prostate Cancer With Elevated DKK1",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6244,
+                    "therapyName": "DKN-01",
+                    "synonyms": null
+                },
+                {
+                    "id": 8989,
+                    "therapyName": "DKN-01 + Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04179396",
+            "title": "Study of Oral Rucaparib With Other Anticancer Agents in Metastatic Castration Resistant Prostate Cancer Patients (RAMP) (RAMP)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9243,
+                    "therapyName": "Enzalutamide + Rucaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 9244,
+                    "therapyName": "Abiraterone + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4965 @@
+{
+    "id": 2526,
+    "name": "prostate adenocarcinoma",
+    "source": "DOID",
+    "definition": "A prostate carcinoma that derives_from epithelial cells of glandular origin. [url:http\\://cancergenome.nih.gov/cancersselected/prostatecancer, url:http\\://en.wikipedia.org/wiki/Adenocarcinoma, url:http\\://en.wikipedia.org/wiki/Prostate_cancer]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:2526",
+    "evidence": [
+        {
+            "id": 4772,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Custirsen in combination with Taxotere (docetaxel) and Prednisone resulted in improved median progression-free survival and overall survival (7.3 and 23.8 months, respectively) compared to Taxotere (docetaxel) and Prednisone treatment (6.1 and 16.9 months, respectively) in patients with metastatic castration-resistant prostate cancer (PMID: 20733135).",
+            "molecularProfile": {
+                "id": 19099,
+                "profileName": "CLU positive"
+            },
+            "therapy": {
+                "id": 3646,
+                "therapyName": "Custirsen + Docetaxel + Prednisone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4724,
+                    "pubMedId": 20733135,
+                    "title": "Randomized phase II study of docetaxel and prednisone with or without OGX-011 in patients with metastatic castration-resistant prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20733135"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4773,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Custirsen treatment in combination with Mitoxantrone and Prednisone resulted in overall survival of 11.5 months and favorable pain response in patients with metastatic castration-resistant prostate adenocarcinoma (PMID: 21788353).",
+            "molecularProfile": {
+                "id": 19099,
+                "profileName": "CLU positive"
+            },
+            "therapy": {
+                "id": 3649,
+                "therapyName": "Custirsen + Mitoxantrone + Prednisone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4725,
+                    "pubMedId": 21788353,
+                    "title": "Randomized phase II trial of Custirsen (OGX-011) in combination with docetaxel or mitoxantrone as second-line therapy in patients with metastatic castrate-resistant prostate cancer progressing after first-line docetaxel: CUOG trial P-06c.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21788353"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6322,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XL147 inhibited PI3K signaling, growth, and migration of a human prostate adenocarcinoma cell line harboring a PTEN inactivating mutation in culture, and inhibited tumor growth and vascularization in xenograft models (PMID: 25637314).",
+            "molecularProfile": {
+                "id": 2095,
+                "profileName": "PTEN inact mut"
+            },
+            "therapy": {
+                "id": 1050,
+                "therapyName": "XL147",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5522,
+                    "pubMedId": 25637314,
+                    "title": "The Selective PI3K Inhibitor XL147 (SAR245408) Inhibits Tumor Growth and Survival and Potentiates the Activity of Chemotherapeutic Agents in Preclinical Tumor Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25637314"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6338,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of XL147 and Taxol (paclitaxel) inhibited tumor growth and angiogenesis in xenograft models of a human prostate adenocarcinoma cell line harboring an inactivating mutation in PTEN, with increased efficacy compared to either agent alone (PMID: 25637314).",
+            "molecularProfile": {
+                "id": 2095,
+                "profileName": "PTEN inact mut"
+            },
+            "therapy": {
+                "id": 4115,
+                "therapyName": "Paclitaxel + XL147",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5522,
+                    "pubMedId": 25637314,
+                    "title": "The Selective PI3K Inhibitor XL147 (SAR245408) Inhibits Tumor Growth and Survival and Potentiates the Activity of Chemotherapeutic Agents in Preclinical Tumor Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25637314"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10308,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NSC23766 inhibited proliferation and invasion of a prostate adenocarcinoma cell line in culture (PMID: 15128949).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5461,
+                "therapyName": "NSC23766",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8295,
+                    "pubMedId": 15128949,
+                    "title": "Rational design and characterization of a Rac GTPase-specific small molecule inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15128949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11606,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a prostate adenocarcinoma patient demonstrated extended stable disease for 27 weeks when treated with ONC201 (TIC-10) (PMID: 28331050).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1687,
+                "therapyName": "ONC201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9666,
+                    "pubMedId": 28331050,
+                    "title": "First-in-Human Clinical Trial of Oral ONC201 in Patients with Refractory Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28331050"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16058,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with metastatic castration-resistant prostate adenocarcinoma with neuroendocrine differentiation harboring AURKA and MYCN amplification, and an MSH6 mutation, remained on Alisertib (MLN8237) therapy for over 3 years with no evidence of disease progression (PMID: 30232224; NCT30232224).",
+            "molecularProfile": {
+                "id": 31393,
+                "profileName": "AURKA amp MSH6 mut MYCN amp"
+            },
+            "therapy": {
+                "id": 626,
+                "therapyName": "Alisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14171,
+                    "pubMedId": 30232224,
+                    "title": "A Phase II Trial of the Aurora Kinase A Inhibitor Alisertib for Patients with Castration-resistant and Neuroendocrine Prostate Cancer: Efficacy and Biomarkers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30232224"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16254,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial (KEYNOTE-028), Keytruda (pembrolizumab) treatment demonstrated safety and preliminary efficacy, resulted in partial response in 17.4% (4/23) and stable disease in 34.8% (8/23) of patients with CD274 (PD-L1)-positive (expression in 1% or more of tumor or stromal cells) advanced prostate adenocarcinoma (PMID: 29992241; NCT02054806).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14395,
+                    "pubMedId": 29992241,
+                    "title": "Pembrolizumab for advanced prostate adenocarcinoma: findings of the KEYNOTE-028 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29992241"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16780,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Lynparza (olaparib) treatment resulted in stable disease for more than 6 months in a patient with prostate adenocarcinoma harboring ATM L1449*, amplification of AR, MYC, BCL9, MCL1, MDM4, RPS6KB1, APEX1, PNP, ATP11B, and DCUN1D1, and a TMPRSS2-ERG fusion (PMID: 29304353).",
+            "molecularProfile": {
+                "id": 31931,
+                "profileName": "ATM L1449*"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14903,
+                    "pubMedId": 29304353,
+                    "title": "Yale Cancer Center Precision Medicine Tumor Board: two patients, one targeted therapy, different outcomes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29304353"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17717,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a second-line therapy for patients with advanced or metastatic prostate adenocarcinoma cancer with high microsatellite instability (MSI-H) (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19629,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I study, VT-464 treatment led to safety and tolerability in patients with castration-resistant prostate adenocarcinoma and resulted in a best response of stable disease in 58% (10/17), a partial response in 6% (1/17), and no complete responses (PMID: 30012563; NCT02361086).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2822,
+                "therapyName": "VT-464",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2526,
+                "name": "prostate adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17319,
+                    "pubMedId": 30012563,
+                    "title": "Phase I Study of Seviteronel, a Selective CYP17 Lyase and Androgen Receptor Inhibitor, in Men with Castration-Resistant Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30012563"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00002651",
+            "title": "Hormone Therapy in Treating Men With Stage IV Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00223665",
+            "title": "Intermittent Hormone Therapy in Men With Localized Prostate Cancer After Radiation Therapy or Radical Prostatectomy",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 742,
+                    "therapyName": "Flutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00536991",
+            "title": "Calcitriol, Ketoconazole, and Hydrocortisone in Treating Patients With Advanced or Recurrent Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2889,
+                    "therapyName": "calcitriol",
+                    "synonyms": null
+                },
+                {
+                    "id": 2858,
+                    "therapyName": "Ketoconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00541047",
+            "title": "Radiation Therapy and Androgen Deprivation Therapy in Treating Patients Who Have Undergone Surgery for Prostate Cancer (RADICALS)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00589420",
+            "title": "Sorafenib and Docetaxel in Treating Patients With Metastatic Prostate Cancer That Did Not Respond to Previous Hormone Therapy",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2390,
+                    "therapyName": "Docetaxel + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00720785",
+            "title": "Natural Killer Cells and Bortezomib to Treat Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00859781",
+            "title": "177Lu Radiolabeled Monoclonal Antibody HuJ591 (177Lu-J591) and Ketoconazole in Patients With Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2858,
+                    "therapyName": "Ketoconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00936390",
+            "title": "Radiation Therapy With or Without Androgen-Deprivation Therapy in Treating Patients With Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 742,
+                    "therapyName": "Flutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2050,
+                    "therapyName": "Triptorelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01174199",
+            "title": "Temsirolimus and Vorinostat in Treating Patients With Metastatic Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2263,
+                    "therapyName": "Temsirolimus + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01313559",
+            "title": "Pasireotide (SOM230) With or Without Everolimus in Treating Patients With Hormone Resistant, Chemotherapy Naive Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2261,
+                    "therapyName": "Everolimus + Pasireotide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2260,
+                    "therapyName": "Pasireotide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01342367",
+            "title": "Feasibility of Hormones and Radiation for Intermediate or High Risk Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2643,
+                    "therapyName": "Dutasteride",
+                    "synonyms": null
+                },
+                {
+                    "id": 2644,
+                    "therapyName": "Finasteride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01409200",
+            "title": "Neoadjuvant Axitinib in Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 649,
+                    "therapyName": "Axitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01420250",
+            "title": "Cabazitaxel With Radiation and Hormone Therapy for Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1571,
+                    "therapyName": "Cabazitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01485861",
+            "title": "Study of GDC-0068 Or GDC-0980 With Abiraterone Acetate Versus Abiraterone Acetate in Patients With Castration-Resistant Prostate Cancer Previously Treated With Docetaxel Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 750,
+                    "therapyName": "GDC-0980",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 747,
+                    "therapyName": "Ipatasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01498978",
+            "title": "Ipilimumab in Combination With Androgen Suppression Therapy in Treating Patients With Metastatic Hormone-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01503229",
+            "title": "Abiraterone Acetate in Treating Patients With Metastatic Hormone-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01513733",
+            "title": "The CATCH Prostate Cancer Trial Cabazitaxel And Tasquinimod in Men With Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2699,
+                    "therapyName": "Tasquinimod",
+                    "synonyms": null
+                },
+                {
+                    "id": 1571,
+                    "therapyName": "Cabazitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01548807",
+            "title": "Phase 1 Trial of the Mammalian Target of Rapamycin (mTOR) Inhibitor Everolimus Plus Radiation Therapy (RT) for Salvage Treatment of Biochemical Recurrence in Prostate Cancer Patients Following Prostatectomy",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01560923",
+            "title": "Phase II Study of Sipuleucel-T and Indoximod for Patients With Refractory Metastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2648,
+                    "therapyName": "Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01619813",
+            "title": "Reolysin Combined With Docetaxel and Prednisone or Docetaxel and Prednisone Alone in Metastatic Castration Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2462,
+                    "therapyName": "Docetaxel + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 893,
+                    "therapyName": "Reolysin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01630590",
+            "title": "Cabozantinib and Androgen Ablation in Patients With Androgen-Dependent Metastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01681433",
+            "title": "OGX-427 in Metastatic Castrate-Resistant Prostate Cancer With Prostate-Specific Antigen Progression While Receiving Abiraterone",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1807,
+                    "therapyName": "OGX-427",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01688492",
+            "title": "Combining Ipilimumab With Abiraterone Acetate Plus Prednisone in Chemotherapy and Immunotherapy-na&#239;ve Patients With Progressive Metastatic Castration-resistant Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01695473",
+            "title": "Neoadjuvant BKM120 in High-risk Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 680,
+                    "therapyName": "Buparlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01703065",
+            "title": "Cabozantinib in Treating Men With Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01706458",
+            "title": "Provenge With or Without pTVG-HP DNA Booster Vaccine in Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2698,
+                    "therapyName": "pTVG-HP plasmid DNA vaccine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2648,
+                    "therapyName": "Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01709734",
+            "title": "A 2 Part, Phase 2 Trial of Galeterone in the Treatment of Castration Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1508,
+                    "therapyName": "galeterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01786265",
+            "title": "Finite Androgen Ablation vs. Finite Androgen Ablation in Combination With Abiraterone Acetate and Prednisone",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1814,
+                    "therapyName": "Degarelix",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01787331",
+            "title": "A Phase II Study of Itraconazole in Biochemical Relapse",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1026,
+                    "therapyName": "Itraconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01790126",
+            "title": "The Role of Highly Selective Androgen Receptor (AR) Targeted Therapy in Men With Biochemically Relapsed Hormone Sensitive Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01804465",
+            "title": "A Randomized Phase 2 Trial of Combining Sipuleucel-T With Immediate vs. Delayed CTLA-4 Blockade for Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01807065",
+            "title": "Sipuleucel-T With or Without Radiation Therapy in Treating Patients With Hormone-Resistant Metastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2648,
+                    "therapyName": "Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01812668",
+            "title": "Cabozantinib-S-Malate in Treating Patients With Hormone-Resistant Metastatic Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01832259",
+            "title": "A Study of VEGF Tyrosine Kinase Inhibitor (Pazopanib) in Men With High-Risk Prostate Cancer Followed by Radical Prostatectomy and Pelvic Lymph Node Dissection",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01845792",
+            "title": "Study of Abiraterone Acetate and Prednisone in Combination With Cabazitaxel in Patients With Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1571,
+                    "therapyName": "Cabazitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01848067",
+            "title": "Alisertib, Abiraterone Acetate and Prednisone in Treating Patients With Hormone-Resistant Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 626,
+                    "therapyName": "Alisertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01885949",
+            "title": "Tivozanib + Enzalutamide in Adv Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2395,
+                    "therapyName": "Enzalutamide + Tivozanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01927627",
+            "title": "Enzalutamide in Patients With High-risk Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01940276",
+            "title": "Abiraterone Race in Metastatic Castrate-resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01942837",
+            "title": "Phase II Trial of Enzalutamide for Castrate-resistant Prostate Cancer With Correlative Assessment of Androgen Receptor Signaling",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01946204",
+            "title": "A Study of Apalutamide (ARN-509) in Men With Non-Metastatic Castration-Resistant Prostate Cancer (SPARTAN)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01949337",
+            "title": "Enzalutamide With or Without Abiraterone and Prednisone in Treating Patients With Castration-Resistant Metastatic Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01961843",
+            "title": "Abiraterone Acetate for Castrate Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01977651",
+            "title": "A Study to Evaluate the Potential Increased Risk of Seizures Among Metastatic Castration-Resistant Prostate Cancer (mCRPC) Patients Treated With Enzalutamide",
+            "phase": "FDA approved",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01996696",
+            "title": "A Study With or Without Metformin to Determine if Metformin Can Prevent Weight Gain and Other Problems (i.e. Diabetes, Increased Cholesterol, Etc.) That Can Arise From the Use of Hormonal Therapy in Combination With Radiation Therapy When Treating Aggressive Localized Prostate Cancer.",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02003924",
+            "title": "Safety and Efficacy Study of Enzalutamide in Patients With Nonmetastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02023463",
+            "title": "Enzalutamide, Radiation Therapy and Hormone Therapy in Treating Patients With Intermediate or High-Risk Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02025010",
+            "title": "Phase II Clinical Trial of Abiraterone Acetate Without Exogenous Glucocorticoids in Men With Castration-resistant Prostate Cancer With Correlative Assessment of Hormone Intermediates.",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02034552",
+            "title": "A Randomized Phase IIa Efficacy and Safety Study of Radium-223 Dichloride With Abiraterone Acetate or Enzalutamide in Metastatic Castration-resistant Prostate Cancer (CRPC)",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2001,
+                    "therapyName": "Radium Ra 223 dichloride",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02036918",
+            "title": "Dendreon Lymph Node Biopsy in Metastatic Castrate-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2648,
+                    "therapyName": "Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02043678",
+            "title": "Radium-223 Dichloride and Abiraterone Acetate Compared to Placebo and Abiraterone Acetate for Men With Cancer of the Prostate When Medical or Surgical Castration Does Not Work and When the Cancer Has Spread to the Bone, Has Not Been Treated With Chemotherapy and is Causing no or Only Mild Symptoms",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2001,
+                    "therapyName": "Radium Ra 223 dichloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02057939",
+            "title": "Salvage Therapeutic Radiation With Enzalutamide and ADT in Men With Recurrent Prostate Cancer (STREAM)",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02058706",
+            "title": "LHRH Analogue Therapy With Enzalutamide or Bicalutamide in Treating Patients With Metastatic Hormone Sensitive Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02064036",
+            "title": "Stereotactic Boost and Long-Term Androgen Deprivation for Adenocarcinoma of the Prostate",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02064582",
+            "title": "Enzalutamide and Hormone Therapy Before, During, and After Radiation for High Risk Localized Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02090114",
+            "title": "RE-sensitizing With Supraphysiologic Testosterone to Overcome REsistant (The RESTORE Study)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2591,
+                    "therapyName": "Testosterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02106507",
+            "title": "ARN 509 Plus Everolimus in Men With Progressive Metastatic Castration-Resistant Prostate Cancer After Treatment With Abiraterone Acetate",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2303,
+                    "therapyName": "Apalutamide + Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02111187",
+            "title": "A Pre-surgical Study of LDE225 in Men With High-risk Localized Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1428,
+                    "therapyName": "Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02123758",
+            "title": "A Study of JNJ-56021927 (ARN-509) and Abiraterone Acetate in Participants With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2649,
+                    "therapyName": "Abiraterone + Apalutamide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02125084",
+            "title": "Enzalutamide Plus Everolimus in Men With Metastatic Castrate-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2264,
+                    "therapyName": "Enzalutamide + Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02125357",
+            "title": "Sequencing Abiraterone and Enzalutamide in mCRPC",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02146833",
+            "title": "Study of Selinexor (KPT-330) in Metastatic Castrate Resistant Prostate Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02176161",
+            "title": "Metformin Prostate Cancer Adjuvant Trial",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02182622",
+            "title": "LDE225 + Docetaxel/Prednisone for Adv/Met Castrate Resistant Prostate Cancer w/ Disease Progression After Docetaxel",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1428,
+                    "therapyName": "Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02194842",
+            "title": "Phase III Radium 223 mCRPC-PEACE III (PEACE III)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 6479,
+                    "therapyName": "Enzalutamide + Radium Ra 223 dichloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02199197",
+            "title": "Radium Ra 223 With Enzalutamide in Men With Metastatic Castration Refractory Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02200614",
+            "title": "Efficacy and Safety Study of ODM-201 in Men With High-risk Non-metastatic Castration-resistant Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 836,
+                    "therapyName": "Darolutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02203695",
+            "title": "Randomized Salvage Radiation Therapy Plus Enzalutamide Post Prostatectomy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02204072",
+            "title": "BI836845 Plus Enzalutamide in Castrate Resistant Prostate Cancer (CRPC)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2916,
+                    "therapyName": "Xentuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02207504",
+            "title": "Crizotinib in Combination With Enzalutamide in Metastatic Castration-resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2446,
+                    "therapyName": "Crizotinib + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02213107",
+            "title": "Enzalutamide & Dutasteride as 1st Line Treatment for Patients =/&gt; 65 Years Old With Prostate Cancer.",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3067,
+                    "therapyName": "Dutasteride + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02215096",
+            "title": "Dose-finding Study of GSK2636771 When Administered in Combination With Enzalutamide in Male Subjects With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 765,
+                    "therapyName": "GSK2636771",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02215161",
+            "title": "Selinexor (KPT-330) in Patients With Metastatic Castration-Resistant Prostate Cancer (mCRPC) and Prior Therapy With Abiraterone and/or Enzalutamide",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02217566",
+            "title": "Study of Abiraterone Acetate in Participants With Metastatic Castration-Resistant Prostate Cancer (mCRPC), Chemo-Naive, Who Received a Prior Diethylstilbestrol Therapy",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02217709",
+            "title": "Phenelzine Sulfate in Treating Patients With Non-metastatic Recurrent Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8201,
+                    "therapyName": "Phenelzine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02254785",
+            "title": "Cabazitaxel vs Abiraterone or Enzalutamide in Patients With Poor Prognosis Metastatic Castration-resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1571,
+                    "therapyName": "Cabazitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02256111",
+            "title": "EXTEND Exercise Trial",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02257736",
+            "title": "An Efficacy and Safety Study of JNJ56021927 in Participants With Chemotherapy-naive Metastatic Castration-resistant Prostate Cancer (mCRPC)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1948,
+                    "therapyName": "Abiraterone + Apalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02262910",
+            "title": "Study of MOR209/ES414 in Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4651,
+                    "therapyName": "MOR209/ES414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02268175",
+            "title": "Enzalutamide/Leuprolide +/- Abiraterone/Pred in Prostate",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02284971",
+            "title": "Pilot Study of SBRT and CDX-1127 in Prostate Cancer (Prostate-04)",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2525,
+                    "therapyName": "Varlilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02286921",
+            "title": "Testosterone Revival Abolishes Negative Symptoms, Fosters Objective Response and Modulates Enzalutamide Resistance",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2591,
+                    "therapyName": "Testosterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02303327",
+            "title": "Comparative Study of Radiotherapy Treatments to Treat High Risk Prostate Cancer Patients",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT02319837",
+            "title": "Safety and Efficacy Study of Enzalutamide Plus Leuprolide in Patients With Nonmetastatic Prostate Cancer (EMBARK)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02346253",
+            "title": "High-Dose Brachytherapy in Treating Patients With Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2050,
+                    "therapyName": "Triptorelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1814,
+                    "therapyName": "Degarelix",
+                    "synonyms": null
+                },
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02349139",
+            "title": "Safety, Preliminary Efficacy and Pharmacokinetics of ASN001 in Metastatic Castrate Resistant Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2528,
+                    "therapyName": "ASN001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02353715",
+            "title": "Men With Metastatic Castrate-Resistant Prostate Cancer Treated With Either Sipuleucel-T (Provenge), Abiraterone Acetate (Zytiga) or Enzalutamide (Xtandi) Undergoing Cardiopulmonary EXercise Testing",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2648,
+                    "therapyName": "Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02376166",
+            "title": "Metformin for Rising PSA Remote Trial",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02379390",
+            "title": "Cabazitaxel Versus the Switch to Alternative AR Targeted Therapy Enzalutamide or Abiraterone in Metastatic Castration-Resistant Prostate Cancer (mCRPC) Primary Resistant Patients to Abiraterone or Enz (PRIMCAB)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1571,
+                    "therapyName": "Cabazitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02381236",
+            "title": "G-202 in the Neoadjuvant Setting Followed by Radical Prostatectomy in Patients With Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4338,
+                    "therapyName": "mipsagargin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02384382",
+            "title": "A Positron Emission Tomography/Computed Tomography (PET/CT) Bone Imaging Study in Patients Receiving Enzalutamide for Castration-Resistant Prostate Cancer (CRPC)",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02396368",
+            "title": "A Study of Radium-223 in Combination With Tasquinimod in Bone-only Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 2699,
+                    "therapyName": "Tasquinimod",
+                    "synonyms": null
+                },
+                {
+                    "id": 2001,
+                    "therapyName": "Radium Ra 223 dichloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02407054",
+            "title": "A Study of Enzalutamide and LY3023414 in Men With Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02411786",
+            "title": "A Phase I Study of a DNA Vaccine Encoding Androgen Receptor Ligand-Binding Domain (AR LBD) +/-GMCSF",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4297,
+                    "therapyName": "pTVG-AR",
+                    "synonyms": null
+                },
+                {
+                    "id": 1873,
+                    "therapyName": "Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02415621",
+            "title": "Adaptive Abiraterone Therapy for Metastatic Castration Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02441517",
+            "title": "A Study of Enzalutamide Re-treatment in Metastatic Castration-resistant Prostate Cancer After Docetaxel Treatment in Patients Who Have Previously Received Enzalutamide",
+            "phase": "FDA approved",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02446405",
+            "title": "Enzalutamide in First Line Androgen Deprivation Therapy for Metastatic Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02446444",
+            "title": "Enzalutamide in Androgen Deprivation Therapy With Radiation Therapy for High Risk, Clinically Localised, Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02463799",
+            "title": "Ph 2 Study of Sipuleucel-T W/ or W/O Radium-223 in Men With Asymptomatic or Minimally Symptomatic Bone-MCRPC",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2001,
+                    "therapyName": "Radium Ra 223 dichloride",
+                    "synonyms": null
+                },
+                {
+                    "id": 2648,
+                    "therapyName": "Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02472275",
+            "title": "PLX3397, Radiation Therapy, and Antihormone Therapy in Treating Patients With Intermediate- or High-Risk Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 874,
+                    "therapyName": "Pexidartinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1814,
+                    "therapyName": "Degarelix",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02489318",
+            "title": "A Phase 3 Study of JNJ-56021927 Plus Androgen Deprivation Therapy (ADT) Versus ADT in Participants With Low-Volume mHSPC",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02491411",
+            "title": "Dexamethasone Prior to Re-treatment With Enzalutamide in Treating Patients With Metastatic Hormone-Resistant Prostate Cancer Previously Treated With Enzalutamide and Docetaxel",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02494713",
+            "title": "Hormonal Therapy and Chemotherapy Followed by Prostatectomy in Patients With Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1814,
+                    "therapyName": "Degarelix",
+                    "synonyms": null
+                },
+                {
+                    "id": 2950,
+                    "therapyName": "Estramustine",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1009,
+                    "therapyName": "Doxorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2858,
+                    "therapyName": "Ketoconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02497638",
+            "title": "LIpitor and biGuanide to Androgen Delay Trial",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1576,
+                    "therapyName": "Atorvastatin + Metformin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02499835",
+            "title": "Vaccine Therapy and Pembrolizumab in Treating Patients With Hormone-Resistant, Metastatic Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02500901",
+            "title": "Enzalutamide and Niraparib in the Treatment of Metastatic Castrate-Resistant Prostate Cancer (CRPC)",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02506114",
+            "title": "Neoadjuvant PROSTVAC-VF With or Without Ipilimumab for Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4892,
+                    "therapyName": "PROSTVAC-F/TRICOM + PROSTVAC-V/TRICOM",
+                    "synonyms": null
+                },
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4895,
+                    "therapyName": "Ipilimumab + PROSTVAC-F/TRICOM + PROSTVAC-V/TRICOM",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02508636",
+            "title": "Trial of Radiotherapy With Leuprolide and Enzalutamide in High Risk Prostate",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3180,
+                    "therapyName": "Enzalutamide + Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02532114",
+            "title": "Niclosamide and Enzalutamide in Treating Patients With Androgen Receptor Splice Variant-Positive, Castration-Resistant, Metastatic Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 3072,
+                    "therapyName": "Niclosamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02543255",
+            "title": "Anti-Androgens and Cabazitaxel in Defining Complete Response in Prostatectomy (ACDC Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1571,
+                    "therapyName": "Cabazitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 3079,
+                    "therapyName": "Abiraterone + Leuprolide + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02560051",
+            "title": "Hormone Therapy Plus Chemotherapy as Initial Treatment for Local Failures or Advanced Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1814,
+                    "therapyName": "Degarelix",
+                    "synonyms": null
+                },
+                {
+                    "id": 3087,
+                    "therapyName": "Aldoxorubicin + Docetaxel + Estramustine + Ketoconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02578797",
+            "title": "A JNJ-56021927 (ARN-509) QT/QTc Study",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02582749",
+            "title": "Androgen Deprivation Therapy +/- Radium-223 Dichloride in Metastatic Prostate Cancer With Bone Metastases",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 4618,
+                    "therapyName": "Bicalutamide + Radium Ra 223 dichloride",
+                    "synonyms": null
+                },
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02601014",
+            "title": "Biomarker-Driven Therapy With Nivolumab and Ipilimumab in Treating Patients With Metastatic Hormone-Resistant Prostate Cancer Expressing AR-V7",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02606123",
+            "title": "Safety and Anti-Tumor Study of Oral EPI-506 for Patients With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5611,
+                    "therapyName": "EPI-506",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02625857",
+            "title": "Safety & Immunogenicity of JNJ-64041809, a Live Attenuated Double-deleted Listeria Immunotherapy, in Participants With Metastatic Castration-resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4889,
+                    "therapyName": "JNJ-64041809",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02643667",
+            "title": "A Study of Ibrutinib as Neoadjuvant Therapy in Localized Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02677896",
+            "title": "A Study of Enzalutamide Plus Androgen Deprivation Therapy (ADT) Versus Placebo Plus ADT in Patients With Metastatic Hormone Sensitive Prostate Cancer (mHSPC)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02685267",
+            "title": "Docetaxel/Prednisone Versus Docetaxel/Prednisone and Enzalutamide in Castration-Resistant Prostate Cancer (Doce/Enza)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4681,
+                    "therapyName": "Docetaxel + Enzalutamide + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2462,
+                    "therapyName": "Docetaxel + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02685397",
+            "title": "Management of Castration-Resistant Prostate Cancer With Oligometastases",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2050,
+                    "therapyName": "Triptorelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02703623",
+            "title": "A Dynamic Allocation Modular Sequential Trial of Approved and Promising Therapies in Men With Metastatic Castrate Resistant Prostate Cancer (DynaMO)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2649,
+                    "therapyName": "Abiraterone + Apalutamide + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 3844,
+                    "therapyName": "Cabazitaxel + Carboplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02716974",
+            "title": "A Study of Definitive Therapy to Treat Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3945,
+                    "therapyName": "Bicalutamide + Docetaxel + Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02721979",
+            "title": "ARN-509 in Treating Patients With Prostate Cancer Who Are in Active Surveillance",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02758132",
+            "title": "Denosumab Plus Enzalutamide, Abiraterone and Prednisone Compared to Denosumab Plus Enzalutamide Alone for Men With Castrate Resistant Prostate Cancer (CRPC) With Bone Metastases",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 4182,
+                    "therapyName": "Abiraterone + Denosumab + Enzalutamide + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 4183,
+                    "therapyName": "Denosumab + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02768363",
+            "title": "Randomized Controlled Trial of ProstAtak Immunotherapy During Active Surveillance for Prostate Cancer (ULYSSES)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5172,
+                    "therapyName": "AdV-tk + Valacyclovir",
+                    "synonyms": null
+                },
+                {
+                    "id": 5171,
+                    "therapyName": "Valacyclovir",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02770391",
+            "title": "ARN-509 and Leuprolide in Intermediate and High-risk Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4207,
+                    "therapyName": "Apalutamide + Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02772588",
+            "title": "AASUR in High Risk Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4206,
+                    "therapyName": "Abiraterone + Apalutamide + Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02787005",
+            "title": "Study of Pembrolizumab (MK-3475) in Participants With Metastatic Castration-Resistant Prostate Cancer (mCRPC) Previously Treated With Chemotherapy (MK-3475-199/KEYNOTE-199)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02788773",
+            "title": "Durvalumab With or Without Tremelimumab in Metastatic Castration Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02793219",
+            "title": "Provenge Followed by Docetaxel in Castration-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4270,
+                    "therapyName": "Docetaxel + Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02793765",
+            "title": "Docetaxel Followed by Provenge in Metastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4270,
+                    "therapyName": "Docetaxel + Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02799602",
+            "title": "ODM-201 in Addition to Standard ADT and Docetaxel in Metastatic Castration Sensitive Prostate Cancer (ARASENS)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 836,
+                    "therapyName": "Darolutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 4921,
+                    "therapyName": "Darolutamide + Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02799745",
+            "title": "A Randomized Study of Enzalutamide in Patients With Localized Prostate Cancer Undergoing Active Surveillance (ENACT) (ENACT)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02805894",
+            "title": "NBTXR3 Nanoparticles and EBRT or EBRT With Brachytherapy in the Treatment of Prostate Adenocarcinoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9411,
+                    "therapyName": "NBTXR3",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02811809",
+            "title": "Apalutamide Plus Intermittent Hormone Therapy Versus Intermittent Hormone Therapy Alone in Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 4207,
+                    "therapyName": "Apalutamide + Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02814669",
+            "title": "Safety and Tolerability of Atezolizumab (ATZ) in Combination With Radium-223 Dichloride (R-223-D) in Metastatic Castrate-Resistant Prostate Cancer (CRPC) Progressed Following Treatment With an Androgen Pathway Inhibitor",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4881,
+                    "therapyName": "Atezolizumab + Radium Ra 223 dichloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02849990",
+            "title": "Androgen Receptor Antagonist ARN-509, Abiraterone Acetate, Prednisone, Degarelix, and Indomethacin in Treating Patients With Localized Prostate Cancer Before Surgery",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4510,
+                    "therapyName": "Abiraterone + Apalutamide + Degarelix + Indomethacin + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02861573",
+            "title": "Study of Pembrolizumab (MK-3475) Combination Therapies in Metastatic Castration-Resistant Prostate Cancer (MK-3475-365/KEYNOTE-365)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5343,
+                    "therapyName": "Dexamethasone + Docetaxel + Pembrolizumab + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 5342,
+                    "therapyName": "Olaparib + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2666,
+                    "therapyName": "Enzalutamide + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02893917",
+            "title": "Olaparib With or Without Cediranib in Treating Patients With Metastatic Hormone-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1971,
+                    "therapyName": "Cediranib + Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02903160",
+            "title": "Prostate Cancer Intensive, Non-Cross Reactive Therapy (PRINT) for Castration Resistant Prostate Cancer (CRPC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4759,
+                    "therapyName": "Abiraterone + Cabazitaxel + Carboplatin + Enzalutamide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02903368",
+            "title": "Neoadjuvant And Adjuvant Abiraterone Acetate + Aptilutamide Prostate Cancer Undergoing Prostatectomy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3079,
+                    "therapyName": "Abiraterone + Leuprolide + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 4758,
+                    "therapyName": "Abiraterone + Apalutamide + Leuprolide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02905318",
+            "title": "Palbociclib in Patients With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02906605",
+            "title": "A Study of the Clinical Activity and Safety of JNJ-64041809, a Live Attenuated Listeria Monocytogenes Immunotherapy, in Combination With Apalutamide Versus Apalutamide in Subjects With Metastatic Castration-resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 4890,
+                    "therapyName": "Apalutamide + JNJ-64041809",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02913196",
+            "title": "Phase I Trial of Apalutamide Plus Abiraterone Acetate, Docetaxel, and Prednisone in Patients With mCRPC",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4767,
+                    "therapyName": "Abiraterone + Apalutamide + Docetaxel + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02923180",
+            "title": "Neoadjuvant Enoblituzumab (MGA271) in Men With Localized Intermediate and High-Risk Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2863,
+                    "therapyName": "MGA271",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02949284",
+            "title": "Androgen Receptor Antagonist ARN-509 With or Without Abiraterone Acetate, Gonadotropin-Releasing Hormone Analog, and Prednisone in Treating Patients With High-Risk Prostate Cancer Undergoing Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2649,
+                    "therapyName": "Abiraterone + Apalutamide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02952534",
+            "title": "A Study of Rucaparib in Patients With MetA Study of Rucaparib in Patients With Metastatic Castration-resistant Prostate Cancer and Homologous Recombination Gene Deficiency (TRITON2)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 906,
+                    "therapyName": "Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02987829",
+            "title": "A Phase 1/2A Study of TRC253, an Androgen Receptor Antagonist, in Metastatic Castration-resistant Prostate Cancer Patients",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5770,
+                    "therapyName": "TRC253",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02991911",
+            "title": "A Phase 1/1b Study of MEDI3726 in Adults Subjects With Metastatic Castration Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5217,
+                    "therapyName": "Enzalutamide + MEDI3726",
+                    "synonyms": null
+                },
+                {
+                    "id": 5216,
+                    "therapyName": "MEDI3726",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02995330",
+            "title": "Sex-Mismatched Allogeneic Bone Marrow Transplantation for Men With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8219,
+                    "therapyName": "Cyclophosphamide + Filgrastim + Mycophenolate mofetil + Tacrolimus + Testosterone cypionate",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03007732",
+            "title": "Pembrolizumab in Combination With Intratumoral SD-101 Therapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5166,
+                    "therapyName": "Pembrolizumab + SD-101",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03009981",
+            "title": "A Study of Androgen Annihilation in High-Risk Biochemically Relapsed Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5523,
+                    "therapyName": "Abiraterone + Apalutamide + Degarelix + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 5524,
+                    "therapyName": "Apalutamide + Degarelix",
+                    "synonyms": null
+                },
+                {
+                    "id": 1814,
+                    "therapyName": "Degarelix",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03012321",
+            "title": "Abiraterone Acetate, Olaparib, and Prednisone in Treating Patients With Metastatic Hormone-Resistant Prostate Cancer With DNA Repair Defects",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5226,
+                    "therapyName": "Abiraterone + Olaparib + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03016312",
+            "title": "IMbassador250: A Study of Atezolizumab (Anti-PD-L1 Antibody) in Combination With Enzalutamide in Participants With Metastatic Castration-Resistant Prostrate Cancer (mCRPC) After Failure of an Androgen Synthesis Inhibitor And Failure of, Ineligibility For, or Refusal of a Taxane Regimen",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5204,
+                    "therapyName": "Atezolizumab + Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03024216",
+            "title": "Clinical Study of Atezolizumab (Anti-PD-L1) and Sipuleucel-T in Patients Who Have Asymptomatic or Minimally Symptomatic Metastatic Castrate Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5642,
+                    "therapyName": "Atezolizumab + Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03030885",
+            "title": "Use of an Experimental Radiopharmaceutical (131I-MIP-1095) in Men With Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5804,
+                    "therapyName": "131I-MIP-1095",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03042468",
+            "title": "Phase I Dose-escalation Study of Fractionated 177Lu-PSMA-617 for Progressive Metastatic CRPC",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7806,
+                    "therapyName": "177Lu-PSMA-617",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03043807",
+            "title": "A Study of Definitive Therapy to Treat Prostate Cancer After Prostatectomy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3945,
+                    "therapyName": "Bicalutamide + Docetaxel + Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03047135",
+            "title": "Olaparib in Men With High-Risk Biochemically-Recurrent Prostate Cancer Following Radical Prostatectomy, With Integrated Biomarker Analysis",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03070886",
+            "title": "Antiandrogen Therapy and Radiation Therapy With or Without Docetaxel in Treating Patients With Prostate Cancer That Has Been Removed by Surgery",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5450,
+                    "therapyName": "Bicalutamide + Docetaxel + Flutamide + Goserelin + Leuprolide + Nilutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 5449,
+                    "therapyName": "Bicalutamide + Flutamide + Goserelin + Leuprolide + Nilutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03072238",
+            "title": "Ipatasertib Plus Abiraterone Plus Prednisone/Prednisolone, Relative to Placebo Plus Abiraterone Plus Prednisone/Prednisolone in Adult Male Patients With Metastatic Castrate-Resistant Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 5438,
+                    "therapyName": "Abiraterone + Ipatasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03076203",
+            "title": "Radium Ra 223 Dichloride and Niraparib in Treating Patients With Hormone- Resistant Prostate Cancer Metastatic to the Bone",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5436,
+                    "therapyName": "Niraparib + Radium Ra 223 dichloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03085095",
+            "title": "A Study to Evaluate the Safety and Efficacy of Relugolix in Men With Advanced Prostate Cancer (HERO)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5492,
+                    "therapyName": "Relugolix",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03093272",
+            "title": "A Study of Docetaxel + ARN-509 in Castration-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 5521,
+                    "therapyName": "Apalutamide + Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03093428",
+            "title": "Study Evaluating the Addition of Pembrolizumab to Radium-223 in mCRPC",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5542,
+                    "therapyName": "Pembrolizumab + Radium Ra 223 dichloride",
+                    "synonyms": null
+                },
+                {
+                    "id": 2001,
+                    "therapyName": "Radium Ra 223 dichloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03098836",
+            "title": "Apalutamide and Abiraterone Acetate in African American and Caucasian Men With Metastatic Castrate Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2649,
+                    "therapyName": "Abiraterone + Apalutamide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03147196",
+            "title": "Bicalutamide and Raloxifene Hydrochloride in Treating Patients With Prostate Cancer Undergoing Surgery",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 5686,
+                    "therapyName": "Bicalutamide + Raloxifene",
+                    "synonyms": null
+                },
+                {
+                    "id": 5685,
+                    "therapyName": "Raloxifene",
+                    "synonyms": null
+                },
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03148795",
+            "title": "A Study of Talazoparib in Men With DNA Repair Defects and Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 682,
+                    "therapyName": "Talazoparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03150056",
+            "title": "Dose Escalation and Dose Expansion Study of GSK525762 in Combination With Androgen Deprivation Therapy and Other Agents in Subjects With Castrate-resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6034,
+                    "therapyName": "Abiraterone + GSK525762",
+                    "synonyms": null
+                },
+                {
+                    "id": 6035,
+                    "therapyName": "Enzalutamide + GSK525762",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03177460",
+            "title": "Daratumumab or FMS Inhibitor JNJ-40346527 Before Surgery in Treating Patients With High-Risk, Resectable Localized or Locally Advanced Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1630,
+                    "therapyName": "Daratumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2839,
+                    "therapyName": "JNJ-40346527",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03204812",
+            "title": "Tremelimumab + Durvalumab Chemotherapy Naive CRPC",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03248570",
+            "title": "Pembrolizumab in Metastatic Castration Resistant Prostate Cancer (mCRPC) With or Without DNA Damage Repair Defects",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03262103",
+            "title": "Neoadjuvant Hiltonol (PolyICLC) for Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03279250",
+            "title": "Effects of Apalutamide Plus LHRH Agonist or Apalutamide Plus Abiraterone Acetate Plus LHRH Agonist for Six Months for Prostate Cancer Patients at High Risk for Recurrence",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2050,
+                    "therapyName": "Triptorelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2649,
+                    "therapyName": "Abiraterone + Apalutamide + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03298087",
+            "title": "Systemic and Tumor-Directed Therapy for Oligometastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4206,
+                    "therapyName": "Abiraterone + Apalutamide + Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03300505",
+            "title": "ARRx in Combination With Enzalutamide in Metastatic Castration Resistant Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8221,
+                    "therapyName": "AZD5312 + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03317392",
+            "title": "Olaparib and Radium Ra 223 Dichloride in Treating Men With Metastatic Castration-Resistant Prostate Cancer That Has Spread to the Bone",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03338790",
+            "title": "An Investigational Immunotherapy Study of Nivolumab in Combination With Rucaparib, Docetaxel, or Enzalutamide in Metastatic Castration-resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6451,
+                    "therapyName": "Enzalutamide + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6450,
+                    "therapyName": "Nivolumab + Rucaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5288,
+                    "therapyName": "Docetaxel + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03360721",
+            "title": "Study of Apalutamide and Abiraterone Acetate in Castration-Resistant Bone Metastatic Prostate Cancer Patients",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2649,
+                    "therapyName": "Abiraterone + Apalutamide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03361735",
+            "title": "Radium Ra 223 Dichloride, Hormone Therapy and Stereotactic Body Radiation Therapy in Treating Patients With Metastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6494,
+                    "therapyName": "Leuprolide + Radium Ra 223 dichloride",
+                    "synonyms": null
+                },
+                {
+                    "id": 6495,
+                    "therapyName": "Goserelin + Radium Ra 223 dichloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03365791",
+            "title": "PDR001 Plus LAG525 for Patients With Advanced Solid and Hematologic Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2887,
+                    "therapyName": "LAG525",
+                    "synonyms": null
+                },
+                {
+                    "id": 2659,
+                    "therapyName": "Spartalizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03371719",
+            "title": "Radiation Therapy With or Without Apalutamide in Treating Patients With Stage III-IV Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03385655",
+            "title": "Prostate Cancer Biomarker Enrichment and Treatment Selection",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2161,
+                    "therapyName": "Savolitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 836,
+                    "therapyName": "Darolutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 822,
+                    "therapyName": "Adavosertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03395197",
+            "title": "Talazoparib + NHT vs. NHT Monotherapy in DDR+ mCRPC (TALAPRO-2)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 682,
+                    "therapyName": "Talazoparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03406858",
+            "title": "Pembrolizumab and HER2Bi-Armed Activated T Cells in Treating Patients With Metastatic Castration Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03412396",
+            "title": "Single Arm Study of 6-Months Neoadjuvant ARN-509 Prior to Radical Prostatectomy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03413995",
+            "title": "Trial of Rucaparib in Patients With Metastatic Hormone-Sensitive Prostate Cancer Harboring Germline DNA Repair Gene Mutations (TRIUMPH)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 906,
+                    "therapyName": "Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03414034",
+            "title": "PCM-075 in Combination With Abiraterone and Prednisone in Adult Patients With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7067,
+                    "therapyName": "Abiraterone + PCM-075 + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03419234",
+            "title": "Abiraterone Acetate and Antiandrogen Therapy With or Without Cabazitaxel and Prednisone in Treating Patients With Metastatic, Hormone-Sensitive Prostate Cancer Previously Treated With Docetaxel",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 6653,
+                    "therapyName": "Abiraterone + Cabazitaxel + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03431350",
+            "title": "A Study of Niraparib Combination Therapies for the Treatment of Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6692,
+                    "therapyName": "JNJ-63723283 + Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03432897",
+            "title": "BrUOG 337: Olaparib Prior to Radical Prostatectomy For Patients With Locally Advanced Prostate Cancer and Defects in DNA Repair Genes (337)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03436654",
+            "title": "A Study of Hormonal Therapy and Apalutamide With or Without Abiraterone Acetate and Prednisone in Newly Diagnosed Prostate Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2649,
+                    "therapyName": "Abiraterone + Apalutamide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03437941",
+            "title": "Study to Evaluate CORT125281 in Combination With Enzalutamide in Patients With mCRPC",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6776,
+                    "therapyName": "CORT125281 + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03442556",
+            "title": "Docetaxel, Carboplatin, and Rucaparib Camsylate in Treating Patients With Metastatic Castration Resistant Prostate Cancer With Homologous Recombination DNA Repair Deficiency",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6786,
+                    "therapyName": "Carboplatin + Docetaxel + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03456804",
+            "title": "ESK981 in Treating Patients With Metastatic Castrate-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6782,
+                    "therapyName": "CEP-11981",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03465345",
+            "title": "Study of Metformin Plus Oligomeric Procyanidin Complex for Pharmacologic Manipulation of AGE (Advanced Glycation Endproducts) Levels in Prostate Cancer Patients",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 5908,
+                    "therapyName": "Metformin + OPC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03480646",
+            "title": "ProSTAR: A Study Evaluating CPI-1205 in Patients With Metastatic Castration Resistant Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 6867,
+                    "therapyName": "Abiraterone + CPI-1205 + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 6866,
+                    "therapyName": "CPI-1205 + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03503344",
+            "title": "Apalutamide With or Without Stereotactic Body Radiation Therapy in Treating Participants With Castration-Resistant Prostate Cancer (PILLAR)",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03511196",
+            "title": "Intermittent Androgen Deprivation Therapy for Stage IV Castration Sensitive Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2050,
+                    "therapyName": "Triptorelin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03516812",
+            "title": "Testosterone Enanthate and Olaparib in Treating Participants With Castration-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6924,
+                    "therapyName": "Olaparib + Testosterone Enanthate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03532217",
+            "title": "Neoantigen DNA Vaccine in Combination With Nivolumab/Ipilimumab and PROSTVAC in Metastatic Hormone-Sensitive Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4893,
+                    "therapyName": "Ipilimumab + Nivolumab + PROSTVAC-F/TRICOM + PROSTVAC-V/TRICOM",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03533946",
+            "title": "Rucaparib in Nonmetastatic prOstAte With BRCAness (ROAR)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 906,
+                    "therapyName": "Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03541928",
+            "title": "Phase II High Risk Prostate Cancer Trial Using Gene & Androgen Deprivation Therapies, Radiotherapy, & Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7041,
+                    "therapyName": "Bicalutamide + HSV-Tk + Leuprolide + Valacyclovir",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03545165",
+            "title": "177Lu-J591 and 177Lu-PSMA-617 Combination for mCRPC",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9762,
+                    "therapyName": "177Lu-J591 + 177Lu-PSMA-617",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03551782",
+            "title": "A Study of JNJ-63723283, a Programmed Cell Death Receptor-1 (PD-1) Inhibitor, Administered in Combination With Apalutamide in Participants With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7109,
+                    "therapyName": "Apalutamide + JNJ-63723283",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03554317",
+            "title": "COMbination of Bipolar Androgen Therapy and Nivolumab",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7139,
+                    "therapyName": "Nivolumab + Testosterone cypionate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03556904",
+            "title": "FOcal Radiation for Oligometastatic Castration-rEsistant Prostate Cancer (FORCE)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7077,
+                    "therapyName": "Abiraterone + Docetaxel + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03565835",
+            "title": "Abiraterone With Discontinuation of Gonadotropin-Releasing Hormone Analogues in Metastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03570476",
+            "title": "Olaparib Before Surgery in Treating Participants With Localized Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03570619",
+            "title": "Immunotherapy iImmunotherapy in Patients With Metastatic Cancers and CDK12 Mutations (IMPACT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03572387",
+            "title": "A Pilot Study of 5-AZA and ATRA for Prostate Cancer With PSA-only Recurrence After Local Treatment",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7149,
+                    "therapyName": "Azacitidine + Leuprolide + Tretinoin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03577028",
+            "title": "Study of HPN424 in Patients With Advanced Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7328,
+                    "therapyName": "HPN424",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03600350",
+            "title": "pTVG-HP and Nivolumab in Patients With Non-Metastatic PSA-Recurrent Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 7508,
+                    "therapyName": "Nivolumab + pTVG-HP plasmid DNA vaccine + Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03637543",
+            "title": "Nivolumab in Patients With High-Risk Biochemically Recurrent Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03649841",
+            "title": "Effects of Antiandrogen Therapy, Abiraterone Acetate, and Prednisone With or Without Radiation on Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 7403,
+                    "therapyName": "Abiraterone + Prednisone + Radiotherapy",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03678025",
+            "title": "Standard Systemic Therapy With or Without Definitive Treatment in Treating Participants With Metastatic Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1506,
+                    "therapyName": "Nilutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2050,
+                    "therapyName": "Triptorelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1814,
+                    "therapyName": "Degarelix",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 742,
+                    "therapyName": "Flutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2047,
+                    "therapyName": "Histrelin acetate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03686683",
+            "title": "Open- Label Trial of Sipuleucel-T Administered to Active Surveillance Patients for Newly Diagnosed Prostate Cancer (ProVent)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2648,
+                    "therapyName": "Sipuleucel-T",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03690141",
+            "title": "A Study Examining the Effect of Tomivosertib (eFT508) in Patients With Advanced Castrate-resistant Prostate Cancer (CRPC)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4005,
+                    "therapyName": "Tomivosertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03693612",
+            "title": "GSK3359609 Plus Tremelimumab for the Treatment of Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7628,
+                    "therapyName": "GSK3359609 + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03706365",
+            "title": "A Study of Abiraterone Acetate Plus Prednisone With or Without Abemaciclib (LY2835219) in Participants With Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7437,
+                    "therapyName": "Abemaciclib + Abiraterone + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03712930",
+            "title": "Treatment of Patients With Metastatic Castration-Resistant Prostate Cancer With Homologous Recombination Deficiency",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2947,
+                    "therapyName": "Pamiparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03724747",
+            "title": "Study to Evaluate the Safety, Tolerability,Pharmacokinetics, and Anti-tumor Activity of a Thorium-227 Labeled Antibody-chelator Conjugate, in Patients With Metastatic Castration Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7573,
+                    "therapyName": "BAY 2315497",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03725761",
+            "title": "IMMU-132 in Patients With Metastatic Castration-Resistant Prostate Cancer Progressing on Second Generation AR-Directed Therapy",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 3227,
+                    "therapyName": "Sacituzumab govitecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03732820",
+            "title": "Study on Olaparib Plus Abiraterone as First-line Therapy in Men With Metastatic Castration-resistant Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1805,
+                    "therapyName": "Abiraterone",
+                    "synonyms": null
+                },
+                {
+                    "id": 7168,
+                    "therapyName": "Abiraterone + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03734653",
+            "title": "Testosterone Therapy in Castration Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7462,
+                    "therapyName": "Enzalutamide + Testosterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03748641",
+            "title": "A Study of Niraparib in Combination With Abiraterone Acetate and Prednisone Versus Abiraterone Acetate and Prednisone for Treatment of Participants With Metastatic Prostate Cancer",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7584,
+                    "therapyName": "Abiraterone + Niraparib + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03753243",
+            "title": "Neoadjuvant Pembrolizumab Plus Androgen Axis Blockade Prior to Prostatectomy for High Risk Localized Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2666,
+                    "therapyName": "Enzalutamide + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03767244",
+            "title": "A Study of Apalutamide in Participants With High-Risk, Localized or Locally Advanced Prostate Cancer Who Are Candidates for Radical Prostatectomy",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1947,
+                    "therapyName": "Apalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1948,
+                    "therapyName": "Abiraterone + Apalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03770455",
+            "title": "Phase II Trial of Avelumab Plus 2nd-generation ADT in African American Subjects With mCRPC",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7634,
+                    "therapyName": "Avelumab + Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 7633,
+                    "therapyName": "Abiraterone + Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03787680",
+            "title": "Targeting Resistant Prostate Cancer With ATR and PARP Inhibition (TRAP Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4739,
+                    "therapyName": "AZD6738 + Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03805594",
+            "title": "177Lu-PSMA-617 and Pembrolizumab in Treating Patients With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7814,
+                    "therapyName": "177Lu-PSMA-617 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03809000",
+            "title": "A Trial to See What the Results Are for Radiation Therapy and Hormone Therapy vs Radiation Therapy With Enhanced Hormone Therapy With Enzalutamide for Patients With PSA Recurrence After Surgery (STEEL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03821246",
+            "title": "Neoadjuvant Atezolizumab With or Without Enzalutamide in Localized Prostate Cancer Given Before Radical Prostatectomy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7438,
+                    "therapyName": "Atezolizumab + Emactuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5204,
+                    "therapyName": "Atezolizumab + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03821792",
+            "title": "Abiraterone Acetate, Prednisone, and Apalutamide in Treating Patients With Hormone-Naive Metastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2649,
+                    "therapyName": "Abiraterone + Apalutamide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03827473",
+            "title": "Docetaxel or Abiraterone Acetate With ADT in Treating Patients With Metastatic Hormone Sensitive Prostate Cancer (ACADEMIC)",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03829930",
+            "title": "Combination of Entinostat and Enzalutamide in Advanced Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8661,
+                    "therapyName": "Entinostat + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03833921",
+            "title": "Evaluation of Response to Abiraterone/Prednisone by Race/Ethnicity and Other Factors in Metastatic Hormone Naive Prostate Cancer (APRE)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03834493",
+            "title": "Study of Pembrolizumab (MK-3475) Plus Enzalutamide Versus Placebo Plus Enzalutamide in Participants With Metastatic Castration-resistant Prostate Cancer (mCRPC) (MK-3475-641/KEYNOTE-641)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2666,
+                    "therapyName": "Enzalutamide + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03834506",
+            "title": "Study of Pembrolizumab (MK-3475) Plus Docetaxel Versus Placebo Plus Docetaxel in Chemotherapy-na\u00efve Metastatic Castration-resistant Prostate Cancer (mCRPC) (MK-3475-921/KEYNOTE-921)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2462,
+                    "therapyName": "Docetaxel + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 5343,
+                    "therapyName": "Dexamethasone + Docetaxel + Pembrolizumab + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03834519",
+            "title": "Study of Pembrolizumab (MK-3475) Plus Olaparib Versus Abiraterone Acetate or Enzalutamide in Metastatic Castration-resistant Prostate Cancer (mCRPC) (MK-7339-010/KEYLYNK-010) (KEYLYNK-010)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 5342,
+                    "therapyName": "Olaparib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03837353",
+            "title": "A Parallel Arm Phase 1b/2a Study of DKN-01 as Monotherapy or in Combination With Docetaxel for the Treatment of Advanced Prostate Cancer With Elevated DKK1",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6244,
+                    "therapyName": "DKN-01",
+                    "synonyms": null
+                },
+                {
+                    "id": 8989,
+                    "therapyName": "DKN-01 + Docetaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03840200",
+            "title": "A Study Evaluating the Safety, Pharmacokinetics and Efficacy of Ipatasertib Administered in Combination With Rucaparib in Participants With Advanced Breast, Ovarian Cancer, and Prostate Cancer.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7867,
+                    "therapyName": "Ipatasertib + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03861403",
+            "title": "A Dose Escalation and Expansion Study of TRX518 in Combination With Cyclophosphamide Plus Avelumab in Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8446,
+                    "therapyName": "Avelumab + Cyclophosphamide + TRX518",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03886493",
+            "title": "Neoadjuvant Dupilumab in Men With Localized High-Risk Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9772,
+                    "therapyName": "Dupilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03888612",
+            "title": "A Phase 1 Clinical Trial of ARV-110 in Patients With Metastatic Castration-resistant Prostate Cancer. (mCRPC)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8434,
+                    "therapyName": "ARV-110",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03899987",
+            "title": "Aspirin and Rintatolimod With or Without Interferon-alpha 2b in Treating Patients With Prostate Cancer Before Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8135,
+                    "therapyName": "Aspirin + Rintatolimod",
+                    "synonyms": null
+                },
+                {
+                    "id": 8134,
+                    "therapyName": "Aspirin + Interferon alpha-2b + Rintatolimod",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03902951",
+            "title": "Antiandrogen Therapy and SBRT in Treating Patients With Recurrent, Metastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 4206,
+                    "therapyName": "Abiraterone + Apalutamide + Leuprolide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03926013",
+            "title": "A Study of JNJ-63898081 in Participants With Advanced Stage Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9731,
+                    "therapyName": "JNJ-63898081",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03939689",
+            "title": "Study of I-131-1095 Radiotherapy in Combination With Enzalutamide in Patients With Metastatic Castration-resistant Prostate Cancer Who Are Chemotherapy Naive and Have Progressed on Abiraterone (ARROW)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 8357,
+                    "therapyName": "131I-MIP-1095 + Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03964337",
+            "title": "Immediate Prostatectomy vs. Cabozantinib Followed by Prostatectomy in Men With High-Risk Prostate Cancer (SPARC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03972657",
+            "title": "Study of REGN5678 (Anti-PSMAxCD28) With Cemiplimab (Anti-PD-1) in Patients With Metastatic Castration-resistant Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8596,
+                    "therapyName": "Cemiplimab + REGN5678",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03999515",
+            "title": "Erdafitinib and Abiraterone Acetate or Enzalutamide in Treating Patients With Double Negative Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8502,
+                    "therapyName": "Enzalutamide + Erdafitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8503,
+                    "therapyName": "Abiraterone + Erdafitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04019327",
+            "title": "A Study of the Drugs Talazoparib and Temozolomide in Prostate Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1377,
+                    "therapyName": "Talazoparib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04025372",
+            "title": "INTREPId (INTermediate Risk Erection PreservatIon Trial)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1507,
+                    "therapyName": "Bicalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 836,
+                    "therapyName": "Darolutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04033328",
+            "title": "Study of ORIC-101 in Combination With Enzalutamide",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8883,
+                    "therapyName": "Enzalutamide + ORIC-101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04033432",
+            "title": "sEphB4-HSA in Treating Patients With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3013,
+                    "therapyName": "sEphB4-HSA",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04037254",
+            "title": "Niraparib With Standard Combination Radiation Therapy and Androgen Deprivation Therapy in Treating Patients With High Risk Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04060394",
+            "title": "Dose-Escalation and Efficacy Study of LAE001/Prednisone Plus Afuresertib Patients With m-CRPC",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8743,
+                    "therapyName": "Afuresertib + LAE001 + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 625,
+                    "therapyName": "Afuresertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04090528",
+            "title": "pTVG-HP DNA Vaccine With or Without pTVG-AR DNA Vaccine and Pembrolizumab in Patients With Castration-Resistant, Metastatic Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 8747,
+                    "therapyName": "Pembrolizumab + pTVG-AR  + pTVG-HP plasmid DNA vaccine + Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 8746,
+                    "therapyName": "Pembrolizumab + pTVG-HP plasmid DNA vaccine + Sargramostim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04090775",
+            "title": "A Phase 2 Trial for Men With Metastatic Prostatic Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8748,
+                    "therapyName": "Cyclophosphamide + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04100018",
+            "title": "A Study of Nivolumab or Placebo in Combination With Docetaxel in Men With Advanced Castration-resistant Prostate Cancer (CheckMate 7DX)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8751,
+                    "therapyName": "Docetaxel + Nivolumab + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2462,
+                    "therapyName": "Docetaxel + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04104893",
+            "title": "A Single-arm, Open-label, Phase II Study of CHeckpoint Inhibitors in Men With prOgressive Metastatic Castrate Resistant Prostate Cancer Characterized by a Mismatch Repair Deficiency or Biallelic CDK12 Inactivation (CHOMP)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04116775",
+            "title": "Fecal Microbiota Transplant and Pembrolizumab for Men With Metastatic Castration Resistant Prostate Cancer.",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2666,
+                    "therapyName": "Enzalutamide + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04126070",
+            "title": "Nivolumab + Docetaxel + ADT in Metastatic Hormone Sensitive Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5288,
+                    "therapyName": "Docetaxel + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 759,
+                    "therapyName": "Goserelin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1814,
+                    "therapyName": "Degarelix",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04157088",
+            "title": "Study to Compare the Effects of Drug Darolutamide and Drug Enzalutamide on Physical Function, Including Balance and Daily Activity, in Patients With Castration-resistant Prostate Cancer (CRPC) (DaroAcT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 836,
+                    "therapyName": "Darolutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04175431",
+            "title": "Fluciclovine (FACBC) PET/CT Site-Directed Therapy for Treatment of Prostate Cancer, Flu-BLAST-PC Study",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04176081",
+            "title": "Study of Radiation Therapy in Combination With Darolutamide + Degarelix in Intermediate Risk Prostate Cancer (SChLAP/IDC)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8995,
+                    "therapyName": "Darolutamide + Degarelix",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04179396",
+            "title": "Study of Oral Rucaparib With Other Anticancer Agents in Metastatic Castration Resistant Prostate Cancer Patients (RAMP) (RAMP)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9243,
+                    "therapyName": "Enzalutamide + Rucaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 9244,
+                    "therapyName": "Abiraterone + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04179864",
+            "title": "A Phase 1b/2 Open-Label Study in Chemotherapy Naive Subjects With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9004,
+                    "therapyName": "Enzalutamide + Tazemetostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 9003,
+                    "therapyName": "Abiraterone + Prednisone + Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04191096",
+            "title": "Efficacy and Safety of Pembrolizumab (MK-3475) Plus Enzalutamide Plus Androgen Deprivation Therapy (ADT) Versus Placebo Plus Enzalutamide Plus ADT in Participants With Metastatic Hormone-Sensitive Prostate Cancer (mHSPC) (MK-3475-991/KEYNOTE-991)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2666,
+                    "therapyName": "Enzalutamide + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04194554",
+            "title": "A Multi-Center Trial of Androgen Suppression With Abiraterone Acetate, Leuprolide, PARP Inhibition and Stereotactic Body Radiotherapy in Prostate Cancer (ASCLEPIuS)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9066,
+                    "therapyName": "Abiraterone + Leuprolide + Niraparib + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04207255",
+            "title": "Addition of Opaganib to Androgen Antagonists in Patients With mCRPC",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9511,
+                    "therapyName": "ABC294640 + Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 9510,
+                    "therapyName": "ABC294640 + Abiraterone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04237584",
+            "title": "A Study Comparing ARB With Radium-223 vs ARB Therapy With Placebo and the Effect Upon Survival for mCRPC Patients (ESCALATE)",
+            "phase": "Phase III",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 836,
+                    "therapyName": "Darolutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 9267,
+                    "therapyName": "Darolutamide + Radium Ra 223 dichloride",
+                    "synonyms": null
+                },
+                {
+                    "id": 1262,
+                    "therapyName": "Enzalutamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 6479,
+                    "therapyName": "Enzalutamide + Radium Ra 223 dichloride",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04262154",
+            "title": "Study of Abiraterone Acetate, Atezolizumab, Lupron, and Radiation Therapy in Men With Newly Diagnosed Hormone-sensitive Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9354,
+                    "therapyName": "Abiraterone + Atezolizumab + Leuprolide + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04272645",
+            "title": "Abemaciclib With or Without Atezolizumab in Metastatic Castration Resistant Prostate Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9404,
+                    "therapyName": "Abemaciclib + Atezolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04288687",
+            "title": "A Trial of Niraparib in Platinum-Sensitive Castration-Resistant Prostate Cancer With DNA Repair Defects",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 832,
+                    "therapyName": "Niraparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04291664",
+            "title": "PK and Dose Escalation and Expansion Study of DST-2970",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2748,
+                    "therapyName": "Abiraterone + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 9452,
+                    "therapyName": "DST-2970 + Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04296578",
+            "title": "Study Evaluating Sodium Selenite in Combination With Abiraterone in Castrate Resistant Prostate Cancer Progressing on Abiraterone",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9462,
+                    "therapyName": "Abiraterone + Prednisone + Sodium Selenite",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04301414",
+            "title": "Non-fucosylated Anti-CTLA-4 (BMS-986218) + Degarelix Acetate vs. Degarelix Acetate Alone in Men With High-risk Localized Prostate Cancer (Neo-Red-P)",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9513,
+                    "therapyName": "BMS-986218 + Degarelix",
+                    "synonyms": null
+                },
+                {
+                    "id": 1814,
+                    "therapyName": "Degarelix",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

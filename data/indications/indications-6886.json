@@ -1,0 +1,93 @@
+{
+    "id": 6886,
+    "name": "ureter small cell carcinoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:6886",
+    "evidence": [
+        {
+            "id": 1137,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with metastatic small cell cancer of the ureter harboring RAD50 L1237F achieved a complete and durable response to Camptosar (irinotecan) plus AZD7762 treatment (PMID: 24934408).",
+            "molecularProfile": {
+                "id": 1972,
+                "profileName": "RAD50 L1237F"
+            },
+            "therapy": {
+                "id": 1584,
+                "therapyName": "AZD7762 + Irinotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6886,
+                "name": "ureter small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 880,
+                    "pubMedId": 24934408,
+                    "title": "Synthetic lethality in ATM-deficient RAD50-mutant tumors underlies outlier response to cancer therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24934408"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03430895",
+            "title": "Evaluating Immune Therapy, Durvalumab (MEDI4736) With Tremelimumab for Metastatic, Non-transitional Cell Carcinoma of the Urinary Tract",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03582475",
+            "title": "Pembrolizumab With Combination Chemotherapy in Treating Participants With Locally Advanced or Metastatic Small Cell/Neuroendocrine Cancers of Urothelium or Prostate",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 7103,
+                    "therapyName": "Carboplatin + Docetaxel + Etoposide + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5145,
+                    "therapyName": "Cisplatin + Etoposide + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2604,
+                    "therapyName": "Carboplatin + Etoposide + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

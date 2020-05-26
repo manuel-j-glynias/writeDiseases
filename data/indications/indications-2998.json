@@ -1,0 +1,61 @@
+{
+    "id": 2998,
+    "name": "testicular cancer",
+    "source": "DOID",
+    "definition": "A male reproductive system cancer that is located_in the testicles. [url:http\\://www.cancer.gov/dictionary?CdrID=445090]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5554",
+        "12231"
+    ],
+    "termId": "DOID:2998",
+    "evidence": [
+        {
+            "id": 9894,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with testicular cancer demonstrated a metabolic response when treated with LY3039478 (European Journal of Cancer, Volume 69, S15).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2958,
+                "therapyName": "LY3039478",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2998,
+                "name": "testicular cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 8303,
+                    "pubMedId": null,
+                    "title": "First-in-human study of LY3039478, an oral Notch signaling inhibitor in advanced or metastatic cancer",
+                    "url": "http://www.sciencedirect.com/science/article/pii/S0959804916326326?via%3Dihub"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02721732",
+            "title": "Study for the Evaluation of Efficacy of Pembrolizumab (MK-3475) in Patients With Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

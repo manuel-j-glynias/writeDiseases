@@ -1,0 +1,237 @@
+{
+    "id": 1788,
+    "name": "peritoneal mesothelioma",
+    "source": "DOID",
+    "definition": "A peritoneum cancer that develops from cells of the mesothelium and is located_in the peritoneum. [url:http\\://en.wikipedia.org/wiki/Mesothelioma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "0050874",
+        "7954"
+    ],
+    "termId": "DOID:1788",
+    "evidence": [
+        {
+            "id": 4880,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a clinical study, overexpression of Rictor was predictive of poor survival in patients with malignant peritoneal mesothelioma (PMID: 20839315), suggesting that this may serve as a future prognostic biomarker.",
+            "molecularProfile": {
+                "id": 19444,
+                "profileName": "RICTOR over exp"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1788,
+                "name": "peritoneal mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4767,
+                    "pubMedId": 20839315,
+                    "title": "Activation of the phosphoinositide-3-kinase and mammalian target of rapamycin signaling pathways are associated with shortened survival in patients with malignant peritoneal mesothelioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20839315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4881,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 treatment resulted in suppression of PI3K and mTOR signaling and growth inhibition in patient-derived malignant peritoneal mesothelioma cell lines in culture (PMID: 20839315).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1788,
+                "name": "peritoneal mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4767,
+                    "pubMedId": 20839315,
+                    "title": "Activation of the phosphoinositide-3-kinase and mammalian target of rapamycin signaling pathways are associated with shortened survival in patients with malignant peritoneal mesothelioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20839315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6087,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Apitolisib (GDC-0980) treatment resulted in tumor regression in two patients with peritoneal mesothelioma (PMID: 26787751).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 750,
+                "therapyName": "GDC-0980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1788,
+                "name": "peritoneal mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4915,
+                    "pubMedId": 26787751,
+                    "title": "Phase I Study of Apitolisib (GDC-0980), Dual Phosphatidylinositol-3-Kinase and Mammalian Target of Rapamycin Kinase Inhibitor, in Patients with Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26787751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00996385",
+            "title": "Velcade and Eloxatin for Patients With Malignant Pleural or Peritoneal Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 3064,
+                    "therapyName": "Bortezomib + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02399371",
+            "title": "Pembrolizumab in Treating Patients With Malignant Mesothelioma",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639091",
+            "title": "Phase Ib Study of Anetumab Ravtansine in Combination With Pemetrexed and Cisplatin in Mesothelin-expressing Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4617,
+                    "therapyName": "Anetumab ravtansine + Cisplatin + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02824042",
+            "title": "Thorough ECG (Electrocardiogram) and Drug Interaction Study With Anetumab Ravtansine and Itraconazole",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4594,
+                    "therapyName": "Anetumab ravtansine + Itraconazole",
+                    "synonyms": null
+                },
+                {
+                    "id": 4593,
+                    "therapyName": "Anetumab ravtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074513",
+            "title": "Atezolizumab and Bevacizumab in Rare Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03319537",
+            "title": "Pevonedistat Alone and in Combination With Chemotherapy in Patients With Mesothelioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1688,
+                    "therapyName": "MLN4924",
+                    "synonyms": null
+                },
+                {
+                    "id": 6378,
+                    "therapyName": "Cisplatin + MLN4924 + Pemetrexed",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03399552",
+            "title": "Stereotactic Body Radiation Therapy and Avelumab Immunotherapy for Treatment of Malignant Mesothelioma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03436732",
+            "title": "Mesothelin-Targeted Immunotoxin LMB-100 in Combination With SEL-110 in Subjects With Malignant Pleural or Peritoneal Mesothelioma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6802,
+                    "therapyName": "LMB-100 + SVP-rapa",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03717415",
+            "title": "A Study of Rebastinib (DCC-2036) in Combination With Carboplatin in Patients With Advanced or Metastatic Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7426,
+                    "therapyName": "Carboplatin + Rebastinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

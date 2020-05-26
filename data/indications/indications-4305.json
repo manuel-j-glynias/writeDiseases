@@ -1,0 +1,110 @@
+{
+    "id": 4305,
+    "name": "bone giant cell tumor",
+    "source": "DOID",
+    "definition": "A giant cell tumor and bone cancer and bone tissue neoplasm that results_in the presence of multinucleated giant cells (osteoclast-like cell). [url:http\\://en.wikipedia.org/wiki/Giant_cell_tumor_of_bone]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4305",
+    "evidence": [
+        {
+            "id": 6931,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Velcade (Bortezomib) treatment resulted in decreased NF-kappaB signaling, increased apoptosis, and decreased growth of bone giant cell tumor cells in culture, and decreased bone giant cell tumor cell-mediated bone destruction in mouse models (PMID: 26861247).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 688,
+                "therapyName": "Bortezomib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4305,
+                "name": "bone giant cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5959,
+                    "pubMedId": 26861247,
+                    "title": "Bortezomib Inhibits Giant Cell Tumor of Bone through Induction of Cell Apoptosis and Inhibition of Osteoclast Recruitment, Giant Cell Formation, and Bone Resorption.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26861247"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7132,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial that supported FDA approval, Xgeva (denosumab) treatment resulted in an overall objective response rate of 25% (47/187) in patients with giant cell bone tumor, with a median duration of response of 20 months among patients demonstrating response (PMID: 25617146).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1198,
+                "therapyName": "Denosumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4305,
+                "name": "bone giant cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6103,
+                    "pubMedId": 25617146,
+                    "title": "Giant cell tumour of bone: new treatments in development.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25617146"
+                },
+                {
+                    "id": 15617,
+                    "pubMedId": null,
+                    "title": "Xgeva (denosumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125320"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00680992",
+            "title": "Study of Denosumab in Subjects With Giant Cell Tumor of Bone",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1198,
+                    "therapyName": "Denosumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03301857",
+            "title": "Long-term Safety Follow-up of Subjects With Giant Cell Tumor of Bone Treated With Denosumab in Study 20062004",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1198,
+                    "therapyName": "Denosumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

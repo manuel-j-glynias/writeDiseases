@@ -1,0 +1,397 @@
+{
+    "id": 50904,
+    "name": "salivary gland carcinoma",
+    "source": "DOID",
+    "definition": "A salivary gland cancer that has_material_basis_in epithelial cells. [url:http\\://en.wikipedia.org/wiki/Salivary_gland_neoplasm, url:http\\://www.cancer.gov/dictionary?CdrID=45963]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050904",
+    "evidence": [
+        {
+            "id": 9632,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with salivary duct carcinoma positive for ERBB2 and AR demonstrated sensitivity to the combination of Herceptin (trastuzumab), Paraplatin (carboplatin), and Taxotere (docetaxel), resulting in a partial response after 2 cycles of treatment (PMID: 27334835).",
+            "molecularProfile": {
+                "id": 26939,
+                "profileName": "AR pos ERBB2 pos"
+            },
+            "therapy": {
+                "id": 1485,
+                "therapyName": "Carboplatin + Docetaxel + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7355,
+                    "pubMedId": 27334835,
+                    "title": "Profiling of 149 Salivary Duct Carcinomas, Carcinoma Ex Pleomorphic Adenomas, and Adenocarcinomas, Not Otherwise Specified Reveals Actionable Genomic Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27334835"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9634,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, two patient with salivary duct carcinoma positive for AR and harboring NCOA4-RET demonstrated clinical efficacy when treated with Cometriq (Cabometyx, cabozantinib (PMID: 27334835).",
+            "molecularProfile": {
+                "id": 26940,
+                "profileName": "NCOA4 - RET AR pos"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7355,
+                    "pubMedId": 27334835,
+                    "title": "Profiling of 149 Salivary Duct Carcinomas, Carcinoma Ex Pleomorphic Adenomas, and Adenocarcinomas, Not Otherwise Specified Reveals Actionable Genomic Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27334835"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16235,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case report, combined Tafinlar (dabrafenib) and Mekinist (trametinib) treatment of a patient with salivary duct carcinoma harboring BRAF V600E resulted in a reduction of metastatic lesions and stable disease lasting 13 months followed by disease progression (PMID: 30323086).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14375,
+                    "pubMedId": 30323086,
+                    "title": "First-Line Treatment of Widely Metastatic BRAF-Mutated Salivary Duct Carcinoma With Combined BRAF and MEK Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30323086"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16239,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial (KEYNOTE-028), Keytruda (pembrolizumab) treatment resulted in an objective response rate of 12% (3/26) and a stable disease rate of 46% (12/26) in heavily pretreated patients with salivary gland carcinoma that had CD274 (PD-L1) expression in 1% or more of tumor or stroma cells by IHC, with a median duration of response of 4 months (PMID: 29462123; NCT02054806).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14381,
+                    "pubMedId": null,
+                    "title": "Preliminary results for the advanced salivary gland carcinoma cohort of the phase 1b KEYNOTE-028 study of pembrolizumab.",
+                    "url": "http://ascopubs.org/doi/abs/10.1200/JCO.2016.34.15_suppl.6017"
+                },
+                {
+                    "id": 14393,
+                    "pubMedId": 29462123,
+                    "title": "Pembrolizumab for the Treatment of Advanced Salivary Gland Carcinoma: Findings of the Phase 1b KEYNOTE-028 Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29462123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20580,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MyPathway) trial, Perjeta (pertuzumab) and Herceptin (trastuzumab) combination therapy resulted in an objective response rate of 60% (9/15, 1 complete response, 8 partial responses) and a clinical benefit rate of 67% (10/15) in patients with advanced salivary gland carcinoma harboring ERBB2 (HER2) amplification or overexpression, with a median progression- free survival of 8.6 months, and a median overall survival of 20.4 months (PMID: 32067683; NCT02091141).",
+            "molecularProfile": {
+                "id": 531,
+                "profileName": "ERBB2 amp"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17944,
+                    "pubMedId": 32067683,
+                    "title": "Targeted therapy for advanced salivary gland carcinoma based on molecular profiling: results from MyPathway, a phase IIa multiple basket study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32067683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20581,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MyPathway) trial, Perjeta (pertuzumab) and Herceptin (trastuzumab) combination therapy resulted in an objective response rate of 60% (9/15, 1 complete response, 8 partial responses) and a clinical benefit rate of 67% (10/15) in patients with advanced salivary gland carcinoma harboring ERBB2 (HER2) amplification or overexpression, with a median progression- free survival of 8.6 months, and a median overall survival of 20.4 months (PMID: 32067683; NCT02091141).",
+            "molecularProfile": {
+                "id": 1270,
+                "profileName": "ERBB2 over exp"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17944,
+                    "pubMedId": 32067683,
+                    "title": "Targeted therapy for advanced salivary gland carcinoma based on molecular profiling: results from MyPathway, a phase IIa multiple basket study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32067683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20582,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MyPathway) trial, Perjeta (pertuzumab) and Herceptin (trastuzumab) combination therapy resulted in stable disease in a patient with advanced salivary gland carcinoma harboring ERBB2 (HER2) S310F, with a progression-free survival of 11 months (PMID: 32067683; NCT02091141).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17944,
+                    "pubMedId": 32067683,
+                    "title": "Targeted therapy for advanced salivary gland carcinoma based on molecular profiling: results from MyPathway, a phase IIa multiple basket study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32067683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20583,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MyPathway) trial, Erivedge (vismodegib) treatment resulted in a partial response in a patient with advanced salivary gland carcinoma harboring PTCH1 Q400*, with a progression-free survival of 14.3 months (PMID: 32067683; NCT02091141).",
+            "molecularProfile": {
+                "id": 35248,
+                "profileName": "PTCH1 Q400*"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17944,
+                    "pubMedId": 32067683,
+                    "title": "Targeted therapy for advanced salivary gland carcinoma based on molecular profiling: results from MyPathway, a phase IIa multiple basket study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32067683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20584,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MyPathway) trial, Zelboraf (vemurafenib) treatment resulted in a partial response in a patient with advanced salivary gland carcinoma harboring BRAF V600E, with a progression-free survival of 18.5 months (PMID: 32067683; NCT02091141).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17944,
+                    "pubMedId": 32067683,
+                    "title": "Targeted therapy for advanced salivary gland carcinoma based on molecular profiling: results from MyPathway, a phase IIa multiple basket study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32067683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20585,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MyPathway) trial, Tecentriq (atezolizumab) treatment resulted in a partial response in a patient with advanced salivary gland carcinoma with high TMB, with a progression-free survival of over 5.5 months (PMID: 32067683; NCT02091141).",
+            "molecularProfile": {
+                "id": 29716,
+                "profileName": "TMB high"
+            },
+            "therapy": {
+                "id": 1201,
+                "therapyName": "Atezolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17944,
+                    "pubMedId": 32067683,
+                    "title": "Targeted therapy for advanced salivary gland carcinoma based on molecular profiling: results from MyPathway, a phase IIa multiple basket study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32067683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02879162",
+            "title": "Durvalumab and Tremelimumab in Patients With Advanced Rare Tumours",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03146650",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Metastatic Recurrent Major or Minor Salivary Gland Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03749460",
+            "title": "Nivolumab and Ipilimumab and Stereotactic Body Radiation Therapy in Treating Patients With Salivary Gland Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03942653",
+            "title": "Androgen Deprivation Therapy (ADT) and Pembrolizumab for Advanced Stage Androgen Receptor-positive Salivary Gland Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8344,
+                    "therapyName": "Goserelin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

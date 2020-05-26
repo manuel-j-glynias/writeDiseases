@@ -1,0 +1,1378 @@
+{
+    "id": 8923,
+    "name": "skin melanoma",
+    "source": "DOID",
+    "definition": "A skin cancer that has_material_basis_in melanocytes. [url:http\\://cancergenome.nih.gov/cancersselected/melanoma, url:http\\://en.wikipedia.org/wiki/Melanoma, url:http\\://www.cancer.gov/dictionary?CdrID=45135]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "10043",
+        "10051",
+        "0050609",
+        "10046",
+        "10052",
+        "10055",
+        "8922"
+    ],
+    "termId": "DOID:8923",
+    "evidence": [
+        {
+            "id": 3,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the Hsp90 inhibitor Ganetespib destabilized BRAF, especially BRAF V600E, resulted in loss of cell viability in culture and antitumor effects in cell line xenograft models of melanoma (PMID: 24398428).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 745,
+                "therapyName": "Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 249,
+                    "pubMedId": 24398428,
+                    "title": "Overcoming acquired BRAF inhibitor resistance in melanoma via targeted inhibition of Hsp90 with ganetespib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24398428"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1508,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) therapy is included in guidelines for cutaneous melanoma patients with unresectable or metastatic disease harboring BRAF V600 activating mutations, such as BRAF V600K, in cases where BRAF/MEK inhibitor combination therapy is contraindicated (NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 1509,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) therapy is included in guidelines for patients with unresectable or metastatic cutaneous melanoma harboring BRAF V600 activating mutations, in cases where BRAF/MEK inhibitor combination therapy is contraindicated (NCCN.org).",
+            "molecularProfile": {
+                "id": 1186,
+                "profileName": "BRAF V600X"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 1511,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) therapy is included in guidelines for patients with unresectable or metastatic cutaneous melanoma harboring BRAF V600 activating mutations, in cases where BRAF/MEK inhibitor combination therapy is contraindicated (NCCN.org).",
+            "molecularProfile": {
+                "id": 1186,
+                "profileName": "BRAF V600X"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 1938,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Gleevec (imatinib) is included in guidelines as second-line therapy for metastatic or unresectable cutaneous melanoma patients with KIT activating mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1668,
+                "profileName": "KIT act mut"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1442,
+                    "pubMedId": null,
+                    "title": "NCCN Guidelines Melanoma version 3.2015",
+                    "url": "http://www.nccn.org/professionals/physician_gls/pdf/melanoma.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3799,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Roscovotine (seliciclib) inhibited proliferation of melanoma cells with concurrent NUAK2 amplification and PTEN loss in culture and in cell line xenograft models, with increased efficacy when compared to response in cells with either NUAK2 amplification or PTEN loss alone (PMID: 25832654).",
+            "molecularProfile": {
+                "id": 15934,
+                "profileName": "NUAK2 amp PTEN loss"
+            },
+            "therapy": {
+                "id": 1129,
+                "therapyName": "Seliciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4165,
+                    "pubMedId": 25832654,
+                    "title": "NUAK2 Amplification Coupled with PTEN Deficiency Promotes Melanoma Development via CDK Activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25832654"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19289,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Mektovi (binimetinib) is included in guidelines as second-line therapy for patients with metastatic or unresectable cutaneous melanoma harboring an NRAS mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6819,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, Binimetinib (MEK162) treatment resulted in improved progression free survival (2.8 months), objective response rate (15%, 40/269) and disease control rate (58%, 156/269) compared to Deticene (dacarbazine) (1.5 months, 7%, 25%, respectively) in NRAS-mutant cutaneous melanoma patients (J Clin Oncol 34, 2016 (suppl; abstr 9500)).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5835,
+                    "pubMedId": null,
+                    "title": "Results of NEMO: A phase III trial of binimetinib (BINI) vs dacarbazine (DTIC) in NRAS-mutant cutaneous melanoma.",
+                    "url": "http://meetinglibrary.asco.org/content/166136-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12925,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) therapy is included in guidelines for cutaneous melanoma patients with unresectable or metastatic disease harboring BRAF V600 activating mutations, such as BRAF V600K, in cases where BRAF/MEK inhibitor combination therapy is contraindicated (NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17037,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) therapy is included in guidelines for patients with metastatic or unresectable cutaneous melanoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17038,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) therapy is included in guidelines for patients with metastatic or unresectable cutaneous melanoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17039,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) therapy is included in guidelines for patients with metastatic or unresectable cutaneous melanoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19277,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) therapy is included in guidelines for cutaneous melanoma patients with unresectable or metastatic disease harboring BRAF V600 activating mutations, such as BRAF V600E, in cases where BRAF/MEK inhibitor combination therapy is contraindicated (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19278,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) therapy is included in guidelines for cutaneous melanoma patients with unresectable or metastatic disease harboring BRAF V600 activating mutations, such as BRAF V600E, in cases where BRAF/MEK inhibitor combination therapy is contraindicated (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19279,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) and Mekinist (trametinib) combination therapy is included in guidelines for cutaneous melanoma patients harboring a BRAF V600 activating mutation, such as BRAF V600E, as adjuvant therapy for stage III disease and as systemic therapy for patients with unresectable or metastatic disease (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19280,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) and Cotellic (cobimetinib) combination therapy is included in cutaneous melanoma guidelines for patients with metastatic or unresectable disease harboring a BRAF V600 activating mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1657,
+                "therapyName": "Cobimetinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19281,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Braftovi (encorafenib) in combination with Mektovi (binimetinib) is included in guidelines as first-line and second-line therapy for patients with metastatic or unresectable cutaneous melanoma harboring BRAF V600E or V600K mutations (PMID: 30959471; NCCN.org).",
+            "molecularProfile": {
+                "id": 1,
+                "profileName": "BRAF V600E"
+            },
+            "therapy": {
+                "id": 1100,
+                "therapyName": "Binimetinib + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                },
+                {
+                    "id": 15109,
+                    "pubMedId": 30959471,
+                    "title": "Cutaneous Melanoma, Version 2.2019, NCCN Clinical Practice Guidelines in Oncology.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30959471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19282,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) and Cotellic (cobimetinib) combination therapy is included in cutaneous melanoma guidelines for patients with metastatic or unresectable disease harboring a BRAF V600 activating mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 499,
+                "profileName": "BRAF V600E/K"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19283,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Braftovi (encorafenib) in combination with Mektovi (binimetinib) is included in guidelines as first-line and second-line therapy for patients with metastatic or unresectable cutaneous melanoma harboring BRAF V600E or V600K mutations (PMID: 30959471; NCCN.org).",
+            "molecularProfile": {
+                "id": 499,
+                "profileName": "BRAF V600E/K"
+            },
+            "therapy": {
+                "id": 1100,
+                "therapyName": "Binimetinib + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                },
+                {
+                    "id": 15109,
+                    "pubMedId": 30959471,
+                    "title": "Cutaneous Melanoma, Version 2.2019, NCCN Clinical Practice Guidelines in Oncology.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30959471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19284,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) and Cotellic (cobimetinib) combination therapy is included in cutaneous melanoma guidelines for patients with metastatic or unresectable disease harboring a BRAF V600 activating mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1657,
+                "therapyName": "Cobimetinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19285,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) and Mekinist (trametinib) combination therapy is included in guidelines for melanoma patients harboring a BRAF V600 activating mutation, such as BRAF V600K, as adjuvant therapy for stage III disease and as systemic therapy for patients with unresectable or metastatic disease (NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19286,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Braftovi (encorafenib) in combination with Mektovi (binimetinib) is included in guidelines as first-line and second-line therapy for patients with metastatic or unresectable cutaneous melanoma harboring BRAF V600E or V600K mutations (PMID: 30959471; NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1100,
+                "therapyName": "Binimetinib + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                },
+                {
+                    "id": 15109,
+                    "pubMedId": 30959471,
+                    "title": "Cutaneous Melanoma, Version 2.2019, NCCN Clinical Practice Guidelines in Oncology.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30959471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19287,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) and Cotellic (cobimetinib) combination therapy is included in guidelines for patients with metastatic or unresectable cutaneous melanoma harboring a BRAF V600 activating mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 1186,
+                "profileName": "BRAF V600X"
+            },
+            "therapy": {
+                "id": 1657,
+                "therapyName": "Cobimetinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19288,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) and Mekinist (trametinib) combination therapy is included in guidelines for patients with cutaneous melanoma harboring a BRAF V600 activating mutation, as adjuvant treatment for patients with Stage III disease, or as systemic therapy for patients with unresectable or metastatic disease (NCCN.org).",
+            "molecularProfile": {
+                "id": 1186,
+                "profileName": "BRAF V600X"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19290,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) therapy is included in guidelines for patients with metastatic or unresectable cutaneous melanoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19291,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) therapy is included in guidelines for patients with metastatic or unresectable cutaneous melanoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19292,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) therapy is included in guidelines for patients with metastatic or unresectable cutaneous melanoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01107665",
+            "title": "Pazopanib and Paclitaxel as First-Line Treatment for Subjects With Unresectable Stage III and Stage IV Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1143,
+                    "therapyName": "Paclitaxel + Pazopanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01693068",
+            "title": "Phase II Trial of Pimasertib Versus Dacarbazine in N-Ras Mutated Cutaneous Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1154,
+                    "therapyName": "Dacarbazine",
+                    "synonyms": null
+                },
+                {
+                    "id": 871,
+                    "therapyName": "Pimasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02203604",
+            "title": "High-Dose Aldesleukin and Ipilimumab in Treating Patients With Stage III-IV Melanoma That Cannot Be Removed By Surgery",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1612,
+                    "therapyName": "Aldesleukin + Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02346955",
+            "title": "Study of CM-24 (MK-6018) Alone and In Combination With Pembrolizumab (MK-3475) in Participants With Selected Advanced or Recurrent Malignancies (MK-6018-001)",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 4246,
+                    "therapyName": "CM-24",
+                    "synonyms": null
+                },
+                {
+                    "id": 4247,
+                    "therapyName": "CM-24 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02535078",
+            "title": "Phase 1b/2 Study of the Combination of IMCgp100 With Durvalumab and/or Tremelimumab in Cutaneous Melanoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3847,
+                    "therapyName": "IMCgp100",
+                    "synonyms": null
+                },
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02581930",
+            "title": "Ibrutinib in Treating Patients With Refractory Stage IV Cutaneous Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02680184",
+            "title": "Clinical Study of CMP-001 in Combination With Pembrolizumab",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4001,
+                    "therapyName": "Pembrolizumab + QbG10",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02731729",
+            "title": "Ipilimumab vs Ipilimumab Plus Nivolumab in Patients With Stage III-IV Melanoma Who Have Progressed or Relapsed on PD-1 Inhibitor Therapy",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02748564",
+            "title": "Aldesleukin and Pembrolizumab in Treating Patients With Stage III-IV Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4165,
+                    "therapyName": "Aldesleukin + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02818023",
+            "title": "Dose-seeking and Efficacy Study of Pembrolizumab Plus Vemurafenib Advanced Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4406,
+                    "therapyName": "Pembrolizumab + Vemurafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02829099",
+            "title": "A Study of Safety, Pharmacokinetics and Pharmacodynamics of JNJ-64457107 in Participants With Advanced Stage Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7425,
+                    "therapyName": "JNJ-64457107",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03084640",
+            "title": "Phase 1b Study Evaluating Alternative Routes of Administration of CMP-001 in Combination With Pembrolizumab in Subjects With Advanced Melanoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4001,
+                    "therapyName": "Pembrolizumab + QbG10",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03089606",
+            "title": "Pembrolizumab TX-naive Distant Mets Melanoma and Use of AMT (PET) at Baseline as Imaging Biomarker",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03405155",
+            "title": "Nivolumab in Treating Patients With Stage IIB-IIC Melanoma That Can Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03551626",
+            "title": "Study of Dabrafenib+Trametinib in the Adjuvant Treatment of Stage III BRAF V600+ Melanoma After Complete Resection to Evaluate the Impact on Pyrexia Related Outcomes (COMBI-APlus)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03553836",
+            "title": "Safety and Efficacy of Pembrolizumab Compared to Placebo in Resected High-risk Stage II Melanoma (MK-3475-716/KEYNOTE-716)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03618641",
+            "title": "CMP-001 in Combo With Nivolumab in Stage IIIB/C/D Melanoma Patients With Clinically Apparent Lymph Node Disease",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7470,
+                    "therapyName": "Nivolumab + QbG10",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03693612",
+            "title": "GSK3359609 Plus Tremelimumab for the Treatment of Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7628,
+                    "therapyName": "GSK3359609 + Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 720,
+                    "therapyName": "Docetaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03817125",
+            "title": "Melanoma Checkpoint and Gut Microbiome Alteration With Microbiome Intervention (MCGRAW)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7801,
+                    "therapyName": "Nivolumab + SER-401",
+                    "synonyms": null
+                },
+                {
+                    "id": 7815,
+                    "therapyName": "Vancomycin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03864042",
+            "title": "Pharmacokinetic Drug-drug Interaction Study of Encorafenib and Binimetinib on Probe Drugs in Patients With BRAF V600-mutant Melanoma or Other Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7997,
+                    "therapyName": "Caffeine + Dextromethorphan + Losartan + Midazolam + Omeprazole",
+                    "synonyms": null
+                },
+                {
+                    "id": 7995,
+                    "therapyName": "Modafinil",
+                    "synonyms": null
+                },
+                {
+                    "id": 7996,
+                    "therapyName": "Bupropion + Rosuvastatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1100,
+                    "therapyName": "Binimetinib + Encorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03875079",
+            "title": "A Phase IB Study To Evaluate Safety And Therapeutic Activity Of RO6874281, An Immunocytokine, Consisting Of Interleukin-2 Variant Targeting Fibroblast Activation Protein-A, In Combination With Pembrolizumab (Anti-Pd-1), In Participants With Previously Untreated Advanced And/Or Metastatic Melanoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8053,
+                    "therapyName": "Pembrolizumab + RO6874281",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03897881",
+            "title": "An Efficacy Study of Adjuvant Treatment With the Personalized Cancer Vaccine mRNA-4157 and Pembrolizumab in Patients With High-Risk Melanoma (KEYNOTE-942)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6349,
+                    "therapyName": "mRNA-4157 + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03947385",
+            "title": "Study of IDE196 in Patients With Solid Tumors Harboring GNAQ/11 Mutations or PRKC Fusions",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7006,
+                    "therapyName": "LXS196",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03972046",
+            "title": "Neoadjuvant Use of Talimogene Laherparepvec and BRAF/MEK Inhibitor for Advanced Nodal BRAF Mutant Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 5481,
+                    "therapyName": "Dabrafenib + Talimogene laherparepvec + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03991741",
+            "title": "Adoptive Cell Transfer of Autologous Tumor Infiltrating Lymphocytes and High-Dose Interleukin 2 in Select Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1167,
+                    "therapyName": "Aldesleukin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04007588",
+            "title": "A Phase II Trial of Neoadjuvant Treatment With PD-1 Inhibition (Nivolumab) With or Without IDO Inhibition (BMS-986205) and With or Without CTLA-4 Inhibition (Ipilimumab) in Resectable Stage III or IV Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3569,
+                    "therapyName": "BMS-986205 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04042480",
+            "title": "A Study of SGN-CD228A in Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9761,
+                    "therapyName": "SGN-CD228A",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04042506",
+            "title": "SBRT as a Vaccination for Metastatic Melanoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04099251",
+            "title": "Effectiveness Study of Nivolumab Compared to Placebo in Prevention of Recurrent Melanoma After Complete Resection of Stage IIB/C Melanoma (CheckMate76K)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04135352",
+            "title": "A Study of Intratumoral/Intralesional Administration of V938 in Combination With Pembrolizumab (MK-3475) in Participants With Advanced/Metastatic or Recurrent Malignancies (V938-001)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9573,
+                    "therapyName": "Pembrolizumab + V938",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04139902",
+            "title": "PD-1 Inhibitor Dostarlimab (TSR-042) vs. Combination of Tim-3 Inhibitor TSR-022 and PD-1 Inhibitor Dostarlimab (TSR-042)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7522,
+                    "therapyName": "TSR-022 + TSR-042",
+                    "synonyms": null
+                },
+                {
+                    "id": 6320,
+                    "therapyName": "TSR-042",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04250597",
+            "title": "Study of GNX102 in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9331,
+                    "therapyName": "GNX102",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

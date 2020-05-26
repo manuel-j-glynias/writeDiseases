@@ -1,0 +1,4051 @@
+{
+    "id": 60060,
+    "name": "non-Hodgkin lymphoma",
+    "source": "DOID",
+    "definition": "A lymphoma that is characterized as any kind of lymphoma except Hodgkin's lymphoma. [url:http\\://en.wikipedia.org/wiki/Non-Hodgkin_lymphoma, url:http\\://www.cancer.gov/dictionary?CdrID=45148]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0060060",
+    "evidence": [
+        {
+            "id": 3181,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CUDC-907 inhibited cell growth in a human non-Hodgkin lymphoma cell line in culture, and stabilized tumor growth in xenograft models (PMID: 22693356).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 709,
+                "therapyName": "CUDC-907",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1018,
+                    "pubMedId": 22693356,
+                    "title": "Cancer network disruption by a single molecule inhibitor targeting both histone deacetylase activity and phosphatidylinositol 3-kinase signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22693356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3703,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a non-Hodgkin lymphoma (NHL) patient derived xenograft (PDX) model co-harboring CD79B Y197N and MYD88 L265P demonstrated sensitivity to Ibruvica (ibrutinib) while an NHL patient derived xenograft (PDX) model harboring only MYD88 L265P did not respond to Ibruvica (ibrutinib) (ASH 57th Annual Meeting, 2015, abstract #2759).",
+            "molecularProfile": {
+                "id": 14907,
+                "profileName": "CD79B Y197N MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4013,
+                    "pubMedId": null,
+                    "title": "Biomarker Predictive Ibrutinib Response Using Profiled ABC-DLBCL Patient Derived Xenografts",
+                    "url": "https://ash.confex.com/ash/2015/webprogram/Paper81154.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3704,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a non-Hodgkin lymphoma (NHL) patient derived xenograft (PDX) model harboring both CD79B Y197N and MYD88 L265P demonstrated sensitivity to Ibruvica (ibrutinib) while an NHL patient derived xenograft (PDX) model harboring only MYD88 L265P did not respond to Ibruvica (ibrutinib) (ASH 57th Annual Meeting, 2015, abstract #2759).",
+            "molecularProfile": {
+                "id": 6507,
+                "profileName": "MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4013,
+                    "pubMedId": null,
+                    "title": "Biomarker Predictive Ibrutinib Response Using Profiled ABC-DLBCL Patient Derived Xenografts",
+                    "url": "https://ash.confex.com/ash/2015/webprogram/Paper81154.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4728,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, KW-2478 demonstrated safety and preliminary efficacy in patients with non-Hodgkin lymphoma, with 100% (4/4) of patients achieving stable disease (PMID: 26695442).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2762,
+                "therapyName": "KW-2478",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4680,
+                    "pubMedId": 26695442,
+                    "title": "Phase I study of KW-2478, a novel Hsp90 inhibitor, in patients with B-cell malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26695442"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5137,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Zydelig (idelalisib) and Entospletinib combination treatment resulted in objective response in 36% of patients with non-Hodgkin lymphoma, but was terminated due to severe treatment-emergent pneumonitis (PMID: 26968534).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3760,
+                "therapyName": "Entospletinib + Idelalisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4883,
+                    "pubMedId": 26968534,
+                    "title": "Phase 2 study of idelalisib and entospletinib: pneumonitis limits combination therapy in relapsed refractory CLL and NHL.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26968534"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5146,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Copiktra (duvelisib) treatment resulted in complete response in 16% (5/31), partial response in 45% (14/31), minor response in 3% (1/31), and stable disease in 29% (9/31) in non-Hodgkin lymphoma patients (Blood 124(21): 802).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1024,
+                "therapyName": "Duvelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4889,
+                    "pubMedId": null,
+                    "title": "a Phase 1 Evaluation of Duvelisib (IPI-145), a PI3K-?,? Inhibitor, in Patients with Relapsed/Refractory iNHL",
+                    "url": "http://www.bloodjournal.org/content/124/21/802.abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6014,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, PNT2258 treatment resulted in clinical benefit in 85% (11/13) of patients with relapsed or refractory non-Hodgkin lymphoma, particularly in diffuse large B cell lymphoma and follicular lymphoma patients (PMID: 27043233).",
+            "molecularProfile": {
+                "id": 1026,
+                "profileName": "BCL2 wild-type"
+            },
+            "therapy": {
+                "id": 2581,
+                "therapyName": "PNT2258",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5235,
+                    "pubMedId": 27043233,
+                    "title": "Hematologic malignancies: newer strategies to counter the BCL-2 protein.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27043233"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6689,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human non-Hodgkin lymphoma cells harboring mutant NRAS were insensitive to Mekinist (trametinib) in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6949,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Tazemetostat (EPZ-6438) treatment resulted in a total response rate of 60% (9/15) in non-Hodgkin lymphoma patients harboring wild-type EZH2 (n=13/14 tested) or an EZH2 Y646H mutation (n=1/14 tested) (ASH 57th Annual Meeting and Exposition, Dec 2015, Abstract #473; NCT01897571).",
+            "molecularProfile": {
+                "id": 24158,
+                "profileName": "EZH2 positive"
+            },
+            "therapy": {
+                "id": 2683,
+                "therapyName": "Tazemetostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5984,
+                    "pubMedId": null,
+                    "title": "Phase 1 Study of Tazemetostat (EPZ-6438), an Inhibitor of Enhancer of Zeste-Homolog 2 (EZH2): Preliminary Safety and Activity in Relapsed or Refractory Non-Hodgkin Lymphoma (NHL) Patients",
+                    "url": "http://www.bloodjournal.org/content/126/23/473?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6950,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Tazemetostat (EPZ-6438) treatment resulted in partial response for more than 16 weeks in a non-Hodgkin lymphoma patient harboring a EZH2 Y646H mutation (ASH 57th Annual Meeting and Exposition, Dec 2015, Abstract #473; NCT01897571).",
+            "molecularProfile": {
+                "id": 29842,
+                "profileName": "EZH2 Y646H"
+            },
+            "therapy": {
+                "id": 2683,
+                "therapyName": "Tazemetostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5984,
+                    "pubMedId": null,
+                    "title": "Phase 1 Study of Tazemetostat (EPZ-6438), an Inhibitor of Enhancer of Zeste-Homolog 2 (EZH2): Preliminary Safety and Activity in Relapsed or Refractory Non-Hodgkin Lymphoma (NHL) Patients",
+                    "url": "http://www.bloodjournal.org/content/126/23/473?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8308,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Otlertuzumab (TRU-016) was well-tolerated and demonstrated some preliminary efficacy in non-Hodgkin lymphoma patients (PMID: 25146490).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4692,
+                "therapyName": "Otlertuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6596,
+                    "pubMedId": 25146490,
+                    "title": "Otlertuzumab (TRU-016), an anti-CD37 monospecific ADAPTIR(\u2122) therapeutic protein, for relapsed or refractory NHL patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25146490"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8323,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Coltuximab Ravtansine (SAR3419) demonstrated safety and preliminary activity, with an overall response rate of 33% (7/21), in patients with refractory non-Hodgkin lymphoma (PMID: 24132920).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4701,
+                "therapyName": "Coltuximab Ravtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6607,
+                    "pubMedId": 24132920,
+                    "title": "A dose-escalation study of SAR3419, an anti-CD19 antibody maytansinoid conjugate, administered by intravenous infusion once weekly in patients with relapsed/refractory B-cell non-Hodgkin lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24132920"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8792,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, the combination of inotuzumab ozogamicin with R-CVP (rituximab, cyclophosphamide, Oncovin (vincristine), and prednisone) resulted in an ORR of 84% (32/38) in non-Hodgkin lymphoma patients, including a complete response in 24% (9/38) of patients (PMID: 27154915).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4813,
+                "therapyName": "Cyclophosphamide + inotuzumab ozogamicin + Prednisone + Rituximab + Vincristine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6753,
+                    "pubMedId": 27154915,
+                    "title": "Phase I Study of Inotuzumab Ozogamicin Combined with R-CVP for Relapsed/Refractory CD22+ B-cell Non-Hodgkin Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27154915"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9222,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Hu5F9-G4 and Rituxan (rituximab) synergistically eliminated tumors in cell line xenograft animal models of non-Hodgkin lymphoma (PMID: 26390038).",
+            "molecularProfile": {
+                "id": 26776,
+                "profileName": "CD47 positive"
+            },
+            "therapy": {
+                "id": 4955,
+                "therapyName": "Hu5F9-G4 + Rituximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7028,
+                    "pubMedId": 26390038,
+                    "title": "Pre-Clinical Development of a Humanized Anti-CD47 Antibody with Anti-Cancer Therapeutic Potential.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26390038"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10442,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Alisertib (MLN8237) treatment resulted in partial response lasting 1 month in a patient with B-cell non Hodgkin's lymphoma harboring MYC rearrangement, but the treatment was terminated after 1 cycle due to toxicity (PMID: 28278718).",
+            "molecularProfile": {
+                "id": 15360,
+                "profileName": "MYC rearrange"
+            },
+            "therapy": {
+                "id": 626,
+                "therapyName": "Alisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8457,
+                    "pubMedId": 28278718,
+                    "title": "A phase 2 trial of alisertib in patients with relapsed or refractory B-cellnon-Hodgkin lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28278718"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 11139,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, Rituximab and Bendamustine combination therapy resulted in improved 5-year progression free survival rate (66.5% vs 55.8%), but no difference in overall survival rate (81.7% vs 85%) compared to R-CHOP/R-CVP regimen in patients with indolent non-Hodgkin lymphoma or mantle cell lymphoma (J Clin Oncol 35, 2017 (suppl; abstr 7500)).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2323,
+                "therapyName": "Bendamustine + Rituximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9106,
+                    "pubMedId": null,
+                    "title": "First-line treatment of iNHL or MCL patients with BR or R-CHOP/R-CVP: Results of the BRIGHT 5-year follow-up study.",
+                    "url": "http://meetinglibrary.asco.org/record/147107/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11550,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with Waldenstr\u00f6m macroglobulinemia, a form of non-Hodgkin lymphoma, harboring BTK C481R, BTK C481S, CXCR4 mutant, and MYD88 L265P, demonstrated resistance to treatment with Imbruvica (ibrutinib) (PMID: 28235842).",
+            "molecularProfile": {
+                "id": 28134,
+                "profileName": "BTK C481R BTK C481S CXCR4 mut MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9635,
+                    "pubMedId": 28235842,
+                    "title": "Acquired mutations associated with ibrutinib resistance in Waldenstr\u00f6m macroglobulinemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28235842"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11551,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with Waldenstr\u00f6m macroglobulinemia, a form of non-Hodgkin lymphoma, harboring BTK C481R, BTK C481S, CARD11 L878F, and MYD88 L265P, demonstrated resistance to treatment with Imbruvica (ibrutinib) (PMID: 28235842).",
+            "molecularProfile": {
+                "id": 28138,
+                "profileName": "BTK C481R BTK C481S CARD11 L878F MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9635,
+                    "pubMedId": 28235842,
+                    "title": "Acquired mutations associated with ibrutinib resistance in Waldenstr\u00f6m macroglobulinemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28235842"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11612,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, seven patients with non-Hodgkin lymphoma treated with a combination of Veliparib (ABT-888), Bendamustine, and Rituxan (rituximab) demonstrated an overall response rate of 86% (6/7) and a complete response rate of 71% (5/7), and a progression free survival of 14.2 months (PMID: 28314788; NCT01326702).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6077,
+                "therapyName": "Bendamustine + Rituximab + Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9669,
+                    "pubMedId": 28314788,
+                    "title": "The PARP Inhibitor Veliparib Can Be Safely Added to Bendamustine and Rituximab and Has Preliminary Evidence of Activity in B-Cell Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28314788"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12115,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Umbralisib (TGR-1202) treatment resulted in complete response in 11% (1/9) and stable disease in 44% (4/9) of patients with non-Hodgkin lymphoma (PMID: 29475723; NCT01767766).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2022,
+                "therapyName": "Umbralisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11343,
+                    "pubMedId": 29475723,
+                    "title": "Umbralisib, a novel PI3K\u03b4 and casein kinase-1\u03b5 inhibitor, in relapsed or refractory chronic lymphocytic leukaemia and lymphoma: an open-label, phase 1, dose-escalation, first-in-human study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29475723"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12205,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, A-485 treatment inhibited proliferation in non-Hodgkin lymphoma cell lines in culture (PMID: 28953875).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6354,
+                "therapyName": "A-485",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10155,
+                    "pubMedId": 28953875,
+                    "title": "Discovery of a selective catalytic p300/CBP inhibitor that targets lineage-specific tumours.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28953875"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12276,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, BCL201 (S55746) demonstrated safety and preliminary activity in patients with relapsed or recurrent non-Hodgkin lymphoma (Hematol Oncol. 2017;35(S2):47-48; NCT02920697).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6414,
+                "therapyName": "BCL201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10254,
+                    "pubMedId": null,
+                    "title": "A New BCL-2 Inhibitor (S55746/BCL201) as Monotherapy in Patients with Relapsed or Refractory Non-Hodgkin Lymphoma: Preliminary Results of the First-in-human Study",
+                    "url": "http://onlinelibrary.wiley.com/doi/10.1002/hon.2437_30/full"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12791,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, DS-3201b demonstrated preliminary clinical activity in patients with non-Hodgkin lymphoma, with an overall response rate of 53% (8/15; 1 complete response/remission, and 7 partial responses), stable disease in 5 patients, and 8 patients on treatment with tumor shrinkage for greater than 24 weeks (Blood Dec 2017, 130 (Suppl 1) 4070; NCT02732275).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5691,
+                "therapyName": "DS-3201b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10717,
+                    "pubMedId": null,
+                    "title": "First-in-Human Study of the EZH1/2 Dual Inhibitor DS-3201b in Patients with Relapsed or Refractory Non-Hodgkin Lymphomas \u2014 Preliminary Results",
+                    "url": "http://www.bloodjournal.org/content/130/Suppl_1/4070?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13145,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, Acalisib (GS-9820) treatment resulted in an overall response rate of 28.6% (4/14), with 4 partial responses, stable disease in 3 patients, and a lymph node response in 36.4% (4/11) of patients with non-Hodgkin's lymphoma or Hodgkin's lymphoma (PMID: 29434192; NCT01705847).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1021,
+                "therapyName": "GS-9820",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10990,
+                    "pubMedId": 29434192,
+                    "title": "Final results of a phase 1b study of the safety and efficacy of the PI3K\u03b4 inhibitor acalisib (GS-9820) in relapsed/refractory lymphoid malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29434192"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14999,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Camidanlumab Tesirine treatment resulted in partial response in 15.8% (3/19) in non-Hodgkin lymphoma patients (Blood 2017 130(Suppl 1):1510; NCT02432235).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7369,
+                "therapyName": "Camidanlumab Tesirine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 12055,
+                    "pubMedId": null,
+                    "title": "Interim Results from a Phase 1 Study of ADCT-301 (Camidanlumab Tesirine) Show Promising Activity of a Novel Pyrrolobenzodiazepine-Based Antibody Drug Conjugate in Relapsed/Refractory Hodgkin/Non-Hodgkin Lymphoma",
+                    "url": "http://www.bloodjournal.org/content/130/Suppl_1/1510"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18763,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial that supported FDA approval, Zevalin (ibritumomab tiuxetan) treatment resulted in significantly improved objective response rate (83% vs 55%, p<0.001) compared to Rituxan (rituximab) in patients with relapsed or refractory low-grade or follicular non-Hodgkin's lymphoma (PMID: 27497027).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 767,
+                "therapyName": "Ibritumomab tiuxetan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16452,
+                    "pubMedId": 27497027,
+                    "title": "Zevalin(\u00ae) (ibritumomab tiuxetan): After more than a decade of treatment experience, what have we learned?",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27497027"
+                },
+                {
+                    "id": 16453,
+                    "pubMedId": null,
+                    "title": "Ibritumomab tiuxetan FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125019"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20933,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, GDA-201 and Rituxan (rituximab) combination therapy demonstrated safety and preliminary efficacy, resulted in an overall response rate of 71% (5/7, 3 complete response (CR), 3 partial response (PR)) in patients with relapsed/refractory MS4A1 (CD20)-positive non-Hodgkin lymphoma, with a median duration of response of 12 and 5 months in CR and PR patients, respectively (Blood (2019) 134 (Supplement_1): 777).",
+            "molecularProfile": {
+                "id": 15367,
+                "profileName": "MS4A1 positive"
+            },
+            "therapy": {
+                "id": 9516,
+                "therapyName": "GDA-201 + Rituximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18191,
+                    "pubMedId": null,
+                    "title": "Results of a Phase 1 Trial of Gda-201, Nicotinamide-Expanded Allogeneic Natural Killer Cells (NAM-NK) in Patients with Refractory Non-Hodgkin Lymphoma (NHL) and Multiple Myeloma (MM)",
+                    "url": "https://doi.org/10.1182/blood-2019-130476"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00513474",
+            "title": "Rasburicase in Preventing Graft-Versus-Host Disease in Patients With Hematologic Cancer or Other Disease Undergoing Donor Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2313,
+                    "therapyName": "Rasburicase",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1650,
+                    "therapyName": "Cyclosporine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 2314,
+                    "therapyName": "Busulfan + Cyclophosphamide + Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00576654",
+            "title": "Irinotecan Hydrochloride and Veliparib in Treating Patients With Cancer That Is Metastatic or Cannot Be Removed by Surgery",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 954,
+                    "therapyName": "Veliparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00577278",
+            "title": "Yttrium Y 90 Ibritumomab Tiuxetan, Rituximab, Indium In-111 Ibritumomab Tiuxetan, Fludarabine, Melphalan, and Donor Stem Cell Transplant in Treating Patients With B-Cell Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 767,
+                    "therapyName": "Ibritumomab tiuxetan",
+                    "synonyms": null
+                },
+                {
+                    "id": 2238,
+                    "therapyName": "Methotrexate + Sirolimus + Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2237,
+                    "therapyName": "Fludarabine + Melphalan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00602693",
+            "title": "T-Regulatory Cell Infusion Post Umbilical Cord Blood Transplant in Patients With Advanced Hematologic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2311,
+                    "therapyName": "Allopurinol + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00671112",
+            "title": "Everolimus and Bortezomib in Treating Patients With Relapsed or Refractory Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2234,
+                    "therapyName": "Bortezomib + Everolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00740805",
+            "title": "Veliparib, Cyclophosphamide, and Doxorubicin Hydrochloride in Treating Patients With Metastatic or Unresectable Solid Tumors or Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2989,
+                    "therapyName": "Aldoxorubicin + Cyclophosphamide + Veliparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00857389",
+            "title": "Thiotepa-Clofarabine-Busulfan With Allogeneic Stem Cell Transplant for High Risk Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2563,
+                    "therapyName": "Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 2469,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01032148",
+            "title": "Study of LBH589, A Deacetylase Inhibitor in Patients With Recurrent or Refractory Hodgkin or Non-Hodgkin's Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1080,
+                    "therapyName": "Panobinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01058239",
+            "title": "Bortezomib Plus Rituximab for EBV+ PTLD",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1649,
+                    "therapyName": "Bortezomib + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01076543",
+            "title": "Lenalidomide and Temsirolimus in Treating Patients With Relapsed or Refractory Hodgkin Lymphoma or Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2280,
+                    "therapyName": "Lenalidomide + Temsirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01162551",
+            "title": "Trial of Sirolimus and Methotrexate in Relapsed/Refractory Lymphoblastic Leukemia and Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2304,
+                    "therapyName": "Methotrexate + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01187810",
+            "title": "Fenretinide in Children With Recurrent/Resistant ALL, AML, and NHL",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2731,
+                    "therapyName": "Fenretinide",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01251575",
+            "title": "Sirolimus, Cyclosporine, and Mycophenolate Mofetil In Preventing Graft-Versus-Host Disease in Treating Patients With Hematologic Malignancies Undergoing Donor Peripheral Blood Stem Cell Transplant",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2270,
+                    "therapyName": "Cyclosporine + Mycophenolate mofetil + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01306643",
+            "title": "Safety and Efficacy Study of Idelalisib (GS-1101, CAL-101) in Patients With Previously Treated Low-grade Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1023,
+                    "therapyName": "Idelalisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01307267",
+            "title": "A Study Of PF-05082566 As A Single Agent And In Combination With Rituximab",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 6111,
+                    "therapyName": "Rituximab + Utomilumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5086,
+                    "therapyName": "Utomilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01321346",
+            "title": "A Study Of Panobinostat In Children With Refractory Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1080,
+                    "therapyName": "Panobinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01324180",
+            "title": "Vincristine, Dexamethasone, Doxorubicin, and PEG-asparaginase (VPLD) and Metformin for Relapsed Childhood Acute Lymphoblastic Leukemia (ALL)",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1031,
+                    "therapyName": "Metformin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1830,
+                    "therapyName": "Dexamethasone + Doxorubicin + Pegaspargase + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01333046",
+            "title": "Administration of TAA-Specific CTLs; Hodgkin or Non-Hodgkin Lymphoma; TACTAL (TACTAL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 9618,
+                    "therapyName": "Azacitidine + MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01353625",
+            "title": "Study to Assess Safety and Tolerability of Oral CC-115 for Patients With Advanced Solid Tumors, and Hematologic Malignancies.",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1000,
+                    "therapyName": "CC-115",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01408043",
+            "title": "Etoposide, Filgrastim, and Plerixafor in Improving Stem Cell Mobilization in Treating Patients With Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3222,
+                    "therapyName": "Etoposide + Filgrastim + Plerixafor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01421524",
+            "title": "Study of CC-122 to Evaluate the Safety, Tolerability, and Effectiveness for Patients With Advanced Solid Tumors, Non-Hodgkin's Lymphoma, or Multiple Myeloma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2358,
+                    "therapyName": "CC-122",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01581541",
+            "title": "PU-H71 in Patients With Solid Tumors and Low-Grade Non-Hodgkin s Lymphoma That Have Not Responded to Standard Treatment",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1162,
+                    "therapyName": "PU-H71",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01592370",
+            "title": "Safety Study in Nivolumab Alone and in Combination With Ipilimumab or Lirilumab in Lymphoma and Multiple Myeloma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2583,
+                    "therapyName": "IPH2102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01609816",
+            "title": "Dasatinib in Treating Patients With Multiple Myeloma, Non-Hodgkin, or Hodgkin Lymphoma Previously Treated With Autologous Stem Cell Transplant",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01614197",
+            "title": "A Trial of Temsirolimus With Etoposide and Cyclophosphamide in Children With Relapsed Acute Lymphoblastic Leukemia and Non-Hodgkins Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01621477",
+            "title": "T-Cell Replete Haploidentical Donor Hematopoietic Stem Cell Plus Natural Killer (NK) Cell Transplantation in Patients With Hematologic Malignancies Relapsed or Refractory Despite Previous Allogeneic Transplant",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 2469,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1783,
+                    "therapyName": "Cyclophosphamide + Cytarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01634217",
+            "title": "Inducible Regulatory T Cells (iTregs) in Non-Myeloablative Sibling Donor Peripheral Blood Stem Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT01660451",
+            "title": "Open-label, Uncontrolled Phase II Trial of Intravenous PI3K Inhibitor BAY80-6946 in Patients With Relapsed, Indolent or Aggressive Non-Hodgkin's Lymphomas",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 995,
+                    "therapyName": "Copanlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01686165",
+            "title": "Belinostat and Yttrium Y 90 Ibritumomab Tiuxetan in Treating Patients With Relapsed Aggressive B-Cell Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1078,
+                    "therapyName": "Belinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01701986",
+            "title": "Gemcitabine/Clofarabine/Busulfan and Allogeneic Transplantation for Aggressive Lymphomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 3992,
+                    "therapyName": "Busulfan + Clofarabine + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01719250",
+            "title": "Buparlisib in Treating Patients With Relapsed or Refractory Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 680,
+                    "therapyName": "Buparlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01732913",
+            "title": "Efficacy and Safety of Idelalisib (GS-1101) in Combination With Rituximab for Previously Treated Indolent Non-Hodgkin Lymphomas",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1023,
+                    "therapyName": "Idelalisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01732926",
+            "title": "Efficacy and Safety of Idelalisib (GS-1101) in Combination With Bendamustine and Rituximab for Previously Treated Indolent Non-Hodgkin Lymphomas",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1023,
+                    "therapyName": "Idelalisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2323,
+                    "therapyName": "Bendamustine + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01742988",
+            "title": "Study to Assess the Safety, Tolerability and Pharmacokinetics of Fimepinostat (CUDC-907) in Patients With Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 8587,
+                    "therapyName": "Bendamustine + CUDC-907 + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4447,
+                    "therapyName": "CUDC-907 + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 709,
+                    "therapyName": "CUDC-907",
+                    "synonyms": null
+                },
+                {
+                    "id": 8586,
+                    "therapyName": "CUDC-907 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01745354",
+            "title": "Immunostimulatory CpG SD-101 + RT in Recurrent/Progressive Lymphoma After Allogeneic Hematopoietic Cell Transplantation (HCT)",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3084,
+                    "therapyName": "SD-101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01746849",
+            "title": "Palifermin With Leuprolide Acetate for the Promotion of Immune Recovery Following Total Body Irradiation Based T-Cell Depleted Allogeneic Hematopoietic Stem Cell Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 795,
+                    "therapyName": "Leuprolide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2563,
+                    "therapyName": "Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 2373,
+                    "therapyName": "Palifermin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01811368",
+            "title": "Zevalin Before Stem Cell Transplant in Treating Patients With Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9105,
+                    "therapyName": "anti-thymocyte globulin + Ibritumomab tiuxetan + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2272,
+                    "therapyName": "Cyclosporine + Mycophenolate mofetil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01822509",
+            "title": "Ipilimumab or Nivolumab in Treating Patients With Relapsed Hematologic Malignancies After Donor Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01871675",
+            "title": "Phase Ib Study of IPI-145 in Combination With Bendamustine, Rituximab or Bendamustine/Rituximab in Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1231,
+                    "therapyName": "Bendamustine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01882803",
+            "title": "A Phase 2 Study of IPI-145 in Subjects With Refractory Indolent Non-Hodgkin Lymphoma (DYNAMO)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01905813",
+            "title": "Study of INCB040093 in Subjects With Previously Treated B-Cell Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2420,
+                    "therapyName": "INCB040093 + Itacitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2021,
+                    "therapyName": "INCB040093",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01949883",
+            "title": "A Phase 1 Study Evaluating CPI-0610 in Patients With Progressive Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2033,
+                    "therapyName": "CPI-0610",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01953692",
+            "title": "A Trial of Pembrolizumab (MK-3475) in Participants With Blood Cancers (MK-3475-013)(KEYNOTE-013)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01983969",
+            "title": "Aza-SAHA-GBM With AutoSCT for Refractory Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 2558,
+                    "therapyName": "Busulfan + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 2557,
+                    "therapyName": "Azacitidine + Gemcitabine + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01992653",
+            "title": "A Study of Polatuzumab Vedotin in Combination With Rituximab or Obinutuzumab, Cyclophosphamide, Doxorubicin, and Prednisone in Participants With B-Cell Non-Hodgkin's Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4248,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4226,
+                    "therapyName": "Polatuzumab vedotin-piiq",
+                    "synonyms": null
+                },
+                {
+                    "id": 1646,
+                    "therapyName": "Obinutuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01994382",
+            "title": "Phase 1 Dose Escalation Study in Chronic Lymphocytic Leukemia and Non-hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2531,
+                    "therapyName": "Cerdulatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02000934",
+            "title": "A Study of TAK-659 in Adult Patients With Advanced Solid Tumor and Lymphoma Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3146,
+                    "therapyName": "TAK-659",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02018861",
+            "title": "A Phase 1, Open-Label, Dose Escalation, Safety and Tolerability Study of INCB050465 Monotherapy and in Combination With INCB039110 in Subjects With Previously Treated B-Cell Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2406,
+                    "therapyName": "Itacitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3097,
+                    "therapyName": "Itacitinib + Parsaclisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1231,
+                    "therapyName": "Bendamustine",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2352,
+                    "therapyName": "Carboplatin + Etoposide + Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 3088,
+                    "therapyName": "Parsaclisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02043587",
+            "title": "Chemotherapy With Liposomal Cytarabine CNS Prophylaxis for Adult Acute Lymphoblastic Leukemia &amp; Lymphoblastic Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1638,
+                    "therapyName": "Pegaspargase",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1642,
+                    "therapyName": "Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1006,
+                    "therapyName": "Daunorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1631,
+                    "therapyName": "Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02055820",
+            "title": "A Safety and Pharmacokinetics Study of GDC-0199 (ABT-199) in Patients With Non-Hodgkin's Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1562,
+                    "therapyName": "Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3266,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Prednisone + Vincristine",
+                    "synonyms": "CHOP"
+                },
+                {
+                    "id": 1646,
+                    "therapyName": "Obinutuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02061761",
+            "title": "Safety Study of Anti-LAG-3 in Relapsed or Refractory Hematologic Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4197,
+                    "therapyName": "Nivolumab + Relatlimab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4196,
+                    "therapyName": "Relatlimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02082977",
+            "title": "A Study to Investigate the Safety, Pharmacokinetics, Pharmacodynamics and Clinical Activity of GSK2816126 in Subjects With Relapsed/Refractory Diffuse Large B Cell and Transformed Follicular Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2925,
+                    "therapyName": "GSK126",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02091063",
+            "title": "ACY-1215 for Relapsed/Refractory Lymphoid Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1613,
+                    "therapyName": "Ricolinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02098109",
+            "title": "Non-inferiority Study of XM02 Filgrastim (Granix) and Filgrastim (Neupogen) in Combination With Plerixafor for Autologous Stem Cell Mobilization in Patients With Multiple Myeloma or Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02104427",
+            "title": "PD and Safety of TG-0054 Combined With G-CSF in Multiple Myeloma, Non-Hodgkin Lymphoma and Hodgkin Disease Patients",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2853,
+                    "therapyName": "TG-0054",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02110563",
+            "title": "Phase I, Multicenter, Dose Escalation Study of DCR-MYC in Patients With Solid Tumors, Multiple Myeloma, or Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3122,
+                    "therapyName": "DCR-MYC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02130869",
+            "title": "A Pilot Study of Immunotherapy Including Haploidentical NK Cell Infusion Following CD133+ Positively-Selected Autologous Hematopoietic Stem Cells in Children With High Risk Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2378,
+                    "therapyName": "Bendamustine + Cytarabine + Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2460,
+                    "therapyName": "Busulfan + Hu14.18K322A",
+                    "synonyms": null
+                },
+                {
+                    "id": 2459,
+                    "therapyName": "Aldesleukin + Melphalan + Sargramostim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1791,
+                    "therapyName": "Carboplatin + Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02142530",
+            "title": "Carfilzomib Plus Belinostat in Relapsed/Refractory NHL",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1078,
+                    "therapyName": "Belinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 1624,
+                    "therapyName": "Carfilzomib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02155582",
+            "title": "Copanlisib Pharmacodynamic Study",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 995,
+                    "therapyName": "Copanlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02180711",
+            "title": "An Open-label, Phase 1b Study of ACP 196 in Subjects With Follicular Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1605,
+                    "therapyName": "Acalabrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02200380",
+            "title": "A Safety and Tolerability Study of CDX-301 With or Without Plerixafor for Stem Cell Mobilization in Matched Related Allogeneic Donor/Recipient Sibling Transplant Pairs",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                },
+                {
+                    "id": 3007,
+                    "therapyName": "CDX-301",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02204982",
+            "title": "Study of IPI-145 in Combination With Rituximab vs Rituximab in Subjects With Previously Treated Follicular Lymphoma (DYNAMO + R)",
+            "phase": "Phase III",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02281279",
+            "title": "Rituximab, Romidepsin, and Lenalidomide in Treating Patients With Recurrent or Refractory B-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 2349,
+                    "therapyName": "Lenalidomide + Rituximab + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02287311",
+            "title": "Most Closely Matched 3rd Party Rapidly Generated LMP, BARF1 And EBNA1 Specific CTL, EBV-Positive Lymphoma (MABEL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9679,
+                    "therapyName": "LMP/BARF1/EBNA1-specific cytotoxic T lymphocytes",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02304458",
+            "title": "Nivolumab With or Without Ipilimumab in Treating Younger Patients With Recurrent or Refractory Solid Tumors or Sarcomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02327078",
+            "title": "A Study of the Safety, Tolerability, and Efficacy of INCB24360 Administered in Combination With Nivolumab in Select Advanced Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3059,
+                    "therapyName": "Epacadostat + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02329847",
+            "title": "Pharmacokinetic and Pharmacodynamic Study to Evaluate Safety and Efficacy of the Combination of Ibrutinib With Nivolumab in Participants With Hematologic Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3198,
+                    "therapyName": "Ibrutinib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02343666",
+            "title": "HIV-Resistant Gene Modified Stem Cells and Chemotherapy in Treating Patients With Lymphoma With HIV Infection",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1811,
+                    "therapyName": "Carmustine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                },
+                {
+                    "id": 2556,
+                    "therapyName": "O6-benzylguanine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02348216",
+            "title": "A Phase 1-2 Multi-Center Study Evaluating KTE-C19 in Subjects With Refractory Aggressive Non-Hodgkin Lymphoma (ZUMA-1)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4829,
+                    "therapyName": "KTE-C19",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02361346",
+            "title": "PK, PD, Safety, Tolerability of Multiple Dose Regimens of MT-3724 for the Treatment of Patients With Relapsed Non-Hodgkin's B-Cell Lymphoma and B-Cell Chronic Lymphocytic Leukemia (MT-3724NHL001)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7831,
+                    "therapyName": "MT-3724",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02367040",
+            "title": "Copanlisib and Rituximab in Relapsed Indolent B-cell Non-Hodgkin's Lymphoma (iNHL)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 995,
+                    "therapyName": "Copanlisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02367196",
+            "title": "A Phase 1, Dose Finding Study of CC-90002 in Subjects With Advanced Solid and Hematologic Cancers",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7268,
+                    "therapyName": "CC-90002 + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7203,
+                    "therapyName": "CC-90002",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02408042",
+            "title": "Study of Pembrolizumab With Chemotherapy in Patients With Advanced Lymphoma (PembroHeme)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2352,
+                    "therapyName": "Carboplatin + Etoposide + Ifosfamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 2486,
+                    "therapyName": "Brentuximab vedotin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02487459",
+            "title": "Safety Study of Gene Modified Donor T-Cells in Adults With Advanced Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 6053,
+                    "therapyName": "BPX-501",
+                    "synonyms": null
+                },
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02529813",
+            "title": "CD19-Specific T-cells in Treating Patients With Advanced Lymphoid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7940,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Tisagenlecleucel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02541604",
+            "title": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Preliminary Efficacy of MPDL3280A (Anti-PD-L1 Antibody) in Pediatric and Young Adult Participants With Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02543879",
+            "title": "Study of a Novel BET Inhibitor FT-1101 in Patients With Relapsed or Refractory Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 7335,
+                    "therapyName": "FT-1101",
+                    "synonyms": null
+                },
+                {
+                    "id": 7336,
+                    "therapyName": "Azacitidine + FT-1101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02576496",
+            "title": "Study of EDO-S101, A First-in-Class Alkylating HDACi Fusion Molecule, in Relapsed/Refractory Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6104,
+                    "therapyName": "Tinostamustine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02594384",
+            "title": "A Phase I Dose Escalation Study A Phase I Dose Escalation Study of the Safety and Pharmacokinetics of LAM-002A In Patients With Non-Hodgkin's Lymphoma (LAM-002A/NHL)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6848,
+                    "therapyName": "LAM-002A",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02595866",
+            "title": "Pembrolizumab in Treating Patients With HIV and Relapsed, Refractory, or Disseminated Malignant Neoplasms",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02613598",
+            "title": "Dose Escalation Study to Determine the Maximum Tolerated Dose of the Combination of Ruxolitinib and Bortezomib in Patients With Relapsed or Refractory Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3262,
+                    "therapyName": "Bortezomib + Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02635672",
+            "title": "Phase I Dose Escalation Study for BAY 1251152 in Patients With Advanced Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7313,
+                    "therapyName": "BAY 1251152",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02651662",
+            "title": "Study of REGN2810 and REGN1979 in Patients With Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6152,
+                    "therapyName": "Cemiplimab + REGN1979",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02662296",
+            "title": "Ibrutinib or Idelalisib in Treating Patients With Persistent or Relapsed Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma, or Non-Hodgkin Lymphoma After Donor Stem Cell Transplant",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 1023,
+                    "therapyName": "Idelalisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02663297",
+            "title": "Administration of T Lymphocytes for Prevention of Relapse of Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9020,
+                    "therapyName": "ATLCAR.CD30 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02690545",
+            "title": "Study of CD30 CAR for Relapsed/Refractory CD30+ HL and CD30+ NHL",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 9020,
+                    "therapyName": "ATLCAR.CD30 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02701673",
+            "title": "Belinostat Combined With Azacitidine/Gemcitabine/Busulfan/Melphalan With Autologous Stem-Cell Transplantation in Refractory or Relapsed Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 3277,
+                    "therapyName": "Pyridoxine",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1078,
+                    "therapyName": "Belinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02702492",
+            "title": "PAK4 and NAMPT in Patients With Solid MAlignancies or NHL (PANAMA) (PANAMA)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4662,
+                    "therapyName": "KPT-9274",
+                    "synonyms": null
+                },
+                {
+                    "id": 4688,
+                    "therapyName": "KPT-9274 + Niacin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02703272",
+            "title": "A Safety and Efficacy Study of Ibrutinib in Pediatric and Young Adult Participants With Relapsed or Refractory Mature B-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4307,
+                    "therapyName": "Carboplatin + Dexamethasone + Etoposide + Ifosfamide + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4308,
+                    "therapyName": "Carboplatin + Dexamethasone + Idarubicin + Ifosfamide + Rituximab + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02727803",
+            "title": "Personalized NK Cell Therapy After Chemotherapy and Cord Blood Transplant in Treating Patients With Myelodysplastic Syndrome, Leukemia, Lymphoma or Multiple Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9016,
+                    "therapyName": "anti-thymocyte globulin + Fludarabine + haNK cells + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 9015,
+                    "therapyName": "anti-thymocyte globulin + Cyclophosphamide + Fludarabine + haNK cells + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9014,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine + Fludarabine + haNK cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02732275",
+            "title": "DS-3201b in Participants With Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5691,
+                    "therapyName": "DS-3201b",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02783300",
+            "title": "Dose Escalation Study of GSK3326595 in Subjects With Solid Tumors and Non-Hodgkin's Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6958,
+                    "therapyName": "GSK3326595",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02790515",
+            "title": "Provision of TCR?? T Cells and Memory T Cells Plus Selected Use of Blinatumomab in Na\u00efve T-cell Depleted Haploidentical Donor Hematopoietic Cell Transplantation for Hematologic Malignancies Relapsed or Refractory Despite Prior Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1876,
+                    "therapyName": "Blinatumomab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2563,
+                    "therapyName": "Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 5682,
+                    "therapyName": "Mesna",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02797470",
+            "title": "Gene Therapy in Treating Patients With Human Immunodeficiency Virus-Related Lymphoma Receiving Stem Cell Transplant",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9777,
+                    "therapyName": "Carmustine + CCR5 shRNA/TRIM5a/TAR decoy-transduced CD34+ HPCs + Cytarabine + Etoposide + Melphalan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02867618",
+            "title": "Carfilzomib and TGR-1202 in Treatment of R/R Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4598,
+                    "therapyName": "Carfilzomib + Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02875067",
+            "title": "Safety & Efficacy Study of Combination of Pembrolizumab and Lenalidomide, in Patients With Relapsed Non-Hodgkin and Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3322,
+                    "therapyName": "Lenalidomide + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890758",
+            "title": "Phase I Trial of Universal Donor NK Cell Therapy in Combination With ALT803",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02917083",
+            "title": "CD30 CAR T Cells, Relapsed CD30 Expressing Lymphoma (RELY-30) (RELY-30)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9021,
+                    "therapyName": "ATLCAR.CD30 cells + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02953509",
+            "title": "Trial of Hu5F9-G4 in Combination With Rituximab in Relapsed/Refractory B-cell Non-Hodgkin's Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4955,
+                    "therapyName": "Hu5F9-G4 + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02954406",
+            "title": "A Study of TAK-659 in Combination With Bendamustine (+/-Rituximab), Gemcitabine, Lenalidomide, or Ibrutinib for the Treatment of Participants With Advanced Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5150,
+                    "therapyName": "Lenalidomide + TAK-659",
+                    "synonyms": null
+                },
+                {
+                    "id": 5149,
+                    "therapyName": "Ibrutinib + TAK-659",
+                    "synonyms": null
+                },
+                {
+                    "id": 5148,
+                    "therapyName": "Gemcitabine + TAK-659",
+                    "synonyms": null
+                },
+                {
+                    "id": 5147,
+                    "therapyName": "Bendamustine + Rituximab + TAK-659",
+                    "synonyms": null
+                },
+                {
+                    "id": 5146,
+                    "therapyName": "Bendamustine + TAK-659",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02961816",
+            "title": "Panobinostat Combined With High-Dose Gemcitabine/Busulfan/Melphalan With Autologous Stem Cell Transplant for Patients With Refractory/Relapsed Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3277,
+                    "therapyName": "Pyridoxine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4976,
+                    "therapyName": "Busulfan + Gemcitabine + Melphalan + Panobinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 4977,
+                    "therapyName": "Dexamethasone + Filgrastim + Palifermin + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02973113",
+            "title": "Nivolumab With Epstein Barr Virus Specific T Cells (EB-VSTS), Relapsed/Refractory EBV Positive Lymphoma (PREVALE) (PREVALE)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5058,
+                    "therapyName": "EB-VST cells + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978235",
+            "title": "A Dose Finding Study Followed by a Safety and Efficacy Study for Patients With Multiple Myeloma or Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5897,
+                    "therapyName": "TAS4464",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03015896",
+            "title": "Nivolumab and Lenalidomide in Treating Patients With Relapsed or Refractory Non-Hodgkin or Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5239,
+                    "therapyName": "Lenalidomide + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03019666",
+            "title": "Ph I Trial of NAM NK Cells and IL-2 for Adult Pts With MM and NHL",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9665,
+                    "therapyName": "Allogeneic NAM NK cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03035331",
+            "title": "Dendritic Cell Therapy, Cryosurgery, and Pembrolizumab in Treating Patients With Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03036904",
+            "title": "Study of Venetoclax Plus DA-EPOCH-R for the Treatment of Aggressive B-Cell Lymphomas (V+DA-EPOCH-R)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5294,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Etoposide + Prednisone + Rituximab + Venetoclax + Vincristine",
+                    "synonyms": "Venetoclax + DA-EPOCH-R"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03056339",
+            "title": "Umbilical & Cord Blood (CB)- Derived CAR-Engineered NK Cells for B Lymphoid Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6217,
+                    "therapyName": "Cyclophosphamide + Fludarabine + iC9/CAR.19/IL15-Transduced CB-NK",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03082209",
+            "title": "A Study of the Safety and Tolerability of ABBV-621 in Participants With Previously Treated Solid Tumors and Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5756,
+                    "therapyName": "ABBV-621",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03093116",
+            "title": "A Study of TPX-0005 in Patients With Advanced Solid Tumors Harboring ALK, ROS1, or NTRK1-3 Rearrangements",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3950,
+                    "therapyName": "Repotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03105336",
+            "title": "A Phase 2 Multicenter Study of Axicabtagene Ciloleucel in Subjects With Relapsed/Refractory Indolent Non-Hodgkin Lymphoma (ZUMA-5)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4829,
+                    "therapyName": "KTE-C19",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03119467",
+            "title": "Safety and Efficacy Study of RP4010, in Patients With Relapsed or Refractory Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5761,
+                    "therapyName": "RP4010",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03133221",
+            "title": "1630GCC: Zydelig Maintenance in B-Cell Non-Hodgkin's Lymphoma After Autologous Stem Cell Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1023,
+                    "therapyName": "Idelalisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03147885",
+            "title": "Selinexor Plus Combination Chemotherapy in Treating Patients With Advanced B Cell Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03153462",
+            "title": "Axicabtagene Ciloleucel Expanded Access Study",
+            "phase": "Expanded access",
+            "recruitment": "Available",
+            "therapies": [
+                {
+                    "id": 5098,
+                    "therapyName": "Cyclophosphamide + Fludarabine + KTE-C19",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03155620",
+            "title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                },
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 961,
+                    "therapyName": "Ensartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03162536",
+            "title": "Safety, PK, PD, and Antitumor Activity of ARQ 531 in Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5224,
+                    "therapyName": "ARQ 531",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03188965",
+            "title": "First-in-human Study of ATR Inhibitor BAY1895344 in Patients With Advanced Solid Tumors and Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5962,
+                    "therapyName": "BAY1895344",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03207256",
+            "title": "Compassionate Use Trial of Ublituximab and TGR-1202 in Combination or as Single Agents in Subjects Currently Receiving Treatment on Ublituximab and/or TGR-1202 Trials",
+            "phase": "Phase II",
+            "recruitment": "Enrolling by invitation",
+            "therapies": [
+                {
+                    "id": 2319,
+                    "therapyName": "Ublituximab + Umbralisib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2022,
+                    "therapyName": "Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03210662",
+            "title": "Pembrolizumab and Fractionated External Beam Radiotherapy (EBRT) in Patients With Non-Hodgkin Lymphoma (NHL)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03210714",
+            "title": "Erdafitinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With FGFR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1028,
+                    "therapyName": "Erdafitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213652",
+            "title": "Ensartinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With ALK or ROS1 Genomic Alterations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 961,
+                    "therapyName": "Ensartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213665",
+            "title": "Pediatric MATCH: Tazemetostat in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With EZH2, SMARCB1, or SMARCA4 Gene Mutations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213678",
+            "title": "PI3K/mTOR Inhibitor LY3023414 in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With TSC or PI3K/MTOR Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1069,
+                    "therapyName": "LY3023414",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213691",
+            "title": "Selumetinib Sulfate in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With Activating MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03213704",
+            "title": "Larotrectinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With NTRK Fusions (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03218683",
+            "title": "Study of AZD5991 in Relapsed or Refractory Haematologic Malignancies.",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6425,
+                    "therapyName": "AZD5991",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03220035",
+            "title": "Pediatric MATCH: Vemurafenib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With BRAF V600 Mutations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 342,
+                    "therapyName": "Vemurafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03233204",
+            "title": "Olaparib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With Defects in DNA Damage Repair Genes (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03258567",
+            "title": "Nivolumab in Epstein-Barr Virus (EBV)-Positive Lymphoproliferative Disorders and EBV-Positive Non-HodgkinLymphomas",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03259503",
+            "title": "Olaparib Combined With High-Dose Chemotherapy for Refractory Lymphomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1077,
+                    "therapyName": "Vorinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2373,
+                    "therapyName": "Palifermin",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 3277,
+                    "therapyName": "Pyridoxine",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03283137",
+            "title": "Combination of Pembrolizumab With TGR-1202 in Patients With Relapsed/Refractory CLL and B-cell NHL",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6237,
+                    "therapyName": "Pembrolizumab + Umbralisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03297424",
+            "title": "A Study of PLX2853 in Advanced Malignancies.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6324,
+                    "therapyName": "PLX2853",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03297606",
+            "title": "Canadian Profiling and Targeted Agent Utilization Trial (CAPTUR) (CAPTUR)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 690,
+                    "therapyName": "Bosutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1657,
+                    "therapyName": "Cobimetinib + Vemurafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 837,
+                    "therapyName": "Olaparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4,
+                    "therapyName": "Erlotinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 706,
+                    "therapyName": "Crizotinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1389,
+                    "therapyName": "Pertuzumab + Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 649,
+                    "therapyName": "Axitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03357627",
+            "title": "A Study of TAK-659 in Combination With Venetoclax for Adult Participants With Previously Treated Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6911,
+                    "therapyName": "TAK-659 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03357757",
+            "title": "Avelumab With Valproic Acid in Virus-associated Cancer (LATENT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6769,
+                    "therapyName": "Avelumab + Valproic acid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03379493",
+            "title": "Study of ET190L1-ARTEMIS T Cells in Relapsed and Refractory CD19+ Non-Hodgkin's Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT03424603",
+            "title": "Study of STRO-001, an Anti-CD74 Antibody Drug Conjugate, in Patients With Advanced B-Cell Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7413,
+                    "therapyName": "STRO-001",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03432741",
+            "title": "Direct Tumor Microinjection and FDG-PET in Testing Drug Sensitivity in Patients With Relapsed or Refractory Non-Hodgkin Lymphoma, Hodgkin Lymphoma, or Stage IV Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1624,
+                    "therapyName": "Carfilzomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1630,
+                    "therapyName": "Daratumumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1646,
+                    "therapyName": "Obinutuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 947,
+                    "therapyName": "Trastuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1075,
+                    "therapyName": "Romidepsin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1078,
+                    "therapyName": "Belinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03467373",
+            "title": "A Study of RO7082859 in Combination With Rituximab or Obinutuzumab Plus Cyclophosphamide, Doxorubicin, Vincristine, and Prednisone (CHOP) in Participants With Non-Hodgkin Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5647,
+                    "therapyName": "Tocilizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6257,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Obinutuzumab + Prednisone + Vincristine",
+                    "synonyms": "Obinutuzumab + CHOP"
+                },
+                {
+                    "id": 2195,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Prednisone + Rituximab + Vincristine",
+                    "synonyms": "Rituximab + CHOP|RCHOP"
+                },
+                {
+                    "id": 5764,
+                    "therapyName": "RO7082859",
+                    "synonyms": null
+                },
+                {
+                    "id": 7620,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Obinutuzumab + Prednisone + RO7082859 + Vincristine",
+                    "synonyms": "Obinutuzumab + RO7082859 + CHOP"
+                },
+                {
+                    "id": 7621,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Prednisone + Rituximab + RO7082859 + Vincristine",
+                    "synonyms": "Rituximab + RO7082859 + CHOP"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03505762",
+            "title": "Tailored Prednisone Reduction in Preventing Hyperglycemia in Participants With B-Cell Non-Hodgkin Lymphoma Receiving Combination Chemotherapy Treatment",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2195,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Prednisone + Rituximab + Vincristine",
+                    "synonyms": "Rituximab + CHOP|RCHOP"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03526250",
+            "title": "Palbociclib in Treating Patients With Relapsed or Refractory Rb Positive Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With Activating Alterations in Cell Cycle Genes (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 850,
+                    "therapyName": "Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03527147",
+            "title": "Platform Study for the Treatment of Relapsed or Refractory Aggressive Non-Hodgkin's Lymphoma (PRISM Study)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7880,
+                    "therapyName": "Acalabrutinib + AZD9150",
+                    "synonyms": null
+                },
+                {
+                    "id": 7847,
+                    "therapyName": "Acalabrutinib + AZD6738",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03537482",
+            "title": "APG-2575 Study of Safety, Tolerability ,PK/PD in Patients With Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8825,
+                    "therapyName": "APG-2575",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03571568",
+            "title": "A Study of BI-1206 in Combination With Rituximab in Subjects With Indolent B-Cell Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9353,
+                    "therapyName": "BI-1206 + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03579888",
+            "title": "CD19-Specific T Cells Post AlloSCT",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9593,
+                    "therapyName": "CD19-CD8-CD28-CD3zeta-CAR-mbIL15-HER1t T cells + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03583424",
+            "title": "Venetoclax, Carmustine, Etoposide, Cytarabine, and Melphalan Before Stem Cell Transplant in Treating Participants With Relapsed or Refractory Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7113,
+                    "therapyName": "Carmustine + Cytarabine + Etoposide + Melphalan + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03598608",
+            "title": "Study to Evaluate the Safety and Efficacy of a Combination of MK-4280 and Pembrolizumab (MK-3475) in Participants With Hematologic Malignancies (MK-4280-003)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4213,
+                    "therapyName": "MK-4280 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03602157",
+            "title": "Study of CAR-T Cells Expressing CD30 and CCR4 for r/r CD30+ HL and NHL",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1231,
+                    "therapyName": "Bendamustine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9025,
+                    "therapyName": "ATLCAR.CD30.CCR4 cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 9026,
+                    "therapyName": "ATLCAR.CD30 cells + ATLCAR.CD30.CCR4 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03677141",
+            "title": "A Phase Ib/II Study Investigating the Safety, Tolerability, Pharmacokinetics, and Efficacy of Mosunetuzumab (BTCT4465A) in Combination With CHOP or CHP-Polatuzumab Vedotin in Participants With B-Cell Non-Hodgkin Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5647,
+                    "therapyName": "Tocilizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7627,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Polatuzumab vedotin-piiq + Prednisone + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 7626,
+                    "therapyName": "BTCT4465A + Cyclophosphamide + Doxorubicin + Polatuzumab vedotin-piiq + Prednisone",
+                    "synonyms": null
+                },
+                {
+                    "id": 7625,
+                    "therapyName": "BTCT4465A + Cyclophosphamide + Doxorubicin + Prednisone + Vincristine",
+                    "synonyms": "BTCT4465A + CHOP"
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03707093",
+            "title": "Study of CD137 Agonist ADG106 With Advanced or Metastatic Solid Tumors and/or Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7568,
+                    "therapyName": "ADG106",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03713580",
+            "title": "Venetoclax in Combination With BEAM Conditioning Regimen for ASCT in Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 7113,
+                    "therapyName": "Carmustine + Cytarabine + Etoposide + Melphalan + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03740529",
+            "title": "A Study of Oral LOXO-305 in Patients With Previously Treated CLL/SLL or NHL",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9507,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + LOXO-305 + Prednisone + Rituximab + Vincristine",
+                    "synonyms": "LOXO-305 + R-CHOP"
+                },
+                {
+                    "id": 9506,
+                    "therapyName": "LOXO-305 + Rituximab + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 9505,
+                    "therapyName": "LOXO-305 + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 9504,
+                    "therapyName": "LOXO-305",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03772288",
+            "title": "A Study of TAK-659 in Combination With NKTR-214 in Participants With Advanced Non-Hodgkin Lymphoma (NHL)",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 8037,
+                    "therapyName": "NKTR-214 + TAK-659",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03786926",
+            "title": "Trial to Evaluate the Safety and Pharmacokinetics of HMPL-689 in Patients With Lymphomas",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3669,
+                    "therapyName": "HMPL-689",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03789097",
+            "title": "Vaccination With Flt3L, Radiation, and Poly-ICLC",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7696,
+                    "therapyName": "CDX-301 + Pembrolizumab + Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03797261",
+            "title": "A Study of Venetoclax and AMG 176 in Patients With Relapsed/Refractory Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 7706,
+                    "therapyName": "AMG 176 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03809624",
+            "title": "Study of INBRX-105 in Patients With Solid Tumors, Hodgkin or Non-Hodgkin Lymphoma (PDL1x41BB)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8934,
+                    "therapyName": "INBRX-105",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03884998",
+            "title": "Copanlisib and Nivolumab in Treating Participants With Richter's Transformation or Transformed Indolent Non-Hodgkin's Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6899,
+                    "therapyName": "Copanlisib + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03885947",
+            "title": "VPA Expanded UCB Transplantation for Treatment of Patients With Hematological Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1842,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Thiotepa",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03893682",
+            "title": "A Study of CG-806 in Patients With Relapsed or Refractory CLL/SLL or Non-Hodgkin's Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7038,
+                    "therapyName": "CG-806",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03900598",
+            "title": "A Study of JNJ-67856633 in Participants With Non-Hodgkin's Lymphoma (NHL) and Chronic Lymphocytic Leukemia (CLL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9733,
+                    "therapyName": "JNJ-67856633",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03921879",
+            "title": "Safety and Efficacy of OT-82 in Participants With Relapsed or Refractory Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9568,
+                    "therapyName": "OT-82",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03930953",
+            "title": "A Safety and Preliminary Efficacy Study of CC-99282, Alone and in Combination With Rituximab in Subjects With Relapsed or Refractory Non-hodgkin Lymphomas (R/R NHL)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9115,
+                    "therapyName": "CC-99282",
+                    "synonyms": null
+                },
+                {
+                    "id": 9116,
+                    "therapyName": "CC-99282 + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03983668",
+            "title": "CMP-001 for Relapsed and Refractory Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 4001,
+                    "therapyName": "Pembrolizumab + QbG10",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03997968",
+            "title": "A Phase 1/2 Study of CYT-0851, an Oral RAD51 Inhibitor, in B-Cell Malignancies and Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8486,
+                    "therapyName": "CYT01B",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04029038",
+            "title": "Modified Immune Cells (CD19-CD22 CAR T Cells) in Treating Patients With Recurrent or Refractory CD19 Positive, CD22 Positive Leukemia or Lymphoma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9646,
+                    "therapyName": "CD19/CD22 CAR T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04038359",
+            "title": "A Phase 2 Study Comparing 2 Intermittent Dosing Schedules of Duvelisib in Subjects With Indolent Non-Hodgkin Lymphoma. (TEMPO)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1024,
+                    "therapyName": "Duvelisib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04045028",
+            "title": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics (PK), Pharmacodynamics (PD), and Preliminary Activity of Tiragolumab in Participants With Relapsed or Refractory Multiple Myeloma or With Relapsed or Refractory B-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4268,
+                    "therapyName": "MTIG7192A",
+                    "synonyms": null
+                },
+                {
+                    "id": 9143,
+                    "therapyName": "Daratumumab + MTIG7192A",
+                    "synonyms": null
+                },
+                {
+                    "id": 9144,
+                    "therapyName": "MTIG7192A + Rituximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04074330",
+            "title": "A Study of TAK-981 in Combination With Rituximab in Participants With Relapsed/Refractory (r/r) CD20-positive (CD20+) Non-Hodgkin Lymphoma (NHL)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9146,
+                    "therapyName": "Rituximab + TAK-981",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04136756",
+            "title": "NKTR-255 in Relapsed/Refractory Multiple Myeloma and Non Hodgkin Lymphoma and Combined With Daratumumab for Multiple Myeloma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9162,
+                    "therapyName": "NKTR-255",
+                    "synonyms": null
+                },
+                {
+                    "id": 9163,
+                    "therapyName": "Daratumumab + NKTR-255",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04205409",
+            "title": "Nivolumab for the Treatment of Relapsed or Refractory Hematologic Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04220008",
+            "title": "Vorinostat and Combination Chemotherapy Before Donor Stem Cell Transplantation for the Treatment of Relapsed Aggressive B-cell or T-cell Non-Hodgkin Lymphoma",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9202,
+                    "therapyName": "Busulfan + Clofarabine + Cyclophosphamide + Gemcitabine + Mycophenolate mofetil + Rituximab + Tacrolimus + Vorinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 9201,
+                    "therapyName": "Busulfan + Clofarabine + Cyclophosphamide + Gemcitabine + Mycophenolate mofetil + Tacrolimus + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04233697",
+            "title": "Copanlisib in Combination With Romidepsin in Patients With Relapsed or Refractory Mature T-cell Lymphoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9250,
+                    "therapyName": "Copanlisib + Romidepsin",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

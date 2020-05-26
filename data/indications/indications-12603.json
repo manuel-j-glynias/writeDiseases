@@ -1,0 +1,1002 @@
+{
+    "id": 12603,
+    "name": "acute leukemia",
+    "source": "DOID",
+    "definition": "A lymphoid leukemia that occurs when a hematopoietic stem cell undergoes malignant transformation into a primitive, undifferentiated cell with abnormal longevity producing large numbers of white blood cells to be produced and enter the blood stream. [url:http\\://en.wikipedia.org/wiki/Acute_leukemia, url:http\\://www.bloodjournal.org/content/bloodjournal/128/3/462.full.pdf, url:http\\://www.merck.com/mmpe/sec11/ch142/ch142b.html]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "12621"
+    ],
+    "termId": "DOID:12603",
+    "evidence": [
+        {
+            "id": 1789,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SAR405838 inhibited growth of TP53 wild-type acute leukemia cells in culture and resulted in tumor regression in cell line xenograft models (PMID: 25145672).",
+            "molecularProfile": {
+                "id": 642,
+                "profileName": "TP53 wild-type"
+            },
+            "therapy": {
+                "id": 2078,
+                "therapyName": "SAR405838",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 12603,
+                "name": "acute leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1886,
+                    "pubMedId": 25145672,
+                    "title": "SAR405838: an optimized inhibitor of MDM2-p53 interaction that induces complete and durable tumor regression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25145672"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10418,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, AT9283 demonstrated tolerable toxicity but no clinical response in children with acute leukemia, although the trial failed to identify its primary endpoints due to poor recruitment and early termination (PMID: 27905678).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 646,
+                "therapyName": "AT9283",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 12603,
+                "name": "acute leukemia",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8432,
+                    "pubMedId": 27905678,
+                    "title": "A phase I/II trial of AT9283, a selective inhibitor of aurora kinase in children with relapsed or refractory acute leukemia: challenges to run early phase clinical trials for children with leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27905678"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16656,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Pinometostat (EPZ-5676) treatment resulted in complete remission in 2 patients with KMT2A rearranged (both with t(11;19)) acute leukemia (PMID: 29724899; NCT01684150).",
+            "molecularProfile": {
+                "id": 14079,
+                "profileName": "KMT2A rearrange"
+            },
+            "therapy": {
+                "id": 2855,
+                "therapyName": "Pinometostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 12603,
+                "name": "acute leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14705,
+                    "pubMedId": 29724899,
+                    "title": "The DOT1L inhibitor pinometostat reduces H3K79 methylation and has modest clinical activity in adult acute leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29724899"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19242,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, acute leukemia patients treated with CNDO-109 demonstrated a relapse-free survival (RFS) rate of 33% at 12 months, with three patients demonstrating a long-term RFS of at least 32.6 months in a follow-up (PMID: 29597002; NCT01520558).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8966,
+                "therapyName": "CNDO-109",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 12603,
+                "name": "acute leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 16842,
+                    "pubMedId": 29597002,
+                    "title": "A Phase 1 Trial of CNDO-109-Activated Natural Killer Cells in Patients with High-Risk Acute Myeloid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29597002"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00602693",
+            "title": "T-Regulatory Cell Infusion Post Umbilical Cord Blood Transplant in Patients With Advanced Hematologic Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2311,
+                    "therapyName": "Allopurinol + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00990249",
+            "title": "Busulfan Plus Clofarabine Followed by Allogeneic Hematopoietic Stem Cell Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2469,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01822509",
+            "title": "Ipilimumab or Nivolumab in Treating Patients With Relapsed Hematologic Malignancies After Donor Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02115295",
+            "title": "Cladribine Plus Idarubicin Plus Cytarabine (ARAC) in Patients With Acute Myeloid Leukemia (AML), High Risk Myelodysplastic Syndrome (HR MDS) or Myeloid Blast Phase of Chronic Myeloid Leukemia (CML)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7983,
+                    "therapyName": "Cladribine + Cytarabine + Idarubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 810,
+                    "therapyName": "Midostaurin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02135874",
+            "title": "Clofarabine, Idarubicin, Cytarabine, Vincristine Sulfate, and Dexamethasone in Treating Patients With Newly Diagnosed or Relapsed Mixed Phenotype Acute Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7981,
+                    "therapyName": "Clofarabine + Cytarabine + Dexamethasone + Idarubicin + Sorafenib + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 7980,
+                    "therapyName": "Clofarabine + Cytarabine + Dexamethasone + Idarubicin + Rituximab + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 7979,
+                    "therapyName": "Clofarabine + Cytarabine + Dexamethasone + Idarubicin + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02141828",
+            "title": "A Phase 1 Dose Escalation and Expanded Cohort Study of EPZ-5676 in the Treatment of Pediatric Patients With Relapsed/Refractory Leukemias Bearing a Rearrangement of the MLL Gene",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2855,
+                    "therapyName": "Pinometostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02208037",
+            "title": "Novel Approaches for Graft-versus-Host Disease Prevention Compared to Contemporary Controls (BMT CTN 1203)",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT02212561",
+            "title": "Selinexor With Fludarabine and Cytarabine for Treatment of Refractory or Relapsed Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2345,
+                    "therapyName": "Cytarabine + Dexamethasone + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02225574",
+            "title": "An Open-Label, Phase I/II Study of Nilotinib (Tasigna) and MEK-162 (ARRY-162) Used in Combination for Patients With Refractory or Advanced Chronic Myeloid Leukemia and Philadelphia Positive Acute Leukemia (Protocol CAMN107AUS41T)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2219,
+                    "therapyName": "Binimetinib + Nilotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02270788",
+            "title": "Crenolanib in Combination With Sorafenib in Patients With Refractory or Relapsed Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1865,
+                    "therapyName": "Cytarabine + Leucovorin + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 1864,
+                    "therapyName": "Crenolanib + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02345382",
+            "title": "Phase I Dose Escalation of BAY1143572 in Subjects With Acute Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4027,
+                    "therapyName": "BAY1143572",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02390752",
+            "title": "PLX3397 in Children and Young Adults With Refractory Leukemias and Refractory Solid Tumors Including Neurofibromatosis Type 1 (NF1) Associated Plexiform Neurofibromas (PN)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 874,
+                    "therapyName": "Pexidartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02392572",
+            "title": "ONC201 in Relapsed/Refractory Acute Leukemias and High-risk Myelodysplastic Syndromes (HR-MDS)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1687,
+                    "therapyName": "ONC201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02484261",
+            "title": "Monitoring and Treatment of Relapsed Leukemia Following Allogeneic Hematopoietic Stem Cell Transplantation in Children",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3191,
+                    "therapyName": "Bortezomib + Pravastatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02529813",
+            "title": "CD19-Specific T-cells in Treating Patients With Advanced Lymphoid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7940,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Tisagenlecleucel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02543879",
+            "title": "Study of a Novel BET Inhibitor FT-1101 in Patients With Relapsed or Refractory Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 7335,
+                    "therapyName": "FT-1101",
+                    "synonyms": null
+                },
+                {
+                    "id": 7336,
+                    "therapyName": "Azacitidine + FT-1101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02551718",
+            "title": "High Throughput Drug Sensitivity Assay and Genomics- Guided Treatment of Patients With Relapsed or Refractory Acute Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 690,
+                    "therapyName": "Bosutinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1074,
+                    "therapyName": "Irinotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1075,
+                    "therapyName": "Romidepsin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 829,
+                    "therapyName": "Nilotinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 706,
+                    "therapyName": "Crizotinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1740,
+                    "therapyName": "Mitoxantrone",
+                    "synonyms": null
+                },
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 848,
+                    "therapyName": "Pazopanib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1746,
+                    "therapyName": "Clofarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1750,
+                    "therapyName": "Hydroxyurea",
+                    "synonyms": null
+                },
+                {
+                    "id": 1877,
+                    "therapyName": "Tretinoin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1624,
+                    "therapyName": "Carfilzomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3160,
+                    "therapyName": "Nelarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 3159,
+                    "therapyName": "Bexarotene",
+                    "synonyms": null
+                },
+                {
+                    "id": 3161,
+                    "therapyName": "Pentostatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 735,
+                    "therapyName": "Everolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1640,
+                    "therapyName": "Mercaptopurine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 1767,
+                    "therapyName": "Cladribine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1641,
+                    "therapyName": "Thioguanine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1006,
+                    "therapyName": "Daunorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 877,
+                    "therapyName": "Ponatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 751,
+                    "therapyName": "Gefitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 755,
+                    "therapyName": "Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 640,
+                    "therapyName": "Arsenic trioxide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2,
+                    "therapyName": "Trametinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 770,
+                    "therapyName": "Imatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4,
+                    "therapyName": "Erlotinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 3,
+                    "therapyName": "Dabrafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 649,
+                    "therapyName": "Axitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 787,
+                    "therapyName": "Lapatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 789,
+                    "therapyName": "Ceritinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2075,
+                    "therapyName": "Lomustine",
+                    "synonyms": null
+                },
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1571,
+                    "therapyName": "Cabazitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 942,
+                    "therapyName": "Topotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1327,
+                    "therapyName": "Pralatrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02722668",
+            "title": "UCB Transplant for Hematological DIseases Using a Non Myeloablative Prep",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2281,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02727803",
+            "title": "Personalized NK Cell Therapy After Chemotherapy and Cord Blood Transplant in Treating Patients With Myelodysplastic Syndrome, Leukemia, Lymphoma or Multiple Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9016,
+                    "therapyName": "anti-thymocyte globulin + Fludarabine + haNK cells + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 9015,
+                    "therapyName": "anti-thymocyte globulin + Cyclophosphamide + Fludarabine + haNK cells + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9014,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine + Fludarabine + haNK cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02793544",
+            "title": "HLA-Mismatched Unrelated Donor Bone Marrow Transplantation With Post-Transplantation Cyclophosphamide",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 5682,
+                    "therapyName": "Mesna",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02828358",
+            "title": "Azacitidine and Combination Chemotherapy in Treating Infants With Acute Lymphoblastic Leukemia and KMT2A Gene Rearrangement",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 8668,
+                    "therapyName": "Cytarabine + Hydrocortisone + Leucovorin + Mercaptopurine + Pegaspargase",
+                    "synonyms": null
+                },
+                {
+                    "id": 8669,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Hydrocortisone + Mercaptopurine + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8666,
+                    "therapyName": "Cytarabine + Hydrocortisone + Mercaptopurine + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8667,
+                    "therapyName": "Cytarabine + Daunorubicin + Dexamethasone + Hydrocortisone + Pegaspargase + Thioguanine + Vincristine sulfate liposome",
+                    "synonyms": null
+                },
+                {
+                    "id": 8670,
+                    "therapyName": "Cytarabine + Daunorubicin + Dexamethasone + Hydrocortisone + Methotrexate + Pegaspargase + Prednisolone + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8664,
+                    "therapyName": "Mercaptopurine + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8665,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Thioguanine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02879643",
+            "title": "Vincristine Sulfate Liposome Injection (Marqibo) in Combination With UK ALL R3 Induction Chemotherapy for Children, Adolescents, and Young Adults With Relapsed ALL",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8063,
+                    "therapyName": "Dexamethasone + Methotrexate + Pegaspargase + Vincristine sulfate liposome",
+                    "synonyms": null
+                },
+                {
+                    "id": 8064,
+                    "therapyName": "Dexamethasone + Mercaptopurine + Methotrexate + Vincristine sulfate liposome",
+                    "synonyms": null
+                },
+                {
+                    "id": 8062,
+                    "therapyName": "Dexamethasone + Methotrexate + Mitoxantrone + Pegaspargase + Vincristine sulfate liposome",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02879695",
+            "title": "Blinatumomab and Nivolumab With or Without Ipilimumab in Treating Patients With Poor-Risk Relapsed or Refractory CD19+ Precursor B-Lymphoblastic Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4613,
+                    "therapyName": "Blinatumomab + Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03267186",
+            "title": "Ibrutinib in Preventing Acute Leukemia in Patients After Reduced-Intensity Conditioning and Stem Cell Transplant",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 768,
+                    "therapyName": "Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03404193",
+            "title": "Venetoclax in Combination With 10-Day Decitabine in Newly Diagnosed Elderly or Relapsed/Refractory Acute Myeloid Leukemia and Relapsed High-risk Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1636,
+                    "therapyName": "Decitabine + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03483324",
+            "title": "Trial of AB-110 in Adults With Hematologic Malignancies Undergoing Cord Blood Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9664,
+                    "therapyName": "AB-110",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03519984",
+            "title": "EphB4-HSA Fusion Protein and Cytarabine /or Liposomal Vincristine in Patients With Recurrent or Refractory Acute Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9615,
+                    "therapyName": "sEphB4-HSA + Vincristine sulfate liposome",
+                    "synonyms": null
+                },
+                {
+                    "id": 9614,
+                    "therapyName": "Cytarabine + sEphB4-HSA",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03739606",
+            "title": "Flotetuzumab in Treating Patients With Recurrent or Refractory CD123 Positive Blood Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7193,
+                    "therapyName": "Flotetuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03826992",
+            "title": "Venetoclax Combined With Vyxeos (CPX-351) for Participants With Relapsed or Refractory Acute Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7853,
+                    "therapyName": "CPX-351 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03834961",
+            "title": "Larotrectinib in Treating Patients With Previously Untreated TRK Fusion Solid Tumors and TRK Fusion Relapsed Acute Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2650,
+                    "therapyName": "Larotrectinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03959085",
+            "title": "Inotuzumab Ozogamicin and Post-Induction Chemotherapy in Treating Patients With High-Risk B-ALL, Mixed Phenotype Acute Leukemia, and B-LLy",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8550,
+                    "therapyName": "Dexamethasone + Doxorubicin + Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8555,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Mercaptopurine + Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8542,
+                    "therapyName": "Leucovorin + Mercaptopurine + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 3199,
+                    "therapyName": "inotuzumab ozogamicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 8735,
+                    "therapyName": "Cytarabine + Daunorubicin + Dexamethasone + Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8736,
+                    "therapyName": "Cytarabine + Daunorubicin + Methotrexate + Pegaspargase + Prednisolone + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8737,
+                    "therapyName": "Cyclophosphamide + Cytarabine + Methotrexate + Pegaspargase + Thioguanine + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8738,
+                    "therapyName": "inotuzumab ozogamicin + Methotrexate",
+                    "synonyms": null
+                },
+                {
+                    "id": 8547,
+                    "therapyName": "Methotrexate + Pegaspargase + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8548,
+                    "therapyName": "Mercaptopurine + Methotrexate + Prednisolone + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04047641",
+            "title": "Cladribine, Idarubicin, Cytarabine, and Quizartinib in Treating Patients With Newly Diagnosed, Relapsed, or Refractory Acute Myeloid Leukemia or High-Risk Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 882,
+                    "therapyName": "Quizartinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8659,
+                    "therapyName": "Cladribine + Cytarabine + Idarubicin + Quizartinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

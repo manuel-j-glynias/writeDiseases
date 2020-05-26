@@ -1,0 +1,2328 @@
+{
+    "id": 4928,
+    "name": "intrahepatic cholangiocarcinoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4928",
+    "evidence": [
+        {
+            "id": 3993,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, Derazantinib (ARQ 087) treatment resulted in an overall response rate of 20.7% (6/29), a disease control rate of 82.8% (24/29), and a median progression-free survival of 5.7 months in patients with intrahepatic cholangiocarcinoma harboring FGFR2 fusions (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 2969,
+                "profileName": "FGFR2 fusion"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7347,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, intrahepatic cholangiocarcinoma cells harboring IDH1 R132S demonstrated increased sensitivity to Sprycel (dasatinib) induced growth inhibition compared to IDH1 wild-type cells in culture (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 5018,
+                "profileName": "IDH1 R132S"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7348,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, intrahepatic cholangiocarcinoma cells harboring IDH1 R132S demonstrated increased sensitivity to Saracatinib (AZD0530) induced growth inhibition compared to IDH1 wild-type cells in culture (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 5018,
+                "profileName": "IDH1 R132S"
+            },
+            "therapy": {
+                "id": 912,
+                "therapyName": "Saracatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7349,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, intrahepatic cholangiocarcinoma cells harboring IDH1 R132C demonstrated increased sensitivity to Saracatinib (AZD0530) induced growth inhibition compared to IDH1 wild-type cells in culture (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 912,
+                "therapyName": "Saracatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7350,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) inhibited growth of intrahepatic cholangiocarcinoma cells harboring IDH1 R132C in culture, and suppressed tumor growth in PDX models (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7353,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, intrahepatic cholangiocarcinoma cells harboring IDH2 R172K and KRAS G12D demonstrated increased sensitivity to Sprycel (dasatinib) induced growth inhibition in culture and in xenograft models (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 25295,
+                "profileName": "IDH2 R172K KRAS G12D"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7354,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, intrahepatic cholangiocarcinoma cells harboring IDH2 R172K and KRAS G12D demonstrated increased sensitivity to Saracatinib (AZD0530) induced growth inhibition in culture (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 25295,
+                "profileName": "IDH2 R172K KRAS G12D"
+            },
+            "therapy": {
+                "id": 912,
+                "therapyName": "Saracatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7355,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, intrahepatic cholangiocarcinoma cells harboring IDH1 R132S acquired resistance to Sprycel (dasatinib) after over expressing SRC T341I in culture (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 25297,
+                "profileName": "IDH1 R132C SRC T341I"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15393,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, BGJ398 treatment resulted in partial response after 2 month of therapy and maintained the response for 4 months in a patient with advanced intrahepatic cholangiocarcinoma harboring a FGFR2 F276C mutation, which is consistent with inhibition of Erk signaling in cholangiocarcinoma cells expressing FGFR2 F274C in culture (JCO Precis Oncol 2017:1, 1-13; NCT02150967).",
+            "molecularProfile": {
+                "id": 3439,
+                "profileName": "FGFR2 F276C"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12754,
+                    "pubMedId": null,
+                    "title": "Molecular Modeling and Functional Analysis of Exome Sequencing\u2013Derived Variants of Unknown Significance Identify a Novel, Constitutively Active FGFR2 Mutant in Cholangiocarcinoma",
+                    "url": "http://ascopubs.org/doi/full/10.1200/PO.17.00018"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17136,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with intrahepatic cholangiocarcinoma harboring an FGFR2-SORBS1 fusion developed progressive disease after initial response to Infigratinib (BGJ398) for 12.6 months and FGFR2 K660M and FGFR2 K715R were identified in the post-progression cell-free DNA (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32348,
+                "profileName": "FGFR2 - SORBS1 FGFR2 K660M FGFR2 K715R"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17137,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-SORBS1 fusion with FGFR2 K660M and K175R mutations, responded to TAS-120 for 15.8 months before progressing due to an acquired FGFR2 V565F mutation, detected in cell-free DNA (PMID: 31109923; NCT02052778).",
+            "molecularProfile": {
+                "id": 32348,
+                "profileName": "FGFR2 - SORBS1 FGFR2 K660M FGFR2 K715R"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17138,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-SORBS1 fusion responded to Infigratinib (BGJ398) for 12.6 months before progressing due to acquired FGFR2 K660M and K175R mutations, detected in cell-free DNA (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32344,
+                "profileName": "FGFR2 - SORBS1"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17139,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-SORBS1 fusion, responded to TAS-120 for 15.8 months before progressing due to an acquired FGFR2 V565F mutation, detected in cell-free DNA (PMID: 31109923; NCT02052778).",
+            "molecularProfile": {
+                "id": 32350,
+                "profileName": "FGFR2 - SORBS1 FGFR2 V565F"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17140,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-ZMYM4 fusion responded to Infigratinib (BGJ398) for 5.6 months before progressing due to acquired FGFR2 V565F, K660M, E566A, N550H, and N550K mutations, detected in cell-free DNA (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32351,
+                "profileName": "FGFR2 - ZMYM4"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17141,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with intrahepatic cholangiocarcinoma harboring an FGFR2-ZMYM4 fusion developed progressive disease after initial response to Infigratinib (BGJ398) for 5.6 months and FGFR2 V565F, K660M E566A, N550H, and N550K mutations were identified in the post-progression cell-free DNA (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32352,
+                "profileName": "FGFR2 - ZMYM4 FGFR2 N550H FGFR2 N550K FGFR2 V565F FGFR2 E566A FGFR2 K660M"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17142,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-ZMYM4 fusion with FGFR2 V565F, K660M E566A, N550H, and N550K mutations, responded to TAS-120 for 7.2 months before progressing due to an acquired FGFR2 V563L mutation, detected in cell-free DNA (PMID: 31109923; NCT02052778).",
+            "molecularProfile": {
+                "id": 32352,
+                "profileName": "FGFR2 - ZMYM4 FGFR2 N550H FGFR2 N550K FGFR2 V565F FGFR2 E566A FGFR2 K660M"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17143,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-SORBS1 fusion with FGFR2 V565F, K660M E566A, N550H, and N550K mutations, responded to TAS-120 for 7.2 months before progressing due to an acquired FGFR2 V563L mutation, detected in cell-free DNA and tumor biopsy (PMID: 31109923; NCT02052778).",
+            "molecularProfile": {
+                "id": 32355,
+                "profileName": "FGFR2 - ZMYM4 FGFR2 V563L"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17144,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-INA fusion responded to Debio 1347 for 11.4 months before progressing due to acquired FGFR2 H683L, L618V, N550H, N550T, and M538I mutations (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32356,
+                "profileName": "FGFR2 - INA"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17145,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with intrahepatic cholangiocarcinoma harboring an FGFR2-INA fusion developed progressive disease after initial response to Debio 1347 for 11.4 months and FGFR2 H683L, L618V, N550H, N550T, M538I mutations were identified post-progression (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32365,
+                "profileName": "FGFR2 - INA FGFR2 M538I FGFR2 N550H FGFR2 N550T FGFR2 L618V FGFR2 H683L"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17146,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-INA fusion with FGFR2 H683L, L618V, N550H, N550T, M538I mutations, responded to TAS-120 for 5.1 months before progressing due to acquired FGFR2 V565L and E566A mutations, detected in cell-free DNA (PMID: 31109923; NCT02052778).",
+            "molecularProfile": {
+                "id": 32365,
+                "profileName": "FGFR2 - INA FGFR2 M538I FGFR2 N550H FGFR2 N550T FGFR2 L618V FGFR2 H683L"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17147,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-INA fusion with FGFR2 H683L, L618V, N550H, N550T, M538I mutations, responded to TAS-120 for 5.1 months before progressing due to acquired FGFR2 V565L and E566A mutations, detected in cell-free DNA (PMID: 31109923; NCT02052778).",
+            "molecularProfile": {
+                "id": 32369,
+                "profileName": "FGFR2 - INA FGFR2 V565L FGFR2 E566A"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17148,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-NRAP fusion responded to Infigratinib (BGJ398) for 7.1 months before progressing (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32370,
+                "profileName": "FGFR2 - NRAP"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17149,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-NRAP fusion responded to TAS-120 for 17.2 months before progressing due to an acquired FGFR2 N550K mutation, detected in cell-free DNA and the tumor biopsy (PMID: 31109923; NCT02052778).",
+            "molecularProfile": {
+                "id": 32370,
+                "profileName": "FGFR2 - NRAP"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17150,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with intrahepatic cholangiocarcinoma, harboring an FGFR2-NRAP fusion responded to TAS-120 for 17.2 months before progressing due to an acquired FGFR2 N550K mutation, detected in cell-free DNA and the tumor biopsy (PMID: 31109923; NCT02052778).",
+            "molecularProfile": {
+                "id": 32371,
+                "profileName": "FGFR2 - NRAP FGFR2 N550K"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17151,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of an intrahepatic cholangiocarcinoma patient-derived xenograft model, harboring an FGFR2-KIAA1217 fusion, decreased tumor growth and suppressed MEK/ERK signaling (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32381,
+                "profileName": "FGFR2 - KIAA1217"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17176,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 M538I had weakened sensitivity, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32372,
+                "profileName": "FGFR2 fusion FGFR2 M538I"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17177,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 N550H had weakened sensitivity, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32373,
+                "profileName": "FGFR2 fusion FGFR2 N550H"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17178,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 E566A had weakened sensitivity, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32376,
+                "profileName": "FGFR2 fusion FGFR2 E566A"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17179,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 H683L had weakened sensitivity, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32379,
+                "profileName": "FGFR2 fusion FGFR2 H683L"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17180,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 N550K were resistant to treatment as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32374,
+                "profileName": "FGFR2 fusion FGFR2 N550K"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17181,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 V565F were resistant to treatment as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32375,
+                "profileName": "FGFR2 fusion FGFR2 V565F"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17182,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 L618V were resistant to treatment as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32377,
+                "profileName": "FGFR2 fusion FGFR2 L618V"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17183,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 K660M were resistant to treatment as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32378,
+                "profileName": "FGFR2 fusion FGFR2 K660M"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17184,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 K715R were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling, in in vitro assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32380,
+                "profileName": "FGFR2 fusion FGFR2 K715R"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17185,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 K715R were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling, in in vitro assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32380,
+                "profileName": "FGFR2 fusion FGFR2 K715R"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17186,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 M538I had weakened sensitivity, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32372,
+                "profileName": "FGFR2 fusion FGFR2 M538I"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17187,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 N550H had weakened sensitivity, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32373,
+                "profileName": "FGFR2 fusion FGFR2 N550H"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17188,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 V565F had weakened sensitivity, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32375,
+                "profileName": "FGFR2 fusion FGFR2 V565F"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17189,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 E566A had weakened sensitivity, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32376,
+                "profileName": "FGFR2 fusion FGFR2 E566A"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17190,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 H683L had weakened sensitivity, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32379,
+                "profileName": "FGFR2 fusion FGFR2 H683L"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17191,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 N550K were resistant to treatment, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32374,
+                "profileName": "FGFR2 fusion FGFR2 N550K"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17192,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 L618V were resistant to treatment, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32377,
+                "profileName": "FGFR2 fusion FGFR2 L618V"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17193,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 K660M were resistant to treatment, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32378,
+                "profileName": "FGFR2 fusion FGFR2 K660M"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17194,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 V565F were resistant to treatment, as demonstrated by cell viability and downstream signaling assays (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32375,
+                "profileName": "FGFR2 fusion FGFR2 V565F"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17195,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 K715R were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32380,
+                "profileName": "FGFR2 fusion FGFR2 K715R"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17196,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 M538I were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32372,
+                "profileName": "FGFR2 fusion FGFR2 M538I"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17197,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 N550H were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32373,
+                "profileName": "FGFR2 fusion FGFR2 N550H"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17198,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 N550K were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32374,
+                "profileName": "FGFR2 fusion FGFR2 N550K"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17199,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 E566A were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32376,
+                "profileName": "FGFR2 fusion FGFR2 E566A"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17200,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 L618V were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32377,
+                "profileName": "FGFR2 fusion FGFR2 L618V"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17201,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 K660M were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32378,
+                "profileName": "FGFR2 fusion FGFR2 K660M"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17202,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-120 treatment of intrahepatic cholangiocarcinoma cells with an FGFR2 fusion in context with FGFR2 H683L were sensitive to treatment as demonstrated by decreased cell viability and decreased activation of downstream signaling (PMID: 31109923).",
+            "molecularProfile": {
+                "id": 32379,
+                "profileName": "FGFR2 fusion FGFR2 H683L"
+            },
+            "therapy": {
+                "id": 1053,
+                "therapyName": "Futibatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15207,
+                    "pubMedId": 31109923,
+                    "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31109923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20187,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic intrahepatic cholangiocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20188,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic intrahepatic cholangiocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20189,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic intrahepatic cholangiocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20190,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic intrahepatic cholangiocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20191,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic intrahepatic cholangiocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20192,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Rozlytrek (entrectinib) is included in guidelines as primary therapy for patients with unresectable or metastatic intrahepatic cholangiocarcinoma harboring an NTRK fusion (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20199,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as primary therapy for patients with unresectable or metastatic intrahepatic cholangiocarcinoma with high microsatellite instability (MSI-H) or deficient mismatch repair (dMMR) (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20591,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, treatment with Derazantinib (ARQ 087) in four patients with intrahepatic cholangiocarcinoma harboring FGFR2-BICC1 resulted in one partial response, stable disease in two, and progressive disease in one (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 17509,
+                "profileName": "FGFR2 - BICC1"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20592,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, treatment with Derazantinib (ARQ 087) in two patients with intrahepatic cholangiocarcinoma harboring FGFR2-KIAA1217 resulted in one with a partial response and one with stable disease (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 32381,
+                "profileName": "FGFR2 - KIAA1217"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20593,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, a patient with intrahepatic cholangiocarcinoma harboring FGFR2-SH3GLB1 demonstrated a partial response when treated with Derazantinib (ARQ 087) (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 35251,
+                "profileName": "FGFR2 - SH3GLB1"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20594,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, a patient with intrahepatic cholangiocarcinoma harboring FGFR2-CCAR2 demonstrated stable disease when treated with Derazantinib (ARQ 087) (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 25825,
+                "profileName": "FGFR2 - CCAR2"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20595,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, a patient with intrahepatic cholangiocarcinoma harboring FGFR2-AHCYL1 demonstrated stable disease when treated with Derazantinib (ARQ 087) (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 17510,
+                "profileName": "FGFR2 - AHCYL1"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20596,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, a patient with intrahepatic cholangiocarcinoma harboring FGFR2-BFSP2 demonstrated stable disease when treated with Derazantinib (ARQ 087) (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 35255,
+                "profileName": "FGFR2 - BFSP2"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20597,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, a patient with intrahepatic cholangiocarcinoma harboring FGFR2-CCDC6 demonstrated stable disease when treated with Derazantinib (ARQ 087) (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 17514,
+                "profileName": "FGFR2 - CCDC6"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20598,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, a patient with intrahepatic cholangiocarcinoma harboring FGFR2-TACC2 demonstrated sensitivity to treatment with Derazantinib (ARQ 087) (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 35250,
+                "profileName": "FGFR2 - TACC2"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20599,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, a patient with intrahepatic cholangiocarcinoma harboring FGFR2-CIT demonstrated progressive disease when treated with Derazantinib (ARQ 087) (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 25827,
+                "profileName": "FGFR2 - CIT"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20600,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, a patient with intrahepatic cholangiocarcinoma harboring FGFR2-TACC1 demonstrated progressive disease when treated with Derazantinib (ARQ 087) (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 35256,
+                "profileName": "FGFR2 - TACC1"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02428855",
+            "title": "Phase II Trial of Dasatinib in Patients With Isocitrate Dehydrogenase (IDH)-Mutant Advanced Intrahepatic Cholangiocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834780",
+            "title": "Phase 1 Study to Evaluate the Safety, Pharmacokinetics and Pharmacodynamics of H3B-6527 in Subjects With Advanced Hepatocellular Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6610,
+                    "therapyName": "H3B-6527",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03230318",
+            "title": "ARQ 087 in Subjects With FGFR2 Gene Fusion Positive Inoperable or Advanced Intrahepatic Cholangiocarcinoma",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2900,
+                    "therapyName": "Derazantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03684811",
+            "title": "A Study of FT 2102 in Participants With Advanced Solid Tumors and Gliomas With an IDH1 Mutation",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7527,
+                    "therapyName": "Cisplatin + FT-2102 + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4449,
+                    "therapyName": "Azacitidine + FT-2102",
+                    "synonyms": null
+                },
+                {
+                    "id": 4336,
+                    "therapyName": "FT-2102",
+                    "synonyms": null
+                },
+                {
+                    "id": 7526,
+                    "therapyName": "FT-2102 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04003636",
+            "title": "Pembrolizumab (MK-3475) Plus Gemcitabine/Cisplatin Versus Placebo Plus Gemcitabine/Cisplatin for First-Line Advanced and/or Unresectable Biliary Tract Carcinoma (BTC) (MK-3475-966/KEYNOTE-966) (KEYNOTE-966)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 3248,
+                    "therapyName": "Cisplatin + Gemcitabine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04057365",
+            "title": "A Single Arm Phase II Study of the Combination of DKN-01 and Nivolumab in Previously Treated Patients With Advanced Biliary Tract Cancer (BTC)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8678,
+                    "therapyName": "DKN-01 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04093362",
+            "title": "Futibatinib Vs Gemcitabine-Cisplatin Chemotherapy as 1st-Line Treatment of Patients With Advanced Cholangiocarcinoma (CCA) Harboring FGFR2 Gene Rearrangements (FOENIX-CCA3)",
+            "phase": "Phase III",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1053,
+                    "therapyName": "Futibatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04175912",
+            "title": "Testing the Combination of Pevonedistat With Chemotherapy for Bile Duct Cancer of the Liver",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6501,
+                    "therapyName": "Carboplatin + MLN4924 + Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 1688,
+                    "therapyName": "MLN4924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04301778",
+            "title": "Durvalumab in Combination With a CSF-1R Inhibitor (SNDX-6532) Following Chemo or Radio-Embolization for Patients With Intrahepatic Cholangiocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 7153,
+                    "therapyName": "Durvalumab + SNDX-6352",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04306367",
+            "title": "Study of Pembrolizumab and Olaparib in Bile Duct Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5342,
+                    "therapyName": "Olaparib + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

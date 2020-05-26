@@ -1,0 +1,228 @@
+{
+    "id": 9551,
+    "name": "smoldering myeloma",
+    "source": "DOID",
+    "definition": "A multiple myeloma that is a slow growing type of myeloma in which abnormal plasma cells results_in too much of a single type of monoclonal antibody. [url:http\\://www.cancer.gov/dictionary/?CdrID=413932]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:9551",
+    "evidence": [
+        {
+            "id": 9105,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, IPH2101 resulted in decreased expression of KIR2D receptors on circulating natural killer (NK) cells, which likely contributed to the limited efficacy in patients with smoldering multiple myeloma (PMID: 27307594).",
+            "molecularProfile": {
+                "id": 26742,
+                "profileName": "KIR2DL1 positive"
+            },
+            "therapy": {
+                "id": 4906,
+                "therapyName": "IPH2101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9551,
+                "name": "smoldering myeloma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6920,
+                    "pubMedId": 27307594,
+                    "title": "Checkpoint Inhibition of KIR2D with the Monoclonal Antibody IPH2101 Induces Contraction and Hyporesponsiveness of NK Cells in Patients with Myeloma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27307594"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16317,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/IIa clinical trial, PVX-410 treatment was well-tolerated, elicited immune responses, and resulted in a best response of stable disease in all patients (n=12) with smoldering multiple myeloma with moderate/high risk of progression and during a 12-month follow up period 41.7% (5/12) of patients had disease progression (PMID: 30128502; NCT01718899).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 4465,
+                "therapyName": "PVX-410",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9551,
+                "name": "smoldering myeloma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14443,
+                    "pubMedId": 30128502,
+                    "title": "Assessment of Safety and Immunogenicity of PVX-410 Vaccine With or Without Lenalidomide in Patients With Smoldering Multiple Myeloma: A Nonrandomized Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30128502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16318,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/IIa clinical trial, combination therapy with PVX-410 and Revlimid (lenalidomide) was well-tolerated, and resulted in a partial response in 11% (1/9), minimal response in 44% (4/9), and stable disease in 44% (4/9) of patients with smoldering multiple myeloma with moderate/high risk of progression, and the magnitude of the immune response observed was significantly larger than in patients treated with PVX-410 alone (PMID: 30128502; NCT01718899).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 8001,
+                "therapyName": "Lenalidomide + PVX-410",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9551,
+                "name": "smoldering myeloma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14443,
+                    "pubMedId": 30128502,
+                    "title": "Assessment of Safety and Immunogenicity of PVX-410 Vaccine With or Without Lenalidomide in Patients With Smoldering Multiple Myeloma: A Nonrandomized Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30128502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02279394",
+            "title": "Trial of Combination of Elotuzumab and Lenalidomide +/- Dexamethasone in High-Risk Smoldering Multiple Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1390,
+                    "therapyName": "Dexamethasone",
+                    "synonyms": null
+                },
+                {
+                    "id": 3430,
+                    "therapyName": "Elotuzumab + Lenalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02886065",
+            "title": "A Phase 1b Study of PVX-410, a Multi-Peptide Cancer Vaccine, and Durvalumab (Anti-PDL1) With and Without Lenalidomide for Patients With Smoldering Multiple Myeloma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 5082,
+                    "therapyName": "Durvalumab + PVX-410",
+                    "synonyms": null
+                },
+                {
+                    "id": 5081,
+                    "therapyName": "Durvalumab + Lenalidomide + PVX-410",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02903381",
+            "title": "Nivolumab + Lenalidomide + Dexamethasone In SMM",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5128,
+                    "therapyName": "Dexamethasone + Lenalidomide + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02960555",
+            "title": "Trial of Isatuximab (SAR650984) in Patients With High Risk Smoldering Multiple Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6410,
+                    "therapyName": "Diphenhydramine + Isatuximab + Methylprednisolone + Ranitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03301220",
+            "title": "A Study of Subcutaneous Daratumumab Versus Active Monitoring in Participants With High-Risk Smoldering Multiple Myeloma",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7886,
+                    "therapyName": "Daratumumab + rHuPH20",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03591614",
+            "title": "Dendritic Cell DKK1 Vaccine for Monoclonal Gammopathy and Stable or Smoldering Myeloma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9685,
+                    "therapyName": "DKK1 dendritic cell vaccine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03631043",
+            "title": "Personalized Vaccine in Treating Participants With Smoldering Multiple Myeloma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9695,
+                    "therapyName": "Personalized cancer vaccine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03839459",
+            "title": "Denosumab for Smoldering Multiple Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1198,
+                    "therapyName": "Denosumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

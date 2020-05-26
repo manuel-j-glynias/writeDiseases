@@ -1,0 +1,730 @@
+{
+    "id": 50905,
+    "name": "inflammatory myofibroblastic tumor",
+    "source": "DOID",
+    "definition": "A mesenchymal cell neoplasm that has_material_basis_in myofibroblastic cells admixed with inflammatory cells. [url:http\\://www.ncbi.nlm.nih.gov/pmc/articles/PMC2689747/, url:https\\://www.ncbi.nlm.nih.gov/pubmed/23091756]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050905",
+    "evidence": [
+        {
+            "id": 7509,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in sustained tumor regression (more than 4 months) in a pediatric patient with an inflammatory myofibroblastic tumor harboring a TFG-ROS1 fusion (PMID: 24875859).",
+            "molecularProfile": {
+                "id": 25651,
+                "profileName": "TFG - ROS1"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6382,
+                    "pubMedId": 24875859,
+                    "title": "Inflammatory myofibroblastic tumors harbor multiple potentially actionable kinase fusions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24875859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8958,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with inflammatory myofibroblastic tumor that had progressed on Xalkori (crizotinib) achieved a partial response following treatment with Zykadia (ceritinib), and was found to harbor a TPM3-ALK fusion (PMID: 27742657).",
+            "molecularProfile": {
+                "id": 11389,
+                "profileName": "TPM3 - ALK"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6806,
+                    "pubMedId": 27742657,
+                    "title": "Chromoplectic TPM3-ALK rearrangement in a patient with inflammatory myofibroblastic tumor who responded to ceritinib after progression on crizotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27742657"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11797,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, treatment with Xalkori (crizotinib) resulted in an objective response rate of 86% (12/14), with complete response in 36% (5/14), in patients with inflammatory myofibroblastic tumor harboring an ALK fusion (PMID: 28787259; NCT00939770).",
+            "molecularProfile": {
+                "id": 2446,
+                "profileName": "ALK fusion"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9791,
+                    "pubMedId": 28787259,
+                    "title": "Targeting ALK With Crizotinib in Pediatric Anaplastic Large Cell Lymphoma and Inflammatory Myofibroblastic Tumor: A Children's Oncology Group Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28787259"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12760,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, ALK F1174L was identified in a progressing lesion of a patient with inflammatory myofibroblastic tumor harboring RANBP2-ALK, whose disease progressed after initial response to Xalkori (crizotinib) (PMID: 21030459).",
+            "molecularProfile": {
+                "id": 12109,
+                "profileName": "RANBP2 - ALK ALK F1174L"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3660,
+                    "pubMedId": 21030459,
+                    "title": "The neuroblastoma-associated F1174L ALK mutation causes resistance to an ALK kinase inhibitor in ALK-translocated cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21030459"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12933,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "TPM3-ALK fusions aid the diagnosis of inflammatory myofibroblastic tumor (NCCN.org).",
+            "molecularProfile": {
+                "id": 11389,
+                "profileName": "TPM3 - ALK"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12934,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "TPM4-ALK fusions aid the diagnosis of inflammatory myofibroblastic tumor (NCCN.org).",
+            "molecularProfile": {
+                "id": 11390,
+                "profileName": "TPM4 - ALK"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12935,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "CLTC-ALK fusions aid the diagnosis of inflammatory myofibroblastic tumor (NCCN.org).",
+            "molecularProfile": {
+                "id": 3533,
+                "profileName": "CLTC - ALK"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12937,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "RANBP2-ALK fusions aid the diagnosis of inflammatory myofibroblastic tumor (NCCN.org).",
+            "molecularProfile": {
+                "id": 11387,
+                "profileName": "RANBP2 - ALK"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12938,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "CARS1-ALK fusions aid the diagnosis of inflammatory myofibroblastic tumor (NCCN.org).",
+            "molecularProfile": {
+                "id": 3527,
+                "profileName": "CARS - ALK"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12939,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "ATIC-ALK fusions aid the diagnosis of inflammatory myofibroblastic tumor (NCCN.org).",
+            "molecularProfile": {
+                "id": 11385,
+                "profileName": "ATIC - ALK"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13065,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, ASP3026 treatment resulted in rapid initial response in a patient with inflammatory myofibroblastic tumor in the pleural cavity harboring RANBP2-ALK fusion, however, the disease progressed 7 months later (PMID: 27565932).",
+            "molecularProfile": {
+                "id": 11387,
+                "profileName": "RANBP2 - ALK"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10946,
+                    "pubMedId": 27565932,
+                    "title": "Drastic initial response and subsequent response to two ALK inhibitors in a patient with a highly aggressive ALK-rearranged inflammatory myofibroblastic tumor arising in the pleural cavity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27565932"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13066,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Zykadia (ceritinib) treatment resulted in a partial response that lasted for 11 months in a patient with inflammatory myofibroblastic tumor in the pleural cavity harboring a RANBP2-ALK fusion, whose disease progressed after initial response to ASP3026 (PMID: 27565932).",
+            "molecularProfile": {
+                "id": 11387,
+                "profileName": "RANBP2 - ALK"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10946,
+                    "pubMedId": 27565932,
+                    "title": "Drastic initial response and subsequent response to two ALK inhibitors in a patient with a highly aggressive ALK-rearranged inflammatory myofibroblastic tumor arising in the pleural cavity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27565932"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13269,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in rapid tumor reduction in a patient with inflammatory myofibroblastic tumor harboring NUMA1-ALK fusion, but was later switched to Alecensa (alectinib) due to recurrent pneumonitis, the patient achieved near complete response at 13 months (PMID: 29439172).",
+            "molecularProfile": {
+                "id": 29047,
+                "profileName": "NUMA1 - ALK"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11027,
+                    "pubMedId": 29439172,
+                    "title": "Inflammatory Myofibroblastic Tumor Driven by Novel NUMA1-ALK Fusion Responds to ALK Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29439172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13270,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in rapid tumor reduction in a patient with inflammatory myofibroblastic tumor harboring NUMA1-ALK fusion, but was later switched to Alecensa (alectinib) due to recurrent pneumonitis, the patient achieved near complete response at 13 months (PMID: 29439172).",
+            "molecularProfile": {
+                "id": 29047,
+                "profileName": "NUMA1 - ALK"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11027,
+                    "pubMedId": 29439172,
+                    "title": "Inflammatory Myofibroblastic Tumor Driven by Novel NUMA1-ALK Fusion Responds to ALK Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29439172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13271,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial (PROFILE 1001), Xalkori (crizotinib) treatment resulted in complete radiographic remission in a patient with inflammatory myofibroblastic tumor harboring RANBP2-ALK fusion (PMID: 20979472; NCT00585195).",
+            "molecularProfile": {
+                "id": 11387,
+                "profileName": "RANBP2 - ALK"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11037,
+                    "pubMedId": 20979472,
+                    "title": "Crizotinib in ALK-rearranged inflammatory myofibroblastic tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20979472"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13272,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with inflammatory myofibroblastic tumor harboring EML4-ALK achieved complete remission three years after starting Xalkori (crizotinib) treatment (PMID: 26808369).",
+            "molecularProfile": {
+                "id": 4138,
+                "profileName": "EML4 - ALK"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11039,
+                    "pubMedId": 26808369,
+                    "title": "Complete and Repeated Response of a Metastatic ALK-rearranged Inflammatory Myofibroblastic Tumor to Crizotinib in a Teenage Girl.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26808369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13274,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in stable disease in a patient with inflammatory myofibroblastic tumor harboring CLTC-ALK fusion at 4 months after starting therapy (PMID: 24583837).",
+            "molecularProfile": {
+                "id": 3533,
+                "profileName": "CLTC - ALK"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11040,
+                    "pubMedId": 24583837,
+                    "title": "ALK-positive inflammatory myofibroblastic tumor of the abdomen with widespread microscopic multifocality.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24583837"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13277,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Xalkori (crizotinib) and Votrient (pazopanib) combination treatment resulted in partial response for more than 6 months in a patient with uterine inflammatory myofibroblastic tumor harboring DCTN1-ALK fusion (PMID: 26062823; NCT01548144).",
+            "molecularProfile": {
+                "id": 14181,
+                "profileName": "DCTN1 - ALK"
+            },
+            "therapy": {
+                "id": 1153,
+                "therapyName": "Crizotinib + Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11042,
+                    "pubMedId": 26062823,
+                    "title": "STUMP un\"stumped\": anti-tumor response to anaplastic lymphoma kinase (ALK) inhibitor based targeted therapy in uterine inflammatory myofibroblastic tumor with myxoid features harboring DCTN1-ALK fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26062823"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14203,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Rozlytrek (entrectinib) treatment resulted in an objective response in a pediatric patient with inflammatory myofibroblastic tumor harboring DCTN1-ALK fusion (J Clin Oncol 36, 2018 (suppl; abstr 10536); NCT02650401).",
+            "molecularProfile": {
+                "id": 14181,
+                "profileName": "DCTN1 - ALK"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11509,
+                    "pubMedId": null,
+                    "title": "Phase 1 study of entrectinib (RXDX-101), a TRK, ROS1, and ALK inhibitor, in children, adolescents, and young adults with recurrent or refractory solid tumors.",
+                    "url": "https://meetinglibrary.asco.org/record/162773/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14204,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Rozlytrek (entrectinib) treatment resulted in an objective response in a pediatric patient with inflammatory myofibroblastic tumor harboring TFG-ROS1 fusion (J Clin Oncol 36, 2018 (suppl; abstr 10536); NCT02650401).",
+            "molecularProfile": {
+                "id": 25651,
+                "profileName": "TFG - ROS1"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11509,
+                    "pubMedId": null,
+                    "title": "Phase 1 study of entrectinib (RXDX-101), a TRK, ROS1, and ALK inhibitor, in children, adolescents, and young adults with recurrent or refractory solid tumors.",
+                    "url": "https://meetinglibrary.asco.org/record/162773/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16956,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zykadia (ceritinib) is included in guidelines for inflammatory myofibroblastic tumor patients with ALK translocations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1248,
+                "profileName": "ALK rearrange"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19812,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, NF2 G151fs was identified in biopsies at disease progression after 26 months of Zykadia (ceritinib) treatment in a patient with inflammatory myofibroblastic tumor harboring ALK rearrangement (PMID: 31585938).",
+            "molecularProfile": {
+                "id": 34540,
+                "profileName": "ALK rearrange NF2 G151fs"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17546,
+                    "pubMedId": 31585938,
+                    "title": "Diverse Resistance Mechanisms to the Third-Generation ALK Inhibitor Lorlatinib in ALK-Rearranged Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31585938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20683,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Xalkori (crizotinib) is included in guidelines for inflammatory myofibroblastic tumor patients with ALK translocations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1248,
+                "profileName": "ALK rearrange"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

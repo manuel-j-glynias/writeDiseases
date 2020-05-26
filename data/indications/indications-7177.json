@@ -1,0 +1,156 @@
+{
+    "id": 7177,
+    "name": "anal canal squamous cell carcinoma",
+    "source": "DOID",
+    "definition": "An anal canal cancer that derives_from epithelial squamous cells. [url:http\\://en.wikipedia.org/wiki/Squamous-cell_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:7177",
+    "evidence": [
+        {
+            "id": 9764,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, the combination of Erbitux (cetuximab) with Platinol (cisplatin), Adrucil (fluorouracil), and radiotherapy resulted in a locoregional failure rate of 23% (14/61) and a PFS of 68% and OS of 83% in patients with anal canal squamous cell carcinoma (PMID: 28068178).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1928,
+                "therapyName": "Cetuximab + Cisplatin + Fluorouracil + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7177,
+                "name": "anal canal squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 7575,
+                    "pubMedId": 28068178,
+                    "title": "Cetuximab Plus Chemoradiotherapy in Immunocompetent Patients With Anal Carcinoma: A Phase II Eastern Cooperative Oncology Group-American College of Radiology Imaging Network Cancer Research Group Trial (E3205).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28068178"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16246,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial (KEYNOTE-028), Keytruda (pembrolizumab) treatment demonstrated safety and preliminary efficacy, resulted in partial response in 17% (4/24) and stable disease in 42% (10/24) of patients with CD274 (PD-L1)-positive (1% or more) squamous cell carcinoma of the anal canal (PMID: 28453692; NCT02054806).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7177,
+                "name": "anal canal squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14390,
+                    "pubMedId": 28453692,
+                    "title": "Safety and antitumor activity of the anti-PD-1 antibody pembrolizumab in patients with recurrent carcinoma of the anal canal.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28453692"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02314169",
+            "title": "Nivolumab in Treating Patients With Refractory Metastatic Squamous Cell Carcinoma of the Anal Canal",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02879162",
+            "title": "Durvalumab and Tremelimumab in Patients With Advanced Rare Tumours",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074513",
+            "title": "Atezolizumab and Bevacizumab in Rare Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4595,
+                    "therapyName": "Atezolizumab + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03517488",
+            "title": "A Study of XmAb20717 in Subjects With Selected Advanced Solid Tumors (DUET-2)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6973,
+                    "therapyName": "XmAb20717",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03597295",
+            "title": "A Study of INCMGA00012 in Squamous Carcinoma of the Anal Canal Following Platinum-Based Chemotherapy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7175,
+                    "therapyName": "INCMGA00012",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03894618",
+            "title": "SL-279252 (PD1-Fc-OX40L) in Subjects With Advanced Solid Tumors or Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8683,
+                    "therapyName": "SL-279252",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

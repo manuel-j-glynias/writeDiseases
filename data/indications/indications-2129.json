@@ -1,0 +1,378 @@
+{
+    "id": 2129,
+    "name": "atypical teratoid rhabdoid tumor",
+    "source": "DOID",
+    "definition": "A brain cancer that is usually located in the brain, but can occur anywhere in the central nervous system. [url:http\\://en.wikipedia.org/wiki/Atypical_teratoid_rhabdoid_tumor]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:2129",
+    "evidence": [
+        {
+            "id": 5765,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DZNep induced apoptosis and cell-cycle arrest and inhibited growth of SMARCB1-negative atypical teratoid rhabdoid tumor cell lines in culture (PMID: 23190500).",
+            "molecularProfile": {
+                "id": 2085,
+                "profileName": "SMARCB1 negative"
+            },
+            "therapy": {
+                "id": 2702,
+                "therapyName": "DZNeP",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2129,
+                "name": "atypical teratoid rhabdoid tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5147,
+                    "pubMedId": 23190500,
+                    "title": "Inhibition of EZH2 suppresses self-renewal and induces radiation sensitivity in atypical rhabdoid teratoid tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23190500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5766,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DZNep increased radiosensitivity in SMARCB1-negative atypical teratoid rhabdoid tumor cell lines in culture (PMID: 23190500).",
+            "molecularProfile": {
+                "id": 2085,
+                "profileName": "SMARCB1 negative"
+            },
+            "therapy": {
+                "id": 3924,
+                "therapyName": "DZNeP + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2129,
+                "name": "atypical teratoid rhabdoid tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5147,
+                    "pubMedId": 23190500,
+                    "title": "Inhibition of EZH2 suppresses self-renewal and induces radiation sensitivity in atypical rhabdoid teratoid tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23190500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10779,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CFI-400945 inhibited proliferation and decreased survival and migration of SMARCB1-deficient atypical teratoid rhabdoid tumor cells in culture (PMID: 28398638).",
+            "molecularProfile": {
+                "id": 13297,
+                "profileName": "SMARCB1 loss"
+            },
+            "therapy": {
+                "id": 4029,
+                "therapyName": "CFI-400945",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2129,
+                "name": "atypical teratoid rhabdoid tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8816,
+                    "pubMedId": 28398638,
+                    "title": "A functional screening of the kinome identifies the Polo-like kinase 4 as a potential therapeutic target for malignant rhabdoid tumors, and possibly, other embryonal tumors of the brain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28398638"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11750,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Vatalanib (PTK787) decreased viability of patient-derived atypical teratoid rhabdoid tumor cells expressing high levels of Ptk7 in culture (PMID: 28442586).",
+            "molecularProfile": {
+                "id": 28225,
+                "profileName": "PTK7 over exp"
+            },
+            "therapy": {
+                "id": 3171,
+                "therapyName": "Vatalanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2129,
+                "name": "atypical teratoid rhabdoid tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9763,
+                    "pubMedId": 28442586,
+                    "title": "Therapeutic Targeting of PTK7 is Cytotoxic in Atypical Teratoid Rhabdoid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28442586"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12686,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Tazemetostat (EPZ-6438) was well-tolerated and demonstrated anti-tumor activity in pediatric patients with SMARCB1 (INI)-deficient tumors, including complete or partial responses in patients with epithelioid sarcoma (n=1), chordoma (n=2), and atypical teratoid rhaboid tumor (n=1) (AACR-NCI-EORTC Int Conference on Molecular Targets and Cancer Therapeutics 2017, A175; NCT02601937).",
+            "molecularProfile": {
+                "id": 2085,
+                "profileName": "SMARCB1 negative"
+            },
+            "therapy": {
+                "id": 2683,
+                "therapyName": "Tazemetostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2129,
+                "name": "atypical teratoid rhabdoid tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10601,
+                    "pubMedId": null,
+                    "title": "A175 / 175 - Phase 1 study of the EZH2 inhibitor, tazemetostat, in children with relapsed or refractory INI1-negative tumors including rhabdoid tumors, epithelioid sarcoma, chordoma, and synovial sarcoma",
+                    "url": "http://www.abstractsonline.com/pp8/#!/4557/presentation/282"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00602667",
+            "title": "Risk-Adapted Therapy for Young Children With Embryonal Brain Tumors, Choroid Plexus Carcinoma, High Grade Glioma or Ependymoma",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2449,
+                    "therapyName": "Cisplatin + Cyclophosphamide + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2450,
+                    "therapyName": "Cyclophosphamide + Etoposide + Topotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 2451,
+                    "therapyName": "Cyclophosphamide + Erlotinib + Topotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00983398",
+            "title": "Melphalan, Carboplatin, and Sodium Thiosulfate for Patients With Central Nervous System (CNS) Embryonal or Germ Cell Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1476,
+                    "therapyName": "Pegfilgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 2587,
+                    "therapyName": "Carboplatin + Melphalan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02100891",
+            "title": "Phase 2 STIR Trial: Haploidentical Transplant and Donor Natural Killer Cells for Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT02114229",
+            "title": "Phase 2 Study of Alisertib Therapy for Rhabdoid Tumors (SJATRT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2449,
+                    "therapyName": "Cisplatin + Cyclophosphamide + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 626,
+                    "therapyName": "Alisertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8269,
+                    "therapyName": "Alisertib + Carboplatin + Cyclophosphamide + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2590,
+                    "therapyName": "Cyclophosphamide + Topotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 8270,
+                    "therapyName": "Alisertib + Carboplatin + Cyclophosphamide + Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 8267,
+                    "therapyName": "Carboplatin + Cyclophosphamide + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8268,
+                    "therapyName": "Alisertib + Cisplatin + Cyclophosphamide + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02458339",
+            "title": "Methotrexate Infusion Into Fourth Ventricle in Children With Recurrent Malignant Fourth Ventricular Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1639,
+                    "therapyName": "Methotrexate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02601937",
+            "title": "A Phase 1 Study of the EZH2 Inhibitor Tazemetostat in Pediatric Subjects With Relapsed or Refractory INI1-Negative Tumors or Synovial Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639546",
+            "title": "Safety and Pharmacokinetics of Cobimetinib in Pediatric and Young Adult Participants With Previously Treated Solid Tumors (iMATRIXcobi)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1004,
+                    "therapyName": "Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03173950",
+            "title": "Immune Checkpoint Inhibitor Nivolumab in People With Select Rare CNS Cancers",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03387020",
+            "title": "Ribociclib and Everolimus in Treating Children With Recurrent or Refractory Malignant Brain Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5073,
+                    "therapyName": "Everolimus + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03581240",
+            "title": "An Intermediate Expanded Use Trial of DFMO",
+            "phase": "Expanded access",
+            "recruitment": "Available",
+            "therapies": [
+                {
+                    "id": 2629,
+                    "therapyName": "Eflornithine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03967093",
+            "title": "A Study of BXQ-350 in Children and Young Adults With Relapsed Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 7031,
+                    "therapyName": "BXQ-350",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

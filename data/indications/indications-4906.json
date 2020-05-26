@@ -1,0 +1,541 @@
+{
+    "id": 4906,
+    "name": "small intestine adenocarcinoma",
+    "source": "DOID",
+    "definition": "A small intestine carcinoma that derives_from epithelial cells of glandular origin. [url:http\\://en.wikipedia.org/wiki/Adenocarcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4906",
+    "evidence": [
+        {
+            "id": 3384,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, the combination of Torisel (temsirolimus) plus Velcade (bortezomib) and Hycamtin (topotecan) resulted in progressive disease in a patient with small intestine adenocarcinoma harboring a PIK3CA H1047 mutation (PMID: 21216929).",
+            "molecularProfile": {
+                "id": 13164,
+                "profileName": "PIK3CA H1047X"
+            },
+            "therapy": {
+                "id": 3134,
+                "therapyName": "Bortezomib + Temsirolimus + Topotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3726,
+                    "pubMedId": 21216929,
+                    "title": "PIK3CA mutations in patients with advanced cancers treated with PI3K/AKT/mTOR axis inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21216929"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18868,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Keytruda (pembrolizumab) is included in guidelines as a second-line therapy for patients with advanced or metastatic small bowel adenocarcinoma with microsatellite instability (MSI-H) or deficient mismatch repair (dMMR) (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18869,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Opdivo (nivolumab) is included in guidelines as a second-line therapy for patients with advanced or metastatic small bowel adenocarcinoma with microsatellite instability (MSI-H) or deficient mismatch repair (dMMR) (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18870,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Opdivo (nivolumab), in combination with Yervoy (ipilimumab), is included in guidelines as a second-line therapy for patients with advanced or metastatic small bowel adenocarcinoma with microsatellite instability (MSI-H) or deficient mismatch repair (dMMR) (NCCN.org).",
+            "molecularProfile": {
+                "id": 29714,
+                "profileName": "MSI high"
+            },
+            "therapy": {
+                "id": 1627,
+                "therapyName": "Ipilimumab + Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18871,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as a subsequent-line therapy for patients with advanced or metastatic small bowel adenocarcinoma with an NTRK fusion and no satisfactory alternative treatments (NCCN.org).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18872,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as a subsequent-line therapy for patients with advanced or metastatic small bowel adenocarcinoma with an NTRK fusion and no satisfactory alternative treatments (NCCN.org).",
+            "molecularProfile": {
+                "id": 2908,
+                "profileName": "NTRK2 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18873,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vitrakvi (larotrectinib) is included in guidelines as a subsequent-line therapy for patients with advanced or metastatic small bowel adenocarcinoma with an NTRK fusion and no satisfactory alternative treatments (NCCN.org).",
+            "molecularProfile": {
+                "id": 2909,
+                "profileName": "NTRK3 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18874,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Lynch syndrome results from germline mutations in DNA mismatch repair genes including MLH1, MSH2, MSH6, and PMS2, and is associated with increased risk of developing small bowel adenocarcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 17286,
+                "profileName": "MLH1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18875,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Lynch syndrome results from germline mutations in DNA mismatch repair genes including MLH1, MSH2, MSH6, and PMS2, and is associated with increased risk of developing small bowel adenocarcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 17287,
+                "profileName": "MSH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18876,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Lynch syndrome results from germline mutations in DNA mismatch repair genes including MLH1, MSH2, MSH6, and PMS2, and is associated with increased risk of developing small bowel adenocarcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 17288,
+                "profileName": "MSH6 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18877,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Lynch syndrome results from germline mutations in DNA mismatch repair genes including MLH1, MSH2, MSH6, and PMS2, and is associated with increased risk of developing small bowel adenocarcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 17289,
+                "profileName": "PMS2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18878,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Peutz-Jeghers syndrome often results from mutations in the STK11 gene, and is associated with increased risk of developing small bowel adenocarcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 1246,
+                "profileName": "STK11 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18879,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Familial adenomatous polyposis results from germline mutations in the APC gene, and is associated with increased risk of developing small bowel adenocarcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 5414,
+                "profileName": "APC mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18880,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Attenuated familial adenomatous polyposis results from germline mutations in the MUTYH gene, and is associated with increased risk of developing small bowel adenocarcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 29529,
+                "profileName": "MUTYH mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4906,
+                "name": "small intestine adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01202409",
+            "title": "CAPOX in KRAS Wild-Type Advanced Adenocarcinoma of the Small Bowel or Ampulla of Vater",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 845,
+                    "therapyName": "Panitumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01208103",
+            "title": "Bevacizumab With Capecitabine and Oxaliplatin in Advanced Adenocarcinoma of the Small Bowel or Ampulla of Vater",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1601,
+                    "therapyName": "Bevacizumab + Capecitabine + Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02034110",
+            "title": "Efficacy and Safety of the Combination Therapy of Dabrafenib and Trametinib in Subjects With BRAF V600E- Mutated Rare Cancers",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1066,
+                    "therapyName": "Dabrafenib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03000179",
+            "title": "Safety and Efficacy of Avelumab in Small Intestinal Adenocarcinoma",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3144,
+                    "therapyName": "Avelumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03095781",
+            "title": "Pembrolizumab and XL888 in Patients With Advanced Gastrointestinal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5533,
+                    "therapyName": "Pembrolizumab + XL888",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03108131",
+            "title": "Cobimetinib and Atezolizumab in Advanced Rare Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1343,
+                    "therapyName": "Atezolizumab + Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

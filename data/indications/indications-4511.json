@@ -1,0 +1,48 @@
+{
+    "id": 4511,
+    "name": "breast angiosarcoma",
+    "source": "DOID",
+    "definition": "An angiosarcoma and sarcoma of breast and vascular neoplasm of breast that is located_in the cells that line the blood vessels within the breast or underarm area. [url:http\\://breastcancer.about.com/od/types/p/angiosarcoma.htm]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4511",
+    "evidence": [
+        {
+            "id": 10800,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, analysis of radiation-associated breast angiosarcoma patients treated with Nexavar (sorafenib) demonstrated complete response in 22% (2/9) and partial response in 11% (1/9) of patients, with 30% (3/10) of the total group and 2 of 3 responders (3rd not evaluated) demonstrating FLT4 (VEGFR3) and MYC co-amplification (J Clin Oncol 30, 2012 (suppl; abstr 10019)).",
+            "molecularProfile": {
+                "id": 27804,
+                "profileName": "FLT4 amp MYC amp"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4511,
+                "name": "breast angiosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8825,
+                    "pubMedId": null,
+                    "title": "Activity of sorafenib in radiation-associated breast angiosarcomas harboring MYC and FLT4 amplifications.",
+                    "url": "http://meetinglibrary.asco.org/content/92128-114"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

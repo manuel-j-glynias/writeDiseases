@@ -1,0 +1,166 @@
+{
+    "id": 80187,
+    "name": "chronic neutrophilic leukemia",
+    "source": "DOID",
+    "definition": "A chronic leukemia characterized by neutrophilic leukocytosis with no detectable Philadelphia chromosome or BCR/ABL fusion gene. [url:https\\://en.wikipedia.org/wiki/Chronic_neutrophilic_leukemia]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0080187",
+    "evidence": [
+        {
+            "id": 19731,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with chronic neutrophilic leukemia harboring CSF3R S783fs demonstrated sensitive to treatment with Sprycel (dasatinib) in culture (PMID: 23656643).",
+            "molecularProfile": {
+                "id": 14888,
+                "profileName": "CSF3R S783fs"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80187,
+                "name": "chronic neutrophilic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3951,
+                    "pubMedId": 23656643,
+                    "title": "Oncogenic CSF3R mutations in chronic neutrophilic leukemia and atypical CML.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23656643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19749,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with chronic neutrophilic leukemia harboring CSF3R S783fs did not respond to treatment with Pyridone 6 (CMP6) in culture (PMID: 23656643).",
+            "molecularProfile": {
+                "id": 14888,
+                "profileName": "CSF3R S783fs"
+            },
+            "therapy": {
+                "id": 2797,
+                "therapyName": "Pyridone 6",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80187,
+                "name": "chronic neutrophilic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3951,
+                    "pubMedId": 23656643,
+                    "title": "Oncogenic CSF3R mutations in chronic neutrophilic leukemia and atypical CML.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23656643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19750,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with chronic neutrophilic leukemia harboring CSF3R S783fs did not respond to treatment with Xeljanz (tofacitinib) in culture (PMID: 23656643).",
+            "molecularProfile": {
+                "id": 14888,
+                "profileName": "CSF3R S783fs"
+            },
+            "therapy": {
+                "id": 941,
+                "therapyName": "Tofacitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80187,
+                "name": "chronic neutrophilic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3951,
+                    "pubMedId": 23656643,
+                    "title": "Oncogenic CSF3R mutations in chronic neutrophilic leukemia and atypical CML.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23656643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19751,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with chronic neutrophilic leukemia harboring CSF3R S783fs did not respond to treatment with Momelotinib (CYT387) in culture (PMID: 23656643).",
+            "molecularProfile": {
+                "id": 14888,
+                "profileName": "CSF3R S783fs"
+            },
+            "therapy": {
+                "id": 823,
+                "therapyName": "Momelotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 80187,
+                "name": "chronic neutrophilic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3951,
+                    "pubMedId": 23656643,
+                    "title": "Oncogenic CSF3R mutations in chronic neutrophilic leukemia and atypical CML.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23656643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02092324",
+            "title": "Ruxolitinib Phosphate in Treating Patients With Chronic Neutrophilic Leukemia or Atypical Chronic Myeloid Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 907,
+                    "therapyName": "Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03862157",
+            "title": "Azacitidine, Venetoclax, and Pevonedistat in Treating Patients With Newly Diagnosed Acute Myeloid Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7993,
+                    "therapyName": "Azacitidine + MLN4924 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

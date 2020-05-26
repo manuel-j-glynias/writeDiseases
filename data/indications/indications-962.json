@@ -1,0 +1,86 @@
+{
+    "id": 962,
+    "name": "neurofibroma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:962",
+    "evidence": [
+        {
+            "id": 2183,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with PD-0325901 inhibited tumor growth in mouse models of neurofibroma with NF1 loss of expression (PMID: 23221341).",
+            "molecularProfile": {
+                "id": 5927,
+                "profileName": "NF1 loss"
+            },
+            "therapy": {
+                "id": 849,
+                "therapyName": "PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 962,
+                "name": "neurofibroma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2711,
+                    "pubMedId": 23221341,
+                    "title": "MEK inhibition exhibits efficacy in human and mouse neurofibromatosis tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23221341"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02096471",
+            "title": "MEK Inhibitor PD-0325901 Trial in Adolescents and Adults With NF1",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 849,
+                    "therapyName": "PD-0325901",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02839720",
+            "title": "Selumetinib in Treating Patients With Neurofibromatosis Type 1 and Dermal Neurofibroma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03259633",
+            "title": "An Intermediate Access Protocol for Selumetinib for Treatment of Neurofibromatosis Type 1",
+            "phase": "Expanded access",
+            "recruitment": "Available",
+            "therapies": [
+                {
+                    "id": 913,
+                    "therapyName": "Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "id": 1542,
+    "name": "head and neck carcinoma",
+    "source": "DOID",
+    "definition": "A head and neck cancer that has_material_basis_in epithelial cells and is located in the upper aerodigestive tract, including the lip, oral cavity (mouth), nasal cavity, paranasal sinuses, pharynx, and larynx. [url:http\\://en.wikipedia.org/wiki/Head_and_neck_cancer, url:http\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=14.09e&code=C35850&ns=NCI_Thesaurus&key=153772862&b=1&n=null, url:http\\://www.cancer.gov/cancertopics/factsheet/Sites-Types/head-and-neck]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:1542",
+    "evidence": [
+        {
+            "id": 9739,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with head and neck carcinoma harboring an FGFR4 amplification demonstrated a reduction in tumor size when treated with BGJ398 (PMID: 27870574).",
+            "molecularProfile": {
+                "id": 3330,
+                "profileName": "FGFR4 amp"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1542,
+                "name": "head and neck carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7516,
+                    "pubMedId": 27870574,
+                    "title": "Evaluation of BGJ398, a Fibroblast Growth Factor Receptor 1-3 Kinase Inhibitor, in Patients With Advanced Solid Tumors Harboring Genetic Alterations in Fibroblast Growth Factor Receptors: Results of a Global Phase I, Dose-Escalation and Dose-Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27870574"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02723955",
+            "title": "Dose Escalation and Expansion Study of GSK3359609 in Subjects With Selected Advanced Solid Tumors (INDUCE-1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4409,
+                    "therapyName": "GSK3359609",
+                    "synonyms": null
+                },
+                {
+                    "id": 4410,
+                    "therapyName": "GSK3359609 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03693014",
+            "title": "A Study of Several Radiation Doses for Patients With Progression on Immunotherapy/Checkpoint Inhibitors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT03727061",
+            "title": "Porfimer Sodium Interstitial Photodynamic Therapy With or Without Standard of Care Chemotherapy in Treating Patients With Locally Advanced or Recurrent Head and Neck Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1833,
+                    "therapyName": "Cisplatin + Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1832,
+                    "therapyName": "Carboplatin + Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04140526",
+            "title": "Safety, PK and Efficacy of ONC-392 in Monotherapy and in Combination of Anti-PD-1 in Advanced Solid Tumors and NSCLC",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8898,
+                    "therapyName": "ONC-392",
+                    "synonyms": null
+                },
+                {
+                    "id": 8899,
+                    "therapyName": "ONC-392 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

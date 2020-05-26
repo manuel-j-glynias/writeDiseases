@@ -1,0 +1,735 @@
+{
+    "id": 3571,
+    "name": "liver cancer",
+    "source": "DOID",
+    "definition": "A hepatobiliary system cancer that is located_in the liver. [url:http\\://en.wikipedia.org/wiki/Liver]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "12300",
+        "269",
+        "919",
+        "915",
+        "7330"
+    ],
+    "termId": "DOID:3571",
+    "evidence": [
+        {
+            "id": 1720,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FH535 demonstrated efficacy by inhibiting proliferation of liver cancer stem cells and hepatocellular carcinoma cells in culture (PMID: 24940873).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2083,
+                "therapyName": "FH535",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1952,
+                    "pubMedId": 24940873,
+                    "title": "Targeting the Wnt/\u03b2-catenin signaling pathway in liver cancer stem cells and hepatocellular carcinoma cell lines with FH535.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24940873"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2391,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human liver cancer cells demonstrated a complete tumor response in cell line xenograft models when treated with a combination of Rigosertib (ON01910) and Eloxatin (oxaliplatin) (PMID: 15766665).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2824,
+                "therapyName": "Oxaliplatin + Rigosertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2980,
+                    "pubMedId": 15766665,
+                    "title": "ON01910, a non-ATP-competitive small molecule inhibitor of Plk1, is a potent anticancer agent.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15766665"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5250,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY5 inhibited Stat3 signaling and growth in liver cancer cell lines exhibiting constitutive Stat3 activation in culture (PMID: 26883202).",
+            "molecularProfile": {
+                "id": 17818,
+                "profileName": "STAT3 act mut"
+            },
+            "therapy": {
+                "id": 3798,
+                "therapyName": "LY5",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4959,
+                    "pubMedId": 26883202,
+                    "title": "A novel small molecule STAT3 inhibitor, LY5, inhibits cell viability, colony formation, and migration of colon and liver cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26883202"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6695,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited growth of liver cancer cell lines harboring mutant NRAS in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 3,
+                "profileName": "NRAS mutant"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6696,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human liver cancer cells harboring mutant NRAS and mutant CTNNB1 were insensitive to Mekinist (trametinib) in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 23671,
+                "profileName": "CTNNB1 mut NRAS mut"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7141,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3039478 efficiently inhibited survival of primary liver cancer cells over expressing target genes of the Notch (HES1, HEY1, TRIB2, NOTCH3, CCND1) and Hedgehog (GLI1, GLI2) pathways in culture (PMID: 27103434).",
+            "molecularProfile": {
+                "id": 24497,
+                "profileName": "CCND1 over exp GLI1 over exp GLI2 over exp HES1 over exp HEY1 over exp NOTCH3 over exp TRIB2 over exp"
+            },
+            "therapy": {
+                "id": 2958,
+                "therapyName": "LY3039478",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6106,
+                    "pubMedId": 27103434,
+                    "title": "The inhibition of Akt-Pdpk1 interaction efficiently suppresses the growth of murine primary liver tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27103434"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7142,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NSC156529 efficiently inhibited survival of primary liver cancer cells over expressing target genes of the Notch (HES1, HEY1, TRIB2, NOTCH3, CCND1) and Hedgehog (GLI1, GLI2) pathways in culture (PMID: 27103434).",
+            "molecularProfile": {
+                "id": 24497,
+                "profileName": "CCND1 over exp GLI1 over exp GLI2 over exp HES1 over exp HEY1 over exp NOTCH3 over exp TRIB2 over exp"
+            },
+            "therapy": {
+                "id": 4085,
+                "therapyName": "NSC156529",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6106,
+                    "pubMedId": 27103434,
+                    "title": "The inhibition of Akt-Pdpk1 interaction efficiently suppresses the growth of murine primary liver tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27103434"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7143,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GANT61 did not inhibit growth of primary liver cancer cells over expressing target genes of the Notch (HES1, HEY1, TRIB2, NOTCH3, CCND1) and Hedgehog (GLI1, GLI2) pathways in culture (PMID: 27103434).",
+            "molecularProfile": {
+                "id": 24497,
+                "profileName": "CCND1 over exp GLI1 over exp GLI2 over exp HES1 over exp HEY1 over exp NOTCH3 over exp TRIB2 over exp"
+            },
+            "therapy": {
+                "id": 1786,
+                "therapyName": "GANT61",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6106,
+                    "pubMedId": 27103434,
+                    "title": "The inhibition of Akt-Pdpk1 interaction efficiently suppresses the growth of murine primary liver tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27103434"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7144,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PNU-74654 did not inhibit growth of primary liver cancer cells over expressing target genes of the Notch (HES1, HEY1, TRIB2, NOTCH3, CCND1) and Hedgehog (GLI1, GLI2) pathways in culture (PMID: 27103434).",
+            "molecularProfile": {
+                "id": 24497,
+                "profileName": "CCND1 over exp GLI1 over exp GLI2 over exp HES1 over exp HEY1 over exp NOTCH3 over exp TRIB2 over exp"
+            },
+            "therapy": {
+                "id": 2454,
+                "therapyName": "PNU-74654",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6106,
+                    "pubMedId": 27103434,
+                    "title": "The inhibition of Akt-Pdpk1 interaction efficiently suppresses the growth of murine primary liver tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27103434"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7145,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nutlin-3 moderately inhibited growth of primary liver cancer cells over expressing target genes of the Notch (HES1, HEY1, TRIB2, NOTCH3, CCND1) and Hedgehog (GLI1, GLI2) pathways in culture (PMID: 27103434).",
+            "molecularProfile": {
+                "id": 24497,
+                "profileName": "CCND1 over exp GLI1 over exp GLI2 over exp HES1 over exp HEY1 over exp NOTCH3 over exp TRIB2 over exp"
+            },
+            "therapy": {
+                "id": 1405,
+                "therapyName": "Nutlin-3",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6106,
+                    "pubMedId": 27103434,
+                    "title": "The inhibition of Akt-Pdpk1 interaction efficiently suppresses the growth of murine primary liver tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27103434"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7146,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK2334470 moderately inhibited growth of primary liver cancer cells over expressing target genes of the Notch (HES1, HEY1, TRIB2, NOTCH3, CCND1) and Hedgehog (GLI1, GLI2) pathways in culture (PMID: 27103434).",
+            "molecularProfile": {
+                "id": 24497,
+                "profileName": "CCND1 over exp GLI1 over exp GLI2 over exp HES1 over exp HEY1 over exp NOTCH3 over exp TRIB2 over exp"
+            },
+            "therapy": {
+                "id": 3662,
+                "therapyName": "GSK2334470",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6106,
+                    "pubMedId": 27103434,
+                    "title": "The inhibition of Akt-Pdpk1 interaction efficiently suppresses the growth of murine primary liver tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27103434"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7147,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3039478 and NSC156529 combination treatment resulted in improved growth inhibition over single drug treatment in primary liver cancer cells over expressing target genes of the Notch (HES1, HEY1, TRIB2, NOTCH3, CCND1) and Hedgehog (GLI1, GLI2) pathways in culture (PMID: 27103434).",
+            "molecularProfile": {
+                "id": 24497,
+                "profileName": "CCND1 over exp GLI1 over exp GLI2 over exp HES1 over exp HEY1 over exp NOTCH3 over exp TRIB2 over exp"
+            },
+            "therapy": {
+                "id": 4383,
+                "therapyName": "LY3039478 + NSC156529",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6106,
+                    "pubMedId": 27103434,
+                    "title": "The inhibition of Akt-Pdpk1 interaction efficiently suppresses the growth of murine primary liver tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27103434"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8413,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PRN1371 treatment resulted in tumor regression in patient-derived xenograft models of liver cancer harboring FGFR2-CCDC6 fusion (PMID: 28978721).",
+            "molecularProfile": {
+                "id": 17514,
+                "profileName": "FGFR2 - CCDC6"
+            },
+            "therapy": {
+                "id": 3583,
+                "therapyName": "PRN1371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10753,
+                    "pubMedId": 28978721,
+                    "title": "The Irreversible Covalent Fibroblast Growth Factor Receptor Inhibitor PRN1371 Exhibits Sustained Inhibition of FGFR after Drug Clearance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978721"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9179,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) inhibited tumor grow in patient-derived xenograft models of MET amplified liver cancer (PMID: 26483207).",
+            "molecularProfile": {
+                "id": 1629,
+                "profileName": "MET amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6982,
+                    "pubMedId": 26483207,
+                    "title": "c-Myc alterations confer therapeutic response and acquired resistance to c-Met inhibitors in MET-addicted cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26483207"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9235,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited growth of liver cancer cells with activated Igf1r signaling via Igf stimulation in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 16581,
+                "profileName": "IGF1R positive"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10810,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGF19-amplified liver cancer cell lines with Klb co-expression were sensitive to BGJ398 in culture (PMID: 23002168).",
+            "molecularProfile": {
+                "id": 27808,
+                "profileName": "FGF19 amp KLB pos"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 872,
+                    "pubMedId": 23002168,
+                    "title": "FGFR genetic alterations predict for sensitivity to NVP-BGJ398, a selective pan-FGFR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23002168"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12645,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SJ26 inhibited cell migration of liver cancer cells in culture, with overexpression of Wnt1 (PMID: 27626678).",
+            "molecularProfile": {
+                "id": 23622,
+                "profileName": "WNT1 over exp"
+            },
+            "therapy": {
+                "id": 6546,
+                "therapyName": "SJ26",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10524,
+                    "pubMedId": 27626678,
+                    "title": "Identification of a new class of WNT1 inhibitor: Cancer cells migration, G-quadruplex stabilization and target validation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27626678"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18855,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Infigratinib (BGJ398) treatment inhibited tumor growth in a patient-derived xenograft (PDX) model of liver cancer harboring FGFR2-FN1 (Cancer Res 2019;79(13 Suppl):Abstract nr 2206).",
+            "molecularProfile": {
+                "id": 33623,
+                "profileName": "FGFR2 - FN1"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16500,
+                    "pubMedId": null,
+                    "title": "Anti-tumor activity of infigratinib, a potent and selective inhibitor of FGFR1, FGFR2 and FGFR3, in FGFR fusion-positive cholangiocarcinoma and other solid tumors",
+                    "url": "https://cancerres.aacrjournals.org/content/79/13_Supplement/2206"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21100,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Capmatinib (INC280) treatment inhibited tumor growth in a cell line xenograft model of liver cancer harboring a MET amplification (PMID: 30674502).",
+            "molecularProfile": {
+                "id": 1629,
+                "profileName": "MET amp"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18298,
+                    "pubMedId": 30674502,
+                    "title": "Capmatinib (INC280) Is Active Against Models of Non-Small Cell Lung Cancer and Other Cancer Types with Defined Mechanisms of MET Activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30674502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01497444",
+            "title": "Sorafenib Tosylate and Hypoxia-Activated Prodrug TH-302 in Treating Patients With Advanced Kidney Cancer or Liver Cancer That Cannot Be Removed By Surgery",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1320,
+                    "therapyName": "Evofosfamide + Sorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01625351",
+            "title": "A Study of CD45RA+ Depleted Haploidentical Stem Cell Transplantation in Children With Relapsed or Refractory Solid Tumors and Lymphomas",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1205,
+                    "therapyName": "Alemtuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01829971",
+            "title": "A Multicenter Phase I Study of MRX34, MicroRNA miR-RX34 Liposomal Injection",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1035,
+                    "therapyName": "MRX34",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02795156",
+            "title": "Study to Assess the Activity of Molecularly Matched Targeted Therapies in Select Tumor Types Based on Genomic Alterations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02828124",
+            "title": "A Study of the Safety and Tolerability of BMS-986183 in Patients With Liver Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 5628,
+                    "therapyName": "BMS-986183",
+                    "synonyms": null
+                },
+                {
+                    "id": 5629,
+                    "therapyName": "BMS-986183 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03199586",
+            "title": "Phase 1 Clinical Trial of Metastasis Inhibitor NP-G2-044 in Patients With Advanced or Metastatic Solid Tumors (Including Lymphoma)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7358,
+                    "therapyName": "NP-G2-044",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03329950",
+            "title": "A Study of CDX-1140 as Monotherapy or in Combination in Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7361,
+                    "therapyName": "CDX-1140 + CDX-301",
+                    "synonyms": null
+                },
+                {
+                    "id": 7330,
+                    "therapyName": "CDX-1140",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

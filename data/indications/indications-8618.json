@@ -1,0 +1,457 @@
+{
+    "id": 8618,
+    "name": "oral cavity cancer",
+    "source": "DOID",
+    "definition": "A gastrointestinal system cancer that is located_in the oral cavity. [url:http\\://en.wikipedia.org/wiki/Oral_cancer]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "9049",
+        "9055",
+        "8617",
+        "0050627"
+    ],
+    "termId": "DOID:8618",
+    "evidence": [
+        {
+            "id": 11048,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tasigna (nilotinib) treatment resulted in no benefit in a patient with oral cavity cancer harboring ABL1 G250R and G251D (PMID: 28514312).",
+            "molecularProfile": {
+                "id": 27899,
+                "profileName": "ABL1 G250R ABL1 G251D"
+            },
+            "therapy": {
+                "id": 829,
+                "therapyName": "Nilotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8618,
+                "name": "oral cavity cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 9046,
+                    "pubMedId": 28514312,
+                    "title": "Treatment inferred from mutations identified using massive parallel sequencing leads to clinical benefit in some heavily pretreated cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28514312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11049,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with oral cavity cancer harboring MET N375S demonstrated progressive disease and overall survival of five weeks when treated with Xalkori (crizotinib) (PMID: 28514312).",
+            "molecularProfile": {
+                "id": 3165,
+                "profileName": "MET N375S"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8618,
+                "name": "oral cavity cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 9046,
+                    "pubMedId": 28514312,
+                    "title": "Treatment inferred from mutations identified using massive parallel sequencing leads to clinical benefit in some heavily pretreated cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28514312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11485,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of low-dose Copiktra (duvelisib) and a PD-L1 antibody resulted in increased infiltration of CD8-positive tumor-infiltrating lymphocytes, decreased tumor volume, and improved survival in mice bearing T-cell inflamed murine oral cancer cell-derived tumors, when compared to either agent alone (PMID: 28364000).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6005,
+                "therapyName": "Duvelisib + unspecified PD-L1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8618,
+                "name": "oral cavity cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9545,
+                    "pubMedId": 28364000,
+                    "title": "Anti-PD-L1 Efficacy Can Be Enhanced by Inhibition of Myeloid-Derived Suppressor Cells with a Selective Inhibitor of PI3K\u03b4/\u03b3.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28364000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16552,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Capmatinib (INC280) demonstrated safety and preliminary efficacy, resulted in stable disease as best overall response in a patients with oral cavity cancer (PMID: 30724423).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8618,
+                "name": "oral cavity cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 14616,
+                    "pubMedId": 30724423,
+                    "title": "Phase I dose-escalation study of capmatinib (INC280) in Japanese patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30724423"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01218048",
+            "title": "ERBITUX; Followed by Adjuvant Treatment With Chemoradiation and ERBITUX; for Locally Advanced Head and Neck Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                },
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01316757",
+            "title": "Carboplatin, Paclitaxel, Cetuximab, and Erlotinib Hydrochloride in Treating Patients With Metastatic or Recurrent Head and Neck Squamous Cell Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1921,
+                    "therapyName": "Carboplatin + Cetuximab + Erlotinib + Paclitaxel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01414426",
+            "title": "Vandetanib in Preventing Head and Neck Cancer in Patients With Precancerous Head and Neck Lesions",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 953,
+                    "therapyName": "Vandetanib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01467115",
+            "title": "INDUCTION CHEMOTHERAPY FOLLOWED BY CETUXIMAB AND RADIATION THERAPY FOR HEAD AND NECK CANCER",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1642,
+                    "therapyName": "Leucovorin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1930,
+                    "therapyName": "Cisplatin + Docetaxel + Fluorouracil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01790204",
+            "title": "A Study of the Effects of PEITC on Oral Cells With Mutant p53",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1457,
+                    "therapyName": "phenethyl isothiocyanate",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02124850",
+            "title": "A Phase Ib Study of Neoadjuvant Immune Biomarker Modulation With ERBITUX&#174; (Cetuximab) and VTX-2337",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02262741",
+            "title": "A Phase I Study to Evaluate the Safety, Tolerability and Efficacy of MEDI4736 With Tremelimumab or Tremelimumab Alone in Head and Neck Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1652,
+                    "therapyName": "Tremelimumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1356,
+                    "therapyName": "Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02449681",
+            "title": "Study for Treatment of Patients With Recurrent or Metastatic SCCHN or SCCS",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2910,
+                    "therapyName": "TH-4000",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02643550",
+            "title": "Study of IPH2201 (Monalizumab) and Cetuximab in Patients With Recurrent or Metastatic Squamous Cell Carcinoma of the Head and Neck",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3383,
+                    "therapyName": "Cetuximab + IPH2201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02795156",
+            "title": "Study to Assess the Activity of Molecularly Matched Targeted Therapies in Select Tumor Types Based on Genomic Alterations",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 623,
+                    "therapyName": "Afatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03040999",
+            "title": "Study of Pembrolizumab (MK-3475) or Placebo With Chemoradiation in Participants With Locally Advanced Head and Neck Squamous Cell Carcinoma (MK-3475-412/KEYNOTE-412)",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3256,
+                    "therapyName": "Cisplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03065387",
+            "title": "Study of the Pan-ERBB InhibStudy of the Pan-ERBB Inhibitor Neratinib Given in Combination With Everolimus, Palbociclib or Trametinib in Advanced Cancer Subjects With EGFR Mutation/Amplification, HER2 Mutation/Amplification, HER3/4 Mutation or KRAS Mutation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5401,
+                    "therapyName": "Everolimus + Neratinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5402,
+                    "therapyName": "Neratinib + Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 5403,
+                    "therapyName": "Neratinib + Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03179956",
+            "title": "Impact of Ribociclib on Head and Neck Squamous Cell Cancer",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03389477",
+            "title": "Los Tres Paso: Neoadjuvant Palbociclib Monotherapy, Concurrent Chemoradiation Therapy, Adjuvant Palbociclib Monotherapy in Patients With p16INK4a Negative, HPV-Unrelated Head and Neck Squamous Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4734,
+                    "therapyName": "Cisplatin + Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1705,
+                    "therapyName": "Cetuximab + Palbociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03529422",
+            "title": "Durvalumab and Tremelimumab With Radiotherapy for Adjuvant Treatment of Intermediate Risk SCCHN",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03765918",
+            "title": "Study of Pembrolizumab Given Prior to Surgery and in Combination With Radiotherapy Given Post-surgery for Advanced Head and Neck Squamous Cell Carcinoma (MK-3475-689)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3256,
+                    "therapyName": "Cisplatin + Pembrolizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 700,
+                    "therapyName": "Cisplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04080804",
+            "title": "Study of Safety and Tolerability of Nivolumab Treatment Alone or in Combination With Relatlimab or Ipilimumab in Head and Neck Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 4197,
+                    "therapyName": "Nivolumab + Relatlimab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

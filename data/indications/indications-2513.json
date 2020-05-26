@@ -1,0 +1,1116 @@
+{
+    "id": 2513,
+    "name": "basal cell carcinoma",
+    "source": "DOID",
+    "definition": "A skin carcinoma affecting basal cells. [url:http\\://en.wikipedia.org/wiki/Basal-cell_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "4275",
+        "4276"
+    ],
+    "termId": "DOID:2513",
+    "evidence": [
+        {
+            "id": 1094,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial Erivedge (vismodegib) demonstrated anti-tumor activity in patients with locally advanced or metastatic basal-cell carcinoma harboring PTCH1 mutations (PMID: 19726763).",
+            "molecularProfile": {
+                "id": 1665,
+                "profileName": "PTCH1 mutant"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 825,
+                    "pubMedId": 19726763,
+                    "title": "Inhibition of the hedgehog pathway in advanced basal-cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19726763"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1955,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial that supported FDA approval, treatment with Erivedge (vismodegib) resulted in an objective response rate of 30% (10/33) in patients with metastatic basal cell carcinoma and 43% (27/63) in patients with locally advanced basal cell carcinoma, with 21% (13/63) patients with locally advanced basal cell carcinoma demonstrating complete response (PMID: 22679179, PMID: 22670903).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 2406,
+                    "pubMedId": 22679179,
+                    "title": "Vismodegib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22679179"
+                },
+                {
+                    "id": 2407,
+                    "pubMedId": 22670903,
+                    "title": "Efficacy and safety of vismodegib in advanced basal-cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22670903"
+                },
+                {
+                    "id": 15583,
+                    "pubMedId": null,
+                    "title": "Erivedge (vismodegib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203388"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2197,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed cell line expressing SMO D473G was resistant to Erivedge (vismodegib) as demonstrated by elevated gene expression levels of GLI1 resulting in increased signaling of the hedgehog pathway (PMID: 25759020).",
+            "molecularProfile": {
+                "id": 6248,
+                "profileName": "SMO D473G"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2203,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed cell line expressing SMO W281C was resistant to Erivedge (vismodegib) as demonstrated by elevated gene expression levels of GLI1 resulting in increased signaling of the hedgehog pathway (PMID: 25759020).",
+            "molecularProfile": {
+                "id": 6277,
+                "profileName": "SMO W281C"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2204,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed cell line expressing SMO H231R was resistant to Erivedge (vismodegib) as demonstrated by elevated gene expression levels of GLI1 resulting in increased signaling of the hedgehog pathway (PMID: 25759020).",
+            "molecularProfile": {
+                "id": 6278,
+                "profileName": "SMO H231R"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2205,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed cell line expressing SMO Q477E was resistant to Erivedge (vismodegib) as demonstrated by elevated gene expression levels of GLI1 resulting in increased signaling of the hedgehog pathway (PMID: 25759020).",
+            "molecularProfile": {
+                "id": 6279,
+                "profileName": "SMO Q477E"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2613,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial that supported FDA approval, treatment with Odomzo (sonidegib) resulted in an objective response in 36% (20/55) of patients with locally advanced basal cell carcinoma (PMID: 25981810).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 3329,
+                    "pubMedId": 25981810,
+                    "title": "Treatment with two different doses of sonidegib in patients with locally advanced or metastatic basal cell carcinoma (BOLT): a multicentre, randomised, double-blind phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25981810"
+                },
+                {
+                    "id": 15602,
+                    "pubMedId": null,
+                    "title": "Odomzo (sonidegib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4277,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In an open-label clinical trial, treatment with Sonidegib (LDE225) resulted in stable disease in a basal cell carcinoma patient harboring SMO W535L with resistance to Erivedge (vismodegib) (PMID: 26546616).",
+            "molecularProfile": {
+                "id": 3611,
+                "profileName": "SMO W535L"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4477,
+                    "pubMedId": 26546616,
+                    "title": "An Investigator-Initiated Open-Label Trial of Sonidegib in Advanced Basal Cell Carcinoma Patients Resistant to Vismodegib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4278,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In an open-label clinical trial, treatment with Sonidegib (LDE225) resulted in progressive disease in a basal cell carcinoma patient harboring SMO Q477E with resistance to Erivedge (vismodegib) (PMID: 26546616).",
+            "molecularProfile": {
+                "id": 6279,
+                "profileName": "SMO Q477E"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4477,
+                    "pubMedId": 26546616,
+                    "title": "An Investigator-Initiated Open-Label Trial of Sonidegib in Advanced Basal Cell Carcinoma Patients Resistant to Vismodegib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4279,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In an open-label clinical trial, treatment with Sonidegib (LDE225) resulted in progressive disease in a basal cell carcinoma patient harboring SMO D473H with resistance to Erivedge (vismodegib) (PMID: 26546616).",
+            "molecularProfile": {
+                "id": 1973,
+                "profileName": "SMO D473H"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4477,
+                    "pubMedId": 26546616,
+                    "title": "An Investigator-Initiated Open-Label Trial of Sonidegib in Advanced Basal Cell Carcinoma Patients Resistant to Vismodegib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4280,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In an open-label clinical trial, treatment with Sonidegib (LDE225) resulted in progressive disease in a basal cell carcinoma patient harboring SMO D473G with resistance to Erivedge (vismodegib) (PMID: 26546616).",
+            "molecularProfile": {
+                "id": 6248,
+                "profileName": "SMO D473G"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4477,
+                    "pubMedId": 26546616,
+                    "title": "An Investigator-Initiated Open-Label Trial of Sonidegib in Advanced Basal Cell Carcinoma Patients Resistant to Vismodegib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4454,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In an open-label clinical trial, treatment with Sonidegib (LDE225) resulted in progressive disease in a basal cell carcinoma patient with resistance to Erivedge (vismodegib) harboring SMO D533N (PMID: 26546616).",
+            "molecularProfile": {
+                "id": 18162,
+                "profileName": "SMO S533N"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4477,
+                    "pubMedId": 26546616,
+                    "title": "An Investigator-Initiated Open-Label Trial of Sonidegib in Advanced Basal Cell Carcinoma Patients Resistant to Vismodegib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5604,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Glabrescione B inhibited proliferation of a mouse basal cell carcinoma cell line harboring a Ptch1 deletion in culture, and inhibited tumor growth in allograft models (PMID: 25476449).",
+            "molecularProfile": {
+                "id": 11725,
+                "profileName": "PTCH1 del"
+            },
+            "therapy": {
+                "id": 3904,
+                "therapyName": "Glabrescione B",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2682,
+                    "pubMedId": 25476449,
+                    "title": "Gli1/DNA interaction is a druggable target for Hedgehog-dependent tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25476449"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6266,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Posaconazole inhibited tumor growth in allograft models of basal cell carcinoma derived from mice with heterozygous PTCH1 loss and TP53 knockout (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 23083,
+                "profileName": "PTCH1 loss TP53 del"
+            },
+            "therapy": {
+                "id": 4108,
+                "therapyName": "Posaconazole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6323,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Cyclopamine and Posaconazole demonstrated enhanced inhibition of Hedgehog signaling in mouse basal cell carcinoma cells harboring PTCH1 loss and TP53 deletion in culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 23083,
+                "profileName": "PTCH1 loss TP53 del"
+            },
+            "therapy": {
+                "id": 4113,
+                "therapyName": "Cyclopamine + Posaconazole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6324,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Erivedge (vismodegib) and Posaconazole demonstrated enhanced inhibition of Hedgehog signaling in mouse basal cell carcinoma cells harboring PTCH1 loss and TP53 deletion in culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 23083,
+                "profileName": "PTCH1 loss TP53 del"
+            },
+            "therapy": {
+                "id": 4114,
+                "therapyName": "Posaconazole + Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6679,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MK-4101 inhibited tumor growth in allograft models of basal cell carcinoma derived from PTCH1 heterozygous knockout mice (PMID: 26960983).",
+            "molecularProfile": {
+                "id": 1272,
+                "profileName": "PTCH1 inact mut"
+            },
+            "therapy": {
+                "id": 4233,
+                "therapyName": "MK-4101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5731,
+                    "pubMedId": 26960983,
+                    "title": "MK-4101, a Potent Inhibitor of the Hedgehog Pathway, Is Highly Active against Medulloblastoma and Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26960983"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10923,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with SMO antagonist-resistant basal cell carcinoma with high mutational burden and harboring several genomic alterations, including amplification of PD-L1 (CD274) as well as PD-L2 (PDCD1LG2) and JAK2, demonstrated a durable response following treatment with Opdivo (nivolumab) (PMID: 27942391).",
+            "molecularProfile": {
+                "id": 27860,
+                "profileName": "CD274 amp JAK2 amp PDCD1LG2 amp"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8932,
+                    "pubMedId": 27942391,
+                    "title": "Metastatic basal cell carcinoma with amplification of PD-L1: exceptional response to anti-PD1 therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27942391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11593,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with metastatic basal cell carcinoma harboring CD274 amplification and a high mutational burden was sensitive to treatment with Opdivo (nivolumab), demonstrating reduced lesion size after two months of treatment and a nearly complete regression of liver lesions after four months of treatment (PMID: 27942391).",
+            "molecularProfile": {
+                "id": 16029,
+                "profileName": "CD274 amp"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8932,
+                    "pubMedId": 27942391,
+                    "title": "Metastatic basal cell carcinoma with amplification of PD-L1: exceptional response to anti-PD1 therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27942391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14027,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Taladegib treatment resulted in a clinical response in 46.8% (22/47) of patients with basal cell carcinoma, including 16 patients with a confirmed partial response, 1 patient with an unconfirmed partial response, and 5 patients with a confirmed complete response (PMID: 29483143).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1587,
+                "therapyName": "Taladegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11423,
+                    "pubMedId": 29483143,
+                    "title": "Phase I Study of LY2940680, a Smo Antagonist, in Patients with Advanced Cancer Including Treatment-Na\u00efve and Previously Treated Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29483143"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15946,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a de novo SMO V321M mutation was identified in a recurrent lesion from a basal cell carcinoma patient following an initial twenty week response to Erivedge (vismodegib) (PMID: 25199678).",
+            "molecularProfile": {
+                "id": 5734,
+                "profileName": "SMO V321M"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14067,
+                    "pubMedId": 25199678,
+                    "title": "Acquired resistance to the Hedgehog pathway inhibitor vismodegib due to smoothened mutations in treatment of locally advanced basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25199678"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15947,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a de novo SMO W281L mutation was identified in a recurrent lesion from a basal cell carcinoma patient following an initial twenty week response to Erivedge (vismodegib) (PMID: 25199678).",
+            "molecularProfile": {
+                "id": 31334,
+                "profileName": "SMO W281L"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14067,
+                    "pubMedId": 25199678,
+                    "title": "Acquired resistance to the Hedgehog pathway inhibitor vismodegib due to smoothened mutations in treatment of locally advanced basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25199678"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15948,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a de novo SMO D473Y mutation was identified in a recurrent lesion from a basal cell carcinoma patient following an initial 11-month complete clinical response to Erivedge (vismodegib) during a Phase II trial (PMID: 25306392; NCT01367665).",
+            "molecularProfile": {
+                "id": 31332,
+                "profileName": "SMO D473Y"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12487,
+                    "pubMedId": 25306392,
+                    "title": "Smoothened (SMO) receptor mutations dictate resistance to vismodegib in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25306392"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15949,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a basal cell carcinoma patient who did not respond to Erivedge (vismodegib) during a Phase II trial was found to harbor a SMO G497W mutation in the initial and progressing lesions (PMID: 25306392; NCT01367665).",
+            "molecularProfile": {
+                "id": 31336,
+                "profileName": "SMO G497W"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12487,
+                    "pubMedId": 25306392,
+                    "title": "Smoothened (SMO) receptor mutations dictate resistance to vismodegib in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25306392"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20928,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erivedge (vismodegib) inhibited growth, migration, and colony formation of a human basal cell carcinoma cell line expressing an FHL2-GLI2 fusion in culture (PMID: 31896750).",
+            "molecularProfile": {
+                "id": 35351,
+                "profileName": "FHL2 - GLI2"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18063,
+                    "pubMedId": 31896750,
+                    "title": "Identification of recurrent FHL2-GLI2 oncogenic fusion in sclerosing stromal tumors of the ovary.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31896750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20932,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GANT61 inhibited growth of a human basal cell carcinoma cell line expressing an FHL2-GLI2 fusion in culture (PMID: 31896750).",
+            "molecularProfile": {
+                "id": 35351,
+                "profileName": "FHL2 - GLI2"
+            },
+            "therapy": {
+                "id": 1786,
+                "therapyName": "GANT61",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18063,
+                    "pubMedId": 31896750,
+                    "title": "Identification of recurrent FHL2-GLI2 oncogenic fusion in sclerosing stromal tumors of the ovary.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31896750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01367665",
+            "title": "STEVIE: A Study of Vismodegib in Patients With Locally Advanced or Metastatic Basal Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01700049",
+            "title": "Study Evaluating the Efficacy of Oral Vismodegib in Various Histologic Subtypes",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01815840",
+            "title": "A Study of Two Vismodegib Regimens in Patients With Multiple Basal Cell Carcinomas",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01898598",
+            "title": "A Study of Vismodegib With Surgery in Patients With Previously Untreated Basal Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02067104",
+            "title": "Vismodegib in Basal Cell Carcinomas (BCC) Chemoprevention",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02120677",
+            "title": "Topical Itraconazole in the Treatment of Basal Cell Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1026,
+                    "therapyName": "Itraconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02303041",
+            "title": "Erismodegib and Buparlisib in Treating Patients With Advanced or Metastatic Basal Cell Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1547,
+                    "therapyName": "Buparlisib + Sonidegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02436408",
+            "title": "VISmodegib for ORbital and Periocular Basal Cell Carcinoma",
+            "phase": "FDA approved",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639117",
+            "title": "Photodynamic Therapy and Vismodegib for Multiple Basal Cell Carcinomas",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 956,
+                    "therapyName": "Vismodegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02690948",
+            "title": "Pembrolizumab With or Without Vismodegib in Treating Metastatic or Unresectable Basal Cell Skin Cancer",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 3727,
+                    "therapyName": "Pembrolizumab + Vismodegib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02699723",
+            "title": "Arsenic Trioxide and Itraconazole in Treating Patients With Advanced Basal Cell Cancer",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 3791,
+                    "therapyName": "Arsenic trioxide + Itraconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02735356",
+            "title": "Topical Itraconazole in Treating Patients With Basal Cell Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1026,
+                    "therapyName": "Itraconazole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02978625",
+            "title": "Talimogene Laherparepvec and Nivolumab in Treating Patients With Refractory Lymphomas or Advanced or Refractory Non-melanoma Skin Cancers",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5080,
+                    "therapyName": "Nivolumab + Talimogene laherparepvec",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03132636",
+            "title": "PD-1 in Patients With Advanced Basal Cell Carcinoma Who Experienced Progression of Disease on Hedgehog Pathway Inhibitor Therapy, or Were Intolerant of Prior Hedgehog Pathway Inhibitor Therapy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5656,
+                    "therapyName": "Cemiplimab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03521830",
+            "title": "Nivolumab Alone or Plus Ipilimumab for Patients With Locally-Advanced Unresectable or Metastatic Basal Cell Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03767348",
+            "title": "Study of RP1 Monotherapy and RP1 in Combination With Nivolumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7820,
+                    "therapyName": "Nivolumab + RP1",
+                    "synonyms": null
+                },
+                {
+                    "id": 7819,
+                    "therapyName": "RP1",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03816332",
+            "title": "Tacrolimus, Nivolumab, and Ipilimumab in Treating Kidney Transplant Recipients With Selected Unresectable or Metastatic Cancers",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8592,
+                    "therapyName": "Ipilimumab + Nivolumab + Prednisone + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03897036",
+            "title": "Treatment Duration Increment and Pharmacodynamic Study of CX-4945 in Patients With Basal Cell Carcinoma (BCC)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6084,
+                    "therapyName": "Silmitasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04155190",
+            "title": "An Study of Patidegib Topical Gel, 2%, for the Reduction of Disease Burden of Persistently Developing Basal Cell Carcinomas in Patients With Non-Gorlin High Frequency BCC",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9151,
+                    "therapyName": "Patidegib topical gel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04323202",
+            "title": "Neoadjuvant-Adjuvant Pembrolizumab in Resectable Advanced Basal Cell Carcinoma of H&N",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

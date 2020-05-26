@@ -1,0 +1,223 @@
+{
+    "id": 6171,
+    "name": "uterine carcinosarcoma",
+    "source": "DOID",
+    "definition": "A uterine body mixed cancer that has_material_basis_in both endometrial carcinoma and sarcoma. [url:http\\://cancergenome.nih.gov/cancersselected/UterineCarcinosarcoma, url:http\\://en.wikipedia.org/wiki/Carcinosarcoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:6171",
+    "evidence": [
+        {
+            "id": 16102,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with refractory uterine carcinosarcoma who was found to have high tumor mutational burden and two mutations in POLE, P286R and T323A, on a biopsy from progression achieved a partial response to treatment with Keytruda (pembrolizumab) that was ongoing at 12 months (PMID: 29386312).",
+            "molecularProfile": {
+                "id": 31505,
+                "profileName": "POLE P286R POLE T323A TMB high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6171,
+                "name": "uterine carcinosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14263,
+                    "pubMedId": 29386312,
+                    "title": "Tumor Mutational Burden Guides Therapy in a Treatment Refractory POLE-Mutant Uterine Carcinosarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29386312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17300,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Navicixizumab (OMP-305B83) treatment resulted in partial response in a patient with uterine carcinosarcoma (PMID: 30229512).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2732,
+                "therapyName": "Navicixizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6171,
+                "name": "uterine carcinosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15347,
+                    "pubMedId": 30229512,
+                    "title": "A first-in-human phase 1a study of the bispecific anti-DLL4/anti-VEGF antibody navicixizumab (OMP-305B83) in patients with previously treated solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30229512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20447,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NCI9322/PHL86) trial, Cometriq (Cabometyx, cabozantinib) treatment resulted in a partial response in 5% (1/19) and progression-free survival (PFS) at 12 weeks in 42% (8/19) of patients with endometrial carcinosarcoma, with a median PFS of 3.0 months (PMID: 31992589; NCT01935934).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6171,
+                "name": "uterine carcinosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17845,
+                    "pubMedId": 31992589,
+                    "title": "Phase II Trial of Cabozantinib in Recurrent/Metastatic Endometrial Cancer: A Study of the Princess Margaret, Chicago and California Consortia (NCI9322/PHL86).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31992589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20781,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PTC-028 treatment reduced invasion, induced apoptosis, and inhibited viability of an endometrial carcinosarcoma cell line overexpressing BMI1 in culture, and delayed tumor growth in a cell line xenograft model (PMID: 30026381).",
+            "molecularProfile": {
+                "id": 29155,
+                "profileName": "BMI1 over exp"
+            },
+            "therapy": {
+                "id": 7018,
+                "therapyName": "PTC-028",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6171,
+                "name": "uterine carcinosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18039,
+                    "pubMedId": 30026381,
+                    "title": "Inhibition of BMI1, a Therapeutic Approach in Endometrial Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30026381"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02963831",
+            "title": "A Phase 1/2 Study to Investigate the Safety, Biologic and Anti-tumor Activity of ONCOS-102 in Combination With Durvalumab in Subjects With Advanced Peritoneal Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4978,
+                    "therapyName": "Durvalumab + ONCOS-102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03241745",
+            "title": "A Study of Nivolumab in Selected Uterine Cancer Patients",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03555422",
+            "title": "Maintenance With Selinexor/Placebo After Combination Chemotherapy in Endometrial Cancer [SIENDO] (SIENDO)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03694262",
+            "title": "The EndoBARR Trial (Endometrial Bevacizumab, Atezolizumab, Rucaparib) (EndoBARR)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7499,
+                    "therapyName": "Atezolizumab + Bevacizumab + Rucaparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03832361",
+            "title": "Evaluation of Mirvetuximab Soravtansine (IMGN853) in Women With Folate Receptor-alpha Positive Endometrial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 3232,
+                    "therapyName": "Mirvetuximab Soravtansine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04106414",
+            "title": "Study of BMS-986205 and Nivolumab in Endometrial Cancer or Endometrial Carcinosarcoma That Has Not Responded to Treatment",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 3569,
+                    "therapyName": "BMS-986205 + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

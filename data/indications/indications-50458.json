@@ -1,0 +1,270 @@
+{
+    "id": 50458,
+    "name": "juvenile myelomonocytic leukemia",
+    "source": "DOID",
+    "definition": "A myelodysplastic/myeloproliferative neoplasm that is characterized by the uncontrolled growth of monocytes. [url:https\\://rarediseases.org/rare-diseases/juvenile-myelomonocytic-leukemia/]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050458",
+    "evidence": [
+        {
+            "id": 3817,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In two clinical studies, PTPN11 mutations were frequently identified in patients with juvenile myelomonocytic leukemia and were found to be associated with poor survival (PMID: 19047918, PMID: 21901340), suggesting that this may serve as a future prognostic biomarker.",
+            "molecularProfile": {
+                "id": 9821,
+                "profileName": "PTPN11 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50458,
+                "name": "juvenile myelomonocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4191,
+                    "pubMedId": 19047918,
+                    "title": "Correlation of clinical features with the mutational status of GM-CSF signaling pathway-related genes in juvenile myelomonocytic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19047918"
+                },
+                {
+                    "id": 5428,
+                    "pubMedId": 21901340,
+                    "title": "Gene mutations in the Ras pathway and the prognostic implication in Korean patients with juvenile myelomonocytic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21901340"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3983,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, myeloid cells harboring PTPN11 E76K were sensitive to cryptotanshinone in culture, resulting in decreased cell growth (PMID: 23957426).",
+            "molecularProfile": {
+                "id": 9830,
+                "profileName": "PTPN11 E76K"
+            },
+            "therapy": {
+                "id": 3415,
+                "therapyName": "Cryptotanshinone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50458,
+                "name": "juvenile myelomonocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4300,
+                    "pubMedId": 23957426,
+                    "title": "Identification of cryptotanshinone as an inhibitor of oncogenic protein tyrosine phosphatase SHP2 (PTPN11).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23957426"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00084695",
+            "title": "Umbilical Cord Blood for Stem Cell Transplantation in Treating Young Patients With Malignant or Nonmalignant Diseases",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2558,
+                    "therapyName": "Busulfan + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 2188,
+                    "therapyName": "Prednisone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01621477",
+            "title": "T-Cell Replete Haploidentical Donor Hematopoietic Stem Cell Plus Natural Killer (NK) Cell Transplantation in Patients With Hematologic Malignancies Relapsed or Refractory Despite Previous Allogeneic Transplant",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 1756,
+                    "therapyName": "Plerixafor",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 2469,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1783,
+                    "therapyName": "Cyclophosphamide + Cytarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02564536",
+            "title": "Pacritinib in Combination With Low Dose Decitabine in Intermediate-High Risk Myelofibrosis or Myeloproliferative Neoplasm (MPN)/Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3177,
+                    "therapyName": "Decitabine + Pacritinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02790515",
+            "title": "Provision of TCR?? T Cells and Memory T Cells Plus Selected Use of Blinatumomab in Na\u00efve T-cell Depleted Haploidentical Donor Hematopoietic Cell Transplantation for Hematologic Malignancies Relapsed or Refractory Despite Prior Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1876,
+                    "therapyName": "Blinatumomab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2563,
+                    "therapyName": "Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 5682,
+                    "therapyName": "Mesna",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03190915",
+            "title": "Trametinib in Treating Patients With Relapsed or Refractory Juvenile Myelomonocytic Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2,
+                    "therapyName": "Trametinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03326921",
+            "title": "HA-1 T TCR T Cell Immunotherapy for the Treating of Patients With Relapsed or Refractory Acute Leukemia After Donor Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9693,
+                    "therapyName": "HA-1 TCR T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03843528",
+            "title": "Vorinostat Dose-escalation After Allogeneic Hematopoietic Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7961,
+                    "therapyName": "Azacitidine + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

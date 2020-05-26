@@ -1,0 +1,4467 @@
+{
+    "id": 50908,
+    "name": "myelodysplastic syndrome",
+    "source": "DOID",
+    "definition": "A bone marrow cancer that is characterized by under production of white blood cells, red blood cells and platelets. [url:http\\://en.wikipedia.org/wiki/Myelodysplastic_syndrome, url:http\\://www.cancer.gov/dictionary?CdrID=45266]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0050908",
+    "evidence": [
+        {
+            "id": 4553,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial that supported FDA approval, treatment with Vidaza (azacitidine) resulted in an overall response rate of 16.2% (16/99) in patients with myelodysplastic syndromes, compared to an overall response rate of 0% (0/92) in the observation only arm (PMID: 15897554).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 651,
+                "therapyName": "Azacitidine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4600,
+                    "pubMedId": 15897554,
+                    "title": "Approval summary: azacitidine for treatment of myelodysplastic syndrome subtypes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15897554"
+                },
+                {
+                    "id": 15608,
+                    "pubMedId": null,
+                    "title": "Vidaza (azacitidine) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=050794"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5210,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ONTIME), Rigosertib (ON 01910.Na) did not improve median overall survival compared to best supportive care (8.2 vs 5.9 months, HR=0.87, p=0.33) in patients with myelodysplastic syndrome (PMID: 26968357; NCT01241500).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1046,
+                "therapyName": "Rigosertib Sodium",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4920,
+                    "pubMedId": 26968357,
+                    "title": "Rigosertib versus best supportive care for patients with high-risk myelodysplastic syndromes after failure of hypomethylating drugs (ONTIME): a randomised, controlled, phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26968357"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6036,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "In clinical analyses, mutations in ASXL1 were associated with poor prognosis in patients with myelodysplastic syndrome (PMID: 24220272, PMID: 21714648).",
+            "molecularProfile": {
+                "id": 3486,
+                "profileName": "ASXL1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5253,
+                    "pubMedId": 24220272,
+                    "title": "Landscape of genetic lesions in 944 patients with myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24220272"
+                },
+                {
+                    "id": 5254,
+                    "pubMedId": 21714648,
+                    "title": "Clinical effect of point mutations in myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21714648"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13644,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "ASXL1 mutations are associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 3486,
+                "profileName": "ASXL1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13671,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "RUNX1 mutations are associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 22427,
+                "profileName": "RUNX1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6077,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "In clinical analyses, RUNX1 mutations were associated with poor overall survival in patients with myelodysplastic syndrome (PMID: 21714648, PMID: 22869879).",
+            "molecularProfile": {
+                "id": 22427,
+                "profileName": "RUNX1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5254,
+                    "pubMedId": 21714648,
+                    "title": "Clinical effect of point mutations in myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21714648"
+                },
+                {
+                    "id": 5282,
+                    "pubMedId": 22869879,
+                    "title": "Validation of a prognostic model and the impact of mutations in patients with lower-risk myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22869879"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6163,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "In multiple clinical studies, ETV6 mutations were associated with a shorter overall survival in patients with myelodysplastic syndrome (PMID: 21714648, PMID: 21877899, PMID: 26769228).",
+            "molecularProfile": {
+                "id": 22742,
+                "profileName": "ETV6 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5254,
+                    "pubMedId": 21714648,
+                    "title": "Clinical effect of point mutations in myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21714648"
+                },
+                {
+                    "id": 5326,
+                    "pubMedId": 21877899,
+                    "title": "Update on cytogenetic and molecular changes in myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21877899"
+                },
+                {
+                    "id": 5327,
+                    "pubMedId": 26769228,
+                    "title": "Myelodysplastic syndromes: Contemporary review and how we treat.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26769228"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13672,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "ETV6 mutations are associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 22742,
+                "profileName": "ETV6 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6164,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "In multiple clinical studies, SF3B1 mutations were associated with better overall survival in patients with myelodysplastic syndrome (PMID: 21998214, PMID: 22096241, PMID: 24220272), but may not have independent prognostic significance (PMID: 22096241).",
+            "molecularProfile": {
+                "id": 22743,
+                "profileName": "SF3B1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5253,
+                    "pubMedId": 24220272,
+                    "title": "Landscape of genetic lesions in 944 patients with myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24220272"
+                },
+                {
+                    "id": 5329,
+                    "pubMedId": 22096241,
+                    "title": "SF3B1 mutations are prevalent in myelodysplastic syndromes with ring sideroblasts but do not hold independent prognostic value.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22096241"
+                },
+                {
+                    "id": 5330,
+                    "pubMedId": 21998214,
+                    "title": "Clinical significance of SF3B1 mutations in myelodysplastic syndromes and myelodysplastic/myeloproliferative neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21998214"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6174,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, SGI-110 treatment resulted in clinical response in 32% (6/19) of patients with myelodysplastic syndrome (PMID: 26296954).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1949,
+                "therapyName": "Guadecitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5381,
+                    "pubMedId": 26296954,
+                    "title": "Safety and tolerability of guadecitabine (SGI-110) in patients with myelodysplastic syndrome and acute myeloid leukaemia: a multicentre, randomised, dose-escalation phase 1 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26296954"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6212,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "In multiple clinical studies, SRSF2 mutations were associated with shortened survival in patients with myelodysplastic syndrome (PMID: 26769228, PMID: 26508027).",
+            "molecularProfile": {
+                "id": 22843,
+                "profileName": "SRSF2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5327,
+                    "pubMedId": 26769228,
+                    "title": "Myelodysplastic syndromes: Contemporary review and how we treat.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26769228"
+                },
+                {
+                    "id": 5467,
+                    "pubMedId": 26508027,
+                    "title": "Genetic landscape of recurrent ASXL1, U2AF1, SF3B1, SRSF2, and EZH2 mutations in 304 Chinese patients with myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26508027"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6424,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In multiple clinical studies, the presence of U2AF1 mutations was associated with a trend toward risk of progression to acute myeloid leukemia, however, the prognostic significance of U2AF1 mutations is still unclear (PMID: 25465125, PMID: 22158538, PMID: 22389253).",
+            "molecularProfile": {
+                "id": 23383,
+                "profileName": "U2AF1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5580,
+                    "pubMedId": 25465125,
+                    "title": "The molecular basis and clinical significance of genetic mutations identified in myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25465125"
+                },
+                {
+                    "id": 5581,
+                    "pubMedId": 22158538,
+                    "title": "Recurrent mutations in the U2AF1 splicing factor in myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22158538"
+                },
+                {
+                    "id": 5582,
+                    "pubMedId": 22389253,
+                    "title": "Frequency and prognostic impact of mutations in SRSF2, U2AF1, and ZRSR2 in patients with myelodysplastic syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389253"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13649,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "U2AF1 mutations are associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 23383,
+                "profileName": "U2AF1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 10272,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, BGB-324 treatment inhibited Axl phosphorylation, resulted in stable disease in 100% (3/3) of myelodysplastic syndrome patients (J Clin Oncol 34, 2016 (suppl; abstr 2561)).",
+            "molecularProfile": {
+                "id": 20482,
+                "profileName": "AXL positive"
+            },
+            "therapy": {
+                "id": 2660,
+                "therapyName": "BGB-324",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8240,
+                    "pubMedId": null,
+                    "title": "A first-in-patient phase I study of BGB324, a selective Axl kinase inhibitor in patients with refractory/relapsed AML and high-risk MDS.",
+                    "url": "http://meetinglibrary.asco.org/content/170403-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11399,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, 3/5 patients with myelodysplastic syndrome and positive for EPHA3 demonstrated stable disease for at least 6 months after treatment with KB004 (PMID: 27736729).",
+            "molecularProfile": {
+                "id": 27991,
+                "profileName": "EPHA3 positive"
+            },
+            "therapy": {
+                "id": 2954,
+                "therapyName": "KB004",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9290,
+                    "pubMedId": 27736729,
+                    "title": "KB004, a first in class monoclonal antibody targeting the receptor tyrosine kinase EphA3, in patients with advanced hematologic malignancies: Results from a phase 1 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27736729"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12864,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval, Dacogen (decitabine) treatment resulted in an overall response rate of 17% (15/89), with complete responses in 9% (8/89) and partial responses in 8% (7/9) of patients with myelodysplastic syndromes (PMID: 16532500).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 650,
+                "therapyName": "Decitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10815,
+                    "pubMedId": 16532500,
+                    "title": "Decitabine improves patient outcomes in myelodysplastic syndromes: results of a phase III randomized study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16532500"
+                },
+                {
+                    "id": 15656,
+                    "pubMedId": null,
+                    "title": "Dacogen (decitabine) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13559,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "In clinical analyses, mutations in SETBP1 were associated with poor prognosis in patients with myelodysplastic syndrome (PMID: 28447248, PMID: 28158286, PMID: 24127063, PMID: 23889083, PMID: 23832012).",
+            "molecularProfile": {
+                "id": 2731,
+                "profileName": "SETBP1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 1599,
+                    "pubMedId": 23832012,
+                    "title": "Somatic SETBP1 mutations in myeloid malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23832012"
+                },
+                {
+                    "id": 11187,
+                    "pubMedId": 28447248,
+                    "title": "Somatic SETBP1 mutations in myeloid neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28447248"
+                },
+                {
+                    "id": 11189,
+                    "pubMedId": 28158286,
+                    "title": "Prognostic significance of SETBP1 mutations in myelodysplastic syndromes, chronic myelomonocytic leukemia, and chronic neutrophilic leukemia: A meta-analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28158286"
+                },
+                {
+                    "id": 11190,
+                    "pubMedId": 24127063,
+                    "title": "Clinical implications of the SETBP1 mutation in patients with primary myelodysplastic syndrome and its stability during disease progression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24127063"
+                },
+                {
+                    "id": 11191,
+                    "pubMedId": 23889083,
+                    "title": "Mutations in SETBP1 are recurrent in myelodysplastic syndromes and often coexist with cytogenetic markers associated with disease progression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23889083"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13643,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "EZH2 mutations are associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 27863,
+                "profileName": "EZH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13650,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "ZRSR2 mutations are associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 28950,
+                "profileName": "ZRSR2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13651,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "TP53 mutations except P47S and P72R are associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 434,
+                "profileName": "TP53 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13652,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "STAG2 mutations are associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29241,
+                "profileName": "STAG2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13653,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 E622X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29242,
+                "profileName": "SF3B1 E622X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13654,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 Y623X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29243,
+                "profileName": "SF3B1 Y623X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13655,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SRSF2 P95X is associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29244,
+                "profileName": "SRSF2 P95X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13656,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 R625X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29334,
+                "profileName": "SF3B1 R625X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13657,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 N626X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29335,
+                "profileName": "SF3B1 N626X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13658,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 H662X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29336,
+                "profileName": "SF3B1 H662X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13659,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 T663X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29337,
+                "profileName": "SF3B1 T663X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13660,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 K666X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29345,
+                "profileName": "SF3B1 K666X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13661,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 K700E is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 22989,
+                "profileName": "SF3B1 K700E"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13662,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 I704X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29338,
+                "profileName": "SF3B1 I704X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13663,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 G740X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29340,
+                "profileName": "SF3B1 G740X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13664,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 G742X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29341,
+                "profileName": "SF3B1 G742X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13665,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "SF3B1 D781X is associated with a more favorable prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29342,
+                "profileName": "SF3B1 D781X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13666,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "U2AF1 S34X is associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29343,
+                "profileName": "U2AF1 S34X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13667,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "U2AF1 Q157X is associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 29344,
+                "profileName": "U2AF1 Q157X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13668,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "NRAS G12X is associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 1196,
+                "profileName": "NRAS G12X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13669,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "NRAS G13X is associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 1197,
+                "profileName": "NRAS G13X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13670,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "NRAS Q61X is associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 1198,
+                "profileName": "NRAS Q61X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13673,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "IDH2 R140Q is associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 1254,
+                "profileName": "IDH2 R140Q"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13674,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "IDH2 R172X is associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 22039,
+                "profileName": "IDH2 R172X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13675,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "BCOR mutations, including those at codon N1425, are associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 22834,
+                "profileName": "BCOR mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13956,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, the combination of Glasdegib (PF-04449913) and Cytosar-U (cytarabine) resulted in an overall survival of 4.4 months in patients with either acute myeloid leukemia or myelodysplastic syndrome (MDS), with 33% (1/3) of MDS patients experiencing a complete remission (PMID: 29463550).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6955,
+                "therapyName": "Cytarabine + Glasdegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11380,
+                    "pubMedId": 29463550,
+                    "title": "Phase Ib Study of Glasdegib, a Hedgehog Pathway Inhibitor, in Combination with Standard Chemotherapy in Patients with AML or High-Risk MDS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29463550"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13963,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, the combination of Glasdegib (PF-04449913), Cytosar-U (cytarabine), and Cerubidine (daunorubicin) resulted in an overall survival of 34.7 months in patients with either acute myeloid leukemia (AML) or myelodysplastic syndrome (MDS), with 50% (1/2) of MDS patients experiencing a complete remission (PMID: 29463550).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 6957,
+                "therapyName": "Cytarabine + Daunorubicin + Glasdegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11380,
+                    "pubMedId": 29463550,
+                    "title": "Phase Ib Study of Glasdegib, a Hedgehog Pathway Inhibitor, in Combination with Standard Chemotherapy in Patients with AML or High-Risk MDS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29463550"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14388,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, FF-10501-01 demonstrated safety and preliminary efficacy, resulted in stable disease control with no disease progression over 3-14 cycles of treatment in 50% (3/6) of myelodysplastic syndrome patients, including 1 patient achieved complete marrow response (Blood 128 (22):1640).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 7088,
+                "therapyName": "FF-10501-01",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 11630,
+                    "pubMedId": null,
+                    "title": "Phase 1 Results of FF-10501-01, a Novel Inosine 5'-Monophosphate Dehydrogenase Inhibitor, in Advanced Acute Myeloid Leukemia (AML) and Myelodysplastic Syndromes (MDS), Including Hypomethylating Agent (HMA) Failures",
+                    "url": "http://www.bloodjournal.org/content/128/22/1640?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19038,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "NPM1 W288fs mutations are associated with poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 13542,
+                "profileName": "NPM1 W288fs"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19039,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "WT1 mutations are associated with poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 13655,
+                "profileName": "WT1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19040,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "FLT3 internal tandem duplication (FLT3-ITD) mutations are associated with poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 19128,
+                "profileName": "FLT3 exon 14 ins"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19041,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "FLT3 D835 mutations are associated with poor prognosis in patients with myelodysplastic syndromes (NCCN.org).",
+            "molecularProfile": {
+                "id": 5329,
+                "profileName": "FLT3 D835X"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19043,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "GATA2 frameshift, nonsense, or splice site mutations, or missense mutations in codons 349-398 are associated with poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 11068,
+                "profileName": "GATA2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20245,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective study, Danazol treatment resulted in a clinical response in 60% (24/42) of myelodysplastic syndrome patients in a first-line therapy setting, and a median overall survival of 24 months, and a median duration of response of 6 months (PMID: 29268959).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9187,
+                "therapyName": "Danazol",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17747,
+                    "pubMedId": 29268959,
+                    "title": "Danazol as First-Line Therapy for Myelodysplastic Syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29268959"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00801489",
+            "title": "Fludarabine, Cytarabine, Filgrastim, Gemtuzumab Ozogamicin, and Idarubicin in Core Binding Factor (CBF) Leukemias",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6849,
+                    "therapyName": "Cytarabine + Filgrastim + Fludarabine + Gemtuzumab ozogamicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 6850,
+                    "therapyName": "Cytarabine + Filgrastim + Fludarabine + Gemtuzumab ozogamicin + Idarubicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01211457",
+            "title": "Study of Sapacitabine in Acute Myeloid Leukemia (AML) or Myelodysplastic Syndromes",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8559,
+                    "therapyName": "sapacitabine + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 1747,
+                    "therapyName": "Decitabine + sapacitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01685411",
+            "title": "Busulfan and Cyclophosphamide Followed By ALLO BMT",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6938,
+                    "therapyName": "Busulfan + Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 3628,
+                    "therapyName": "Allopurinol",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2627,
+                    "therapyName": "Levetiracetam",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01773395",
+            "title": "GVAX vs. Placebo for MDS/AML After Allo HSCT",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9285,
+                    "therapyName": "Busulfan + Fludarabine + Methotrexate + Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 9284,
+                    "therapyName": "Busulfan + Fludarabine + GVAX + Methotrexate + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01804101",
+            "title": "Liposomal Cytarabine-Daunorubicin CPX-351 in Treating Patients With Untreated Myelodysplastic Syndrome or Acute Myeloid Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4341,
+                    "therapyName": "CPX-351",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01822509",
+            "title": "Ipilimumab or Nivolumab in Treating Patients With Relapsed Hematologic Malignancies After Donor Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01892371",
+            "title": "Quizartinib With Azacitidine or Cytarabine in Treating Participants With Relapsed or Refractory Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6542,
+                    "therapyName": "Azacitidine + Quizartinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 6543,
+                    "therapyName": "Cytarabine + Quizartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01898793",
+            "title": "Cytokine-induced Memory-like NK Cells in Patients With Acute Myeloid Leukemia (AML) or Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3409,
+                    "therapyName": "Aldesleukin + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 5300,
+                    "therapyName": "ALT-803 + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02019069",
+            "title": "CPX-351 in Treating Patients With Relapsed or Refractory Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4341,
+                    "therapyName": "CPX-351",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02115295",
+            "title": "Cladribine Plus Idarubicin Plus Cytarabine (ARAC) in Patients With Acute Myeloid Leukemia (AML), High Risk Myelodysplastic Syndrome (HR MDS) or Myeloid Blast Phase of Chronic Myeloid Leukemia (CML)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7983,
+                    "therapyName": "Cladribine + Cytarabine + Idarubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 810,
+                    "therapyName": "Midostaurin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02117219",
+            "title": "Phase 1 Study to Evaluate MEDI4736 in MDS",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4178,
+                    "therapyName": "Azacitidine + Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02117297",
+            "title": "SCT Plus Immune Therapy in Average Risk AML/MDS",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 756,
+                    "therapyName": "Gemtuzumab ozogamicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02193958",
+            "title": "Study of FF-10501-01 in Patients With Relapsed or Refractory Hematological Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 7088,
+                    "therapyName": "FF-10501-01",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02203903",
+            "title": "Multi-institutional Prospective Research of Expanded Multi-antigen Specifically Oriented Lymphocytes for the Treatment of VEry High Risk Hematopoietic Malignancies (RESOLVE)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02221310",
+            "title": "Immunochemotherapy and AlloSCT in Patients With High Risk CD33+ AML/MDS",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3932,
+                    "therapyName": "Busulfan + Cyclophosphamide + Gemtuzumab ozogamicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02228525",
+            "title": "Selective Inhibitor of Nuclear Export (SINE) Selinexor (KPT-330) in Patients With Myelodysplastic Syndromes",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1749,
+                    "therapyName": "Selinexor",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02240706",
+            "title": "Phase I/II Trial to Investigate BI 836858 in Myelodysplastic Syndromes",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 5537,
+                    "therapyName": "BI 836858",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02250937",
+            "title": "Venetoclax and Sequential Busulfan, Cladribine, and Fludarabine Phosphate Before Donor Stem Cell Transplant in Treating Patients With Acute Myelogenous Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1767,
+                    "therapyName": "Cladribine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 8421,
+                    "therapyName": "Busulfan + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02267863",
+            "title": "A Study of APTO-253 in Patients With Relapsed or Refractory AML or MDS",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3519,
+                    "therapyName": "APTO-253",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02269579",
+            "title": "Pharmacokinetic and Pharmacodynamic Assessment of Treatment With CPX-351 (Cytarabine: Daunorubicin) Liposome for Injection in Acute Leukemias and MDS Patients With Moderate Hepatic Impairment",
+            "phase": "Phase II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4341,
+                    "therapyName": "CPX-351",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02273102",
+            "title": "Phase 1 Study of TCP-ATRA for Adult Patients With AML and MDS (TCP-ATRA)",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6126,
+                    "therapyName": "Tranylcypromine + Tretinoin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02281084",
+            "title": "Safety and Efficacy Study of CC-486 and Durvalumab in Subjects With Myelodysplastic Syndromes",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4178,
+                    "therapyName": "Azacitidine + Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02367456",
+            "title": "A Combination Study of PF-04449913 (Glasdegib) and Azacitidine In 1st Line MDS, AML and CMML Patients",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4177,
+                    "therapyName": "Azacitidine + Glasdegib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02462252",
+            "title": "Phase IIA Open Label Study to Evaluate Efficacy and Safety of BL-8040 Followed by (hATG), Cyclosporine and Methyprednisolone in Adult Subjects With Aplastic Anemia or Hypoplastic Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 4411,
+                    "therapyName": "anti-thymocyte globulin + BKT140 + Cyclosporine + Methylprednisolone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02472145",
+            "title": "An Efficacy and Safety Study of Decitabine (DACOGEN) Plus Talacotuzumab (JNJ-56022473; Anti CD123) Versus Decitabine (DACOGEN) Alone in Participants With Acute Myeloid Leukemia (AML) Ineligible for Intensive Chemotherapy",
+            "phase": "Phase III",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 5909,
+                    "therapyName": "Decitabine + Talacotuzumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02477878",
+            "title": "Study of Gene Modified Donor T Cell Infusion in Patients With Recurrent Disease After Allogeneic Transplant",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5995,
+                    "therapyName": "BPX-601",
+                    "synonyms": null
+                },
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02487459",
+            "title": "Safety Study of Gene Modified Donor T-Cells in Adults With Advanced Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 6053,
+                    "therapyName": "BPX-501",
+                    "synonyms": null
+                },
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02494167",
+            "title": "Administration of Donor Multi TAA-Specific T Cells for AML or MDS (ADSPAM)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9602,
+                    "therapyName": "MultiTAA-specific T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02498665",
+            "title": "A Study of DSP-7888 Dosing Emulsion in Adult Patients With Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4320,
+                    "therapyName": "DSP-7888",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02508870",
+            "title": "A Safety and Pharmacology Study of Atezolizumab (MPDL3280A, Anti-PD-L1 Antibody) Administered Alone or in Combination With Azacitidine in Patients With Myelodysplastic Syndromes",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1201,
+                    "therapyName": "Atezolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02530034",
+            "title": "Hu8F4 in Treating Patients With Advanced Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9617,
+                    "therapyName": "Hu8F4",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02530463",
+            "title": "Nivolumab and Ipilimumab With 5-azacitidine in Patients With Myelodysplastic Syndromes (MDS)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02543879",
+            "title": "Study of a Novel BET Inhibitor FT-1101 in Patients With Relapsed or Refractory Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 7335,
+                    "therapyName": "FT-1101",
+                    "synonyms": null
+                },
+                {
+                    "id": 7336,
+                    "therapyName": "Azacitidine + FT-1101",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02553941",
+            "title": "Ibrutinib and Azacitidine for Treatment of Higher Risk Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3632,
+                    "therapyName": "Azacitidine + Ibrutinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02556931",
+            "title": "Shorter Course Tacro After NMA, Related Donor PBSCT With High-dose Posttransplant Cy for Hard-to-Engraft Malignancies",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4228,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Melphalan + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02562443",
+            "title": "Controlled Study of Rigosertib Versus Physician's Choice of Treatment in MDS Patients After Failure of an HMA (INSPIRE)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1046,
+                    "therapyName": "Rigosertib Sodium",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02564536",
+            "title": "Pacritinib in Combination With Low Dose Decitabine in Intermediate-High Risk Myelofibrosis or Myeloproliferative Neoplasm (MPN)/Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 3177,
+                    "therapyName": "Decitabine + Pacritinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02576301",
+            "title": "Dose Escalation of OXi4503 as Single Agent and Combination With Cytarabine w/Subsequent Ph 2 Cohorts for AML and MDS",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3524,
+                    "therapyName": "OXi4503",
+                    "synonyms": null
+                },
+                {
+                    "id": 3887,
+                    "therapyName": "Cytarabine + OXi4503",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02598661",
+            "title": "Study to Evaluate Imetelstat (JNJ-63935937) in Subjects With International Prognostic Scoring System (IPSS) Low or Intermediate-1 Risk Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3710,
+                    "therapyName": "Imetelstat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02610777",
+            "title": "An Efficacy and Safety Study of Pevonedistat Plus Azacitidine Versus Single-Agent Azacitidine in Participants With Higher-Risk Myelodysplastic Syndromes (HR MDS), Chronic Myelomonocytic Leukemia (CMML) and Low-Blast Acute Myelogenous Leukemia (AML)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1688,
+                    "therapyName": "MLN4924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02641002",
+            "title": "A Study of CC-90002 in Subjects With Acute Myeloid Leukemia (AML) and High-risk Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 7203,
+                    "therapyName": "CC-90002",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02666950",
+            "title": "WEE1 Inhibitor AZD1775 With or Without Cytarabine in Treating Patients With Advanced Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 822,
+                    "therapyName": "Adavosertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02676323",
+            "title": "Panobinostat With Fludarabine and Cytarabine for Treatment of Children With Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 3732,
+                    "therapyName": "Cytarabine + Fludarabine + Leucovorin + Panobinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02677922",
+            "title": "A Safety and Efficacy Study of Oral AG-120 Plus Subcutaneous Azacitidine and Oral AG-221 Plus Subcutaneous Azacitidine in Subjects With Newly Diagnosed Acute Myeloid Leukemia (AML)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 4002,
+                    "therapyName": "Azacitidine + Ivosidenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4003,
+                    "therapyName": "Azacitidine + Enasidenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02683395",
+            "title": "A Study of PLX51107 in Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6999,
+                    "therapyName": "PLX51107",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02684162",
+            "title": "SGI-110 With Donor Lymphocyte Infusion (DLI) for Acute Myelogenous Leukemia (AML) or Myelodysplastic Syndrome (MDS) Relapsing Post Allogeneic Stem Cell Transplantation (AlloSCT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1949,
+                    "therapyName": "Guadecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02719574",
+            "title": "Dose-Escalation Study of FT-2102 as a Single Agent and in Combination With Azacitidine in Patients With AML or MDS With an IDH1 Mutation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4336,
+                    "therapyName": "FT-2102",
+                    "synonyms": null
+                },
+                {
+                    "id": 4449,
+                    "therapyName": "Azacitidine + FT-2102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02721875",
+            "title": "Trial of Volasertib With or Without Azacitidine in Patients With Myelodysplastic Syndromes",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 957,
+                    "therapyName": "Volasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02722668",
+            "title": "UCB Transplant for Hematological DIseases Using a Non Myeloablative Prep",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2281,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02727803",
+            "title": "Personalized NK Cell Therapy After Chemotherapy and Cord Blood Transplant in Treating Patients With Myelodysplastic Syndrome, Leukemia, Lymphoma or Multiple Myeloma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9016,
+                    "therapyName": "anti-thymocyte globulin + Fludarabine + haNK cells + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 9015,
+                    "therapyName": "anti-thymocyte globulin + Cyclophosphamide + Fludarabine + haNK cells + Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 9014,
+                    "therapyName": "anti-thymocyte globulin + Busulfan + Clofarabine + Fludarabine + haNK cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02728050",
+            "title": "Filgrastim, Cladribine, Cytarabine and Mitoxantrone With or Without Sorafenib Tosylate in Treating Patients With Newly-Diagnosed, High-Risk Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 4363,
+                    "therapyName": "Cladribine + Cytarabine + Filgrastim + Mitoxantrone",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02743611",
+            "title": "Dose Finding Study Evaluating Safety and Feasibility in Patients With Relapsed or Refractory Myeloid Neoplasms",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                },
+                {
+                    "id": 5991,
+                    "therapyName": "BPX-701",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02749708",
+            "title": "Study of IRX5183 in Relapsed and Refractory Acute Myeloid Leukemia and High Risk Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 7277,
+                    "therapyName": "IRX5183",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02756572",
+            "title": "Early Allogeneic Hematopoietic Cell Transplantation in Treating Patients With Relapsed or Refractory High-Grade Myelodysplastic Syndrome or Acute Myeloid Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1650,
+                    "therapyName": "Cyclosporine",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1767,
+                    "therapyName": "Cladribine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 5215,
+                    "therapyName": "mitoxantrone hydrochloride",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02775903",
+            "title": "An Efficacy and Safety Study of Azacitidine Subcutaneous in Combination With Durvalumab (MEDI4736) in Previously Untreated Subjects With Higher-Risk Myelodysplastic Syndromes (MDS) or in Elderly Subjects With Acute Myeloid Leukemia (AML)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 4178,
+                    "therapyName": "Azacitidine + Durvalumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02779777",
+            "title": "Tipifarnib in Subjects With Transfusion-dependent, Very Low, Low, or Intermediate Risk Myelodysplastic Syndromes",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 938,
+                    "therapyName": "Tipifarnib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02786485",
+            "title": "Study of Matched Unrelated Donor T Cell Infusion for Hematologic Malignancies After Allo-HSCT",
+            "phase": "Phase I",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                },
+                {
+                    "id": 6053,
+                    "therapyName": "BPX-501",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02790515",
+            "title": "Provision of TCR?? T Cells and Memory T Cells Plus Selected Use of Blinatumomab in Na\u00efve T-cell Depleted Haploidentical Donor Hematopoietic Cell Transplantation for Hematologic Malignancies Relapsed or Refractory Despite Prior Transplantation",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1844,
+                    "therapyName": "anti-thymocyte globulin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1876,
+                    "therapyName": "Blinatumomab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2563,
+                    "therapyName": "Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 1207,
+                    "therapyName": "Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 5682,
+                    "therapyName": "Mesna",
+                    "synonyms": null
+                },
+                {
+                    "id": 897,
+                    "therapyName": "Rituximab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02793544",
+            "title": "HLA-Mismatched Unrelated Donor Bone Marrow Transplantation With Post-Transplantation Cyclophosphamide",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1206,
+                    "therapyName": "Busulfan",
+                    "synonyms": null
+                },
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 5682,
+                    "therapyName": "Mesna",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02795520",
+            "title": "Pharmacological Study of Intravenous OTS167 in Patients With Refractory or Relapsed Acute Myeloid Leukemia, Acute Lymphoblastic Leukemia, Advanced Myelodysplastic Syndromes, Advanced Myeloproliferative Neoplastic Disorders, or Advanced Chronic Myelogenous Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3951,
+                    "therapyName": "OTS167",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02807558",
+            "title": "A Biomarker-Directed Phase 2 Trial of SY-1425 in Patients With Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6409,
+                    "therapyName": "Azacitidine + Tamibarotene",
+                    "synonyms": null
+                },
+                {
+                    "id": 6403,
+                    "therapyName": "Tamibarotene",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02829840",
+            "title": "Dose-Escalation Study of Ponatinib, a FLT3 Inhibitor, With and Without Combination of 5-Azacytidine, in Patients With FLT3-Mutated Acute Myeloid Leukemia (AML)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Withdrawn",
+            "therapies": [
+                {
+                    "id": 4464,
+                    "therapyName": "Azacitidine + Ponatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02841540",
+            "title": "A Phase 1 Study to Evaluate H3B-8800 in Participants With Myelodysplastic Syndromes, Acute Myeloid Leukemia, and Chronic Myelomonocytic Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6685,
+                    "therapyName": "H3B-8800",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02848001",
+            "title": "A Dose-finding Study of CC-90009 in Subjects With Relapsed or Refractory Acute Myeloid Leukemia or Relapsed or Refractory Higher-risk Myelodysplastic Syndromes",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7302,
+                    "therapyName": "CC-90009",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890329",
+            "title": "Ipilimumab and Decitabine in Treating Patients With Relapsed or Refractory Myelodysplastic Syndrome or Acute Myeloid Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5738,
+                    "therapyName": "Decitabine + Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02890758",
+            "title": "Phase I Trial of Universal Donor NK Cell Therapy in Combination With ALT803",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02907359",
+            "title": "Guadecitabine (SGI-110) vs Treatment Choice in Adults With MDS or CMML Previously Treated With HMAs",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1949,
+                    "therapyName": "Guadecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02909972",
+            "title": "Safety Study of ALRN-6924 in Patients With Acute Myeloid Leukemia or Advanced Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 4755,
+                    "therapyName": "ALRN-6924 + Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2273,
+                    "therapyName": "ALRN-6924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02935361",
+            "title": "Guadecitabine and Atezolizumab in Treating Patients With Advanced Myelodysplastic Syndrome or Chronic Myelomonocytic Leukemia That Is Refractory or Relapsed",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4693,
+                    "therapyName": "Atezolizumab + Guadecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02936752",
+            "title": "Entinostat and Pembrolizumab in Treating Patients With Myelodysplastic Syndrome After DNMTi Therapy Failure",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3354,
+                    "therapyName": "Entinostat + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02942290",
+            "title": "A Study Evaluating Venetoclax in Combination With Azacitidine Compared With Azacitidine Alone in Participants With Previously Untreated Higher-Risk Myelodysplastic Syndromes (MDS)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1637,
+                    "therapyName": "Azacitidine + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02966782",
+            "title": "A Study Evaluating Venetoclax Alone and in Combination With Azacitidine in Subjects With Higher-Risk Myelodysplastic Syndromes (MDS) After Hypomethylating Agent-Failure",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1637,
+                    "therapyName": "Azacitidine + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 1562,
+                    "therapyName": "Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02979366",
+            "title": "Phase I Study of S64315 Administred Intravenously in Patients With Acute Myeloid Leukaemia or Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5814,
+                    "therapyName": "MIK665",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02981914",
+            "title": "Pilot Study of Pembrolizumab Treatment for Disease Relapse After Allogeneic Stem Cell Transplantation",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02989844",
+            "title": "QUILT-3.035: Relapse Prophylaxis With ALT-803 for AML and MDS Pts Following Allo HSCT",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 3060,
+                    "therapyName": "ALT-803",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03011034",
+            "title": "Study to Separately Evaluate the Activity of Talacotuzumab (JNJ-56022473) or Daratumumab in Transfusion-Dependent Participants With Low or Intermediate-1 Risk Myelodysplastic Syndromes (MDS) Who Are Relapsed or Refractory to Erythropoiesis-Stimulating Agent (ESA) Treatment",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5809,
+                    "therapyName": "Talacotuzumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1630,
+                    "therapyName": "Daratumumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03018405",
+            "title": "A Dose Escalation Phase I Study to Assess the Safety and Clinical Activity of Multiple Cancer Indications (THINK)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5998,
+                    "therapyName": "NKR-2 cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03042689",
+            "title": "Study of Regorafenib in Patients With Advanced Myeloid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 890,
+                    "therapyName": "Regorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03047993",
+            "title": "Glutaminase Inhibitor CB-839 and Azacitidine in Treating Patients With Advanced Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9678,
+                    "therapyName": "Azacitidine + CB-839",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03066648",
+            "title": "Study of PDR001 and/or MBG453 in Combination With Decitabine in Patients With AML or High Risk MDS",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6463,
+                    "therapyName": "Decitabine + Spartalizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6464,
+                    "therapyName": "Decitabine + MBG453 + Spartalizumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 6465,
+                    "therapyName": "Decitabine + MBG453",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03069469",
+            "title": "Study of DCC-3014 in Patients With Advanced Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5760,
+                    "therapyName": "DCC-3014",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03072043",
+            "title": "Phase 1b/2 Safety and Efficacy of APR-246 w/Azacitidine for tx of TP53 Mutant Myeloid Neoplasms",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5445,
+                    "therapyName": "APR-246 + Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03074006",
+            "title": "Dose Escalation and Proof-of-Concept Studies of TEW-7197 Monotherapy in Patients With Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 3011,
+                    "therapyName": "TEW 7197",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03075826",
+            "title": "A Phase II Study of SGI-110 in Philadelphia-Negative Myeloproliferative Neoplasms",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1949,
+                    "therapyName": "Guadecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03092674",
+            "title": "Azacitidine With or Without Nivolumab or Midostaurin, or Decitabine and Cytarabine Alone in Treating Older Patients With Previously Untreated Acute Myeloid Leukemia or High-Risk Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1736,
+                    "therapyName": "Cytarabine + Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2471,
+                    "therapyName": "Azacitidine + Midostaurin",
+                    "synonyms": null
+                },
+                {
+                    "id": 3196,
+                    "therapyName": "Azacitidine + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03094637",
+            "title": "Azacitidine and Pembrolizumab for Patients With Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2496,
+                    "therapyName": "Azacitidine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03113643",
+            "title": "SL-401 in Combination With Azacitidine or Azacitidine/Venetoclax in Acute Myeloid Leukemia (AML) or High-Risk Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8733,
+                    "therapyName": "Azacitidine + tagraxofusp-erzs + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 8732,
+                    "therapyName": "Azacitidine + tagraxofusp-erzs",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03128034",
+            "title": "211^At-BC8-B10 Before Donor Stem Cell Transplant in Treating Patients With High-Risk Acute Myeloid Leukemia, Acute Lymphoblastic Leukemia, or Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 5714,
+                    "therapyName": "Cyclosporine + Fludarabine + Mycophenolate mofetil + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03151304",
+            "title": "A Safety and Efficacy Study of Pracinostat and Azacitidine in Patients With High Risk Myelodysplastic Syndromes",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5987,
+                    "therapyName": "Azacitidine + Pracinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03164057",
+            "title": "A Trial of Epigenetic Priming in Patients With Newly Diagnosed Acute Myeloid Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1136,
+                    "therapyName": "Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 1632,
+                    "therapyName": "Filgrastim",
+                    "synonyms": null
+                },
+                {
+                    "id": 5153,
+                    "therapyName": "Dexrazoxane",
+                    "synonyms": null
+                },
+                {
+                    "id": 1006,
+                    "therapyName": "Daunorubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1022,
+                    "therapyName": "Idarubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2206,
+                    "therapyName": "Asparaginase",
+                    "synonyms": null
+                },
+                {
+                    "id": 712,
+                    "therapyName": "Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1740,
+                    "therapyName": "Mitoxantrone",
+                    "synonyms": null
+                },
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03187288",
+            "title": "A Study of CFI-400945 Fumarate in Patients With Relapsed or Refractory Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4029,
+                    "therapyName": "CFI-400945",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03214562",
+            "title": "Study of the BCL-2 Inhibitor Venetoclax in Combination With Standard Intensive Acute Myeloid Leukemia (AML) Induction/Consolidation Therapy With FLAG-IDA in Patients With Newly Diagnosed or Relapsed/Refractory Acute Myeloid Leukemia (AML)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1562,
+                    "therapyName": "Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 6329,
+                    "therapyName": "Cytarabine + Filgrastim + Fludarabine + Idarubicin + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03214666",
+            "title": "GTB-3550 (CD16/IL-15/CD33) Tri-Specific Killer Engager (TriKE) for High Risk Heme Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9469,
+                    "therapyName": "GTB-3550 TriKE",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03238248",
+            "title": "Pevonedistat and Azacitidine in MDS or MDS/MPN Patients Who Fail Primary Therapy With DNA Methyl Transferase Inhibitors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6164,
+                    "therapyName": "Azacitidine + MLN4924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03248479",
+            "title": "Hu5F9-G4 Monotherapy or Hu5F9-G4 in Combination With Azacitidine in Patients With Hematological Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6133,
+                    "therapyName": "Azacitidine + Hu5F9-G4",
+                    "synonyms": null
+                },
+                {
+                    "id": 4947,
+                    "therapyName": "Hu5F9-G4",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03268954",
+            "title": "Pevonedistat Plus Azacitidine Versus Single-Agent Azacitidine as First-Line Treatment for Participants With Higher-Risk Myelodysplastic Syndromes (HR MDS), Chronic Myelomonocytic Leukemia (CMML), or Low-Blast Acute Myelogenous Leukemia (AML) (PANTHER)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6164,
+                    "therapyName": "Azacitidine + MLN4924",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03286114",
+            "title": "Augmentation of the Graft vs. Leukemia Effect Via Checkpoint Blockade With Pembrolizumab",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03326310",
+            "title": "Study of MEK Inhibitor Selumetinib in Combination With Azacitidine in Patients With Higher Risk Chronic Myeloid Neoplasia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6467,
+                    "therapyName": "Azacitidine + Selumetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03326921",
+            "title": "HA-1 T TCR T Cell Immunotherapy for the Treating of Patients With Relapsed or Refractory Acute Leukemia After Donor Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 1166,
+                    "therapyName": "Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 9693,
+                    "therapyName": "HA-1 TCR T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03358719",
+            "title": "DEC-205/NY-ESO-1 Fusion Protein CDX-1401, Poly ICLC, Decitabine, and Nivolumab in Treating Patients With Myelodysplastic Syndrome or Acute Myeloid Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 6541,
+                    "therapyName": "DEC-205-NY-ESO-1 fusion protein vaccine + Decitabine + Nivolumab + Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03359460",
+            "title": "Ibrutinib and Lenalidomide in Treating Patients With Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3580,
+                    "therapyName": "Ibrutinib + Lenalidomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03383575",
+            "title": "Targeted Therapy With the IDH2-Inhibitor Enasidenib (AG221) for High-Risk IDH2-Mutant Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4003,
+                    "therapyName": "Azacitidine + Enasidenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2982,
+                    "therapyName": "Enasidenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03386513",
+            "title": "Study of IMGN632 in Patients With Relapse/Refractory AML, BPDCN, ALL, Other CD123+ Hem Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7340,
+                    "therapyName": "IMGN632",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03393611",
+            "title": "CPX-351 Salvage Therapy Followed by Haplo-Cord Transplant for Relapsed/Refractory Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6834,
+                    "therapyName": "anti-thymocyte globulin + Fludarabine + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 4341,
+                    "therapyName": "CPX-351",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03397173",
+            "title": "TET2 Mutations in Myelodysplastic Syndromes and Acute Myeloid Leukemia With Azacitidine + Ascorbic Acid",
+            "phase": null,
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03404193",
+            "title": "Venetoclax in Combination With 10-Day Decitabine in Newly Diagnosed Elderly or Relapsed/Refractory Acute Myeloid Leukemia and Relapsed High-risk Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1636,
+                    "therapyName": "Decitabine + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03417154",
+            "title": "Nivolumab and Oral Cyclophosphamide for R/R AML and HIgh Risk MDS",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 7711,
+                    "therapyName": "Cyclophosphamide + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03459859",
+            "title": "Pevonedistat and Low Dose Cytarabine in Adult Patients With AML and MDS",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6860,
+                    "therapyName": "Cytarabine + MLN4924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03471260",
+            "title": "Study of Venetoclax With the mIDH1 Inhibitor Ivosidenib (AG120) in IDH1-Mutated Hematologic Malignancies",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7991,
+                    "therapyName": "Ivosidenib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03515512",
+            "title": "IDH2 Inhibition Using Enasidenib as Maintenance Therapy for IDH2-mutant Myeloid Neoplasms Following Allogeneic Stem Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2982,
+                    "therapyName": "Enasidenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03516591",
+            "title": "A Phase 1 Study of AMV564 in Patients With Intermediate or High-Risk Myelodysplastic Syndromes",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5711,
+                    "therapyName": "AMV-564",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03564821",
+            "title": "IDH1 Inhibition Using Ivosidenib as Maintenance Therapy for IDH1-mutant Myeloid Neoplasms Following Allogeneic Stem Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1491,
+                    "therapyName": "Ivosidenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03572764",
+            "title": "CPX-351 (Vyxeos) for Transplant Eligible, Higher Risk Patients With Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4341,
+                    "therapyName": "CPX-351",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03573310",
+            "title": "A Study of JNJ-64619178, an Inhibitor of PRMT5 in Participants With Advanced Solid Tumors, NHL, and Lower Risk MDS",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9749,
+                    "therapyName": "JNJ-64619178",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03603964",
+            "title": "Guadecitabine Extension Study",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1949,
+                    "therapyName": "Guadecitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03613532",
+            "title": "Venetoclax Added to Fludarabine + Busulfan Prior to Transplant for AML, MDS, and MDS/MPN",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7892,
+                    "therapyName": "Busulfan + Fludarabine + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03614728",
+            "title": "Study to Investigate the Safety and Clinical Activity of GSK3326595 and Other Agents to Treat Myelodysplastic Syndrome (MDS) and Acute Myeloid Leukaemia (AML)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7509,
+                    "therapyName": "Azacitidine + GSK3326595",
+                    "synonyms": null
+                },
+                {
+                    "id": 6958,
+                    "therapyName": "GSK3326595",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03661307",
+            "title": "Quizartinib and Decitabine in Treating Participants With Untreated or Relapsed FLT3-ITD Mutated Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03670966",
+            "title": "211At-BC8-B10 and Donor Stem Cell Transplant in Treating Relapsed or Refractory AML, ALL, or Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 7555,
+                    "therapyName": "BC8-B10 + Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 7556,
+                    "therapyName": "Cyclophosphamide + Filgrastim + Mycophenolate mofetil + Sirolimus + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03672539",
+            "title": "Liposome-encapsulated Daunorubicin-Cytarabine and Gemtuzumab Ozogamicin in Treating Patients With Relapsed or Refractory Acute Myeloid Leukemia (AML) or High Risk Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 756,
+                    "therapyName": "Gemtuzumab ozogamicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 7717,
+                    "therapyName": "CPX-351 + Gemtuzumab ozogamicin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03674411",
+            "title": "Trial Evaluating MGTA-456 in Patients With High-Risk Malignancy",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9613,
+                    "therapyName": "Busulfan + Filgrastim + Fludarabine + Melphalan + MGTA-456 + Mycophenolate mofetil + Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 9612,
+                    "therapyName": "Cyclophosphamide + Filgrastim + Fludarabine + MGTA-456 + Mycophenolate mofetil + Tacrolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03699475",
+            "title": "Study of Haplo-HSCT + BPX-501 vs Haplo-HSCT + Post Transplant Cyclophosphamide in Patients With AML or MDS (THRIVE)",
+            "phase": "Phase II",
+            "recruitment": "Suspended",
+            "therapies": [
+                {
+                    "id": 7893,
+                    "therapyName": "BPX-501 + Rimiducid",
+                    "synonyms": null
+                },
+                {
+                    "id": 1148,
+                    "therapyName": "Cyclophosphamide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03735446",
+            "title": "Prexasertib in Combination With MEC in Relapsed/Refractory AML and High Risk MDS - a Phase I Trial",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 7896,
+                    "therapyName": "Cytarabine + Etoposide + Mitoxantrone + Prexasertib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03745716",
+            "title": "APR-246 & Azacitidine for the Treatment of TP53 Mutant Myelodysplastic Syndromes (MDS)",
+            "phase": "Phase III",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5445,
+                    "therapyName": "APR-246 + Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03746041",
+            "title": "A Phase I Pilot Study of Abaloparatide + Bevacizumab in Myelodysplastic Syndromes",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7975,
+                    "therapyName": "Abaloparatide + Bevacizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03770429",
+            "title": "AZD6738 for Patients With Progressive MDS or CMML",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2881,
+                    "therapyName": "AZD6738",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03772925",
+            "title": "Pevonedistat and Belinostat in Treating Patients With Relapsed or Refractory Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8223,
+                    "therapyName": "Belinostat + MLN4924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03787498",
+            "title": "A Study of PLX2853 in Relapsed or Refractory Acute Myeloid Leukemia or High Risk Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6324,
+                    "therapyName": "PLX2853",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03807063",
+            "title": "Rivogenlecleucel Donor Lymphocyte Immunotherapy in Treating Patients With Recurrent Blood Cancers After Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Enrolling by invitation",
+            "therapies": [
+                {
+                    "id": 5992,
+                    "therapyName": "Rimiducid",
+                    "synonyms": null
+                },
+                {
+                    "id": 6053,
+                    "therapyName": "BPX-501",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03814005",
+            "title": "A Study of Pevonedistat in Combination With Azacitidine in Participants With Higher-risk Myelodysplastic Syndromes (HR MDS), Chronic Myelomonocytic Leukemia (CMML), or Acute Myelogenous Leukemia (AML) With Severe Renal Impairment or Mild Hepatic Impairment",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6164,
+                    "therapyName": "Azacitidine + MLN4924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03843528",
+            "title": "Vorinostat Dose-escalation After Allogeneic Hematopoietic Cell Transplantation",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7961,
+                    "therapyName": "Azacitidine + Vorinostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03862157",
+            "title": "Azacitidine, Venetoclax, and Pevonedistat in Treating Patients With Newly Diagnosed Acute Myeloid Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7993,
+                    "therapyName": "Azacitidine + MLN4924 + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03884829",
+            "title": "A Phase I Study of CYC140, a PLK-1 Inhibitor, in Advanced Leukemias or MDS",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9673,
+                    "therapyName": "CYC140",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03885947",
+            "title": "VPA Expanded UCB Transplantation for Treatment of Patients With Hematological Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1842,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Thiotepa",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03886662",
+            "title": "A Study of LB-100 in Patients With Low or Intermediate-1 Risk Myelodysplastic Syndromes (MDS)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3514,
+                    "therapyName": "LB-100",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03886831",
+            "title": "A Study of PRT543 in Participants With Advanced Solid Tumors and Hematologic Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9735,
+                    "therapyName": "PRT543",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03896269",
+            "title": "CPX-351 in Treating Patients With Relapsed or Refractory High Risk Myelodysplastic Syndrome or Chronic Myelomonocytic Leukemia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4341,
+                    "therapyName": "CPX-351",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03912064",
+            "title": "A Phase 1 Trial of CD25/Treg-depleted DLI Plus Ipilimumab for Myeloid Disease Relapse After Matched-HCT",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 779,
+                    "therapyName": "Ipilimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03913026",
+            "title": "UM171 Expanded Cord Blood In Patients With High-Risk Acute Leukemia/Myelodysplasia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9466,
+                    "therapyName": "ECT-001 cord blood cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1842,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Thiotepa",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03915379",
+            "title": "A Study of JNJ-67571244 in Participants With Relapsed or Refractory Acute Myeloid Leukemia (AML) or Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9732,
+                    "therapyName": "JNJ-67571244",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03927261",
+            "title": "PRGN-3006 Adoptive Cellular Therapy Relapsed or Refractory AML or High Risk MDS",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9681,
+                    "therapyName": "PRGN-3006",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03929211",
+            "title": "CPI-613 and Hydroxychloroquine for Patients With High Risk Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8377,
+                    "therapyName": "CPI-613 + Hydroxychloroquine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03931291",
+            "title": "APR-246 in Combination With Azacitidine for TP53 Mutated AML (Acute Myeloid Leukemia) or MDS (Myelodysplastic Syndromes) Following Allogeneic Stem Cell Transplant",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5445,
+                    "therapyName": "APR-246 + Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03932643",
+            "title": "ONC 201 Maintenance Therapy in Acute Myeloid Leukemia and Myelodysplastic Syndrome After Stem Cell Transplant",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1687,
+                    "therapyName": "ONC201",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03940352",
+            "title": "HDM201 in Combination With MBG453 or Venetoclax in Patients With Acute Myeloid Leukemia (AML) or High-risk Myelodysplastic Syndrome (MDS)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9422,
+                    "therapyName": "HDM201 + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 9421,
+                    "therapyName": "HDM201 + MBG453",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03946670",
+            "title": "A Study of MBG453 in Combination With Hypomethylating Agents in Subjects With IPSS-R Intermediate, High or Very High Risk Myelodysplastic Syndrome (MDS).",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6465,
+                    "therapyName": "Decitabine + MBG453",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8379,
+                    "therapyName": "Azacitidine + MBG453",
+                    "synonyms": null
+                },
+                {
+                    "id": 650,
+                    "therapyName": "Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03957876",
+            "title": "CPX-351 Therapy for MDS After Hypomethylating Agent Failure",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4341,
+                    "therapyName": "CPX-351",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03969446",
+            "title": "Pembrolizumab and Decitabine in Treating Patients With Acute Myeloid Leukemia or Myelodysplastic Syndrome That Is Newly-Diagnosed, Recurrent, or Refractory",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 5127,
+                    "therapyName": "Decitabine + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03974217",
+            "title": "Talazoparib for Cohesin-Mutated AML and MDS With Excess Blasts",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 682,
+                    "therapyName": "Talazoparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04013880",
+            "title": "ASTX727 and FT-2102 in Treating IDH1-Mutated Recurrent/Refractory Myelodysplastic Syndrome or Acute Myeloid Leukemia",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8567,
+                    "therapyName": "ASTX727 + FT-2102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04021368",
+            "title": "SEL120 in Patients With Acute Myeloid Leukemia or High-risk Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5672,
+                    "therapyName": "SEL120-34A",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04022785",
+            "title": "PLX51107 and Azacitidine in Treating Patients With Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8600,
+                    "therapyName": "Azacitidine + PLX51107",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04047641",
+            "title": "Cladribine, Idarubicin, Cytarabine, and Quizartinib in Treating Patients With Newly Diagnosed, Relapsed, or Refractory Acute Myeloid Leukemia or High-Risk Myelodysplastic Syndrome",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 882,
+                    "therapyName": "Quizartinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8659,
+                    "therapyName": "Cladribine + Cytarabine + Idarubicin + Quizartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04055844",
+            "title": "Multi-Ctr PII Cmb.Modality Tx Ruxolitinib, Decitabine, and DLI for Post HSCT in AML/MDS",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1735,
+                    "therapyName": "Decitabine + Ruxolitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04092179",
+            "title": "Study of Enasidenib and Venetoclax in IDH2-Mutated Blood Cancers",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8752,
+                    "therapyName": "Enasidenib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04103879",
+            "title": "US Study of UM171-Expanded CB in Patients With High Risk Leukemia/Myelodysplasia",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9466,
+                    "therapyName": "ECT-001 cord blood cells",
+                    "synonyms": null
+                },
+                {
+                    "id": 1842,
+                    "therapyName": "Cyclophosphamide + Fludarabine + Thiotepa",
+                    "synonyms": null
+                },
+                {
+                    "id": 1843,
+                    "therapyName": "Tacrolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 2291,
+                    "therapyName": "Cyclophosphamide + Fludarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1845,
+                    "therapyName": "Mycophenolate mofetil",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04109482",
+            "title": "Trial to Evaluate the Safety and Efficacy of MB-102 in Patients With BPDCN, AML, and hrMDS.",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9604,
+                    "therapyName": "Cyclophosphamide + Decitabine + Fludarabine + MB-102",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04128020",
+            "title": "Azacitidine Plus Nivolumab Following Reduced-intensity Allogeneic PBSC Transplantation for Patients With AML and High-risk Myelodysplasia",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3196,
+                    "therapyName": "Azacitidine + Nivolumab",
+                    "synonyms": null
+                },
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04128748",
+            "title": "Liposomal Cytarabine and Daunorubicin (CPX-351) and Quizartinib for the Treatment of Acute Myeloid Leukemia and High Risk Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8854,
+                    "therapyName": "CPX-351 + Quizartinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04139434",
+            "title": "Dose-escalation Study of Oral Administration of LP-108 in Patients With Relapsed or Refractory Myelodysplastic Syndromes (MDS), Chronic Myelomonocytic Leukemia (CMML), or Acute Myeloid Leukemia (AML)",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9590,
+                    "therapyName": "LP-108",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04140487",
+            "title": "Azacitidine, Venetoclax, and Gilteritinib in Treating Patients With Recurrent/Refractory FLT3-Mutated Acute Myeloid Leukemia or High-Risk Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8886,
+                    "therapyName": "Azacitidine + Gilteritinib + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04146038",
+            "title": "Salsalate, Venetoclax, and Decitabine or Azacitidine for the Treatment of Acute Myeloid Leukemia or Advanced Myelodysplasia/Myeloproliferative Disease",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8892,
+                    "therapyName": "Decitabine + Salsalate + Venetoclax",
+                    "synonyms": null
+                },
+                {
+                    "id": 8893,
+                    "therapyName": "Azacitidine + Salsalate + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04160052",
+            "title": "Venetoclax and Azacitidine for the Treatment of High-Risk Recurrent or Refractory Myelodysplastic Syndrome",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1637,
+                    "therapyName": "Azacitidine + Venetoclax",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04187703",
+            "title": "5-Azacitidine and Decitabine Epigenetic Therapy for Myeloid Malignancies",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 1798,
+                    "therapyName": "Azacitidine + Decitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04239157",
+            "title": "Canakinumab and Azacitidine for the Treatment of Low or Intermediate Risk Myelodysplastic Syndrome and Chronic Myelomonocytic Leukemia",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9264,
+                    "therapyName": "Azacitidine + Canakinumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04243785",
+            "title": "A Study of BTX-A51 in People With Relapsed or Refractory Acute Myeloid Leukemia or High-Risk Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9765,
+                    "therapyName": "BTX-A51",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04245397",
+            "title": "SX-682 Treatment in Subjects With Myelodysplastic Syndrome Who Had Disease Progression or Are Intolerant to Prior Therapy",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 5786,
+                    "therapyName": "SX-682",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04264806",
+            "title": "A Study of Cusatuzumab in Combination With Azacitidine Compared With Azacitidine Alone in Patients With Higher-risk Myelodysplastic Syndrome (MDS) or Chronic Myelomonocytic Leukemia (CMML) and Who Are Not Candidates for Hematopoietic Stem Cell Transplantation (HSCT)",
+            "phase": "Phase II",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 8443,
+                    "therapyName": "ARGX-110 + Azacitidine",
+                    "synonyms": null
+                },
+                {
+                    "id": 651,
+                    "therapyName": "Azacitidine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04278768",
+            "title": "An Open Label Dose Escalation Trial of CA-4948 in Patients With Acute Myelogenous Leukemia or Myelodysplastic Syndrome",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7396,
+                    "therapyName": "CA-4948",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04284228",
+            "title": "Antigen-specific T Cell Therapy for AML or MDS Patients With Relapsed Disease After Allo-HCT",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9481,
+                    "therapyName": "Cyclophosphamide + Fludarabine + NEXI-001 T Cells",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

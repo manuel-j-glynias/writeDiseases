@@ -1,0 +1,128 @@
+{
+    "id": 2999,
+    "name": "granulosa cell tumor",
+    "source": "DOID",
+    "definition": "An ovarian cancer that has_material_basis_in granulosa cells and arises from the sex cord stroma. [url:https\\://en.wikipedia.org/wiki/Granulosa_cell_tumour]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        "5333"
+    ],
+    "termId": "DOID:2999",
+    "evidence": [
+        {
+            "id": 5775,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "FOXL2 C134W mutations are used in the diagnosis of adult granulosa cell tumors of the ovary (PMID: 26791928, PMID: 22240241).",
+            "molecularProfile": {
+                "id": 3836,
+                "profileName": "FOXL2 C134W"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2999,
+                "name": "granulosa cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 5151,
+                    "pubMedId": 26791928,
+                    "title": "Impact of FOXL2 mutations on signaling in ovarian granulosa cell tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26791928"
+                },
+                {
+                    "id": 5208,
+                    "pubMedId": 22240241,
+                    "title": "Molecular pathogenesis of granulosa cell tumors of the ovary.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22240241"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11452,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with ovarian granulosa cell tumor cancer harboring subclonal AKT E17K demonstrated an overall tumor regression of 24% when treated with AZD5363, which lasted 253 days (PMID: 28489509).",
+            "molecularProfile": {
+                "id": 643,
+                "profileName": "AKT1 E17K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2999,
+                "name": "granulosa cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9361,
+                    "pubMedId": 28489509,
+                    "title": "AKT Inhibition in Solid Tumors With AKT1 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28489509"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20713,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, STM 434 treatment did not result in response in 30 evaluable patients with advanced solid tumors and only resulted in stable disease as best response in 80% (10/12) of patients with granulosa cell ovarian cancer (PMID: 31068369; NCT02262455).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 9438,
+                "therapyName": "STM434",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2999,
+                "name": "granulosa cell tumor",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 18011,
+                    "pubMedId": 31068369,
+                    "title": "First-in-Human Phase I Study of the Activin A Inhibitor, STM 434, in Patients with Granulosa Cell Ovarian Cancer and Other Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31068369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03909152",
+            "title": "A Study of Onapristone ER in Gynecologic Cancers That Respond to Progesterone",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1886,
+                    "therapyName": "Onapristone",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "id": 5015,
+    "name": "fibrolamellar carcinoma",
+    "source": "DOID",
+    "definition": "A hepatocellular carcinoma characterized microscopically by laminated fibrous layers interspersed between the tumour cells. The polygonal, deeply eosinophilic tumor cells arise in non-cirrhotic livers. [url:http\\://www.nejm.org/doi/full/10.1056/NEJMra1001683, url:https\\://en.wikipedia.org/wiki/Fibrolamellar_hepatocellular_carcinoma, url:https\\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C4131&ns=NCI_Thesaurus, url:https\\://rarediseases.info.nih.gov/diseases/9396/fibrolamellar-carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:5015",
+    "evidence": [
+        {
+            "id": 2072,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I study, Rapamune (sirolimus) resulted in prolonged stable disease in a patient with hepatocellular fibrolamellar carcinoma harboring FBXW7 E192A (PMID: 24586741).",
+            "molecularProfile": {
+                "id": 1539,
+                "profileName": "FBXW7 E192A"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5015,
+                "name": "fibrolamellar carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 2558,
+                    "pubMedId": 24586741,
+                    "title": "FBXW7 mutations in patients with advanced cancers: clinical and molecular characteristics and outcomes with mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24586741"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01396408",
+            "title": "A Phase II Study of Sunitinib or Temsirolimus in Patients With Advanced Rare Tumours",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 936,
+                    "therapyName": "Temsirolimus",
+                    "synonyms": null
+                },
+                {
+                    "id": 930,
+                    "therapyName": "Sunitinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02234986",
+            "title": "A Multi-center, Open-label Study of Oral ENMD-2076 for the Treatment of Patients With Advanced Fibrolamellar Carcinoma",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 727,
+                    "therapyName": "ENMD-2076",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04248569",
+            "title": "DNAJB1-PRKACA Fusion Kinase Peptide Vaccine Combined With Nivolumab and Ipilimumab for Patients With Fibrolamellar Hepatocellular Carcinoma",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9313,
+                    "therapyName": "DNAJB1-PRKACA peptide vaccine + Ipilimumab + Nivolumab + Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

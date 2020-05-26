@@ -1,0 +1,566 @@
+{
+    "id": 3672,
+    "name": "rhabdoid cancer",
+    "source": "DOID",
+    "definition": "A childhood kidney neoplasm that is located_in the kidney, liver, muscle, heart, lung, soft tissues, skin and central nervous system. [url:https\\://rarediseases.info.nih.gov/diseases/7572/rhabdoid-tumor]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3672",
+    "evidence": [
+        {
+            "id": 1181,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alvocidib (flavopiridol) induced cell-cycle arrest and inhibited growth of human rhabdoid tumor cell lines with SMARCB1 biallelic deficiency in culture and inhibted tumor growth in SMARCB1-deficient cell line xenograft models (PMID: 18223228).",
+            "molecularProfile": {
+                "id": 2085,
+                "profileName": "SMARCB1 negative"
+            },
+            "therapy": {
+                "id": 628,
+                "therapyName": "Alvocidib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 923,
+                    "pubMedId": 18223228,
+                    "title": "Rhabdoid tumor growth is inhibited by flavopiridol.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18223228"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3940,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BMS-754807 treatment resulted in significant tumor growth delay in 100% (3/3) of cell line xenograft models of rhabdoid tumor (PMID: 21298745).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 686,
+                "therapyName": "BMS-754807",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4302,
+                    "pubMedId": 21298745,
+                    "title": "Initial testing (stage 1) of the IGF-1 receptor inhibitor BMS-754807 by the pediatric preclinical testing program.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21298745"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5764,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Zolinza (vorinostat) and fenretinide induced apoptosis and inhibited growth of rhabdoid tumor cell lines in culture (PMID: 23764045).",
+            "molecularProfile": {
+                "id": 2085,
+                "profileName": "SMARCB1 negative"
+            },
+            "therapy": {
+                "id": 3923,
+                "therapyName": "Fenretinide + Vorinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5146,
+                    "pubMedId": 23764045,
+                    "title": "The histone deacetylase inhibitor SAHA acts in synergism with fenretinide and doxorubicin to control growth of rhabdoid tumor cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23764045"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5767,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CDKN2A (p16) over expression was associated with decreased sensitivity to Ibrance (palbociclib) in a SMARCB1-negative malignant rhabdoid tumor cell line in culture (PMID: 21871868).",
+            "molecularProfile": {
+                "id": 21572,
+                "profileName": "CDKN2A over exp SMARCB1 neg"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5148,
+                    "pubMedId": 21871868,
+                    "title": "Sensitivity of malignant rhabdoid tumor cell lines to PD 0332991 is inversely correlated with p16 expression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21871868"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5768,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) inhibited growth of SMARCB1-negative malignant rhabdoid tumor cell lines in culture, and sensitivity was associated with low levels of p16 expression (PMID: 21871868).",
+            "molecularProfile": {
+                "id": 2085,
+                "profileName": "SMARCB1 negative"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5148,
+                    "pubMedId": 21871868,
+                    "title": "Sensitivity of malignant rhabdoid tumor cell lines to PD 0332991 is inversely correlated with p16 expression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21871868"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5772,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tazemetostat (EPZ-6438) inhibited growth of SMARCB1-deficient malignant rhabdoid tumor cell lines in culture, and inhibited H3K27 trimethylation and induced tumor regression in a SMARCB1-deleted human malignant rhabdoid tumor cell line xenograft model (PMID: 23620515).",
+            "molecularProfile": {
+                "id": 13297,
+                "profileName": "SMARCB1 loss"
+            },
+            "therapy": {
+                "id": 2683,
+                "therapyName": "Tazemetostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2724,
+                    "pubMedId": 23620515,
+                    "title": "Durable tumor regression in genetically altered malignant rhabdoid tumors by inhibition of methyltransferase EZH2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23620515"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7826,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, over expression of EZH2 Y111D in rhabdoid tumor cells harboring an SMARCB1 inactivating mutation resulted in resistance to Tazemetostat (EPZ-6438) treatment in culture (PMID: 26360609).",
+            "molecularProfile": {
+                "id": 26057,
+                "profileName": "EZH2 Y111D SMARCB1 inact mut"
+            },
+            "therapy": {
+                "id": 2683,
+                "therapyName": "Tazemetostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6504,
+                    "pubMedId": 26360609,
+                    "title": "Acquisition of a single EZH2 D1 domain mutation confers acquired resistance to EZH2-targeted inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26360609"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7918,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Farydak (panobinostat) treatment of rhabdoid cancer cell lines in culture resulted in cell cycle arrest and cell differentiation and in cell line xenograft models, inhibition of tumor growth and a decrease in tumor size (PMID: 26920892).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 1080,
+                "therapyName": "Panobinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 6525,
+                    "pubMedId": 26920892,
+                    "title": "Low-Dose Histone Deacetylase Inhibitor Treatment Leads to Tumor Growth Arrest and Multi-Lineage Differentiation of Malignant Rhabdoid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26920892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11057,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Kisqali (ribociclib) treatment demonstrated safety and resulted in stable disease in 28% (9/32) of pediatric patients with neuroblastoma or malignant rhabdoid tumor (MRT) (7 patients with neuroblastoma and 2 with CNS primary MRT), and 5 patients demonstrated stable disease for greater than 6 months (PMID: 28432176).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 790,
+                "therapyName": "Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 9051,
+                    "pubMedId": 28432176,
+                    "title": "A Phase I Study of the CDK4/6 Inhibitor Ribociclib (LEE011) in Pediatric Patients with Malignant Rhabdoid Tumors, Neuroblastoma, and Other Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28432176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19613,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Tazemetostat (EPZ-6438) demonstrated safety and preliminary efficacy, resulted in a durable complete response lasting over 2.3 years in a patient with SMARCB1-negative malignant rhabdoid tumor (PMID: 29650362; NCT01897571).",
+            "molecularProfile": {
+                "id": 2085,
+                "profileName": "SMARCB1 negative"
+            },
+            "therapy": {
+                "id": 2683,
+                "therapyName": "Tazemetostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17176,
+                    "pubMedId": 29650362,
+                    "title": "Tazemetostat, an EZH2 inhibitor, in relapsed or refractory B-cell non-Hodgkin lymphoma and advanced solid tumours: a first-in-human, open-label, phase 1 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29650362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19614,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Tazemetostat (EPZ-6438) demonstrated safety and preliminary efficacy, resulted in 1 partial response and 1 durable stable disease in patient with SMARCA4-negative malignant rhabdoid tumor of the ovary (PMID: 29650362; NCT01897571).",
+            "molecularProfile": {
+                "id": 34284,
+                "profileName": "SMARCA4 negative"
+            },
+            "therapy": {
+                "id": 2683,
+                "therapyName": "Tazemetostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17176,
+                    "pubMedId": 29650362,
+                    "title": "Tazemetostat, an EZH2 inhibitor, in relapsed or refractory B-cell non-Hodgkin lymphoma and advanced solid tumours: a first-in-human, open-label, phase 1 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29650362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20074,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "SMARCB1 inactivating mutations aid the diagnosis of extrarenal rhabdoid tumor (NCCN.org).",
+            "molecularProfile": {
+                "id": 26056,
+                "profileName": "SMARCB1 inact mut"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3672,
+                "name": "rhabdoid cancer",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00089245",
+            "title": "Radiolabeled Monoclonal Antibody Therapy in Treating Patients With Refractory, Recurrent, or Advanced CNS or Leptomeningeal Cancer",
+            "phase": "Phase I",
+            "recruitment": "Unknown status",
+            "therapies": [
+                {
+                    "id": 7169,
+                    "therapyName": "Omburtamab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01331135",
+            "title": "Aflac ST0901 CHOANOME - Sirolimus in Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 917,
+                    "therapyName": "Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01747876",
+            "title": "Study of Safety and Efficacy in Patients With Malignant Rhabdoid Tumors (MRT) and Neuroblastoma",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 790,
+                    "therapyName": "Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02114229",
+            "title": "Phase 2 Study of Alisertib Therapy for Rhabdoid Tumors (SJATRT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2449,
+                    "therapyName": "Cisplatin + Cyclophosphamide + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 626,
+                    "therapyName": "Alisertib",
+                    "synonyms": null
+                },
+                {
+                    "id": 8269,
+                    "therapyName": "Alisertib + Carboplatin + Cyclophosphamide + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2590,
+                    "therapyName": "Cyclophosphamide + Topotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 8270,
+                    "therapyName": "Alisertib + Carboplatin + Cyclophosphamide + Etoposide",
+                    "synonyms": null
+                },
+                {
+                    "id": 8267,
+                    "therapyName": "Carboplatin + Cyclophosphamide + Methotrexate + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 8268,
+                    "therapyName": "Alisertib + Cisplatin + Cyclophosphamide + Vincristine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02601937",
+            "title": "A Phase 1 Study of the EZH2 Inhibitor Tazemetostat in Pediatric Subjects With Relapsed or Refractory INI1-Negative Tumors or Synovial Sarcoma",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02601950",
+            "title": "A Phase II, Multicenter Study of the EZH2 Inhibitor Tazemetostat in Adult Subjects With INI1-Negative Tumors or Relapsed/Refractory Synovial Sarcoma",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2683,
+                    "therapyName": "Tazemetostat",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02639546",
+            "title": "Safety and Pharmacokinetics of Cobimetinib in Pediatric and Young Adult Participants With Previously Treated Solid Tumors (iMATRIXcobi)",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1004,
+                    "therapyName": "Cobimetinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02644460",
+            "title": "Abemaciclib in Children With DIPG or Recurrent/Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03654716",
+            "title": "Phase 1 Study of the Dual MDM2/MDMX Inhibitor ALRN-6924 in Pediatric Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4755,
+                    "therapyName": "ALRN-6924 + Cytarabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2273,
+                    "therapyName": "ALRN-6924",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03698994",
+            "title": "Ulixertinib in Treating Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With MAPK Pathway Mutations (A Pediatric MATCH Treatment Trial)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 997,
+                    "therapyName": "Ulixertinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03709680",
+            "title": "Study Of Palbociclib Combined With Chemotherapy In Pediatric Patients With Recurrent/Refractory Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 8371,
+                    "therapyName": "Irinotecan + Palbociclib + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

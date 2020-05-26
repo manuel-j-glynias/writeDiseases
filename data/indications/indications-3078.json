@@ -1,0 +1,240 @@
+{
+    "id": 3078,
+    "name": "grade III astrocytoma",
+    "source": "DOID",
+    "definition": "An astrocytoma that is characterized by cells with regular, round to oval nuclei. [url:http\\://en.wikipedia.org/wiki/Anaplastic_astrocytoma, url:http\\://www.abta.org/brain-tumor-information/types-of-tumors/astrocytoma.html, url:http\\://www.cancer.gov/dictionary?CdrID=45591]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3078",
+    "evidence": [
+        {
+            "id": 849,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, long-term treatment with Vidaza (azacitidine) resulted in increased cellular differentiation, decreased proliferation, and tumor regression in a patient-derived xenograft (PDX) model of anaplastic astrocytoma harboring IDH1 R132H (PMID: 24077805).",
+            "molecularProfile": {
+                "id": 1253,
+                "profileName": "IDH1 R132H"
+            },
+            "therapy": {
+                "id": 651,
+                "therapyName": "Azacitidine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3078,
+                "name": "grade III astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 493,
+                    "pubMedId": 24077805,
+                    "title": "5-azacytidine reduces methylation, promotes differentiation and induces tumor regression in a patient-derived IDH1 mutant glioma xenograft.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24077805"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13380,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "IDH1 mutations aid in the diagnosis of grade III astrocytomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 1781,
+                "profileName": "IDH1 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3078,
+                "name": "grade III astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13390,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "IDH2 mutations aid in the diagnosis of grade III astrocytomas (NCCN.org).",
+            "molecularProfile": {
+                "id": 5912,
+                "profileName": "IDH2 mutant"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3078,
+                "name": "grade III astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19915,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Trabedersen (AP 12009) treatment in patients with recurrent or refractory high-grade glioma (including grade IV glioblastoma multiforme or grade III astrocytoma) resulted in responses in 19 (3 complete and 16 partial responses) and stable disease for at least 6 months in 7 of 77 patients in the efficacy population, and a median progression-free survival of 86 days and median overall survival of 432 days (PMID: 31795071; NCT00431561).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2705,
+                "therapyName": "Trabedersen",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3078,
+                "name": "grade III astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 17587,
+                    "pubMedId": 31795071,
+                    "title": "Recurrent or Refractory High-Grade Gliomas Treated by Convection-Enhanced Delivery of a TGF\u03b22-Targeting RNA Therapeutic: A Post-Hoc Analysis with Long-Term Follow-Up.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31795071"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02052778",
+            "title": "A Study of TAS-120 in Patients With Advanced Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1053,
+                    "therapyName": "Futibatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02800486",
+            "title": "Super Selective Intra-arterial Repeated Infusion of Cetuximab (Erbitux) With Reirradiation for Treatment of Relapsed/Refractory GBM, AA, and AOA",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 694,
+                    "therapyName": "Cetuximab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03128047",
+            "title": "HUMC 1612: Optune NovoTTF-200A System",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2115,
+                    "therapyName": "Bevacizumab + Temozolomide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03657576",
+            "title": "Trial of C134 in Patients With Recurrent GBM (C134-HSV-1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9748,
+                    "therapyName": "C134-HSV-1",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03893487",
+            "title": "Fimepinostat in Treating Brain Tumors in Children and Young Adults (PNOC016)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 709,
+                    "therapyName": "CUDC-907",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03973918",
+            "title": "Study of Binimetinib With Encorafenib in Adults With Recurrent BRAF V600-Mutated HGG (BRAF)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1100,
+                    "therapyName": "Binimetinib + Encorafenib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04254419",
+            "title": "Intra-tumoral Injection of Natural Killer Cells in High-Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT04295759",
+            "title": "INCB7839 in Treating Children With Recurrent/Progressive High-Grade Gliomas",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 6876,
+                    "therapyName": "INCB7839",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

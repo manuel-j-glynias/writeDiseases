@@ -1,0 +1,48 @@
+{
+    "id": 4878,
+    "name": "esophageal adenoid cystic carcinoma",
+    "source": "DOID",
+    "definition": "An esophageal carcinoma that derives_from epithelial cells of the salivary gland. [url:http\\://en.wikipedia.org/wiki/Adenoid_cystic_carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4878",
+    "evidence": [
+        {
+            "id": 11800,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, esophageal cancer cells with MYC amplification demonstrated sensitivity to Imbruvica (ibrutinib), resulting in reduced MYC expression, cell-cycle arrest, and decreased survival in culture (PMID: 28830912).",
+            "molecularProfile": {
+                "id": 1426,
+                "profileName": "MYC amp"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4878,
+                "name": "esophageal adenoid cystic carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9793,
+                    "pubMedId": 28830912,
+                    "title": "Mapping genetic vulnerabilities reveals BTK as a novel therapeutic target in oesophageal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28830912"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        
+    ]
+}

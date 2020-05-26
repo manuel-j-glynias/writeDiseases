@@ -1,0 +1,630 @@
+{
+    "id": 4007,
+    "name": "bladder carcinoma",
+    "source": "DOID",
+    "definition": "A urinary bladder cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells. [url:https\\://www.mayoclinic.org/diseases-conditions/bladder-cancer/symptoms-causes/syc-20356104]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4007",
+    "evidence": [
+        {
+            "id": 717,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "A retrospective study of a Phase II trial correlated increased sensitivity to the mTOR inhibitor Afinitor (everolimus) with TSC1 mutations in bladder cancer patients, including one patient harboring TSC1 E636fs* who had a durable complete response (PMID: 22923433).",
+            "molecularProfile": {
+                "id": 1002,
+                "profileName": "TSC1 E636fs"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 431,
+                    "pubMedId": 22923433,
+                    "title": "Genome sequencing identifies a basis for everolimus sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22923433"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 1035,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R3Mab decreased wild-type FGFR3 activation, thereby inhibited cell proliferation of FGFR3 wild-type human bladder cancer cells in culture and in cell line xenograft models (PMID: 19381019).",
+            "molecularProfile": {
+                "id": 544,
+                "profileName": "FGFR3 wild-type"
+            },
+            "therapy": {
+                "id": 1465,
+                "therapyName": "R3Mab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 742,
+                    "pubMedId": 19381019,
+                    "title": "Antibody-based targeting of FGFR3 in bladder carcinoma and t(4;14)-positive multiple myeloma in mice.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19381019"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1036,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, R3Mab decreased dimer formation and constitutive activation of FGFR3 S249C, and inhibited growth of bladder cancer cell lines harboring FGFR3 S249C in culture and in xenograft models (PMID: 19381019).",
+            "molecularProfile": {
+                "id": 1736,
+                "profileName": "FGFR3 S249C"
+            },
+            "therapy": {
+                "id": 1465,
+                "therapyName": "R3Mab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 742,
+                    "pubMedId": 19381019,
+                    "title": "Antibody-based targeting of FGFR3 in bladder carcinoma and t(4;14)-positive multiple myeloma in mice.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19381019"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1247,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "A retrospective study of a Phase II trial correlated increased sensitivity to the mTOR inhibitor Afinitor (everolimus) with TSC1 mutations in bladder cancer patients (PMID: 22923433).",
+            "molecularProfile": {
+                "id": 1244,
+                "profileName": "TSC1 mutant"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 431,
+                    "pubMedId": 22923433,
+                    "title": "Genome sequencing identifies a basis for everolimus sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22923433"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 2466,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human bladder cancer cell line over expressing EHMT2 was sensitive to BIX-01294 as demonstrated by suppression of cell growth (PMID: 21847359).",
+            "molecularProfile": {
+                "id": 8035,
+                "profileName": "EHMT2 over exp"
+            },
+            "therapy": {
+                "id": 2862,
+                "therapyName": "BIX-01294",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3123,
+                    "pubMedId": 21847359,
+                    "title": "Enhanced expression of EHMT2 is involved in the proliferation of cancer cells through negative regulation of SIAH1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21847359"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3830,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY1125976 inhibited Akt activation and downstream signaling in bladder cancer cell lines carrying both Akt1 E17K and Nras Q61R mutations (AACR; Cancer Res 2014;74(19 Suppl):Abstract nr 3685).",
+            "molecularProfile": {
+                "id": 16525,
+                "profileName": "AKT1 E17K NRAS Q61R"
+            },
+            "therapy": {
+                "id": 994,
+                "therapyName": "BAY1125976",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2275,
+                    "pubMedId": null,
+                    "title": "Abstract 3685: BAY 1125976, is a selective allosteric AKT1/2 inhibitor with high efficacy in AKT1-mutated cancers",
+                    "url": "http://cancerres.aacrjournals.org/content/74/19_Supplement/3685"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3912,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AR-42 synergized with cisplatin to induce apoptosis of bladder cancer cells in xenograft models (PMID: 25748177).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 3400,
+                "therapyName": "AR-42 + Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 4290,
+                    "pubMedId": 25748177,
+                    "title": "Synergy of Histone-Deacetylase Inhibitor AR-42 with Cisplatin in Bladder Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25748177"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9606,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knockdown of MST1R (RON) increased sensitivity of a bladder carcinoma cell line to Adriamycin (doxirubicin) under hypoxia in culture, resulting in decreased cell survival (PMID: 26772202).",
+            "molecularProfile": {
+                "id": 26918,
+                "profileName": "MST1R dec exp"
+            },
+            "therapy": {
+                "id": 1009,
+                "therapyName": "Doxorubicin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7317,
+                    "pubMedId": 26772202,
+                    "title": "RON Nuclear Translocation under Hypoxia Potentiates Chemoresistance to DNA Double-Strand Break-Inducing Anticancer Drugs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26772202"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9607,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knockdown of MST1R (RON) increased sensitivity of a bladder carcinoma cell line to Ellence (epirubicin) under hypoxia in culture, resulting in decreased cell survival (PMID: 26772202).",
+            "molecularProfile": {
+                "id": 26918,
+                "profileName": "MST1R dec exp"
+            },
+            "therapy": {
+                "id": 1013,
+                "therapyName": "Epirubicin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7317,
+                    "pubMedId": 26772202,
+                    "title": "RON Nuclear Translocation under Hypoxia Potentiates Chemoresistance to DNA Double-Strand Break-Inducing Anticancer Drugs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26772202"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9780,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bladder carcinoma cells expressing HRAS Q61L demonstrated sensitivity to NS1, resulting in inhibition of Mapk signaling and cell proliferation in culture (PMID: 27820802).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 5228,
+                "therapyName": "NS1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7600,
+                    "pubMedId": 27820802,
+                    "title": "Inhibition of RAS function through targeting an allosteric regulatory site.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27820802"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12332,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Glesatinib (MGCD265) treatment resulted in only partial growth inhibition in cell line xenograft models of MET wild-type urinary bladder carcinoma (PMID: 28765324).",
+            "molecularProfile": {
+                "id": 587,
+                "profileName": "MET wild-type"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9757,
+                    "pubMedId": 28765324,
+                    "title": "Glesatinib Exhibits Antitumor Activity in Lung Cancer Models and Patients Harboring MET Exon 14 Mutations and Overcomes Mutation-mediated Resistance to Type I MET Inhibitors in Nonclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765324"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18460,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEN1309 reduced tumor volume in a cell line xenograft model of LY75-positive bladder carcinoma and in patient-derived xenograft (PDX) models with heterogeneous LY75 expression (PMID: 31227646).",
+            "molecularProfile": {
+                "id": 33235,
+                "profileName": "LY75 positive"
+            },
+            "therapy": {
+                "id": 8717,
+                "therapyName": "MEN1309",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16207,
+                    "pubMedId": 31227646,
+                    "title": "MEN1309/OBT076, a First-In-Class Antibody-Drug Conjugate Targeting CD205 in Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31227646"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00942331",
+            "title": "Gemcitabine Hydrochloride and Cisplatin With or Without Bevacizumab in Treating Patients With Advanced Urinary Tract Cancer",
+            "phase": "Phase III",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1295,
+                    "therapyName": "Bevacizumab + Cisplatin + Gemcitabine",
+                    "synonyms": null
+                },
+                {
+                    "id": 1467,
+                    "therapyName": "Cisplatin + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01259063",
+            "title": "RAD001 and Intravesical Gemcitabine in BCG-Refractory Primary or Secondary Carcinoma In Situ of the Bladder",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2279,
+                    "therapyName": "Everolimus + Gemcitabine",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01366144",
+            "title": "Veliparib, Paclitaxel, and Carboplatin in Treating Patients With Solid Tumors That Are Metastatic or Cannot Be Removed by Surgery and Liver or Kidney Dysfunction",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1103,
+                    "therapyName": "Paclitaxel",
+                    "synonyms": null
+                },
+                {
+                    "id": 954,
+                    "therapyName": "Veliparib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1092,
+                    "therapyName": "Carboplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01391143",
+            "title": "Safety Study of MGA271 in Refractory Cancer",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2863,
+                    "therapyName": "MGA271",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01438112",
+            "title": "Efficacy Study of Recombinant Adenovirus for Non Muscle Invasive Bladder Cancer",
+            "phase": null,
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 2524,
+                    "therapyName": "Gemcitabine + interferon gamma + Mitomycin C + Valrubicin",
+                    "synonyms": null
+                },
+                {
+                    "id": 2523,
+                    "therapyName": "CG0070",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01688999",
+            "title": "Cabozantinib for Advanced Urothelial Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 998,
+                    "therapyName": "Cabozantinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01938573",
+            "title": "Sirolimus, Cisplatin, and Gemcitabine Hydrochloride in Treating Patients With Bladder Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2289,
+                    "therapyName": "Cisplatin + Gemcitabine + Sirolimus",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02169284",
+            "title": "Erlotinib Hydrochloride in Treating Patients With Bladder Cancer Undergoing Surgery",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 4,
+                    "therapyName": "Erlotinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02432963",
+            "title": "Vaccine Therapy and Pembrolizumab in Treating Patients With Solid Tumors That Have Failed Prior Therapy",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 5547,
+                    "therapyName": "MVAp53 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02444793",
+            "title": "A Study of PF-05082566 In Combination With Mogamulizumab In Patients With Advanced Solid Tumors",
+            "phase": "Phase I",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 6332,
+                    "therapyName": "Mogamulizumab + Utomilumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02636036",
+            "title": "Study of Enadenotucirev and Pembrolizumab in Subjects With Metastatic or Advanced Epithelial Tumors",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 3620,
+                    "therapyName": "Enadenotucirev + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02723955",
+            "title": "Dose Escalation and Expansion Study of GSK3359609 in Subjects With Selected Advanced Solid Tumors (INDUCE-1)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 4409,
+                    "therapyName": "GSK3359609",
+                    "synonyms": null
+                },
+                {
+                    "id": 4410,
+                    "therapyName": "GSK3359609 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03171025",
+            "title": "Adjuvant Nivolumab Following Chemo-Radiation in Localized Muscle-Invasive Bladder Cancer (NEXT)",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1312,
+                    "therapyName": "Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03319745",
+            "title": "A Window of Opportunity Study of Pembrolizumab in Patients With Bladder Cancer Undergoing Radical Cystectomy",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03430895",
+            "title": "Evaluating Immune Therapy, Durvalumab (MEDI4736) With Tremelimumab for Metastatic, Non-transitional Cell Carcinoma of the Urinary Tract",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2439,
+                    "therapyName": "Durvalumab + Tremelimumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03693014",
+            "title": "A Study of Several Radiation Doses for Patients With Progression on Immunotherapy/Checkpoint Inhibitors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                
+            ]
+        },
+        {
+            "nctId": "NCT04054752",
+            "title": "Vaccine Response With NT-I7",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9320,
+                    "therapyName": "NT-I7",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

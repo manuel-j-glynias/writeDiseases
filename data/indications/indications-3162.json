@@ -1,0 +1,184 @@
+{
+    "id": 3162,
+    "name": "malignant spindle cell melanoma",
+    "source": "DOID",
+    "definition": "A melanoma that is composed of spindled neoplastic cells arranged in sheets and fascicles. [url:https\\://www.ncbi.nlm.nih.gov/pmc/articles/PMC6144801/]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:3162",
+    "evidence": [
+        {
+            "id": 6294,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RG7386 treatment of malignant spindle cell melanoma cell line xenograft models positive for Fap resulted in tumor growth inhibition (PMID: 27037412).",
+            "molecularProfile": {
+                "id": 23089,
+                "profileName": "FAP positive"
+            },
+            "therapy": {
+                "id": 4110,
+                "therapyName": "RG7386",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3162,
+                "name": "malignant spindle cell melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5521,
+                    "pubMedId": 27037412,
+                    "title": "RG7386, a Novel Tetravalent FAP-DR5 Antibody, Effectively Triggers FAP-Dependent, Avidity-Driven DR5 Hyperclustering and Tumor Cell Apoptosis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27037412"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12788,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, PD-1 blockade therapies including Keytruda (pembrolizumab), Opdivo (nivolumab), and BMS-936559 (alone or in combination) resulted in complete response in 32% (19/60), and partial response in 38% (23/60) of malignant spindle cell melanoma patients, whose tumors contained a high percentage of CD274-positive cells (PMID: 29320474).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3162,
+                "name": "malignant spindle cell melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10715,
+                    "pubMedId": 29320474,
+                    "title": "High response rate to PD-1 blockade in desmoplastic melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320474"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12789,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, PD-1 blockade therapies including Keytruda (pembrolizumab), Opdivo (nivolumab), and BMS-936559 (alone or in combination) resulted in complete response in 32% (19/60), and partial response in 38% (23/60) of malignant spindle cell melanoma patients, whose tumors contained a high percentage of CD274-positive cells (PMID: 29320474).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3162,
+                "name": "malignant spindle cell melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10715,
+                    "pubMedId": 29320474,
+                    "title": "High response rate to PD-1 blockade in desmoplastic melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320474"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12790,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, PD-1 blockade therapies including Keytruda (pembrolizumab), Opdivo (nivolumab), and BMS-936559 (alone or in combination) resulted in complete response in 32% (19/60), and partial response in 38% (23/60) of malignant spindle cell melanoma patients, whose tumors contained a high percentage of CD274-positive cells (PMID: 29320474).",
+            "molecularProfile": {
+                "id": 4746,
+                "profileName": "CD274 positive"
+            },
+            "therapy": {
+                "id": 3339,
+                "therapyName": "BMS-936559",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3162,
+                "name": "malignant spindle cell melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10715,
+                    "pubMedId": 29320474,
+                    "title": "High response rate to PD-1 blockade in desmoplastic melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320474"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16376,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, treatment with Mekinist (trametinib) resulted in some decrease in lesion size and number in a patient with spitzoid melanoma harboring MAP3K8-GNG2, however, the patient experienced cardiotoxicity and efficacy did not continue, and Mekinist (trametinib) therapy was discontinued (PMID: 30833747).",
+            "molecularProfile": {
+                "id": 31617,
+                "profileName": "MAP3K8 - GNG2"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3162,
+                "name": "malignant spindle cell melanoma",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 14474,
+                    "pubMedId": 30833747,
+                    "title": "Clinical genome sequencing uncovers potentially targetable truncations and fusions of MAP3K8 in spitzoid and other melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30833747"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02775851",
+            "title": "Pembrolizumab in Treating Patients With Desmoplastic Melanoma That Can or Cannot Be Removed by Surgery",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1447,
+                    "therapyName": "Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

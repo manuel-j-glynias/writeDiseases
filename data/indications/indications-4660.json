@@ -1,0 +1,60 @@
+{
+    "id": 4660,
+    "name": "indolent systemic mastocytosis",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4660",
+    "evidence": [
+        {
+            "id": 12314,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, BLU-285 treatment reduced bone marrow mast cell infiltration in a patient with systemic mastocytosis (PMID: 29093181; NCT02561988).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4660,
+                "name": "indolent systemic mastocytosis",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10301,
+                    "pubMedId": 29093181,
+                    "title": "A precision therapy against cancers driven by KIT/PDGFRA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29093181"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT03731260",
+            "title": "(PIONEER) Study to Evaluate Efficacy and Safety of Avapritinib (BLU-285), A Selective KIT Mutation-targeted Tyrosine Kinase Inhibitor, Versus Placebo in Patients With Indolent and Smoldering Systemic Mastocytosis",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2941,
+                    "therapyName": "Avapritinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "id": 4159,
+    "name": "skin cancer",
+    "source": "DOID",
+    "definition": "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells. [url:http\\://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0002414/]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4159",
+    "evidence": [
+        {
+            "id": 2104,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a skin cancer cell line harboring mutations in PTEN and TP53 demonstrated sensitivity to Sapanisertib (MLN0128) in culture (PMID: 25261369).",
+            "molecularProfile": {
+                "id": 5387,
+                "profileName": "PTEN mut TP53 mut"
+            },
+            "therapy": {
+                "id": 1282,
+                "therapyName": "Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4159,
+                "name": "skin cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2380,
+                    "pubMedId": 25261369,
+                    "title": "Catalytic mTOR inhibitors can overcome intrinsic and acquired resistance to allosteric mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25261369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2106,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a skin cancer cell line harboring mutations in PTEN, RB1, SMAD4 and TP53 demonstrated sensitivity to Sapanisertib (MLN0128) in culture (PMID: 25261369).",
+            "molecularProfile": {
+                "id": 5389,
+                "profileName": "PTEN mut RB1 mut SMAD4 mut TP53 mut"
+            },
+            "therapy": {
+                "id": 1282,
+                "therapyName": "Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4159,
+                "name": "skin cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2380,
+                    "pubMedId": 25261369,
+                    "title": "Catalytic mTOR inhibitors can overcome intrinsic and acquired resistance to allosteric mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25261369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14098,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, topical application of BDP9066 decreased Cdc42bpa (MRCKa) phosphorylation and reduced tumor volume in animal models of chemical induced skin cancer that demonstrated elevated Cdc42bpa and Cdc42bpb expression and activation (PMID: 29382705).",
+            "molecularProfile": {
+                "id": 29948,
+                "profileName": "CDC42BPA over exp CDC42BPB over exp"
+            },
+            "therapy": {
+                "id": 7023,
+                "therapyName": "BDP9066",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4159,
+                "name": "skin cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11455,
+                    "pubMedId": 29382705,
+                    "title": "Discovery of Potent and Selective MRCK Inhibitors with Therapeutic Effect on Skin Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29382705"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02423863",
+            "title": "In Situ, Autologous Therapeutic Vaccination Against Solid Cancers With Intratumoral Hiltonol",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 2595,
+                    "therapyName": "Poly ICLC",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03767348",
+            "title": "Study of RP1 Monotherapy and RP1 in Combination With Nivolumab",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7820,
+                    "therapyName": "Nivolumab + RP1",
+                    "synonyms": null
+                },
+                {
+                    "id": 7819,
+                    "therapyName": "RP1",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

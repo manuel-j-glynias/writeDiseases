@@ -1,0 +1,448 @@
+{
+    "id": 60077,
+    "name": "progesterone-receptor positive breast cancer",
+    "source": "DOID",
+    "definition": "A breast cancer that is characterized by the presence of progesterone receptors. [url:https\\://www.cancer.org/cancer/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-hormone-receptor-status.html, url:https\\://www.ncbi.nlm.nih.gov/pubmed/25471040]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:0060077",
+    "evidence": [
+        {
+            "id": 1587,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Onapristone (ZK299) demonstrated safety and was well-tolerated in female patients with Pgr positive endometrial, ovarian, and breast cancer (AACR; Cancer Res 2015;75(15 Suppl):Abstract nr 4512).",
+            "molecularProfile": {
+                "id": 1856,
+                "profileName": "PGR positive"
+            },
+            "therapy": {
+                "id": 1886,
+                "therapyName": "Onapristone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60077,
+                "name": "progesterone-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3583,
+                    "pubMedId": null,
+                    "title": "Onapristone in patients (pts) with progesterone receptor (PR)-expressing cancers: PK results from part 1 of a randomized, parallel-dose phase 1 study",
+                    "url": "http://cancerres.aacrjournals.org/content/75/15_Supplement/4512.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4578,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, combination treatment of Buparlisib (BKM120) and Falsodex (fulvestrant) resulted in improved progression-free survival (6.9 months) in hormone receptor-positive breast cancer patients compared to Falsodex (fulvestrant) treatment alone (5.0 months) (PMID: 26681740).",
+            "molecularProfile": {
+                "id": 1856,
+                "profileName": "PGR positive"
+            },
+            "therapy": {
+                "id": 1546,
+                "therapyName": "Buparlisib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60077,
+                "name": "progesterone-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4620,
+                    "pubMedId": 26681740,
+                    "title": "PI3K Inhibitor Improves PFS in BELLE-2 Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26681740"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4580,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, combination treatment of Buparlisib (BKM120) and Falsodex (fulvestrant) resulted in improved progression-free survival (7.0 months) in hormone receptor-positive breast cancer patients harboring PIK3CA mutations compared to Falsodex (fulvestrant) treatment alone (3.2 months) (PMID: 26681740).",
+            "molecularProfile": {
+                "id": 32749,
+                "profileName": "PGR pos PIK3CA mut"
+            },
+            "therapy": {
+                "id": 1546,
+                "therapyName": "Buparlisib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60077,
+                "name": "progesterone-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4620,
+                    "pubMedId": 26681740,
+                    "title": "PI3K Inhibitor Improves PFS in BELLE-2 Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26681740"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 11224,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, Abemaciclib (LY2835219) and Faslodex (fulvestrant) combination therapy resulted in improved median progression free survival (16.4 vs 9.3 months) and overall response rate (48.1% vs 21.3%) compared to placebo in patients with treatment refractory hormone receptor positive, Erbb2 (Her2) negative breast cancer (PMID: 28580882).",
+            "molecularProfile": {
+                "id": 27930,
+                "profileName": "ERBB2 neg PGR pos"
+            },
+            "therapy": {
+                "id": 5859,
+                "therapyName": "Abemaciclib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60077,
+                "name": "progesterone-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9173,
+                    "pubMedId": 28580882,
+                    "title": "MONARCH 2: Abemaciclib in Combination With Fulvestrant in Women With HR+/HER2- Advanced Breast Cancer Who Had Progressed While Receiving Endocrine Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28580882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12842,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial that supported FDA approval, treatment with the combination of Tykerb (lapatinib) and Femara (letrozole) resulted in an improved median progression-free survival of 8.2 months compared to 3.0 months with Femara (letrozole) plus placebo in patients with hormone receptor-positive metastatic breast cancer that is also ERBB2 (HER2)-positive (defined as FISH positive, IHC 3+, or FISH pos and IHC 2+) (PMID: 19786658; NCT00073528).",
+            "molecularProfile": {
+                "id": 28937,
+                "profileName": "ERBB2 over exp PGR pos"
+            },
+            "therapy": {
+                "id": 1497,
+                "therapyName": "Lapatinib + Letrozole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60077,
+                "name": "progesterone-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2500,
+                    "pubMedId": 19786658,
+                    "title": "Lapatinib combined with letrozole versus letrozole and placebo as first-line therapy for postmenopausal hormone receptor-positive metastatic breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19786658"
+                },
+                {
+                    "id": 15539,
+                    "pubMedId": null,
+                    "title": "Tykerb (lapatinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022059"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13886,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ATAC) that supported FDA approval, Arimidex (anastrozole) treatment resulted in prolonged disease-free survival (HR=0.87, p=0.01) and time-to-recurrence (HR=0.79, p=0.0005), and decreased distant metastases (HR=0.86, p=0.04) and contralateral breast cancers (42% reduction, p=0.01) compared to Nolvadex (tamoxifen) in patients with hormone receptor-positive breast cancer (PMID: 15639680).",
+            "molecularProfile": {
+                "id": 1856,
+                "profileName": "PGR positive"
+            },
+            "therapy": {
+                "id": 633,
+                "therapyName": "Anastrozole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60077,
+                "name": "progesterone-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11329,
+                    "pubMedId": 15639680,
+                    "title": "Results of the ATAC (Arimidex, Tamoxifen, Alone or in Combination) trial after completion of 5 years' adjuvant treatment for breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15639680"
+                },
+                {
+                    "id": 15551,
+                    "pubMedId": null,
+                    "title": "Arimidex (anastrozole) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020541"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18084,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, combination of Afinitor (everolimus) and hormone therapy resulted in improved median progression-free survival (8.8 vs 4.1 months, p=0.02) in patients with hormone receptor-positive metastatic breast cancer harboring PIK3CA H1047R (n=6) compared to patients without PIK3CA H1047R (n=10) (PMID: 31088410).",
+            "molecularProfile": {
+                "id": 1731,
+                "profileName": "PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60077,
+                "name": "progesterone-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15992,
+                    "pubMedId": 31088410,
+                    "title": "Everolimus in hormone receptor-positive metastatic breast cancer: PIK3CA mutation H1047R was a potential efficacy biomarker in a retrospective study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31088410"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT00570323",
+            "title": "Arimidex With or Without Faslodex In Postmenopausal Women With HR Positive Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1911,
+                    "therapyName": "Anastrozole + Fulvestrant",
+                    "synonyms": null
+                },
+                {
+                    "id": 633,
+                    "therapyName": "Anastrozole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT00759642",
+            "title": "Lapatinib in Women With Metastatic Breast Cancer Who Have Failed Prior Antihormone Therapy",
+            "phase": "Phase II",
+            "recruitment": "Terminated",
+            "therapies": [
+                {
+                    "id": 787,
+                    "therapyName": "Lapatinib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01177397",
+            "title": "Study to Assess Safety, Pharmacokinetics, and Efficacy of Oral CC-223 for Patients With Advanced Solid Tumors, Non-Hodgkin Lymphoma or Multiple Myeloma",
+            "phase": "Phase Ib/II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 693,
+                    "therapyName": "CC-223",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01857193",
+            "title": "Phase Ib Trial of LEE011 With Everolimus (RAD001) and Exemestane in the Treatment of Hormone Receptor Positive HER2 Negative Advanced Breast Cancer",
+            "phase": "Phase Ib/II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2265,
+                    "therapyName": "Everolimus + Exemestane + Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2266,
+                    "therapyName": "Exemestane + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01872260",
+            "title": "Study of LEE011, BYL719 and Letrozole in Advanced ER+ Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 1553,
+                    "therapyName": "Alpelisib + Letrozole",
+                    "synonyms": null
+                },
+                {
+                    "id": 1569,
+                    "therapyName": "Alpelisib + Letrozole + Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1568,
+                    "therapyName": "Letrozole + Ribociclib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT01990209",
+            "title": "Orteronel as Monotherapy in Patients With Metastatic Breast Cancer (MBC) That Expresses the Androgen Receptor (AR)",
+            "phase": "Phase II",
+            "recruitment": "Active, not recruiting",
+            "therapies": [
+                {
+                    "id": 2671,
+                    "therapyName": "Orteronel",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT03330405",
+            "title": "Javelin Parp Medley: Avelumab Plus Talazoparib In Locally Advanced Or Metastatic Solid Tumors",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 6436,
+                    "therapyName": "Avelumab + Talazoparib",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04054752",
+            "title": "Vaccine Response With NT-I7",
+            "phase": "Phase I",
+            "recruitment": "Not yet recruiting",
+            "therapies": [
+                {
+                    "id": 9320,
+                    "therapyName": "NT-I7",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04197999",
+            "title": "A Study to Determine Safety and Tolerability of GMI-1359 in Subjects With HR+ Metastatic Breast Cancer",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 7217,
+                    "therapyName": "GMI-1359",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04256941",
+            "title": "Aromatase Inhibitor Therapy With or Without Fulvestrant for the Treatment of HR Positive Metastatic Breast Cancer With an ERS1 Activating Mutation, the INTERACT Study",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5859,
+                    "therapyName": "Abemaciclib + Fulvestrant",
+                    "synonyms": null
+                },
+                {
+                    "id": 3205,
+                    "therapyName": "Fulvestrant + Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2922,
+                    "therapyName": "Letrozole + Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2316,
+                    "therapyName": "Fulvestrant + Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2254,
+                    "therapyName": "Abemaciclib + Letrozole",
+                    "synonyms": null
+                },
+                {
+                    "id": 4974,
+                    "therapyName": "Anastrozole + Palbociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 7166,
+                    "therapyName": "Anastrozole + Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1568,
+                    "therapyName": "Letrozole + Ribociclib",
+                    "synonyms": null
+                },
+                {
+                    "id": 2255,
+                    "therapyName": "Abemaciclib + Anastrozole",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT04305834",
+            "title": "Abemaciclib Monotherapy in Treating Older Patients With Hormone Receptor Positive Metastatic Breast Cancer",
+            "phase": "Phase II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 802,
+                    "therapyName": "Abemaciclib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "id": 11239,
+    "name": "appendix cancer",
+    "source": "DOID",
+    "definition": "A intestinal cancer that is located_in the appendix. [url:http\\://en.wikipedia.org/wiki/Vermiform_appendix]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:11239",
+    "evidence": [
+        {
+            "id": 13864,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, M7824 saturated peripheral CD274 (PD-L1) and sequestered plasma TGFbeta 1/2/3, resulted in sttable disease in a patient with appendix cancer (PMID: 29298798; NCT02517398).",
+            "molecularProfile": {
+                "id": 28058,
+                "profileName": "CD274 pos TGFB1 pos"
+            },
+            "therapy": {
+                "id": 5860,
+                "therapyName": "M7824",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11239,
+                "name": "appendix cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11321,
+                    "pubMedId": 29298798,
+                    "title": "Phase I Trial of M7824 (MSB0011359C), a Bifunctional Fusion Protein Targeting PD-L1 and TGF\u03b2, in Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29298798"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14365,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Vitrakvi (larotrectinib) treatment resulted in stable disease in a patient with appendix cancer harboring NTRK1 fusions (PMID: 29466156, Annals of Oncology, Volume 29, Issue suppl_5; NCT02122913, NCT02637687, and NCT02576431).",
+            "molecularProfile": {
+                "id": 2904,
+                "profileName": "NTRK1 fusion"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11239,
+                "name": "appendix cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                },
+                {
+                    "id": 11608,
+                    "pubMedId": null,
+                    "title": "Activity of larotrectinib in patients with TRK fusion GI malignancies",
+                    "url": "https://academic.oup.com/annonc/article/29/suppl_5/mdy149.019/5039356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01580410",
+            "title": "Surgery and Oxaliplatin or Mitomycin C in Treating Patients With Tumors of the Appendix",
+            "phase": "Phase II",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 1133,
+                    "therapyName": "Mitomycin C",
+                    "synonyms": null
+                },
+                {
+                    "id": 1104,
+                    "therapyName": "Oxaliplatin",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02972034",
+            "title": "Study of MK-8353 in Combination With Pembrolizumab (MK-3475) in Participants With Advanced Malignancies (MK-8353-013)",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 5269,
+                    "therapyName": "MK-8353 + Pembrolizumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

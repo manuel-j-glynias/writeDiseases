@@ -1,0 +1,122 @@
+{
+    "id": 4015,
+    "name": "spindle cell carcinoma",
+    "source": "DOID",
+    "definition": "A squamous cell carcinoma that is usually composed of the squamous cell type and results in fusiform development of rapidly proliferating cells. [url:http\\://medical-dictionary.thefreedictionary.com/spindle+cell+carcinoma]",
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4015",
+    "evidence": [
+        {
+            "id": 5662,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with a malignant spindle cell tumor harboring KIAA1549-BRAF responded to treatment with Nexavar (sorafenib) in combination with Avastin (bevacizumab) and Torisel (temsirolimus) (PMID: 26314551).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 3917,
+                "therapyName": "Bevacizumab + Sorafenib + Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4015,
+                "name": "spindle cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5129,
+                    "pubMedId": 26314551,
+                    "title": "The distribution of BRAF gene fusions in solid tumors and response to targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26314551"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15880,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a single patient diagnosed with lung spindle cell carcinoma harboring an EGFR exon 19 deletion was treated with Iressa (gefitinib), but no benefit was observed and therapy was discontinued after 14 days (PMID: 30555702).",
+            "molecularProfile": {
+                "id": 367,
+                "profileName": "EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4015,
+                "name": "spindle cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13942,
+                    "pubMedId": 30555702,
+                    "title": "Lung spindle cell carcinoma harbouring a constitutively active epidermal growth factor receptor mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30555702"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17537,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Cintirorgon (LYC-55716) treatment resulted in a partial response in a patient with metastatic spindle cell carcinoma, demonstrating decreased tumor burden (PMID: 30819679).",
+            "molecularProfile": {
+                "id": 17605,
+                "profileName": "Unknown unknown"
+            },
+            "therapy": {
+                "id": 5812,
+                "therapyName": "LYC-55716",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4015,
+                "name": "spindle cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 15624,
+                    "pubMedId": 30819679,
+                    "title": "Phase 1 Open-Label, Multicenter Study of First-in-Class ROR\u03b3 Agonist LYC-55716 (Cintirorgon): Safety, Tolerability, and Preliminary Evidence of Antitumor Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30819679"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT02834013",
+            "title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+            "phase": "Phase 0",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1627,
+                    "therapyName": "Ipilimumab + Nivolumab",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}

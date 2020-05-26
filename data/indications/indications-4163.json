@@ -1,0 +1,149 @@
+{
+    "id": 4163,
+    "name": "ganglioneuroblastoma",
+    "source": "DOID",
+    "definition": null,
+    "currentPreferredTerm": null,
+    "lastUpdateDateFromDO": "03/24/2020",
+    "altIds": [
+        
+    ],
+    "termId": "DOID:4163",
+    "evidence": [
+        {
+            "id": 14238,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Zykadia (ceritinib) treatment resulted in a 43.6% decrease of the primary tumor after 6.5 months of treatment, and complete resolution of metastases at 21 months after initiation of treatment in a pediatric patient with ganglioneuroblastoma (PMID: 29907598).",
+            "molecularProfile": {
+                "id": 4880,
+                "profileName": "ALK I1171T"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4163,
+                "name": "ganglioneuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11556,
+                    "pubMedId": 29907598,
+                    "title": "Clinical response of the novel activating ALK-I1171T mutation in neuroblastoma to the ALK inhibitor ceritinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29907598"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "clinicalTrials": [
+        {
+            "nctId": "NCT01175356",
+            "title": "Induction Therapy Including 131 I-MIBG and Chemotherapy in Treating Patients With Newly Diagnosed High-Risk Neuroblastoma Undergoing Stem Cell Transplant, Radiation Therapy, and Maintenance Therapy With Isotretinoin",
+            "phase": "Phase I",
+            "recruitment": "Completed",
+            "therapies": [
+                {
+                    "id": 2558,
+                    "therapyName": "Busulfan + Melphalan",
+                    "synonyms": null
+                },
+                {
+                    "id": 2590,
+                    "therapyName": "Cyclophosphamide + Topotecan",
+                    "synonyms": null
+                },
+                {
+                    "id": 1425,
+                    "therapyName": "131I-MIBG",
+                    "synonyms": null
+                },
+                {
+                    "id": 2353,
+                    "therapyName": "Cyclophosphamide + Doxorubicin + Vincristine",
+                    "synonyms": null
+                },
+                {
+                    "id": 2585,
+                    "therapyName": "Cisplatin + Etoposide",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02095132",
+            "title": "Adavosertib and Irinotecan Hydrochloride in Treating Younger Patients With Relapsed or Refractory Solid Tumors",
+            "phase": "Phase Ib/II",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 1361,
+                    "therapyName": "Adavosertib + Irinotecan",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02311621",
+            "title": "Engineered Neuroblastoma Cellular Immunotherapy (ENCIT)-01",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 9766,
+                    "therapyName": "CE7R CAR T cells",
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "nctId": "NCT02559778",
+            "title": "Pediatric Precision Laboratory Advanced Neuroblastoma Therapy",
+            "phase": "Phase I",
+            "recruitment": "Recruiting",
+            "therapies": [
+                {
+                    "id": 688,
+                    "therapyName": "Bortezomib",
+                    "synonyms": null
+                },
+                {
+                    "id": 706,
+                    "therapyName": "Crizotinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 787,
+                    "therapyName": "Lapatinib",
+                    "synonyms": null
+                },
+                {
+                    "id": 1077,
+                    "therapyName": "Vorinostat",
+                    "synonyms": null
+                },
+                {
+                    "id": 2629,
+                    "therapyName": "Eflornithine",
+                    "synonyms": null
+                },
+                {
+                    "id": 920,
+                    "therapyName": "Sorafenib",
+                    "synonyms": null
+                },
+                {
+                    "id": 717,
+                    "therapyName": "Dasatinib",
+                    "synonyms": null
+                }
+            ]
+        }
+    ]
+}
