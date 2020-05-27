@@ -508,32 +508,32 @@ type MarkerProfile implements MarkerComponent {
 
 type JaxDrugClass  {
     id: ID!
-    name: String!
     jaxId: String!
+    name: EditableStatement!
     drugs: [JaxDrug]! @relation(name: "DRUG_CLASS_MEMBER", direction: "OUT")
 }
 
 type JaxDrug  {
     id: ID!
-    name: String!
-    tradeName: String!
     jaxId: String!
-    synonyms: [String]!
+    name: EditableStatement!
+    tradeName: EditableStatement!
+    synonyms: [EditableStatement]!
     description: EditableStatement!
     drugClasses: [JaxDrugClass]! @relation(name: "DRUG_CLASS_MEMBER", direction: "IN")
 }
 
 type NCIDrug  {
     id: ID!
-    name: String!
-    concept: String!
-    definition: String!
-    drugCategory: String!
-    synonyms: [String]!
-    annotationDate: String!
+    conceptCode: EditableStatement!
+    name: EditableStatement!
+    definition: EditableStatement!
+    drugCategory: EditableStatement!
+    synonyms: [EditableStatement]!
+    annotationDate: EditableStatement!
     isAntineoplastic: Boolean!
     isImmuno: Boolean!
-    modulator: String!
+    modulator: EditableStatement!
 }
 
 interface TherapyComponent {
@@ -553,10 +553,10 @@ type DrugCategory  {
 type OmniDrug implements TherapyComponent {
     id: ID!
     name: String!
-    tradeName: String!
+    tradeName: EditableStatement!
     definition: EditableStatement!
     drugCategories: [DrugCategory]! @relation(name: "DRUG_CATEGORY_MEMBER", direction: "IN")
-    synonymsString: EditableStatement!
+    synonyms: [EditableStatement]!
     nciDrug: NCIDrug
     jaxDrug: JaxDrug
     componentOf: [Therapy]! @relation(name: "THERAPY_COMPONENT", direction: "IN")
@@ -593,29 +593,30 @@ type XRef {
 
 type DODisease  {
     id: ID!
-    name: String!
-    definition: String!
-    synonyms: [String!]!
+    doId: String!
+    name: EditableStatement!
+    definition: EditableStatement!
+    synonyms: [EditableStatement!]!
     xrefs: [XRef!]!
-    subsets: [String!]!
+    subsets: [EditableStatement!]!
     parents: [DODisease]! @relation(name: "PARENT", direction: "OUT")
     children: [DODisease]! @relation(name: "PARENT", direction: "IN")
 }
 
 type JaxDisease  {
     id: ID!
-    name: String!
     jaxId: String!
-    definition: String!
+    name: EditableStatement!
+    definition: EditableStatement!
     doDisease: DODisease
 }
 
 type OncoTreeDisease  {
     id: ID!
     code: String!
-    name: String!
-    mainType: String!
-    tissue: String!
+    name: EditableStatement!
+    mainType: EditableStatement!
+    tissue: EditableStatement!
     xrefs: [XRef!]!
     parent: OncoTreeDisease @relation(name: "PARENT", direction: "OUT")
     children: [OncoTreeDisease]! @relation(name: "PARENT", direction: "IN")
@@ -623,9 +624,10 @@ type OncoTreeDisease  {
 
 type GODisease {
     id: ID!
-    name: String!
-    definition: String!
-    synonyms: [String!]!
+    goId: String!
+    name: EditableStatement!
+    definition: EditableStatement!
+    synonyms: [EditableStatement!]!
     xrefs: [XRef!]!
     jaxDiseases: [JaxDisease]!
     parents: [GODisease] @relation(name: "PARENT", direction: "OUT")
@@ -641,23 +643,32 @@ enum OmniDiseaseType {
 type OmniDisease{
     id: ID!
     code: String!
-    fullDescription: String!
+    fullDescription: EditableStatement!
     omniDiseaseType: OmniDiseaseType!
 }
 
 type MCode {
     id: ID!
     code: String!
-    fullDescription: String!
+    fullDescription: EditableStatement!
     omniDisease: OmniDisease
     parents: [MCode] @relation(name:"PARENT", direction:"OUT")
     children: [MCode] @relation(name:"PARENT", direction:"IN")
 }
 
+type TCode {
+    id: ID!
+    code: String!
+    fullDescription: EditableStatement!
+    parents: [TCode] @relation(name:"PARENT", direction:"OUT")
+    children: [TCode] @relation(name:"PARENT", direction:"IN")
+}
+
 type OntologicalDisease  {
     id: ID!
-    name: String!
+    name: EditableStatement!
     description: EditableStatement!
+    synonyms: [EditableStatement]!
     omniDiseases: [OmniDisease]!
     mCodes: [MCode]!
     doDiseases: [DODisease]!

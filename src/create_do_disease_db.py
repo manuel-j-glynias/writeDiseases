@@ -34,7 +34,7 @@ def parse_do():
     # in_file = open('../data/doid.obo', 'r')
     # in_file = open('../data/DO_cancer_slim.obo', 'r')
     in_file = open('../data/HumanDO.obo', 'r')
-    doid_dict = {}  # {do_id:{'name':name, 'alt_id':(alt_ids), 'def':[url,definition], 'subset':(subsets), 'synonym':{syn_type:(synonyms)}, 'xref':{xref_src:(src_ids)}, 'is_a':(do_ids)}
+    doid_dict = {}  # {do_id:{'name':name, 'alt_id':(alt_ids), 'def':[(urls),definition], 'subset':(subsets), 'synonym':{syn_type:(synonyms)}, 'xref':{xref_src:(src_ids)}, 'is_a':(do_ids)}
     doid_child_dict = {}  # {do_id:(direct children terms)}
 
     term_flag = False
@@ -69,9 +69,19 @@ def parse_do():
 
         # NEED TO WORK ON CAPTURING ALL INFO IN DEFINITION (CAN HAVE PUBMED IDS, MULTIPLE URLS, ETC.)
         elif (cur_label == 'def'):
-            definition = cur_data.split(' [')[0].strip('\"')
-            def_url = cur_data.split('[')[1].split(']')[0]
-            temp_dict[cur_label] = [def_url, definition]
+            definition = cur_data.split('\" [')[0].strip('\"')
+            try:
+                url_raw = cur_data.split('\" [')[1].split(']')[0]
+            except:
+                continue
+            for item in url_raw.split(', '):
+                if ('http' not in item):
+                    continue
+                def_url = 'http' + ''.join(item.strip().replace('url:','').replace('URL:','').split('http')[1])
+                try:
+                    temp_dict[cur_label][0].add(def_url)
+                except:
+                    temp_dict[cur_label] = [set([def_url]), definition]
 
         elif (cur_label == 'xref'):
             xref_src = line.split(':')[1].strip()
@@ -196,14 +206,21 @@ def write_load_files(db_dict, doid_dict, doid_child_dict):
                 for do_id in sorted(doid_dict.keys()):
                     dx_name = doid_dict[do_id]['name']
                     try:
-                        url = doid_dict[do_id]['def'][0]
                         definition = doid_dict[do_id]['def'][1]
                     except:
-                        url = ''
                         definition = ''
                     graph_id = do_id.replace(':','_').lower()
-                    cur_data = [do_id,dx_name,definition,url,graph_id]
+                    cur_data = [do_id,dx_name,definition,graph_id]
                     writer.writerow(cur_data)
+            if ('definition_urls' in table_name):
+                for do_id in sorted(doid_dict.keys()):
+                    try:
+                        url_set = doid_dict[do_id]['def'][0]
+                    except:
+                        continue
+                    for url in sorted(url_set):
+                        cur_data = [do_id, url]
+                        writer.writerow(cur_data)
             elif ('synonyms' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('synonym' in doid_dict[do_id].keys()):
