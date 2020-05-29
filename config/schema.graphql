@@ -608,6 +608,8 @@ type JaxDisease  {
     jaxId: String!
     name: EditableStatement!
     definition: EditableStatement!
+    currentPreferredTerm: EditableStatement
+    lastUpdateFromDO: EditableStatement
     doDisease: DODisease
 }
 

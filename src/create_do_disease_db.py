@@ -158,7 +158,7 @@ def parse_do():
 def get_schema():
     db_dict = {}  # {db_name:{table_name:{col:[type,key,allow_null,ref_col_list],'col_order':[cols in order]}}}
 
-    init_file = open('../config/DO_table_descriptions.csv', 'r')
+    init_file = open('../config/table_descriptions.csv', 'r')
     reader = csv.reader(init_file, quotechar='\"')
     for line in reader:
         #print(line)
@@ -168,7 +168,9 @@ def get_schema():
         if (db_name not in db_dict.keys()):
             db_dict[db_name] = {}
         table_name = line[1]
-        if ('do_' not in table_name):
+        resource = 'do'
+        #if ('do_' not in table_name):
+        if (resource + '_' not in table_name):
             continue
         col = line[2]
         col_type = line[3]

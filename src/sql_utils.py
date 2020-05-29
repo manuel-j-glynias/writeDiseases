@@ -95,9 +95,9 @@ def create_table(my_cursor,table_name,db_name,db_dict):
             auto_incr_stmt = ''
 
         if (col != db_dict[db_name][table_name]['col_order'][-1]):
-            sql += col + ' ' + col_type + null_stmt + auto_incr_stmt + ', '
+            sql += '`' + col + '` ' + col_type + null_stmt + auto_incr_stmt + ', '
         else:
-            sql += col + ' ' + col_type + null_stmt + auto_incr_stmt
+            sql += '`' + col + '` ' + col_type + null_stmt + auto_incr_stmt
 
     if (len(primary_keys) > 0):
         sql += ', PRIMARY KEY (' + ', '.join(primary_keys) + ')'
@@ -147,19 +147,19 @@ def load_table(my_cursor, table_name, col_list):
 
 def make_sql(char_set, load_path, table_name, col_list):
     sql = 'LOAD DATA INFILE \'' + load_path + '\' INTO TABLE ' + table_name
-    print(sql)
     sql += ' CHARACTER SET ' + char_set + ' FIELDS TERMINATED BY \',\' OPTIONALLY ENCLOSED BY \'\"\' LINES TERMINATED BY \'\r\n\' IGNORE 1 LINES ('
     # This will set entry to NULL if encounter a blank field in load file
     for col in col_list:
         if (col != col_list[-1]):
-            sql += '@' + col + ', '
+            sql += '@`' + col + '`, '
         else:
-            sql += '@' + col + ') SET '
+            sql += '@`' + col + '`) SET '
 
     for col in col_list:
         if (col != col_list[-1]):
-            sql += col + ' = nullif(@' + col + ',\'\'), '
+            sql += '`' + col + '` = nullif(@`' + col + '`,\'\'), '
         else:
-            sql += col + ' = nullif(@' + col + ',\'\') '
+            sql += '`' + col + '` = nullif(@`' + col + '`,\'\') '
+    print(sql)
 
     return sql
