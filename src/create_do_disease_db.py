@@ -5,6 +5,12 @@ Created on Tue May 26 10:38:13 2020
 Purpose: download and parse Disease Ontology
 
 @author: Paul.DePietro
+
+Changed on 6/2/2020:
+
+
+
+
 """
 
 import os
@@ -35,7 +41,9 @@ def parse_do():
     # in_file = open('../data/DO_cancer_slim.obo', 'r')
     in_file = open('../data/HumanDO.obo', 'r')
     doid_dict = {}  # {do_id:{'name':name, 'alt_id':(alt_ids), 'def':[(urls),definition], 'subset':(subsets), 'synonym':{syn_type:(synonyms)}, 'xref':{xref_src:(src_ids)}, 'is_a':(do_ids)}
+
     doid_child_dict = {}  # {do_id:(direct children terms)}
+
 
     term_flag = False
     for line in in_file:
@@ -146,12 +154,29 @@ def parse_do():
                     doid_isa_dict[do_id] = {isa_id: inferred_flag}
                 '''
                 try:
+
                     doid_child_dict[isa_id].add(do_id)
+
                 except:
                     doid_child_dict[isa_id] = set([do_id])
 
     in_file.close()
 
+    # Change do_ids to graph_ids
+    graph_id_child_dic = {}
+
+    # Create new dictionary with graph_id
+    for entry in doid_child_dict:
+        new_key = entry.replace(':', '_').lower()
+        new_value_set = set()
+        value_dict = doid_child_dict[entry]
+        for value in value_dict:
+            value =  value.replace(':', '_').lower()
+            new_value_set.add(value)
+        graph_id_child_dic[new_key] = new_value_set
+
+    # Set doid_child_dict to new graph_id_child_dic
+    doid_child_dict = graph_id_child_dic
     print('Found', len(doid_dict.keys()), 'Disease Ontology terms that are not obsolete')
     return(doid_dict, doid_child_dict)
 
@@ -221,40 +246,40 @@ def write_load_files(db_dict, doid_dict, doid_child_dict):
                     except:
                         continue
                     for url in sorted(url_set):
-                        cur_data = [do_id, url]
+                        cur_data = [do_id.replace(':', '_').lower(), url]
                         writer.writerow(cur_data)
             elif ('synonyms' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('synonym' in doid_dict[do_id].keys()):
                         for syn_type in sorted(doid_dict[do_id]['synonym'].keys()):
                             for synonym in sorted(doid_dict[do_id]['synonym'][syn_type]):
-                                cur_data = [do_id, syn_type, synonym]
+                                cur_data = [do_id.replace(':', '_').lower(), syn_type, synonym]
                                 writer.writerow(cur_data)
             elif ('xrefs' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('xref' in doid_dict[do_id].keys()):
                         for source in sorted(doid_dict[do_id]['xref'].keys()):
                             for src_id in sorted(doid_dict[do_id]['xref'][source]):
-                                cur_data = [do_id, source, src_id]
+                                cur_data = [do_id.replace(':', '_').lower(), source, src_id]
                                 writer.writerow(cur_data)
             elif ('subsets' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('subset' in doid_dict[do_id].keys()):
                         for subset in sorted(doid_dict[do_id]['subset']):
-                            cur_data = [do_id, subset]
+                            cur_data = [do_id.replace(':', '_').lower(), subset]
                             writer.writerow(cur_data)
             elif ('parents' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('is_a' in doid_dict[do_id].keys()):
                         for parent in sorted(doid_dict[do_id]['is_a']):
                             #inferred_flag = doid_dict[do_id]['is_a'][parent]
-                            cur_data = [do_id, parent]
+                            cur_data = [do_id.replace(':', '_').lower(), parent.replace(':', '_').lower()]
                             #cur_data = [do_id, parent, inferred_flag]
                             writer.writerow(cur_data)
             elif ('children' in table_name):
                 for do_id in sorted(doid_child_dict.keys()):
                     for child in sorted(doid_child_dict[do_id]):
-                        cur_data = [do_id,child]
+                        cur_data = [do_id.replace(':', '_').lower(),child]
                         writer.writerow(cur_data)
             out_file.close()
 
