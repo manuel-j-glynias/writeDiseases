@@ -504,7 +504,7 @@ type MarkerProfile implements MarkerComponent {
     components: [MarkerComponent]!
     evidenceAssociations: [EvidenceAssociation] @relation(name: "MARKER_FOR", direction: "OUT")
     rnaSeqSignatureMarker: RNASeqSignatureMarker @relation(name:"IS_RNASEQ_SIGNATURE", direction: "OUT")
-}
+
 
 type JaxDrugClass  {
     id: ID!

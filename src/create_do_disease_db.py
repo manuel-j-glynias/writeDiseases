@@ -277,6 +277,7 @@ def main():
                 drop_table_if_exists(my_cursor, table_name)
                 create_table(my_cursor, table_name, db_name, db_dict)
                 load_table(my_cursor, table_name, db_dict[db_name][table_name]['col_order'])
+                my_db.commit()
     except mysql.connector.Error as error:
         print("Failed in MySQL: {}".format(error))
     finally:
