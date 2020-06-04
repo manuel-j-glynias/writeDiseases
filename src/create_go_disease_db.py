@@ -77,7 +77,7 @@ def combine_files( files):
     for file in files:
         # Convert json to dataframe
         data = json.load(open(file))
-        df = pandas.json_normalize(data, 'results')
+        df = json_normalize(data, 'results')
         dataframe_list.append(df)
 
     # Clean dataframes and add graph_id column
@@ -87,7 +87,7 @@ def combine_files( files):
         for index, row in df.iterrows():
             # Create graph_id column
             df.at[index, 'graph_id'] = ""
-            graph_id = 'go_' + df.at[index, 'id']
+            graph_id = 'go_disease_' + df.at[index, 'id']
             df.at[index, 'graph_id'] = graph_id
 
         #Clean dataframes
@@ -182,9 +182,9 @@ def parse_go_parents(df):
     parent_df = pandas.DataFrame(new_parent_dict_list)
     return parent_df
 
-# Creates dataframe with parents
+# Creates dataframe with children
 # Input: dataframe
-# Output: new  dataframe with parents
+# Output: new  dataframe with children
 def parse_go_children(df):
     children_dict_list = []
     name_dict = {}
@@ -199,9 +199,9 @@ def parse_go_children(df):
             name_dict[name] = graph_id
 
             for child in children:
-                parent_dict = {}
-                parent_dict[graph_id] = child
-                children_dict_list.append(parent_dict)
+                children_dict = {}
+                children_dict[graph_id] = child
+                children_dict_list.append(children_dict)
     # Create a list of dicts (graph_id vs child)
     new_children_dict_list = []
     for dict in children_dict_list:

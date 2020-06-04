@@ -66,6 +66,7 @@ def read_one_disease_json(path:str)->dict:
         termId = disease_data['termId']
         if termId is not None:
             graph_id = termId.replace(':', '_').lower()
+            graph_id = 'jax_disease_' + graph_id.split('_')[1]
         else:
             graph_id = None
 
