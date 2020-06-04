@@ -1,8 +1,8 @@
 """
-This script extracts data from mcode table  and converts
+This script extracts data from tcode table  and converts
 data  to SQL tables:
 1. extract_file - extracts data from csv into  a dataframe
-2. parse_mcode_main - parses and cleans dataframe
+2. parse_tcode_main - parses and cleans dataframe
 3. write_load_files - writes dataframe to csv file
 4. get_schema - gets the schema for SQL table
 5. write_sql - writes sql table
@@ -20,89 +20,88 @@ from sql_utils import load_table, create_table, does_table_exist, \
 
 def main():
     print(datetime.datetime.now().strftime("%H:%M:%S"))
-    path = '../data/tblOS_GLOBAL_GLOBAL_Ref_MCodes.csv'
+    path = '../data/tblOS_GLOBAL_GLOBAL_Ref_TCodes.csv'
 
     #Create dataframe
     df=extract_file(path)
 
-    mcode_disease_df = parse_mcode_main(df)
-    path = '../load_files/mcode_diseases.csv'
-    write_load_files(mcode_disease_df, path)
+    tcode_disease_df = parse_tcode_main(df)
+    path = '../load_files/tcode_diseases.csv'
+    write_load_files(tcode_disease_df, path)
 
-    mcode_parents_df = parse_mcode_parents(df)
-    path_parents  = '../load_files/mcode_parents.csv'
-    write_load_files(mcode_parents_df, path_parents)
+    tcode_parents_df = parse_tcode_parents(df)
+    path_parents  = '../load_files/tcode_parents.csv'
+    write_load_files(tcode_parents_df, path_parents)
 
-    mcode_children_df = parse_mcode_children(df)
-    path_children = '../load_files/mcode_children.csv'
-    write_load_files(mcode_children_df, path_children)
+    tcode_children_df = parse_tcode_children(df)
+    path_children = '../load_files/tcode_children.csv'
+    write_load_files(tcode_children_df, path_children)
 
-    db_dict = get_schema('mcode_diseases')
-    db_parents_dict = get_schema('mcode_parents')
-    db_children_dict = get_schema('mcode_children')
+    db_dict = get_schema('tcode_diseases')
+    db_parents_dict = get_schema('tcode_parents')
+    db_children_dict = get_schema('tcode_children')
 
     write_sql(db_dict)
     write_sql(db_parents_dict)
     write_sql(db_children_dict)
 
 
-# Creates  mcode dataframe
+# Creates  tcode dataframe
 # Input: dataframe
 # Output: new  dataframe with required fields
-def parse_mcode_main(df):
-    mcode_list = []
+def parse_tcode_main(df):
+    tcode_list = []
 
     # Parse dataframe
     for index, row in df.iterrows():
         new_dict = {}
-        code = row['Mcode']
+        code = row['TCode']
         new_dict['code'] = code
-        new_dict['diseasePath'] = row['DiseasePath']
-        new_dict['omniDisease'] =  row['OmniDisease_ID']
-        graph_id = 'Mcode_' + code
+        new_dict['tissuePath'] = row['TissuePath']
+        graph_id = 'Tcode_' + code
         new_dict['graph_id'] = graph_id
         df.at[index, 'graph_id'] = graph_id
-        mcode_list.append(new_dict)
-    mcode_df = pandas.DataFrame(mcode_list)
-    return mcode_df
+        tcode_list.append(new_dict)
+    tcode_df = pandas.DataFrame(tcode_list)
+    return tcode_df
 
-# Creates  mcode dataframe
+# Creates  tcode dataframe
 # Input: dataframe
 # Output: new  dataframe with required fields
-def parse_mcode_parents(df):
-    mcode_parent_dict_list = []
+def parse_tcode_parents(df):
+    tcode_parent_dict_list = []
     # Parse dataframe
     for index, row in df.iterrows():
-        parent = row['ParentMCode']
+        parent = row['ParentTCode']
         if  pandas.isnull(parent):
             pass
         else:
             new_dict = {}
             new_dict['graph_id'] = row['graph_id']
-            new_dict['parent'] =  'Mcode_' + row['ParentMCode']
-            mcode_parent_dict_list.append(new_dict)
-    mcode_df = pandas.DataFrame(mcode_parent_dict_list)
-    return mcode_df
+            new_dict['parent'] =  'Tcode_' + row['ParentTCode']
+            tcode_parent_dict_list.append(new_dict)
+    tcode_df = pandas.DataFrame(tcode_parent_dict_list)
+    return tcode_df
 
-# Creates  mcode dataframe
+# Creates  tcode dataframe
 # Input: dataframe
 # Output: new  dataframe with required fields
-def parse_mcode_children(df):
-    mcode_child_dict_list = []
-    # Create mcode_parent dictionary
+def parse_tcode_children(df):
+    tcode_child_dict_list = []
+    # Create tcode_parent dictionary
     for index, row in df.iterrows():
-        parent = row['ParentMCode']
+        parent = row['ParentTCode']
         if  pandas.isnull(parent):
             pass
         else:
             new_dict = {}
-            new_dict['graph_id'] = 'Mcode_' + row['ParentMCode']
+            new_dict['graph_id'] = 'Tcode_' + row['ParentTCode']
             new_dict['child'] = row['graph_id']
             # Add dictionary to a list
-            mcode_child_dict_list.append(new_dict)
-    #Convert mcode_child_dict list to a dataframe
-    mcode_df = pandas.DataFrame(mcode_child_dict_list)
-    return mcode_df
+            tcode_child_dict_list.append(new_dict)
+    #Convert tcode_child_dict list to a dataframe
+    tcode_df = pandas.DataFrame(tcode_child_dict_list)
+    return tcode_df
 
 ###################################################
 #  EXTRACT FILE
