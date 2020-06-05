@@ -45,6 +45,7 @@ def parse_omnidisease(df):
         code = row['OmniDiseaseID']
         graph_id = 'omnidisease_' + code.split('_')[1]
         df.at[index, 'graph_id'] = graph_id
+    del df['OmniDisease']
     return df
 
 
