@@ -87,6 +87,15 @@ def combine_files( files):
         for index, row in df.iterrows():
             # Create graph_id column
             df.at[index, 'graph_id'] = ""
+            oncotree_code = df.at[index, 'oncotree_code']
+            if pandas.isnull(oncotree_code):
+                pass
+            else:
+                codes = df.at[index, 'codes']
+                if isinstance(codes, list):
+                    codes.append('oncotree=' +  oncotree_code)
+                    df.at[index, 'codes'] = codes
+
             graph_id = 'go_disease_' + df.at[index, 'id']
             df.at[index, 'graph_id'] = graph_id
 

@@ -38,8 +38,6 @@ def main():
 # Input: dataframe
 # Output: new  dataframe with required fields
 def parse_omnidisease(df):
-    omnidisease_list = []
-
     # Parse dataframe
     for index, row in df.iterrows():
         code = row['OmniDiseaseID']
