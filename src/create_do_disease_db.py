@@ -167,11 +167,11 @@ def parse_do():
 
     # Create new dictionary with graph_id
     for entry in doid_child_dict:
-        new_key = entry.replace(':', '_').lower()
+        new_key = entry.replace('ID:', '_disease_').lower()
         new_value_set = set()
         value_dict = doid_child_dict[entry]
         for value in value_dict:
-            value =  value.replace(':', '_').lower()
+            value =  value.replace('ID:', '_disease_').lower()
             new_value_set.add(value)
         graph_id_child_dic[new_key] = new_value_set
 
@@ -236,7 +236,7 @@ def write_load_files(db_dict, doid_dict, doid_child_dict):
                         definition = doid_dict[do_id]['def'][1]
                     except:
                         definition = ''
-                    graph_id = do_id.replace(':','_').lower()
+                    graph_id = do_id.replace('ID:', '_disease_').lower()
                     cur_data = [do_id,dx_name,definition,graph_id]
                     writer.writerow(cur_data)
             if ('definition_urls' in table_name):
@@ -246,40 +246,40 @@ def write_load_files(db_dict, doid_dict, doid_child_dict):
                     except:
                         continue
                     for url in sorted(url_set):
-                        cur_data = [do_id.replace(':', '_').lower(), url]
+                        cur_data = [do_id.replace('ID:', '_disease_').lower(), url]
                         writer.writerow(cur_data)
             elif ('synonyms' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('synonym' in doid_dict[do_id].keys()):
                         for syn_type in sorted(doid_dict[do_id]['synonym'].keys()):
                             for synonym in sorted(doid_dict[do_id]['synonym'][syn_type]):
-                                cur_data = [do_id.replace(':', '_').lower(), syn_type, synonym]
+                                cur_data = [do_id.replace('ID:', '_disease_').lower(), syn_type, synonym]
                                 writer.writerow(cur_data)
             elif ('xrefs' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('xref' in doid_dict[do_id].keys()):
                         for source in sorted(doid_dict[do_id]['xref'].keys()):
                             for src_id in sorted(doid_dict[do_id]['xref'][source]):
-                                cur_data = [do_id.replace(':', '_').lower(), source, src_id]
+                                cur_data = [do_id.replace('ID:', '_disease_').lower().lower(), source, src_id]
                                 writer.writerow(cur_data)
             elif ('subsets' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('subset' in doid_dict[do_id].keys()):
                         for subset in sorted(doid_dict[do_id]['subset']):
-                            cur_data = [do_id.replace(':', '_').lower(), subset]
+                            cur_data = [do_id.replace('ID:', '_disease_').lower(), subset]
                             writer.writerow(cur_data)
             elif ('parents' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('is_a' in doid_dict[do_id].keys()):
                         for parent in sorted(doid_dict[do_id]['is_a']):
                             #inferred_flag = doid_dict[do_id]['is_a'][parent]
-                            cur_data = [do_id.replace(':', '_').lower(), parent.replace(':', '_').lower()]
+                            cur_data = [do_id.replace('ID:', '_disease_').lower(), parent.replace('ID:', '_disease_').lower()]
                             #cur_data = [do_id, parent, inferred_flag]
                             writer.writerow(cur_data)
             elif ('children' in table_name):
                 for do_id in sorted(doid_child_dict.keys()):
                     for child in sorted(doid_child_dict[do_id]):
-                        cur_data = [do_id.replace(':', '_').lower(),child]
+                        cur_data = [do_id.replace('ID:', '_disease_').lower(),child]
                         writer.writerow(cur_data)
             out_file.close()
 

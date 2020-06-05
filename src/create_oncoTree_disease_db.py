@@ -104,7 +104,7 @@ def parse_oncotree_main(df):
         # Add children column to dataframe
         df.at[index, 'children'] = []
         df.at[index, 'graph_id'] = ""
-        graph_id = 'oncotree_' + df.at[index, 'code']
+        graph_id = 'oncotree_disease_' + df.at[index, 'code']
         df.at[index, 'graph_id'] = graph_id
         # Create parent child dict
         parent_dict[graph_id] = row['parent']
