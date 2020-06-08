@@ -115,17 +115,6 @@ def extract_file(path):
     df =unparsed_df[unparsed_df.Active_Flag != 0]
     return df
 
-###################################################
-#  WRITE CSV
-###################################################
-# Converts dataframe to csv file
-# Input: dataframe and file path
-# Output: csv file is written
-def write_load_files (df, path):
-    try:
-        df.to_csv(path, encoding='utf-8', index=False)
-    except IOError:
-        print("I/O error csv file")
 
 
 ###################################################
