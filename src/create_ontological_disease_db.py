@@ -17,6 +17,7 @@ def main():
     jax_diseases_data = '../load_files/jax_diseases.csv'
     omnimap_data = '../data/tblOS_GLOBAL_JAX_DL_OmniMap.csv'
 
+
     # Create dataframes from data
 
     go_df = pandas.read_csv(go_data)
@@ -39,19 +40,23 @@ def main():
     ontological_go_path = '../load_files/ontological_go_diseases.csv'
     write_load_files(ontological_go_df, ontological_go_path)
 
-    ontological_do_df = parse_do(jax_diseases_df, ontological_jax_df)
+    # Create onto-go and onto-jax dictionaries
+    ontological_go_dict = create_onto_go_dict(ontological_go_df)
+    ontological_jax_dict = create_onto_jax_dict(ontological_jax_df)
+
+    ontological_do_df = parse_do(jax_diseases_df, ontological_jax_dict)
     ontological_do_path = '../load_files/ontological_do_diseases.csv'
     write_load_files(ontological_do_df, ontological_do_path)
 
-    ontological_oncotree_df = parse_oncotree(go_xrefs_df, ontological_go_df)
+    ontological_oncotree_df = parse_oncotree(go_xrefs_df, ontological_go_dict)
     ontological_oncotree_path = '../load_files/ontological_oncotree_diseases.csv'
     write_load_files(ontological_oncotree_df, ontological_oncotree_path)
 
-    ontological_omni_df = parse_omnidisease(omnimap_df, ontological_jax_df)
+    ontological_omni_df = parse_omnidisease(omnimap_df, ontological_jax_dict)
     ontological_omni_path = '../load_files/ontological_omnidiseases.csv'
     write_load_files(ontological_omni_df, ontological_omni_path)
 
-    jax_mcode_df = parse_mcode(omnimap_df, ontological_jax_df)
+    jax_mcode_df = parse_mcode(omnimap_df, ontological_jax_dict)
     jax_mcode_path = '../load_files/ontological_mcode_diseases.csv'
     write_load_files(jax_mcode_df, jax_mcode_path)
 
@@ -73,6 +78,21 @@ def main():
     write_sql(ontological_omnidiseases_dict)
     write_sql(ontological_mcode_diseases)
 
+# Create dictionaries
+
+def create_onto_go_dict(ontological_go_df):
+    ontological_go_dict = {}
+    for index, row in ontological_go_df.iterrows():
+        # new_dict['go_disease_id'] = go_df.at[index, 'definition']
+        ontological_go_dict[ontological_go_df.at[index, 'go_disease_id']] = ontological_go_df.at[index, 'graph_id']
+    return ontological_go_dict
+
+def create_onto_jax_dict(ontological_jax_df):
+    ontological_jax_dict = {}
+    for index, row in ontological_jax_df.iterrows():
+        jax_id = ontological_jax_df.at[index, 'jax_id']
+        ontological_jax_dict[jax_id] = ontological_jax_df.at[index, 'graph_id']
+    return ontological_jax_dict
 
 # Create ontological disease df
 def parse_ontological(go_df):
@@ -121,12 +141,7 @@ def parse_jax(go_xrefs_df, ontological_go_df):
     ontological_jax_df = pandas.DataFrame(go_jax_list)
     return ontological_jax_df
 
-def parse_do(jax_diseases_df, ontological_jax_df):
-    ontological_jax_dict = {}
-    for index, row in ontological_jax_df.iterrows():
-        jax_id = ontological_jax_df.at[index, 'jax_id']
-        ontological_jax_dict[jax_id] = ontological_jax_df.at[index, 'graph_id']
-
+def parse_do(jax_diseases_df, ontological_jax_dict):
     jax_do_list = []
     for index, row in jax_diseases_df.iterrows():
         if (jax_diseases_df.at[index, 'source'] == 'DOID'):
@@ -142,11 +157,7 @@ def parse_do(jax_diseases_df, ontological_jax_df):
     ontological_do_df = pandas.DataFrame(jax_do_list)
     return ontological_do_df
 
-def parse_oncotree(go_xrefs_df, ontological_go_df):
-    ontological_go_dict = {}
-    for index, row in ontological_go_df.iterrows():
-        go_disease_id = ontological_go_df.at[index, 'go_disease_id']
-        ontological_go_dict[go_disease_id] = ontological_go_df.at[index, 'graph_id']
+def parse_oncotree(go_xrefs_df, ontological_go_dict):
     go_oncotree_list = []
     for index, row in go_xrefs_df.iterrows():
         source = go_xrefs_df.at[index, 'source']
@@ -163,11 +174,7 @@ def parse_oncotree(go_xrefs_df, ontological_go_df):
     go_oncotree_df = pandas.DataFrame(go_oncotree_list)
     return go_oncotree_df
 
-def parse_omnidisease(omnimap_df, ontological_jax_df):
-    ontological_jax_dict = {}
-    for index, row in ontological_jax_df.iterrows():
-        jax_id = ontological_jax_df.at[index, 'jax_id']
-        ontological_jax_dict[jax_id] = ontological_jax_df.at[index, 'graph_id']
+def parse_omnidisease(omnimap_df, ontological_jax_dict):
     ontological_omnidisease_list = []
     for index, row in omnimap_df.iterrows():
         omnidisease = omnimap_df.at[index, 'OmniDisease_ID']
@@ -191,16 +198,10 @@ def parse_omnidisease(omnimap_df, ontological_jax_df):
     ontological_omnidisease_df = pandas.DataFrame(ontological_omnidisease_list)
     return ontological_omnidisease_df
 
-def parse_mcode(omnimap_df, ontological_jax_df):
-    ontological_jax_dict = {}
-    for index, row in ontological_jax_df.iterrows():
-        jax_id = ontological_jax_df.at[index, 'jax_id']
-        ontological_jax_dict[jax_id] = ontological_jax_df.at[index, 'graph_id']
+def parse_mcode(omnimap_df, ontological_jax_dict):
     ontological_mcode_list = []
     for index, row in omnimap_df.iterrows():
         mcode = omnimap_df.at[index, 'MCode']
-
-
         jax_id = omnimap_df.at[index, 'ResourceDiseaseID']
         jax_id = 'jax_disease_' + str(jax_id)
         current_jax_id = jax_id
