@@ -8,9 +8,6 @@ Purpose: download and parse Disease Ontology
 
 Changed on 6/2/2020:
 
-
-
-
 """
 
 import os
@@ -145,18 +142,8 @@ def parse_do():
                 except:
                     temp_dict[cur_label] = set([isa_id])
                     #temp_dict[cur_label] = {isa_id: inferred_flag}
-                '''
                 try:
-                    # doid_isa_dict[do_id].add(isa_id)
-                    doid_isa_dict[do_id][isa_id] = inferred_flag
-                except:
-                    # doid_isa_dict[do_id] = set([isa_id])
-                    doid_isa_dict[do_id] = {isa_id: inferred_flag}
-                '''
-                try:
-
                     doid_child_dict[isa_id].add(do_id)
-
                 except:
                     doid_child_dict[isa_id] = set([do_id])
 
@@ -219,12 +206,12 @@ def get_schema():
     return db_dict
 
 
-def write_load_files(db_dict, doid_dict, doid_child_dict):
+def write_load_files(db_dict, doid_dict, doid_child_dict, load_directory):
     #{db_name: {table_name: {col: [type, key, allow_null,ref_col_list], 'col_order': [cols in order]}}}
     #doid_dict = {}  # {do_id:{'name':name, 'alt_id':(alt_ids), 'def':[url,definition], 'subset':(subsets), 'synonym':{syn_type:(synonyms)}, 'xref':{xref_src:(src_ids)}, 'is_a':(is_a)}}
     for db_name in sorted(db_dict.keys()):
         for table_name in sorted(db_dict[db_name].keys()):
-            out_file = open('../load_files/' + table_name + '.csv', 'w', encoding='utf-8')
+            out_file = open(load_directory + table_name + '.csv', 'w', encoding='utf-8')
             header = db_dict[db_name][table_name]['col_order']
             writer = csv.writer(out_file, lineterminator='\n')
             writer.writerow(header)
@@ -283,7 +270,7 @@ def write_load_files(db_dict, doid_dict, doid_child_dict):
                         writer.writerow(cur_data)
             out_file.close()
 
-def main():
+def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     my_db = None
     my_cursor = None
@@ -292,7 +279,9 @@ def main():
     #download_do()
     doid_dict,doid_child_dict = parse_do()
     db_dict = get_schema()
-    write_load_files(db_dict, doid_dict, doid_child_dict)
+    write_load_files(db_dict, doid_dict, doid_child_dict, load_directory)
+
+    """
     try:
         my_db = get_local_db_connection()
         my_cursor = my_db.cursor(buffered=True)
@@ -309,7 +298,7 @@ def main():
         if (my_db.is_connected()):
             my_cursor.close()
     print(datetime.datetime.now().strftime("%H:%M:%S"))
-
+    """
 
 if __name__ == "__main__":
     main()

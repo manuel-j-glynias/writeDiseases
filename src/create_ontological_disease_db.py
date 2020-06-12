@@ -8,13 +8,13 @@ from sql_utils import load_table, create_table, does_table_exist, \
     drop_table_if_exists
 import json
 
-def main():
+def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
 
     # Data
-    go_data =  '../load_files/go_diseases.csv'
-    go_xrefs_data =  '../load_files/go_xrefs.csv'
-    jax_diseases_data = '../load_files/jax_diseases.csv'
+    go_data =  load_directory + 'go_diseases.csv'
+    go_xrefs_data =  load_directory + 'go_xrefs.csv'
+    jax_diseases_data = load_directory + 'jax_diseases.csv'
     omnimap_data = '../data/tblOS_GLOBAL_JAX_DL_OmniMap.csv'
 
 
@@ -27,17 +27,17 @@ def main():
 
     #Main ontological dataframe
     ontological_df = parse_ontological(go_df)
-    ontological_path = '../load_files/ontological_diseases.csv'
+    ontological_path =  load_directory + 'ontological_diseases.csv'
     write_load_files(ontological_df, ontological_path)
 
 
     #Connecting tables
     ontological_jax_df = parse_jax(go_xrefs_df, ontological_df)
-    ontological_jax_path = '../load_files/ontological_jax_diseases.csv'
+    ontological_jax_path =  load_directory + 'ontological_jax_diseases.csv'
     write_load_files(ontological_jax_df, ontological_jax_path)
 
     ontological_go_df = parse_go(ontological_df)
-    ontological_go_path = '../load_files/ontological_go_diseases.csv'
+    ontological_go_path =  load_directory + 'ontological_go_diseases.csv'
     write_load_files(ontological_go_df, ontological_go_path)
 
     # Create onto-go and onto-jax dictionaries
@@ -45,22 +45,22 @@ def main():
     ontological_jax_dict = create_onto_jax_dict(ontological_jax_df)
 
     ontological_do_df = parse_do(jax_diseases_df, ontological_jax_dict)
-    ontological_do_path = '../load_files/ontological_do_diseases.csv'
+    ontological_do_path =  load_directory + 'ontological_do_diseases.csv'
     write_load_files(ontological_do_df, ontological_do_path)
 
     ontological_oncotree_df = parse_oncotree(go_xrefs_df, ontological_go_dict)
-    ontological_oncotree_path = '../load_files/ontological_oncotree_diseases.csv'
+    ontological_oncotree_path =  load_directory + 'ontological_oncotree_diseases.csv'
     write_load_files(ontological_oncotree_df, ontological_oncotree_path)
 
     ontological_omni_df = parse_omnidisease(omnimap_df, ontological_jax_dict)
-    ontological_omni_path = '../load_files/ontological_omnidiseases.csv'
+    ontological_omni_path =  load_directory + 'ontological_omnidiseases.csv'
     write_load_files(ontological_omni_df, ontological_omni_path)
 
     jax_mcode_df = parse_mcode(omnimap_df, ontological_jax_dict)
-    jax_mcode_path = '../load_files/ontological_mcode_diseases.csv'
+    jax_mcode_path =  load_directory + 'ontological_mcode_diseases.csv'
     write_load_files(jax_mcode_df, jax_mcode_path)
 
-
+"""
     ontological_diseases_dict= get_schema('ontological_diseases')
     ontological_jax_diseases_dict = get_schema('ontological_jax_diseases')
     ontological_do_diseases_dict = get_schema('ontological_do_diseases')
@@ -77,7 +77,7 @@ def main():
     write_sql(ontological_go_diseases_dict)
     write_sql(ontological_omnidiseases_dict)
     write_sql(ontological_mcode_diseases)
-
+"""
 # Create dictionaries
 
 def create_onto_go_dict(ontological_go_df):

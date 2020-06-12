@@ -14,13 +14,16 @@ import mysql.connector
 import datetime
 import pandas
 from pandas.io.json import json_normalize
+import write_load_files
+
 import csv
 from sql_utils import load_table, create_table, does_table_exist, \
     get_local_db_connection, maybe_create_and_select_database, \
     drop_table_if_exists
 import json
+import get_schema
 
-def main():
+def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     files = ['../data/GO_diseases/diseases_pg1.json',
              '../data/GO_diseases/diseases_pg2.json',
@@ -34,38 +37,39 @@ def main():
 
     #Parse dataframes
     go_disease_df= parse_go_main(df)
-    path = '../load_files/go_diseases.csv'
-    write_load_files(go_disease_df, path)
+    path = load_directory + 'go_diseases.csv'
+    write_load_files.main(go_disease_df, path)
 
     go_parents_df = parse_go_parents(df)
-    path_parents = '../load_files/go_parents.csv'
-    write_load_files(go_parents_df, path_parents)
+    path_parents = load_directory + 'go_parents.csv'
+    write_load_files.main(go_parents_df, path_parents)
 
     go_children_df = parse_go_children(df)
-    path_children = '../load_files/go_children.csv'
-    write_load_files(go_children_df, path_children)
+    path_children = load_directory + 'go_children.csv'
+    write_load_files.main(go_children_df, path_children)
 
     go_xrefs = parse_go_refs(df)
-    path_xrefs = '../load_files/go_xrefs.csv'
-    write_load_files(go_xrefs, path_xrefs)
+    path_xrefs = load_directory + 'go_xrefs.csv'
+    write_load_files.main(go_xrefs, path_xrefs)
 
     go_synonyms = parse_go_synonyms(df)
-    path_synonyms = '../load_files/go_synonyms.csv'
-    write_load_files(go_synonyms, path_synonyms)
+    path_synonyms = load_directory +  'go_synonyms.csv'
+    write_load_files.main(go_synonyms, path_synonyms)
 
+"""
     # Write sql tables
-    db_dict = get_schema('go_diseases')
-    db_parents_dict = get_schema('go_parents')
-    db_children_dict = get_schema('go_children')
-    db_xrefs_dict = get_schema('go_xrefs')
-    db_synonyms_dict = get_schema('go_synonyms')
+    db_dict = get_schema.get_schema('go_diseases')
+    db_parents_dict = get_schema.get_schema('go_parents')
+    db_children_dict = get_schema.get_schema('go_children')
+    db_xrefs_dict = get_schema.get_schema('go_xrefs')
+    db_synonyms_dict = get_schema.get_schema('go_synonyms')
 
-    write_sql(db_dict)
-    write_sql(db_parents_dict)
-    write_sql(db_children_dict)
-    write_sql(db_xrefs_dict)
-    write_sql(db_synonyms_dict)
-
+    write_sql.write_sql(db_dict)
+    write_sql.write_sql(db_parents_dict)
+    write_sql.write_sql(db_children_dict)
+    write_sql.write_sql(db_xrefs_dict)
+    write_sql.write_sql(db_synonyms_dict)
+"""
 ###################################################
 #  EXTRACT DATA FROM FILES TO DATAFRAME
 ###################################################
@@ -108,44 +112,6 @@ def combine_files( files):
     #Combine dataframes
     combined_df = pandas.concat(dfs_to_combine)
     return combined_df
-
-###################################################
-#  WRITE SQL
-###################################################
-# Creates and writes sql table
-# Input: dictionary with column names
-# Output: sql table is created
-def write_sql(db_dict):
-    my_db = None
-    my_cursor = None
-    try:
-        my_db = get_local_db_connection()
-        my_cursor = my_db.cursor(buffered=True)
-        for db_name in sorted(db_dict.keys()):
-            maybe_create_and_select_database(my_cursor, db_name)
-            for table_name in sorted(db_dict[db_name].keys()):
-                drop_table_if_exists(my_cursor, table_name)
-                create_table(my_cursor, table_name, db_name, db_dict)
-                load_table(my_cursor, table_name,
-                           db_dict[db_name][table_name]['col_order'])
-                my_db.commit()
-    except mysql.connector.Error as error:
-        print("Failed in MySQL: {}".format(error))
-    finally:
-        if (my_db.is_connected()):
-            my_cursor.close()
-
-###################################################
-#  WRITE CSV
-###################################################
-# Converts dataframe to csv file
-# Input: dataframe and file path
-# Output: csv file is written
-def write_load_files (df, path):
-    try:
-        df.to_csv(path, encoding='utf-8', index=False)
-    except IOError:
-        print("I/O error csv file")
 
 ###################################################
 #  PARSE
@@ -261,48 +227,6 @@ def parse_go_synonyms(df):
                 synonyms_list.append(new_dict)
     synonyms_df = pandas.DataFrame(synonyms_list)
     return synonyms_df
-
-###################################################
-#  GET SCHEMA TO CREATE SQL TABLES
-###################################################
-# Extracts sql table schema from a provided config file
-# Input: path to config file
-# Ouput: dictionary with
-def get_schema(resource):
-    db_dict = {}  # {db_name:{table_name:{col:[type,key,allow_null,
-    # ref_col_list],'col_order':[cols in order]}}}
-    init_file = open('../config/table_descriptions.csv', 'r')
-    reader = csv.reader(init_file, quotechar='\"')
-    for line in reader:
-        # print(line)
-        db_name = line[0]
-        if (db_name == 'Database'):
-            continue
-        if (db_name not in db_dict.keys()):
-            db_dict[db_name] = {}
-        table_name = line[1]
-
-        if (resource not in table_name):
-            continue
-        col = line[2]
-        col_type = line[3]
-        col_key = line[4]
-        allow_null = line[5]
-        auto_incr = line[6]
-        ref_col_list = line[7].split('|')  # we will ignore this for now during development
-        try:
-            ref_col_list.remove('')
-        except:
-            pass
-        try:
-            db_dict[db_name][table_name][col] = [col_type, col_key, allow_null, auto_incr, ref_col_list]
-            db_dict[db_name][table_name]['col_order'].append(col)
-        except:
-            db_dict[db_name][table_name] = {col: [col_type, col_key, allow_null, auto_incr, ref_col_list]}
-            db_dict[db_name][table_name] = {col: [col_type, col_key, allow_null, auto_incr, ref_col_list],
-                                            'col_order': [col]}
-    init_file.close()
-    return db_dict
 
 if __name__ == "__main__":
     main()

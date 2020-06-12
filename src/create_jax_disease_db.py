@@ -8,14 +8,15 @@ import json
 import sys
 import os
 
+
 ###################################################
 #  WRITE CSV
 ###################################################
 
-def write_load_files (disease_list):
+def write_load_files (disease_list, load_directory):
     csv_columns = ["jaxId", "name", "source", "definition", "currentPreferredTerm", "lastUpdateDateFromDO",
                    "termId", "graph_id"]
-    csv_file =  '../load_files/jax_diseases.csv'
+    csv_file =  load_directory + 'jax_diseases.csv'
     try:
         with open(csv_file, "w", encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=csv_columns, lineterminator="\n")
@@ -120,7 +121,7 @@ def get_schema():
     #print(db_dict)
     return db_dict
 
-def main():
+def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     my_db = None
     my_cursor = None
@@ -128,7 +129,8 @@ def main():
     print('WARNING: skipping JAX download during development')
     #download_jax()
     disease_list = parse_jax()
-    write_load_files(disease_list)
+    write_load_files(disease_list, load_directory)
+    """
     db_dict = get_schema()
     try:
         my_db = get_local_db_connection()
@@ -146,6 +148,7 @@ def main():
         if (my_db.is_connected()):
             my_cursor.close()
     print(datetime.datetime.now().strftime("%H:%M:%S"))
+    """
 
 if __name__ == "__main__":
     main()
