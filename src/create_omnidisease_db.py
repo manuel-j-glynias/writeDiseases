@@ -26,10 +26,10 @@ def main(load_directory):
     omni_disease_df = parse_omnidisease(df)
     path = load_directory + 'omni_diseases.csv'
     write_load_files.main(omni_disease_df, path)
-    """
+
     db_dict = get_schema.get_schema('omni_diseases')
     write_sql.write_sql(db_dict)
-    """
+
 
 # Creates omnidisease  dataframe
 # Input: dataframe

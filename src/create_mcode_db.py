@@ -40,7 +40,7 @@ def main(load_directory):
     path_children = load_directory + 'mcode_children.csv'
     write_load_files.main(mcode_children_df, path_children)
 
-    """
+
     db_dict = get_schema.get_schema('mcode_diseases')
     db_parents_dict = get_schema.get_schema('mcode_parents')
     db_children_dict = get_schema.get_schema('mcode_children')
@@ -48,7 +48,7 @@ def main(load_directory):
     write_sql.write_sql(db_dict)
     write_sql.write_sql(db_parents_dict)
     write_sql.write_sql(db_children_dict)
-    """
+
 
 # Creates  mcode dataframe
 # Input: dataframe

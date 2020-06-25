@@ -7,6 +7,9 @@ from sql_utils import load_table, create_table, does_table_exist, \
     get_local_db_connection, maybe_create_and_select_database, \
     drop_table_if_exists
 import json
+import write_sql
+import get_schema
+
 
 def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
@@ -60,24 +63,24 @@ def main(load_directory):
     jax_mcode_path =  load_directory + 'ontological_mcode_diseases.csv'
     write_load_files(jax_mcode_df, jax_mcode_path)
 
-"""
-    ontological_diseases_dict= get_schema('ontological_diseases')
-    ontological_jax_diseases_dict = get_schema('ontological_jax_diseases')
-    ontological_do_diseases_dict = get_schema('ontological_do_diseases')
-    ontological_oncotree_diseases_dict = get_schema('ontological_oncotree_diseases')
-    ontological_go_diseases_dict = get_schema('ontological_go_diseases')
-    ontological_omnidiseases_dict = get_schema('ontological_omnidiseases')
-    ontological_mcode_diseases = get_schema('ontological_mcode_diseases')
+
+    ontological_diseases_dict= get_schema.get_schema('ontological_diseases')
+    ontological_jax_diseases_dict = get_schema.get_schema('ontological_jax_diseases')
+    ontological_do_diseases_dict = get_schema.get_schema('ontological_do_diseases')
+    ontological_oncotree_diseases_dict = get_schema.get_schema('ontological_oncotree_diseases')
+    ontological_go_diseases_dict = get_schema.get_schema('ontological_go_diseases')
+    ontological_omnidiseases_dict = get_schema.get_schema('ontological_omnidiseases')
+    ontological_mcode_diseases = get_schema.get_schema('ontological_mcode_diseases')
 
 
-    write_sql(ontological_diseases_dict)
-    write_sql(ontological_jax_diseases_dict)
-    write_sql(ontological_do_diseases_dict)
-    write_sql(ontological_oncotree_diseases_dict)
-    write_sql(ontological_go_diseases_dict)
-    write_sql(ontological_omnidiseases_dict)
-    write_sql(ontological_mcode_diseases)
-"""
+    write_sql.write_sql(ontological_diseases_dict)
+    write_sql.write_sql(ontological_jax_diseases_dict)
+    write_sql.write_sql(ontological_do_diseases_dict)
+    write_sql.write_sql(ontological_oncotree_diseases_dict)
+    write_sql.write_sql(ontological_go_diseases_dict)
+    write_sql.write_sql(ontological_omnidiseases_dict)
+    write_sql.write_sql(ontological_mcode_diseases)
+
 # Create dictionaries
 
 def create_onto_go_dict(ontological_go_df):
@@ -230,77 +233,6 @@ def write_load_files (df, path):
         df.to_csv(path, encoding='utf-8', index=False)
     except IOError:
         print("I/O error csv file")
-
-
-
-###################################################
-#  GET SCHEMA TO CREATE SQL TABLES
-###################################################
-# Extracts sql table schema from a provided config file
-# Input: path to config file
-# Ouput: dictionary with
-def get_schema(resource):
-    db_dict = {}  # {db_name:{table_name:{col:[type,key,allow_null,
-    # ref_col_list],'col_order':[cols in order]}}}
-    init_file = open('../config/table_descriptions.csv', 'r')
-    reader = csv.reader(init_file, quotechar='\"')
-    for line in reader:
-        # print(line)
-        db_name = line[0]
-        if (db_name == 'Database'):
-            continue
-        if (db_name not in db_dict.keys()):
-            db_dict[db_name] = {}
-        table_name = line[1]
-
-        if (resource not in table_name):
-            continue
-        col = line[2]
-        col_type = line[3]
-        col_key = line[4]
-        allow_null = line[5]
-        auto_incr = line[6]
-        ref_col_list = line[7].split('|')  # we will ignore this for now during development
-        try:
-            ref_col_list.remove('')
-        except:
-            pass
-        try:
-            db_dict[db_name][table_name][col] = [col_type, col_key, allow_null, auto_incr, ref_col_list]
-            db_dict[db_name][table_name]['col_order'].append(col)
-        except:
-            db_dict[db_name][table_name] = {col: [col_type, col_key, allow_null, auto_incr, ref_col_list]}
-            db_dict[db_name][table_name] = {col: [col_type, col_key, allow_null, auto_incr, ref_col_list],
-                                            'col_order': [col]}
-    init_file.close()
-    return db_dict
-
-###################################################
-#  WRITE SQL
-###################################################
-# Creates and writes sql table
-# Input: dictionary with column names
-# Output: sql table is created
-def write_sql(db_dict):
-    my_db = None
-    my_cursor = None
-    try:
-        my_db = get_local_db_connection()
-        my_cursor = my_db.cursor(buffered=True)
-        for db_name in sorted(db_dict.keys()):
-            maybe_create_and_select_database(my_cursor, db_name)
-            for table_name in sorted(db_dict[db_name].keys()):
-                drop_table_if_exists(my_cursor, table_name)
-                create_table(my_cursor, table_name, db_name, db_dict)
-                load_table(my_cursor, table_name,
-                           db_dict[db_name][table_name]['col_order'])
-                my_db.commit()
-    except mysql.connector.Error as error:
-        print("Failed in MySQL: {}".format(error))
-    finally:
-        if (my_db.is_connected()):
-            my_cursor.close()
-
 
 
 if __name__ == "__main__":

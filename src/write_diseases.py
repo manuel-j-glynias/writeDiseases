@@ -7,7 +7,7 @@ import create_mcode_db
 import create_omnidisease_db
 import create_tcode_db
 
-load_directory = 'C:/Users/irina.kurtz/PycharmProjects/writeVariants2/load_files/extracted/'
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 
 def main():
     create_do_disease_db.main(load_directory)

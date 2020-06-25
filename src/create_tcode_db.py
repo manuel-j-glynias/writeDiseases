@@ -16,6 +16,7 @@ import pandas
 import write_load_files
 import csv
 import get_schema
+import write_sql
 from sql_utils import load_table, create_table, does_table_exist, \
     get_local_db_connection, maybe_create_and_select_database, \
     drop_table_if_exists
@@ -39,7 +40,6 @@ def main(load_directory):
     path_children = load_directory + 'tcode_children.csv'
     write_load_files.main(tcode_children_df, path_children)
 
-    """
     db_dict = get_schema.get_schema('tcode_diseases')
     db_parents_dict = get_schema.get_schema('tcode_parents')
     db_children_dict = get_schema.get_schema('tcode_children')
@@ -47,7 +47,6 @@ def main(load_directory):
     write_sql.write_sql(db_dict)
     write_sql.write_sql(db_parents_dict)
     write_sql.write_sql(db_children_dict)
-    """
 
 # Creates  tcode dataframe
 # Input: dataframe

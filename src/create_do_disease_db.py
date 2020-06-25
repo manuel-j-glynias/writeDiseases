@@ -11,14 +11,28 @@ Changed on 6/2/2020:
 """
 
 import os
-#import sys
-from pprint import pprint
 import datetime
 import requests
-import pymysql
 import csv
 import mysql.connector
+import pandas
 from sql_utils import load_table, create_table, does_table_exist, get_local_db_connection, maybe_create_and_select_database, drop_table_if_exists
+import create_id
+import create_editable_statement
+import create_editable_synonyms
+import write_sql
+import get_schema
+
+
+editable_statement_list = ['name', 'definition']
+editable_synonyms_list = ['synonyms']
+loader_id = '007'
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+do_table_name = 'DoDiseases'
+import write_load_files
+import get_schema
+
+id_class = create_id.ID('', '')
 
 def download_do():
     os.chdir('../data/')
@@ -40,7 +54,6 @@ def parse_do():
     doid_dict = {}  # {do_id:{'name':name, 'alt_id':(alt_ids), 'def':[(urls),definition], 'subset':(subsets), 'synonym':{syn_type:(synonyms)}, 'xref':{xref_src:(src_ids)}, 'is_a':(do_ids)}
 
     doid_child_dict = {}  # {do_id:(direct children terms)}
-
 
     term_flag = False
     for line in in_file:
@@ -167,7 +180,7 @@ def parse_do():
     print('Found', len(doid_dict.keys()), 'Disease Ontology terms that are not obsolete')
     return(doid_dict, doid_child_dict)
 
-def get_schema():
+def get_schema_original():
     db_dict = {}  # {db_name:{table_name:{col:[type,key,allow_null,ref_col_list],'col_order':[cols in order]}}}
 
     init_file = open('../config/table_descriptions.csv', 'r')
@@ -206,17 +219,19 @@ def get_schema():
     return db_dict
 
 
-def write_load_files(db_dict, doid_dict, doid_child_dict, load_directory):
-    #{db_name: {table_name: {col: [type, key, allow_null,ref_col_list], 'col_order': [cols in order]}}}
-    #doid_dict = {}  # {do_id:{'name':name, 'alt_id':(alt_ids), 'def':[url,definition], 'subset':(subsets), 'synonym':{syn_type:(synonyms)}, 'xref':{xref_src:(src_ids)}, 'is_a':(is_a)}}
+def write_load_files_original(db_dict, doid_dict, doid_child_dict, load_directory):
+    list_of_lists = []
+    do_disease_list = []
+    do_url_list = []
+    do_syn_list = []
+    do_xrefs_list = []
+    do_subsets_list = []
+    do_parents_list = []
+    do_children_list = []
     for db_name in sorted(db_dict.keys()):
         for table_name in sorted(db_dict[db_name].keys()):
-            out_file = open(load_directory + table_name + '.csv', 'w', encoding='utf-8')
-            header = db_dict[db_name][table_name]['col_order']
-            writer = csv.writer(out_file, lineterminator='\n')
-            writer.writerow(header)
-
-            if ('diseases' in table_name):
+            if (table_name == 'do_diseases'):
+                length_now = len(doid_dict.keys())
                 for do_id in sorted(doid_dict.keys()):
                     dx_name = doid_dict[do_id]['name']
                     try:
@@ -224,8 +239,10 @@ def write_load_files(db_dict, doid_dict, doid_child_dict, load_directory):
                     except:
                         definition = ''
                     graph_id = do_id.replace('ID:', '_disease_').lower()
-                    cur_data = [do_id,dx_name,definition,graph_id]
-                    writer.writerow(cur_data)
+                    altered = definition.replace('\\"', '\'')
+                    altered = altered.replace('\\n', ' ')
+                    new_dict = {'doId': do_id, 'name': dx_name, 'definition': altered, 'graph_id':graph_id}
+                    do_disease_list.append(new_dict)
             if ('definition_urls' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     try:
@@ -234,41 +251,53 @@ def write_load_files(db_dict, doid_dict, doid_child_dict, load_directory):
                         continue
                     for url in sorted(url_set):
                         cur_data = [do_id.replace('ID:', '_disease_').lower(), url]
-                        writer.writerow(cur_data)
+                        new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(), 'url': url}
+                        do_url_list.append(new_dict)
             elif ('synonyms' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('synonym' in doid_dict[do_id].keys()):
                         for syn_type in sorted(doid_dict[do_id]['synonym'].keys()):
                             for synonym in sorted(doid_dict[do_id]['synonym'][syn_type]):
-                                cur_data = [do_id.replace('ID:', '_disease_').lower(), syn_type, synonym]
-                                writer.writerow(cur_data)
+                                new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(), 'synonymType': syn_type, 'synonym': synonym}
+                                do_syn_list.append(new_dict)
             elif ('xrefs' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('xref' in doid_dict[do_id].keys()):
                         for source in sorted(doid_dict[do_id]['xref'].keys()):
                             for src_id in sorted(doid_dict[do_id]['xref'][source]):
-                                cur_data = [do_id.replace('ID:', '_disease_').lower().lower(), source, src_id]
-                                writer.writerow(cur_data)
+                                new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(),
+                                            'source': source, 'xrefId': src_id}
+                                do_xrefs_list.append(new_dict)
             elif ('subsets' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('subset' in doid_dict[do_id].keys()):
                         for subset in sorted(doid_dict[do_id]['subset']):
-                            cur_data = [do_id.replace('ID:', '_disease_').lower(), subset]
-                            writer.writerow(cur_data)
+                            new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(),
+                                        'subset': subset}
+                            do_subsets_list.append(new_dict)
             elif ('parents' in table_name):
                 for do_id in sorted(doid_dict.keys()):
                     if ('is_a' in doid_dict[do_id].keys()):
                         for parent in sorted(doid_dict[do_id]['is_a']):
-                            #inferred_flag = doid_dict[do_id]['is_a'][parent]
-                            cur_data = [do_id.replace('ID:', '_disease_').lower(), parent.replace('ID:', '_disease_').lower()]
-                            #cur_data = [do_id, parent, inferred_flag]
-                            writer.writerow(cur_data)
+                            new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(),
+                                        'parent': parent.replace('ID:', '_disease_').lower()}
+                            do_parents_list.append(new_dict)
             elif ('children' in table_name):
                 for do_id in sorted(doid_child_dict.keys()):
                     for child in sorted(doid_child_dict[do_id]):
-                        cur_data = [do_id.replace('ID:', '_disease_').lower(),child]
-                        writer.writerow(cur_data)
-            out_file.close()
+                        new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(),
+                                    'child': child}
+                        do_children_list.append(new_dict)
+
+    list_of_lists.append(do_disease_list)
+    print ('length: ' + str(len(do_disease_list)))
+    list_of_lists.append(do_url_list)
+    list_of_lists.append(do_syn_list)
+    list_of_lists.append(do_xrefs_list)
+    list_of_lists.append(do_subsets_list)
+    list_of_lists.append(do_parents_list)
+    list_of_lists.append(do_children_list)
+    return list_of_lists
 
 def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
@@ -278,27 +307,86 @@ def main(load_directory):
     print('WARNING: skipping DiseaseOntology download during development')
     #download_do()
     doid_dict,doid_child_dict = parse_do()
-    db_dict = get_schema()
-    write_load_files(db_dict, doid_dict, doid_child_dict, load_directory)
 
-    """
-    try:
-        my_db = get_local_db_connection()
-        my_cursor = my_db.cursor(buffered=True)
-        for db_name in sorted(db_dict.keys()):
-            maybe_create_and_select_database(my_cursor, db_name)
-            for table_name in sorted(db_dict[db_name].keys()):
-                drop_table_if_exists(my_cursor, table_name)
-                create_table(my_cursor, table_name, db_name, db_dict)
-                load_table(my_cursor, table_name, db_dict[db_name][table_name]['col_order'])
-                my_db.commit()
-    except mysql.connector.Error as error:
-        print("Failed in MySQL: {}".format(error))
-    finally:
-        if (my_db.is_connected()):
-            my_cursor.close()
+    db_dict = get_schema_original()
+    do_disease_list_of_listst = write_load_files_original(db_dict, doid_dict, doid_child_dict, load_directory)
+
+    do_disease_df = pandas.DataFrame(do_disease_list_of_listst[0])
+    df_editable = create_editable_statement.assign_editable_statement(do_disease_df,
+                                                                      editable_statement_list, loader_id, load_directory, do_table_name, id_class)
+
+    df_synonyms = pandas.DataFrame(do_disease_list_of_listst[2])
+    df_synonyms_exact = split_synonyms('EXACT', df_synonyms)
+    df_synonyms_related = split_synonyms('RELATED', df_synonyms)
+    syn_dict_exact = create_editable_synonyms.assign_editable_synonyms(df_synonyms_exact, loader_id, load_directory , do_table_name, id_class)
+    syn_dict_related = create_editable_synonyms.assign_editable_synonyms(df_synonyms_related, loader_id, load_directory , do_table_name, id_class)
+
+    df_editable = add_column_to_dataframe(df_editable, syn_dict_exact, 'exact_synonyms')
+    df_editable = add_column_to_dataframe(df_editable, syn_dict_related, 'related_synonyms')
+  ############################
+    do_disease_df = df_editable[['doId', 'name', 'definition', 'exact_synonyms', 'related_synonyms', 'graph_id']]
+
+    path = load_directory + 'do_diseases.csv'
+    write_load_files.main(do_disease_df, path)
+
+    do_parents_df = pandas.DataFrame(do_disease_list_of_listst[5])
+    path_parents = load_directory + 'do_parents.csv'
+    write_load_files.main(do_parents_df, path_parents)
+
+    do_children_df = pandas.DataFrame(do_disease_list_of_listst[6])
+    path_children = load_directory + 'do_children.csv'
+    write_load_files.main(do_children_df, path_children)
+
+    do_xrefs_df = pandas.DataFrame(do_disease_list_of_listst[3])
+    path_xrefs = load_directory + 'do_xrefs.csv'
+    write_load_files.main(do_xrefs_df, path_xrefs)
+
+    do_url_df = pandas.DataFrame(do_disease_list_of_listst[1])
+    path_urls = load_directory + 'do_definition_urls.csv'
+    write_load_files.main(do_url_df, path_urls)
+
+    do_subsets_df = pandas.DataFrame(do_disease_list_of_listst[4])
+    path_subsets = load_directory + 'do_subsets.csv'
+    write_load_files.main(do_subsets_df, path_subsets)
+
+    # Write sql tables
+    db_dict = get_schema.get_schema('do_diseases')
+    db_parents_dict = get_schema.get_schema('do_parents')
+    db_children_dict = get_schema.get_schema('do_children')
+    db_xrefs_dict= get_schema.get_schema('do_xrefs')
+    db_urls_dict = get_schema.get_schema('do_definition_urls')
+    db_subsets_dict = get_schema.get_schema('do_subsets')
+    editable_statement_dict = get_schema.get_schema('EditableStatement')
+    editable_synonyms_list_dict = get_schema.get_schema('EditableSynonymsList')
+    synonym_dict = get_schema.get_schema('Synonym')
+
+    write_sql.write_sql(db_dict, 'do_diseases')
+    write_sql.write_sql(db_parents_dict, 'do_parents')
+    write_sql.write_sql(db_children_dict, 'do_children')
+    write_sql.write_sql(db_xrefs_dict, 'do_xrefs')
+    write_sql.write_sql(db_urls_dict, 'do_definition_urls')
+    write_sql.write_sql(db_subsets_dict, 'do_subsets')
+    write_sql.write_sql(editable_statement_dict, 'EditableStatement')
+    write_sql.write_sql(editable_synonyms_list_dict, 'EditableSynonymsList')
+    write_sql.write_sql(synonym_dict, 'Synonym')
+
     print(datetime.datetime.now().strftime("%H:%M:%S"))
-    """
+
+def split_synonyms(synonymType, df_synonyms):
+    df_splitted = df_synonyms[df_synonyms['synonymType'] ==  synonymType]
+
+    return df_splitted
+
+def add_column_to_dataframe(df_in_need, synonym_dict, column):
+   #Put esl value back to the main dataframe
+   for index, row in df_in_need.iterrows():
+       df_in_need.at[index, column] = ""
+       disease_id = row['graph_id']
+       if disease_id == 'do_disease_0050025':
+           print()
+       if disease_id in synonym_dict:
+           df_in_need.at[index, column] = synonym_dict[disease_id]
+   return df_in_need
 
 if __name__ == "__main__":
-    main()
+    main(load_directory)

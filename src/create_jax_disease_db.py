@@ -8,6 +8,25 @@ import json
 import sys
 import os
 
+import pandas
+from sql_utils import load_table, create_table, does_table_exist, get_local_db_connection, maybe_create_and_select_database, drop_table_if_exists
+import create_id
+import create_editable_statement
+import create_editable_synonyms
+import write_sql
+import get_schema
+
+
+editable_statement_list = ['name', 'definition']
+editable_synonyms_list = ['synonyms']
+loader_id = '007'
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+do_table_name = 'DoDiseases'
+import write_load_files
+import get_schema
+
+id_class = create_id.ID('', '')
+
 
 ###################################################
 #  WRITE CSV
@@ -130,7 +149,7 @@ def main(load_directory):
     #download_jax()
     disease_list = parse_jax()
     write_load_files(disease_list, load_directory)
-    """
+
     db_dict = get_schema()
     try:
         my_db = get_local_db_connection()
@@ -148,7 +167,7 @@ def main(load_directory):
         if (my_db.is_connected()):
             my_cursor.close()
     print(datetime.datetime.now().strftime("%H:%M:%S"))
-    """
+
 
 if __name__ == "__main__":
     main()

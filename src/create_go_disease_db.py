@@ -11,10 +11,22 @@ the files to SQL tables:
 by IK
 """
 import mysql.connector
+import create_id
 import datetime
 import pandas
 from pandas.io.json import json_normalize
 import write_load_files
+import create_editable_statement
+import create_editable_synonyms
+import write_sql
+
+editable_statement_list = ['name', 'definition']
+editable_synonyms_list = ['synonyms']
+loader_id = '007'
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+table_name = 'GoDiseases'
+id_class = create_id.ID('', '')
+
 
 import csv
 from sql_utils import load_table, create_table, does_table_exist, \
@@ -37,39 +49,46 @@ def main(load_directory):
 
     #Parse dataframes
     go_disease_df= parse_go_main(df)
+    go_parents_df = parse_go_parents(df)
+    go_children_df = parse_go_children(df)
+    go_xrefs = parse_go_refs(df)
+    go_disease_df = parse_go_synonyms(df, go_disease_df)
+
     path = load_directory + 'go_diseases.csv'
     write_load_files.main(go_disease_df, path)
 
-    go_parents_df = parse_go_parents(df)
     path_parents = load_directory + 'go_parents.csv'
     write_load_files.main(go_parents_df, path_parents)
 
-    go_children_df = parse_go_children(df)
     path_children = load_directory + 'go_children.csv'
     write_load_files.main(go_children_df, path_children)
 
-    go_xrefs = parse_go_refs(df)
     path_xrefs = load_directory + 'go_xrefs.csv'
     write_load_files.main(go_xrefs, path_xrefs)
 
-    go_synonyms = parse_go_synonyms(df)
-    path_synonyms = load_directory +  'go_synonyms.csv'
-    write_load_files.main(go_synonyms, path_synonyms)
+    # path_synonyms = load_directory +  'go_synonyms.csv'
+    # write_load_files.main(go_synonyms, path_synonyms)
 
-"""
     # Write sql tables
     db_dict = get_schema.get_schema('go_diseases')
     db_parents_dict = get_schema.get_schema('go_parents')
     db_children_dict = get_schema.get_schema('go_children')
     db_xrefs_dict = get_schema.get_schema('go_xrefs')
-    db_synonyms_dict = get_schema.get_schema('go_synonyms')
+    #db_synonyms_dict = get_schema.get_schema('go_synonyms')
+    editable_statement_dict = get_schema.get_schema('EditableStatement')
+    editable_synonyms_list_dict = get_schema.get_schema('EditableSynonymsList')
+    synonym_dict = get_schema.get_schema('Synonym')
 
-    write_sql.write_sql(db_dict)
-    write_sql.write_sql(db_parents_dict)
-    write_sql.write_sql(db_children_dict)
-    write_sql.write_sql(db_xrefs_dict)
-    write_sql.write_sql(db_synonyms_dict)
-"""
+    write_sql.write_sql(db_dict, 'go_diseases')
+    write_sql.write_sql(db_parents_dict, 'go_parents')
+    write_sql.write_sql(db_children_dict, 'go_children')
+    write_sql.write_sql(db_xrefs_dict, 'go_xrefs')
+    #write_sql.write_sql(db_synonyms_dict, 'go_synonyms')
+    write_sql.write_sql(editable_statement_dict, 'EditableStatement')
+    write_sql.write_sql(editable_synonyms_list_dict, 'EditableSynonymsList')
+    write_sql.write_sql(synonym_dict, 'Synonym')
+
+
 ###################################################
 #  EXTRACT DATA FROM FILES TO DATAFRAME
 ###################################################
@@ -110,7 +129,7 @@ def combine_files( files):
         dfs_to_combine.append(df2)
 
     #Combine dataframes
-    combined_df = pandas.concat(dfs_to_combine)
+    combined_df = pandas.concat(dfs_to_combine, ignore_index=True)
     return combined_df
 
 ###################################################
@@ -120,8 +139,10 @@ def combine_files( files):
 # Input: dataframe
 # Output: transformed dataframe
 def parse_go_main(df):
-    new_df = df[['id', 'name', 'definition', 'graph_id']].copy(deep=True)
-    return new_df
+
+    df1 = df[['id', 'name', 'definition', 'graph_id']].copy(deep=True)
+    df_editable = create_editable_statement.assign_editable_statement(df1, editable_statement_list, loader_id, load_directory, table_name,id_class)
+    return df_editable
 
 # Creates dataframe with parents
 # Input: dataframe
@@ -214,7 +235,7 @@ def parse_go_refs(df):
 # Creates a dataframe with graph_id and corresponding synonym
 # Input: original dataframe
 #Output: dataframe with graph_id and synonym
-def parse_go_synonyms(df):
+def parse_go_synonyms(df, go_disease_df):
     synonyms_list = []
     # Get synonyms
     for index, row in df.iterrows():
@@ -226,7 +247,16 @@ def parse_go_synonyms(df):
                 new_dict['synonym'] = entry
                 synonyms_list.append(new_dict)
     synonyms_df = pandas.DataFrame(synonyms_list)
-    return synonyms_df
+    syn_esl_dict = create_editable_synonyms.assign_editable_synonyms(synonyms_df, loader_id, load_directory, table_name, id_class)
+
+    # Put esl value back to the main dataframe
+    for index, row in go_disease_df.iterrows():
+        go_disease_df.at[index, 'synonyms'] = ""
+        disease_id = row['graph_id']
+        if disease_id in syn_esl_dict:
+            go_disease_df.at[index, 'synonyms'] = syn_esl_dict[disease_id]
+    go_disease_df = go_disease_df[['id', 'name', 'definition', 'synonyms', 'graph_id']]
+    return go_disease_df
 
 if __name__ == "__main__":
-    main()
+    main(load_directory)

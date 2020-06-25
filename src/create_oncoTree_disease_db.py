@@ -37,7 +37,7 @@ def main(load_directory):
     path_children = load_directory +  'oncotree_children.csv'
     write_load_files.main(oncotree_df_children, path_children)
 
-    """
+
     # Write sql tables
     db_dict = get_schema.get_schema('oncotree_diseases')
     db_dict_refs = get_schema.get_schema( 'oncotree_xrefs')
@@ -50,7 +50,7 @@ def main(load_directory):
     write_sql.write_sql(db_dict_children)
 
     print(datetime.datetime.now().strftime("%H:%M:%S"))
-    """
+
 
 ###################################################
 #  PARSE
