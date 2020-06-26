@@ -12,7 +12,7 @@ import pandas
 from sql_utils import load_table, create_table, does_table_exist, get_local_db_connection, maybe_create_and_select_database, drop_table_if_exists
 import create_id
 import create_editable_statement
-import create_editable_synonyms
+import create_EditableStringList
 import write_sql
 import get_schema
 

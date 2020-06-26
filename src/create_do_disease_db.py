@@ -19,7 +19,7 @@ import pandas
 from sql_utils import load_table, create_table, does_table_exist, get_local_db_connection, maybe_create_and_select_database, drop_table_if_exists
 import create_id
 import create_editable_statement
-import create_editable_synonyms
+import create_EditableStringList
 import write_sql
 import get_schema
 
@@ -231,7 +231,6 @@ def write_load_files_original(db_dict, doid_dict, doid_child_dict, load_director
     for db_name in sorted(db_dict.keys()):
         for table_name in sorted(db_dict[db_name].keys()):
             if (table_name == 'do_diseases'):
-                length_now = len(doid_dict.keys())
                 for do_id in sorted(doid_dict.keys()):
                     dx_name = doid_dict[do_id]['name']
                     try:
@@ -290,7 +289,6 @@ def write_load_files_original(db_dict, doid_dict, doid_child_dict, load_director
                         do_children_list.append(new_dict)
 
     list_of_lists.append(do_disease_list)
-    print ('length: ' + str(len(do_disease_list)))
     list_of_lists.append(do_url_list)
     list_of_lists.append(do_syn_list)
     list_of_lists.append(do_xrefs_list)
@@ -305,27 +303,33 @@ def main(load_directory):
     my_cursor = None
 
     print('WARNING: skipping DiseaseOntology download during development')
+
     #download_do()
     doid_dict,doid_child_dict = parse_do()
-
     db_dict = get_schema_original()
     do_disease_list_of_listst = write_load_files_original(db_dict, doid_dict, doid_child_dict, load_directory)
 
+    # Write editable statement table
     do_disease_df = pandas.DataFrame(do_disease_list_of_listst[0])
     df_editable = create_editable_statement.assign_editable_statement(do_disease_df,
                                                                       editable_statement_list, loader_id, load_directory, do_table_name, id_class)
 
+    # Split synonyms, assign editable, and write editable synonym  tables
     df_synonyms = pandas.DataFrame(do_disease_list_of_listst[2])
     df_synonyms_exact = split_synonyms('EXACT', df_synonyms)
     df_synonyms_related = split_synonyms('RELATED', df_synonyms)
-    syn_dict_exact = create_editable_synonyms.assign_editable_synonyms(df_synonyms_exact, loader_id, load_directory , do_table_name, id_class)
-    syn_dict_related = create_editable_synonyms.assign_editable_synonyms(df_synonyms_related, loader_id, load_directory , do_table_name, id_class)
-
+    syn_dict_exact = create_EditableStringList.assign_editable_lists(df_synonyms_exact, loader_id, load_directory, id_class, 'synonym')
+    syn_dict_related = create_EditableStringList.assign_editable_lists(df_synonyms_related, loader_id, load_directory, id_class, 'synonym')
     df_editable = add_column_to_dataframe(df_editable, syn_dict_exact, 'exact_synonyms')
     df_editable = add_column_to_dataframe(df_editable, syn_dict_related, 'related_synonyms')
-  ############################
-    do_disease_df = df_editable[['doId', 'name', 'definition', 'exact_synonyms', 'related_synonyms', 'graph_id']]
 
+
+    # Write editable list for subsets
+    do_subsets_df = pandas.DataFrame(do_disease_list_of_listst[4])
+    sub_dict = create_EditableStringList.assign_editable_lists(do_subsets_df, loader_id, load_directory, id_class, 'subset')
+    df_editable = add_column_to_dataframe(df_editable, syn_dict_related, 'subsets')
+
+    do_disease_df = df_editable[['doId', 'name', 'definition', 'exact_synonyms', 'related_synonyms', 'subsets',  'graph_id']]
     path = load_directory + 'do_diseases.csv'
     write_load_files.main(do_disease_df, path)
 
@@ -357,8 +361,8 @@ def main(load_directory):
     db_urls_dict = get_schema.get_schema('do_definition_urls')
     db_subsets_dict = get_schema.get_schema('do_subsets')
     editable_statement_dict = get_schema.get_schema('EditableStatement')
-    editable_synonyms_list_dict = get_schema.get_schema('EditableSynonymsList')
-    synonym_dict = get_schema.get_schema('Synonym')
+    editable_string_list_dict = get_schema.get_schema('EditableStringList')
+    element_dict = get_schema.get_schema('EditableStringListElements')
 
     write_sql.write_sql(db_dict, 'do_diseases')
     write_sql.write_sql(db_parents_dict, 'do_parents')
@@ -367,8 +371,8 @@ def main(load_directory):
     write_sql.write_sql(db_urls_dict, 'do_definition_urls')
     write_sql.write_sql(db_subsets_dict, 'do_subsets')
     write_sql.write_sql(editable_statement_dict, 'EditableStatement')
-    write_sql.write_sql(editable_synonyms_list_dict, 'EditableSynonymsList')
-    write_sql.write_sql(synonym_dict, 'Synonym')
+    write_sql.write_sql(editable_string_list_dict, 'EditableStringList')
+    write_sql.write_sql(element_dict, 'EditableStringListElements')
 
     print(datetime.datetime.now().strftime("%H:%M:%S"))
 
@@ -377,15 +381,13 @@ def split_synonyms(synonymType, df_synonyms):
 
     return df_splitted
 
-def add_column_to_dataframe(df_in_need, synonym_dict, column):
+def add_column_to_dataframe(df_in_need, column_dict, column):
    #Put esl value back to the main dataframe
    for index, row in df_in_need.iterrows():
        df_in_need.at[index, column] = ""
        disease_id = row['graph_id']
-       if disease_id == 'do_disease_0050025':
-           print()
-       if disease_id in synonym_dict:
-           df_in_need.at[index, column] = synonym_dict[disease_id]
+       if disease_id in column_dict:
+           df_in_need.at[index, column] = column_dict[disease_id]
    return df_in_need
 
 if __name__ == "__main__":

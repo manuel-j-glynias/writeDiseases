@@ -17,7 +17,7 @@ import pandas
 from pandas.io.json import json_normalize
 import write_load_files
 import create_editable_statement
-import create_editable_synonyms
+import create_EditableStringList
 import write_sql
 
 editable_statement_list = ['name', 'definition']
@@ -247,7 +247,7 @@ def parse_go_synonyms(df, go_disease_df):
                 new_dict['synonym'] = entry
                 synonyms_list.append(new_dict)
     synonyms_df = pandas.DataFrame(synonyms_list)
-    syn_esl_dict = create_editable_synonyms.assign_editable_synonyms(synonyms_df, loader_id, load_directory, table_name, id_class)
+    syn_esl_dict = create_EditableStringList.assign_editable_lists(synonyms_df, loader_id, load_directory, table_name, id_class, 'synonym')
 
     # Put esl value back to the main dataframe
     for index, row in go_disease_df.iterrows():

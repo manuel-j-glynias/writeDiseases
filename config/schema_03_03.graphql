@@ -35,10 +35,10 @@ type EditableStatement implements EditableObject{
     references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
 }
 
-type EditableSynonymList  implements EditableObject{
+type EditableStringList  implements EditableObject{
     id: ID!
     field: String!
-    list: [String]!
+    stringList: [String]!
     editor: User! @relation(name: "EDITED_BY", direction: "OUT")
     editDate: String!
     references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
@@ -206,14 +206,14 @@ type InternetReference implements Reference{
 
 type JaxGene   {
     id: ID!
-    #    name == Gene Symbox
+    #    name == Gene Symbol
     name: String!
-    description: EditableStatement!
+    description: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
     entrezId: String!
     jaxId: String!
     chromosome: String!
-    synonyms: EditableSynonymList!
-    canonicalTranscript:[EditableStatement]!
+    synonyms: EditableStringList!  @relation(name: "ALSO_NAMED", direction: "OUT")
+    canonicalTranscript:[EditableStatement]!  @relation(name: "TRANSCRIBED_BY", direction: "OUT")
 }
 
 enum Strand {
@@ -224,12 +224,11 @@ enum Strand {
 type MyGeneInfoGene   {
     id: ID!
     name: String!
-    description: EditableStatement!
+    description: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
     chromosome: String!
     strand: Strand!
     start: Int
     end: Int
-#    synonyms: EditableSynonymList!
     entrezId: String!
     uniprotEntry: UniprotEntry! @relation(name: "CODED_BY", direction: "IN")
 }
@@ -237,7 +236,7 @@ type MyGeneInfoGene   {
 type UniprotEntry  {
     id: ID!
     name: String!
-    function: EditableStatement!
+    function: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
     uniprotId:String!
     accessionNumber: String!
     gene: MyGeneInfoGene! @relation(name: "CODED_BY", direction: "OUT")
@@ -252,20 +251,21 @@ type OmniGene implements Target  {
     id: ID!
     name: String!
     panelName: String!
-    geneDescription: EditableStatement!
-    oncogenicCategory: EditableStatement!
-    synonyms: EditableSynonymList!
-    transcript: EditableStatement!
-    myGeneInfoGene: MyGeneInfoGene!
-    uniprotEntry: UniprotEntry
-    jaxGene: JaxGene
+    geneDescription: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    oncogenicCategory: EditableStatement! @relation(name: "CATEGORIZED_AS", direction: "OUT")
+    synonyms: EditableStringList!   @relation(name: "ALSO_NAMED", direction: "OUT")
+    transcript: EditableStatement!  @relation(name: "TRANSCRIBED_BY", direction: "OUT")
+    myGeneInfoGene: MyGeneInfoGene!  @relation(name: "GENE_INFO", direction: "OUT")
+    uniprotEntry: UniprotEntry  @relation(name: "PROTEIN_INFO", direction: "OUT")
+    jaxGene: JaxGene  @relation(name: "JAX_INFO", direction: "OUT")
     variants: [GenomicVariant]! @relation(name: "VARIANT_OF", direction: "IN")
     variantMarkers: [GenomicVariantMarker]!  @relation(name: "MARKER_OF", direction: "IN")
 }
+
 type EditableOmniGeneReference  implements EditableObject{
     id: ID!
     field: String!
-    gene: OmniGene!
+    gene: OmniGene! @relation(name: "GENE", direction: "OUT")
     editor: User! @relation(name: "EDITED_BY", direction: "OUT")
     editDate: String!
     references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
@@ -428,7 +428,7 @@ type ProteinExpressionMarker  implements MarkerComponent {
     id: ID!
     name: EditableStatement!
     method: EditableStatement!
-    synonyms: EditableSynonymList!
+    synonyms: EditableStringList!
     gene: OmniGene
     assay: ProteinLevelAssay!
     immunePhenotypes: [EditableImmunePhenotype]!
@@ -441,15 +441,15 @@ type ProteinExpressionMarker  implements MarkerComponent {
 type JaxVariant  {
     id: ID!
     name: String!
-    description: EditableStatement!
+    description: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
     jaxId: String!
     gene: JaxGene! @relation(name: "CODED_BY", direction: "OUT")
     pDot: String!
     cDot: String!
     gDot: String!
-    transcript: EditableStatement!
+    transcript: EditableStatement! @relation(name: "TRANSCRIBED_BY", direction: "OUT")
     variantType: String!
-    proteinEffect: EditableProteinEffect!
+    proteinEffect: EditableProteinEffect! @relation(name: "PROTEIN_EFFECT", direction: "OUT")
     goVariant: GOVariant  @relation(name: "GO_VARIANT", direction: "IN")
     genomicVariant: GenomicVariant @relation(name: "G_J_VARIANT", direction: "IN")
 }
@@ -460,18 +460,18 @@ type ClinVarVariant {
     gene: String!
     pDot: String!
     cDot: String!
-    significance: EditableStatement!
-    signficanceExplanation:  EditableStatement!
+    significance: EditableStatement! @relation(name: "SIGNIFICANCE", direction: "OUT")
+    signficanceExplanation:  EditableStatement! @relation(name: "EXPLAINED_BY", direction: "OUT")
     genomicVariant: GenomicVariant @relation(name: "G_CV_VARIANT", direction: "IN")
 }
 
 type OncoTreeOccurrence {
     id: ID!
-    disease: EditableStatement!
+    disease: EditableStatement!  @relation(name: "DISEASE", direction: "OUT")
     oncoTreeCode: String!
-    percentOccurrence: EditableStatement!
-    occurrences: EditableInt!
-    totalSamples: EditableInt!
+    percentOccurrence: EditableStatement!  @relation(name: "PERCENT", direction: "OUT")
+    occurrences: EditableInt!   @relation(name: "OCCURS", direction: "OUT")
+    totalSamples: EditableInt!  @relation(name: "TOTAL", direction: "OUT")
     perThousandOccurrence: Int!
 }
 
@@ -484,25 +484,25 @@ type HotSpotVariant {
     begin: String!
     end: String!
     position: Int!
-    occurrences: [OncoTreeOccurrence]!
+    occurrences: [OncoTreeOccurrence]! @relation(name: "OCCURRENCES", direction: "OUT")
     genomicVariant: GenomicVariant @relation(name: "G_HS_VARIANT", direction: "IN")
 }
 
 type GOVariant {
     id: ID!
-    name: EditableStatement!
+    name: EditableStatement!  @relation(name: "NAMED", direction: "OUT")
     gene: String!
     goId: String!
     mutationType: String!
-    jaxVariant: JaxVariant! @relation(name: "GO_VARIANT", direction: "OUT")
+    jaxVariant: JaxVariant @relation(name: "GO_VARIANT", direction: "OUT")
     genomicVariant: GenomicVariant @relation(name: "G_GO_VARIANT", direction: "IN")
 }
 
 interface GenomicVariant {
     id: ID!
-    name: EditableStatement!
-    description: EditableStatement!
-    nonCanonicalTranscript: EditableStatement
+    name: EditableStatement!  @relation(name: "NAMED", direction: "OUT")
+    description: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    nonCanonicalTranscript: EditableStatement @relation(name: "TRANSCRIBED_BY", direction: "OUT")
     jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
     clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
     hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
@@ -513,9 +513,9 @@ interface GenomicVariant {
 
 type VariantSNVIndel implements GenomicVariant {
     id: ID!
-    name: EditableStatement!
-    description: EditableStatement!
-    nonCanonicalTranscript: EditableStatement
+    name: EditableStatement!  @relation(name: "NAMED", direction: "OUT")
+    description: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    nonCanonicalTranscript: EditableStatement @relation(name: "TRANSCRIBED_BY", direction: "OUT")
     jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
     clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
     hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
@@ -523,11 +523,11 @@ type VariantSNVIndel implements GenomicVariant {
     gene: OmniGene! @relation(name: "VARIANT_OF", direction: "OUT")
     variantType: VariantType!
     indelType: IndelType!
-    pDot: EditableStatement!
-    cDot: EditableStatement!
-    gDot: EditableStatement!
-    exon: EditableStatement!
-    proteinEffect: EditableProteinEffect!
+    pDot: EditableStatement!  @relation(name: "PDOT", direction: "OUT")
+    cDot: EditableStatement!  @relation(name: "CDOT", direction: "OUT")
+    gDot: EditableStatement!  @relation(name: "GDOT", direction: "OUT")
+    exon: EditableStatement!  @relation(name: "EXON", direction: "OUT")
+    proteinEffect: EditableProteinEffect!  @relation(name: "PROTEIN_EFFECT", direction: "OUT")
 }
 
 # a region would be general variant terms where a specific cDot/pDot/gDot would not apply
@@ -537,43 +537,43 @@ type VariantSNVIndel implements GenomicVariant {
 # May need to consider how to define concept of "Activating mutation"
 type VariantRegion implements GenomicVariant {
     id: ID!
-    name: EditableStatement!
-    description: EditableStatement!
-    nonCanonicalTranscript: EditableStatement
+    name: EditableStatement!  @relation(name: "NAMED", direction: "OUT")
+    description: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    nonCanonicalTranscript: EditableStatement @relation(name: "TRANSCRIBED_BY", direction: "OUT")
     jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
     clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
     hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
     goVariant: GOVariant @relation(name: "G_GO_VARIANT", direction: "OUT")
     gene: OmniGene! @relation(name: "VARIANT_OF", direction: "OUT")
     regionType: RegionType!
-    regionValue: EditableInt!
+    regionValue: EditableInt! @relation(name: "VALUE", direction: "OUT")
     variantType: VariantType
     indelType: IndelType
-    isFrameshift: EditableBoolean
-    isDeleterious: EditableBoolean
-    isTruncating: EditableBoolean
+    isFrameshift: EditableBoolean @relation(name: "FRAMESHIFT", direction: "OUT")
+    isDeleterious: EditableBoolean @relation(name: "DELETERIOUS", direction: "OUT")
+    isTruncating: EditableBoolean @relation(name: "TRUNCATING", direction: "OUT")
     # not sure we would need transcript info for this type of object
-    proteinEffect: EditableProteinEffect!
+    proteinEffect: EditableProteinEffect! @relation(name: "PROTEIN_EFFECT", direction: "OUT")
 }
 
 type VariantCNV implements GenomicVariant {
     id: ID!
-    name: EditableStatement!
-    description: EditableStatement!
-    nonCanonicalTranscript: EditableStatement
+    name: EditableStatement!  @relation(name: "NAMED", direction: "OUT")
+    description: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    nonCanonicalTranscript: EditableStatement @relation(name: "TRANSCRIBED_BY", direction: "OUT")
     jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
     clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
     hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
     goVariant: GOVariant @relation(name: "G_GO_VARIANT", direction: "OUT")
     gene: OmniGene! @relation(name: "VARIANT_OF", direction: "OUT")
-    copyChange: EditableCopyChange!
+    copyChange: EditableCopyChange! @relation(name: "COPY_CHANGE", direction: "OUT")
 }
 
 type VariantFusion implements GenomicVariant {
     id: ID!
-    name: EditableStatement!
-    description: EditableStatement!
-    nonCanonicalTranscript: EditableStatement
+    name: EditableStatement!  @relation(name: "NAMED", direction: "OUT")
+    description: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    nonCanonicalTranscript: EditableStatement @relation(name: "TRANSCRIBED_BY", direction: "OUT")
     jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
     clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
     hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
@@ -582,24 +582,24 @@ type VariantFusion implements GenomicVariant {
     gene: OmniGene! @relation(name: "VARIANT_OF", direction: "OUT")
     #    targetGene: OmniGene @relation(name: "CODED_BY", direction: "OUT")
     # 5prime/3prime are for specific fusions like FGFR3 - TACC3 fusion
-    gene5Prime: EditableOmniGeneReference!
-    exon5Prime: EditableInt!
-    gene3Prime: EditableOmniGeneReference!
-    exon3Prime: EditableInt!
-    copyChange: EditableCopyChange!
+    gene5Prime: EditableOmniGeneReference!  @relation(name: "GENE_5", direction: "OUT")
+    exon5Prime: EditableInt! @relation(name: "EXON_5", direction: "OUT")
+    gene3Prime: EditableOmniGeneReference! @relation(name: "GENE_3", direction: "OUT")
+    exon3Prime: EditableInt! @relation(name: "EXON_3", direction: "OUT")
+    copyChange: EditableCopyChange! @relation(name: "COPY_CHANGE", direction: "OUT")
 }
 
 type GenomicVariantMarker implements MarkerComponent {
     id: ID!
-    name: EditableStatement!
-    variant: GenomicVariant!
+    name: EditableStatement!  @relation(name: "NAMED", direction: "OUT")
+    variant: GenomicVariant! @relation(name: "VARIANT", direction: "OUT")
     gene: OmniGene! @relation(name: "MARKER_OF", direction: "OUT")
-    method: EditableStatement!
+    method: EditableStatement! @relation(name: "METHOD", direction: "OUT")
 }
 
 type MarkerProfile implements MarkerComponent {
     id: ID!
-    name: EditableStatement!
+    name: EditableStatement!  @relation(name: "NAMED", direction: "OUT")
     method: EditableStatement!
     conjunction: OmniConjunction!
     components: [MarkerComponent]!
@@ -619,7 +619,7 @@ type JaxDrug  {
     jaxId: String!
     name: EditableStatement!
     tradeName: EditableStatement!
-    synonyms: EditableSynonymList!
+    synonyms: EditableStringList!
     description: EditableStatement!
     drugClasses: [JaxDrugClass]! @relation(name: "DRUG_CLASS_MEMBER", direction: "IN")
 }
@@ -630,7 +630,7 @@ type NCIDrug  {
     name: EditableStatement!
     definition: EditableStatement!
     drugCategory: EditableStatement!
-    synonyms: EditableSynonymList!
+    synonyms: EditableStringList!
     annotationDate: EditableStatement!
     isAntineoplastic: Boolean!
     isImmuno: Boolean!
@@ -657,7 +657,7 @@ type OmniDrug implements TherapyComponent {
     tradeName: EditableStatement!
     definition: EditableStatement!
     drugCategories: [DrugCategory]! @relation(name: "DRUG_CATEGORY_MEMBER", direction: "IN")
-    synonyms: EditableSynonymList!
+    synonyms: EditableStringList!
     nciDrug: NCIDrug
     jaxDrug: JaxDrug
     componentOf: [Therapy]! @relation(name: "THERAPY_COMPONENT", direction: "IN")
@@ -697,7 +697,8 @@ type DODisease  {
     doId: String!
     name: EditableStatement!
     definition: EditableStatement!
-    synonyms: EditableSynonymList!
+    exactSynonyms: EditableStringList
+    relatedSynonyms: EditableStringList
     xrefs: [XRef]!
     subsets: [EditableStatement!]!
     parents: [DODisease]! @relation(name: "PARENT", direction: "OUT")
@@ -728,7 +729,7 @@ type GODisease {
     goId: String!
     name: EditableStatement!
     definition: EditableStatement!
-    synonyms: EditableSynonymList!
+    synonyms: EditableStringList!
     xrefs: [XRef!]!
     jaxDiseases: [JaxDisease]!
     parents: [GODisease] @relation(name: "PARENT", direction: "OUT")
@@ -788,7 +789,7 @@ type OntologicalDisease  {
     id: ID!
     name: EditableStatement!
     description: EditableStatement!
-    synonyms: EditableSynonymList!
+    synonyms: EditableStringList!
     omniDiseases: [OmniDisease]!
     mCodes: [MCode]!
     doDiseases: [DODisease]!
