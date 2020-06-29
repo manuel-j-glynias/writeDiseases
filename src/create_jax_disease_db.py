@@ -1,30 +1,23 @@
 import mysql.connector
 import datetime
 import csv
-from sql_helpers import get_one_jax_gene, preflight_ref, insert_editable_statement, insert_es_ref, get_loader_user_id
-#from sql_utils import get_local_db_connection, maybe_create_and_select_database, does_table_exist, drop_table_if_exists
-from sql_utils import load_table, create_table, does_table_exist, get_local_db_connection, maybe_create_and_select_database, drop_table_if_exists
 import json
-import sys
 import os
+import config
+
+editable_statement_list = ['name', 'definition']
+loader_id = '007'
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 
 import pandas
 from sql_utils import load_table, create_table, does_table_exist, get_local_db_connection, maybe_create_and_select_database, drop_table_if_exists
 import create_id
 import create_editable_statement
-import create_EditableStringList
-import write_sql
-import get_schema
-
 
 editable_statement_list = ['name', 'definition']
-editable_synonyms_list = ['synonyms']
-loader_id = '007'
-load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+config_directory ='C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
 do_table_name = 'DoDiseases'
 import write_load_files
-import get_schema
-
 id_class = create_id.ID('', '')
 
 
@@ -67,6 +60,13 @@ def get_list_of_files(path: str) -> list:
             json_files.append(entry.path)
     return json_files
 
+def add_editables(disease_list):
+    df_to_edit = pandas.DataFrame(disease_list)
+    table_name = 'jax_diseases'
+    df_editable = create_editable_statement.assign_editable_statement(df_to_edit,
+                                                                      editable_statement_list, loader_id, load_directory, table_name,id_class)
+    edited_disease_list = df_editable.T.to_dict().values()
+    return edited_disease_list
 
 ###################################################
 #  CREATE DICTIONARY
@@ -102,55 +102,24 @@ def read_one_disease_json(path:str)->dict:
         }
         return disease
 
-
-def get_schema():
-    db_dict = {}  # {db_name:{table_name:{col:[type,key,allow_null,ref_col_list],'col_order':[cols in order]}}}
-
-    init_file = open('../config/table_descriptions.csv', 'r')
-    reader = csv.reader(init_file, quotechar='\"')
-    for line in reader:
-        #print(line)
-        db_name = line[0]
-        if (db_name == 'Database'):
-            continue
-        if (db_name not in db_dict.keys()):
-            db_dict[db_name] = {}
-        table_name = line[1]
-        resource = 'jax'
-        if (resource + '_' not in table_name):
-            continue
-        col = line[2]
-        col_type = line[3]
-        col_key = line[4]
-        allow_null = line[5]
-        auto_incr = line[6]
-        ref_col_list = line[7].split('|') # we will ignore this for now during development
-        try:
-            ref_col_list.remove('')
-        except:
-            pass
-
-        try:
-            db_dict[db_name][table_name][col] = [col_type, col_key, allow_null, auto_incr, ref_col_list]
-            db_dict[db_name][table_name]['col_order'].append(col)
-        except:
-            db_dict[db_name][table_name] = {col: [col_type, col_key, allow_null, auto_incr, ref_col_list]}
-            db_dict[db_name][table_name] = {col: [col_type, col_key, allow_null, auto_incr, ref_col_list], 'col_order': [col]}
-    init_file.close()
-    #print(db_dict)
-    return db_dict
-
 def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     my_db = None
     my_cursor = None
-
     print('WARNING: skipping JAX download during development')
     #download_jax()
+    table_dict = {}
+    database_dict = {}
     disease_list = parse_jax()
-    write_load_files(disease_list, load_directory)
-
-    db_dict = get_schema()
+    disease_list_with_editables = add_editables(disease_list)
+    write_load_files(disease_list_with_editables, load_directory)
+    table_name = 'jax_diseases'
+    db_name = 'OmniSeqKnowledgebase2'
+    table_descriptions =  config.extract_file(config_directory)
+    table_descr = table_descriptions['jax_diseases']
+    table_dict[table_name] = table_descr
+    database_dict[db_name]= table_dict
+    db_dict = database_dict
     try:
         my_db = get_local_db_connection()
         my_cursor = my_db.cursor(buffered=True)
@@ -170,4 +139,4 @@ def main(load_directory):
 
 
 if __name__ == "__main__":
-    main()
+    main('C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/')

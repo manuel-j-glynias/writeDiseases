@@ -20,6 +20,7 @@ from sql_utils import load_table, create_table, does_table_exist, \
 import write_sql
 import get_schema
 import write_load_files
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 
 def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
@@ -121,4 +122,4 @@ def extract_file(path):
     return df
 
 if __name__ == "__main__":
-    main()
+    main(load_directory)

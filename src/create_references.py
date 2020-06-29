@@ -1,16 +1,10 @@
-import csv
-import datetime
 import os
-import shutil
-import json
-import mysql.connector
 import csv
 import os.path
 from os import path
 import config
 import sql_utils
 import graphql_utils
-import get_schema
 
 loader_id = '007'
 extract_dir = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
@@ -117,33 +111,33 @@ def preflight_ref(pmid, load_files_dict, data_dict):
 def write_reference():
     print()
 
+def main():
+    data_dict = {'loader_id': loader_id}
+    data_dict['do_disease_dict'] = get_do_disease_dict(extract_dir)
+    data_dict['ref_by_pmid'] = get_literature_reference_dict(extract_dir)
+    # [graph_id] = [name(of journal)]
+    data_dict['journal_dict'] = get_journal_dict(extract_dir)
+    # [graph_id] = {[first initial], [last initial]}
+    data_dict['author_dict'] = get_author_dict(extract_dir)
 
-data_dict = {'loader_id': loader_id}
-data_dict['do_disease_dict'] = get_do_disease_dict(extract_dir)
-#data_dict['do_disease_pmid'] = get_definition_urls_dict(extract_dir)
-#data_dict['do_parents'] = get_do_disease_parents_dict(extract_dir)
-data_dict['ref_by_pmid'] = get_literature_reference_dict(extract_dir)
-# [graph_id] = [name(of journal)]
-data_dict['journal_dict'] = get_journal_dict(extract_dir)
-# [graph_id] = {[first initial], [last initial]}
-data_dict['author_dict'] = get_author_dict(extract_dir)
+    pmid_dict = get_definition_urls_dict(extract_dir)
+    definition_dict = data_dict['do_disease_dict']
+    literature_reference = data_dict['ref_by_pmid']
 
-pmid_dict = get_definition_urls_dict(extract_dir)
-definition_dict = data_dict['do_disease_dict']
-literature_reference = data_dict['ref_by_pmid']
+    descriptions_csv_path = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
+    db_dict = config.extract_file(descriptions_csv_path)
+    load_files_dict = create_load_files_dict(db_dict, extract_dir)
 
-descriptions_csv_path = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
-db_dict = config.extract_file(descriptions_csv_path)
-load_files_dict = create_load_files_dict(db_dict, extract_dir)
-
-disease_dict = data_dict['do_disease_dict']
-for entry in pmid_dict:
-    input = pmid_dict[entry]
-    ref_id =  preflight_ref(input, load_files_dict, data_dict)
-    disease = disease_dict[entry]
-    definition = disease['definition']
-    EditableStatement_LiteratureReference_writer = load_files_dict['EditableStatement_LiteratureReference']['writer']
-    EditableStatement_LiteratureReference_writer.writerow(['', definition, ref_id ])
+    disease_dict = data_dict['do_disease_dict']
+    for entry in pmid_dict:
+        input = pmid_dict[entry]
+        ref_id =  preflight_ref(input, load_files_dict, data_dict)
+        disease = disease_dict[entry]
+        definition = disease['definition']
+        EditableStatement_LiteratureReference_writer = load_files_dict['EditableStatement_LiteratureReference']['writer']
+        EditableStatement_LiteratureReference_writer.writerow(['', definition, ref_id ])
+    print('All done!')
 
 
-print('All done!')
+if __name__ == "__main__":
+    main()
