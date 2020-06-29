@@ -744,15 +744,15 @@ enum OmniDiseaseType {
 
 type OmniDisease{
     id: ID!
-    code: String!
-    fullDescription: EditableStatement!
+    omniDiseaseId: String!
+    name: EditableStatement!
     omniDiseaseType: OmniDiseaseType!
 }
 
 type MCode {
     id: ID!
-    code: String!
-    fullDescription: EditableStatement!
+    mcode: String!
+    diseasePath: EditableStatement!
     omniDisease: OmniDisease
     parents: [MCode] @relation(name:"PARENT", direction:"OUT")
     children: [MCode] @relation(name:"PARENT", direction:"IN")
@@ -760,8 +760,8 @@ type MCode {
 
 type TCode {
     id: ID!
-    code: String!
-    fullDescription: EditableStatement!
+    tcode: String!
+    tissuePath: EditableStatement!
     parents: [TCode] @relation(name:"PARENT", direction:"OUT")
     children: [TCode] @relation(name:"PARENT", direction:"IN")
 }

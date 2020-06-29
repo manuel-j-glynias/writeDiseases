@@ -23,7 +23,7 @@ import write_load_files
 import create_id
 load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 loader_id = '007'
-editable_statement_list = ['fullDescription']
+editable_statement_list = ['diseasePath']
 table_name = 'mcode_diseases'
 import create_editable_statement
 id_class = create_id.ID('', '')
@@ -68,8 +68,8 @@ def parse_mcode_main(df):
     for index, row in df.iterrows():
         new_dict = {}
         code = row['Mcode']
-        new_dict['code'] = code
-        new_dict['fullDescription'] = row['DiseasePath']
+        new_dict['mcode'] = code
+        new_dict['diseasePath'] = row['DiseasePath']
         new_dict['omniDisease'] =  row['OmniDisease_ID']
         graph_id = 'Mcode_' + code
         new_dict['graph_id'] = graph_id

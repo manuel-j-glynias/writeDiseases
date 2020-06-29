@@ -16,6 +16,14 @@ import get_schema
 import write_sql
 import write_load_files
 
+import create_id
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+loader_id = '007'
+editable_statement_list = ['fullDescription']
+table_name = 'omni_diseases'
+import create_editable_statement
+id_class = create_id.ID('', '')
+
 def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     path = '../data/tblOS_GLOBAL_GLOBAL_Ref_OmniDiseases.csv'
@@ -57,4 +65,4 @@ def extract_file(path):
 
 
 if __name__ == "__main__":
-    main()
+    main(load_directory)

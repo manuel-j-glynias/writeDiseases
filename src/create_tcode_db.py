@@ -21,7 +21,7 @@ import create_id
 
 load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 loader_id = '007'
-editable_statement_list = ['fullDescription']
+editable_statement_list = ['tissuePath']
 table_name = 'tcode_diseases'
 import create_editable_statement
 id_class = create_id.ID('', '')
@@ -67,8 +67,8 @@ def parse_tcode_main(df):
     for index, row in df.iterrows():
         new_dict = {}
         code = row['TCode']
-        new_dict['code'] = code
-        new_dict['fullDescription'] = row['TissuePath']
+        new_dict['tcode'] = code
+        new_dict['tissuePath'] = row['TissuePath']
         graph_id = 'Tcode_' + code
         new_dict['graph_id'] = graph_id
         df.at[index, 'graph_id'] = graph_id
