@@ -17,6 +17,15 @@ import write_load_files
 import csv
 import get_schema
 import write_sql
+import create_id
+
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+loader_id = '007'
+editable_statement_list = ['fullDescription']
+table_name = 'tcode_diseases'
+import create_editable_statement
+id_class = create_id.ID('', '')
+
 from sql_utils import load_table, create_table, does_table_exist, \
     get_local_db_connection, maybe_create_and_select_database, \
     drop_table_if_exists
@@ -44,9 +53,9 @@ def main(load_directory):
     db_parents_dict = get_schema.get_schema('tcode_parents')
     db_children_dict = get_schema.get_schema('tcode_children')
 
-    write_sql.write_sql(db_dict)
-    write_sql.write_sql(db_parents_dict)
-    write_sql.write_sql(db_children_dict)
+    write_sql.write_sql(db_dict, 'tcode_diseases')
+    write_sql.write_sql(db_parents_dict, 'tcode_parents')
+    write_sql.write_sql(db_children_dict, 'tcode_children')
 
 # Creates  tcode dataframe
 # Input: dataframe
@@ -59,13 +68,16 @@ def parse_tcode_main(df):
         new_dict = {}
         code = row['TCode']
         new_dict['code'] = code
-        new_dict['tissuePath'] = row['TissuePath']
+        new_dict['fullDescription'] = row['TissuePath']
         graph_id = 'Tcode_' + code
         new_dict['graph_id'] = graph_id
         df.at[index, 'graph_id'] = graph_id
         tcode_list.append(new_dict)
     tcode_df = pandas.DataFrame(tcode_list)
-    return tcode_df
+    tcode_with_editable = create_editable_statement.assign_editable_statement(tcode_df,
+                                                                              editable_statement_list, loader_id,
+                                                                              load_directory, table_name, id_class)
+    return tcode_with_editable
 
 # Creates  tcode dataframe
 # Input: dataframe
@@ -119,4 +131,4 @@ def extract_file(path):
 
 
 if __name__ == "__main__":
-    main()
+    main(load_directory)
