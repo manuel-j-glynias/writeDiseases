@@ -247,7 +247,7 @@ def parse_go_synonyms(df, go_disease_df):
                 new_dict['synonym'] = entry
                 synonyms_list.append(new_dict)
     synonyms_df = pandas.DataFrame(synonyms_list)
-    syn_esl_dict = create_EditableStringList.assign_editable_lists(synonyms_df, loader_id, load_directory, table_name, id_class, 'synonym')
+    syn_esl_dict = create_EditableStringList.assign_editable_lists(synonyms_df, loader_id, load_directory,  id_class, 'synonym')
 
     # Put esl value back to the main dataframe
     for index, row in go_disease_df.iterrows():

@@ -9,7 +9,7 @@ import re
 from neo4j import GraphDatabase
 import unicodedata as ud
 
-cache = '/Users/mglynias/Documents/GitHub/OmniSeqKnowledgebase_populate/cache'
+cache = '../cache'
 
 
 def rmdiacritics(char):
@@ -50,7 +50,7 @@ def send_query(query:str, server:str) -> str:
         response = requests.request("POST", url, headers=headers, json={'query': query})
         if not response.ok:
             response.raise_for_status()
-            os.system("say another error")
+            #os.system("say another error")
 
             sys.exit()
 
@@ -58,13 +58,43 @@ def send_query(query:str, server:str) -> str:
         # print(responseBody)
         if 'errors' in responseBody:
             print(responseBody)
-            os.system("say another error")
+            #os.system("say another error")
             sys.exit()
     except requests.exceptions.RequestException as err:
         print('error in request')
         print(err)
         print(responseBody)
-        os.system("say another error")
+        #os.system("say another error")
+        sys.exit()
+    return responseBody
+
+
+def send_schema_request(query:str, server:str) -> str:
+    url = "http://" + server + ":7474/graphql/"
+    headers = {
+      'Authorization': 'Basic bmVvNGo6b21uaQ==',
+      'Content-Type': 'application/json',
+    }
+    responseBody = ''
+    try:
+        response = requests.request("POST", url, headers=headers, json={'query': query})
+        if not response.ok:
+            response.raise_for_status()
+            #os.system("say another error")
+
+            sys.exit()
+
+        responseBody: str = response.json()
+        # print(responseBody)
+        if 'errors' in responseBody:
+            print(responseBody)
+            #os.system("say another error")
+            sys.exit()
+    except requests.exceptions.RequestException as err:
+        print('error in request')
+        print(err)
+        print(responseBody)
+       # os.system("say another error")
         sys.exit()
     return responseBody
 
@@ -83,7 +113,7 @@ def send_mutation(mutation_payload:str, server:str) -> str:
         if not response.ok:
             response.raise_for_status()
             print(mutation_payload)
-            os.system("say another error")
+            #os.system("say another error")
 
             sys.exit()
 
@@ -92,21 +122,22 @@ def send_mutation(mutation_payload:str, server:str) -> str:
         if 'errors' in responseBody:
             print(mutation_payload)
             print(responseBody)
-            os.system("say another error")
+            #os.system("say another error")
             sys.exit()
     except requests.exceptions.RequestException as err:
         print('error in request')
         print(err)
         print(mutation_payload)
         print(response.text)
-        os.system("say another error")
+        #os.system("say another error")
         sys.exit()
     except UnicodeEncodeError as err:
         print('UnicodeEncodeError')
         print(err)
         print(mutation_payload)
         print(responseBody)
-        os.system("say another error")
+        # say does not work on Windows
+        #os.system("say another error")
         sys.exit()
     # print(responseBody)
     return responseBody
