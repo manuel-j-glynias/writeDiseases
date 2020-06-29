@@ -20,7 +20,14 @@ from sql_utils import load_table, create_table, does_table_exist, \
 import write_sql
 import get_schema
 import write_load_files
+import create_id
 load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+loader_id = '007'
+editable_statement_list = ['fullDescription']
+table_name = 'mcode_diseases'
+import create_editable_statement
+id_class = create_id.ID('', '')
+
 
 def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
@@ -46,9 +53,9 @@ def main(load_directory):
     db_parents_dict = get_schema.get_schema('mcode_parents')
     db_children_dict = get_schema.get_schema('mcode_children')
 
-    write_sql.write_sql(db_dict)
-    write_sql.write_sql(db_parents_dict)
-    write_sql.write_sql(db_children_dict)
+    write_sql.write_sql(db_dict, table_name)
+    write_sql.write_sql(db_parents_dict, 'mcode_parents')
+    write_sql.write_sql(db_children_dict, 'mcode_children')
 
 
 # Creates  mcode dataframe
@@ -62,14 +69,17 @@ def parse_mcode_main(df):
         new_dict = {}
         code = row['Mcode']
         new_dict['code'] = code
-        new_dict['diseasePath'] = row['DiseasePath']
+        new_dict['fullDescription'] = row['DiseasePath']
         new_dict['omniDisease'] =  row['OmniDisease_ID']
         graph_id = 'Mcode_' + code
         new_dict['graph_id'] = graph_id
         df.at[index, 'graph_id'] = graph_id
         mcode_list.append(new_dict)
     mcode_df = pandas.DataFrame(mcode_list)
-    return mcode_df
+    mcode_with_editable = create_editable_statement.assign_editable_statement(mcode_df,
+                                                                      editable_statement_list, loader_id,
+                                                                      load_directory, table_name, id_class)
+    return mcode_with_editable
 
 # Creates  mcode dataframe
 # Input: dataframe
