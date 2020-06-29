@@ -19,7 +19,7 @@ import write_load_files
 import create_id
 load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 loader_id = '007'
-editable_statement_list = ['fullDescription']
+editable_statement_list = ['name']
 table_name = 'omni_diseases'
 import create_editable_statement
 id_class = create_id.ID('', '')
@@ -36,7 +36,7 @@ def main(load_directory):
     write_load_files.main(omni_disease_df, path)
 
     db_dict = get_schema.get_schema('omni_diseases')
-    write_sql.write_sql(db_dict)
+    write_sql.write_sql(db_dict, 'omni_diseases')
 
 
 # Creates omnidisease  dataframe
@@ -48,8 +48,14 @@ def parse_omnidisease(df):
         code = row['OmniDiseaseID']
         graph_id = 'omnidisease_' + code.split('_')[1]
         df.at[index, 'graph_id'] = graph_id
-    del df['OmniDisease']
-    return df
+        df.at[index, 'omniDiseaseId'] = code
+        df.at[index, 'name'] = row['OmniDiseaseName']
+        df.at[index, 'omniDiseaseType'] = row['OmniDiseaseType']
+    df = df[['omniDiseaseId', 'name', 'omniDiseaseType', 'graph_id']]
+    omni_with_editable = create_editable_statement.assign_editable_statement(df,
+                                                                              editable_statement_list, loader_id,
+                                                                              load_directory, table_name, id_class)
+    return omni_with_editable
 
 
 ###################################################
