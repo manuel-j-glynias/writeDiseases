@@ -136,9 +136,14 @@ descriptions_csv_path = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseas
 db_dict = config.extract_file(descriptions_csv_path)
 load_files_dict = create_load_files_dict(db_dict, extract_dir)
 
+disease_dict = data_dict['do_disease_dict']
 for entry in pmid_dict:
     input = pmid_dict[entry]
     ref_id =  preflight_ref(input, load_files_dict, data_dict)
-    print(ref_id)
+    disease = disease_dict[entry]
+    definition = disease['definition']
+    EditableStatement_LiteratureReference_writer = load_files_dict['EditableStatement_LiteratureReference']['writer']
+    EditableStatement_LiteratureReference_writer.writerow(['', definition, ref_id ])
 
-print()
+
+print('All done!')
