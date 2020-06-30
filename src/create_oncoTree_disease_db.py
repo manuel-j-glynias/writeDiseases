@@ -5,6 +5,14 @@ import write_sql
 import get_schema
 import write_load_files
 
+import create_id
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+loader_id = '007'
+editable_statement_list = ['name', 'mainType', 'tissue']
+table_name = 'oncotree_diseases'
+import create_editable_statement
+id_class = create_id.ID('', '')
+
 import csv
 from sql_helpers import get_one_jax_gene, preflight_ref, insert_editable_statement, insert_es_ref, get_loader_user_id
 #from sql_utils import get_local_db_connection, maybe_create_and_select_database, does_table_exist, drop_table_if_exists
@@ -44,10 +52,10 @@ def main(load_directory):
     db_dict_parents = get_schema.get_schema('oncotree_parents')
     db_dict_children = get_schema.get_schema('oncotree_children')
 
-    write_sql.write_sql(db_dict)
-    write_sql.write_sql(db_dict_refs)
-    write_sql.write_sql(db_dict_parents)
-    write_sql.write_sql(db_dict_children)
+    write_sql.write_sql(db_dict, 'oncotree_diseases')
+    write_sql.write_sql(db_dict_refs, 'oncotree_xrefs')
+    write_sql.write_sql(db_dict_parents, 'oncotree_parents')
+    write_sql.write_sql(db_dict_children, 'oncotree_children')
 
     print(datetime.datetime.now().strftime("%H:%M:%S"))
 
@@ -98,7 +106,10 @@ def parse_oncotree_main(df):
     df1 = df.copy(deep = True)
     for column in column_to_delete:
         del df1[column]
-    return df1
+    onco_with_editable = create_editable_statement.assign_editable_statement(df1,
+                                                                             editable_statement_list, loader_id,
+                                                                             load_directory, table_name, id_class)
+    return onco_with_editable
 
 # Creates dataframe with references
 # Input: dataframe
@@ -150,4 +161,4 @@ def parse_oncotree_children(df):
 
 
 if __name__ == "__main__":
-    main()
+    main(load_directory)

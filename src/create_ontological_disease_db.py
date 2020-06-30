@@ -9,6 +9,13 @@ from sql_utils import load_table, create_table, does_table_exist, \
 import json
 import write_sql
 import get_schema
+import create_id
+load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+loader_id = '007'
+editable_statement_list = ['name', 'description']
+table_name = 'ontological_diseases'
+import create_editable_statement
+id_class = create_id.ID('', '')
 
 
 def main(load_directory):
@@ -73,13 +80,13 @@ def main(load_directory):
     ontological_mcode_diseases = get_schema.get_schema('ontological_mcode_diseases')
 
 
-    write_sql.write_sql(ontological_diseases_dict)
-    write_sql.write_sql(ontological_jax_diseases_dict)
-    write_sql.write_sql(ontological_do_diseases_dict)
-    write_sql.write_sql(ontological_oncotree_diseases_dict)
-    write_sql.write_sql(ontological_go_diseases_dict)
-    write_sql.write_sql(ontological_omnidiseases_dict)
-    write_sql.write_sql(ontological_mcode_diseases)
+    write_sql.write_sql(ontological_diseases_dict, 'ontological_diseases')
+    write_sql.write_sql(ontological_jax_diseases_dict, 'ontological_jax_diseases')
+    write_sql.write_sql(ontological_do_diseases_dict, 'ontological_do_diseases')
+    write_sql.write_sql(ontological_oncotree_diseases_dict, 'ontological_oncotree_diseases')
+    write_sql.write_sql(ontological_go_diseases_dict, 'ontological_go_diseases')
+    write_sql.write_sql(ontological_omnidiseases_dict, 'ontological_omnidiseases')
+    write_sql.write_sql(ontological_mcode_diseases, 'ontological_mcode_diseases')
 
 # Create dictionaries
 
@@ -236,4 +243,4 @@ def write_load_files (df, path):
 
 
 if __name__ == "__main__":
-    main()
+    main(load_directory)

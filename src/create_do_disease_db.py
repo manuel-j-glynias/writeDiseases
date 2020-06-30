@@ -31,6 +31,7 @@ load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load
 do_table_name = 'DoDiseases'
 import write_load_files
 import get_schema
+import create_EditableXrefsList
 
 id_class = create_id.ID('', '')
 
@@ -342,6 +343,7 @@ def main(load_directory):
     write_load_files.main(do_children_df, path_children)
 
     do_xrefs_df = pandas.DataFrame(do_disease_list_of_listst[3])
+    xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(do_xrefs_df, loader_id, load_directory,  id_class)
     path_xrefs = load_directory + 'do_xrefs.csv'
     write_load_files.main(do_xrefs_df, path_xrefs)
 
