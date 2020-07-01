@@ -1,6 +1,8 @@
 import mysql.connector
 import datetime
 import pandas
+
+import create_EditableXrefsList
 import write_sql
 import get_schema
 import write_load_files
@@ -30,10 +32,17 @@ def main(load_directory):
 
     #Parse dataframes
     oncotree_df= parse_oncotree_main(df)
-    path = load_directory +  'oncotree_diseases.csv'
+    oncotree_df_refs = parse_oncotree_refs(df)
+
+    xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(oncotree_df_refs, loader_id, load_directory,
+                                                                          id_class)
+    oncotree_disease_with_xrefs = add_column_to_dataframe(oncotree_df, xrefs_editable, 'xrefs')
+    oncotree_df = oncotree_disease_with_xrefs[
+        ['code', 'name', 'mainType', 'tissue',  'xrefs', 'graph_id']]
+
+    path = load_directory + 'oncotree_diseases.csv'
     write_load_files.main(oncotree_df, path)
 
-    oncotree_df_refs = parse_oncotree_refs(df)
     path_refs = load_directory +  'oncotree_xrefs.csv'
     write_load_files.main(oncotree_df_refs, path_refs)
 
@@ -129,7 +138,7 @@ def parse_oncotree_refs(df):
                 new_dict = {}
                 new_dict['graph_id'] = row['graph_id']
                 new_dict['source'] = entry
-                new_dict['xrefld'] =  refs_dict[entry][0]
+                new_dict['xrefId'] =  refs_dict[entry][0]
                 refs_list.append(new_dict)
     refs_df = pandas.DataFrame(refs_list)
     return refs_df
@@ -159,6 +168,14 @@ def parse_oncotree_children(df):
     df_children = pandas.DataFrame(children_list)
     return df_children
 
+def add_column_to_dataframe(df_in_need, column_dict, column):
+   #Put esl value back to the main dataframe
+   for index, row in df_in_need.iterrows():
+       df_in_need.at[index, column] = ""
+       disease_id = row['graph_id']
+       if disease_id in column_dict:
+           df_in_need.at[index, column] = column_dict[disease_id]
+   return df_in_need
 
 if __name__ == "__main__":
     main(load_directory)
