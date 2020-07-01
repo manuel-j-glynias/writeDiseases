@@ -19,6 +19,7 @@ import write_load_files
 import create_editable_statement
 import create_EditableStringList
 import write_sql
+import create_EditableXrefsList
 
 editable_statement_list = ['name', 'definition']
 editable_synonyms_list = ['synonyms']
@@ -54,6 +55,12 @@ def main(load_directory):
     go_xrefs = parse_go_refs(df)
     go_disease_df = parse_go_synonyms(df, go_disease_df)
 
+    xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(go_xrefs, loader_id, load_directory,
+                                                                          id_class)
+    go_disease_with_xrefs = add_column_to_dataframe(go_disease_df, xrefs_editable, 'xrefs')
+    go_disease_df = go_disease_with_xrefs[
+        ['id', 'name', 'definition', 'synonyms',  'xrefs', 'graph_id']]
+
     path = load_directory + 'go_diseases.csv'
     write_load_files.main(go_disease_df, path)
 
@@ -76,8 +83,8 @@ def main(load_directory):
     db_xrefs_dict = get_schema.get_schema('go_xrefs')
     #db_synonyms_dict = get_schema.get_schema('go_synonyms')
     editable_statement_dict = get_schema.get_schema('EditableStatement')
-    editable_synonyms_list_dict = get_schema.get_schema('EditableSynonymsList')
-    synonym_dict = get_schema.get_schema('Synonym')
+    editable_synonyms_list_dict = get_schema.get_schema('EditableStringList')
+    synonym_dict = get_schema.get_schema('EditableStringListElements')
 
     write_sql.write_sql(db_dict, 'go_diseases')
     write_sql.write_sql(db_parents_dict, 'go_parents')
@@ -85,8 +92,8 @@ def main(load_directory):
     write_sql.write_sql(db_xrefs_dict, 'go_xrefs')
     #write_sql.write_sql(db_synonyms_dict, 'go_synonyms')
     write_sql.write_sql(editable_statement_dict, 'EditableStatement')
-    write_sql.write_sql(editable_synonyms_list_dict, 'EditableSynonymsList')
-    write_sql.write_sql(synonym_dict, 'Synonym')
+    write_sql.write_sql(editable_synonyms_list_dict, 'EditableStringList')
+    write_sql.write_sql(synonym_dict, 'EditableStringListElements')
 
 
 ###################################################
@@ -227,7 +234,7 @@ def parse_go_refs(df):
                 new_dict = {}
                 new_dict['graph_id'] = row['graph_id']
                 new_dict['source'] = entry.split('=')[0]
-                new_dict['xrefld'] = entry.split('=')[1]
+                new_dict['xrefId'] = entry.split('=')[1]
                 refs_list.append(new_dict)
     refs_df = pandas.DataFrame(refs_list)
     return refs_df
@@ -257,6 +264,15 @@ def parse_go_synonyms(df, go_disease_df):
             go_disease_df.at[index, 'synonyms'] = syn_esl_dict[disease_id]
     go_disease_df = go_disease_df[['id', 'name', 'definition', 'synonyms', 'graph_id']]
     return go_disease_df
+
+def add_column_to_dataframe(df_in_need, column_dict, column):
+   #Put esl value back to the main dataframe
+   for index, row in df_in_need.iterrows():
+       df_in_need.at[index, column] = ""
+       disease_id = row['graph_id']
+       if disease_id in column_dict:
+           df_in_need.at[index, column] = column_dict[disease_id]
+   return df_in_need
 
 if __name__ == "__main__":
     main(load_directory)
