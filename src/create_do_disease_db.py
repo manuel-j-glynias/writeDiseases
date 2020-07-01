@@ -298,6 +298,17 @@ def write_load_files_original(db_dict, doid_dict, doid_child_dict, load_director
     list_of_lists.append(do_children_list)
     return list_of_lists
 
+
+def assign_xrefs_to_do_disease(do_disease_df, xrefs_editable):
+    for index, row in do_disease_df.iterrows():
+        do_disease_df.at[index, 'xrefs'] = ''
+        graph_id = row['graph_id']
+        if graph_id in xrefs_editable:
+            do_disease_df.at[index, 'xrefs'] = xrefs_editable[graph_id]
+
+    return do_disease_df
+
+
 def main(load_directory):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     my_db = None
@@ -330,9 +341,7 @@ def main(load_directory):
     sub_dict = create_EditableStringList.assign_editable_lists(do_subsets_df, loader_id, load_directory, id_class, 'subset')
     df_editable = add_column_to_dataframe(df_editable, syn_dict_related, 'subsets')
 
-    do_disease_df = df_editable[['doId', 'name', 'definition', 'exact_synonyms', 'related_synonyms', 'subsets',  'graph_id']]
-    path = load_directory + 'do_diseases.csv'
-    write_load_files.main(do_disease_df, path)
+
 
     do_parents_df = pandas.DataFrame(do_disease_list_of_listst[5])
     path_parents = load_directory + 'do_parents.csv'
@@ -344,8 +353,12 @@ def main(load_directory):
 
     do_xrefs_df = pandas.DataFrame(do_disease_list_of_listst[3])
     xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(do_xrefs_df, loader_id, load_directory,  id_class)
-    path_xrefs = load_directory + 'do_xrefs.csv'
-    write_load_files.main(do_xrefs_df, path_xrefs)
+    do_disease_with_xrefs = add_column_to_dataframe(df_editable, xrefs_editable, 'xrefs')
+    do_disease_df = do_disease_with_xrefs[['doId', 'name', 'definition', 'exact_synonyms', 'related_synonyms', 'subsets', 'xrefs',  'graph_id']]
+    path = load_directory + 'do_diseases.csv'
+    write_load_files.main(do_disease_df, path)
+    #path_xrefs = load_directory + 'do_xrefs.csv'
+    #write_load_files.main(do_xrefs_df, path_xrefs)
 
     do_url_df = pandas.DataFrame(do_disease_list_of_listst[1])
     path_urls = load_directory + 'do_definition_urls.csv'
@@ -359,7 +372,7 @@ def main(load_directory):
     db_dict = get_schema.get_schema('do_diseases')
     db_parents_dict = get_schema.get_schema('do_parents')
     db_children_dict = get_schema.get_schema('do_children')
-    db_xrefs_dict= get_schema.get_schema('do_xrefs')
+    #db_xrefs_dict= get_schema.get_schema('do_xrefs')
     db_urls_dict = get_schema.get_schema('do_definition_urls')
     db_subsets_dict = get_schema.get_schema('do_subsets')
     editable_statement_dict = get_schema.get_schema('EditableStatement')
@@ -369,7 +382,7 @@ def main(load_directory):
     write_sql.write_sql(db_dict, 'do_diseases')
     write_sql.write_sql(db_parents_dict, 'do_parents')
     write_sql.write_sql(db_children_dict, 'do_children')
-    write_sql.write_sql(db_xrefs_dict, 'do_xrefs')
+    #write_sql.write_sql(db_xrefs_dict, 'do_xrefs')
     write_sql.write_sql(db_urls_dict, 'do_definition_urls')
     write_sql.write_sql(db_subsets_dict, 'do_subsets')
     write_sql.write_sql(editable_statement_dict, 'EditableStatement')

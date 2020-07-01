@@ -5,10 +5,10 @@ import get_schema
 
 
 def assign_editable_xrefs_lists(df, loader_id, load_dir,  id_class):
-
     # Gets the info on what columns should be created
     db_dict_ed_xrefs_list = get_schema.get_schema('EditableXrefsList')
     db_dict_ed_xrefs_el= get_schema.get_schema('EditableXrefsListElements')
+    db_dict_xref = get_schema.get_schema('Xref')
 
     # Creates writer objects for EditableXrefsList and EditableXrefsListElements
     load_files_ed_xrefs_list_dict = create_load_files_dict(db_dict_ed_xrefs_list, load_dir)
@@ -17,53 +17,65 @@ def assign_editable_xrefs_lists(df, loader_id, load_dir,  id_class):
     load_ed_el_syn_dict = create_load_files_dict(db_dict_ed_xrefs_el, load_dir)
     element_writer = load_ed_el_syn_dict['EditableXrefsListElements']['writer']
 
+    load_xref = create_load_files_dict(db_dict_xref, load_dir)
+    xref_writer = load_xref['Xref']['writer']
+
     # create a list of xrefs for each graph id
-    strings_dict = {}
-    for index, row in df.iterrows():
-        graph_id = row['graph_id']
-        if graph_id in strings_dict:
-            strings = strings_dict[graph_id]
-            source_xrefId = {}
-            source_xrefId[row['source']] = row['xrefId']
-            strings.append(source_xrefId)
-            strings_dict[graph_id] = strings
-        else:
-            strings = []
-            source_xrefId = {}
-            source_xrefId[row['source']] = row['xrefId']
-            strings.append(source_xrefId)
-            strings_dict[graph_id] = strings
+    strings_dict = create_dict_of_xrefs(df)
 
     esl_dict = {}
     counter = 0
     for entry in strings_dict:
         entries = strings_dict[entry]
         counter += 1
-        # Create an id for group of synonyms
 
-        #EditableSynonymsList_graph_id:
-        esl  = id_class.assign_id().replace('es_', 'xref_')
-
+        #EditableXrefs_graph_id:
+        esl  = id_class.assign_id().replace('es_', 'exl_')
         esl_dict[entry] = esl
-        graph_id =  entry
+        graph_id =  'xrefs_' + entry
 
         # Write editable synonyms list  csv file entry
         write_editable_xrefs_list(graph_id, editable_list_writer, loader_id, esl)
-
-        for el  in entries:
-            for input in el:
-               source = input
-               sourceId = el[input]
-               # Write elements  csv file entry
-               write_editable_xrefs_elements(esl, element_writer, source, sourceId)
+        write_xref_and_elements(entries, esl, element_writer, xref_writer, counter)
     return esl_dict
+
+# Writes xref elements and xref tables
+def write_xref_and_elements(entries, esl, element_writer, xref_writer, counter):
+    for el in entries:
+        for input in el:
+            source = input
+            sourceId = el[input]
+            XRef_graph_id = 'xref_' + source.lower() + '_' + sourceId.lower()
+            EditableXRefList_graph_id = esl
+            # Write elements  csv file entry
+            write_editable_xrefs_elements(counter, element_writer, XRef_graph_id, EditableXRefList_graph_id)
+            write_xref(source, sourceId, xref_writer, XRef_graph_id)
 
 def write_editable_xrefs_list(graph_id, editable_string_writer, loader_id, esl):
     now = datetime.datetime.now()
     editable_string_writer.writerow([graph_id, now.strftime("%Y-%m-%d-%H-%M-%S"), loader_id, esl])
 
-def write_editable_xrefs_elements(id, editable_elements_writer, source, sourceId):
-    editable_elements_writer.writerow([id, source, sourceId])
+def write_editable_xrefs_elements(counter, editable_elements_writer, XRef_graph_id, EditableXRefList_graph_id):
+    editable_elements_writer.writerow([counter, XRef_graph_id, EditableXRefList_graph_id])
+
+def write_xref(source, source_id, xref_writer, graph_id):
+    xref_writer.writerow([source, source_id, graph_id])
+
+# create a list of xrefs for each graph id
+def create_dict_of_xrefs(df):
+    strings_dict = {}
+    for index, row in df.iterrows():
+        source_xrefId = {}
+        source_xrefId[row['source']] = row['xrefId']
+        graph_id = row['graph_id']
+        # if xrefs for this graph id are already there
+        if graph_id in strings_dict:
+            strings = strings_dict[graph_id]
+        else:
+            strings = []
+        strings.append(source_xrefId)
+        strings_dict[graph_id] = strings
+    return strings_dict
 
 # Creates a writer object for editable statement
 def create_load_files_dict(db_dict, load_dir):
