@@ -53,18 +53,7 @@ def create_go_dataframe( files):
 
     dataframe_list = list_of_dfs_to_combine(files)
     go_df = combine_dataframes(dataframe_list)
-
-
-    combined_dict = go_df.T.to_dict().values()
-
-    description_dict = {}
-    for entry in combined_dict:
-        new_list = []
-        graph_id = entry['graph_id']
-        new_list.append(entry['name'])
-        new_list.append(entry['definition'])
-        description_dict[graph_id] = new_list
-    return description_dict
+    return go_df
 
 #  Create a list of dataframes to combine
 def list_of_dfs_to_combine(files):
@@ -96,21 +85,21 @@ def combine_dataframes(dataframe_list):
                 if code_list:
                     jax = [j for j in code_list if 'JAX-CKB=' in j]
                     if jax:
-                        temp_list = []
-                        for entry in jax:
-                            jax_id = 'jax_disease_' +  entry.replace('JAX-CKB=JAX', '')
-                            temp_list.append(jax_id)
-                        df.at[index, 'jaxDiseases'] = temp_list
+                        jax_list = []
+                        for jax_disease in jax:
+                            jax_id = 'jax_disease_' +  jax_disease.replace('JAX-CKB=JAX', '')
+                            jax_list.append(jax_id)
+                        df.at[index, 'jaxDiseases'] = jax_list
                     else:
                         df.at[index, 'jaxDiseases'] = jax
 
                 do = [d for d in code_list if 'DOID=' in d]
                 if do:
-                    temp_list = []
-                    for entry in do:
-                        do_id = 'do_disease_' + entry.replace('DOID=', '')
-                        temp_list.append(do_id)
-                    df.at[index, 'doDiseases'] = temp_list
+                    do_list = []
+                    for do_disease in do:
+                        do_id = 'do_disease_' + do_disease.replace('DOID=', '')
+                        do_list.append(do_id)
+                    df.at[index, 'doDiseases'] = do_list
                 else:
                     df.at[index, 'doDiseases'] = do
 
@@ -124,19 +113,30 @@ def combine_dataframes(dataframe_list):
 
             oncotree_code = row['oncotree_code']
             if pandas.isnull(oncotree_code):
-                pass
+                onco_list = []
+                df.at[index, 'oncoTreeDiseases'] = onco_list
             else:
                 if type(oncotree_code) is list:
-                    print (oncotree_code)
-                df.at[index, 'oncoTreeDiseases'] = oncotree_code
+                    if oncotree_code:
+                        onco_list = []
+                        for onco_disease  in oncotree_code:
+                            onco_id = 'oncotree_disease_' + onco_disease
+                            onco_list.append(onco_id)
+                            df.at[index, 'oncoTreeDiseases'] = onco_list
+                else:
+                    onco_list = []
+                    onco_id = 'oncotree_disease_' + oncotree_code
+                    onco_list.append(onco_id)
+                    df.at[index, 'oncoTreeDiseases'] = onco_list
 
-
-            df.at[index, 'goDiseases']  = 'go_disease_' + df.at[index, 'id']
+            go_id = 'go_disease_' + row[ 'id']
+            go_list = []
+            go_list.append(go_id)
+            df.at[index, 'goDiseases']  = go_list
 
     # Clean dataframes
     df1 = df[df.graph_id != 'go_0000000-0000-0000-0000-000000000000']
-    df2 = df1[['id', 'name', 'definition', 'codes', 'parents', 'children',
-                   'synonyms', 'graph_id']].copy(deep=True)
+    df2 = df1[['name', 'definition',  'graph_id', 'jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases']].copy(deep=True)
 
     dfs_to_combine.append(df2)
 
