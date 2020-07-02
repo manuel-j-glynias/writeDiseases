@@ -108,7 +108,7 @@ def combine_dataframes(dataframe_list):
     # Clean dataframes
     df1 = df[df.graph_id != 'go_0000000-0000-0000-0000-000000000000']
     df2 = df1[['name', 'definition',  'graph_id', 'jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases']].copy(deep=True)
-
+    df2 = df2.rename(columns={'definition': 'description'})
     dfs_to_combine.append(df2)
 
     # Combine dataframes
