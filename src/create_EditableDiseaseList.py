@@ -2,74 +2,54 @@ import datetime
 import csv
 import os
 import get_schema
+import pandas
 
 
-def assign_editable_disease_lists(disease_dict, loader_id, load_dir,  id_class, disease, onto_dict):
+def assign_editable_disease_lists(df, loader_id, load_dir,  id_class):
+    disease_lists = ['EditableJaxDiseaseList', 'EditableDoDiseaseList', 'EditableGoDiseaseList',
+                        'EditableOncoTreeDiseaseList']
+    disease_elements_lists = [ 'EditableJaxDiseaseListElements',
+                               'EditableDoDiseaseListElements', 'EditableGoDiseaseListElements',
+                        'EditableOncoTreeDiseaseListElements']
+    disease_writers= create_writer_objects(disease_lists, load_dir)
+    element_writers = create_writer_objects(disease_elements_lists, load_dir)
+    ids = ['ejdl', 'eddl', 'egdl', 'eodl' ]
+    columns = [ 'jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases']
+    counter = 1
+    for index, row in df.iterrows():
+        lists_from_dataframe = [ row['jaxDiseases'], row['doDiseases'], row['goDiseases'], row['oncoTreeDiseases']]
+        for i  in range(len(lists_from_dataframe)):
 
-    # Creates writer objects
-    jax_list_schema = get_schema.get_schema('EditableJaxDiseaseList')
-    load_files_jax = create_load_files_dict(jax_list_schema, load_dir)
-    jax_list_writer = load_files_jax['EditableJaxDiseaseList']['writer']
+            disease_name = row['name']
+            if pandas.isnull(disease_name):
+                print (row['graph_id'])
+                pass
+            else:
+                field = 'ontological_disease_'  + disease_name.replace(' ', '_').lower()
+                esl = id_class.assign_id().replace('es_', ids[i] + '_')
+                df.at[index, columns[i]] = esl
 
-    do_list_schema = get_schema.get_schema('EditableDoDiseaseList')
-    load_files_do = create_load_files_dict(do_list_schema, load_dir)
-    do_list_writer = load_files_do['EditableDoDiseaseList']['writer']
-
-    go_list_schema = get_schema.get_schema('EditableGoDiseaseList')
-    load_files_go = create_load_files_dict(go_list_schema, load_dir)
-    go_list_writer = load_files_go['EditableGoDiseaseList']['writer']
-
-    onco_list_schema = get_schema.get_schema('EditableOncoTreeDiseaseList')
-    load_files_onco = create_load_files_dict(onco_list_schema, load_dir)
-    onco_list_writer = load_files_onco['EditableOncoTreeDiseaseList']['writer']
-
-    jax_list_el_schema = get_schema.get_schema('EditableJaxDiseaseElementsList')
-    load_files_jax_el = create_load_files_dict(jax_list_el_schema, load_dir)
-    jax_el_list_writer = load_files_jax_el['EditableJaxDiseaseElementsList']['writer']
-
-    do_list_el_schema = get_schema.get_schema('EditableDoDiseaseElementsList')
-    load_files_do_el = create_load_files_dict(do_list_el_schema, load_dir)
-    do_el_list_writer = load_files_do_el['EditableDoDiseaseElementsList']['writer']
-
-    go_list_el_schema = get_schema.get_schema('EditableGoDiseaseElementsList')
-    load_files_go_el = create_load_files_dict(go_list_el_schema, load_dir)
-    go_el_list_writer = load_files_go_el['EditableGoDiseaseElementsList']['writer']
-
-    onco_list_el_schema = get_schema.get_schema('EditableOncoTreeDiseaseElementsList')
-    load_files_onco_el = create_load_files_dict(onco_list_el_schema, load_dir)
-    onco_el_list_writer = load_files_onco_el['EditableOncoTreeDiseaseElementsList']['writer']
-
-
-    db_dict_ed_el= get_schema.get_schema('EditableDiseaseListElements')
-
-    editable_list_writer = load_files_ed_disease_list_dict['EditableDiseaseList']['writer']
-    load_ed_el_dict = create_load_files_dict(db_dict_ed_el, load_dir)
-    element_writer = load_ed_el_dict['EditableDiseaseListElements']['writer']
-
-    strings_dict = disease_dict
-    esl_dict = {}
-    counter = 0
-    for ontological_disease in strings_dict:
-        corresponding_disease = strings_dict[ontological_disease]
-        description = onto_dict[ontological_disease]
-        field = description[0]
-
-       # Creates time stampe id using id class
-        esl  = id_class.assign_id().replace('es_', disease)
-        esl_dict[ontological_disease] = esl
-        graph_id =  'ontological_disease_' + field
-
-        # Write editable disease list into csv
-        write_editable_disease_list(graph_id, editable_list_writer, loader_id, esl)
-        counter = write_elements(corresponding_disease, esl, element_writer, counter)
-    return esl_dict
+            # Write editable disease list into csv
+            write_editable_disease_list(field, disease_writers[i], loader_id, esl)
+            counter = write_elements(lists_from_dataframe[i], esl, element_writers[i], counter)
+    return df
 
 # Writes editable disease list elements table
-def write_elements(ontological_disease, esl, element_writer, counter):
-    counter += 1
-    # Write elements  csv file entry
-    element_writer.writerow([counter, ontological_disease, esl])
+def write_elements(elements_list, esl, element_writer, counter):
+    for entry in elements_list:
+        element_writer.writerow([counter, entry, esl])
+        counter += 1
     return counter
+
+def create_writer_objects(lists_to_create, load_dir):
+    list_of_writer_objects = []
+    for entry in lists_to_create:
+        schema = get_schema.get_schema(entry)
+        loaded_files = create_load_files_dict(schema, load_dir)
+        writer = loaded_files[entry]['writer']
+        list_of_writer_objects.append(writer)
+    return list_of_writer_objects
+
 
 def write_editable_disease_list(graph_id, editable_string_writer, loader_id, esl):
     now = datetime.datetime.now()

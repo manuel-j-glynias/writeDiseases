@@ -22,26 +22,23 @@ import extract_ontological
 
 
 def main(load_directory):
+    # Create a dataframe
     ontological_df = extract_ontological.parse_go()
-    ontological_df_with_statements = ontological_df = create_editable_statement.assign_editable_statement(ontological_df,
+
+    # Create editable diseases lists and add it to a dataframe
+    ontological_df = create_EditableDiseaseList.assign_editable_disease_lists(ontological_df, loader_id, load_directory, id_class)
+
+    # Add editable statements to a dataframe
+    ontological_df_with_statements = create_editable_statement.assign_editable_statement(ontological_df,
                                                                              editable_statement_list, loader_id,
                                                                              load_directory, table_name, id_class)
-    ontological_df_with_disease_listst = assign_disease_lists()
-    return ontological_df
 
-def assign_disease_lists():
-    print()
-###################################################
-#  WRITE CSV
-###################################################
-# Converts dataframe to csv file
-# Input: dataframe and file path
-# Output: csv file is written
-def write_load_files (df, path):
-    try:
-        df.to_csv(path, encoding='utf-8', index=False)
-    except IOError:
-        print("I/O error csv file")
+    # Temporary file
+    path = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/ontological_diseases_table.csv'
+    ontological_df_with_statements.to_csv(path, encoding='utf-8', index=False)
+
+
+    return ontological_df
 
 
 if __name__ == "__main__":
