@@ -28,8 +28,6 @@ def assign_editable_disease_lists(df, loader_id, load_dir,  id_class):
 
     counter = 1
     for index, row in df.iterrows():
-        test_id = id_class.get_jax_id()
-        print (test_id)
         lists_from_dataframe = [row[columns[0]], row[columns[0]], row[columns[0]], row[columns[0]]]
         for i  in range(len(lists_from_dataframe)):
 
@@ -46,15 +44,22 @@ def assign_editable_disease_lists(df, loader_id, load_dir,  id_class):
             write_editable_disease_list(field, disease_writers[i], loader_id, esl)
 
             # Write editable disease  elements list into csv
-            counter = write_elements(lists_from_dataframe[i], esl, element_writers[i], counter)
+            write_elements(lists_from_dataframe[i], esl, element_writers[i], i, id_class)
     return df
 
 # Writes editable disease list elements table
-def write_elements(elements_list, esl, element_writer, counter):
+def write_elements(elements_list, esl, element_writer, i, id_class):
+    element_id = 0
     for entry in elements_list:
-        element_writer.writerow([counter, entry, esl])
-        counter += 1
-    return counter
+        if i == 0:
+            element_id = id_class.get_jax_id()
+        elif i == 1:
+            element_id = id_class.get_do_id()
+        elif i == 1:
+            element_id = id_class.get_go_id()
+        elif i == 1:
+            element_id = id_class.get_onco_id()
+        element_writer.writerow([element_id, entry, esl])
 
 # Creates writer object for each needed csv file
 def create_writer_objects(lists_to_create, load_dir):
