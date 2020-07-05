@@ -28,7 +28,7 @@ def assign_editable_disease_lists(df, loader_id, load_dir,  id_class):
 
     counter = 1
     for index, row in df.iterrows():
-        lists_from_dataframe = [row[columns[0]], row[columns[0]], row[columns[0]], row[columns[0]]]
+        lists_from_dataframe = [row[columns[0]], row[columns[1]], row[columns[2]], row[columns[3]]]
         for i  in range(len(lists_from_dataframe)):
 
             disease_name = row[name]
@@ -55,9 +55,9 @@ def write_elements(elements_list, esl, element_writer, i, id_class):
             element_id = id_class.get_jax_id()
         elif i == 1:
             element_id = id_class.get_do_id()
-        elif i == 1:
+        elif i == 2:
             element_id = id_class.get_go_id()
-        elif i == 1:
+        elif i == 3:
             element_id = id_class.get_onco_id()
         element_writer.writerow([element_id, entry, esl])
 
