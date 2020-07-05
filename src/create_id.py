@@ -1,6 +1,9 @@
 import datetime
-import copy
-
+"""
+This class generates ids for editable statements and editable lists
+7/4/2020
+IK
+"""
 
 class ID:
 
