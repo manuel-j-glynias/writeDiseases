@@ -21,22 +21,22 @@ import write_sql
 import get_schema
 import write_load_files
 import create_id
-load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
-loader_id = '007'
+#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+#loader_id = '007'
 editable_statement_list = ['diseasePath']
 table_name = 'mcode_diseases'
 import create_editable_statement
-id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 
-def main(load_directory):
+def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     path = '../data/tblOS_GLOBAL_GLOBAL_Ref_MCodes.csv'
 
     #Create dataframe
     df=extract_file(path)
 
-    mcode_disease_df = parse_mcode_main(df)
+    mcode_disease_df = parse_mcode_main(df, load_directory, loader_id, id_class)
     path = load_directory + 'mcode_diseases.csv'
     write_load_files.main(mcode_disease_df, path)
 
@@ -61,7 +61,7 @@ def main(load_directory):
 # Creates  mcode dataframe
 # Input: dataframe
 # Output: new  dataframe with required fields
-def parse_mcode_main(df):
+def parse_mcode_main(df, load_directory, loader_id, id_class):
     mcode_list = []
 
     # Parse dataframe
@@ -131,5 +131,5 @@ def extract_file(path):
     df =unparsed_df[unparsed_df.Active_Flag != 0]
     return df
 
-if __name__ == "__main__":
-    main(load_directory)
+#if __name__ == "__main__":
+    #main(load_directory, loader_id, id_class)
