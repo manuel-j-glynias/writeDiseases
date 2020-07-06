@@ -48,14 +48,14 @@ results = 'results'
 id = 'id'
 definition = 'definition'
 description = 'description'
-load_directory = '../load_files/'
-loader_id = '007'
+#load_directory = '../load_files/'
+#loader_id = '007'
 temporary_xref_path_go = '../load_files/go_xrefs.csv'
-id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0)
 
 
 
-def main(load_directory):
+def main(load_directory, loader_id, id_class):
     # Create a dataframe
     df = parse_go()
     xrefs_temporary_df = create_xrefs(temporary_xref_path_go, df)
@@ -69,6 +69,7 @@ def main(load_directory):
                                                                              load_directory, table_name, id_class)
     ontological_df_with_statements = add_column_to_dataframe(ontological_df_with_statements, xref_editable, 'xrefs')
 
+    ontological_df_with_statements.to_csv('../load_files/ontological_diseases.csv')
     return ontological_df_with_statements
 
 
@@ -195,5 +196,5 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
    return df_in_need
 
 
-if __name__ == "__main__":
-    main(load_directory)
+#if __name__ == "__main__":
+    #main(load_directory)
