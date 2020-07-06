@@ -19,25 +19,25 @@ import get_schema
 import write_sql
 import create_id
 
-load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
-loader_id = '007'
+#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+#loader_id = '007'
 editable_statement_list = ['tissuePath']
 table_name = 'tcode_diseases'
 import create_editable_statement
-id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 from sql_utils import load_table, create_table, does_table_exist, \
     get_local_db_connection, maybe_create_and_select_database, \
     drop_table_if_exists
 
-def main(load_directory):
+def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     path = '../data/tblOS_GLOBAL_GLOBAL_Ref_TCodes.csv'
 
     #Create dataframe
     df=extract_file(path)
 
-    tcode_disease_df = parse_tcode_main(df)
+    tcode_disease_df = parse_tcode_main(df, load_directory, loader_id, id_class)
     path = load_directory + 'tcode_diseases.csv'
     write_load_files.main(tcode_disease_df, path)
 
@@ -60,7 +60,7 @@ def main(load_directory):
 # Creates  tcode dataframe
 # Input: dataframe
 # Output: new  dataframe with required fields
-def parse_tcode_main(df):
+def parse_tcode_main(df, load_directory, loader_id, id_class):
     tcode_list = []
 
     # Parse dataframe
@@ -130,5 +130,5 @@ def extract_file(path):
     return df
 
 
-if __name__ == "__main__":
-    main(load_directory)
+#if __name__ == "__main__":
+    #main( load_directory, loader_id, id_class)

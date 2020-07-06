@@ -8,12 +8,12 @@ import get_schema
 import write_load_files
 
 import create_id
-load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
-loader_id = '007'
+#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+#loader_id = '007'
 editable_statement_list = ['name', 'mainType', 'tissue']
 table_name = 'oncotree_diseases'
 import create_editable_statement
-id_class = create_id.ID('', '')
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 import csv
 from sql_helpers import get_one_jax_gene, preflight_ref, insert_editable_statement, insert_es_ref, get_loader_user_id
@@ -23,7 +23,7 @@ import json
 import sys
 import os
 
-def main(load_directory):
+def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     file = ('../data/onctoree.json')
 
@@ -31,7 +31,7 @@ def main(load_directory):
     df = pandas.read_json(file)
 
     #Parse dataframes
-    oncotree_df= parse_oncotree_main(df)
+    oncotree_df= parse_oncotree_main(df, load_directory, loader_id, id_class)
     oncotree_df_refs = parse_oncotree_refs(df)
 
     xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(oncotree_df_refs, loader_id, load_directory,
@@ -76,7 +76,7 @@ def main(load_directory):
 # Transforms dataframe by adding and filling the columns
 # Input: dataframe
 # Output: transformed dataframe
-def parse_oncotree_main(df):
+def parse_oncotree_main(df, load_directory, loader_id, id_class):
 
     id_dict = {}
     parent_dict = {}
@@ -177,5 +177,5 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
            df_in_need.at[index, column] = column_dict[disease_id]
    return df_in_need
 
-if __name__ == "__main__":
-    main(load_directory)
+#if __name__ == "__main__":
+    #main(load_directory, load_id, id_class)

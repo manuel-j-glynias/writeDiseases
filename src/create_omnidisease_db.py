@@ -31,7 +31,7 @@ def main(load_directory, loader_id, id_class):
     #Create dataframe
     df=extract_file(path)
 
-    omni_disease_df = parse_omnidisease(df)
+    omni_disease_df = parse_omnidisease(df, load_directory, loader_id, id_class)
     path = load_directory + 'omni_diseases.csv'
     write_load_files.main(omni_disease_df, path)
 
@@ -42,7 +42,7 @@ def main(load_directory, loader_id, id_class):
 # Creates omnidisease  dataframe
 # Input: dataframe
 # Output: new  dataframe with required fields
-def parse_omnidisease(df):
+def parse_omnidisease(df, load_directory, loader_id, id_class):
     # Parse dataframe
     for index, row in df.iterrows():
         code = row['OmniDiseaseID']
@@ -70,5 +70,5 @@ def extract_file(path):
     return df
 
 
-if __name__ == "__main__":
-    main(load_directory)
+#if __name__ == "__main__":
+    #main(load_directory, loader_id, id_class)
