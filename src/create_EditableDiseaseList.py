@@ -15,7 +15,7 @@ disease_lists = ['EditableJaxDiseaseList', 'EditableDoDiseaseList', 'EditableGoD
 disease_elements_lists = [ 'EditableJaxDiseaseListElements',
                                'EditableDoDiseaseListElements', 'EditableGoDiseaseListElements',
                         'EditableOncoTreeDiseaseListElements']
-ids = ['ejdl', 'eddl', 'egdl', 'eodl']
+ids = ['ejdl', 'eddl', 'egdl', 'eotdl']
 columns = ['jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases']
 ontological_disease = 'ontological_disease_'
 name = 'name'

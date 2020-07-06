@@ -18,6 +18,7 @@ import json
 import create_id
 import create_EditableDiseaseList
 import create_editable_statement
+import create_EditableXrefsList
 
 # Variables
 files = ['../data/GO_diseases/diseases_pg1.json',
@@ -49,23 +50,26 @@ definition = 'definition'
 description = 'description'
 load_directory = '../load_files/'
 loader_id = '007'
-id_class = create_id.ID('', '',  0, 0, 0, 0, 0)
+temporary_xref_path_go = '../load_files/go_xrefs.csv'
+id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0)
 
 
 
 def main(load_directory):
     # Create a dataframe
-    ontological_df = parse_go()
-
+    df = parse_go()
+    xrefs_temporary_df = create_xrefs(temporary_xref_path_go, df)
+    xref_editable = create_EditableXrefsList.assign_editable_xrefs_lists(xrefs_temporary_df, loader_id, load_directory, id_class)
     # Create editable diseases lists and add it to a dataframe
-    ontological_df = create_EditableDiseaseList.assign_editable_disease_lists(ontological_df, loader_id, load_directory, id_class)
+    ontological_df = create_EditableDiseaseList.assign_editable_disease_lists(df, loader_id, load_directory, id_class)
 
     # Add editable statements to a dataframe
     ontological_df_with_statements = create_editable_statement.assign_editable_statement(ontological_df,
                                                                              editable_statement_list, loader_id,
                                                                              load_directory, table_name, id_class)
+    ontological_df_with_statements = add_column_to_dataframe(ontological_df_with_statements, xref_editable, 'xrefs')
 
-    return ontological_df
+    return ontological_df_with_statements
 
 
 def parse_go():
@@ -162,6 +166,34 @@ def combine_dataframes(dataframe_list):
     combined_df = pandas.concat(dfs_to_combine, ignore_index=True)
 
     return combined_df
+
+def create_xrefs(temporary_xref_path_go, df):
+    temp_list = []
+    xrefs_df = pandas.read_csv(temporary_xref_path_go)
+    temp_dict = {}
+    for index, row  in df.iterrows():
+        graph_id = row['graph_id']
+        go_id = row['goDiseases'][0]
+        temp_dict[go_id] = graph_id
+
+    for index, row in xrefs_df.iterrows():
+        graph_id = row['graph_id']
+        if graph_id in temp_dict:
+            onto_id = temp_dict[graph_id]
+            xrefs_df.at[ index, 'graph_id'] = onto_id
+        else:
+            pass
+    return xrefs_df
+
+def add_column_to_dataframe(df_in_need, column_dict, column):
+   #Put esl value back to the main dataframe
+   for index, row in df_in_need.iterrows():
+       df_in_need.at[index, column] = ""
+       disease_id = row['graph_id']
+       if disease_id in column_dict:
+           df_in_need.at[index, column] = column_dict[disease_id]
+   return df_in_need
+
 
 if __name__ == "__main__":
     main(load_directory)

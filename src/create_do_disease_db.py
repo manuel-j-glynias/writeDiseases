@@ -32,7 +32,7 @@ import get_schema
 import create_EditableXrefsList
 import config
 
-id_class = create_id.ID('', '', 1, 1, 1, 1, 1)
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 def download_do():
     os.chdir('../data/')

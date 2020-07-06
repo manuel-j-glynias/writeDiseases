@@ -34,8 +34,6 @@ def assign_editable_lists(df, loader_id, load_dir,  id_class, element):
     counter = 0
     for entry in strings_dict:
         entries = strings_dict[entry]
-        counter += 1
-        # Create an id for group of synonyms
 
         #EditableSynonymsList_graph_id:
         esl  = id_class.assign_id().replace('es_', 'esl_')
@@ -47,12 +45,12 @@ def assign_editable_lists(df, loader_id, load_dir,  id_class, element):
         write_editable_string_list(graph_id, editable_string_writer, loader_id, esl)
 
         for el  in entries:
-            id = counter
+            element_id = id_class.get_str_id()
             name = el
             EditableSynonymsList_graph_id = esl
 
             # Write synonym  csv file entry
-            write_editable_list_elements(id, element_writer, name, EditableSynonymsList_graph_id)
+            write_editable_list_elements(element_id, element_writer, name, EditableSynonymsList_graph_id)
     return esl_dict
 
 def write_editable_string_list(graph_id, editable_string_writer, loader_id, esl):
