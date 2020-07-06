@@ -2,13 +2,39 @@ import datetime
 import csv
 import os
 import get_schema
+import pandas
 
+path = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
 
+def extract_file(path):
+    unparsed_df = pandas.read_csv(path)
+    table_database = {}
+    col_order = []
+    previous = ''
+    for index, row in unparsed_df.iterrows():
+        field_list = [row['DataType'], row['Key'], row['NullValues'],
+                      row['AutoIncrement'], row ['ReferenceFields']]
+        if  row['Table'] in table_database:
+            field_dict = table_database[row['Table'] ]
+            field_dict[ row['Field']] = field_list
+        else:
+            if previous != '':
+                previous_dict = table_database[previous]
+                previous_dict['col_order'] = col_order
+            col_order = []
+            field_dict = {}
+            field_dict[ row['Field']] = field_list
+            table_database[row['Table'] ] = field_dict
+        col_order.append( row['Field'])
+        previous = row['Table']
+
+    return table_database
 def assign_editable_xrefs_lists(df, loader_id, load_dir,  id_class):
     # Gets the info on what columns should be created
-    db_dict_ed_xrefs_list = get_schema.get_schema('EditableXrefsList')
-    db_dict_ed_xrefs_el= get_schema.get_schema('EditableXrefsListElements')
-    db_dict_xref = get_schema.get_schema('Xref')
+    db_dict = extract_file(path)
+    db_dict_ed_xrefs_list = {'OmniseqKnowledgeDatabase2' : {'EditableXrefsList': db_dict['EditableXrefsList']}}
+    db_dict_ed_xrefs_el = {'OmniseqKnowledgeDatabase2' : {'EditableXrefsListElements': db_dict['EditableXrefsListElements']}}
+    db_dict_xref = { 'OmniseqKnowledgeDatabase2': {'Xref': db_dict['Xref']}}
 
     # Creates writer objects for EditableXrefsList and EditableXrefsListElements
     load_files_ed_xrefs_list_dict = create_load_files_dict(db_dict_ed_xrefs_list, load_dir)
@@ -27,7 +53,6 @@ def assign_editable_xrefs_lists(df, loader_id, load_dir,  id_class):
     counter = 0
     for entry in strings_dict:
         entries = strings_dict[entry]
-        counter += 1
 
         #EditableXrefs_graph_id:
         esl  = id_class.assign_id().replace('es_', 'exl_')
@@ -36,27 +61,29 @@ def assign_editable_xrefs_lists(df, loader_id, load_dir,  id_class):
 
         # Write editable synonyms list  csv file entry
         write_editable_xrefs_list(graph_id, editable_list_writer, loader_id, esl)
-        write_xref_and_elements(entries, esl, element_writer, xref_writer, counter)
+        counter = write_xref_and_elements(entries, esl, element_writer, xref_writer, counter, id_class)
     return esl_dict
 
 # Writes xref elements and xref tables
-def write_xref_and_elements(entries, esl, element_writer, xref_writer, counter):
+def write_xref_and_elements(entries, esl, element_writer, xref_writer, counter, id_class):
     for el in entries:
         for input in el:
+            element_id = id_class.get_xref_id()
             source = input
             sourceId = el[input]
             XRef_graph_id = 'xref_' + source.lower() + '_' + sourceId.lower()
             EditableXRefList_graph_id = esl
             # Write elements  csv file entry
-            write_editable_xrefs_elements(counter, element_writer, XRef_graph_id, EditableXRefList_graph_id)
+            write_editable_xrefs_elements(element_id, element_writer, XRef_graph_id, EditableXRefList_graph_id)
             write_xref(source, sourceId, xref_writer, XRef_graph_id)
+    return counter
 
 def write_editable_xrefs_list(graph_id, editable_string_writer, loader_id, esl):
     now = datetime.datetime.now()
     editable_string_writer.writerow([graph_id, now.strftime("%Y-%m-%d-%H-%M-%S"), loader_id, esl])
 
-def write_editable_xrefs_elements(counter, editable_elements_writer, XRef_graph_id, EditableXRefList_graph_id):
-    editable_elements_writer.writerow([counter, XRef_graph_id, EditableXRefList_graph_id])
+def write_editable_xrefs_elements(element_id, editable_elements_writer, XRef_graph_id, EditableXRefList_graph_id):
+    editable_elements_writer.writerow([element_id, XRef_graph_id, EditableXRefList_graph_id])
 
 def write_xref(source, source_id, xref_writer, graph_id):
     xref_writer.writerow([source, source_id, graph_id])

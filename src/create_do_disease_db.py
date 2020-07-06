@@ -21,8 +21,6 @@ import create_id
 import create_editable_statement
 import create_EditableStringList
 import write_sql
-import get_schema
-
 
 editable_statement_list = ['name', 'definition']
 editable_synonyms_list = ['synonyms']
@@ -32,8 +30,9 @@ do_table_name = 'DoDiseases'
 import write_load_files
 import get_schema
 import create_EditableXrefsList
+import config
 
-id_class = create_id.ID('', '')
+id_class = create_id.ID('', '', 1, 1, 1, 1, 1)
 
 def download_do():
     os.chdir('../data/')
