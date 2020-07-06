@@ -24,7 +24,7 @@ loader_id = '007'
 editable_statement_list = ['tissuePath']
 table_name = 'tcode_diseases'
 import create_editable_statement
-id_class = create_id.ID('', '')
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 from sql_utils import load_table, create_table, does_table_exist, \
     get_local_db_connection, maybe_create_and_select_database, \

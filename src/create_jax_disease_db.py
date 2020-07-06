@@ -6,8 +6,8 @@ import os
 import config
 
 editable_statement_list = ['name', 'definition']
-loader_id = '007'
-load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+#loader_id = '007'
+#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 
 import pandas
 from sql_utils import load_table, create_table, does_table_exist, get_local_db_connection, maybe_create_and_select_database, drop_table_if_exists
@@ -18,7 +18,7 @@ editable_statement_list = ['name', 'definition']
 config_directory ='C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
 do_table_name = 'DoDiseases'
 import write_load_files
-id_class = create_id.ID('', '')
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 
 ###################################################
@@ -60,7 +60,7 @@ def get_list_of_files(path: str) -> list:
             json_files.append(entry.path)
     return json_files
 
-def add_editables(disease_list):
+def add_editables(disease_list, load_directory, loader_id, id_class):
     df_to_edit = pandas.DataFrame(disease_list)
     table_name = 'jax_diseases'
     df_editable = create_editable_statement.assign_editable_statement(df_to_edit,
@@ -102,7 +102,7 @@ def read_one_disease_json(path:str)->dict:
         }
         return disease
 
-def main(load_directory):
+def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     my_db = None
     my_cursor = None
@@ -111,7 +111,7 @@ def main(load_directory):
     table_dict = {}
     database_dict = {}
     disease_list = parse_jax()
-    disease_list_with_editables = add_editables(disease_list)
+    disease_list_with_editables = add_editables(disease_list, load_directory, loader_id, id_class)
     write_load_files(disease_list_with_editables, load_directory)
     table_name = 'jax_diseases'
     db_name = 'OmniSeqKnowledgebase2'

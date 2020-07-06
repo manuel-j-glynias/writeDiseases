@@ -26,7 +26,7 @@ loader_id = '007'
 editable_statement_list = ['diseasePath']
 table_name = 'mcode_diseases'
 import create_editable_statement
-id_class = create_id.ID('', '')
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 
 def main(load_directory):

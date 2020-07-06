@@ -24,15 +24,15 @@ import write_sql
 
 editable_statement_list = ['name', 'definition']
 editable_synonyms_list = ['synonyms']
-loader_id = '007'
-load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+#loader_id = '007'
+#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 do_table_name = 'DoDiseases'
 import write_load_files
 import get_schema
 import create_EditableXrefsList
-import config
 
-id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
+
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 def download_do():
     os.chdir('../data/')
@@ -308,7 +308,7 @@ def assign_xrefs_to_do_disease(do_disease_df, xrefs_editable):
     return do_disease_df
 
 
-def main(load_directory):
+def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     my_db = None
     my_cursor = None
@@ -404,5 +404,5 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
            df_in_need.at[index, column] = column_dict[disease_id]
    return df_in_need
 
-if __name__ == "__main__":
-    main(load_directory)
+#if __name__ == "__main__":
+    #main(load_directory)

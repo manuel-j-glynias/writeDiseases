@@ -17,14 +17,14 @@ import write_sql
 import write_load_files
 
 import create_id
-load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
-loader_id = '007'
+#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+#loader_id = '007'
 editable_statement_list = ['name']
 table_name = 'omni_diseases'
 import create_editable_statement
-id_class = create_id.ID('', '')
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
-def main(load_directory):
+def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     path = '../data/tblOS_GLOBAL_GLOBAL_Ref_OmniDiseases.csv'
 

@@ -23,10 +23,10 @@ import create_EditableXrefsList
 
 editable_statement_list = ['name', 'definition']
 editable_synonyms_list = ['synonyms']
-loader_id = '007'
-load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+#loader_id = '007'
+#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 table_name = 'GoDiseases'
-id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 
 import csv
@@ -36,7 +36,7 @@ from sql_utils import load_table, create_table, does_table_exist, \
 import json
 import get_schema
 
-def main(load_directory):
+def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     files = ['../data/GO_diseases/diseases_pg1.json',
              '../data/GO_diseases/diseases_pg2.json',
@@ -49,11 +49,11 @@ def main(load_directory):
     df=combine_files(files)
 
     #Parse dataframes
-    go_disease_df= parse_go_main(df)
+    go_disease_df= parse_go_main(df, loader_id, load_directory, id_class)
     go_parents_df = parse_go_parents(df)
     go_children_df = parse_go_children(df)
     go_xrefs = parse_go_refs(df)
-    go_disease_df = parse_go_synonyms(df, go_disease_df)
+    go_disease_df = parse_go_synonyms(df, go_disease_df, loader_id, load_directory,  id_class)
 
     xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(go_xrefs, loader_id, load_directory,
                                                                           id_class)
@@ -145,7 +145,7 @@ def combine_files( files):
 # Transforms dataframe by adding and selecting  the columns
 # Input: dataframe
 # Output: transformed dataframe
-def parse_go_main(df):
+def parse_go_main(df, loader_id, load_directory, id_class):
 
     df1 = df[['id', 'name', 'definition', 'graph_id']].copy(deep=True)
     df_editable = create_editable_statement.assign_editable_statement(df1, editable_statement_list, loader_id, load_directory, table_name,id_class)
@@ -242,7 +242,7 @@ def parse_go_refs(df):
 # Creates a dataframe with graph_id and corresponding synonym
 # Input: original dataframe
 #Output: dataframe with graph_id and synonym
-def parse_go_synonyms(df, go_disease_df):
+def parse_go_synonyms(df, go_disease_df, loader_id, load_directory,  id_class):
     synonyms_list = []
     # Get synonyms
     for index, row in df.iterrows():
@@ -275,4 +275,4 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
    return df_in_need
 
 if __name__ == "__main__":
-    main(load_directory)
+    main(load_directory, id_class, loader_id)
