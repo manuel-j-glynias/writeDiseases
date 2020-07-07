@@ -9,7 +9,7 @@ import create_tcode_db
 import create_id
 
 load_directory = '../load_files/'
-loader_id = '007'
+loader_id = 'user_20200422163431232329'
 id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 def main(load_directory, loader_id, id_class):
@@ -21,7 +21,7 @@ def main(load_directory, loader_id, id_class):
     create_tcode_db.main(load_directory, loader_id, id_class)
     create_mcode_db.main(load_directory, loader_id, id_class)
     create_ontological_disease_db.main(load_directory, loader_id, id_class)
-    print()
+    print('All diseases are loaded')
 
 if __name__ == "__main__":
     main(load_directory, loader_id, id_class)

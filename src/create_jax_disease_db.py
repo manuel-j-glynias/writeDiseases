@@ -26,7 +26,7 @@ import write_load_files
 ###################################################
 
 def write_load_files (disease_list, load_directory):
-    csv_columns = ["jaxId", "name", "source", "definition", "currentPreferredTerm", "lastUpdateDateFromDO",
+    csv_columns = ["jaxId", "name", "source", "definition",
                    "termId", "graph_id"]
     csv_file =  load_directory + 'jax_diseases.csv'
     try:
@@ -65,6 +65,8 @@ def add_editables(disease_list, load_directory, loader_id, id_class):
     table_name = 'jax_diseases'
     df_editable = create_editable_statement.assign_editable_statement(df_to_edit,
                                                                       editable_statement_list, loader_id, load_directory, table_name,id_class)
+    del df_editable['currentPreferredTerm']
+    del df_editable['lastUpdateDateFromDO']
     edited_disease_list = df_editable.T.to_dict().values()
     return edited_disease_list
 
