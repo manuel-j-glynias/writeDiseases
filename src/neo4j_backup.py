@@ -1,5 +1,4 @@
 # This is a backup file to load csv files into neo4J
-
 from neo4j import GraphDatabase
 import csv
 import datetime
@@ -113,6 +112,27 @@ def main():
     send_to_neo4j(driver, read_jax_diseases)
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("JaxDisease", elapsed.total_seconds(), last_round.total_seconds())
+
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableStringList(id)')
+    read_editable_string_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStringList.csv' AS row
+     WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.graph_id as id 
+     MATCH(u:User) WHERE u.id=editor
+     CREATE (esl:EditableStringList {field:field, editDate:editDate, editor:editor,  id:id}) 
+     CREATE (esl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_string_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableStringList", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableStringListElement(id)')
+    read_editable_string_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStringListElements.csv' AS row
+    WITH row.id as id, row.name as name, row.EditableStringsList_graph_id as editableStringListId
+    MATCH(eslist:EditableStringList) WHERE eslist.id=editableStringListId
+    CREATE (eslel:EditableStringListElement {id:id, name:name, editableStringListId:editableStringListId}) 
+    CREATE (eslel)-[:ELEMENT_OF]->(eslist)'''
+    send_to_neo4j(driver, read_editable_string_list_elements)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableStringListElement", elapsed.total_seconds(), last_round.total_seconds())
 
     """
     read_editable_statement_internet_reference = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement_InternetReference.csv' AS row
