@@ -1,6 +1,6 @@
 import csv
 import pandas
-path = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
+#path = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
 
 def extract_file(path):
     unparsed_df = pandas.read_csv(path)
@@ -26,4 +26,4 @@ def extract_file(path):
 
     return table_database
 
-extract_file(path)
+#extract_file(path)
