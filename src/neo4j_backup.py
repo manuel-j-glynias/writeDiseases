@@ -3,12 +3,14 @@ from neo4j import GraphDatabase
 import csv
 import datetime
 
+
 def send_to_neo4j(driver, payload):
     with driver.session() as session:
         tx = session.begin_transaction()
         result = tx.run(payload)
         # print(result)
         tx.commit()
+
 
 def get_elapsed_time(now, start):
     old_now = now
@@ -17,14 +19,15 @@ def get_elapsed_time(now, start):
     elapsed = now - start
     return elapsed, last_round, now
 
+
 def main():
     uri = "bolt://localhost:7687"
 
     with open('schema.graphql', 'r') as file:
         idl_as_string = file.read()
     driver = GraphDatabase.driver(uri, auth=("neo4j", "omni"))
-    send_to_neo4j(driver,"match(a) detach delete(a)")
-    send_to_neo4j(driver,"call graphql.idl('" + idl_as_string + "')")
+    send_to_neo4j(driver, "match(a) detach delete(a)")
+    send_to_neo4j(driver, "call graphql.idl('" + idl_as_string + "')")
 
     start = datetime.datetime.now()
     now = start
@@ -53,7 +56,7 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("Journal", elapsed.total_seconds(), last_round.total_seconds())
 
-    send_to_neo4j(driver,'CREATE INDEX ON :LiteratureReference(id)')
+    send_to_neo4j(driver, 'CREATE INDEX ON :LiteratureReference(id)')
     read_literature_reference = '''LOAD CSV WITH HEADERS FROM 'file:///LiteratureReference.csv' AS row
     WITH row.PMID as PMID,row.DOI as DOI, row.title as title, row.Journal_graph_id as j_id, row.volume as volume, row.firstPage as firstPage, row.lastPage as lastPage,row.publicationYear as publicationYear, row.shortReference as shortReference, row.abstract as abstract, row.graph_id as id
     MATCH(j:Journal) WHERE j.id=j_id
@@ -62,7 +65,6 @@ def main():
     send_to_neo4j(driver, read_literature_reference)
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("LiteratureReference", elapsed.total_seconds(), last_round.total_seconds())
-
 
     read_literature_reference_author = '''LOAD CSV WITH HEADERS FROM 'file:///LiteratureReference_Author.csv' AS row
     WITH row.Author_graph_id as author,row.LiteratureReference_graph_id as ref
@@ -82,7 +84,7 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("InternetReference", elapsed.total_seconds(), last_round.total_seconds())
     """
-    send_to_neo4j(driver,'CREATE INDEX ON :EditableStatement(id)')
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableStatement(id)')
     read_editable_statement = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement.csv' AS row
     WITH row.field as field, row.statement as statement,  row.editDate as editDate,row.editorId as editorId, row.graph_id as id
     MATCH(u:User) WHERE u.id=editorId
@@ -113,12 +115,11 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("JaxDisease", elapsed.total_seconds(), last_round.total_seconds())
 
-
     send_to_neo4j(driver, 'CREATE INDEX ON :EditableStringList(id)')
     read_editable_string_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStringList.csv' AS row
      WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.graph_id as id 
      MATCH(u:User) WHERE u.id=editor
-     CREATE (esl:EditableStringList {field:field, editDate:editDate, editor:editor,  id:id}) 
+     CREATE (esl:EditableStringList {field:field, editDate:editDate,  id:id}) 
      CREATE (esl)-[:EDITED_BY]->(u)'''
     send_to_neo4j(driver, read_editable_string_list)
     elapsed, last_round, now = get_elapsed_time(now, start)
@@ -134,7 +135,29 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableStringListElement", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableXRefList(id)')
+    read_editable_xref_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableXrefsList.csv' AS row
+     WITH row.graph_id  as field, row.edit_date as editDate, row.editor_id as editor, row.xref_id as id  
+     MATCH(u:User) WHERE u.id=editor
+     CREATE (exl:EditableXRefList {field:field, editDate:editDate,  id:id}) 
+     CREATE (exl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_xref_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableXRefList", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableXrefListElement(id)')
+    read_editable_xref_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableXrefsListElements.csv' AS row
+   WITH row.id as id, row.XRef_graph_id as xRefGraphId, row.EditableXRefList_graph_id as editableXrefListId
+   MATCH(exlst:EditableXRefList) WHERE exlst.id=editableXrefListId
+   CREATE (exlel:EditableXrefListElement {id:id, xRefGraphId:xRefGraphId}) 
+   CREATE (exlel)-[:ELEMENT_OF]->(exlst)'''
+    send_to_neo4j(driver, read_editable_xref_list_elements)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableXrefListElement", elapsed.total_seconds(), last_round.total_seconds())
+
     """
+
+
     read_editable_statement_internet_reference = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement_InternetReference.csv' AS row
     WITH row.EditableStatement_graph_id as editable,row.InternetReference_graph_id as ref
     MATCH(ir:InternetReference) WHERE ir.id=ref
@@ -181,8 +204,6 @@ def main():
 
     """
     driver.close()
-
-
 
 
 if __name__ == "__main__":
