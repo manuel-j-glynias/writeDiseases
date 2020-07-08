@@ -1,4 +1,3 @@
-# This is a backup file to load csv files into neo4J
 from neo4j import GraphDatabase
 import csv
 import datetime
@@ -145,17 +144,38 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableXRefList", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :XRef(id)')
+    read_xref = '''LOAD CSV WITH HEADERS FROM 'file:///Xref.csv' AS row
+    WITH row.graph_id as id, row.source as source, row.source_id  as sourceId 
+    CREATE (xref:XRef {id:id, source:source, sourceId:sourceId }) '''
+    send_to_neo4j(driver, read_xref)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("XRef", elapsed.total_seconds(), last_round.total_seconds())
+
     send_to_neo4j(driver, 'CREATE INDEX ON :EditableXrefListElement(id)')
     read_editable_xref_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableXrefsListElements.csv' AS row
-   WITH row.id as id, row.XRef_graph_id as xRefGraphId, row.EditableXRefList_graph_id as editableXrefListId
-   MATCH(exlst:EditableXRefList) WHERE exlst.id=editableXrefListId
-   CREATE (exlel:EditableXrefListElement {id:id, xRefGraphId:xRefGraphId}) 
-   CREATE (exlel)-[:ELEMENT_OF]->(exlst)'''
+    WITH row.id as id, row.XRef_graph_id as xRef, row.EditableXRefList_graph_id as editableXrefList
+    MATCH(exlst:EditableXRefList) WHERE exlst.id=editableXrefList
+    MATCH(ref:XRef) WHERE ref.id=xRef
+    CREATE (exlel:EditableXrefListElement {id:id}) 
+    CREATE (exlel)-[:ELEMENT_OF]->(exlst)
+     CREATE (exlel)-[:XREF]->(ref)'''
     send_to_neo4j(driver, read_editable_xref_list_elements)
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableXrefListElement", elapsed.total_seconds(), last_round.total_seconds())
 
     """
+    send_to_neo4j(driver, 'CREATE INDEX ON :XRef(id)')
+    read_xref = '''LOAD CSV WITH HEADERS FROM 'file:///Xref.csv' AS row
+   WITH row.graph_id as xrefId, row.source as source, row.source_id  as sourceId 
+   MATCH(exlelement:EditableXrefListElement) WHERE exlelement.xRefGraphId=xrefId
+   CREATE (xref:XRef {source:source, sourceId:sourceId }) 
+   CREATE (xref)-[:ELEMENT_OF]->(exlelement)'''
+    send_to_neo4j(driver, read_xref)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("XRef", elapsed.total_seconds(), last_round.total_seconds())
+
+
 
 
     read_editable_statement_internet_reference = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement_InternetReference.csv' AS row
