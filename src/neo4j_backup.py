@@ -207,6 +207,45 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("DODisease", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableDODiseaseList(id)')
+    read_editable_do_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableDoDiseaseList.csv' AS row
+      WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.EditableDiseaseList_graph_id as id 
+      MATCH(u:User) WHERE u.id=editor
+      CREATE (eddl:EditableDODiseaseList {field:field, editDate:editDate,  id:id}) 
+      CREATE (eddl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_do_disease_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableDODiseaseList", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableDODiseaseListElement(id)')
+    read_editable_jax_disease_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableDoDiseaseListElements.csv' AS row
+        WITH row.id as id, row.Disease_graph_id as doDisease, row.EditableDiseaseList_graph_id  as editableDODiseaseList
+        MATCH(eddl:EditableDODiseaseList) WHERE eddl.id=editableDODiseaseList
+        MATCH(dd:DODisease) WHERE dd.id=doDisease
+        CREATE (eddle:EditableDODiseaseListElement {id:id}) 
+        CREATE (eddle)-[:ELEMENT_OF]->(eddl)
+        CREATE (eddle)-[:DISEASE]->(dd)'''
+    send_to_neo4j(driver, read_editable_jax_disease_list_elements)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableDODiseaseListElement", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :GODisease(id)')
+    read_go_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///go_diseases.csv' AS row
+       WITH row.id as goId, row.name as name, row.definition  as definition, row.synonyms as synonyms,  
+       row.xrefs as xrefs, row.graph_id as id
+       MATCH(esd:EditableStatement) WHERE esd.id=definition
+       MATCH(esn:EditableStatement) WHERE esn.id=name
+       MATCH(syns:EditableStringList) WHERE syns.id=synonyms
+       MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
+       CREATE (do:GODisease {goId:goId, id:id})
+       CREATE(do) - [:DESCRIBED_BY]->(esd) 
+       CREATE(do) - [:NAMED]->(esn)
+       CREATE(do) - [:ALSO_NAMED]->(syns) 
+       CREATE(do) - [:XREF]->(xreflist)'''
+    send_to_neo4j(driver, read_go_diseases)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("GODisease", elapsed.total_seconds(), last_round.total_seconds())
+
     """
     send_to_neo4j(driver, 'CREATE INDEX ON :XRef(id)')
     read_xref = '''LOAD CSV WITH HEADERS FROM 'file:///Xref.csv' AS row
