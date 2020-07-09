@@ -164,6 +164,28 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableXrefListElement", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableJAXDiseaseList(id)')
+    read_editable_jax_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableJaxDiseaseList.csv' AS row
+      WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.EditableDiseaseList_graph_id as id 
+      MATCH(u:User) WHERE u.id=editor
+      CREATE (ejdl:EditableJAXDiseaseList {field:field, editDate:editDate,  id:id}) 
+      CREATE (ejdl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_jax_disease_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableJaxDiseaseList", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableJAXDiseaseListElement(id)')
+    read_editable_jax_disease_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableJAXDiseaseListElements.csv' AS row
+    WITH row.id as id, row.Disease_graph_id as jaxDisease, row.EditableDiseaseList_graph_id  as editableJAXDiseaseList
+    MATCH(ejdl:EditableJAXDiseaseList) WHERE ejdl.id=editableJAXDiseaseList
+    MATCH(jd:JaxDisease) WHERE jd.id=jaxDisease
+    CREATE (ejdle:EditableJAXDiseaseListElement {id:id}) 
+    CREATE (ejdle)-[:ELEMENT_OF]->(ejdl)
+    CREATE (ejdle)-[:DISEASE]->(jd)'''
+    send_to_neo4j(driver, read_editable_jax_disease_list_elements)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableJAXDiseaseListElement", elapsed.total_seconds(), last_round.total_seconds())
+
     """
     send_to_neo4j(driver, 'CREATE INDEX ON :XRef(id)')
     read_xref = '''LOAD CSV WITH HEADERS FROM 'file:///Xref.csv' AS row
