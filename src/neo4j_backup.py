@@ -285,6 +285,28 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("OncoTreeDisease", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableOncoTreeDiseaseList(id)')
+    read_editable_oncotree_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableOncoTreeDiseaseList.csv' AS row
+          WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.EditableDiseaseList_graph_id as id 
+          MATCH(u:User) WHERE u.id=editor
+          CREATE (eotdl:EditableOncoTreeDiseaseList {field:field, editDate:editDate,  id:id}) 
+          CREATE (eotdl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_oncotree_disease_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableOncoTreeDiseaseList", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableOncoTreeDiseaseListElement(id)')
+    read_editable_oncotree_disease_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableOncoTreeDiseaseListElements.csv' AS row
+            WITH row.id as id, row.Disease_graph_id as oncoTreeDisease, row.EditableDiseaseList_graph_id  as editableOncoTreeDiseaseList
+            MATCH(eotdl:EditableOncoTreeDiseaseList) WHERE eotdl.id=editableOncoTreeDiseaseList
+            MATCH(ot:OncoTreeDisease) WHERE ot.id=oncoTreeDisease
+            CREATE (eotdle:EditableOncoTreeDiseaseListElement {id:id}) 
+            CREATE (eotdle)-[:ELEMENT_OF]->(eotdl)
+            CREATE (eotdle)-[:DISEASE]->(ot)'''
+    send_to_neo4j(driver, read_editable_oncotree_disease_list_elements)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableOncoTreeDiseaseListElement", elapsed.total_seconds(), last_round.total_seconds())
+
     """
     send_to_neo4j(driver, 'CREATE INDEX ON :XRef(id)')
     read_xref = '''LOAD CSV WITH HEADERS FROM 'file:///Xref.csv' AS row
