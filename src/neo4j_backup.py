@@ -246,6 +246,28 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("GODisease", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableGODiseaseList(id)')
+    read_editable_go_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableGoDiseaseList.csv' AS row
+          WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.EditableDiseaseList_graph_id as id 
+          MATCH(u:User) WHERE u.id=editor
+          CREATE (egdl:EditableGODiseaseList {field:field, editDate:editDate,  id:id}) 
+          CREATE (egdl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_go_disease_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableGODiseaseList", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableGODiseaseListElement(id)')
+    read_editable_go_disease_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableDoDiseaseListElements.csv' AS row
+            WITH row.id as id, row.Disease_graph_id as goDisease, row.EditableDiseaseList_graph_id  as editableGODiseaseList
+            MATCH(egdl:EditableGODiseaseList) WHERE egdl.id=editableGODiseaseList
+            MATCH(gd:GODisease) WHERE gd.id=goDisease
+            CREATE (egdle:EditableGODiseaseListElement {id:id}) 
+            CREATE (egdle)-[:ELEMENT_OF]->(egdl)
+            CREATE (egdle)-[:DISEASE]->(gd)'''
+    send_to_neo4j(driver, read_editable_go_disease_list_elements)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableGODiseaseListElement", elapsed.total_seconds(), last_round.total_seconds())
+
     """
     send_to_neo4j(driver, 'CREATE INDEX ON :XRef(id)')
     read_xref = '''LOAD CSV WITH HEADERS FROM 'file:///Xref.csv' AS row
