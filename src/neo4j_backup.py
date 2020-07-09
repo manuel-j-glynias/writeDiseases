@@ -268,6 +268,23 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableGODiseaseListElement", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :OncoTreeDisease(id)')
+    read_oncotree_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///oncotree_diseases.csv' AS row
+         WITH row.code as code, row.name as name, row.mainType  as mainType, row.tissue as tissue,  
+         row.xrefs as xrefs, row.graph_id as id
+         MATCH(esmaintype:EditableStatement) WHERE esmaintype.id=mainType
+         MATCH(esn:EditableStatement) WHERE esn.id=name
+         MATCH(estissue:EditableStatement) WHERE estissue.id=tissue
+         MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
+         CREATE (ot:OncoTreeDisease {code:code, id:id})
+         CREATE(ot) - [:MAIN_ONCOTREE_TYPE]->(esmaintype) 
+         CREATE(ot) - [:NAMED]->(esn)
+         CREATE(ot) - [:TISSUE]->(estissue) 
+         CREATE(ot) - [:XREF]->(xreflist)'''
+    send_to_neo4j(driver, read_oncotree_diseases)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("OncoTreeDisease", elapsed.total_seconds(), last_round.total_seconds())
+
     """
     send_to_neo4j(driver, 'CREATE INDEX ON :XRef(id)')
     read_xref = '''LOAD CSV WITH HEADERS FROM 'file:///Xref.csv' AS row
