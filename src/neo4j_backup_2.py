@@ -150,11 +150,26 @@ def main():
     CREATE (exrefslist)-[:XREF]->(xref)  '''
     send_to_neo4j(driver, read_xref)
 
-
-
-
-
-
+    send_to_neo4j(driver, 'CREATE INDEX ON :DODisease(id)')
+    read_do_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///do_diseases.csv' AS row
+        WITH row.doId as doId, row.name as name, row.definition  as definition, row.exact_synonyms as exactSynonyms, 
+        row.related_synonyms as relatedSynonyms,  row.subsets as subsets, row.xrefs as xrefs, row.graph_id as id
+        MATCH(esd:EditableStatement) WHERE esd.id=definition
+        MATCH(esn:EditableStatement) WHERE esn.id=name
+        MATCH(eslexact:EditableStringList) WHERE eslexact.id=exactSynonyms
+        MATCH(eslrelated:EditableStringList) WHERE eslrelated.id=relatedSynonyms
+        MATCH(eslsubsets:EditableStringList) WHERE eslsubsets.id=subsets 
+        MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
+        CREATE (do:DODisease {doId:doId, id:id})
+        CREATE(do) - [:DESCRIBED_BY]->(esd) 
+        CREATE(do) - [:NAMED]->(esn)
+        CREATE(do) - [:ALSO_NAMED_EXACTLY]->(eslexact) 
+        CREATE(do) - [:ALSO_NAMED_RELATED]->(eslrelated)
+        CREATE(do) - [:SUBSET]->(eslsubsets)
+        CREATE(do) - [:XREF]->(xreflist)'''
+    send_to_neo4j(driver, read_do_diseases)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("DODisease", elapsed.total_seconds(), last_round.total_seconds())
 
     driver.close()
 
