@@ -44,21 +44,18 @@ def assign_editable_lists(df, loader_id, load_dir,  id_class, element):
         # Write editable synonyms list  csv file entry
         write_editable_string_list(graph_id, editable_string_writer, loader_id, esl)
 
-        for el  in entries:
-            element_id = id_class.get_str_id()
-            name = el
-            EditableSynonymsList_graph_id = esl
+        pipe_strings = '|'.join(entries)
 
             # Write synonym  csv file entry
-            write_editable_list_elements(element_id, element_writer, name, EditableSynonymsList_graph_id)
+        write_editable_list_elements( element_writer, pipe_strings, esl)
     return esl_dict
 
 def write_editable_string_list(graph_id, editable_string_writer, loader_id, esl):
     now = datetime.datetime.now()
     editable_string_writer.writerow([graph_id, now.strftime("%Y-%m-%d-%H-%M-%S"), loader_id, esl])
 
-def write_editable_list_elements(id, editable_elements_writer, name, EditableSynonymsList_graph_id):
-    editable_elements_writer.writerow([id, name, EditableSynonymsList_graph_id])
+def write_editable_list_elements(editable_elements_writer, pipe_strings, esl):
+    editable_elements_writer.writerow([pipe_strings, esl])
 
 # Creates a writer object for editable statement
 def create_load_files_dict(db_dict, load_dir):
