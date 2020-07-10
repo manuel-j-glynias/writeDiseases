@@ -121,6 +121,41 @@ def main():
     send_to_neo4j(driver, read_EditableStringListElements)
     print("converted_EditableStringListElements", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :XRef(id)')
+    read_xref = '''LOAD CSV WITH HEADERS FROM 'file:///Xref.csv' AS row
+          WITH row.graph_id as id, row.source as source, row.source_id  as sourceId 
+          CREATE (xref:XRef {id:id, source:source, sourceId:sourceId }) '''
+    send_to_neo4j(driver, read_xref)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("XRef", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableXRefList(id)')
+    read_editable_xref_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableXrefsList.csv' AS row
+         WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.xref_id as id 
+         MATCH(u:User) WHERE u.id=editor
+         CREATE (exl:EditableXRefList :EditableObject {field:field, editDate:editDate,  id:id}) 
+         CREATE (exl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_xref_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableXRefList", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_editable_xref_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableXrefsListElements.csv' AS row
+            WITH row.EditableXRefList_graph_id as editable, split(row.XRef_graph_id, "|") AS XRef_graph_id
+            MATCH(exrefsl:EditableXRefList) WHERE exrefsl.id=editable 
+            SET exrefsl.list = XRef_graph_id '''
+    send_to_neo4j(driver, read_editable_xref_list_elements)
+    print("EditableXrefsListElements", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_xref = ''' MATCH (exrefslist:EditableXRefList) UNWIND exrefslist.list as refs  MATCH (xref:XRef  {id:refs})  
+    CREATE (exrefslist)-[:XREF]->(xref)  '''
+    send_to_neo4j(driver, read_xref)
+
+
+
+
+
+
+
     driver.close()
 
 
