@@ -47,10 +47,12 @@ def main(load_directory, loader_id, id_class):
     write_load_files.main(oncotree_df_refs, path_refs)
 
     oncotree_df_parent = parse_oncotree_parents(df)
+    oncotree_df_parent = combine_parents_and_children(oncotree_df_parent, 'parent')
     path_parents =load_directory +  'oncotree_parents.csv'
     write_load_files.main(oncotree_df_parent, path_parents)
 
     oncotree_df_children = parse_oncotree_children(df)
+    oncotree_df_children = combine_parents_and_children(oncotree_df_children, 'child')
     path_children = load_directory +  'oncotree_children.csv'
     write_load_files.main(oncotree_df_children, path_children)
 
@@ -176,6 +178,32 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
        if disease_id in column_dict:
            df_in_need.at[index, column] = column_dict[disease_id]
    return df_in_need
+
+def combine_parents_and_children(df, column):
+    input_dict = {}
+    input_list = []
+    for index, row in df.iterrows():
+        disease_id = row['graph_id']
+        parent_or_child = row[column]
+        if pandas.isnull(parent_or_child):
+            pass
+        else:
+            if disease_id in input_dict:
+                disease_list = input_dict[disease_id]
+                disease_list.append(parent_or_child)
+                input_dict[disease_id] = disease_list
+            else:
+                input_dict[disease_id] = [parent_or_child]
+    for entry in input_dict:
+        temp_dict = {}
+        parent_or_child_list = input_dict[entry]
+        if parent_or_child_list:
+            pipe_strings = '|'.join(parent_or_child_list)
+            temp_dict['graph_id'] = entry
+            temp_dict[column] = pipe_strings
+            input_list.append(temp_dict)
+    df = pandas.DataFrame(input_list)
+    return df
 
 #if __name__ == "__main__":
     #main(load_directory, load_id, id_class)

@@ -41,10 +41,12 @@ def main(load_directory, loader_id, id_class):
     write_load_files.main(mcode_disease_df, path)
 
     mcode_parents_df = parse_mcode_parents(df)
+    mcode_parents_df = combine_parents_and_children(mcode_parents_df, 'parent')
     path_parents  = load_directory + 'mcode_parents.csv'
     write_load_files.main(mcode_parents_df, path_parents)
 
     mcode_children_df = parse_mcode_children(df)
+    mcode_children_df = combine_parents_and_children(mcode_children_df, 'child')
     path_children = load_directory + 'mcode_children.csv'
     write_load_files.main(mcode_children_df, path_children)
 
@@ -129,6 +131,28 @@ def parse_mcode_children(df):
 def extract_file(path):
     unparsed_df = pandas.read_csv(path)
     df =unparsed_df[unparsed_df.Active_Flag != 0]
+    return df
+
+def combine_parents_and_children(df, column):
+    input_dict = {}
+    input_list = []
+    for index, row in df.iterrows():
+        disease_id = row['graph_id']
+        parent_or_child = row[column]
+        if disease_id in input_dict:
+            disease_list = input_dict[disease_id]
+            disease_list.append(parent_or_child)
+            input_dict[disease_id] = disease_list
+        else:
+            input_dict[disease_id] = [parent_or_child]
+    for entry in input_dict:
+        temp_dict = {}
+        parent_or_child_list = input_dict[entry]
+        pipe_strings = '|'.join(parent_or_child_list)
+        temp_dict['graph_id'] = entry
+        temp_dict[column] = pipe_strings
+        input_list.append(temp_dict)
+    df = pandas.DataFrame(input_list)
     return df
 
 #if __name__ == "__main__":
