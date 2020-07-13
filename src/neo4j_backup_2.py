@@ -237,6 +237,46 @@ def main():
     send_to_neo4j(driver, connect_go_children)
     print("connect_go_children", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :OncoTreeDisease(id)')
+    read_oncotree_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///oncotree_diseases.csv' AS row
+            WITH row.code as code, row.name as name, row.mainType  as mainType, row.tissue as tissue,  
+            row.xrefs as xrefs, row.graph_id as id
+            MATCH(esmaintype:EditableStatement) WHERE esmaintype.id=mainType
+            MATCH(esn:EditableStatement) WHERE esn.id=name
+            MATCH(estissue:EditableStatement) WHERE estissue.id=tissue
+            MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
+            CREATE (ot:OncoTreeDisease {code:code, id:id})
+            CREATE(ot) - [:MAIN_ONCOTREE_TYPE]->(esmaintype) 
+            CREATE(ot) - [:NAMED]->(esn)
+            CREATE(ot) - [:TISSUE]->(estissue) 
+            CREATE(ot) - [:XREF]->(xreflist)'''
+    send_to_neo4j(driver, read_oncotree_diseases)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("OncoTreeDisease", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_onco_disease_parents = '''LOAD CSV WITH HEADERS FROM 'file:///oncotree_parents.csv' AS row
+          WITH row.graph_id as id, split(row.parent, "|") AS parents
+          MATCH(oncodisease:OncoTreeDisease) WHERE oncodisease.id=id 
+          SET oncodisease.parents = parents'''
+    send_to_neo4j(driver, read_onco_disease_parents)
+    print("onco  parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_onco_disease_children = '''LOAD CSV WITH HEADERS FROM 'file:///oncotree_children.csv' AS row
+             WITH row.graph_id as id, split(row.child, "|") AS children
+             MATCH(oncodisease:OncoTreeDisease) WHERE oncodisease.id=id 
+             SET oncodisease.children = children'''
+    send_to_neo4j(driver, read_onco_disease_children)
+    print("do children", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_onco_parents = ''' MATCH (oncodisease:OncoTreeDisease) UNWIND oncodisease.parents as parent  MATCH (od:OncoTreeDisease  {id:parent})  
+             CREATE (oncodisease)-[:PARENT]->(od)  '''
+    send_to_neo4j(driver, connect_onco_parents)
+    print("connect_do_parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_onco_children = ''' MATCH (oncodisease:OncoTreeDisease) UNWIND oncodisease.children as child  MATCH (od:OncoTreeDisease  {id:child})  
+                CREATE (oncodisease)-[:CHILD]->(od)  '''
+    send_to_neo4j(driver, connect_onco_children)
+    print("connect_go_children", elapsed.total_seconds(), last_round.total_seconds())
     driver.close()
 
 
