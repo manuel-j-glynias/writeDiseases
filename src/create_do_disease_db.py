@@ -340,13 +340,13 @@ def main(load_directory, loader_id, id_class):
     sub_dict = create_EditableStringList.assign_editable_lists(do_subsets_df, loader_id, load_directory, id_class, 'subset')
     df_editable = add_column_to_dataframe(df_editable, syn_dict_related, 'subsets')
 
-
-
     do_parents_df = pandas.DataFrame(do_disease_list_of_listst[5])
+    do_parents_df = combine_parents_and_children(do_parents_df, 'parent')
     path_parents = load_directory + 'do_parents.csv'
     write_load_files.main(do_parents_df, path_parents)
 
     do_children_df = pandas.DataFrame(do_disease_list_of_listst[6])
+    do_children_df = combine_parents_and_children(do_children_df, 'child')
     path_children = load_directory + 'do_children.csv'
     write_load_files.main(do_children_df, path_children)
 
@@ -403,6 +403,29 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
        if disease_id in column_dict:
            df_in_need.at[index, column] = column_dict[disease_id]
    return df_in_need
+
+def combine_parents_and_children(df, column):
+    input_dict = {}
+    input_list = []
+    for index, row in df.iterrows():
+        disease_id = row['graph_id']
+        parent_or_child = row[column]
+        if disease_id in input_dict:
+            disease_list = input_dict[disease_id]
+            disease_list.append(parent_or_child)
+            input_dict[disease_id] = disease_list
+        else:
+            input_dict[disease_id] = [parent_or_child]
+    for entry in input_dict:
+        temp_dict = {}
+        parent_or_child_list = input_dict[entry]
+        pipe_strings = '|'.join(parent_or_child_list)
+        temp_dict['graph_id'] = entry
+        temp_dict[column] = pipe_strings
+        input_list.append(temp_dict)
+    df = pandas.DataFrame(input_list)
+
+    return df
 
 #if __name__ == "__main__":
     #main(load_directory)

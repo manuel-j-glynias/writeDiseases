@@ -171,6 +171,31 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("DODisease", elapsed.total_seconds(), last_round.total_seconds())
 
+    read_do_disease_parents = '''LOAD CSV WITH HEADERS FROM 'file:///do_parents.csv' AS row
+    WITH row.graph_id as id, split(row.parent, "|") AS parents
+    MATCH(dodisease:DODisease) WHERE dodisease.id=id 
+    SET dodisease.parents = parents'''
+    send_to_neo4j(driver, read_do_disease_parents)
+    print("do parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_do_disease_children = '''LOAD CSV WITH HEADERS FROM 'file:///do_children.csv' AS row
+       WITH row.graph_id as id, split(row.child, "|") AS children
+       MATCH(dodisease:DODisease) WHERE dodisease.id=id 
+       SET dodisease.children = children'''
+    send_to_neo4j(driver, read_do_disease_children)
+    print("do children", elapsed.total_seconds(), last_round.total_seconds())
+
+
+    connect_do_parents = ''' MATCH (dodisease:DODisease) UNWIND dodisease.parents as parent  MATCH (do:DODisease  {id:parent})  
+       CREATE (dodisease)-[:PARENT]->(do)  '''
+    send_to_neo4j(driver, connect_do_parents)
+    print("connect_do_parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_do_children = ''' MATCH (dodisease:DODisease) UNWIND dodisease.children as child  MATCH (do:DODisease  {id:child})  
+          CREATE (dodisease)-[:CHILD]->(do)  '''
+    send_to_neo4j(driver, connect_do_children)
+    print("connect_do_children", elapsed.total_seconds(), last_round.total_seconds())
+
     driver.close()
 
 
