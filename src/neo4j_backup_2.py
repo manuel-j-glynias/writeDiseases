@@ -196,6 +196,23 @@ def main():
     send_to_neo4j(driver, connect_do_children)
     print("connect_do_children", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :GODisease(id)')
+    read_go_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///go_diseases.csv' AS row
+          WITH row.id as goId, row.name as name, row.definition  as definition, row.synonyms as synonyms,  
+          row.xrefs as xrefs, row.graph_id as id
+          MATCH(esd:EditableStatement) WHERE esd.id=definition
+          MATCH(esn:EditableStatement) WHERE esn.id=name
+          MATCH(synlist:EditableStringList) WHERE synlist.id=synonyms 
+           MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
+          CREATE (go:GODisease {goId:goId, id:id})
+          CREATE(go) - [:DESCRIBED_BY]->(esd) 
+          CREATE(go) - [:NAMED]->(esn)
+          CREATE(go) - [:ALSO_NAMED]->(synlist) 
+          CREATE(go) - [:XREF]->(xreflist) '''
+    send_to_neo4j(driver, read_go_diseases)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("GODisease", elapsed.total_seconds(), last_round.total_seconds())
+
     driver.close()
 
 
