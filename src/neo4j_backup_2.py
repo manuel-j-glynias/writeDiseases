@@ -213,6 +213,30 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("GODisease", elapsed.total_seconds(), last_round.total_seconds())
 
+    read_go_disease_parents = '''LOAD CSV WITH HEADERS FROM 'file:///go_parents.csv' AS row
+       WITH row.graph_id as id, split(row.parent, "|") AS parents
+       MATCH(godisease:GODisease) WHERE godisease.id=id 
+       SET godisease.parents = parents'''
+    send_to_neo4j(driver, read_go_disease_parents)
+    print("go parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_go_disease_children = '''LOAD CSV WITH HEADERS FROM 'file:///go_children.csv' AS row
+          WITH row.graph_id as id, split(row.child, "|") AS children
+          MATCH(godisease:GODisease) WHERE godisease.id=id 
+          SET godisease.children = children'''
+    send_to_neo4j(driver, read_go_disease_children)
+    print("do children", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_go_parents = ''' MATCH (godisease:GODisease) UNWIND godisease.parents as parent  MATCH (go:GODisease  {id:parent})  
+          CREATE (godisease)-[:PARENT]->(go)  '''
+    send_to_neo4j(driver, connect_go_parents)
+    print("connect_do_parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_go_children = ''' MATCH (godisease:GODisease) UNWIND godisease.children as child  MATCH (go:GODisease  {id:child})  
+             CREATE (godisease)-[:CHILD]->(go)  '''
+    send_to_neo4j(driver, connect_go_children)
+    print("connect_go_children", elapsed.total_seconds(), last_round.total_seconds())
+
     driver.close()
 
 

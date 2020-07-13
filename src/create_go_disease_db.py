@@ -51,7 +51,9 @@ def main(load_directory, loader_id, id_class):
     #Parse dataframes
     go_disease_df= parse_go_main(df, loader_id, load_directory, id_class)
     go_parents_df = parse_go_parents(df)
+    go_parents_df = combine_parents_and_children(go_parents_df, 'parent')
     go_children_df = parse_go_children(df)
+    go_children_df = combine_parents_and_children(go_children_df, 'child')
     go_xrefs = parse_go_refs(df)
     go_disease_df = parse_go_synonyms(df, go_disease_df, loader_id, load_directory,  id_class)
 
@@ -274,5 +276,28 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
            df_in_need.at[index, column] = column_dict[disease_id]
    return df_in_need
 
-if __name__ == "__main__":
-    main(load_directory, id_class, loader_id)
+def combine_parents_and_children(df, column):
+    input_dict = {}
+    input_list = []
+    for index, row in df.iterrows():
+        disease_id = row['graph_id']
+        parent_or_child = row[column]
+        if disease_id in input_dict:
+            disease_list = input_dict[disease_id]
+            disease_list.append(parent_or_child)
+            input_dict[disease_id] = disease_list
+        else:
+            input_dict[disease_id] = [parent_or_child]
+    for entry in input_dict:
+        temp_dict = {}
+        parent_or_child_list = input_dict[entry]
+        pipe_strings = '|'.join(parent_or_child_list)
+        temp_dict['graph_id'] = entry
+        temp_dict[column] = pipe_strings
+        input_list.append(temp_dict)
+    df = pandas.DataFrame(input_list)
+
+    return df
+
+#if __name__ == "__main__":
+    #main(load_directory, id_class, loader_id)
