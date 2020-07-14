@@ -324,6 +324,41 @@ def main():
     send_to_neo4j(driver, connect_mcode_children)
     print("connect_mcode_children", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :TCode(id)')
+    read_tcode_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///tcode_diseases.csv' AS row
+       WITH row.tcode as tcodeId, row.tissuePath as tissuePath, row.graph_id as id
+       MATCH(esn:EditableStatement) WHERE esn.id=tissuePath
+       CREATE (tc:TCode {tcodeId:tcodeId, id:id})
+       CREATE(tc) - [:TISSUE_PATH]->(esn)'''
+    send_to_neo4j(driver, read_tcode_diseases)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("TCode", elapsed.total_seconds(), last_round.total_seconds())
+
+
+    read_tcode_disease_parents = '''LOAD CSV WITH HEADERS FROM 'file:///tcode_parents.csv' AS row
+            WITH row.graph_id as id, split(row.parent, "|") AS parents
+            MATCH(tcode:TCode) WHERE tcode.id=id 
+            SET tcode.parents = parents'''
+    send_to_neo4j(driver, read_tcode_disease_parents)
+    print("tcode  parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_tcode_disease_children = '''LOAD CSV WITH HEADERS FROM 'file:///tcode_children.csv' AS row
+               WITH row.graph_id as id, split(row.child, "|") AS children
+               MATCH(tcode:TCode) WHERE tcode.id=id 
+               SET tcode.children = children'''
+    send_to_neo4j(driver, read_tcode_disease_children)
+    print("tcode children", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_tcode_parents = ''' MATCH (tcode:TCode) UNWIND tcode.parents as parent  MATCH (tc:TCode  {id:parent})  
+               CREATE (tcode)-[:PARENT]->(tc) '''
+    send_to_neo4j(driver, connect_tcode_parents)
+    print("connect_tcode_parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_tcode_children = ''' MATCH (tcode:TCode) UNWIND tcode.children as child  MATCH (tc:TCode  {id:child})  
+                  CREATE (tcode)-[:CHILD]->(tc) '''
+    send_to_neo4j(driver, connect_tcode_children)
+    print("connect_tcode_children", elapsed.total_seconds(), last_round.total_seconds())
+
     driver.close()
 
 if __name__ == "__main__":
