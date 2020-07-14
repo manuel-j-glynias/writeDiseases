@@ -462,6 +462,31 @@ def main():
     read_oncotree_list_to_oncotree_disease = ''' MATCH (eotdl:EditableOncoTreeDiseaseList) UNWIND eotdl.list as ot_diseases  MATCH (ot:OncoTreeDisease  {id:ot_diseases})  
       CREATE (eotdl)-[:ONCOTREEDISEASE]->(ot)  '''
     send_to_neo4j(driver, read_oncotree_list_to_oncotree_disease)
+
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :OntologicalDisease(id)')
+    read_ontological_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///ontological_diseases.csv' AS row
+                WITH row.name as name, row.description as description, row.jaxDiseases  as jaxDiseases, row.doDiseases as doDiseases,  
+                row.goDiseases as goDiseases, row.oncoTreeDiseases as oncoTreeDiseases, row.xrefs as xrefs, row.graph_id as id
+                MATCH(esn:EditableStatement) WHERE esn.id=name
+                MATCH(esd:EditableStatement) WHERE esd.id=description
+                MATCH(jd:EditableJAXDiseaseList) WHERE jd.id=jaxDiseases
+                MATCH(dd:EditableDODiseaseList) WHERE dd.id=doDiseases
+                MATCH(gd:EditableGODiseaseList) WHERE gd.id=goDiseases
+                MATCH(od:EditableOncoTreeDiseaseList) WHERE od.id=oncoTreeDiseases
+                MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
+                CREATE (onto:OntologicalDisease { id:id})
+                CREATE(onto) - [:NAMED]->(esn)
+                CREATE(onto) - [:DESCRIBED_BY]->(esd)
+                CREATE(onto) - [:JAXDISEASE]->(jd) 
+                CREATE(onto) - [:DODISEASE]->(dd) 
+                CREATE(onto) - [:GODISEASE]->(gd) 
+                CREATE(onto) - [:ONCOTREEDISEASE]->(od) 
+                CREATE(onto) - [:XREF]->(xreflist)'''
+    send_to_neo4j(driver, read_ontological_diseases)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("OntologicalDisease", elapsed.total_seconds(), last_round.total_seconds())
+
     driver.close()
 
 if __name__ == "__main__":
