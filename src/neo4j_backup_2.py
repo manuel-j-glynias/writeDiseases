@@ -277,10 +277,54 @@ def main():
                 CREATE (oncodisease)-[:CHILD]->(od)  '''
     send_to_neo4j(driver, connect_onco_children)
     print("connect_go_children", elapsed.total_seconds(), last_round.total_seconds())
+
+
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :OmniDisease(id)')
+    read_omni_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///omni_diseases.csv' AS row
+            WITH row.omniDiseaseId as omniDiseaseId, row.name as name, row.omniDiseaseType  as omniDiseaseType, row.tissue as tissue,  row.graph_id as id
+            MATCH(esn:EditableStatement) WHERE esn.id=name
+            CREATE (od:OmniDisease {omniDiseaseId:omniDiseaseId, omniDiseaseType:omniDiseaseType,  id:id})
+            CREATE(od) - [:NAMED]->(esn)'''
+    send_to_neo4j(driver, read_omni_diseases)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("OmniDisease", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :MCode(id)')
+    read_mcode_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///mcode_diseases.csv' AS row
+    WITH row.mcode as mcodeId, row.diseasePath as diseasePath, row.omniDisease  as omniDisease,  row.graph_id as id
+    MATCH(esn:EditableStatement) WHERE esn.id=diseasePath
+    CREATE (mc:MCode {mcodeId:mcodeId, omniDisease:omniDisease,  id:id})
+    CREATE(mc) - [:DISEASE_PATH]->(esn)'''
+    send_to_neo4j(driver, read_mcode_diseases)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("MCode", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_mcode_disease_parents = '''LOAD CSV WITH HEADERS FROM 'file:///mcode_parents.csv' AS row
+            WITH row.graph_id as id, split(row.parent, "|") AS parents
+            MATCH(mcode:MCode) WHERE mcode.id=id 
+            SET mcode.parents = parents'''
+    send_to_neo4j(driver, read_mcode_disease_parents)
+    print("mcode  parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_mcode_disease_children = '''LOAD CSV WITH HEADERS FROM 'file:///mcode_children.csv' AS row
+               WITH row.graph_id as id, split(row.child, "|") AS children
+               MATCH(mcode:MCode) WHERE mcode.id=id 
+               SET mcode.children = children'''
+    send_to_neo4j(driver, read_mcode_disease_children)
+    print("mcode children", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_mcode_parents = ''' MATCH (mcode:MCode) UNWIND mcode.parents as parent  MATCH (mc:MCode  {id:parent})  
+               CREATE (mcode)-[:PARENT]->(mc) '''
+    send_to_neo4j(driver, connect_mcode_parents)
+    print("connect_mcode_parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_mcode_children = ''' MATCH (mcode:MCode) UNWIND mcode.children as child  MATCH (mc:MCode  {id:child})  
+                  CREATE (mcode)-[:CHILD]->(mc) '''
+    send_to_neo4j(driver, connect_mcode_children)
+    print("connect_mcode_children", elapsed.total_seconds(), last_round.total_seconds())
+
     driver.close()
-
-
-
 
 if __name__ == "__main__":
     main()
