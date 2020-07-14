@@ -21,7 +21,7 @@ def main(load_directory, loader_id, id_class):
     create_tcode_db.main(load_directory, loader_id, id_class)
     create_mcode_db.main(load_directory, loader_id, id_class)
     create_ontological_disease_db.main(load_directory, loader_id, id_class)
-    print('All diseases are loaded, thank you Irina')
+    print('All diseases are loaded, thank you!')
 
 if __name__ == "__main__":
     main(load_directory, loader_id, id_class)
