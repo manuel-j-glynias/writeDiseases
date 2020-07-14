@@ -73,6 +73,11 @@ def main():
     print("LiteratureReference_Author", elapsed.total_seconds(), last_round.total_seconds())
 
 
+
+
+
+
+
     send_to_neo4j(driver,'CREATE INDEX ON :EditableStatement(id)')
     read_editable_statement = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement.csv' AS row
     WITH row.field as field, row.statement as statement,  row.editDate as editDate,row.editorId as editorId, row.graph_id as id
@@ -359,6 +364,104 @@ def main():
     send_to_neo4j(driver, connect_tcode_children)
     print("connect_tcode_children", elapsed.total_seconds(), last_round.total_seconds())
 
+
+
+
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableGODiseaseList(id)')
+    read_editable_go_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableGoDiseaseList.csv' AS row
+           WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.EditableDiseaseList_graph_id as id
+           MATCH(u:User) WHERE u.id=editor
+           CREATE (egdl:EditableGODiseaseList :EditableObject {field:field, editDate:editDate,  id:id}) 
+           CREATE (egdl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_go_disease_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableGODiseaseList", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_editable_go_disease_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableGoDiseaseListElements.csv' AS row
+              WITH row.EditableDiseaseList_graph_id as editable, split(row.Disease_graph_id, "|") AS Disease_graph_id
+              MATCH(egdl:EditableGODiseaseList) WHERE egdl.id=editable 
+              SET egdl.list = Disease_graph_id '''
+    send_to_neo4j(driver, read_editable_go_disease_list_elements)
+    print("EditableGoDiseaseListElements", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_go_to_go_disease = ''' MATCH (egdl:EditableGODiseaseList) UNWIND egdl.list as go_diseases  MATCH (go:GODisease  {id:go_diseases})  
+      CREATE (egdl)-[:GODISEASE]->(go)  '''
+    send_to_neo4j(driver, read_go_to_go_disease)
+
+
+
+
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableDODiseaseList(id)')
+    read_editable_do_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableDoDiseaseList.csv' AS row
+           WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.EditableDiseaseList_graph_id as id
+           MATCH(u:User) WHERE u.id=editor
+           CREATE (eddl:EditableDODiseaseList :EditableObject {field:field, editDate:editDate,  id:id}) 
+           CREATE (eddl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_do_disease_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableDODiseaseList", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_editable_do_disease_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableDoDiseaseListElements.csv' AS row
+              WITH row.EditableDiseaseList_graph_id as editable, split(row.Disease_graph_id, "|") AS Disease_graph_id
+              MATCH(eddl:EditableDODiseaseList) WHERE eddl.id=editable 
+              SET eddl.list = Disease_graph_id '''
+    send_to_neo4j(driver, read_editable_do_disease_list_elements)
+    print("EditablDoDiseaseListElements", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_do_list_to_do_disease = ''' MATCH (eddl:EditableDODiseaseList) UNWIND eddl.list as do_diseases  MATCH (do:DODisease  {id:do_diseases})  
+      CREATE (eddl)-[:DODISEASE]->(do)  '''
+    send_to_neo4j(driver, read_do_list_to_do_disease)
+
+
+
+
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableJAXDiseaseList(id)')
+    read_editable_jax_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableJaxDiseaseList.csv' AS row
+           WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.EditableDiseaseList_graph_id as id
+           MATCH(u:User) WHERE u.id=editor
+           CREATE (ejdl:EditableJAXDiseaseList :EditableObject {field:field, editDate:editDate,  id:id}) 
+           CREATE (ejdl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_jax_disease_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableJAXDiseaseList", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_editable_jax_disease_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableJaxDiseaseListElements.csv' AS row
+              WITH row.EditableDiseaseList_graph_id as editable, split(row.Disease_graph_id, "|") AS Disease_graph_id
+              MATCH(ejdl:EditableJAXDiseaseList) WHERE ejdl.id=editable 
+              SET ejdl.list = Disease_graph_id '''
+    send_to_neo4j(driver, read_editable_jax_disease_list_elements)
+    print("EditablJaxDiseaseListElements", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_jax_list_to_jax_disease = ''' MATCH (ejdl:EditableJAXDiseaseList) UNWIND ejdl.list as jax_diseases  MATCH (jax:JaxDisease  {id:jax_diseases})  
+      CREATE (ejdl)-[:JAXDISEASE]->(jax)  '''
+    send_to_neo4j(driver, read_jax_list_to_jax_disease)
+
+
+
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableOncoTreeDiseaseList(id)')
+    read_editable_onco_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableOncoTreeDiseaseList.csv' AS row
+           WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.EditableDiseaseList_graph_id as id
+           MATCH(u:User) WHERE u.id=editor
+           CREATE (eotdl:EditableOncoTreeDiseaseList :EditableObject {field:field, editDate:editDate,  id:id}) 
+           CREATE (eotdl)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_onco_disease_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableOncotreeDiseaseList", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_editable_oncotree_disease_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableOncoTreeDiseaseListElements.csv' AS row
+              WITH row.EditableDiseaseList_graph_id as editable, split(row.Disease_graph_id, "|") AS Disease_graph_id
+              MATCH(eotdl:EditableOncoTreeDiseaseList) WHERE eotdl.id=editable 
+              SET eotdl.list = Disease_graph_id '''
+    send_to_neo4j(driver, read_editable_oncotree_disease_list_elements)
+    print("EditablOncotreeDiseaseListElements", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_oncotree_list_to_oncotree_disease = ''' MATCH (eotdl:EditableOncoTreeDiseaseList) UNWIND eotdl.list as ot_diseases  MATCH (ot:OncoTreeDisease  {id:ot_diseases})  
+      CREATE (eotdl)-[:ONCOTREEDISEASE]->(ot)  '''
+    send_to_neo4j(driver, read_oncotree_list_to_oncotree_disease)
     driver.close()
 
 if __name__ == "__main__":

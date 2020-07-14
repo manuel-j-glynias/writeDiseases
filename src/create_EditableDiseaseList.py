@@ -49,8 +49,9 @@ def assign_editable_disease_lists(df, loader_id, load_dir,  id_class):
 
 # Writes editable disease list elements table
 def write_elements(elements_list, esl, element_writer, i, id_class):
-    element_id = 0
-    for entry in elements_list:
+    if elements_list:
+        element_id = 0
+        pipe_strings = '|'.join(elements_list)
         if i == 0:
             element_id = id_class.get_jax_id()
         elif i == 1:
@@ -59,7 +60,7 @@ def write_elements(elements_list, esl, element_writer, i, id_class):
             element_id = id_class.get_go_id()
         elif i == 3:
             element_id = id_class.get_onco_id()
-        element_writer.writerow([element_id, entry, esl])
+        element_writer.writerow([element_id, pipe_strings, esl])
 
 # Creates writer object for each needed csv file
 def create_writer_objects(lists_to_create, load_dir):
