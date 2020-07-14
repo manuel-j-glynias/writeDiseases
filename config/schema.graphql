@@ -1,0 +1,221 @@
+
+directive @relation (
+    name: String
+    direction: String
+) on FIELD_DEFINITION
+
+type User {
+    id: ID!
+    name: String!
+    password: String!
+    isAdmin: Boolean!
+    editedStatements: [EditableObject]! @relation(name: "EDITED_BY", direction: "IN")
+}
+
+interface Reference {
+    id: ID!
+    shortReference: String!
+    statementsReferenced: [EditableObject!]! @relation(name: "REFERENCE_FOR", direction: "IN")
+}
+
+interface EditableObject{
+    id: ID!
+    field: String!
+    editor: User! @relation(name: "EDITED_BY", direction: "OUT")
+    editDate: String!
+    references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+type EditableStatement implements EditableObject{
+    id: ID!
+    field: String!
+    statement: String!
+    editor: User! @relation(name: "EDITED_BY", direction: "OUT")
+    editDate: String!
+    references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+type Author {
+    id: ID!
+    firstInitial: String!
+    surname: String!
+    references:[LiteratureReference!]! @relation(name: "AUTHORED_BY", direction: "IN")
+}
+
+type Journal  {
+    id: ID!
+    name: String!
+}
+
+type LiteratureReference  implements Reference{
+    id: ID!
+    shortReference: String!
+    authors : [Author!]!  @relation(name: "AUTHORED_BY", direction: "OUT")
+    title: String!
+    journal: Journal!  @relation(name: "PUBLISHED_IN", direction: "OUT")
+    volume: String!
+    firstPage: String!
+    lastPage: String!
+    publicationYear: String!
+    DOI: String
+    PMID: String
+    abstract:  String
+    statementsReferenced: [EditableObject!]! @relation(name: "REFERENCE_FOR", direction: "IN")
+}
+
+type InternetReference implements Reference{
+    id: ID!
+    shortReference: String!
+    statementsReferenced: [EditableObject!]!  @relation(name: "REFERENCE_FOR", direction: "IN")
+    webAddress: String!
+    accessedDate: String!
+}
+
+type JaxDisease  {
+    id: ID!
+    jaxId: String!
+    name: EditableStatement! @relation(name: "NAMED", direction: "OUT")
+    source: String!
+    definition: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    termId: String!
+}
+
+type EditableStringList  implements EditableObject{
+    id: ID!
+    field: String!
+    stringList: [String]!
+    editor: User! @relation(name: "EDITED_BY", direction: "OUT")
+    editDate: String!
+    references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+type EditableXRefList implements EditableObject {
+    id: ID!
+    field: String!
+    list: [XRef]! @relation(name: "XREF", direction: "OUT")
+    editor: User! @relation(name: "EDITED_BY", direction: "OUT")
+    editDate: String!
+    references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+type XRef {
+    id: ID!
+    source: String!
+    sourceId: String!
+}
+
+
+type DODisease  {
+    id: ID!
+    doId: String!
+    name: EditableStatement! @relation(name: "NAMED", direction: "OUT")
+    definition: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    exactSynonyms: EditableStringList @relation(name: "ALSO_NAMED_EXACTLY", direction: "OUT")
+    relatedSynonyms: EditableStringList @relation(name: "ALSO_NAMED_RELATED", direction: "OUT")
+    xrefs: EditableXRefList! @relation(name: "XREF", direction: "OUT")
+    subsets: EditableStringList! @relation(name: "SUBSET", direction: "OUT")
+    parents: [DODisease]! @relation(name: "PARENT", direction: "OUT")
+    children: [DODisease]! @relation(name: "CHILD", direction: "OUT")
+}
+
+type GODisease {
+    id: ID!
+    goId: String!
+    name: EditableStatement! @relation(name: "NAMED", direction: "OUT")
+    definition: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    synonyms: EditableStringList! @relation(name: "ALSO_NAMED", direction: "OUT")
+     xrefs: EditableXRefList! @relation(name: "XREF", direction: "OUT")
+    jaxDiseases: [JaxDisease]!
+    parents: [GODisease] @relation(name: "PARENT", direction: "OUT")
+    children: [GODisease]! @relation(name: "CHILD", direction: "OUT")
+}
+
+type OncoTreeDisease  {
+    id: ID!
+    code: String!
+    name: EditableStatement! @relation(name: "NAMED", direction: "OUT")
+    mainType: EditableStatement! @relation(name: "MAIN_ONCOTREE_TYPE", direction: "OUT")
+    tissue: EditableStatement! @relation(name: "TISSUE", direction: "OUT")
+    xrefs: EditableXRefList! @relation(name: "XREF", direction: "OUT")
+    parent: [OncoTreeDisease] @relation(name: "PARENT", direction: "OUT")
+    children: [OncoTreeDisease]! @relation(name: "CHILD", direction: "OUT")
+}
+
+enum OmniDiseaseType {
+    Hematologic
+    Other
+    SolidTumor
+}
+
+type OmniDisease{
+    id: ID!
+    omniDiseaseId: String!
+    name: EditableStatement! @relation(name: "NAMED", direction: "OUT")
+    omniDiseaseType: String!
+}
+
+type MCode {
+    id: ID!
+    mcodeId: String!
+    diseasePath: EditableStatement! @relation(name: "DISEASE_PATH", direction: "OUT")
+    omniDisease: String!
+    parents: [MCode] @relation(name:"PARENT", direction:"OUT")
+    children: [MCode] @relation(name:"CHILD", direction:"OUT")
+}
+
+type TCode {
+    id: ID!
+    tcodeId: String!
+    tissuePath: EditableStatement! @relation(name: "TISSUE_PATH", direction: "OUT")
+    parents: [TCode] @relation(name:"PARENT", direction:"OUT")
+    children: [TCode] @relation(name:"CHILD", direction:"OUT")
+}
+
+type EditableGODiseaseList implements EditableObject {
+    id: ID!
+    field: String!
+    list: [GODisease]!@relation(name: "GODISEASE", direction: "OUT")
+    editor: User! @relation(name: "EDITED_BY", direction: "OUT")
+    editDate: String!
+    references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+type EditableDODiseaseList implements EditableObject {
+    id: ID!
+    field: String!
+    list: [DODisease]!@relation(name: "DODISEASE", direction: "OUT")
+    editor: User! @relation(name: "EDITED_BY", direction: "OUT")
+    editDate: String!
+    references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+
+type EditableJAXDiseaseList implements EditableObject {
+    id: ID!
+    field: String!
+    list: [JaxDisease]!@relation(name: "JAXDISEASE", direction: "OUT")
+    editor: User! @relation(name: "EDITED_BY", direction: "OUT")
+    editDate: String!
+    references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+type EditableOncoTreeDiseaseList implements EditableObject {
+    id: ID!
+    field: String!
+    list: [OncoTreeDisease]!@relation(name: "ONCOTREEDISEASE", direction: "OUT")
+    editor: User! @relation(name: "EDITED_BY", direction: "OUT")
+    editDate: String!
+    references: [Reference]!  @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+type OntologicalDisease  {
+    id: ID!
+    name: EditableStatement! @relation(name: "NAMED", direction: "OUT")
+    description: EditableStatement! @relation(name: "DESCRIBED_BY", direction: "OUT")
+    synonyms: EditableStringList! @relation(name: "ALSO_NAMED", direction: "OUT")
+    doDiseases: EditableDODiseaseList! @relation(name: "DODISEASE", direction: "OUT")
+    goDiseases: EditableGODiseaseList! @relation(name: "GODISEASE", direction: "OUT")
+    jaxDiseases: EditableJAXDiseaseList! @relation(name: "JAXDISEASE", direction: "OUT")
+    oncoTreeDiseases: EditableOncoTreeDiseaseList! @relation(name: "ONCOTREEDISEASE", direction: "OUT")
+    xrefs: EditableXRefList! @relation(name: "XREF", direction: "OUT")
+}
