@@ -31,7 +31,7 @@ def write_load_files (disease_list, load_directory):
     csv_file =  load_directory + 'jax_diseases.csv'
     try:
         with open(csv_file, "w", encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=csv_columns, lineterminator="\n")
+            writer = csv.DictWriter(csvfile, fieldnames=csv_columns, lineterminator="\n", quoting=csv.QUOTE_ALL)
             writer.writeheader()
             for data in disease_list:
                 writer.writerow(data)

@@ -63,7 +63,7 @@ def create_load_files_dict(db_dict, load_dir):
                        'EditableStatement_LiteratureReference', 'Journal', 'LiteratureReference',  'LiteratureReference_Author']
     for table_name in load_files_list:
         out_file = open(load_dir + table_name + '.csv', 'a+', encoding='utf-8')
-        writer = csv.writer(out_file, lineterminator='\n')
+        writer = csv.writer(out_file, lineterminator='\n', quoting=csv.QUOTE_ALL)
         if is_empty(out_file):
             header = db_dict[table_name]['col_order']
             writer.writerow(header)

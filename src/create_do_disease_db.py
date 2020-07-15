@@ -21,6 +21,7 @@ import create_id
 import create_editable_statement
 import create_EditableStringList
 import write_sql
+import numpy as np
 
 editable_statement_list = ['name', 'definition']
 editable_synonyms_list = ['synonyms']
@@ -354,8 +355,9 @@ def main(load_directory, loader_id, id_class):
     xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(do_xrefs_df, loader_id, load_directory,  id_class)
     do_disease_with_xrefs = add_column_to_dataframe(df_editable, xrefs_editable, 'xrefs')
     do_disease_df = do_disease_with_xrefs[['doId', 'name', 'definition', 'exact_synonyms', 'related_synonyms', 'subsets', 'xrefs',  'graph_id']]
+    do_disease_df_no_nan = do_disease_df.replace(np.nan, '', regex=True)
     path = load_directory + 'do_diseases.csv'
-    write_load_files.main(do_disease_df, path)
+    write_load_files.main(do_disease_df_no_nan, path)
     #path_xrefs = load_directory + 'do_xrefs.csv'
     #write_load_files.main(do_xrefs_df, path_xrefs)
 

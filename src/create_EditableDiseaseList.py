@@ -83,7 +83,7 @@ def create_load_files_dict(db_dict, load_dir):
         entry = db_dict[database]
         for table_name in entry:
             out_file = open(load_dir + table_name + '.csv', 'a+', encoding='utf-8')
-            writer = csv.writer(out_file, lineterminator='\n')
+            writer = csv.writer(out_file, lineterminator='\n', quoting=csv.QUOTE_ALL)
             if is_empty(out_file):
                 header = db_dict[database][table_name]['col_order']
                 writer.writerow(header)
