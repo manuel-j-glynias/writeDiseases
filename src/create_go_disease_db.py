@@ -54,12 +54,15 @@ def main(load_directory, loader_id, id_class):
     go_parents_df = combine_parents_and_children(go_parents_df, 'parent')
     go_children_df = parse_go_children(df)
     go_children_df = combine_parents_and_children(go_children_df, 'child')
-    go_xrefs = parse_go_refs(df)
-    go_disease_df = parse_go_synonyms(df, go_disease_df, loader_id, load_directory,  id_class)
-
-    xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(go_xrefs, loader_id, load_directory,
+    go_xrefs = parse_go_refs(go_disease_df)
+    xrefs_editable_dict = create_EditableXrefsList.assign_editable_xrefs_lists(go_xrefs, loader_id, load_directory,
                                                                           id_class)
-    go_disease_with_xrefs = add_column_to_dataframe(go_disease_df, xrefs_editable, 'xrefs')
+    df_xrefs_editable = add_dict(go_xrefs, xrefs_editable_dict, 'xrefs')
+
+    go_disease_df = parse_go_synonyms(df_xrefs_editable, go_disease_df, loader_id, load_directory,  id_class)
+
+
+    go_disease_with_xrefs = add_column_to_dataframe(go_disease_df, xrefs_editable_dict, 'xrefs')
     go_disease_df = go_disease_with_xrefs[
         ['id', 'name', 'definition', 'synonyms',  'xrefs', 'graph_id']]
 
@@ -148,8 +151,7 @@ def combine_files( files):
 # Input: dataframe
 # Output: transformed dataframe
 def parse_go_main(df, loader_id, load_directory, id_class):
-
-    df1 = df[['id', 'name', 'definition', 'graph_id']].copy(deep=True)
+    df1 = df[['id', 'name', 'definition', 'codes', 'synonyms',  'graph_id']].copy(deep=True)
     df_editable = create_editable_statement.assign_editable_statement(df1, editable_statement_list, loader_id, load_directory, table_name,id_class)
     return df_editable
 
@@ -226,26 +228,20 @@ def parse_go_children(df):
 # Input: dataframe
 # Output: new  dataframe with xrefs
 def parse_go_refs(df):
-    parent_dict = {}
-    refs_list = []
     # Get refs
     for index, row in df.iterrows():
+        refs_list = []
         refs = row['codes']
         if isinstance(refs, list):
             for entry in refs:
                 new_dict = {}
-                new_dict['graph_id'] = row['graph_id']
-                new_dict['source'] = entry.split('=')[0]
-                new_dict['xrefId'] = entry.split('=')[1]
+                new_dict[entry.split('=')[0]] = entry.split('=')[1]
                 refs_list.append(new_dict)
+            df.at[index, 'codes'] = refs_list
         else:
-            new_dict = {}
-            new_dict['graph_id'] = row['graph_id']
-            new_dict['source'] = ""
-            new_dict['xrefId'] = ""
-            refs_list.append(new_dict)
-    refs_df = pandas.DataFrame(refs_list)
-    return refs_df
+            df.at[index, 'codes'] = ""
+    df = df.rename(columns={'codes': 'xrefs'})
+    return df
 
 # Creates a dataframe with graph_id and corresponding synonym
 # Input: original dataframe
@@ -303,6 +299,14 @@ def combine_parents_and_children(df, column):
         input_list.append(temp_dict)
     df = pandas.DataFrame(input_list)
 
+    return df
+
+    # Adds dictionary to a dataframe
+def add_dict(df, dict, column_name):
+    for index, row in df.iterrows():
+        graph_id = row['graph_id']
+        list_id = dict[graph_id]
+        df.at[index, column_name] = list_id
     return df
 
 #if __name__ == "__main__":
