@@ -229,10 +229,13 @@ def main(load_directory, loader_id, id_class):
     #download_do()
     doid_dict,doid_child_dict = parse_do()
     db_dict = get_schema_original()
+    # creates a dataframe from doid_dict
     do_df = create_dataframe(doid_dict)
+    # replaces values with editable statements
     df_editable = create_editable_statement.assign_editable_statement(do_df,
                                                                       editable_statement_list, loader_id,
                                                                       load_directory, do_table_name, id_class)
+    # replaces list values with editable lists
     exact_dict = create_EditableStringList.assign_editable_lists(df_editable, loader_id, load_directory,
                                                                      id_class, 'exact_synonyms')
     df_exact = add_dict(df_editable, exact_dict, 'exact_synonyms')
@@ -256,8 +259,14 @@ def main(load_directory, loader_id, id_class):
     del df_xref['reference']
     df_xref.to_csv(load_directory+ 'do_disease.csv')
 
+    children_df = add_children(df_xref, doid_child_dict)
+    children_df.to_csv(load_directory + 'do_children.csv')
+
+    parents_df = add_parents(df_xref, doid_child_dict)
+    parents_df.to_csv(load_directory + 'do_parents.csv')
     print('do diseases are extracted')
 
+# Creates a dataframe given a dictionary of do_diseases extracted from OBO files
 def create_dataframe(doid_dict):
     list_of_entries = []
     for entry in doid_dict:
@@ -306,6 +315,7 @@ def create_dataframe(doid_dict):
         list_of_entries.append(entry_dict)
     return pandas.DataFrame(list_of_entries)
 
+# Sorts synonyms from the original files into 3 columns: exact, related, and narrow
 def sort_synonyms(input):
     synonym_dict = input
     syn_list = [[], [], []]
@@ -324,12 +334,49 @@ def sort_synonyms(input):
                 syn_list[2].append(synonym)
     return syn_list
 
+# Adds dictionary to a dataframe
 def add_dict(df, dict, column_name):
     for index, row in df.iterrows():
         graph_id = row['graph_id']
         list_id = dict [graph_id]
         df.at[index, column_name] = list_id
     return df
+
+# Creates children dataframe
+def add_children(df, dict):
+    for index, row in df.iterrows():
+        graph_id = df.at[index, 'graph_id']
+        if graph_id in dict:
+            children = list(dict[graph_id])
+            df.at[index, 'child'] = '|'.join(children)
+        else:
+            df.at[index, 'child'] = ""
+    df_children = df[['graph_id', 'child']]
+    return df_children
+
+# Creates parents dataframe
+def add_parents(df, dict):
+    # Reverses parents-children
+    parent_dict = {}
+    for entry in dict:
+        dict_list = list(dict[entry])
+        for disease in dict_list:
+            if disease in parent_dict:
+                parents = parent_dict[disease]
+                parents.append(entry)
+            else:
+                parent_dict[disease] = [entry]
+    # Adds parents to a dataframe
+    for index, row in df.iterrows():
+        graph_id = df.at[index, 'graph_id']
+        if graph_id in parent_dict:
+            parent = parent_dict[graph_id]
+            df.at[index, 'parent'] = '|'.join(parent)
+        else:
+            df.at[index, 'parent'] = ""
+    df_parents = df[['graph_id', 'parent']]
+    return df_parents
+
 
 
 
