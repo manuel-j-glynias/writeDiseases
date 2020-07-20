@@ -219,96 +219,6 @@ def get_schema_original():
     #pprint(db_dict)
     return db_dict
 
-
-def write_load_files_original(db_dict, doid_dict, doid_child_dict, load_directory):
-    list_of_lists = []
-    do_disease_list = []
-    do_url_list = []
-    do_syn_list = []
-    do_xrefs_list = []
-    do_subsets_list = []
-    do_parents_list = []
-    do_children_list = []
-    for db_name in sorted(db_dict.keys()):
-        for table_name in sorted(db_dict[db_name].keys()):
-            if (table_name == 'do_diseases'):
-                for do_id in sorted(doid_dict.keys()):
-                    dx_name = doid_dict[do_id]['name']
-                    try:
-                        definition = doid_dict[do_id]['def'][1]
-                    except:
-                        definition = ''
-                    graph_id = do_id.replace('ID:', '_disease_').lower()
-                    altered = definition.replace('\\"', '\'')
-                    altered = altered.replace('\\n', ' ')
-                    new_dict = {'doId': do_id, 'name': dx_name, 'definition': altered, 'graph_id':graph_id}
-                    do_disease_list.append(new_dict)
-            if ('definition_urls' in table_name):
-                for do_id in sorted(doid_dict.keys()):
-                    try:
-                        url_set = doid_dict[do_id]['def'][0]
-                    except:
-                        continue
-                    for url in sorted(url_set):
-                        cur_data = [do_id.replace('ID:', '_disease_').lower(), url]
-                        new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(), 'url': url}
-                        do_url_list.append(new_dict)
-            elif ('synonyms' in table_name):
-                for do_id in sorted(doid_dict.keys()):
-                    if ('synonym' in doid_dict[do_id].keys()):
-                        for syn_type in sorted(doid_dict[do_id]['synonym'].keys()):
-                            for synonym in sorted(doid_dict[do_id]['synonym'][syn_type]):
-                                new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(), 'synonymType': syn_type, 'synonym': synonym}
-                                do_syn_list.append(new_dict)
-            elif ('xrefs' in table_name):
-                for do_id in sorted(doid_dict.keys()):
-                    if ('xref' in doid_dict[do_id].keys()):
-                        for source in sorted(doid_dict[do_id]['xref'].keys()):
-                            for src_id in sorted(doid_dict[do_id]['xref'][source]):
-                                new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(),
-                                            'source': source, 'xrefId': src_id}
-                                do_xrefs_list.append(new_dict)
-            elif ('subsets' in table_name):
-                for do_id in sorted(doid_dict.keys()):
-                    if ('subset' in doid_dict[do_id].keys()):
-                        for subset in sorted(doid_dict[do_id]['subset']):
-                            new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(),
-                                        'subset': subset}
-                            do_subsets_list.append(new_dict)
-            elif ('parents' in table_name):
-                for do_id in sorted(doid_dict.keys()):
-                    if ('is_a' in doid_dict[do_id].keys()):
-                        for parent in sorted(doid_dict[do_id]['is_a']):
-                            new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(),
-                                        'parent': parent.replace('ID:', '_disease_').lower()}
-                            do_parents_list.append(new_dict)
-            elif ('children' in table_name):
-                for do_id in sorted(doid_child_dict.keys()):
-                    for child in sorted(doid_child_dict[do_id]):
-                        new_dict = {'graph_id': do_id.replace('ID:', '_disease_').lower(),
-                                    'child': child}
-                        do_children_list.append(new_dict)
-
-    list_of_lists.append(do_disease_list)
-    list_of_lists.append(do_url_list)
-    list_of_lists.append(do_syn_list)
-    list_of_lists.append(do_xrefs_list)
-    list_of_lists.append(do_subsets_list)
-    list_of_lists.append(do_parents_list)
-    list_of_lists.append(do_children_list)
-    return list_of_lists
-
-
-def assign_xrefs_to_do_disease(do_disease_df, xrefs_editable):
-    for index, row in do_disease_df.iterrows():
-        do_disease_df.at[index, 'xrefs'] = ''
-        graph_id = row['graph_id']
-        if graph_id in xrefs_editable:
-            do_disease_df.at[index, 'xrefs'] = xrefs_editable[graph_id]
-
-    return do_disease_df
-
-
 def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     my_db = None
@@ -319,115 +229,108 @@ def main(load_directory, loader_id, id_class):
     #download_do()
     doid_dict,doid_child_dict = parse_do()
     db_dict = get_schema_original()
-    do_disease_list_of_listst = write_load_files_original(db_dict, doid_dict, doid_child_dict, load_directory)
+    do_df = create_dataframe(doid_dict)
+    df_editable = create_editable_statement.assign_editable_statement(do_df,
+                                                                      editable_statement_list, loader_id,
+                                                                      load_directory, do_table_name, id_class)
+    exact_dict = create_EditableStringList.assign_editable_lists(df_editable, loader_id, load_directory,
+                                                                     id_class, 'exact_synonyms')
+    df_exact = add_dict(df_editable, exact_dict, 'exact_synonyms')
 
-    # Write editable statement table
-    do_disease_df = pandas.DataFrame(do_disease_list_of_listst[0])
-    df_editable = create_editable_statement.assign_editable_statement(do_disease_df,
-                                                                      editable_statement_list, loader_id, load_directory, do_table_name, id_class)
+    related_dict = create_EditableStringList.assign_editable_lists(df_editable, loader_id, load_directory,
+                                                                       id_class, 'related_synonyms')
+    df_related = add_dict(df_exact, related_dict, 'related_synonyms')
 
-    # Split synonyms, assign editable, and write editable synonym  tables
-    df_synonyms = pandas.DataFrame(do_disease_list_of_listst[2])
-    df_synonyms_exact = split_synonyms('EXACT', df_synonyms)
-    df_synonyms_related = split_synonyms('RELATED', df_synonyms)
-    syn_dict_exact = create_EditableStringList.assign_editable_lists(df_synonyms_exact, loader_id, load_directory, id_class, 'synonym')
-    syn_dict_related = create_EditableStringList.assign_editable_lists(df_synonyms_related, loader_id, load_directory, id_class, 'synonym')
-    df_editable = add_column_to_dataframe(df_editable, syn_dict_exact, 'exact_synonyms')
-    df_editable = add_column_to_dataframe(df_editable, syn_dict_related, 'related_synonyms')
+    narrow_dict = create_EditableStringList.assign_editable_lists(df_related, loader_id, load_directory,
+                                                                      id_class, 'narrow_synonyms')
+    df_narrow = add_dict(df_related, narrow_dict, 'narrow_synonyms')
 
+    subset_dict = create_EditableStringList.assign_editable_lists(df_narrow, loader_id, load_directory, id_class,
+                                                               'subset')
+    df_subset = add_dict(df_narrow, subset_dict, 'subset')
 
-    # Write editable list for subsets
-    do_subsets_df = pandas.DataFrame(do_disease_list_of_listst[4])
-    sub_dict = create_EditableStringList.assign_editable_lists(do_subsets_df, loader_id, load_directory, id_class, 'subset')
-    df_editable = add_column_to_dataframe(df_editable, syn_dict_related, 'subsets')
+    xref_dict = create_EditableXrefsList.assign_editable_xrefs_lists(df_subset, loader_id, load_directory,
+                                                                          id_class)
+    df_xref = add_dict(df_subset, xref_dict, 'xrefs')
 
-    do_parents_df = pandas.DataFrame(do_disease_list_of_listst[5])
-    do_parents_df = combine_parents_and_children(do_parents_df, 'parent')
-    path_parents = load_directory + 'do_parents.csv'
-    write_load_files.main(do_parents_df, path_parents)
+    del df_xref['reference']
+    df_xref.to_csv(load_directory+ 'do_disease.csv')
 
-    do_children_df = pandas.DataFrame(do_disease_list_of_listst[6])
-    do_children_df = combine_parents_and_children(do_children_df, 'child')
-    path_children = load_directory + 'do_children.csv'
-    write_load_files.main(do_children_df, path_children)
+    print('do diseases are extracted')
 
-    do_xrefs_df = pandas.DataFrame(do_disease_list_of_listst[3])
-    xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(do_xrefs_df, loader_id, load_directory,  id_class)
-    do_disease_with_xrefs = add_column_to_dataframe(df_editable, xrefs_editable, 'xrefs')
-    do_disease_df = do_disease_with_xrefs[['doId', 'name', 'definition', 'exact_synonyms', 'related_synonyms', 'subsets', 'xrefs',  'graph_id']]
-    do_disease_df_no_nan = do_disease_df.replace(np.nan, '', regex=True)
-    path = load_directory + 'do_diseases.csv'
-    write_load_files.main(do_disease_df_no_nan, path)
-    #path_xrefs = load_directory + 'do_xrefs.csv'
-    #write_load_files.main(do_xrefs_df, path_xrefs)
+def create_dataframe(doid_dict):
+    list_of_entries = []
+    for entry in doid_dict:
+        entry_dict = {}
+        name, definition, reference, xref = "", "", "", ""
+        exact_synonyms , related_synonyms, narrow_synonyms, subset =[], [], [], []
+        temp_dict = doid_dict[entry]
+        if 'name' in temp_dict:
+            name = temp_dict['name']
+        if 'def' in temp_dict:
+            definition =  temp_dict['def'][1]
+            reference =  temp_dict['def'][0]
+        if 'synonym' in temp_dict:
+            syn_list = sort_synonyms(temp_dict['synonym'])
+            exact_synonyms = syn_list[0]
+            related_synonyms = syn_list[1]
+            narrow_synonyms = syn_list[2]
+        if 'subset' in temp_dict:
+            subset_list = []
+            subset_set = temp_dict['subset']
+            for sub in subset_set:
+                subset_list.append(sub)
+            subset = subset_list
+        if 'xref' in temp_dict:
+            xref_list = []
+            xref_set = temp_dict['xref']
+            for ref in xref_set:
+                set_entries =  xref_set[ref]
+                for subset in set_entries:
+                    ref_dict = {}
+                    ref_dict[ref] =subset
+                    xref_list.append(ref_dict)
+            xref = xref_list
 
-    do_url_df = pandas.DataFrame(do_disease_list_of_listst[1])
-    path_urls = load_directory + 'do_definition_urls.csv'
-    write_load_files.main(do_url_df, path_urls)
+        entry_dict['doId'] = entry
+        entry_dict['name'] = name
+        entry_dict['definition'] = definition
+        entry_dict['exact_synonyms'] = exact_synonyms
+        entry_dict['related_synonyms'] = related_synonyms
+        entry_dict['narrow_synonyms'] = narrow_synonyms
+        entry_dict['subset'] = subset
+        entry_dict['xrefs'] = xref
+        entry_dict['reference'] = reference
+        entry_dict['graph_id'] = entry.replace('ID:', '_disease_').lower()
 
-    do_subsets_df = pandas.DataFrame(do_disease_list_of_listst[4])
-    path_subsets = load_directory + 'do_subsets.csv'
-    write_load_files.main(do_subsets_df, path_subsets)
+        list_of_entries.append(entry_dict)
+    return pandas.DataFrame(list_of_entries)
 
-    # Write sql tables
-    db_dict = get_schema.get_schema('do_diseases')
-    db_parents_dict = get_schema.get_schema('do_parents')
-    db_children_dict = get_schema.get_schema('do_children')
-    #db_xrefs_dict= get_schema.get_schema('do_xrefs')
-    db_urls_dict = get_schema.get_schema('do_definition_urls')
-    db_subsets_dict = get_schema.get_schema('do_subsets')
-    editable_statement_dict = get_schema.get_schema('EditableStatement')
-    editable_string_list_dict = get_schema.get_schema('EditableStringList')
-    element_dict = get_schema.get_schema('EditableStringListElements')
+def sort_synonyms(input):
+    synonym_dict = input
+    syn_list = [[], [], []]
+    for key in synonym_dict:
+        if key == 'EXACT':
+            exact_set = synonym_dict[key]
+            for synonym in exact_set:
+                syn_list[0].append(synonym)
+        if key == 'RELATED':
+            related_set = synonym_dict[key]
+            for synonym in related_set:
+                syn_list[1].append(synonym)
+        if key == 'NARROW':
+            narrow_set = synonym_dict[key]
+            for synonym in narrow_set:
+                syn_list[2].append(synonym)
+    return syn_list
 
-    write_sql.write_sql(db_dict, 'do_diseases')
-    write_sql.write_sql(db_parents_dict, 'do_parents')
-    write_sql.write_sql(db_children_dict, 'do_children')
-    #write_sql.write_sql(db_xrefs_dict, 'do_xrefs')
-    write_sql.write_sql(db_urls_dict, 'do_definition_urls')
-    write_sql.write_sql(db_subsets_dict, 'do_subsets')
-    write_sql.write_sql(editable_statement_dict, 'EditableStatement')
-    write_sql.write_sql(editable_string_list_dict, 'EditableStringList')
-    write_sql.write_sql(element_dict, 'EditableStringListElements')
-
-    print(datetime.datetime.now().strftime("%H:%M:%S"))
-
-def split_synonyms(synonymType, df_synonyms):
-    df_splitted = df_synonyms[df_synonyms['synonymType'] ==  synonymType]
-
-    return df_splitted
-
-def add_column_to_dataframe(df_in_need, column_dict, column):
-   #Put esl value back to the main dataframe
-   for index, row in df_in_need.iterrows():
-       df_in_need.at[index, column] = ""
-       disease_id = row['graph_id']
-       if disease_id in column_dict:
-           df_in_need.at[index, column] = column_dict[disease_id]
-   return df_in_need
-
-def combine_parents_and_children(df, column):
-    input_dict = {}
-    input_list = []
+def add_dict(df, dict, column_name):
     for index, row in df.iterrows():
-        disease_id = row['graph_id']
-        parent_or_child = row[column]
-        if disease_id in input_dict:
-            disease_list = input_dict[disease_id]
-            disease_list.append(parent_or_child)
-            input_dict[disease_id] = disease_list
-        else:
-            input_dict[disease_id] = [parent_or_child]
-    for entry in input_dict:
-        temp_dict = {}
-        parent_or_child_list = input_dict[entry]
-        pipe_strings = '|'.join(parent_or_child_list)
-        temp_dict['graph_id'] = entry
-        temp_dict[column] = pipe_strings
-        input_list.append(temp_dict)
-    df = pandas.DataFrame(input_list)
-
+        graph_id = row['graph_id']
+        list_id = dict [graph_id]
+        df.at[index, column_name] = list_id
     return df
 
-#if __name__ == "__main__":
-    #main(load_directory)
+
+
+

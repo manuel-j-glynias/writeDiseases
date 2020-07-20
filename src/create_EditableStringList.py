@@ -23,11 +23,19 @@ def assign_editable_lists(df, loader_id, load_dir,  id_class, element):
         graph_id = row['graph_id']
         if graph_id in strings_dict:
             strings = strings_dict[graph_id]
-            strings.append( row[element])
+            if type(row[element]) is list:
+                for syn in row[element]:
+                    strings.append(syn)
+            else:
+                strings.append( row[element])
             strings_dict[graph_id] = strings
         else:
             strings = []
-            strings.append( row[element])
+            if type(row[element]) is list:
+                for syn in row[element]:
+                    strings.append(syn)
+            else:
+                strings.append( row[element])
             strings_dict[graph_id] = strings
 
     esl_dict = {}

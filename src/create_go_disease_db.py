@@ -238,6 +238,12 @@ def parse_go_refs(df):
                 new_dict['source'] = entry.split('=')[0]
                 new_dict['xrefId'] = entry.split('=')[1]
                 refs_list.append(new_dict)
+        else:
+            new_dict = {}
+            new_dict['graph_id'] = row['graph_id']
+            new_dict['source'] = ""
+            new_dict['xrefId'] = ""
+            refs_list.append(new_dict)
     refs_df = pandas.DataFrame(refs_list)
     return refs_df
 

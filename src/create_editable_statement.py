@@ -28,6 +28,8 @@ def assign_editable_statement(df, editable_statement_list,loader_id, load_dir , 
                 # Create field in editable statement table
                 field =  table_name  +  '_'  + field.capitalize()  +  '_' + graph_id
                 statement = input[entry]
+                if not input[entry]:
+                    statement = ""
                 # Assign unique value to editable statement and write it
                 es_des_id =write_editable_statement(field, editable_statement_writer, loader_id, statement,id_class)
                 # Put this value in the original table
