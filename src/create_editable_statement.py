@@ -30,6 +30,11 @@ def assign_editable_statement(df, editable_statement_list,loader_id, load_dir , 
                 statement = input[entry]
                 if not input[entry]:
                     statement = ""
+                elif pandas.isnull(statement):
+                    statement = ""
+                else:
+                    statement = statement.replace('\\"', '\'')
+                    statement = statement.replace('\\n', ' ')
                 # Assign unique value to editable statement and write it
                 es_des_id =write_editable_statement(field, editable_statement_writer, loader_id, statement,id_class)
                 # Put this value in the original table
