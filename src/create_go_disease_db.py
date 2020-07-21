@@ -29,10 +29,6 @@ table_name = 'GoDiseases'
 #id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
 
 
-import csv
-from sql_utils import load_table, create_table, does_table_exist, \
-    get_local_db_connection, maybe_create_and_select_database, \
-    drop_table_if_exists
 import json
 import get_schema
 
@@ -46,7 +42,8 @@ def main(load_directory, loader_id, id_class):
              '../data/GO_diseases/diseases_pg6.json']
 
     #Create dataframe
-    df=combine_files(files)
+    df_with_none=combine_files(files)
+    df = df_with_none.fillna("")
 
     #Parse dataframes
     go_disease_df= parse_go_main(df, loader_id, load_directory, id_class)
@@ -59,15 +56,14 @@ def main(load_directory, loader_id, id_class):
                                                                           id_class)
     df_xrefs_editable = add_dict(go_xrefs, xrefs_editable_dict, 'xrefs')
 
-    go_disease_df = parse_go_synonyms(df_xrefs_editable, go_disease_df, loader_id, load_directory,  id_class)
+    syn_editable_dict = create_EditableStringList.assign_editable_lists(df_xrefs_editable, loader_id, load_directory,
+                                                                     id_class, 'synonyms')
 
+    df_syn_editable= add_dict(df_xrefs_editable, syn_editable_dict, 'synonyms')
 
-    go_disease_with_xrefs = add_column_to_dataframe(go_disease_df, xrefs_editable_dict, 'xrefs')
-    go_disease_df = go_disease_with_xrefs[
-        ['id', 'name', 'definition', 'synonyms',  'xrefs', 'graph_id']]
 
     path = load_directory + 'go_diseases.csv'
-    write_load_files.main(go_disease_df, path)
+    write_load_files.main(df_syn_editable, path)
 
     path_parents = load_directory + 'go_parents.csv'
     write_load_files.main(go_parents_df, path_parents)
@@ -75,32 +71,19 @@ def main(load_directory, loader_id, id_class):
     path_children = load_directory + 'go_children.csv'
     write_load_files.main(go_children_df, path_children)
 
-    path_xrefs = load_directory + 'go_xrefs.csv'
-    write_load_files.main(go_xrefs, path_xrefs)
 
-    # path_synonyms = load_directory +  'go_synonyms.csv'
-    # write_load_files.main(go_synonyms, path_synonyms)
 
     # Write sql tables
     db_dict = get_schema.get_schema('go_diseases')
     db_parents_dict = get_schema.get_schema('go_parents')
     db_children_dict = get_schema.get_schema('go_children')
-    db_xrefs_dict = get_schema.get_schema('go_xrefs')
-    #db_synonyms_dict = get_schema.get_schema('go_synonyms')
-    editable_statement_dict = get_schema.get_schema('EditableStatement')
-    editable_synonyms_list_dict = get_schema.get_schema('EditableStringList')
-    synonym_dict = get_schema.get_schema('EditableStringListElements')
+
 
     write_sql.write_sql(db_dict, 'go_diseases')
     write_sql.write_sql(db_parents_dict, 'go_parents')
     write_sql.write_sql(db_children_dict, 'go_children')
-    write_sql.write_sql(db_xrefs_dict, 'go_xrefs')
-    #write_sql.write_sql(db_synonyms_dict, 'go_synonyms')
-    write_sql.write_sql(editable_statement_dict, 'EditableStatement')
-    write_sql.write_sql(editable_synonyms_list_dict, 'EditableStringList')
-    write_sql.write_sql(synonym_dict, 'EditableStringListElements')
 
-
+    print('go diseases are extracted')
 ###################################################
 #  EXTRACT DATA FROM FILES TO DATAFRAME
 ###################################################
