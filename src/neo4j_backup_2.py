@@ -197,7 +197,7 @@ def main():
     print("connect_do_parents", elapsed.total_seconds(), last_round.total_seconds())
 
     connect_do_children = ''' MATCH (dodisease:DODisease) UNWIND dodisease.children as child  MATCH (do:DODisease  {id:child})  
-          CREATE (dodisease)-[:CHILD]->(do)  '''
+          CREATE (dodisease)<-[:PARENT]-(do)  '''
     send_to_neo4j(driver, connect_do_children)
     print("connect_do_children", elapsed.total_seconds(), last_round.total_seconds())
 
