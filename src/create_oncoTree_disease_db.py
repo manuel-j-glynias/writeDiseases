@@ -32,9 +32,7 @@ def main(load_directory, loader_id, id_class):
 
     #Parse dataframes
     oncotree_df= parse_oncotree_main(df, load_directory, loader_id, id_class)
-    oncotree_df_refs = parse_oncotree_refs(df)
-
-    xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(oncotree_df_refs, loader_id, load_directory,
+    xrefs_editable = create_EditableXrefsList.assign_editable_xrefs_lists(oncotree_df, loader_id, load_directory,
                                                                           id_class)
     oncotree_disease_with_xrefs = add_column_to_dataframe(oncotree_df, xrefs_editable, 'xrefs')
     oncotree_df = oncotree_disease_with_xrefs[
@@ -42,9 +40,6 @@ def main(load_directory, loader_id, id_class):
 
     path = load_directory + 'oncotree_diseases.csv'
     write_load_files.main(oncotree_df, path)
-
-    path_refs = load_directory +  'oncotree_xrefs.csv'
-    write_load_files.main(oncotree_df_refs, path_refs)
 
     oncotree_df_parent = parse_oncotree_parents(df)
     oncotree_df_parent = combine_parents_and_children(oncotree_df_parent, 'parent')
@@ -59,12 +54,10 @@ def main(load_directory, loader_id, id_class):
 
     # Write sql tables
     db_dict = get_schema.get_schema('oncotree_diseases')
-    db_dict_refs = get_schema.get_schema( 'oncotree_xrefs')
     db_dict_parents = get_schema.get_schema('oncotree_parents')
     db_dict_children = get_schema.get_schema('oncotree_children')
 
     write_sql.write_sql(db_dict, 'oncotree_diseases')
-    write_sql.write_sql(db_dict_refs, 'oncotree_xrefs')
     write_sql.write_sql(db_dict_parents, 'oncotree_parents')
     write_sql.write_sql(db_dict_children, 'oncotree_children')
 
@@ -86,40 +79,23 @@ def parse_oncotree_main(df, load_directory, loader_id, id_class):
     # Add new columns and create parent-child and id dictionaries
     for index, row in df.iterrows():
         # Add children column to dataframe
-        df.at[index, 'children'] = []
-        df.at[index, 'graph_id'] = ""
         graph_id = 'oncotree_disease_' + df.at[index, 'code']
         df.at[index, 'graph_id'] = graph_id
-        # Create parent child dict
-        parent_dict[graph_id] = row['parent']
-        id_dict[row['code']] = graph_id
+        refs = row['externalReferences']
+        if refs == {}:
+            df.at[index, 'externalReferences'] = ""
+        else:
+            refs_list = []
+            for entry in refs:
+                temp_dict = {}
+                temp_dict[entry] =refs[entry][0]
+                refs_list.append(temp_dict)
+            df.at[index, 'externalReferences'] = refs_list
 
-
-    for index, row in df.iterrows():
-        parent_entry = df.at[index, 'parent']
-
-        #Change parent value from code to id
-        if parent_entry:
-            parent_entry_id  =id_dict[parent_entry]
-            df.at[index, 'parent'] = parent_entry_id
-
-        # Assign children to appropriate parents
-        for entry in parent_dict:
-            parent = parent_dict[entry]
-            child = entry
-            if parent == row['code']:
-                children = df.at[index, 'children']
-                children.append(child)
-                df.at[index, 'children'] = children
-
-    # Copy and change dataframe to write csv
-    column_to_delete  = ['color', 'externalReferences', 'history', 'level', 'revocations', 'precursors', 'parent', 'children']
-    df1 = df.copy(deep = True)
-    for column in column_to_delete:
-        del df1[column]
-    onco_with_editable = create_editable_statement.assign_editable_statement(df1,
+    onco_with_editable = create_editable_statement.assign_editable_statement(df,
                                                                              editable_statement_list, loader_id,
                                                                              load_directory, table_name, id_class)
+    onco_with_editable = onco_with_editable.rename(columns={'externalReferences': 'xrefs'})
     return onco_with_editable
 
 # Creates dataframe with references
