@@ -228,7 +228,7 @@ def main(load_directory, loader_id, id_class):
 
     #download_do()
     doid_dict,doid_child_dict = parse_do()
-    db_dict = get_schema_original()
+    #db_dict = get_schema_original()
     # creates a dataframe from doid_dict
     do_df = create_dataframe(doid_dict)
     # replaces values with editable statements

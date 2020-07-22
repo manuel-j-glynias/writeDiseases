@@ -156,7 +156,7 @@ def main():
     send_to_neo4j(driver, read_xref)
 
     send_to_neo4j(driver, 'CREATE INDEX ON :DODisease(id)')
-    read_do_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///do_diseases.csv' AS row
+    read_do_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///do_disease.csv' AS row
         WITH row.doId as doId, row.name as name, row.definition  as definition, row.exact_synonyms as exactSynonyms, 
         row.related_synonyms as relatedSynonyms,  row.subsets as subsets, row.xrefs as xrefs, row.graph_id as id
         MATCH(esd:EditableStatement) WHERE esd.id=definition

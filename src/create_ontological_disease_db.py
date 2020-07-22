@@ -27,6 +27,7 @@ files = ['../data/GO_diseases/diseases_pg1.json',
          '../data/GO_diseases/diseases_pg4.json',
          '../data/GO_diseases/diseases_pg5.json',
          '../data/GO_diseases/diseases_pg6.json']
+omnimap_file = '../data/tblOS_GLOBAL_JAX_DL_OmniMap.csv'
 
 # Required columns in ontological_disease table
 cols = ['name', 'definition',  'graph_id', 'jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases', 'xrefs']
@@ -48,10 +49,10 @@ results = 'results'
 id = 'id'
 definition = 'definition'
 description = 'description'
-#load_directory = '../load_files/'
-#loader_id = '007'
-temporary_xref_path_go = '../load_files/go_xrefs.csv'
-#id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0)
+load_directory = '../load_files/'
+loader_id = 'user_20200422163431232329'
+#temporary_xref_path_go = '../load_files/go_xrefs.csv'
+id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0)
 
 
 
@@ -59,7 +60,7 @@ def main(load_directory, loader_id, id_class):
     # Create a dataframe
     df = parse_go()
 
-
+    omni_map_dict = parse_omnimap()
     xrefs_editable_dict = create_EditableXrefsList.assign_editable_xrefs_lists(df, loader_id, load_directory, id_class)
     df_xrefs_editable = add_column_to_dataframe(df, xrefs_editable_dict, 'xrefs')
 
@@ -183,6 +184,32 @@ def combine_dataframes(dataframe_list):
 
     return combined_df
 
+def parse_omnimap():
+    jax_dict = {}
+    omnimap_df = pandas.read_csv(omnimap_file)
+    omnimap_df = omnimap_df.fillna("")
+    for index, row in omnimap_df.iterrows():
+        jax_disease = 'jax_disease_' + str(row['ResourceDiseaseID'])
+        omni_disease = row['OmniDisease_ID']
+        mcode = row['MCode']
+        # if jax disease is already in a dictionary
+        if jax_disease in jax_dict:
+            omni_dict = jax_dict[jax_disease]
+            # check omnidict if omnidisease is there
+            if omni_disease in omni_dict:
+                # add mcode to list if there
+                omni_dict[omni_disease].append(mcode)
+                jax_dict[jax_disease] = omni_dict
+            # or add new entry in omnidict
+            else:
+                omni_dict[omni_disease] = [mcode]
+                jax_dict[jax_disease] = omni_dict
+        # else create omnientry in omnidict and add an appropriate mcode
+        else:
+            omni_dict = {}
+            omni_dict[omni_disease] = [mcode]
+            jax_dict[jax_disease] = omni_dict
+    print()
 
 
 def add_column_to_dataframe(df_in_need, column_dict, column):
@@ -195,5 +222,5 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
    return df_in_need
 
 
-#if __name__ == "__main__":
-    #main(load_directory)
+if __name__ == "__main__":
+    main(load_directory, loader_id, id_class)
