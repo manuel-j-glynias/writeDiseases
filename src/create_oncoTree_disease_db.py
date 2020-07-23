@@ -13,7 +13,7 @@ import create_id
 editable_statement_list = ['name', 'mainType', 'tissue']
 table_name = 'oncotree_diseases'
 import create_editable_statement
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 import csv
 from sql_helpers import get_one_jax_gene, preflight_ref, insert_editable_statement, insert_es_ref, get_loader_user_id

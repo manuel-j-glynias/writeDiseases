@@ -19,7 +19,7 @@ def get_elapsed_time(now, start):
 def main():
     uri = "bolt://localhost:7687"
 
-    with open('schema.graphql', 'r') as file:
+    with open('schema_03_10.graphql', 'r') as file:
         idl_as_string = file.read()
     driver = GraphDatabase.driver(uri, auth=("neo4j", "omni"))
     send_to_neo4j(driver,"match(a) detach delete(a)")
@@ -126,6 +126,11 @@ def main():
     send_to_neo4j(driver, read_EditableStringListElements)
     print("converted_EditableStringListElements", elapsed.total_seconds(), last_round.total_seconds())
 
+
+
+
+
+###############################################################################################
     send_to_neo4j(driver, 'CREATE INDEX ON :XRef(id)')
     read_xref = '''LOAD CSV WITH HEADERS FROM 'file:///Xref.csv' AS row
           WITH row.graph_id as id, row.source as source, row.source_id  as sourceId 
@@ -155,10 +160,16 @@ def main():
     CREATE (exrefslist)-[:XREF]->(xref)  '''
     send_to_neo4j(driver, read_xref)
 
+
+
+
+
+
+
     send_to_neo4j(driver, 'CREATE INDEX ON :DODisease(id)')
     read_do_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///do_disease.csv' AS row
         WITH row.doId as doId, row.name as name, row.definition  as definition, row.exact_synonyms as exactSynonyms, 
-        row.related_synonyms as relatedSynonyms,  row.subsets as subsets, row.xrefs as xrefs, row.graph_id as id
+        row.related_synonyms as relatedSynonyms,  row.subset as subsets, row.xrefs as xrefs, row.graph_id as id
         MATCH(esd:EditableStatement) WHERE esd.id=definition
         MATCH(esn:EditableStatement) WHERE esn.id=name
         MATCH(eslexact:EditableStringList) WHERE eslexact.id=exactSynonyms
@@ -197,7 +208,7 @@ def main():
     print("connect_do_parents", elapsed.total_seconds(), last_round.total_seconds())
 
     connect_do_children = ''' MATCH (dodisease:DODisease) UNWIND dodisease.children as child  MATCH (do:DODisease  {id:child})  
-          CREATE (dodisease)<-[:PARENT]-(do)  '''
+          CREATE (dodisease)-[:CHILD]->(do)  '''
     send_to_neo4j(driver, connect_do_children)
     print("connect_do_children", elapsed.total_seconds(), last_round.total_seconds())
 
@@ -329,6 +340,50 @@ def main():
     send_to_neo4j(driver, connect_mcode_children)
     print("connect_mcode_children", elapsed.total_seconds(), last_round.total_seconds())
 
+
+
+
+
+    ###########################################################################################################
+    send_to_neo4j(driver, 'CREATE INDEX ON :OmniMap(id)')
+    read_omnimap = '''LOAD CSV WITH HEADERS FROM 'file:///Omni_map.csv' AS row
+                 WITH row.graph_id as id, row.omniDisease_graph_id as omniDisease, row.mCode_graph_id  as mCodes 
+                 MATCH(omnidisease:OmniDisease) WHERE omnidisease.omniDiseaseId=omniDisease
+                 MATCH(mcode:MCode) WHERE mcode.mcodeId=mCodes
+                 CREATE (omnimap:OmniMap {id:id }) 
+                 CREATE (omnimap)-[:OMNIDISEASE]->(omnidisease)
+                 CREATE (omnimap)-[:MCODE]->(mcode)'''
+    send_to_neo4j(driver, read_omnimap)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("OmniMap", elapsed.total_seconds(), last_round.total_seconds())
+
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableOmniMapList(id)')
+    read_editable_omnimap_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableOmniMapList.csv' AS row
+                WITH row.graph_id as field, row.edit_date as editDate, row.editor_id as editor, row.xref_id as id 
+                MATCH(u:User) WHERE u.id=editor
+                CREATE (eomll:EditableOmniMapList :EditableObject {field:field, editDate:editDate,  id:id}) 
+                CREATE (eomll)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_omnimap_list)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableXRefList", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_editable_omnimap_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableOmniMapListElements.csv' AS row
+                   WITH row.EditableMapList_graph_id as editable, split(row.OmniMap_graph_id, "|") AS OmniMap_graph_id
+                   MATCH(oml:EditableOmniMapList) WHERE oml.id=editable 
+                   SET oml.list = OmniMap_graph_id '''
+    send_to_neo4j(driver, read_editable_omnimap_list_elements)
+    print("EditableXrefsListElements", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_omni = ''' MATCH (oml:EditableOmniMapList) UNWIND oml.list as omnimaps  MATCH (omni:OmniMap  {id:omnimaps})  
+           CREATE (oml)-[:OMNIMAP]->(omni)  '''
+    send_to_neo4j(driver, read_omni)
+
+    #######################################################################################################################
+
+
+
+
+
     send_to_neo4j(driver, 'CREATE INDEX ON :TCode(id)')
     read_tcode_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///tcode_diseases.csv' AS row
        WITH row.tcode as tcodeId, row.tissuePath as tissuePath, row.graph_id as id
@@ -365,9 +420,6 @@ def main():
     print("connect_tcode_children", elapsed.total_seconds(), last_round.total_seconds())
 
 
-
-
-
     send_to_neo4j(driver, 'CREATE INDEX ON :EditableGODiseaseList(id)')
     read_editable_go_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableGoDiseaseList.csv' AS row
            WITH row.field as field, row.edit_date as editDate, row.editor_id as editor, row.EditableDiseaseList_graph_id as id
@@ -388,10 +440,6 @@ def main():
     read_go_to_go_disease = ''' MATCH (egdl:EditableGODiseaseList) UNWIND egdl.list as go_diseases  MATCH (go:GODisease  {id:go_diseases})  
       CREATE (egdl)-[:GODISEASE]->(go)  '''
     send_to_neo4j(driver, read_go_to_go_disease)
-
-
-
-
 
     send_to_neo4j(driver, 'CREATE INDEX ON :EditableDODiseaseList(id)')
     read_editable_do_disease_list = '''LOAD CSV WITH HEADERS FROM 'file:///EditableDoDiseaseList.csv' AS row
@@ -467,7 +515,7 @@ def main():
     send_to_neo4j(driver, 'CREATE INDEX ON :OntologicalDisease(id)')
     read_ontological_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///ontological_diseases.csv' AS row
                 WITH row.name as name, row.description as description, row.jaxDiseases  as jaxDiseases, row.doDiseases as doDiseases,  
-                row.goDiseases as goDiseases, row.oncoTreeDiseases as oncoTreeDiseases, row.xrefs as xrefs, row.graph_id as id
+                row.goDiseases as goDiseases, row.oncoTreeDiseases as oncoTreeDiseases, row.xrefs as xrefs, row. omniMaps as omniMaps,  row.graph_id as id
                 MATCH(esn:EditableStatement) WHERE esn.id=name
                 MATCH(esd:EditableStatement) WHERE esd.id=description
                 MATCH(jd:EditableJAXDiseaseList) WHERE jd.id=jaxDiseases
@@ -475,6 +523,7 @@ def main():
                 MATCH(gd:EditableGODiseaseList) WHERE gd.id=goDiseases
                 MATCH(od:EditableOncoTreeDiseaseList) WHERE od.id=oncoTreeDiseases
                 MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
+                MATCH(omml:EditableOmniMapList) WHERE omml.id=omniMaps
                 CREATE (onto:OntologicalDisease { id:id})
                 CREATE(onto) - [:NAMED]->(esn)
                 CREATE(onto) - [:DESCRIBED_BY]->(esd)
@@ -482,10 +531,35 @@ def main():
                 CREATE(onto) - [:DODISEASE]->(dd) 
                 CREATE(onto) - [:GODISEASE]->(gd) 
                 CREATE(onto) - [:ONCOTREEDISEASE]->(od) 
-                CREATE(onto) - [:XREF]->(xreflist)'''
+                CREATE(onto) - [:XREF]->(xreflist)
+                CREATE(onto) - [:OMNIMAP]->(omml)'''
     send_to_neo4j(driver, read_ontological_diseases)
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("OntologicalDisease", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_ontological_disease_parents = '''LOAD CSV WITH HEADERS FROM 'file:///ontological_parents.csv' AS row
+               WITH row.graph_id as id, split(row.parent, "|") AS parents
+               MATCH(onto:OntologicalDisease) WHERE onto.id=id 
+               SET onto.parents = parents'''
+    send_to_neo4j(driver, read_ontological_disease_parents)
+    print("onto  parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    read_ontological_disease_children = '''LOAD CSV WITH HEADERS FROM 'file:///ontological_children.csv' AS row
+                  WITH row.graph_id as id, split(row.child, "|") AS children
+                  MATCH(onto:OntologicalDisease) WHERE onto.id=id
+                  SET onto.children = children'''
+    send_to_neo4j(driver, read_ontological_disease_children)
+    print("onto children", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_onto_parents = ''' MATCH (onto:OntologicalDisease) UNWIND onto.parents as parent  MATCH (ot:OntologicalDisease  {id:parent})  
+                  CREATE (onto)-[:PARENT]->(ot) '''
+    send_to_neo4j(driver, connect_onto_parents)
+    print("connect_onto_parents", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_onto_children = ''' MATCH (onto:OntologicalDisease) UNWIND onto.children as child  MATCH (ot:OntologicalDisease  {id:child})  
+                     CREATE (onto)-[:CHILD]->(ot) '''
+    send_to_neo4j(driver, connect_onto_children)
+    print("connect_onto_children", elapsed.total_seconds(), last_round.total_seconds())
 
     driver.close()
 
