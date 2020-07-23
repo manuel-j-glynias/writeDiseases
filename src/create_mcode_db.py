@@ -26,7 +26,7 @@ import create_id
 editable_statement_list = ['diseasePath']
 table_name = 'mcode_diseases'
 import create_editable_statement
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 
 def main(load_directory, loader_id, id_class):
@@ -73,6 +73,11 @@ def parse_mcode_main(df, load_directory, loader_id, id_class):
         new_dict['mcode'] = code
         new_dict['diseasePath'] = row['DiseasePath']
         new_dict['omniDisease'] =  row['OmniDisease_ID']
+        flag = False
+        active = row['Active_Flag']
+        if active == -1:
+            flag = True
+        new_dict['active'] = flag
         graph_id = 'Mcode_' + code
         new_dict['graph_id'] = graph_id
         df.at[index, 'graph_id'] = graph_id
@@ -130,8 +135,8 @@ def parse_mcode_children(df):
 # Output: dataframe:
 def extract_file(path):
     unparsed_df = pandas.read_csv(path)
-    df =unparsed_df[unparsed_df.Active_Flag != 0]
-    return df
+    #df =unparsed_df[unparsed_df.Active_Flag != 0]
+    return unparsed_df
 
 def combine_parents_and_children(df, column):
     input_dict = {}

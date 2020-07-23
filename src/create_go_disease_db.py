@@ -26,7 +26,7 @@ editable_synonyms_list = ['synonyms']
 #loader_id = '007'
 #load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 table_name = 'GoDiseases'
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 
 import json

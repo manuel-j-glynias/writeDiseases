@@ -22,7 +22,7 @@ import create_id
 editable_statement_list = ['name']
 table_name = 'omni_diseases'
 import create_editable_statement
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))

@@ -18,7 +18,7 @@ editable_statement_list = ['name', 'definition']
 config_directory ='C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
 do_table_name = 'DoDiseases'
 import write_load_files
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 
 ###################################################

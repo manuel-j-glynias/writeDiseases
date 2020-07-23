@@ -19,6 +19,7 @@ import create_id
 import create_EditableDiseaseList
 import create_editable_statement
 import create_EditableXrefsList
+import create_EditableOmnimapList
 
 # Variables
 files = ['../data/GO_diseases/diseases_pg1.json',
@@ -28,6 +29,8 @@ files = ['../data/GO_diseases/diseases_pg1.json',
          '../data/GO_diseases/diseases_pg5.json',
          '../data/GO_diseases/diseases_pg6.json']
 omnimap_file = '../data/tblOS_GLOBAL_JAX_DL_OmniMap.csv'
+go_parents_path =  '../load_files/go_parents.csv'
+go_children_path = '../load_files/go_children.csv'
 
 # Required columns in ontological_disease table
 cols = ['name', 'definition',  'graph_id', 'jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases', 'xrefs']
@@ -52,7 +55,7 @@ description = 'description'
 load_directory = '../load_files/'
 loader_id = 'user_20200422163431232329'
 #temporary_xref_path_go = '../load_files/go_xrefs.csv'
-id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0)
+id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0, 0)
 
 
 
@@ -61,8 +64,17 @@ def main(load_directory, loader_id, id_class):
     df = parse_go()
 
     omni_map_dict = parse_omnimap()
-    xrefs_editable_dict = create_EditableXrefsList.assign_editable_xrefs_lists(df, loader_id, load_directory, id_class)
-    df_xrefs_editable = add_column_to_dataframe(df, xrefs_editable_dict, 'xrefs')
+
+    parents_dict = create_relatives(df, 'parent', go_parents_path)
+    children_dict = create_relatives(df, 'child', go_children_path)
+    write_relatives (load_directory, 'ontological_parents.csv', 'parent', parents_dict)
+    write_relatives(load_directory, 'ontological_children.csv', 'child', children_dict)
+
+    omnimap_edit_dict = create_EditableOmnimapList.assign_editable_xrefs_lists(df, omni_map_dict, loader_id, load_directory, id_class)
+    df_omnimap_editable = add_column_to_dataframe(df, omnimap_edit_dict, 'omniMaps')
+
+    xrefs_editable_dict = create_EditableXrefsList.assign_editable_xrefs_lists(df_omnimap_editable, loader_id, load_directory, id_class)
+    df_xrefs_editable = add_column_to_dataframe(df_omnimap_editable, xrefs_editable_dict, 'xrefs')
 
     ontological_df = create_EditableDiseaseList.assign_editable_disease_lists(df_xrefs_editable, loader_id, load_directory, id_class)
 
@@ -209,7 +221,7 @@ def parse_omnimap():
             omni_dict = {}
             omni_dict[omni_disease] = [mcode]
             jax_dict[jax_disease] = omni_dict
-    print()
+    return jax_dict
 
 
 def add_column_to_dataframe(df_in_need, column_dict, column):
@@ -220,6 +232,54 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
        if disease_id in column_dict:
            df_in_need.at[index, column] = column_dict[disease_id]
    return df_in_need
+
+def create_relatives(df, target, target_path):
+    unparsed_df = pandas.read_csv(target_path)
+    go_parents_dict = unparsed_df.set_index('graph_id').T.to_dict()
+    onto_go_df_dict = df.set_index('graph_id').T.to_dict()
+    reversed_dict = reverse_diseases(onto_go_df_dict)
+    parent_dict = {}
+    for index, row in df.iterrows():
+        graph_id = row['graph_id']
+        go_diseases = row['goDiseases']
+        if go_diseases:
+            for entry in go_diseases:
+                onto_list = []
+                if entry in go_parents_dict:
+                    parent_list = (go_parents_dict[entry][target]).split('|')
+                    if parent_list:
+                        for parent in parent_list:
+                            if parent in reversed_dict:
+                                onto_diseases = reversed_dict[parent]
+                                for onto_disease in onto_diseases:
+                                    onto_list.append(onto_disease)
+            parent_dict[graph_id] = onto_list
+    return parent_dict
+
+def write_relatives(load_directory, file_name, relative, relative_dict):
+    relative_list = []
+    for entry in relative_dict:
+        temp_dict = {}
+        temp_dict['graph_id'] = entry
+        temp_dict[relative] = '|'.join(relative_dict[entry])
+        relative_list.append(temp_dict)
+    df = pandas.DataFrame(relative_list)
+    df.to_csv(load_directory + file_name)
+
+    print()
+
+def reverse_diseases(onto_go_df_dict):
+    onto_go_dict = {}
+    for entry in onto_go_df_dict:
+        go_ids = onto_go_df_dict[entry]['goDiseases']
+        for disease in go_ids:
+            if disease in onto_go_dict:
+                onto_go_dict[disease].append(entry)
+            else:
+                onto_list = []
+                onto_list.append(entry)
+                onto_go_dict[disease] = onto_list
+    return onto_go_dict
 
 
 if __name__ == "__main__":
