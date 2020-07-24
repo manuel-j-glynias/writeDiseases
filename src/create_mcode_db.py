@@ -24,8 +24,10 @@ import create_id
 #load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 #loader_id = '007'
 editable_statement_list = ['diseasePath']
+editable_boolean_list = ['active']
 table_name = 'mcode_diseases'
 import create_editable_statement
+import create_EditableBoolean
 #id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 
@@ -86,7 +88,11 @@ def parse_mcode_main(df, load_directory, loader_id, id_class):
     mcode_with_editable = create_editable_statement.assign_editable_statement(mcode_df,
                                                                       editable_statement_list, loader_id,
                                                                       load_directory, table_name, id_class)
-    return mcode_with_editable
+    mcode_with_editable_bool = create_EditableBoolean.assign_editable_boolean(mcode_with_editable,
+                                                                              editable_boolean_list, loader_id,
+                                                                              load_directory, table_name, id_class)
+
+    return mcode_with_editable_bool
 
 # Creates  mcode dataframe
 # Input: dataframe

@@ -50,7 +50,7 @@ def parse_omnidisease(df, load_directory, loader_id, id_class):
         df.at[index, 'graph_id'] = graph_id
         df.at[index, 'omniDiseaseId'] = code
         df.at[index, 'name'] = row['OmniDiseaseName']
-        df.at[index, 'omniDiseaseType'] = row['OmniDiseaseType']
+        df.at[index, 'omniDiseaseType'] = (row['OmniDiseaseType']).replace(" ","")
     df = df[['omniDiseaseId', 'name', 'omniDiseaseType', 'graph_id']]
     omni_with_editable = create_editable_statement.assign_editable_statement(df,
                                                                               editable_statement_list, loader_id,

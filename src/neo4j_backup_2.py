@@ -88,6 +88,16 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableStatement", elapsed.total_seconds(), last_round.total_seconds())
 
+    send_to_neo4j(driver, 'CREATE INDEX ON :EditableBoolean(id)')
+    read_editable_boolean_statement = '''LOAD CSV WITH HEADERS FROM 'file:///EditableBoolean.csv' AS row
+      WITH row.field as field, row.booleanValue as booleanValue,  row.editDate as editDate,row.editorId as editorId, row.graph_id as id
+      MATCH(u:User) WHERE u.id=editorId
+      CREATE (es:EditableBoolean {field:field, booleanValue:booleanValue, editDate:editDate, id:id})
+      CREATE (es)-[:EDITED_BY]->(u)'''
+    send_to_neo4j(driver, read_editable_boolean_statement)
+    elapsed, last_round, now = get_elapsed_time(now, start)
+    print("EditableBoolean", elapsed.total_seconds(), last_round.total_seconds())
+
     read_editable_statement_literature_reference = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement_LiteratureReference.csv' AS row
     WITH row.EditableStatement_graph_id as editable,row.LiteratureReference_graph_id as ref
     MATCH(lr:LiteratureReference) WHERE lr.id=ref
@@ -308,10 +318,12 @@ def main():
 
     send_to_neo4j(driver, 'CREATE INDEX ON :MCode(id)')
     read_mcode_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///mcode_diseases.csv' AS row
-    WITH row.mcode as mcodeId, row.diseasePath as diseasePath, row.omniDisease  as omniDisease,  row.graph_id as id
+    WITH row.mcode as mcodeId, row.diseasePath as diseasePath, row.omniDisease  as omniDisease,  row.active as active,  row.graph_id as id
     MATCH(esn:EditableStatement) WHERE esn.id=diseasePath
+    MATCH(eb:EditableBoolean) WHERE eb.id=active
     CREATE (mc:MCode {mcodeId:mcodeId, omniDisease:omniDisease,  id:id})
-    CREATE(mc) - [:DISEASE_PATH]->(esn)'''
+    CREATE(mc) - [:DISEASE_PATH]->(esn)
+    CREATE(mc) - [:ACTIVE]->(eb)'''
     send_to_neo4j(driver, read_mcode_diseases)
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("MCode", elapsed.total_seconds(), last_round.total_seconds())
