@@ -20,6 +20,7 @@ from sql_utils import load_table, create_table, does_table_exist, get_local_db_c
 import create_id
 import create_editable_statement
 import create_EditableStringList
+import create_references
 import write_sql
 import numpy as np
 
@@ -31,7 +32,9 @@ do_table_name = 'DoDiseases'
 import write_load_files
 import get_schema
 import create_EditableXrefsList
-
+load_directory = '../load_files/'
+loader_id = 'user_20200422163431232329'
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 #id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
@@ -231,6 +234,7 @@ def main(load_directory, loader_id, id_class):
     #db_dict = get_schema_original()
     # creates a dataframe from doid_dict
     do_df = create_dataframe(doid_dict)
+
     # replaces values with editable statements
     df_editable = create_editable_statement.assign_editable_statement(do_df,
                                                                       editable_statement_list, loader_id,
@@ -257,13 +261,15 @@ def main(load_directory, loader_id, id_class):
     df_xref = add_dict(df_subset, xref_dict, 'xrefs')
 
     del df_xref['reference']
-    df_xref.to_csv(load_directory+ 'do_disease.csv')
+    df_xref.to_csv(load_directory+ 'do_diseases.csv')
 
     children_df = add_children(df_xref, doid_child_dict)
     children_df.to_csv(load_directory + 'do_children.csv')
 
     parents_df = add_parents(df_xref, doid_child_dict)
     parents_df.to_csv(load_directory + 'do_parents.csv')
+
+    create_references.main(do_df)
     print('do diseases are extracted')
 
 # Creates a dataframe given a dictionary of do_diseases extracted from OBO files
@@ -378,6 +384,7 @@ def add_parents(df, dict):
     return df_parents
 
 
-
+#if __name__ == "__main__":
+    #main(load_directory, id_class, loader_id)
 
 

@@ -5,9 +5,13 @@ from os import path
 import config
 import sql_utils
 import graphql_utils
+import create_id
+import pandas
 
-loader_id = '007'
-extract_dir = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+load_directory = '../load_files/'
+extract_dir =  '../load_files/'
+loader_id = 'user_20200422163431232329'
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 def extract_list(file_to_extract):
     extracted_list = []
@@ -44,17 +48,16 @@ def get_author_dict(extract_dir):
 # [PMID] : [graph_id}
 def get_definition_urls_dict(extract_dir)->dict:
     reference_dict = {}
-    firstline = True
-    with open(extract_dir + 'do_definition_urls.csv') as csvfile:
-        refs = csv.reader(csvfile)
-        for row in refs:
-            if firstline:
-                firstline = False
-            else:
-                reference = row[1]
-                if '/pubmed/' in reference:
-                    pubmed = reference.split('/pubmed/')[1]
-                    reference_dict[row[0]] = pubmed
+    df = pandas.read_csv(extract_dir + 'do_definition_urls.csv')
+    for index, row in df.iterrows():
+        graph_id = row['graph_id']
+        reference = row['reference']
+        if pandas.isnull(reference):
+            pass
+        else:
+            if '/pubmed/' in reference:
+                pubmed = reference.split('/pubmed/')[1]
+                reference_dict[graph_id] = pubmed
     return reference_dict
 
 def create_load_files_dict(db_dict, load_dir):
@@ -111,7 +114,9 @@ def preflight_ref(pmid, load_files_dict, data_dict):
 def write_reference():
     print()
 
-def main():
+def main(df):
+    url_df  = df[['graph_id','reference']]
+    url_df.to_csv(load_directory + 'do_definition_urls.csv')
     data_dict = {'loader_id': loader_id}
     data_dict['do_disease_dict'] = get_do_disease_dict(extract_dir)
     data_dict['ref_by_pmid'] = get_literature_reference_dict(extract_dir)
