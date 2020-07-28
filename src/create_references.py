@@ -11,14 +11,12 @@ import pandas
 load_directory = '../load_files/'
 extract_dir =  '../load_files/'
 loader_id = 'user_20200422163431232329'
-id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 def extract_list(file_to_extract):
-    extracted_list = []
-    if (path.exists(file_to_extract)):
-        with open(file_to_extract) as f:
-            extracted_list = [{k: str(v) for k, v in row.items()}
-                               for row in csv.DictReader(f, skipinitialspace=True)]
+    unparsed_df = pandas.read_csv(file_to_extract)
+    unparsed_df = unparsed_df.applymap(str)
+    extracted_list = unparsed_df.to_dict('records')
     return extracted_list
 
 
@@ -82,10 +80,12 @@ def is_empty(out_file):
 def preflight_ref(pmid, load_files_dict, data_dict):
     graph_id = None
     ref_by_pmid = data_dict['ref_by_pmid']
-
     journal_dict = data_dict['journal_dict']
     author_dict = data_dict['author_dict']
-    if not pmid in ref_by_pmid:
+    if pmid in ref_by_pmid:
+        graph_id = ref_by_pmid[pmid]
+    else:
+        print(pmid)
         reference = graphql_utils.get_reference_from_pmid_by_metapub(pmid)
         if reference != None:
             graph_id = 'ref_' + str(pmid)
@@ -109,9 +109,9 @@ def preflight_ref(pmid, load_files_dict, data_dict):
                     author_dict[author_id] = {'surname':surname, 'firstInitial':first}
                 literatureReference_author_writer.writerow([None,author_id,graph_id])
             ref_by_pmid[pmid] = graph_id
-    else:
-        graph_id = ref_by_pmid[pmid]
+
     return graph_id
+
 def write_reference():
     print()
 

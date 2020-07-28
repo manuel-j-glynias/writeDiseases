@@ -12,7 +12,7 @@ import stat
 
 load_directory = '../load_files/'
 loader_id = 'user_20200422163431232329'
-id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True)
 
 def main(load_directory, loader_id, id_class):
     create_do_disease_db.main(load_directory, loader_id, id_class)

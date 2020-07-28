@@ -55,7 +55,7 @@ description = 'description'
 load_directory = '../load_files/'
 loader_id = 'user_20200422163431232329'
 #temporary_xref_path_go = '../load_files/go_xrefs.csv'
-id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0, 0)
+#id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0, 0, True)
 
 
 

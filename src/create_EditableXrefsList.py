@@ -3,7 +3,6 @@ import csv
 import os
 import get_schema
 import pandas
-
 path = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
 
 def extract_file(path):
@@ -64,26 +63,37 @@ def assign_editable_xrefs_lists(df, loader_id, load_dir,  id_class):
     return esl_dict
 
 # Writes xref elements and xref tables
-def write_xref_and_elements(entries, esl, element_writer, xref_writer, counter, id_class):
+def write_xref_and_elements(entries, esl, element_writer, xref_writer, counter, id_class,):
     element_list = []
     element_id = id_class.get_xref_id()
+    none_xref = id_class.get_xref_none()
     EditableXRefList_graph_id =""
-    for el in entries:
-        for input in el:
-            source = input
-            sourceId = el[input]
-            if (source == "" and  sourceId == ""):
-                XRef_graph_id = 'xref_' + str(element_id)
-                EditableXRefList_graph_id = esl
-                # Write elements  csv file entry
-                write_xref(source, sourceId, xref_writer, XRef_graph_id)
-                element_list.append(XRef_graph_id)
-            else:
-                XRef_graph_id = 'xref_' + source.lower() + '_' + sourceId.lower()
-                EditableXRefList_graph_id = esl
-                # Write elements  csv file entry
-                write_xref(source, sourceId, xref_writer, XRef_graph_id)
-                element_list.append(XRef_graph_id)
+    if entries == "":
+        source = 'none'
+        sourceId = 'none'
+        EditableXRefList_graph_id = esl
+        XRef_graph_id = 'xref_none_none'
+        if none_xref:
+            write_xref(source, sourceId, xref_writer, XRef_graph_id)
+            id_class.set_xref_none()
+        element_list.append(XRef_graph_id)
+    else:
+        for el in entries:
+            for input in el:
+                source = input
+                sourceId = el[input]
+                if (source == "" and  sourceId == ""):
+                    XRef_graph_id = 'xref_' + str(element_id)
+                    EditableXRefList_graph_id = esl
+                    # Write elements  csv file entry
+                    write_xref(source, sourceId, xref_writer, XRef_graph_id)
+                    element_list.append(XRef_graph_id)
+                else:
+                    XRef_graph_id = 'xref_' + source.lower() + '_' + sourceId.lower()
+                    EditableXRefList_graph_id = esl
+                    # Write elements  csv file entry
+                    write_xref(source, sourceId, xref_writer, XRef_graph_id)
+                    element_list.append(XRef_graph_id)
 
     pipe_strings = '|'.join(element_list)
     write_editable_xrefs_elements(element_id, element_writer, pipe_strings, EditableXRefList_graph_id)

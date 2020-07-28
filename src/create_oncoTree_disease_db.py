@@ -6,14 +6,15 @@ import create_EditableXrefsList
 import write_sql
 import get_schema
 import write_load_files
-
 import create_id
-#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
-#loader_id = '007'
+load_directory = '../load_files/'
+loader_id = 'user_20200422163431232329'
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True)
+
 editable_statement_list = ['name', 'mainType', 'tissue']
 table_name = 'oncotree_diseases'
 import create_editable_statement
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
+
 
 import csv
 from sql_helpers import get_one_jax_gene, preflight_ref, insert_editable_statement, insert_es_ref, get_loader_user_id
@@ -46,8 +47,7 @@ def main(load_directory, loader_id, id_class):
     path_parents =load_directory +  'oncotree_parents.csv'
     write_load_files.main(oncotree_df_parent, path_parents)
 
-    oncotree_df_children = parse_oncotree_children(df)
-    oncotree_df_children = combine_parents_and_children(oncotree_df_children, 'child')
+    oncotree_df_children = reverse_parent_child(oncotree_df_parent)
     path_children = load_directory +  'oncotree_children.csv'
     write_load_files.main(oncotree_df_children, path_children)
 
@@ -155,6 +155,28 @@ def add_column_to_dataframe(df_in_need, column_dict, column):
            df_in_need.at[index, column] = column_dict[disease_id]
    return df_in_need
 
+def reverse_parent_child(df):
+    child_dict = {}
+    for index, row in df.iterrows():
+        child = row['graph_id']
+        parent = row['parent']
+        if parent in child_dict:
+            child_list = []
+            child_list = child_dict[parent]
+            child_list.append(child)
+            child_dict[parent]=child_list
+        else:
+            child_dict[parent] = [child]
+
+    child_list_joined = []
+    for entry in child_dict:
+        child_joined_dict = {}
+        child_joined_dict['graph_id'] = entry
+        child_joined_dict['child'] ='|'.join(child_dict[entry])
+        child_list_joined.append(child_joined_dict)
+    child_df = pandas.DataFrame(child_list_joined)
+    return child_df
+
 def combine_parents_and_children(df, column):
     input_dict = {}
     input_list = []
@@ -166,10 +188,10 @@ def combine_parents_and_children(df, column):
         else:
             if disease_id in input_dict:
                 disease_list = input_dict[disease_id]
-                disease_list.append(parent_or_child)
+                disease_list.append('oncotree_disease_' + str(parent_or_child))
                 input_dict[disease_id] = disease_list
             else:
-                input_dict[disease_id] = [parent_or_child]
+                input_dict[disease_id] = ['oncotree_disease_' + str(parent_or_child)]
     for entry in input_dict:
         temp_dict = {}
         parent_or_child_list = input_dict[entry]
@@ -181,5 +203,5 @@ def combine_parents_and_children(df, column):
     df = pandas.DataFrame(input_list)
     return df
 
-#if __name__ == "__main__":
-    #main(load_directory, load_id, id_class)
+if __name__ == "__main__":
+    main(load_directory, loader_id, id_class)
