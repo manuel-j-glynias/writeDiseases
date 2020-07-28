@@ -36,7 +36,6 @@ load_directory = '../load_files/'
 loader_id = 'user_20200422163431232329'
 id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
 
 def download_do():
     os.chdir('../data/')

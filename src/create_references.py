@@ -57,6 +57,7 @@ def get_definition_urls_dict(extract_dir)->dict:
         else:
             if '/pubmed/' in reference:
                 pubmed = reference.split('/pubmed/')[1]
+                pubmed = pubmed.split('\'')[0]
                 reference_dict[graph_id] = pubmed
     return reference_dict
 
