@@ -1,6 +1,7 @@
 import os
 import csv
 import os.path
+import re
 from os import path
 import config
 import sql_utils
@@ -16,6 +17,11 @@ loader_id = 'user_20200422163431232329'
 def extract_list(file_to_extract):
     unparsed_df = pandas.read_csv(file_to_extract)
     unparsed_df = unparsed_df.applymap(str)
+    if 'LiteratureReference.csv' in file_to_extract:
+        for index, row in unparsed_df.iterrows():
+            pmid = row['PMID']
+            if '=' in pmid:
+                print (pmid)
     extracted_list = unparsed_df.to_dict('records')
     return extracted_list
 
@@ -85,7 +91,7 @@ def preflight_ref(pmid, load_files_dict, data_dict):
     if pmid in ref_by_pmid:
         graph_id = ref_by_pmid[pmid]
     else:
-        print(pmid)
+        #print(pmid)
         reference = graphql_utils.get_reference_from_pmid_by_metapub(pmid)
         if reference != None:
             graph_id = 'ref_' + str(pmid)
@@ -137,6 +143,7 @@ def main(df):
     disease_dict = data_dict['do_disease_dict']
     for entry in pmid_dict:
         input = pmid_dict[entry]
+        input = re.sub("[^0-9]", "", input)
         ref_id =  preflight_ref(input, load_files_dict, data_dict)
         disease = disease_dict[entry]
         definition = disease['definition']
