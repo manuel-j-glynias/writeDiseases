@@ -93,8 +93,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableBoolean", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 60 seconds')
-    time.sleep(60)
+    print('Stop 30 seconds')
+    time.sleep(30)
     print('Start')
 
     read_editable_statement_literature_reference = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement_LiteratureReference_ik.csv' AS row
@@ -106,7 +106,7 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableStatement_LiteratureReference", elapsed.total_seconds(), last_round.total_seconds())
 
-    #send_to_neo4j(driver, 'CREATE INDEX ON :JaxDisease(id)')
+    send_to_neo4j(driver, 'CREATE INDEX ON :JaxDisease(id)')
     read_jax_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///jax_diseases.csv' AS row
             WITH row.jaxId as jaxId, row.name as name, row.source as source, row.definition as definition, row.termId as termId, row.graph_id as id
             MATCH(esd:EditableStatement) WHERE esd.id=definition
@@ -128,8 +128,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableStringList", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 60 seconds')
-    time.sleep(60)
+    print('Stop 30 seconds')
+    time.sleep(30)
     print('Start')
 
     read_EditableStringListElements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStringListElements_ik.csv' AS row
@@ -158,8 +158,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableXRefList", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 60 seconds')
-    time.sleep(60)
+    print('Stop 30 seconds')
+    time.sleep(30)
     print('Start')
 
     read_editable_xref_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableXrefsListElements_ik.csv' AS row
@@ -233,8 +233,8 @@ def main():
     send_to_neo4j(driver, connect_do_children)
     print("connect_do_children", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 60 seconds')
-    time.sleep(60)
+    print('Stop 30 seconds')
+    time.sleep(30)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :GODisease(id)')
@@ -278,8 +278,8 @@ def main():
     send_to_neo4j(driver, connect_go_children)
     print("connect_go_children", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 60 seconds')
-    time.sleep(60)
+    print('Stop 30 seconds')
+    time.sleep(30)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :OncoTreeDisease(id)')
@@ -539,25 +539,28 @@ def main():
 
     send_to_neo4j(driver, 'CREATE INDEX ON :OntologicalDisease(id)')
     read_ontological_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///ontological_diseases.csv' AS row
-                           WITH row.name as name, row.description as description, row.jaxDiseases  as jaxDiseases, row.doDiseases as doDiseases,  
-                           row.goDiseases as goDiseases, row.oncoTreeDiseases as oncoTreeDiseases, row.xrefs as xrefs, row. omniMaps as omniMaps,  row.graph_id as id
-                           MATCH(esn:EditableStatement) WHERE esn.id=name
-                           MATCH(esd:EditableStatement) WHERE esd.id=description
-                           MATCH(jd:EditableJAXDiseaseList) WHERE jd.id=jaxDiseases
-                           MATCH(dd:EditableDODiseaseList) WHERE dd.id=doDiseases
-                           MATCH(gd:EditableGODiseaseList) WHERE gd.id=goDiseases
-                           MATCH(od:EditableOncoTreeDiseaseList) WHERE od.id=oncoTreeDiseases
-                           MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
-                           MATCH(omml:EditableOmniMapList) WHERE omml.id=omniMaps
-                           CREATE (onto:OntologicalDisease { id:id})
-                           CREATE(onto) - [:NAMED]->(esn)
-                           CREATE(onto) - [:DESCRIBED_BY]->(esd)
-                           CREATE(onto) - [:JAXDISEASE]->(jd) 
-                           CREATE(onto) - [:DODISEASE]->(dd) 
-                           CREATE(onto) - [:GODISEASE]->(gd) 
-                           CREATE(onto) - [:ONCOTREEDISEASE]->(od) 
-                           CREATE(onto) - [:XREF]->(xreflist)
-                           CREATE(onto) - [:OMNIMAP]->(omml)'''
+                               WITH row.name as name, row.description as description, row.jaxDiseases  as jaxDiseases, row.doDiseases as doDiseases,  
+                               row.goDiseases as goDiseases, row.oncoTreeDiseases as oncoTreeDiseases, row.xrefs as xrefs, row. omniMaps as omniMaps,  
+                               row.synonyms as synonyms, row.graph_id as id
+                               MATCH(esn:EditableStatement) WHERE esn.id=name
+                               MATCH(esd:EditableStatement) WHERE esd.id=description
+                               MATCH(jd:EditableJAXDiseaseList) WHERE jd.id=jaxDiseases
+                               MATCH(dd:EditableDODiseaseList) WHERE dd.id=doDiseases
+                               MATCH(gd:EditableGODiseaseList) WHERE gd.id=goDiseases
+                               MATCH(od:EditableOncoTreeDiseaseList) WHERE od.id=oncoTreeDiseases
+                               MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
+                               MATCH(omml:EditableOmniMapList) WHERE omml.id=omniMaps 
+                               MATCH(esyn:EditableStringList) WHERE esyn.id=synonyms
+                               CREATE (onto:OntologicalDisease { id:id})
+                               CREATE(onto) - [:NAMED]->(esn)
+                               CREATE(onto) - [:DESCRIBED_BY]->(esd)
+                               CREATE(onto) - [:JAXDISEASE]->(jd) 
+                               CREATE(onto) - [:DODISEASE]->(dd) 
+                               CREATE(onto) - [:GODISEASE]->(gd) 
+                               CREATE(onto) - [:ONCOTREEDISEASE]->(od) 
+                               CREATE(onto) - [:XREF]->(xreflist)
+                               CREATE(onto) - [:OMNIMAP]->(omml) 
+                               CREATE(onto) - [:ALSO_NAMED]->(esyn)'''
     send_to_neo4j(driver, read_ontological_diseases)
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("OntologicalDisease", elapsed.total_seconds(), last_round.total_seconds())
