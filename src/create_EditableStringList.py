@@ -2,6 +2,7 @@ import datetime
 import csv
 import os
 import get_schema
+import pandas
 
 
 def assign_editable_lists(df, loader_id, load_dir,  id_class, element):
@@ -63,6 +64,8 @@ def write_editable_string_list(graph_id, editable_string_writer, loader_id, esl)
     editable_string_writer.writerow([graph_id, now.strftime("%Y-%m-%d-%H-%M-%S"), loader_id, esl])
 
 def write_editable_list_elements(editable_elements_writer, pipe_strings, esl):
+    if pandas.isnull(pipe_strings):
+        print (esl)
     editable_elements_writer.writerow([pipe_strings, esl])
 
 # Creates a writer object for editable statement

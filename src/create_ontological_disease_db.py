@@ -20,6 +20,7 @@ import create_EditableDiseaseList
 import create_editable_statement
 import create_EditableXrefsList
 import create_EditableOmnimapList
+import create_EditableStringList
 
 # Variables
 files = ['../data/GO_diseases/diseases_pg1.json',
@@ -33,7 +34,7 @@ go_parents_path =  '../load_files/go_parents.csv'
 go_children_path = '../load_files/go_children.csv'
 
 # Required columns in ontological_disease table
-cols = ['name', 'definition',  'graph_id', 'jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases', 'xrefs']
+cols = ['name', 'definition',  'graph_id', 'jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases', 'xrefs', 'synonyms']
 
 # Names for fields for disease elements tables
 names = ['jax_disease_', 'do_disease_', 'go_disease_', 'oncotree_disease_', 'ontological_disease']
@@ -55,7 +56,7 @@ description = 'description'
 load_directory = '../load_files/'
 loader_id = 'user_20200422163431232329'
 #temporary_xref_path_go = '../load_files/go_xrefs.csv'
-#id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0, 0, True)
+id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0, 0, True)
 
 
 
@@ -83,10 +84,11 @@ def main(load_directory, loader_id, id_class):
     ontological_df_with_statements = create_editable_statement.assign_editable_statement(ontological_df,
                                                                              editable_statement_list, loader_id,
                                                                              load_directory, table_name, id_class)
-    #ontological_df_with_statements = add_column_to_dataframe(ontological_df_with_statements, xref_editable, 'xrefs')
+    ontologica_synonyms_dict = create_EditableStringList.assign_editable_lists(ontological_df_with_statements, loader_id, load_directory,  id_class, 'synonyms')
+    ontological_df_with_synonyms = add_column_to_dataframe(ontological_df_with_statements, ontologica_synonyms_dict, 'synonyms')
 
-    ontological_df_with_statements.to_csv('../load_files/ontological_diseases.csv')
-    return ontological_df_with_statements
+    ontological_df_with_synonyms.to_csv('../load_files/ontological_diseases.csv')
+    return ontological_df_with_synonyms
 
 
 def parse_go():
@@ -137,6 +139,7 @@ def combine_dataframes(dataframe_list):
             df.at[index, cols[5]] = ''
             df.at[index, cols[6]] = ''
             df.at[index, cols[7]] = ''
+            df.at[index, cols[8]] = ''
 
             # Get diseases from 'codes' column
             code_list = row[codes]
@@ -159,6 +162,14 @@ def combine_dataframes(dataframe_list):
                 df.at[index, 'xrefs'] = refs_list
             else:
                 df.at[index, 'xrefs'] = ""
+
+            syn_list = []
+            syn_list = row['synonyms']
+            if isinstance(syn_list, list):
+                df.at[index, cols[8]] = syn_list
+            else:
+                df.at[index, cols[8]] = [""]
+
 
             # Assign ontological_disease id
             df.at[index, cols[2]] = names[4] + str(counter)
