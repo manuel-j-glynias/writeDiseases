@@ -98,6 +98,10 @@ def write_omni_and_elements(entries, esl, element_writer, om_writer, counter, id
             else:
                 omni_id = 'omnimap_' + str( element_id)
                 EditableMapList_graph_id = esl
+                if  '_' in omniDisease_graph_id :
+                    omniDisease_graph_id = 'omnidisease_' + omniDisease_graph_id.split('_')[1]
+                if '-' in mCode_graph_id:
+                    mCode_graph_id = 'Mcode_' + mCode_graph_id
                 # Write elements  csv file entry
                 write_omni(omniDisease_graph_id, mCode_graph_id, om_writer, omni_id)
                 element_list.append(omni_id)

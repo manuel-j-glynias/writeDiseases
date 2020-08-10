@@ -293,5 +293,5 @@ def reverse_diseases(onto_go_df_dict):
     return onto_go_dict
 
 
-if __name__ == "__main__":
-    main(load_directory, loader_id, id_class)
+#if __name__ == "__main__":
+    #main(load_directory, loader_id, id_class)

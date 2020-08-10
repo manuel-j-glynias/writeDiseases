@@ -21,8 +21,10 @@ import write_sql
 import get_schema
 import write_load_files
 import create_id
-#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
-#loader_id = '007'
+load_directory = '../load_files/'
+loader_id = 'user_20200422163431232329'
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True)
+
 editable_statement_list = ['diseasePath']
 editable_boolean_list = ['active']
 table_name = 'mcode_diseases'
@@ -57,9 +59,9 @@ def main(load_directory, loader_id, id_class):
     db_parents_dict = get_schema.get_schema('mcode_parents')
     db_children_dict = get_schema.get_schema('mcode_children')
 
-    write_sql.write_sql(db_dict, table_name)
-    write_sql.write_sql(db_parents_dict, 'mcode_parents')
-    write_sql.write_sql(db_children_dict, 'mcode_children')
+    #write_sql.write_sql(db_dict, table_name)
+    #write_sql.write_sql(db_parents_dict, 'mcode_parents')
+    #write_sql.write_sql(db_children_dict, 'mcode_children')
 
 
 # Creates  mcode dataframe
@@ -73,8 +75,16 @@ def parse_mcode_main(df, load_directory, loader_id, id_class):
         new_dict = {}
         code = row['Mcode']
         new_dict['mcode'] = code
-        new_dict['diseasePath'] = row['DiseasePath']
-        new_dict['omniDisease'] =  row['OmniDisease_ID']
+
+        disease_path = row['DiseasePath']
+        new_dict['diseasePath'] = disease_path
+
+        omni_disease= row['OmniDisease_ID']
+        if pandas.isnull(omni_disease):
+            omni_disease = 'omnidisease_blank'
+        omni_disease = 'omnidisease_' + omni_disease.split('_')[1]
+        new_dict['omniDisease'] =  omni_disease
+
         flag = False
         active = row['Active_Flag']
         if active == -1:
@@ -166,5 +176,5 @@ def combine_parents_and_children(df, column):
     df = pandas.DataFrame(input_list)
     return df
 
-#if __name__ == "__main__":
-    #main(load_directory, loader_id, id_class)
+if __name__ == "__main__":
+    main(load_directory, loader_id, id_class)

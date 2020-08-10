@@ -17,12 +17,15 @@ import write_sql
 import write_load_files
 
 import create_id
-#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
-#loader_id = '007'
+import create_editable_statement
+
+load_directory = '../load_files/'
+loader_id = 'user_20200422163431232329'
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True)
 editable_statement_list = ['name']
 table_name = 'omni_diseases'
-import create_editable_statement
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
+
+
 
 def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
@@ -30,7 +33,8 @@ def main(load_directory, loader_id, id_class):
 
     #Create dataframe
     df=extract_file(path)
-
+    df2 = pandas.DataFrame([['OmniDx_blank', 'None', 'None', 'Other']], columns=['OmniDiseaseID', 'OmniDisease', 'OmniDiseaseName', 'OmniDiseaseType'])
+    df = pandas.concat([df, df2], ignore_index=True)
     omni_disease_df = parse_omnidisease(df, load_directory, loader_id, id_class)
     path = load_directory + 'omni_diseases.csv'
     write_load_files.main(omni_disease_df, path)
@@ -70,5 +74,5 @@ def extract_file(path):
     return df
 
 
-#if __name__ == "__main__":
-    #main(load_directory, loader_id, id_class)
+if __name__ == "__main__":
+    main(load_directory, loader_id, id_class)
