@@ -238,33 +238,44 @@ def main(load_directory, loader_id, id_class):
     df_editable = create_editable_statement.assign_editable_statement(do_df,
                                                                       editable_statement_list, loader_id,
                                                                       load_directory, do_table_name, id_class)
-    # replaces list values with editable lists
+    # creates a dictionary with ids for exact synonyms
     exact_dict = create_EditableStringList.assign_editable_lists(df_editable, loader_id, load_directory,
                                                                      id_class, 'exact_synonyms')
+    # replaces exact synonyms with assigned ids in a dataframe
     df_exact = add_dict(df_editable, exact_dict, 'exact_synonyms')
 
+    # creates a dictionary with ids for related synonyms
     related_dict = create_EditableStringList.assign_editable_lists(df_editable, loader_id, load_directory,
                                                                        id_class, 'related_synonyms')
+    # replaces related synonyms with assigned ids in a dataframe
     df_related = add_dict(df_exact, related_dict, 'related_synonyms')
 
+    # creates a dictionary with ids for narrow synonyms
     narrow_dict = create_EditableStringList.assign_editable_lists(df_related, loader_id, load_directory,
                                                                       id_class, 'narrow_synonyms')
+    # replaces narrow synonyms with assigned ids in a dataframe
     df_narrow = add_dict(df_related, narrow_dict, 'narrow_synonyms')
 
+    # creates a dictionary with ids for subsets
     subset_dict = create_EditableStringList.assign_editable_lists(df_narrow, loader_id, load_directory, id_class,
                                                                'subset')
+    # replaces subsets with assigned ids in a dataframe
     df_subset = add_dict(df_narrow, subset_dict, 'subset')
 
+    # creates a dictionary with ids for xrefs
     xref_dict = create_EditableXrefsList.assign_editable_xrefs_lists(df_subset, loader_id, load_directory,
                                                                           id_class)
+    # replaces xrefs with assigned ids in a dataframe
     df_xref = add_dict(df_subset, xref_dict, 'xrefs')
 
     del df_xref['reference']
     df_xref.to_csv(load_directory+ 'do_diseases.csv')
 
+    # creates dataframe of children
     children_df = add_children(df_xref, doid_child_dict)
     children_df.to_csv(load_directory + 'do_children.csv')
 
+    # creates dataframe of parents
     parents_df = add_parents(df_xref, doid_child_dict)
     parents_df.to_csv(load_directory + 'do_parents.csv')
 

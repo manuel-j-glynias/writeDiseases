@@ -33,6 +33,12 @@ def get_do_disease_dict(extract_dir)->dict:
     return new_dict
 
 def get_literature_reference_dict(extract_dir):
+    if path.exists(extract_dir + 'LiteratureReference.csv'):
+       pass
+    else:
+        ref_df = pandas.DataFrame( columns=['PMID' ,'DOI', 'title', 'Journal_graph_id', 'volume',
+                                            'firstPage', 'lastPage', 'publicationYear', 'shortReference', 'abstract', 'graph_id'])
+        ref_df.to_csv(extract_dir + 'LiteratureReference.csv', index=False)
     pmid_list = extract_list(extract_dir + 'LiteratureReference.csv')
     new_dict = {}
     for entry in pmid_list:
@@ -40,11 +46,21 @@ def get_literature_reference_dict(extract_dir):
     return new_dict
 
 def get_journal_dict(extract_dir):
+    if path.exists(extract_dir + 'Journal.csv'):
+        pass
+    else:
+        ref_df = pandas.DataFrame(columns=['name' , 'graph_id'])
+        ref_df.to_csv(extract_dir + 'Journal.csv', index=False)
     journal_list = extract_list(extract_dir + 'Journal.csv')
     new_dict = {item['graph_id']: item for item in journal_list}
     return new_dict
 
 def get_author_dict(extract_dir):
+    if path.exists(extract_dir + 'Author.csv'):
+        pass
+    else:
+        ref_df = pandas.DataFrame(columns=['surname', 'firstInitial', 'graph_id'])
+        ref_df.to_csv(extract_dir + 'Author.csv', index=False)
     author_list = extract_list(extract_dir + 'Author.csv')
     new_dict = {item['graph_id']: item for item in author_list}
     return new_dict
