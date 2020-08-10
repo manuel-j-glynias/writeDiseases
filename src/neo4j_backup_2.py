@@ -34,15 +34,7 @@ def main():
     now = start
 
 
-    send_to_neo4j(driver, 'CREATE INDEX ON :User(id)')
-    read_users = '''LOAD CSV WITH HEADERS FROM 'file:///User.csv' AS row
-        WITH row.name as name, row.password as password, toBoolean(row.isAdmin) as isAdmin, row.graph_id as id
-        CREATE (:User {name:name, password:password, isAdmin:isAdmin, id:id})'''
-    send_to_neo4j(driver, read_users)
-    elapsed, last_round, now = get_elapsed_time(now, start)
-    print("User", elapsed.total_seconds(), last_round.total_seconds())
-
-    send_to_neo4j(driver, 'CREATE INDEX ON :Author(id)')
+    #send_to_neo4j(driver, 'CREATE INDEX ON :Author(id)')
     read_author = '''LOAD CSV WITH HEADERS FROM 'file:///Author_ik.csv' AS row
                    WITH row.surname as surname, row.firstInitial as firstInitial,  row.graph_id as id
                    CREATE (:Author {surname:surname, firstInitial:firstInitial,  id:id})'''
@@ -50,7 +42,7 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("Author", elapsed.total_seconds(), last_round.total_seconds())
 
-    send_to_neo4j(driver, 'CREATE INDEX ON :Journal(id)')
+    #send_to_neo4j(driver, 'CREATE INDEX ON :Journal(id)')
     read_journal = '''LOAD CSV WITH HEADERS FROM 'file:///Journal_ik.csv' AS row
                        WITH row.name as name, row.graph_id as id
                        CREATE (:Journal {name:name, id:id})'''
@@ -58,11 +50,11 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("Journal", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 30 seconds')
-    time.sleep(30)
+    print('Stop 15  seconds')
+    time.sleep(15)
     print('Start')
 
-    send_to_neo4j(driver,'CREATE INDEX ON :LiteratureReference(id)')
+    #send_to_neo4j(driver,'CREATE INDEX ON :LiteratureReference(id)')
     read_literature_reference = '''LOAD CSV WITH HEADERS FROM 'file:///LiteratureReference_ik.csv' AS row
                WITH row.PMID as PMID,row.DOI as DOI, row.title as title, row.Journal_graph_id as j_id, row.volume as volume, row.firstPage as firstPage, row.lastPage as lastPage,row.publicationYear as publicationYear, row.shortReference as shortReference, row.abstract as abstract, row.graph_id as id
                MATCH(j:Journal) WHERE j.id=j_id
@@ -81,7 +73,7 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("LiteratureReference_Author", elapsed.total_seconds(), last_round.total_seconds())
 
-    send_to_neo4j(driver,'CREATE INDEX ON :EditableStatement(id)')
+    #send_to_neo4j(driver,'CREATE INDEX ON :EditableStatement(id)')
     read_editable_statement = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement_ik.csv' AS row
                WITH row.field as field, row.statement as statement,  row.editDate as editDate,row.editorId as editorId, row.graph_id as id
                MATCH(u:User) WHERE u.id=editorId
@@ -91,7 +83,7 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableStatement", elapsed.total_seconds(), last_round.total_seconds())
 
-    send_to_neo4j(driver, 'CREATE INDEX ON :EditableBoolean(id)')
+    #send_to_neo4j(driver, 'CREATE INDEX ON :EditableBoolean(id)')
     read_editable_boolean_statement = '''LOAD CSV WITH HEADERS FROM 'file:///EditableBoolean_ik.csv' AS row
                  WITH row.field as field, row.booleanValue as booleanValue,  row.editDate as editDate,row.editorId as editorId, row.graph_id as id
                  MATCH(u:User) WHERE u.id=editorId
@@ -101,8 +93,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableBoolean", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 30 seconds')
-    time.sleep(30)
+    print('Stop 15 seconds')
+    time.sleep(15)
     print('Start')
 
     read_editable_statement_literature_reference = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement_LiteratureReference_ik.csv' AS row
@@ -136,8 +128,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableStringList", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 30 seconds')
-    time.sleep(30)
+    print('Stop 15 seconds')
+    time.sleep(15)
     print('Start')
 
     read_EditableStringListElements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStringListElements_ik.csv' AS row
@@ -213,8 +205,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("DODisease", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 60 seconds')
-    time.sleep(60)
+    print('Stop 30 seconds')
+    time.sleep(30)
     print('Start')
 
     read_do_disease_parents = '''LOAD CSV WITH HEADERS FROM 'file:///do_parents.csv' AS row
@@ -241,8 +233,8 @@ def main():
     send_to_neo4j(driver, connect_do_children)
     print("connect_do_children", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 30 seconds')
-    time.sleep(30)
+    print('Stop 15 seconds')
+    time.sleep(15)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :GODisease(id)')
@@ -286,8 +278,8 @@ def main():
     send_to_neo4j(driver, connect_go_children)
     print("connect_go_children", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 30 seconds')
-    time.sleep(30)
+    print('Stop 15 seconds')
+    time.sleep(15)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :OncoTreeDisease(id)')
@@ -381,8 +373,8 @@ def main():
 
     ###########################################################################################################
 
-    print('Stop 30 seconds')
-    time.sleep(30)
+    print('Stop 15 seconds')
+    time.sleep(15)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :OmniMap(id)')
@@ -543,8 +535,8 @@ def main():
     send_to_neo4j(driver, read_oncotree_list_to_oncotree_disease)
     print("Match editable onco trees", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 30 seconds')
-    time.sleep(30)
+    print('Stop 15 seconds')
+    time.sleep(15)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :OntologicalDisease(id)')
