@@ -50,8 +50,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("Journal", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 15  seconds')
-    time.sleep(15)
+    print('Stop 10  seconds')
+    time.sleep(10)
     print('Start')
 
     #send_to_neo4j(driver,'CREATE INDEX ON :LiteratureReference(id)')
@@ -93,8 +93,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableBoolean", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 15 seconds')
-    time.sleep(15)
+    print('Stop 10 seconds')
+    time.sleep(10)
     print('Start')
 
     read_editable_statement_literature_reference = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStatement_LiteratureReference_ik.csv' AS row
@@ -128,8 +128,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableStringList", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 15 seconds')
-    time.sleep(15)
+    print('Stop 10 seconds')
+    time.sleep(10)
     print('Start')
 
     read_EditableStringListElements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableStringListElements_ik.csv' AS row
@@ -158,8 +158,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableXRefList", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 30 seconds')
-    time.sleep(30)
+    print('Stop 15 seconds')
+    time.sleep(15)
     print('Start')
 
     read_editable_xref_list_elements = '''LOAD CSV WITH HEADERS FROM 'file:///EditableXrefsListElements_ik.csv' AS row
@@ -170,8 +170,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("EditableXrefsListElements", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 60 seconds')
-    time.sleep(60)
+    print('Stop 30 seconds')
+    time.sleep(30)
     print('Start')
 
     read_xref = ''' MATCH (exrefslist:EditableXRefList) UNWIND exrefslist.list as refs  MATCH (xref:XRef  {id:refs})  
@@ -180,8 +180,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("Connect xrefs", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 60 seconds')
-    time.sleep(60)
+    print('Stop 30 seconds')
+    time.sleep(30)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :DODisease(id)')
@@ -205,8 +205,8 @@ def main():
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("DODisease", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 30 seconds')
-    time.sleep(30)
+    print('Stop 15 seconds')
+    time.sleep(15)
     print('Start')
 
     read_do_disease_parents = '''LOAD CSV WITH HEADERS FROM 'file:///do_parents.csv' AS row
@@ -240,12 +240,12 @@ def main():
     send_to_neo4j(driver, 'CREATE INDEX ON :GODisease(id)')
     read_go_diseases = '''LOAD CSV WITH HEADERS FROM 'file:///go_diseases.csv' AS row
                         WITH row.id as goId, row.name as name, row.definition  as definition, row.synonyms as synonyms,  
-                        row.xrefs as xrefs, row.graph_id as id
+                        row.xrefs as xrefs, row.graph_id as id,  split(row.jaxDiseases, "|") AS jaxDiseases 
                         MATCH(esd:EditableStatement) WHERE esd.id=definition
                         MATCH(esn:EditableStatement) WHERE esn.id=name
                         MATCH(synlist:EditableStringList) WHERE synlist.id=synonyms 
                          MATCH(xreflist:EditableXRefList) WHERE xreflist.id=xrefs
-                        CREATE (go:GODisease {goId:goId, id:id})
+                        CREATE (go:GODisease {goId:goId, jaxDiseases:jaxDiseases,  id:id})
                         CREATE(go) - [:DESCRIBED_BY]->(esd) 
                         CREATE(go) - [:NAMED]->(esn)
                         CREATE(go) - [:ALSO_NAMED]->(synlist) 
@@ -253,6 +253,11 @@ def main():
     send_to_neo4j(driver, read_go_diseases)
     elapsed, last_round, now = get_elapsed_time(now, start)
     print("GODisease", elapsed.total_seconds(), last_round.total_seconds())
+
+    connect_go_jaxdisease = ''' MATCH (godisease:GODisease) UNWIND godisease.jaxDiseases as jaxDisease  MATCH (jax:JaxDisease  {id:jaxDisease})  
+                           CREATE (godisease)-[:JAXDISEASE]->(jax) '''
+    send_to_neo4j(driver, connect_go_jaxdisease)
+    print("connect_go_jaxdisease", elapsed.total_seconds(), last_round.total_seconds())
 
     read_go_disease_parents = '''LOAD CSV WITH HEADERS FROM 'file:///go_parents.csv' AS row
                      WITH row.graph_id as id, split(row.parent, "|") AS parents
@@ -266,20 +271,20 @@ def main():
                         MATCH(godisease:GODisease) WHERE godisease.id=id 
                         SET godisease.children = children'''
     send_to_neo4j(driver, read_go_disease_children)
-    print("do children", elapsed.total_seconds(), last_round.total_seconds())
+    print("go children", elapsed.total_seconds(), last_round.total_seconds())
 
     connect_go_parents = ''' MATCH (godisease:GODisease) UNWIND godisease.parents as parent  MATCH (go:GODisease  {id:parent})  
                         CREATE (godisease)-[:PARENT]->(go)  '''
     send_to_neo4j(driver, connect_go_parents)
-    print("connect_do_parents", elapsed.total_seconds(), last_round.total_seconds())
+    print("connect_go_parents", elapsed.total_seconds(), last_round.total_seconds())
 
     connect_go_children = ''' MATCH (godisease:GODisease) UNWIND godisease.children as child  MATCH (go:GODisease  {id:child})  
                            CREATE (godisease)-[:CHILD]->(go)  '''
     send_to_neo4j(driver, connect_go_children)
     print("connect_go_children", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 15 seconds')
-    time.sleep(15)
+    print('Stop 10 seconds')
+    time.sleep(10)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :OncoTreeDisease(id)')
@@ -373,8 +378,8 @@ def main():
 
     ###########################################################################################################
 
-    print('Stop 15 seconds')
-    time.sleep(15)
+    print('Stop 5 seconds')
+    time.sleep(5)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :OmniMap(id)')
@@ -535,8 +540,8 @@ def main():
     send_to_neo4j(driver, read_oncotree_list_to_oncotree_disease)
     print("Match editable onco trees", elapsed.total_seconds(), last_round.total_seconds())
 
-    print('Stop 15 seconds')
-    time.sleep(15)
+    print('Stop 5 seconds')
+    time.sleep(5)
     print('Start')
 
     send_to_neo4j(driver, 'CREATE INDEX ON :OntologicalDisease(id)')

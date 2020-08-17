@@ -23,10 +23,11 @@ import create_EditableXrefsList
 
 editable_statement_list = ['name', 'definition']
 editable_synonyms_list = ['synonyms']
-#loader_id = '007'
-#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 table_name = 'GoDiseases'
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
+#load_directory = '../load_files/'
+#loader_id = 'user_20200422163431232329'
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True)
+
 
 
 import json
@@ -79,7 +80,7 @@ def main(load_directory, loader_id, id_class):
     db_children_dict = get_schema.get_schema('go_children')
 
 
-    write_sql.write_sql(db_dict, 'go_diseases')
+    #write_sql.write_sql(db_dict, 'go_diseases')
     write_sql.write_sql(db_parents_dict, 'go_parents')
     write_sql.write_sql(db_children_dict, 'go_children')
 
@@ -136,6 +137,20 @@ def combine_files( files):
 def parse_go_main(df, loader_id, load_directory, id_class):
     df1 = df[['id', 'name', 'definition', 'codes', 'synonyms',  'graph_id']].copy(deep=True)
     df_editable = create_editable_statement.assign_editable_statement(df1, editable_statement_list, loader_id, load_directory, table_name,id_class)
+    for index, row in df_editable.iterrows():
+        codes = row['codes']
+        df_editable.at[index, 'jaxDiseases'] = ''
+        jax_array = []
+        for input in codes:
+            if input.startswith('JAX-CKB'):
+                jax_disease = input
+                jax_disease = 'jax_disease_' +  jax_disease.split('=JAX')[1]
+                jax_array.append(jax_disease)
+        if jax_array:
+            jax_diseases_string = '|'.join(jax_array)
+            df_editable.at[index, 'jaxDiseases'] = jax_diseases_string
+
+
     return df_editable
 
 # Creates dataframe with parents
@@ -293,4 +308,4 @@ def add_dict(df, dict, column_name):
     return df
 
 #if __name__ == "__main__":
-    #main(load_directory, id_class, loader_id)
+    #main(load_directory, loader_id, id_class)
