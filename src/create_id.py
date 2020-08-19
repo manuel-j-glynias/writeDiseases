@@ -7,7 +7,7 @@ IK
 
 class ID:
 
-    def __init__(self, time, id, jax_id, do_id, go_id, onco_id, xref_id, str_id, om_id, xref_none):
+    def __init__(self, time, id, jax_id, do_id, go_id, onco_id, xref_id, str_id, om_id, xref_none, xref_list):
         self.__time = time
         self._id = id
         self._jax_id = jax_id
@@ -18,6 +18,7 @@ class ID:
         self._str_id = str_id
         self._om_id = om_id
         self._xref_none = xref_none
+        self._xref_id_list = xref_list
 
     def get_time(self):
         return self.__time
@@ -96,10 +97,16 @@ class ID:
         return self._om_id
 
     def set_om_id(self):
-        self._om_id = self._str_id + 1
+        self._om_id = self._om_id + 1
 
     def get_xref_none(self):
         return self._xref_none
 
     def set_xref_none(self):
         self._xref_none = False
+
+    def set_xref_id_list(self, id):
+        self._xref_id_list.append(id)
+
+    def get_xref_id_list(self):
+        return self._xref_id_list

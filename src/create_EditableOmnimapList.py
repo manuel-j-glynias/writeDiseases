@@ -4,7 +4,7 @@ import os
 import get_schema
 import pandas
 
-path = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
+path = '../config/table_descriptions.csv'
 
 def extract_file(path):
     unparsed_df = pandas.read_csv(path)
@@ -76,17 +76,19 @@ def assign_editable_xrefs_lists(df, jax_dict,  loader_id, load_dir,  id_class):
 
 
         # Write editable synonyms list  csv file entry
+        omnimap_list = [dict(t) for t in {tuple(d.items()) for d in omnimap_list}]
         write_editable_omni_list(entry, editable_list_writer, loader_id, esl)
-        counter = write_omni_and_elements(omnimap_list, esl, element_writer, om_writer, counter, id_class)
+        write_omni_and_elements(omnimap_list, esl, element_writer, om_writer, counter, id_class)
     return esl_dict
 
 # Writes xref elements and xref tables
 def write_omni_and_elements(entries, esl, element_writer, om_writer, counter, id_class):
     element_list = []
-    element_id = id_class.get_xref_id()
     EditableMapList_graph_id =""
     for el in entries:
         for input in el:
+            element_id = id_class.get_om_id()
+            id_class.set_om_id()
             omniDisease_graph_id = input
             mCode_graph_id = el[input]
             if (omniDisease_graph_id == "" and  mCode_graph_id == ""):
@@ -107,15 +109,15 @@ def write_omni_and_elements(entries, esl, element_writer, om_writer, counter, id
                 element_list.append(omni_id)
 
     pipe_strings = '|'.join(element_list)
-    write_editable_omni_elements(element_id, element_writer, pipe_strings, EditableMapList_graph_id)
+    write_editable_omni_elements(element_writer, pipe_strings, EditableMapList_graph_id)
     return counter
 
 def write_editable_omni_list(field, editable_string_writer, loader_id, esl):
     now = datetime.datetime.now()
     editable_string_writer.writerow([field, now.strftime("%Y-%m-%d-%H-%M-%S"), loader_id, esl])
 
-def write_editable_omni_elements(element_id, editable_elements_writer, pipe_strings, EditableMapList_graph_id):
-    editable_elements_writer.writerow([element_id, pipe_strings, EditableMapList_graph_id])
+def write_editable_omni_elements(editable_elements_writer, pipe_strings, EditableMapList_graph_id):
+    editable_elements_writer.writerow([pipe_strings, EditableMapList_graph_id])
 
 def write_omni(source, source_id, xref_writer, graph_id):
     xref_writer.writerow([source, source_id, graph_id])

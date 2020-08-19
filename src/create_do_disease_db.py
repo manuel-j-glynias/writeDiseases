@@ -1,13 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue May 26 10:38:13 2020
-
 Purpose: download and parse Disease Ontology
-
 @author: Paul.DePietro
-
-Changed on 6/2/2020:
-
 """
 
 import os
@@ -26,15 +21,13 @@ import numpy as np
 
 editable_statement_list = ['name', 'definition']
 editable_synonyms_list = ['synonyms']
-#loader_id = '007'
-#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
 do_table_name = 'DoDiseases'
 import write_load_files
 import get_schema
 import create_EditableXrefsList
 load_directory = '../load_files/'
 loader_id = 'user_20200422163431232329'
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True)
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True, [])
 
 
 def download_do():
@@ -218,7 +211,6 @@ def get_schema_original():
             db_dict[db_name][table_name] = {col: [col_type, col_key, allow_null, auto_incr, ref_col_list]}
             db_dict[db_name][table_name] = {col: [col_type, col_key, allow_null, auto_incr, ref_col_list], 'col_order': [col]}
     init_file.close()
-    #pprint(db_dict)
     return db_dict
 
 def main(load_directory, loader_id, id_class):
@@ -269,17 +261,27 @@ def main(load_directory, loader_id, id_class):
     df_xref = add_dict(df_subset, xref_dict, 'xrefs')
 
     del df_xref['reference']
-    df_xref.to_csv(load_directory+ 'do_diseases.csv')
+    df_xref.to_csv(load_directory+ 'do_diseases.csv', index=False)
 
     # creates dataframe of children
     children_df = add_children(df_xref, doid_child_dict)
-    children_df.to_csv(load_directory + 'do_children.csv')
+    children_df.to_csv(load_directory + 'do_children.csv', index=False)
 
     # creates dataframe of parents
     parents_df = add_parents(df_xref, doid_child_dict)
-    parents_df.to_csv(load_directory + 'do_parents.csv')
+    parents_df.to_csv(load_directory + 'do_parents.csv', index=False)
 
     create_references.main(do_df)
+
+    db_dict = get_schema.get_schema('do_diseases')
+    write_sql.write_sql(db_dict, 'do_diseases')
+
+    db_dict = get_schema.get_schema('do_parents')
+    write_sql.write_sql(db_dict, 'do_parents')
+
+    db_dict = get_schema.get_schema('do_children')
+    write_sql.write_sql(db_dict, 'do_children')
+
     print('do diseases are extracted')
 
 # Creates a dataframe given a dictionary of do_diseases extracted from OBO files
@@ -394,7 +396,7 @@ def add_parents(df, dict):
     return df_parents
 
 
-#if __name__ == "__main__":
-    #main(load_directory, id_class, loader_id)
+if __name__ == "__main__":
+    main(load_directory, loader_id, id_class)
 
 

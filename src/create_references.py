@@ -83,7 +83,7 @@ def get_definition_urls_dict(extract_dir)->dict:
 
 def create_load_files_dict(db_dict, load_dir):
     load_files_dict = {}
-    load_files_list = ['Author', 'do_definition_urls', 'do_diseases', 'do_xrefs',
+    load_files_list = ['Author', 'do_definition_urls', 'do_diseases',
                        'EditableStatement_LiteratureReference', 'Journal', 'LiteratureReference',  'LiteratureReference_Author']
     for table_name in load_files_list:
         out_file = open(load_dir + table_name + '.csv', 'a+', encoding='utf-8')

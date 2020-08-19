@@ -6,8 +6,7 @@ import os
 import config
 
 editable_statement_list = ['name', 'definition']
-#loader_id = '007'
-#load_directory = 'C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/'
+
 
 import pandas
 from sql_utils import load_table, create_table, does_table_exist, get_local_db_connection, maybe_create_and_select_database, drop_table_if_exists
@@ -18,7 +17,10 @@ editable_statement_list = ['name', 'definition']
 config_directory ='C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/config/table_descriptions.csv'
 do_table_name = 'DoDiseases'
 import write_load_files
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0)
+#load_directory = '../load_files/'
+#loader_id = 'user_20200422163431232329'
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True, [])
+
 
 
 ###################################################
@@ -88,7 +90,7 @@ def read_one_disease_json(path:str)->dict:
         termId = disease_data['termId']
         if termId is not None:
             graph_id = termId.replace(':', '_').lower()
-            graph_id = 'jax_disease_' + graph_id.split('_')[1]
+            graph_id = 'jax_disease_' + id
         else:
             graph_id = None
 
@@ -140,5 +142,5 @@ def main(load_directory, loader_id, id_class):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
 
 
-if __name__ == "__main__":
-    main('C:/Users/irina.kurtz/PycharmProjects/Manuel/writeDiseases/load_files/')
+#if __name__ == "__main__":
+    #main(load_directory, loader_id, id_class)

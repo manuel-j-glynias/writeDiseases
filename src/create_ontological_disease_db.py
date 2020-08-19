@@ -56,7 +56,7 @@ description = 'description'
 load_directory = '../load_files/'
 loader_id = 'user_20200422163431232329'
 #temporary_xref_path_go = '../load_files/go_xrefs.csv'
-id_class = create_id.ID('', '',  0, 0, 0, 0, 0, 0, 0, True)
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True, [])
 
 
 
@@ -293,5 +293,5 @@ def reverse_diseases(onto_go_df_dict):
     return onto_go_dict
 
 
-#if __name__ == "__main__":
-    #main(load_directory, loader_id, id_class)
+if __name__ == "__main__":
+    main(load_directory, loader_id, id_class)

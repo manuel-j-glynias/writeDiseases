@@ -24,9 +24,9 @@ import create_EditableXrefsList
 editable_statement_list = ['name', 'definition']
 editable_synonyms_list = ['synonyms']
 table_name = 'GoDiseases'
-#load_directory = '../load_files/'
-#loader_id = 'user_20200422163431232329'
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True)
+load_directory = '../load_files/'
+loader_id = 'user_20200422163431232329'
+id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True, [])
 
 
 
@@ -62,16 +62,9 @@ def main(load_directory, loader_id, id_class):
 
     df_syn_editable= add_dict(df_xrefs_editable, syn_editable_dict, 'synonyms')
 
-
-    path = load_directory + 'go_diseases.csv'
-    write_load_files.main(df_syn_editable, path)
-
-    path_parents = load_directory + 'go_parents.csv'
-    write_load_files.main(go_parents_df, path_parents)
-
-    path_children = load_directory + 'go_children.csv'
-    write_load_files.main(go_children_df, path_children)
-
+    df_syn_editable.to_csv(load_directory + 'go_diseases.csv', index=False)
+    go_parents_df.to_csv(load_directory + 'go_parents.csv', index=False)
+    go_children_df.to_csv(load_directory + 'go_children.csv', index=False)
 
 
     # Write sql tables
@@ -80,7 +73,7 @@ def main(load_directory, loader_id, id_class):
     db_children_dict = get_schema.get_schema('go_children')
 
 
-    #write_sql.write_sql(db_dict, 'go_diseases')
+    write_sql.write_sql(db_dict, 'go_diseases')
     write_sql.write_sql(db_parents_dict, 'go_parents')
     write_sql.write_sql(db_children_dict, 'go_children')
 
@@ -150,7 +143,7 @@ def parse_go_main(df, loader_id, load_directory, id_class):
             jax_diseases_string = '|'.join(jax_array)
             df_editable.at[index, 'jaxDiseases'] = jax_diseases_string
 
-
+    df_editable = df_editable[['id', 'name', 'definition', 'codes', 'synonyms', 'jaxDiseases', 'graph_id']]
     return df_editable
 
 # Creates dataframe with parents
@@ -307,5 +300,5 @@ def add_dict(df, dict, column_name):
         df.at[index, column_name] = list_id
     return df
 
-#if __name__ == "__main__":
-    #main(load_directory, loader_id, id_class)
+if __name__ == "__main__":
+    main(load_directory, loader_id, id_class)
