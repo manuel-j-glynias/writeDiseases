@@ -9,7 +9,7 @@ import write_load_files
 import create_id
 load_directory = '../load_files/'
 loader_id = 'user_20200422163431232329'
-#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True)
+#id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True, [])
 
 editable_statement_list = ['name', 'mainType', 'tissue']
 table_name = 'oncotree_diseases'
