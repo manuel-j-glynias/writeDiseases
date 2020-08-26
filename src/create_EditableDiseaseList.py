@@ -11,12 +11,12 @@ import pandas
 
 # Variables
 disease_lists = ['EditableJaxDiseaseList', 'EditableDoDiseaseList', 'EditableGoDiseaseList',
-                        'EditableOncoTreeDiseaseList']
+                        'EditableOncoTreeDiseaseList', 'EditableMCodeList']
 disease_elements_lists = [ 'EditableJaxDiseaseListElements',
                                'EditableDoDiseaseListElements', 'EditableGoDiseaseListElements',
-                        'EditableOncoTreeDiseaseListElements']
-ids = ['ejdl', 'eddl', 'egdl', 'eotdl']
-columns = ['jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases']
+                        'EditableOncoTreeDiseaseListElements', 'EditableMCodeListElements']
+ids = ['ejdl', 'eddl', 'egdl', 'eotdl', 'emcdl']
+columns = ['jaxDiseases', 'doDiseases', 'goDiseases', 'oncoTreeDiseases', 'MCodes']
 ontological_disease = 'ontological_disease_'
 name = 'name'
 
@@ -28,7 +28,7 @@ def assign_editable_disease_lists(df, loader_id, load_dir,  id_class):
 
     counter = 1
     for index, row in df.iterrows():
-        lists_from_dataframe = [row[columns[0]], row[columns[1]], row[columns[2]], row[columns[3]]]
+        lists_from_dataframe = [row[columns[0]], row[columns[1]], row[columns[2]], row[columns[3]], row[columns[4]]]
         for i  in range(len(lists_from_dataframe)):
 
             disease_name = row[name]

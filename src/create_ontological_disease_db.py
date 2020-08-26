@@ -63,19 +63,21 @@ id_class = create_id.ID('', '', 0, 0, 0, 0, 0, 0, 0, True, [])
 def main(load_directory, loader_id, id_class):
     # Create a dataframe
     df = parse_go()
+    df = add_mcodes(df)
 
-    omni_map_dict = parse_omnimap()
+
+    #omni_map_dict = parse_omnimap()
 
     parents_dict = create_relatives(df, 'parent', go_parents_path)
     children_dict = create_relatives(df, 'child', go_children_path)
     write_relatives (load_directory, 'ontological_parents.csv', 'parent', parents_dict)
     write_relatives(load_directory, 'ontological_children.csv', 'child', children_dict)
 
-    omnimap_edit_dict = create_EditableOmnimapList.assign_editable_xrefs_lists(df, omni_map_dict, loader_id, load_directory, id_class)
-    df_omnimap_editable = add_column_to_dataframe(df, omnimap_edit_dict, 'omniMaps')
+    #omnimap_edit_dict = create_EditableOmnimapList.assign_editable_xrefs_lists(df, omni_map_dict, loader_id, load_directory, id_class)
+    #df_omnimap_editable = add_column_to_dataframe(df, omnimap_edit_dict, 'omniMaps')
 
-    xrefs_editable_dict = create_EditableXrefsList.assign_editable_xrefs_lists(df_omnimap_editable, loader_id, load_directory, id_class)
-    df_xrefs_editable = add_column_to_dataframe(df_omnimap_editable, xrefs_editable_dict, 'xrefs')
+    xrefs_editable_dict = create_EditableXrefsList.assign_editable_xrefs_lists(df, loader_id, load_directory, id_class)
+    df_xrefs_editable = add_column_to_dataframe(df, xrefs_editable_dict, 'xrefs')
 
     ontological_df = create_EditableDiseaseList.assign_editable_disease_lists(df_xrefs_editable, loader_id, load_directory, id_class)
 
@@ -278,6 +280,30 @@ def write_relatives(load_directory, file_name, relative, relative_dict):
     df.to_csv(load_directory + file_name)
 
     print()
+
+def add_mcodes(df):
+    #Create ontological-disease dictionary
+    mcodes = pandas.read_csv('../data/OntologicalDisease_curation.csv')
+    mcodes_dict = dict(zip(mcodes.Mcode, mcodes.OntologicalDisease))
+    mcodes_dict = {k: v for k, v in mcodes_dict.items() if pandas.Series(v).notna().all()}
+    for index, row in df.iterrows():
+        df.at[index, 'MCodes'] =''
+    for index, row in df.iterrows():
+        df.at[index, 'MCodes'] = []
+    for index, row in df.iterrows():
+       disease_name = row['name']
+       if disease_name in mcodes_dict.values():
+           print(disease_name)
+           mcodes_array = row['MCodes']
+           key = (list(mcodes_dict.keys())[list(mcodes_dict.values()).index(disease_name)])
+           mcode_id = 'Mcode_' + key
+           mcodes_array.append(mcode_id)
+           df.at[index, 'MCodes']  = mcodes_array
+       else:
+           df.at[index, 'MCodes'] = []
+
+    return df
+
 
 def reverse_diseases(onto_go_df_dict):
     onto_go_dict = {}
